@@ -331,7 +331,107 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
     saveSrs(state);
     return s.dueMs;
   }
+  // =========================
+  // Render helpers (string/array safe)
+  // =========================
+  function isNonEmptyString(v) {
+    return typeof v === "string" && v.trim().length > 0;
+  }
 
+  function normalizeText(v) {
+    // string | array | undefined -> array of non-empty strings
+    if (Array.isArray(v)) return v.map(x => (typeof x === "string" ? x.trim() : "")).filter(Boolean);
+    if (typeof v === "string") {
+      const s = v.trim();
+      return s ? [s] : [];
+    }
+    return [];
+  }
+
+  function escapeHtml(s) {
+    // safety for template injection
+    return String(s)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function renderTextBlock(label, lines, className = "txt") {
+    // lines: array of strings
+    if (!lines || lines.length === 0) return "";
+    if (lines.length === 1) {
+      return `
+        <div class="label">${escapeHtml(label)}</div>
+        <p class="${className}">${escapeHtml(lines[0])}</p>
+      `;
+    }
+    // multi-sense: bullet list
+    return `
+      <div class="label">${escapeHtml(label)}</div>
+      <ul class="${className}" style="margin:6px 0 0; padding-left: 18px; line-height:1.5;">
+        ${lines.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+      </ul>
+    `;
+  }
+
+  function renderPills(pills) {
+    // pills: array of strings (already human readable)
+    const ok = pills.map(x => (typeof x === "string" ? x.trim() : "")).filter(Boolean);
+    if (!ok.length) return "";
+    return ok.map(x => `<span class="pill">${escapeHtml(x)}</span>`).join("");
+  }
+
+  function formatGrammarLine(g) {
+    if (!g || !g.pos) return "";
+    const pos = g.pos;
+
+    if (pos === "noun") {
+      const a = g.article ? g.article : "";
+      const pl = isNonEmptyString(g.plural) ? `Pl.: ${g.plural}` : (g.plural === "" ? "Pl.: —" : "");
+      // article + word は本文で出るので、ここは情報だけ
+      return [a, pl].filter(Boolean).join(" / ");
+    }
+
+    if (pos === "verb") {
+      const pr = isNonEmptyString(g.praeteritum) ? `Prät.: ${g.praeteritum}` : "";
+      const pf = isNonEmptyString(g.perfekt) ? `Perf.: ${g.perfekt}` : "";
+      return [pr, pf].filter(Boolean).join(" / ");
+    }
+
+    if (pos === "adj") {
+      return "Adj.";
+    }
+
+    if (pos === "adv") {
+      return "Adv.";
+    }
+
+    // fallback
+    return String(pos);
+  }
+
+  function formatPosLabel(pos) {
+    if (!pos) return "";
+    const map = {
+      noun: "N",
+      verb: "V",
+      adj: "Adj",
+      adv: "Adv"
+    };
+    return map[pos] || String(pos);
+  }
+
+  function formatFreqLabel(freq) {
+    // "often" | "sometimes" | "rare" などを想定
+    const map = {
+      often: "頻出",
+      sometimes: "たまに",
+      rare: "稀"
+    };
+    return map[freq] || freq || "";
+  }
   // =========================
   // Render cards
   // =========================
