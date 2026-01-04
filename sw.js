@@ -1,4 +1,4 @@
-const CACHE = "dt-trainer-v1";
+const CACHE = "dt-trainer-v2";
 const ASSETS = [
   "./",
   "./index.html",
