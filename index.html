@@ -33,6 +33,20 @@
     footer { margin-top: 18px; color:#8e8e8e; font-size:12px; }
     a { color:#9bd; }
     .count { color:#cfcfcf; font-size:13px; }
+    .error {
+  background: #2a0f0f;
+  border: 1px solid #5a1a1a;
+  color: #ffd6d6;
+  padding: 12px;
+  border-radius: 12px;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.error.hidden {
+  display: none;
+}
   </style>
 </head>
 <body>
@@ -61,6 +75,9 @@
 </header>
 
 <main class="wrap">
+  <!-- 🔴 エラー表示エリア -->
+  <div id="errorBox" class="error hidden"></div>
+
   <div id="list" class="grid" aria-live="polite"></div>
 
   <footer>
@@ -72,6 +89,7 @@
 // =========================
 // Debug overlay (safe)
 // =========================
+
 (function () {
   function show(msg) {
     var list = document.getElementById("list");
