@@ -16,9 +16,9 @@
       "de": "Stärker juristisch-technisch als bloß „angemessen“."
     },
     "etymology": {
-  "ja": "Verhältnis（関係・比率）＋ -mäßig（〜に応じた／〜に即した）＋ -keit（名詞化）。つまり「（目的と手段の）関係が釣り合っていること」。基礎は Maß（尺度）にもつながる語感。",
-  "de": "Verhältnis + -mäßig + -keit. Wörtlich: „dem Verhältnis angemessen“ → Ausgewogenheit von Mittel und Zweck; juristisch als Grundsatz der Verhältnismäßigkeit."
-},
+      "ja": "Verhältnis（関係・比率）＋ -mäßig（〜に応じた／〜に即した）＋ -keit（名詞化）。つまり「（目的と手段の）関係が釣り合っていること」。基礎は Maß（尺度）にもつながる語感。",
+      "de": "Verhältnis + -mäßig + -keit. Wörtlich: „dem Verhältnis angemessen“ → Ausgewogenheit von Mittel und Zweck; juristisch als Grundsatz der Verhältnismäßigkeit."
+    },
     "example": {
       "ja": "Die Maßnahme muss verhältnismäßig sein.",
       "de": "Die Maßnahme muss verhältnismäßig sein."
@@ -45,7 +45,7 @@
       "de": "Analytischer als „Dilemma“; weniger dramatisch."
     },
     "etymology": {
-      "ja": "Ziel（目標）＋Konflikt（衝突）。ラテン語 conflictus に由来。",
+      "ja": "Ziel（目標）＋ Konflikt（衝突）。Konflikt はラテン語 conflictus に由来。",
       "de": "Kompositum aus Ziel + Konflikt (lat. conflictus)."
     },
     "example": {
@@ -103,9 +103,9 @@
       "de": "„mangeln“ nüchterner; „hapern“ klingt nach „es hakt“."
     },
     "etymology": {
-  "ja": "動詞 hapern は口語で「引っかかる／うまく噛み合わない」。語感的に haken（引っかける）に近い（語源的にも関連が指摘されることがある）。定型は「es hapert an + Dativ」。",
-  "de": "„hapern“ bedeutet umgangssprachlich „haken / nicht richtig funktionieren“. Wird oft mit „haken“ in Verbindung gebracht; festes Muster: „Es hapert an + Dat.“"
-},
+      "ja": "動詞 hapern は口語で「引っかかる／うまく噛み合わない」。語感的に haken（引っかける）に近い。定型は「es hapert an + Dativ」。",
+      "de": "„hapern“ bedeutet umgangssprachlich „haken / nicht richtig funktionieren“. Wird oft mit „haken“ assoziiert; festes Muster: „Es hapert an + Dat.“"
+    },
     "example": {
       "ja": "An der Kommunikation hapert es noch.",
       "de": "An der Kommunikation hapert es noch."
@@ -132,9 +132,9 @@
       "de": "„Mangel“ allgemein; „Unzulänglichkeit“ eher analytisch."
     },
     "etymology": {
-  "ja": "un-（否定）＋ zulänglich（十分な／足りる）＋ -keit（名詞化）。zulänglich は zu（〜へ）＋ langen（届く）から「届く＝足りる」のイメージ → 「足りなさ／不十分さ」。",
-  "de": "un- + zulänglich + -keit. „zulänglich“ hängt mit „langen“ (reichen, genügen) zusammen → „Unzulänglichkeit“ = Nicht-genügen / Unzureichendheit."
-},
+      "ja": "un-（否定）＋ zulänglich（十分な／足りる）＋ -keit（名詞化）。zulänglich は langen（届く）に関連し、「届く＝足りる」→「足りなさ／不十分さ」。",
+      "de": "un- + zulänglich + -keit. „zulänglich“ hängt mit „langen“ (reichen, genügen) zusammen → „Unzulänglichkeit“ = Nicht-genügen / Unzureichendheit."
+    },
     "example": {
       "ja": "Die Studie weist methodische Unzulänglichkeiten auf.",
       "de": "Die Studie weist methodische Unzulänglichkeiten auf."
