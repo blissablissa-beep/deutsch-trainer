@@ -1,8 +1,11 @@
 [
+[
   {
     "id": "ausgeglichen",
     "word": "ausgeglichen",
     "tags": ["abs", "exam"],
+    "level": "B2",
+    "freq": "freq",
     "grammar": {
       "pos": "adj"
     },
@@ -35,6 +38,8 @@
     "id": "ausgewogen",
     "word": "ausgewogen",
     "tags": ["abs", "exam"],
+    "level": "C1",
+    "freq": "sometimes",
     "grammar": {
       "pos": "adj"
     },
@@ -67,6 +72,8 @@
     "id": "beleg",
     "word": "Beleg",
     "tags": ["exam", "coll"],
+    "level": "B1",
+    "freq": "freq",
     "grammar": {
       "pos": "noun",
       "article": "der",
@@ -102,6 +109,8 @@
     "id": "belegschaft",
     "word": "Belegschaft",
     "tags": ["abs", "exam"],
+    "level": "B2",
+    "freq": "sometimes",
     "grammar": {
       "pos": "noun",
       "article": "die",
@@ -137,6 +146,8 @@
     "id": "entrepreneur",
     "word": "Entrepreneur",
     "tags": ["abs", "exam"],
+    "level": "C1",
+    "freq": "sometimes",
     "grammar": {
       "pos": "noun",
       "article": "der",
@@ -168,78 +179,84 @@
       "de": "Nenne eine wichtige Eigenschaft eines Entrepreneurs in deinem Bereich (ein Satz)."
     }
   },
-  {
-    "id": "gedeihen",
-    "word": "gedeihen",
-    "tags": ["abs", "exam"],
-    "grammar": {
-      "pos": "verb",
-      "praeteritum": "gedieh",
-      "perfekt": "ist gediehen"
-    },
-    "meaning": {
-      "ja": "（植物・事業・関係などが）順調に育つ／発展する／うまくいく（やや文語）。",
-      "de": "Gut wachsen/sich günstig entwickeln; gelingen, prosperieren (gehoben)."
-    },
-    "nuance": {
-      "ja": "自然・比喩どちらもOKだが、少し硬く格調高い。",
-      "de": "Gehoben; oft bei Pflanzen/Projekten/Beziehungen: „unter guten Bedingungen gedeihen“."
-    },
-    "minimal": {
-      "ja": "wachsen=単に成長／gedeihen=「良い条件で健やかに」＋成功ニュアンス。",
-      "de": "„wachsen“ neutral; „gedeihen“ impliziert günstige Bedingungen und gutes Gelingen."
-    },
-    "etymology": {
-      "ja": "古いドイツ語の「成功する・うまくいく」系の動詞に由来（現代では「繁栄する」寄りの意味で残存）。",
-      "de": "Altes deutsches Verb; heute Bedeutung „prosperieren/gelingen“, oft mit „gut“."
-    },
-    "example": {
-      "ja": "Unter diesen Bedingungen kann das Projekt gedeihen.",
-      "de": "Unter diesen Bedingungen kann das Projekt gedeihen."
-    },
-    "task": {
-      "ja": "「〜がないと成長できない」をgedeihenで1文。",
-      "de": "Bilde einen Satz mit „ohne … kann … nicht gedeihen“."
-    }
+{
+  "id": "gedeihen",
+  "word": "gedeihen",
+  "tags": ["abs", "exam"],
+  "level": "B2",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "gedieh",
+    "perfekt": "ist gediehen"
   },
-  {
-    "id": "hapern",
-    "word": "es hapert (an …)",
-    "tags": ["abs", "coll"],
-    "grammar": {
-      "pos": "verb",
-      "praeteritum": "haperte",
-      "perfekt": "hat gehapert"
-    },
-    "meaning": {
-      "ja": "…が不足/欠けていて物事がうまくいかない（支障がある）。",
-      "de": "Etwas fehlt/ist unzureichend, sodass es nicht richtig klappt."
-    },
-    "nuance": {
-      "ja": "口語〜準書き言葉。原因箇所をanで示すのが定番。",
-      "de": "Umgangssprachlich bis neutral; typisch: „an + Dat.“"
-    },
-    "minimal": {
-      "ja": "mangeln＝不足が客観描写、hapern＝“そこで引っかかってる”感。",
-      "de": "„mangeln“ nüchterner; „hapern“ klingt nach „es hakt“."
-    },
-    "etymology": {
-      "ja": "動詞 hapern は口語で「引っかかる／うまく噛み合わない」。語感的に haken（引っかける）に近い。定型は「es hapert an + Dativ」。",
-      "de": "„hapern“ bedeutet umgangssprachlich „haken / nicht richtig funktionieren“. Wird oft mit „haken“ assoziiert; festes Muster: „Es hapert an + Dat.“"
-    },
-    "example": {
-      "ja": "An der Kommunikation hapert es noch.",
-      "de": "An der Kommunikation hapert es noch."
-    },
-    "task": {
-      "ja": "自分の学習で「〜が足りない」をes hapert an…で1文。",
-      "de": "Bilde einen Satz über dein Lernen mit „Es hapert an …“."
-    }
+  "meaning": {
+    "ja": "（植物・事業・関係などが）順調に育つ／発展する／うまくいく（やや文語）。",
+    "de": "Gut wachsen; sich günstig entwickeln; prosperieren (gehoben)."
   },
+  "nuance": {
+    "ja": "自然・比喩どちらも可だが、やや格調高く文章語寄り。",
+    "de": "Gehoben; oft für Pflanzen, Projekte oder Beziehungen."
+  },
+  "minimal": {
+    "ja": "wachsen＝単なる成長／gedeihen＝良い条件下で健全に成功する。",
+    "de": "„wachsen“ neutral; „gedeihen“ impliziert günstige Bedingungen."
+  },
+  "etymology": {
+    "ja": "古高ドイツ語 gedehan（成功する・うまくいく）に由来。",
+    "de": "Aus ahd. „gedehan“ (gelingen, Erfolg haben)."
+  },
+  "example": {
+    "ja": "Unter diesen Bedingungen kann das Projekt gedeihen.",
+    "de": "Unter diesen Bedingungen kann das Projekt gedeihen."
+  },
+  "task": {
+    "ja": "「〜がなければ発展しない」をgedeihenで1文。",
+    "de": "Bilde einen Satz mit „ohne … kann … nicht gedeihen“."
+  }
+}
+{
+  "id": "hapern",
+  "word": "es hapert (an …)",
+  "tags": ["abs", "coll"],
+  "level": "B2",
+  "freq": "freq",
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "haperte",
+    "perfekt": "hat gehapert"
+  },
+  "meaning": {
+    "ja": "…が不足・欠けていて物事がうまく進まない。",
+    "de": "Etwas fehlt oder ist unzureichend, sodass es nicht richtig funktioniert."
+  },
+  "nuance": {
+    "ja": "口語〜準書き言葉。原因箇所を an + Dativ で示すのが定型。",
+    "de": "Umgangssprachlich bis neutral; festes Muster: „an + Dativ“."
+  },
+  "minimal": {
+    "ja": "mangeln＝客観的な不足／hapern＝「そこで引っかかっている」感じ。",
+    "de": "„mangeln“ nüchtern; „hapern“ klingt nach „es hakt“."
+  },
+  "etymology": {
+    "ja": "haken（引っかかる）と語感的に近い口語動詞。",
+    "de": "Umgangssprachlich; assoziiert mit „haken“."
+  },
+  "example": {
+    "ja": "An der Finanzierung hapert es noch.",
+    "de": "An der Finanzierung hapert es noch."
+  },
+  "task": {
+    "ja": "自分の課題で「〜が足りない」を es hapert an … で1文。",
+    "de": "Bilde einen Satz mit „Es hapert an …“."
+  }
+}
   {
     "id": "nachweis",
     "word": "Nachweis",
     "tags": ["exam", "coll"],
+    "level": "B2",
+    "freq": "freq",
     "grammar": {
       "pos": "noun",
       "article": "der",
@@ -275,6 +292,8 @@
     "id": "unternehmer",
     "word": "Unternehmer",
     "tags": ["abs", "exam"],
+    "level": "B2",
+    "freq": "freq",
     "grammar": {
       "pos": "noun",
       "article": "der",
@@ -310,6 +329,8 @@
     "id": "unzul",
     "word": "Unzulänglichkeit",
     "tags": ["abs", "exam"],
+    "level": "C1",
+    "freq": "rare",
     "grammar": {
       "pos": "noun",
       "article": "die",
@@ -345,6 +366,8 @@
     "id": "verhaeltnismaessigkeit",
     "word": "Verhältnismäßigkeit",
     "tags": ["abs", "exam"],
+    "level": "C1",
+    "freq": "sometimes",
     "grammar": {
       "pos": "noun",
       "article": "die",
@@ -380,6 +403,8 @@
     "id": "zielkonflikt",
     "word": "Zielkonflikt",
     "tags": ["abs", "exam"],
+    "level": "C1",
+    "freq": "sometimes",
     "grammar": {
       "pos": "noun",
       "article": "der",
