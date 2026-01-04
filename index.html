@@ -122,141 +122,13 @@
   // =========================
   // Card data (bilingual)
   // =========================
-  const CARDS = [
-    {
-      id: "verhaeltnismaessigkeit",
-      word: "Verhältnismäßigkeit",
-      tags: ["abs","exam"],
-      meaning: {
-        ja: "（目的に対して手段が）過度でなく釣り合っていること。法・行政で重要。",
-        de: "Grundsatz, dass Mittel und Zweck in einem angemessenen Verhältnis stehen (v. a. im Recht)."
-      },
-      nuance: {
-        ja: "“必要性/相当性/最小侵害”の枠組みとセットで語られやすい。",
-        de: "Oft zusammen mit Erforderlichkeit / Angemessenheit / mildestes Mittel."
-      },
-      minimal: {
-        ja: "angemessen（適切）より“法的テスト”の色が強い。",
-        de: "Stärker juristisch-technisch als bloß „angemessen“."
-      },
-      example: {
-        ja: "Die Maßnahme muss verhältnismäßig sein.",
-        de: "Die Maßnahme muss verhältnismäßig sein."
-      },
-      task: {
-        ja: "「監視強化は比例原則に反する」を1文で。",
-        de: "Ein Satz: „Mehr Überwachung verstößt gegen den Grundsatz der Verhältnismäßigkeit.“"
-      }
-    },
-    {
-      id: "zielkonflikt",
-      word: "Zielkonflikt",
-      tags: ["abs","exam"],
-      meaning: {
-        ja: "複数の目標が同時には達成しにくく、相互にぶつかる状態。",
-        de: "Konflikt zwischen Zielen, die nicht gleichzeitig vollständig erreichbar sind."
-      },
-      nuance: {
-        ja: "政策・経済・環境文脈で頻出。trade-offに近い。",
-        de: "Häufig in Politik/Ökonomie/Umwelt; nahe an „Trade-off“."
-      },
-      minimal: {
-        ja: "Dilemma（板挟み）より中立で分析的。",
-        de: "Analytischer als „Dilemma“; weniger dramatisch."
-      },
-      etymology: {
-        ja: "Ziel（目標）＋Konflikt（衝突）。ラテン語 conflictus に由来。",
-        de: "Kompositum aus „Ziel“ + „Konflikt“ (lat. conflictus)."
-      },
-      example: {
-        ja: "Zwischen Klimaschutz und Wachstum besteht ein Zielkonflikt.",
-        de: "Zwischen Klimaschutz und Wachstum besteht ein Zielkonflikt."
-      },
-      task: {
-        ja: "あなたの職場で起こりうるZielkonfliktを1つ挙げ、理由を一言。",
-        de: "Nenne einen Zielkonflikt in deinem Kontext und begründe kurz."
-      }
-    },
-    {
-      id: "nachweis",
-      word: "Nachweis",
-      tags: ["exam","coll"],
-      meaning: {
-        ja: "証明書類・証拠・提示できる証明（提出物としての証明）。",
-        de: "Beleg/Beweisstück bzw. dokumentierbarer Nachweis (oft als vorzulegendes Dokument)."
-      },
-      nuance: {
-        ja: "Beweisより“提出・提示する書類”寄りのことが多い。",
-        de: "Oft stärker dokument-/vorlagebezogen als „Beweis“."
-      },
-      minimal: {
-        ja: "Beweis＝論証の中身、Nachweis＝提出物/証明手段、の整理が便利。",
-        de: "„Beweis“ eher argumentativ; „Nachweis“ eher dokumentarisch."
-      },
-      etymology: {
-  ja: "nach-（後に）＋ weisen（示す）→「後から示す」＝証明する",
-  de: "nach- + weisen („zeigen, hinweisen“) → etwas nachträglich belegen"
+let CARDS = [];
+
+async function loadCards() {
+  const res = await fetch("./cards.json", { cache: "no-store" });
+  const data = await res.json();
+  CARDS = data;
 }
-      example: {
-        ja: "Bitte reichen Sie einen Nachweis über Ihre Versicherung ein.",
-        de: "Bitte reichen Sie einen Nachweis über Ihre Versicherung ein."
-      },
-      task: {
-        ja: "「居住証明を提出してください」を丁寧にドイツ語で。",
-        de: "Höflich: „Bitte legen Sie einen Wohnsitznachweis vor.“"
-      }
-    },
-    {
-      id: "hapern",
-      word: "es hapert (an …)",
-      tags: ["abs","coll"],
-      meaning: {
-        ja: "…が不足/欠けていて物事がうまくいかない（支障がある）。",
-        de: "Etwas fehlt/ist unzureichend, sodass es nicht richtig klappt."
-      },
-      nuance: {
-        ja: "口語〜準書き言葉。原因箇所をanで示すのが定番。",
-        de: "Umgangssprachlich bis neutral; typisch: „an + Dat.“"
-      },
-      minimal: {
-        ja: "mangeln＝不足が客観描写、hapern＝“そこで引っかかってる”感。",
-        de: "„mangeln“ nüchterner; „hapern“ klingt nach „es hakt“."
-      },
-      example: {
-        ja: "An der Kommunikation hapert es noch.",
-        de: "An der Kommunikation hapert es noch."
-      },
-      task: {
-        ja: "自分の学習で「〜が足りない」をes hapert an…で1文。",
-        de: "Bilde einen Satz über dein Lernen mit „Es hapert an …“."
-      }
-    },
-    {
-      id: "unzul",
-      word: "Unzulänglichkeit",
-      tags: ["abs","exam"],
-      meaning: {
-        ja: "不十分さ、欠陥（フォーマル）。",
-        de: "Unzureichendheit/Mangel (formal)."
-      },
-      nuance: {
-        ja: "抽象名詞で論評・報告書調。Mangelより硬い。",
-        de: "Formeller/abstrakter als „Mangel“."
-      },
-      minimal: {
-        ja: "Mangel＝欠点（一般）、Unzulänglichkeit＝不備（硬い/分析）。",
-        de: "„Mangel“ allgemein; „Unzulänglichkeit“ eher analytisch."
-      },
-      example: {
-        ja: "Die Studie weist methodische Unzulänglichkeiten auf.",
-        de: "Die Studie weist methodische Unzulänglichkeiten auf."
-      },
-      task: {
-        ja: "論文レビュー風に「方法上の不備がある」を1文。",
-        de: "Wie in einer Rezension: „… weist methodische Unzulänglichkeiten auf.“"
-      }
-    }
-  ];
 
   // =========================
   // Storage keys
@@ -411,10 +283,12 @@
 
       <div class="label">${t("minimal")}</div>
       <p class="txt">${(c.minimal?.[lang] ?? "").trim()}</p>
-
-      <div class="label">${t("etymology")}</div>
-      <p class="txt">${(c.etymology?.[lang] ?? "").trim()}</p>
       
+      ${((c.etymology?.[lang] ?? "").trim()) ? `
+  <div class="label">${t("etymology")}</div>
+  <p class="txt">${(c.etymology?.[lang] ?? "").trim()}</p>
+` : ``}
+
       <div class="label">${t("example")}</div>
       <p class="txt mono">${(c.example?.[lang] ?? "").trim()}</p>
 
@@ -537,7 +411,10 @@
     });
   }
 
+(async () => {
+  await loadCards();
   render();
+})();
 </script>
 </body>
 </html>
