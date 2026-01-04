@@ -69,21 +69,37 @@
 </main>
 
 <script>
-// ===== Debug: show JS errors on screen (iOS Safari friendly) =====
+// =========================
+// Debug overlay (safe)
+// =========================
 (function () {
-  const show = (msg) => {
-    const list = document.getElementById("list");
-    if (list) {
-      list.innerHTML = `<div class="muted" style="white-space:pre-wrap">JS ERROR:\n${msg}</div>`;
-    }
-  };
+  function show(msg) {
+    var list = document.getElementById("list");
+    if (!list) return;
+    list.innerHTML =
+      "<pre style='white-space:pre-wrap;padding:12px;border:1px solid #333;border-radius:12px;background:#111;color:#f2f2f2'>" +
+      msg +
+      "</pre>";
+  }
 
-  window.addEventListener("error", (e) => {
-    show(`${e.message}\n${e.filename}:${e.lineno}:${e.colno}`);
+  // この行が出れば「少なくとも script は動いてる」
+  show("debug: script started");
+
+  window.addEventListener("error", function (e) {
+    show(
+      "JS ERROR:\n" +
+        (e.message || e.type) +
+        "\n" +
+        (e.filename || "") +
+        ":" +
+        (e.lineno || "") +
+        ":" +
+        (e.colno || "")
+    );
   });
 
-  window.addEventListener("unhandledrejection", (e) => {
-    show(`Unhandled Promise:\n${String(e.reason)}`);
+  window.addEventListener("unhandledrejection", function (e) {
+    show("Unhandled Promise:\n" + String(e.reason));
   });
 })();
   // =========================
