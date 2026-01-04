@@ -143,5 +143,208 @@
       "ja": "論文レビュー風に「方法上の不備がある」を1文。",
       "de": "Wie in einer Rezension: „… weist methodische Unzulänglichkeiten auf.“"
     }
+  },
+  {
+    "id": "entrepreneur",
+    "word": "Entrepreneur",
+    "tags": ["abs", "exam"],
+    "meaning": {
+      "ja": "起業家（事業を立ち上げ、リスクを取って機会を形にする人）。",
+      "de": "Person, die ein Unternehmen gründet/aufbaut und Chancen unter Risiko umsetzt."
+    },
+    "nuance": {
+      "ja": "フランス語・英語経由で「革新・スタートアップ文脈」の響きが強い。",
+      "de": "Klingt oft moderner/innovationsnah (Start-up, Venture) als das nüchterne „Unternehmer“."
+    },
+    "minimal": {
+      "ja": "Unternehmer=会社経営者（既存企業含む）／Entrepreneur=新規性・創業色が強め。",
+      "de": "„Unternehmer“ breiter (auch etablierte Firmen); „Entrepreneur“ stärker gründungs-/innovationsbetont."
+    },
+    "etymology": {
+      "ja": "仏 entrepreneur（引き受ける人）← entreprendre（着手する・引き受ける）。entre-（間に）＋ prendre（取る）。",
+      "de": "Aus frz. „entrepreneur“ (jemand, der etwas unternimmt/übernimmt) < „entreprendre“."
+    },
+    "example": {
+      "ja": "Er gilt als erfolgreicher Entrepreneur im Tech-Bereich.",
+      "de": "Er gilt als erfolgreicher Entrepreneur im Tech-Bereich."
+    },
+    "task": {
+      "ja": "あなたの分野でEntrepreneurに必要な資質を1つ挙げて1文。",
+      "de": "Nenne eine wichtige Eigenschaft eines Entrepreneurs in deinem Bereich (ein Satz)."
+    }
+  },
+  {
+    "id": "unternehmer",
+    "word": "Unternehmer",
+    "tags": ["abs", "exam"],
+    "meaning": {
+      "ja": "企業を経営する人／事業者（法人でも個人でも）。",
+      "de": "Person (oder Betrieb), die/der ein Unternehmen führt; wirtschaftlicher Akteur."
+    },
+    "nuance": {
+      "ja": "行政・法・経済の文脈で中立に使える（「事業者」も含む）。",
+      "de": "Neutral, häufig in Recht/Verwaltung/Wirtschaft; teils auch als „Unternehmen“ im Sinne von Betrieb."
+    },
+    "minimal": {
+      "ja": "Entrepreneur=創業・革新寄り／Unternehmer=より一般の経営者・事業者。",
+      "de": "„Entrepreneur“ eher Gründung/Innovation; „Unternehmer“ allgemeiner und formeller."
+    },
+    "etymology": {
+      "ja": "unternehmen（何かを引き受ける・企てる）→ Unternehmer（それを行う人）。unter- は「下」ではなく古い用法で「〜の間に/〜に向かって」の成分が残る、と捉えるとイメージしやすい。",
+      "de": "Von „unternehmen“ (etwas in Angriff nehmen) + -er (Person)."
+    },
+    "example": {
+      "ja": "Der Unternehmer beschäftigt über 200 Mitarbeitende.",
+      "de": "Der Unternehmer beschäftigt über 200 Mitarbeitende."
+    },
+    "task": {
+      "ja": "„Unternehmer“を「行政文書っぽく」使った例文を1つ作る。",
+      "de": "Bilde einen Satz im Verwaltungsstil mit „Unternehmer“."
+    }
+  },
+  {
+    "id": "belegschaft",
+    "word": "Belegschaft",
+    "tags": ["abs", "exam"],
+    "meaning": {
+      "ja": "従業員全体、社員一同（集団としての労働者）。",
+      "de": "Gesamtheit der Beschäftigten eines Betriebs; die Mitarbeiterschaft."
+    },
+    "nuance": {
+      "ja": "会社/工場/組織の「人員全体」を指すややフォーマル寄りの語。",
+      "de": "Leicht formell; betont die Gesamtheit (Kollektiv) der Beschäftigten."
+    },
+    "minimal": {
+      "ja": "Beleg=証拠/領収書/根拠書類／Belegschaft=従業員集団（語尾 -schaft が集合）。",
+      "de": "„Beleg“ = Beweis/Quittung; „Belegschaft“ = Beleg + -schaft (Kollektiv der Beschäftigten)."
+    },
+    "etymology": {
+      "ja": "Beleg + -schaft（集合・共同体を作る接尾辞：Mannschaft, Landschaft など）。Beleg は「証拠・裏づけ」の意から。",
+      "de": "„Beleg“ + „-schaft“ (Kollektivsuffix wie in „Mannschaft“)."
+    },
+    "example": {
+      "ja": "Die Belegschaft fordert bessere Arbeitsbedingungen.",
+      "de": "Die Belegschaft fordert bessere Arbeitsbedingungen."
+    },
+    "task": {
+      "ja": "「全従業員に周知する」をBelegschaftを使って1文。",
+      "de": "Formuliere: „… an die gesamte Belegschaft …“ (ein Satz)."
+    }
+  },
+  {
+    "id": "beleg",
+    "word": "Beleg",
+    "tags": ["exam", "coll"],
+    "meaning": {
+      "ja": "証拠・根拠（裏づけ）；または領収書・伝票などの証憑書類。",
+      "de": "Nachweis/Beweisstück; auch Quittung/Beleg (Dokument, Nachweisstück)."
+    },
+    "nuance": {
+      "ja": "会計では「レシート/伝票」。学術では「証拠・用例（言語学のBeleg）」にも。",
+      "de": "In Buchhaltung: „Quittung/Beleg“. In Wissenschaft/Linguistik: „Beleg“ = belegende Stelle/Beispiel."
+    },
+    "minimal": {
+      "ja": "Nachweis=提出する証明（書類の機能）寄り／Beleg=それ自体が証拠物・レシート。",
+      "de": "„Nachweis“ stärker als „vorzulegender Nachweis“; „Beleg“ konkreter als Dokument/Beweisstück."
+    },
+    "etymology": {
+      "ja": "belegen（裏づける・証明する）→ Beleg（裏づけとなるもの）。legen（置く）系で「根拠を置く」イメージ。",
+      "de": "Zu „belegen“ (beweisen, nachweisen) < „legen“ (legen/platzieren)."
+    },
+    "example": {
+      "ja": "Bitte bewahren Sie alle Belege auf.",
+      "de": "Bitte bewahren Sie alle Belege auf."
+    },
+    "task": {
+      "ja": "「領収書を添付します」をBelegを使って丁寧に1文。",
+      "de": "Formuliere höflich: „Ich füge den Beleg bei.“ (ein Satz)."
+    }
+  },
+  {
+    "id": "gedeihen",
+    "word": "gedeihen",
+    "tags": ["abs", "exam"],
+    "meaning": {
+      "ja": "（植物・事業・関係などが）順調に育つ／発展する／うまくいく（やや文語）。",
+      "de": "Gut wachsen/sich günstig entwickeln; gelingen, prosperieren (gehoben)."
+    },
+    "nuance": {
+      "ja": "自然・比喩どちらもOKだが、少し硬く格調高い。",
+      "de": "Gehoben; oft bei Pflanzen/Projekten/Beziehungen: „unter guten Bedingungen gedeihen“."
+    },
+    "minimal": {
+      "ja": "wachsen=単に成長／gedeihen=「良い条件で健やかに」＋成功ニュアンス。",
+      "de": "„wachsen“ neutral; „gedeihen“ impliziert günstige Bedingungen und gutes Gelingen."
+    },
+    "etymology": {
+      "ja": "古いドイツ語の「成功する・うまくいく」系の動詞に由来（現代では「繁栄する」寄りの意味で残存）。",
+      "de": "Altes deutsches Verb; heute Bedeutung „prosperieren/gelingen“, oft mit „gut“."
+    },
+    "example": {
+      "ja": "Unter diesen Bedingungen kann das Projekt gedeihen.",
+      "de": "Unter diesen Bedingungen kann das Projekt gedeihen."
+    },
+    "task": {
+      "ja": "「〜がないと成長できない」をgedeihenで1文。",
+      "de": "Bilde einen Satz mit „ohne … kann … nicht gedeihen“."
+    }
+  },
+  {
+    "id": "ausgewogen",
+    "word": "ausgewogen",
+    "tags": ["abs", "exam"],
+    "meaning": {
+      "ja": "バランスの取れた、偏りのない（配分・評価・食事など）。",
+      "de": "Ausbalanciert, nicht einseitig; ausgewogen (z. B. Ernährung, Darstellung, Urteil)."
+    },
+    "nuance": {
+      "ja": "「要素の配分が適切で偏っていない」感じ。論評にもよく使う。",
+      "de": "Betont ausgewogene Verteilung/Abwägung; oft in Medien/Urteilen/Ernährung."
+    },
+    "minimal": {
+      "ja": "ausgeglichen=（気持ちや状態が）落ち着いて均衡／ausgewogen=構成・配分が均整。",
+      "de": "„ausgeglichen“ eher Zustand/Temperament; „ausgewogen“ eher Zusammensetzung/Abwägung."
+    },
+    "etymology": {
+      "ja": "aus-（外へ）＋ wiegen（量る・秤にかける）→「量り終えて釣り合いが取れている」。",
+      "de": "aus- + wiegen („abwägen“) → „nach Abwägung im Gleichgewicht“."
+    },
+    "example": {
+      "ja": "Der Artikel ist insgesamt ausgewogen.",
+      "de": "Der Artikel ist insgesamt ausgewogen."
+    },
+    "task": {
+      "ja": "「バランスの取れた議論」をausgewogenで1文。",
+      "de": "Formuliere: „eine ausgewogene Argumentation“ (ein Satz)."
+    }
+  },
+  {
+    "id": "ausgeglichen",
+    "word": "ausgeglichen",
+    "tags": ["abs", "exam"],
+    "meaning": {
+      "ja": "（心・状態が）落ち着いた／均衡の取れた；（差が）相殺された。",
+      "de": "Ausbalanciert/ruhig (Person/Stimmung); auch: ausgeglichen = ausgeglichen worden (Differenz kompensiert)."
+    },
+    "nuance": {
+      "ja": "人物評価でよく出る（temperament）。また「収支が相殺された」でも使う。",
+      "de": "Häufig für Charakter/Stimmung („ein ausgeglichener Mensch“); auch technisch: „ausgleichen“ → Differenz kompensieren."
+    },
+    "minimal": {
+      "ja": "ausgewogen=配分・構成のバランス／ausgeglichen=状態・気分の安定や均衡。",
+      "de": "„ausgewogen“ Komposition/Abwägung; „ausgeglichen“ Zustand/Temperament oder Kompensation."
+    },
+    "etymology": {
+      "ja": "ausgleichen（等しくする・差を埋める）→ ausgeglichen（均衡が取れた）。gleich（等しい）が核。",
+      "de": "Partizip II von „ausgleichen“ < „gleich“ (gleich machen, Differenz ausgleichen)."
+    },
+    "example": {
+      "ja": "Sie wirkt sehr ausgeglichen.",
+      "de": "Sie wirkt sehr ausgeglichen."
+    },
+    "task": {
+      "ja": "「最近は心が落ち着いている」をausgeglichenで1文。",
+      "de": "Bilde einen Satz über dich: „Ich fühle mich … ausgeglichen.“"
+    }
   }
 ]
