@@ -143,6 +143,55 @@
     }
   },
   {
+  "id": "bestandaufnahme",
+  "word": "Bestandaufnahme",
+  "tags": ["abs", "exam"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "gender": "f",
+    "plural": "Bestandsaufnahmen"
+  },
+  "meaning": {
+    "ja": [
+      "（状況・現状の）把握、現状分析（棚卸し的に全体を点検すること）。",
+      "（会計・在庫の）棚卸し／インベントリ（実地で在庫・資産を確認する作業）。"
+    ],
+    "de": [
+      "Erfassung und Analyse des Ist-Zustands; Lagebild/Bestandsanalyse.",
+      "Inventur; systematische Erfassung von Bestand/Vorräten (v. a. betriebswirtschaftlich)."
+    ]
+  },
+  "nuance": {
+    "ja": "抽象的には「現状を一度ゼロから点検して地図を作る」感じ。ビジネスでは Inventur 寄りの意味も強い。",
+    "de": "Als Metapher: „Lagebild schaffen“. Im BWL-Kontext nahe an „Inventur“."
+  },
+  "minimal": {
+    "ja": "Inventur＝在庫確認（より会計寄り）／Bestandaufnahme＝現状把握全般（比喩でも可）。",
+    "de": "„Inventur“ konkreter (Vorräte/Bestand); „Bestandaufnahme“ breiter (auch übertragen)."
+  },
+  "etymology": {
+    "ja": "Bestand（現存・在庫）＋ Aufnahme（取り込み・記録）→「現存しているものを記録する」。",
+    "de": "Bestand + Aufnahme → wörtlich „das Aufnehmen/Erfassen des Bestands“."
+  },
+  "example": {
+    "ja": [
+      "Bevor wir Maßnahmen beschließen, brauchen wir eine ehrliche Bestandaufnahme.",
+      "Im Januar findet die jährliche Bestandaufnahme im Lager statt."
+    ],
+    "de": [
+      "Bevor wir Maßnahmen beschließen, brauchen wir eine ehrliche Bestandaufnahme.",
+      "Im Januar findet die jährliche Bestandaufnahme im Lager statt."
+    ]
+  },
+  "task": {
+    "ja": "自分の学習状況について「現状把握をする必要がある」をBestandaufnahmeで1文。",
+    "de": "Formuliere einen Satz über dein Lernen mit „eine Bestandaufnahme machen“."
+  }
+}
+  {
     "id": "entrepreneur",
     "word": "Entrepreneur",
     "tags": ["abs", "exam"],
