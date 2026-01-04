@@ -125,9 +125,18 @@
 let CARDS = [];
 
 async function loadCards() {
-  const res = await fetch("./cards.json", { cache: "no-store" });
-  const data = await res.json();
-  CARDS = data;
+  try {
+    const res = await fetch("./cards.json", { cache: "no-store" });
+    if (!res.ok) {
+      throw new Error(`HTTP error: ${res.status}`);
+    }
+    const data = await res.json();
+    CARDS = data;
+  } catch (err) {
+    console.error("cards.json の読み込みに失敗しました", err);
+    CARDS = [];
+    alert("単語データの読み込みに失敗しました。");
+  }
 }
 
   // =========================
