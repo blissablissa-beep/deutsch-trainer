@@ -172,13 +172,17 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
         throw new Error("cards.json is not an array");
       }
       CARDS = data;
-    } catch (err) {
-      console.error("cards.json の読み込みに失敗:", err);
-      CARDS = [];
-      alert("単語データの読み込みに失敗しました。\ncards.json を確認してください。");
-    }
-  }
+      } catch (err) {
+  console.error("cards.json の読み込みに失敗:", err);
+  CARDS = [];
 
+  showError(
+    "単語データの読み込みに失敗しました。\n" +
+    "・cards.json が存在するか\n" +
+    "・JSON の文法エラーがないか\n" +
+    "を確認してください。"
+  );
+}
   // =========================
   // Storage keys
   // =========================
