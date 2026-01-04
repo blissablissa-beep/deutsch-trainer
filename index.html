@@ -187,6 +187,7 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
         throw new Error("cards.json is not an array");
       }
       CARDS = data;
+      hideError(); 
       } catch (err) {
   console.error("cards.json の読み込みに失敗:", err);
   CARDS = [];
@@ -195,7 +196,8 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
     "単語データの読み込みに失敗しました。\n" +
     "・cards.json が存在するか\n" +
     "・JSON の文法エラーがないか\n" +
-    "を確認してください。"
+    "を確認してください。"+
+    "［再読み込み］を押すと再試行できます。"
   );
 }
   // =========================
