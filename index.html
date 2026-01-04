@@ -69,6 +69,23 @@
 </main>
 
 <script>
+// ===== Debug: show JS errors on screen (iOS Safari friendly) =====
+(function () {
+  const show = (msg) => {
+    const list = document.getElementById("list");
+    if (list) {
+      list.innerHTML = `<div class="muted" style="white-space:pre-wrap">JS ERROR:\n${msg}</div>`;
+    }
+  };
+
+  window.addEventListener("error", (e) => {
+    show(`${e.message}\n${e.filename}:${e.lineno}:${e.colno}`);
+  });
+
+  window.addEventListener("unhandledrejection", (e) => {
+    show(`Unhandled Promise:\n${String(e.reason)}`);
+  });
+})();
   // =========================
   // i18n (UI)
   // =========================
