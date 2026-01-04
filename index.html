@@ -89,37 +89,19 @@
 // =========================
 // Debug overlay (safe)
 // =========================
+function showError(msg) {
+  const box = document.getElementById("errorBox");
+  if (!box) return;
+  box.textContent = msg;
+  box.classList.remove("hidden");
+}
 
-(function () {
-  function show(msg) {
-    var list = document.getElementById("list");
-    if (!list) return;
-    list.innerHTML =
-      "<pre style='white-space:pre-wrap;padding:12px;border:1px solid #333;border-radius:12px;background:#111;color:#f2f2f2'>" +
-      msg +
-      "</pre>";
-  }
-
-  // この行が出れば「少なくとも script は動いてる」
-  show("debug: script started");
-
-  window.addEventListener("error", function (e) {
-    show(
-      "JS ERROR:\n" +
-        (e.message || e.type) +
-        "\n" +
-        (e.filename || "") +
-        ":" +
-        (e.lineno || "") +
-        ":" +
-        (e.colno || "")
-    );
-  });
-
-  window.addEventListener("unhandledrejection", function (e) {
-    show("Unhandled Promise:\n" + String(e.reason));
-  });
-})();
+function hideError() {
+  const box = document.getElementById("errorBox");
+  if (!box) return;
+  box.classList.add("hidden");
+  box.textContent = "";
+}
   // =========================
   // i18n (UI)
   // =========================
