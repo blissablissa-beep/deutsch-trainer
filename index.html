@@ -84,6 +84,7 @@
       meaning: "意味（核心）",
       nuance: "語感・ニュアンス",
       minimal: "最小対立（近い語との違い）",
+      etymology: "語源",
       example: "例文",
       task: "産出課題",
       due: "復習期限",
@@ -105,6 +106,7 @@
       meaning: "Kernbedeutung",
       nuance: "Nuance / Gebrauch",
       minimal: "Minimalpaar (Abgrenzung)",
+      etymology: "Etymologie",
       example: "Beispiel",
       task: "Output-Aufgabe",
       due: "Fällig am",
@@ -187,6 +189,10 @@
         ja: "Beweis＝論証の中身、Nachweis＝提出物/証明手段、の整理が便利。",
         de: "„Beweis“ eher argumentativ; „Nachweis“ eher dokumentarisch."
       },
+      etymology: {
+  ja: "Ziel（目標）＋Konflikt（衝突）。ラテン語 conflictus に由来。",
+  de: "Kompositum aus „Ziel“ + „Konflikt“ (lat. conflictus)."
+　　　　},
       example: {
         ja: "Bitte reichen Sie einen Nachweis über Ihre Versicherung ein.",
         de: "Bitte reichen Sie einen Nachweis über Ihre Versicherung ein."
@@ -401,6 +407,9 @@
 
       <div class="label">${t("minimal")}</div>
       <p class="txt">${(c.minimal?.[lang] ?? "").trim()}</p>
+      
+      <div class="label">${t("etymology")}</div>
+　　　　<p class="txt">${(c.etymology?.[lang] ?? "").trim()}</p>
 
       <div class="label">${t("example")}</div>
       <p class="txt mono">${(c.example?.[lang] ?? "").trim()}</p>
