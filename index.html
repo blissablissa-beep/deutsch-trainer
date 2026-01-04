@@ -7,13 +7,24 @@
   <link rel="manifest" href="./manifest.webmanifest" />
   <title>Deutsch Trainer (Private)</title>
   <style>
-    :root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+    :root {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    }
     body { margin: 0; background: #0b0b0b; color: #f2f2f2; }
-    header { position: sticky; top: 0; background: rgba(10,10,10,.92); backdrop-filter: blur(10px); border-bottom: 1px solid #222; z-index: 10; }
+    header {
+      position: sticky; top: 0;
+      background: rgba(10,10,10,.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #222;
+      z-index: 10;
+    }
     .wrap { max-width: 900px; margin: 0 auto; padding: 14px 14px 28px; }
     .row { display:flex; align-items:center; justify-content:space-between; gap: 12px; }
     h1 { font-size: 18px; margin: 0; letter-spacing: .2px; }
-    .btn { background:#1b1b1b; border:1px solid #2a2a2a; color:#fff; padding:8px 10px; border-radius:10px; font-size:14px; }
+    .btn {
+      background:#1b1b1b; border:1px solid #2a2a2a; color:#fff;
+      padding:8px 10px; border-radius:10px; font-size:14px;
+    }
     .btn:active { transform: translateY(1px); }
     .sub { color:#bdbdbd; font-size:13px; margin-top: 6px; }
     .tabs { display:flex; gap:8px; margin-top: 10px; }
@@ -22,7 +33,10 @@
     .grid { display:grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
     .card { background:#121212; border:1px solid #222; border-radius:14px; padding: 12px 12px; }
     .word { font-size:18px; font-weight:700; margin:0 0 6px; }
-    .pill { display:inline-block; font-size:12px; padding:3px 8px; border:1px solid #2a2a2a; border-radius:999px; color:#cfcfcf; margin-right:6px; }
+    .pill {
+      display:inline-block; font-size:12px; padding:3px 8px;
+      border:1px solid #2a2a2a; border-radius:999px; color:#cfcfcf; margin-right:6px;
+    }
     .label { color:#9a9a9a; font-size:12px; margin-top:10px; }
     .txt { margin: 4px 0 0; white-space: pre-wrap; line-height: 1.5; }
     .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
@@ -33,37 +47,37 @@
     footer { margin-top: 18px; color:#8e8e8e; font-size:12px; }
     a { color:#9bd; }
     .count { color:#cfcfcf; font-size:13px; }
+
+    /* ===== Error box ===== */
+    .error {
+      background: #2a0f0f;
+      border: 1px solid #5a1a1a;
+      color: #ffd6d6;
+      padding: 12px;
+      border-radius: 12px;
+      margin-bottom: 14px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    .error.hidden { display: none; }
     .error .err-actions {
-  margin-top: 10px;
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-
-.error .err-btn {
-  background: #1b1b1b;
-  border: 1px solid #5a1a1a;
-  color: #ffd6d6;
-  padding: 8px 10px;
-  border-radius: 10px;
-  font-size: 14px;
-}
-.error .err-btn:active { transform: translateY(1px); }
-  background: #2a0f0f;
-  border: 1px solid #5a1a1a;
-  color: #ffd6d6;
-  padding: 12px;
-  border-radius: 12px;
-  margin-bottom: 14px;
-  font-size: 14px;
-  line-height: 1.5;
-}
-
-.error.hidden {
-  display: none;
-}
+      margin-top: 10px;
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .error .err-btn {
+      background: #1b1b1b;
+      border: 1px solid #5a1a1a;
+      color: #ffd6d6;
+      padding: 8px 10px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+    .error .err-btn:active { transform: translateY(1px); }
   </style>
 </head>
+
 <body>
 <header>
   <div class="wrap">
@@ -90,9 +104,10 @@
 </header>
 
 <main class="wrap">
-  <!-- 🔴 エラー表示エリア -->
+  <!-- Error -->
   <div id="errorBox" class="error hidden"></div>
 
+  <!-- Cards -->
   <div id="list" class="grid" aria-live="polite"></div>
 
   <footer>
@@ -101,22 +116,83 @@
 </main>
 
 <script>
-// =========================
-// Debug overlay (safe)
-// =========================
-function showError(msg) {
-  const box = document.getElementById("errorBox");
-  if (!box) return;
-  box.textContent = msg;
-  box.classList.remove("hidden");
-}
+  // =========================
+  // Utilities
+  // =========================
+  function isNonEmptyString(v) {
+    return typeof v === "string" && v.trim().length > 0;
+  }
 
-function hideError() {
-  const box = document.getElementById("errorBox");
-  if (!box) return;
-  box.classList.add("hidden");
-  box.textContent = "";
-}
+  function normalizeText(v) {
+    // string | array | undefined -> array of non-empty strings
+    if (Array.isArray(v)) return v.map(x => (typeof x === "string" ? x.trim() : "")).filter(Boolean);
+    if (typeof v === "string") {
+      const s = v.trim();
+      return s ? [s] : [];
+    }
+    return [];
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function renderTextBlock(label, lines, className = "txt") {
+    if (!lines || lines.length === 0) return "";
+
+    if (lines.length === 1) {
+      return `
+        <div class="label">${escapeHtml(label)}</div>
+        <p class="${className}">${escapeHtml(lines[0])}</p>
+      `;
+    }
+
+    return `
+      <div class="label">${escapeHtml(label)}</div>
+      <ul class="${className}" style="margin:6px 0 0; padding-left: 18px; line-height:1.5;">
+        ${lines.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
+      </ul>
+    `;
+  }
+
+  function renderPills(pills) {
+    const ok = pills.map(x => (typeof x === "string" ? x.trim() : "")).filter(Boolean);
+    if (!ok.length) return "";
+    return ok.map(x => `<span class="pill">${escapeHtml(x)}</span>`).join("");
+  }
+
+  // =========================
+  // Error overlay
+  // =========================
+  function showError(msg) {
+    const box = document.getElementById("errorBox");
+    if (!box) return;
+
+    const htmlMsg = escapeHtml(msg).replaceAll("\n", "<br>");
+    box.innerHTML = `
+      <div>${htmlMsg}</div>
+      <div class="err-actions">
+        <button class="err-btn" id="reloadBtn">再読み込み</button>
+      </div>
+    `;
+    box.classList.remove("hidden");
+
+    const btn = document.getElementById("reloadBtn");
+    if (btn) btn.onclick = () => location.reload();
+  }
+
+  function hideError() {
+    const box = document.getElementById("errorBox");
+    if (!box) return;
+    box.classList.add("hidden");
+    box.innerHTML = "";
+  }
+
   // =========================
   // i18n (UI)
   // =========================
@@ -167,59 +243,59 @@ function hideError() {
     }
   };
 
+  function getLang() { return localStorage.getItem("dt_lang") || "ja"; }
+  function setLang(lang) { localStorage.setItem("dt_lang", lang); }
+
+  function getView() { return localStorage.getItem("dt_view") || "today"; }
+  function setView(v) { localStorage.setItem("dt_view", v); }
+
+  function t(key) {
+    const lang = getLang();
+    return UI[lang][key] ?? key;
+  }
+
+  function tagLabel(tag) {
+    const lang = getLang();
+    return UI[lang].tags[tag] || tag;
+  }
+
   // =========================
-  // Card data (from JSON)
+  // Cards: load from JSON
   // =========================
   let CARDS = [];
 
   async function loadCards() {
     try {
-      const CARDS_VERSION = "2026-01-04";
+      // ここを更新するだけで cards.json の更新が反映されやすい
+      const CARDS_VERSION = "2026-01-05";
 
-const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
-  cache: "no-store"
-});
-      if (!res.ok) {
-        throw new Error(`HTTP error ${res.status}`);
-      }
+      const res = await fetch(`./cards.json?v=${encodeURIComponent(CARDS_VERSION)}`, {
+        cache: "no-store"
+      });
+
+      if (!res.ok) throw new Error(`HTTP error ${res.status}`);
+
       const data = await res.json();
-      if (!Array.isArray(data)) {
-        throw new Error("cards.json is not an array");
-      }
+      if (!Array.isArray(data)) throw new Error("cards.json is not an array");
+
       CARDS = data;
-      hideError(); 
-      } catch (err) {
-  console.error("cards.json の読み込みに失敗:", err);
-  CARDS = [];
-
-  showError(
-    "単語データの読み込みに失敗しました。\n" +
-    "・cards.json が存在するか\n" +
-    "・JSON の文法エラーがないか\n" +
-    "を確認してください。"+
-    "［再読み込み］を押すと再試行できます。"
-  );
-}
-  // =========================
-  // Storage keys
-  // =========================
-  const LS_LANG = "dt_lang";
-  const LS_SEED = "dt_seed";
-  const LS_VIEW = "dt_view";      // "today" | "review"
-  const LS_SRS  = "dt_srs_state"; // per-card SRS
+      hideError();
+    } catch (err) {
+      console.error("cards.json の読み込みに失敗:", err);
+      CARDS = [];
+      showError(
+        "単語データの読み込みに失敗しました。\n" +
+        "・cards.json が存在するか\n" +
+        "・JSON の文法エラーがないか\n" +
+        "・GitHub Pages の反映待ち/キャッシュが残っていないか\n" +
+        "を確認してください。"
+      );
+    }
+  }
 
   // =========================
-  // Helpers
+  // Seed shuffle (today)
   // =========================
-  function getLang() { return localStorage.getItem(LS_LANG) || "ja"; }
-  function setLang(lang) { localStorage.setItem(LS_LANG, lang); }
-
-  function getView() { return localStorage.getItem(LS_VIEW) || "today"; }
-  function setView(v) { localStorage.setItem(LS_VIEW, v); }
-
-  function t(key) { const lang = getLang(); return UI[lang][key] ?? key; }
-  function tagLabel(tag) { const lang = getLang(); return UI[lang].tags[tag] || tag; }
-
   function todayKeyDate() {
     const d = new Date();
     const y = d.getFullYear();
@@ -229,17 +305,17 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
   }
 
   function getSeed() {
-    let s = localStorage.getItem(LS_SEED);
+    let s = localStorage.getItem("dt_seed");
     if (!s) {
       s = Number(todayKeyDate());
-      localStorage.setItem(LS_SEED, String(s));
+      localStorage.setItem("dt_seed", String(s));
     }
     return Number(s);
   }
 
   function rotateSeed() {
     const s = Math.floor(Math.random() * 1e9);
-    localStorage.setItem(LS_SEED, String(s));
+    localStorage.setItem("dt_seed", String(s));
   }
 
   function seedShuffle(arr, seed) {
@@ -252,6 +328,11 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
     }
     return a;
   }
+
+  // =========================
+  // SRS
+  // =========================
+  const LS_SRS = "dt_srs_state";
 
   function startOfTodayMs() {
     const d = new Date();
@@ -267,10 +348,6 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
     return `${y}-${m}-${day}`;
   }
 
-  // =========================
-  // SRS State
-  // =========================
-  // state[id] = { intervalDays, dueMs }
   function loadSrs() {
     try { return JSON.parse(localStorage.getItem(LS_SRS) || "{}"); }
     catch { return {}; }
@@ -282,15 +359,11 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
 
   function ensureCardState(state, id) {
     if (!state[id]) {
-      // First time: due today, interval 1 day
       state[id] = { intervalDays: 1, dueMs: startOfTodayMs() };
     }
     return state[id];
   }
 
-  // good: interval * 2.2 (min 2)
-  // ok:   interval * 1.3 (min 1)
-  // bad:  interval = 1, due = today
   function applyScore(id, score) {
     const state = loadSrs();
     const s = ensureCardState(state, id);
@@ -318,6 +391,7 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
     const today = startOfTodayMs();
     const due = [];
     for (const c of CARDS) {
+      if (!c || !c.id) continue;
       const s = ensureCardState(state, c.id);
       if (s.dueMs <= today) due.push(c);
     }
@@ -331,56 +405,19 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
     saveSrs(state);
     return s.dueMs;
   }
+
   // =========================
-  // Render helpers (string/array safe)
+  // Grammar / labels
   // =========================
-  function isNonEmptyString(v) {
-    return typeof v === "string" && v.trim().length > 0;
+  function formatPosLabel(pos) {
+    if (!pos) return "";
+    const map = { noun: "N", verb: "V", adj: "Adj", adv: "Adv" };
+    return map[pos] || String(pos);
   }
 
-  function normalizeText(v) {
-    // string | array | undefined -> array of non-empty strings
-    if (Array.isArray(v)) return v.map(x => (typeof x === "string" ? x.trim() : "")).filter(Boolean);
-    if (typeof v === "string") {
-      const s = v.trim();
-      return s ? [s] : [];
-    }
-    return [];
-  }
-
-  function escapeHtml(s) {
-    // safety for template injection
-    return String(s)
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
-  }
-
-  function renderTextBlock(label, lines, className = "txt") {
-    // lines: array of strings
-    if (!lines || lines.length === 0) return "";
-    if (lines.length === 1) {
-      return `
-        <div class="label">${escapeHtml(label)}</div>
-        <p class="${className}">${escapeHtml(lines[0])}</p>
-      `;
-    }
-    // multi-sense: bullet list
-    return `
-      <div class="label">${escapeHtml(label)}</div>
-      <ul class="${className}" style="margin:6px 0 0; padding-left: 18px; line-height:1.5;">
-        ${lines.map(x => `<li>${escapeHtml(x)}</li>`).join("")}
-      </ul>
-    `;
-  }
-
-  function renderPills(pills) {
-    // pills: array of strings (already human readable)
-    const ok = pills.map(x => (typeof x === "string" ? x.trim() : "")).filter(Boolean);
-    if (!ok.length) return "";
-    return ok.map(x => `<span class="pill">${escapeHtml(x)}</span>`).join("");
+  function formatFreqLabel(freq) {
+    const map = { often: "頻出", sometimes: "たまに", rare: "稀" };
+    return map[freq] || String(freq || "");
   }
 
   function formatGrammarLine(g) {
@@ -388,9 +425,8 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
     const pos = g.pos;
 
     if (pos === "noun") {
-      const a = g.article ? g.article : "";
+      const a = isNonEmptyString(g.article) ? g.article : "";
       const pl = isNonEmptyString(g.plural) ? `Pl.: ${g.plural}` : (g.plural === "" ? "Pl.: —" : "");
-      // article + word は本文で出るので、ここは情報だけ
       return [a, pl].filter(Boolean).join(" / ");
     }
 
@@ -400,88 +436,68 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
       return [pr, pf].filter(Boolean).join(" / ");
     }
 
-    if (pos === "adj") {
-      return "Adj.";
-    }
+    if (pos === "adj") return "Adj.";
+    if (pos === "adv") return "Adv.";
 
-    if (pos === "adv") {
-      return "Adv.";
-    }
-
-    // fallback
     return String(pos);
   }
 
-  function formatPosLabel(pos) {
-    if (!pos) return "";
-    const map = {
-      noun: "N",
-      verb: "V",
-      adj: "Adj",
-      adv: "Adv"
-    };
-    return map[pos] || String(pos);
-  }
-
-  function formatFreqLabel(freq) {
-    // "often" | "sometimes" | "rare" などを想定
-    const map = {
-      often: "頻出",
-      sometimes: "たまに",
-      rare: "稀"
-    };
-    return map[freq] || freq || "";
-  }
   // =========================
-  // Render cards
+  // Render
   // =========================
   function renderCard(c, mode) {
     const lang = getLang();
     const dueMs = getCardDueMs(c.id);
 
-    const etyText = (c.etymology?.[lang] ?? "").trim();
+    const g = c.grammar || {};
+    const posLabel = formatPosLabel(g.pos);
+    const grammarLine = formatGrammarLine(g);
+
+    // Pills: pos + level + freq + tags
+    const pillTexts = [];
+    if (posLabel) pillTexts.push(posLabel);
+    if (isNonEmptyString(c.level)) pillTexts.push(c.level);
+    if (isNonEmptyString(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
+    if (Array.isArray(c.tags)) {
+      for (const x of c.tags) pillTexts.push(tagLabel(x));
+    }
+
+    const meaningLines = normalizeText(c.meaning?.[lang]);
+    const nuanceLines = normalizeText(c.nuance?.[lang]);
+    const minimalLines = normalizeText(c.minimal?.[lang]);
+    const etyLines = normalizeText(c.etymology?.[lang]);
+    const exampleLines = normalizeText(c.example?.[lang]);
+    const taskLines = normalizeText(c.task?.[lang]);
 
     const el = document.createElement("section");
     el.className = "card";
     el.innerHTML = `
       <div class="row" style="align-items:flex-start">
-        <div>
-          <div class="word">${c.word}</div>
-          <div>${(c.tags || []).map(x => `<span class="pill">${tagLabel(x)}</span>`).join("")}</div>
+        <div style="min-width:0">
+          <div class="word">${escapeHtml(c.word || "")}</div>
+          <div>${renderPills(pillTexts)}</div>
+          ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
         </div>
-        <div class="muted">${t("due")}: <span class="mono">${fmtDate(dueMs)}</span></div>
+        <div class="muted">${escapeHtml(t("due"))}: <span class="mono">${escapeHtml(fmtDate(dueMs))}</span></div>
       </div>
 
-      <div class="label">${t("meaning")}</div>
-      <p class="txt">${(c.meaning?.[lang] ?? "").trim()}</p>
-
-      <div class="label">${t("nuance")}</div>
-      <p class="txt">${(c.nuance?.[lang] ?? "").trim()}</p>
-
-      <div class="label">${t("minimal")}</div>
-      <p class="txt">${(c.minimal?.[lang] ?? "").trim()}</p>
-
-      ${etyText ? `
-        <div class="label">${t("etymology")}</div>
-        <p class="txt">${etyText}</p>
-      ` : ""}
-
-      <div class="label">${t("example")}</div>
-      <p class="txt mono">${(c.example?.[lang] ?? "").trim()}</p>
-
-      <div class="label">${t("task")}</div>
-      <p class="txt">${(c.task?.[lang] ?? "").trim()}</p>
+      ${renderTextBlock(t("meaning"), meaningLines, "txt")}
+      ${renderTextBlock(t("nuance"), nuanceLines, "txt")}
+      ${renderTextBlock(t("minimal"), minimalLines, "txt")}
+      ${renderTextBlock(t("etymology"), etyLines, "txt")}
+      ${renderTextBlock(t("example"), exampleLines, "txt mono")}
+      ${renderTextBlock(t("task"), taskLines, "txt")}
 
       ${mode === "review" ? `
-        <div class="label">${t("score")}</div>
+        <div class="label">${escapeHtml(t("score"))}</div>
         <div class="score">
-          <button class="btn" data-score="bad">${t("bad")}</button>
-          <button class="btn" data-score="ok">${t("ok")}</button>
-          <button class="btn" data-score="good">${t("good")}</button>
+          <button class="btn" data-score="bad">${escapeHtml(t("bad"))}</button>
+          <button class="btn" data-score="ok">${escapeHtml(t("ok"))}</button>
+          <button class="btn" data-score="good">${escapeHtml(t("good"))}</button>
         </div>
         <div class="muted" style="margin-top:8px" data-status=""></div>
       ` : `
-        <div class="muted" style="margin-top:10px">${t("score")}: ${t("bad")} / ${t("ok")} / ${t("good")} はReviewで</div>
+        <div class="muted" style="margin-top:10px">${escapeHtml(t("score"))}: ${escapeHtml(t("bad"))} / ${escapeHtml(t("ok"))} / ${escapeHtml(t("good"))} はReviewで</div>
       `}
     `;
 
@@ -528,21 +544,17 @@ const res = await fetch(`./cards.json?v=${CARDS_VERSION}`, {
     tabToday.classList.toggle("primary", view === "today");
     tabReview.classList.toggle("primary", view === "review");
 
-    // Screen title + list
     const list = document.getElementById("list");
     list.innerHTML = "";
 
     if (view === "today") {
       document.getElementById("screenTitle").textContent = UI[lang].today;
-
       const seed = getSeed();
       const today = seedShuffle(CARDS, seed).slice(0, 5);
-
       for (const c of today) list.appendChild(renderCard(c, "today"));
       document.getElementById("screenCount").textContent = `${today.length}`;
     } else {
       document.getElementById("screenTitle").textContent = UI[lang].review;
-
       const due = getDueCards();
       if (!due.length) {
         list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
