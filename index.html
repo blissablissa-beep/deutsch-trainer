@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#111111" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <title>Deutsch Trainer (Private)</title>
+  <style>
+    :root { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif; }
+    body { margin: 0; background: #0b0b0b; color: #f2f2f2; }
+    header { position: sticky; top: 0; background: rgba(10,10,10,.92); backdrop-filter: blur(10px); border-bottom: 1px solid #222; z-index: 10; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 14px 14px 28px; }
+    .row { display:flex; align-items:center; justify-content:space-between; gap: 12px; }
+    h1 { font-size: 18px; margin: 0; letter-spacing: .2px; }
+    .btn { background:#1b1b1b; border:1px solid #2a2a2a; color:#fff; padding:8px 10px; border-radius:10px; font-size:14px; }
+    .btn:active { transform: translateY(1px); }
+    .sub { color:#bdbdbd; font-size:13px; margin-top: 6px; }
+    .tabs { display:flex; gap:8px; margin-top: 10px; }
+    .tab { flex: 0 0 auto; }
+    .btn.primary { border-color:#3a3a3a; background:#222; }
+    .grid { display:grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
+    .card { background:#121212; border:1px solid #222; border-radius:14px; padding: 12px 12px; }
+    .word { font-size:18px; font-weight:700; margin:0 0 6px; }
+    .pill { display:inline-block; font-size:12px; padding:3px 8px; border:1px solid #2a2a2a; border-radius:999px; color:#cfcfcf; margin-right:6px; }
+    .label { color:#9a9a9a; font-size:12px; margin-top:10px; }
+    .txt { margin: 4px 0 0; white-space: pre-wrap; line-height: 1.5; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+    .actions { display:flex; gap:8px; margin-top: 10px; flex-wrap: wrap; }
+    .score { display:flex; gap:8px; margin-top: 10px; }
+    .score .btn { flex: 1 1 0; padding: 10px 10px; }
+    .muted { color:#8e8e8e; font-size:12px; }
+    footer { margin-top: 18px; color:#8e8e8e; font-size:12px; }
+    a { color:#9bd; }
+    .count { color:#cfcfcf; font-size:13px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="row">
+      <div>
+        <h1 id="appTitle">Deutsch Trainer</h1>
+        <div class="sub" id="appSub">個人用 / PWA / JP⇄DE切替</div>
+      </div>
+      <button class="btn" id="langBtn" aria-label="toggle language">JP</button>
+    </div>
+
+    <div class="tabs">
+      <button class="btn tab primary" id="tabToday"></button>
+      <button class="btn tab" id="tabReview"></button>
+      <span style="flex:1"></span>
+      <button class="btn" id="shuffleBtn">↻</button>
+    </div>
+
+    <div class="row" style="margin-top:10px">
+      <div class="sub" id="screenTitle"></div>
+      <div class="count" id="screenCount"></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="list" class="grid" aria-live="polite"></div>
+
+  <footer>
+    <div class="muted">Tip: iPhone Safari → 共有 → <span class="mono">ホーム画面に追加</span></div>
+  </footer>
+</main>
+
+<script>
+  // =========================
+  // i18n (UI)
+  // =========================
+  const UI = {
+    ja: {
+      title: "Deutsch Trainer",
+      sub: "個人用 / PWA / JP⇄DE切替",
+      tabToday: "Today",
+      tabReview: "Review",
+      today: "今日の5語",
+      review: "復習（期限到来）",
+      shuffle: "シャッフル",
+      meaning: "意味（核心）",
+      nuance: "語感・ニュアンス",
+      minimal: "最小対立（近い語との違い）",
+      example: "例文",
+      task: "産出課題",
+      due: "復習期限",
+      score: "自己採点",
+      good: "覚えた",
+      ok: "微妙",
+      bad: "ダメ",
+      done: "記録しました",
+      tags: { abs: "抽象", exam: "試験", coll: "コロケ" }
+    },
+    de: {
+      title: "Deutsch Trainer",
+      sub: "Privat / PWA / Umschalten JP⇄DE",
+      tabToday: "Today",
+      tabReview: "Review",
+      today: "Heutige 5 Wörter",
+      review: "Wiederholen (fällig)",
+      shuffle: "Mischen",
+      meaning: "Kernbedeutung",
+      nuance: "Nuance / Gebrauch",
+      minimal: "Minimalpaar (Abgrenzung)",
+      example: "Beispiel",
+      task: "Output-Aufgabe",
+      due: "Fällig am",
+      score: "Selbsteinschätzung",
+      good: "Gewusst",
+      ok: "So lala",
+      bad: "Falsch",
+      done: "Gespeichert",
+      tags: { abs: "abstrakt", exam: "Prüfung", coll: "Kollok." }
+    }
+  };
+
+  // =========================
+  // Card data (bilingual)
+  // =========================
+  const CARDS = [
+    {
+      id: "verhaeltnismaessigkeit",
+      word: "Verhältnismäßigkeit",
+      tags: ["abs","exam"],
+      meaning: {
+        ja: "（目的に対して手段が）過度でなく釣り合っていること。法・行政で重要。",
+        de: "Grundsatz, dass Mittel und Zweck in einem angemessenen Verhältnis stehen (v. a. im Recht)."
+      },
+      nuance: {
+        ja: "“必要性/相当性/最小侵害”の枠組みとセットで語られやすい。",
+        de: "Oft zusammen mit Erforderlichkeit / Angemessenheit / mildestes Mittel."
+      },
+      minimal: {
+        ja: "angemessen（適切）より“法的テスト”の色が強い。",
+        de: "Stärker juristisch-technisch als bloß „angemessen“."
+      },
+      example: {
+        ja: "Die Maßnahme muss verhältnismäßig sein.",
+        de: "Die Maßnahme muss verhältnismäßig sein."
+      },
+      task: {
+        ja: "「監視強化は比例原則に反する」を1文で。",
+        de: "Ein Satz: „Mehr Überwachung verstößt gegen den Grundsatz der Verhältnismäßigkeit.“"
+      }
+    },
+    {
+      id: "zielkonflikt",
+      word: "Zielkonflikt",
+      tags: ["abs","exam"],
+      meaning: {
+        ja: "複数の目標が同時には達成しにくく、相互にぶつかる状態。",
+        de: "Konflikt zwischen Zielen, die nicht gleichzeitig vollständig erreichbar sind."
+      },
+      nuance: {
+        ja: "政策・経済・環境文脈で頻出。trade-offに近い。",
+        de: "Häufig in Politik/Ökonomie/Umwelt; nahe an „Trade-off“."
+      },
+      minimal: {
+        ja: "Dilemma（板挟み）より中立で分析的。",
+        de: "Analytischer als „Dilemma“; weniger dramatisch."
+      },
+      example: {
+        ja: "Zwischen Klimaschutz und Wachstum besteht ein Zielkonflikt.",
+        de: "Zwischen Klimaschutz und Wachstum besteht ein Zielkonflikt."
+      },
+      task: {
+        ja: "あなたの職場で起こりうるZielkonfliktを1つ挙げ、理由を一言。",
+        de: "Nenne einen Zielkonflikt in deinem Kontext und begründe kurz."
+      }
+    },
+    {
+      id: "nachweis",
+      word: "Nachweis",
+      tags: ["exam","coll"],
+      meaning: {
+        ja: "証明書類・証拠・提示できる証明（提出物としての証明）。",
+        de: "Beleg/Beweisstück bzw. dokumentierbarer Nachweis (oft als vorzulegendes Dokument)."
+      },
+      nuance: {
+        ja: "Beweisより“提出・提示する書類”寄りのことが多い。",
+        de: "Oft stärker dokument-/vorlagebezogen als „Beweis“."
+      },
+      minimal: {
+        ja: "Beweis＝論証の中身、Nachweis＝提出物/証明手段、の整理が便利。",
+        de: "„Beweis“ eher argumentativ; „Nachweis“ eher dokumentarisch."
+      },
+      example: {
+        ja: "Bitte reichen Sie einen Nachweis über Ihre Versicherung ein.",
+        de: "Bitte reichen Sie einen Nachweis über Ihre Versicherung ein."
+      },
+      task: {
+        ja: "「居住証明を提出してください」を丁寧にドイツ語で。",
+        de: "Höflich: „Bitte legen Sie einen Wohnsitznachweis vor.“"
+      }
+    },
+    {
+      id: "hapern",
+      word: "es hapert (an …)",
+      tags: ["abs","coll"],
+      meaning: {
+        ja: "…が不足/欠けていて物事がうまくいかない（支障がある）。",
+        de: "Etwas fehlt/ist unzureichend, sodass es nicht richtig klappt."
+      },
+      nuance: {
+        ja: "口語〜準書き言葉。原因箇所をanで示すのが定番。",
+        de: "Umgangssprachlich bis neutral; typisch: „an + Dat.“"
+      },
+      minimal: {
+        ja: "mangeln＝不足が客観描写、hapern＝“そこで引っかかってる”感。",
+        de: "„mangeln“ nüchterner; „hapern“ klingt nach „es hakt“."
+      },
+      example: {
+        ja: "An der Kommunikation hapert es noch.",
+        de: "An der Kommunikation hapert es noch."
+      },
+      task: {
+        ja: "自分の学習で「〜が足りない」をes hapert an…で1文。",
+        de: "Bilde einen Satz über dein Lernen mit „Es hapert an …“."
+      }
+    },
+    {
+      id: "unzul",
+      word: "Unzulänglichkeit",
+      tags: ["abs","exam"],
+      meaning: {
+        ja: "不十分さ、欠陥（フォーマル）。",
+        de: "Unzureichendheit/Mangel (formal)."
+      },
+      nuance: {
+        ja: "抽象名詞で論評・報告書調。Mangelより硬い。",
+        de: "Formeller/abstrakter als „Mangel“."
+      },
+      minimal: {
+        ja: "Mangel＝欠点（一般）、Unzulänglichkeit＝不備（硬い/分析）。",
+        de: "„Mangel“ allgemein; „Unzulänglichkeit“ eher analytisch."
+      },
+      example: {
+        ja: "Die Studie weist methodische Unzulänglichkeiten auf.",
+        de: "Die Studie weist methodische Unzulänglichkeiten auf."
+      },
+      task: {
+        ja: "論文レビュー風に「方法上の不備がある」を1文。",
+        de: "Wie in einer Rezension: „… weist methodische Unzulänglichkeiten auf.“"
+      }
+    }
+  ];
+
+  // =========================
+  // Storage keys
+  // =========================
+  const LS_LANG = "dt_lang";
+  const LS_SEED = "dt_seed";
+  const LS_VIEW = "dt_view";      // "today" | "review"
+  const LS_SRS  = "dt_srs_state"; // per-card SRS
+
+  // =========================
+  // Helpers
+  // =========================
+  function getLang() { return localStorage.getItem(LS_LANG) || "ja"; }
+  function setLang(lang) { localStorage.setItem(LS_LANG, lang); }
+
+  function getView() { return localStorage.getItem(LS_VIEW) || "today"; }
+  function setView(v) { localStorage.setItem(LS_VIEW, v); }
+
+  function t(key) { const lang = getLang(); return UI[lang][key] ?? key; }
+  function tagLabel(tag) { const lang = getLang(); return UI[lang].tags[tag] || tag; }
+
+  function todayKeyDate() {
+    const d = new Date();
+    const y = d.getFullYear();
+    const m = String(d.getMonth()+1).padStart(2,"0");
+    const day = String(d.getDate()).padStart(2,"0");
+    return `${y}${m}${day}`;
+  }
+
+  function getSeed() {
+    let s = localStorage.getItem(LS_SEED);
+    if (!s) {
+      s = Number(todayKeyDate());
+      localStorage.setItem(LS_SEED, String(s));
+    }
+    return Number(s);
+  }
+  function rotateSeed() {
+    const s = Math.floor(Math.random() * 1e9);
+    localStorage.setItem(LS_SEED, String(s));
+  }
+  function seedShuffle(arr, seed) {
+    let a = arr.slice();
+    let x = seed;
+    for (let i = a.length - 1; i > 0; i--) {
+      x = (x * 1664525 + 1013904223) % 4294967296;
+      const j = x % (i + 1);
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+  function startOfTodayMs() {
+    const d = new Date();
+    d.setHours(0,0,0,0);
+    return d.getTime();
+  }
+  function fmtDate(ms) {
+    const d = new Date(ms);
+    const y = d.getFullYear();
+    const m = String(d.getMonth()+1).padStart(2,"0");
+    const day = String(d.getDate()).padStart(2,"0");
+    return `${y}-${m}-${day}`;
+  }
+
+  // =========================
+  // SRS State
+  // =========================
+  // state[id] = { intervalDays, dueMs }
+  function loadSrs() {
+    try { return JSON.parse(localStorage.getItem(LS_SRS) || "{}"); }
+    catch { return {}; }
+  }
+  function saveSrs(state) {
+    localStorage.setItem(LS_SRS, JSON.stringify(state));
+  }
+  function ensureCardState(state, id) {
+    if (!state[id]) {
+      // First time: due today, interval 1 day
+      state[id] = { intervalDays: 1, dueMs: startOfTodayMs() };
+    }
+    return state[id];
+  }
+
+  // Scoring rules (simple, works well enough)
+  // good: interval * 2.2 (min +1)
+  // ok:   interval * 1.3 (min +1)
+  // bad:  interval = 1, due = today (or tomorrow)
+  function applyScore(id, score) {
+    const state = loadSrs();
+    const s = ensureCardState(state, id);
+    const today = startOfTodayMs();
+
+    if (score === "good") {
+      const next = Math.max(2, Math.round(s.intervalDays * 2.2));
+      s.intervalDays = next;
+      s.dueMs = today + next * 86400000;
+    } else if (score === "ok") {
+      const next = Math.max(1, Math.round(s.intervalDays * 1.3));
+      s.intervalDays = next;
+      s.dueMs = today + next * 86400000;
+    } else { // bad
+      s.intervalDays = 1;
+      s.dueMs = today; // keep it due (so it reappears)
+    }
+
+    state[id] = s;
+    saveSrs(state);
+  }
+
+  function getDueCards() {
+    const state = loadSrs();
+    const today = startOfTodayMs();
+    const due = [];
+    for (const c of CARDS) {
+      const s = ensureCardState(state, c.id);
+      if (s.dueMs <= today) due.push(c);
+    }
+    saveSrs(state); // persist any newly initialized
+    return due;
+  }
+
+  function getCardDueMs(id) {
+    const state = loadSrs();
+    const s = ensureCardState(state, id);
+    saveSrs(state);
+    return s.dueMs;
+  }
+
+  // =========================
+  // Render cards
+  // =========================
+  function renderCard(c, mode) {
+    const lang = getLang();
+    const dueMs = getCardDueMs(c.id);
+
+    const el = document.createElement("section");
+    el.className = "card";
+    el.innerHTML = `
+      <div class="row" style="align-items:flex-start">
+        <div>
+          <div class="word">${c.word}</div>
+          <div>${c.tags.map(x => `<span class="pill">${tagLabel(x)}</span>`).join("")}</div>
+        </div>
+        <div class="muted">${t("due")}: <span class="mono">${fmtDate(dueMs)}</span></div>
+      </div>
+
+      <div class="label">${t("meaning")}</div>
+      <p class="txt">${(c.meaning?.[lang] ?? "").trim()}</p>
+
+      <div class="label">${t("nuance")}</div>
+      <p class="txt">${(c.nuance?.[lang] ?? "").trim()}</p>
+
+      <div class="label">${t("minimal")}</div>
+      <p class="txt">${(c.minimal?.[lang] ?? "").trim()}</p>
+
+      <div class="label">${t("example")}</div>
+      <p class="txt mono">${(c.example?.[lang] ?? "").trim()}</p>
+
+      <div class="label">${t("task")}</div>
+      <p class="txt">${(c.task?.[lang] ?? "").trim()}</p>
+
+      ${mode === "review" ? `
+        <div class="label">${t("score")}</div>
+        <div class="score">
+          <button class="btn" data-score="bad">${t("bad")}</button>
+          <button class="btn" data-score="ok">${t("ok")}</button>
+          <button class="btn" data-score="good">${t("good")}</button>
+        </div>
+        <div class="muted" style="margin-top:8px" data-status=""></div>
+      ` : `
+        <div class="muted" style="margin-top:10px">${t("score")}: ${t("bad")} / ${t("ok")} / ${t("good")} はReviewで</div>
+      `}
+    `;
+
+    if (mode === "review") {
+      const statusEl = el.querySelector('[data-status]');
+      el.querySelectorAll("button[data-score]").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const score = btn.getAttribute("data-score");
+          applyScore(c.id, score);
+          statusEl.textContent = t("done") + ` → ${t("due")}: ${fmtDate(getCardDueMs(c.id))}`;
+          // remove card from view after scoring (nice for flow)
+          setTimeout(() => { el.remove(); updateCountAfterRemove(); }, 250);
+        });
+      });
+    }
+
+    return el;
+  }
+
+  function updateCountAfterRemove() {
+    const list = document.getElementById("list");
+    const left = list.querySelectorAll(".card").length;
+    document.getElementById("screenCount").textContent = left ? `${left}` : "";
+    if (!left && getView() === "review") {
+      document.getElementById("list").innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
+    }
+  }
+
+  function render() {
+    const lang = getLang();
+    document.documentElement.lang = (lang === "ja" ? "ja" : "de");
+
+    // Header texts
+    document.getElementById("appTitle").textContent = UI[lang].title;
+    document.getElementById("appSub").textContent = UI[lang].sub;
+    document.getElementById("langBtn").textContent = (lang === "ja" ? "JP" : "DE");
+    document.getElementById("shuffleBtn").textContent = "↻ " + UI[lang].shuffle;
+
+    // Tabs
+    const view = getView();
+    const tabToday = document.getElementById("tabToday");
+    const tabReview = document.getElementById("tabReview");
+    tabToday.textContent = UI[lang].tabToday;
+    tabReview.textContent = UI[lang].tabReview;
+    tabToday.classList.toggle("primary", view === "today");
+    tabReview.classList.toggle("primary", view === "review");
+
+    // Screen title + list
+    const list = document.getElementById("list");
+    list.innerHTML = "";
+
+    if (view === "today") {
+      document.getElementById("screenTitle").textContent = UI[lang].today;
+
+      const seed = getSeed();
+      const today = seedShuffle(CARDS, seed).slice(0, 5);
+
+      for (const c of today) list.appendChild(renderCard(c, "today"));
+      document.getElementById("screenCount").textContent = `${today.length}`;
+    } else {
+      document.getElementById("screenTitle").textContent = UI[lang].review;
+
+      const due = getDueCards();
+      if (!due.length) {
+        list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
+        document.getElementById("screenCount").textContent = "";
+      } else {
+        // In review, show due cards (you can shuffle if you want)
+        for (const c of due) list.appendChild(renderCard(c, "review"));
+        document.getElementById("screenCount").textContent = `${due.length}`;
+      }
+    }
+  }
+
+  // =========================
+  // Events
+  // =========================
+  document.getElementById("langBtn").addEventListener("click", () => {
+    setLang(getLang() === "ja" ? "de" : "ja");
+    render();
+  });
+
+  document.getElementById("shuffleBtn").addEventListener("click", () => {
+    rotateSeed();
+    render();
+  });
+
+  document.getElementById("tabToday").addEventListener("click", () => {
+    setView("today");
+    render();
+  });
+
+  document.getElementById("tabReview").addEventListener("click", () => {
+    setView("review");
+    render();
+  });
+
+  // =========================
+  // PWA: service worker
+  // =========================
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", async () => {
+      try { await navigator.serviceWorker.register("./sw.js"); } catch (e) {}
+    });
+  }
+
+  render();
+</script>
+</body>
+</html>
