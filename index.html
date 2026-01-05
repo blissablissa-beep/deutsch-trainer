@@ -211,6 +211,7 @@
       tabToday: "Today",
       tabReview: "Review",
       today: "今日の5語",
+      searchResult: "検索結果",
       review: "復習（期限到来）",
       shuffle: "シャッフル",
       meaning: "意味（核心）",
@@ -232,6 +233,7 @@
       sub: "Privat / PWA / Umschalten JP⇄DE",
       tabToday: "Today",
       tabReview: "Review",
+      searchResult: "Suchergebnis",
       today: "Heutige 5 Wörter",
       review: "Wiederholen (fällig)",
       shuffle: "Mischen",
@@ -602,7 +604,7 @@ function render() {
 
   if (view === "today") {
     document.getElementById("screenTitle").textContent =
-  QUERY ? "検索結果" : UI[lang].today;
+  QUERY ? UI[lang].searchResult : UI[lang].today;
 
     const seed = getSeed();
 const base = filterCardsByQuery(CARDS);
