@@ -604,14 +604,19 @@ function render() {
     document.getElementById("screenTitle").textContent = UI[lang].today;
 
     const seed = getSeed();
-    const base = filterCardsByQuery(CARDS);
-    const today = seedShuffle(base, seed).slice(0, 5);
+const base = filterCardsByQuery(CARDS);
 
-    for (const c of today) list.appendChild(renderCard(c, "today"));
-    document.getElementById("screenCount").textContent = `${today.length}`;
-  } else {
-    document.getElementById("screenTitle").textContent = UI[lang].review;
-
+if (!base.length) {
+  // Todayカードはあるが、検索にヒットしない
+  list.innerHTML = `<div class="muted">該当なし。検索語を変えてみてください。</div>`;
+  document.getElementById("screenCount").textContent = "";
+} else {
+  const today = seedShuffle(base, seed).slice(0, 5);
+  for (const c of today) {
+    list.appendChild(renderCard(c, "today"));
+  }
+  document.getElementById("screenCount").textContent = `${today.length}`;
+}
 const due = getDueCards();
 const dueFiltered = filterCardsByQuery(due);
 
