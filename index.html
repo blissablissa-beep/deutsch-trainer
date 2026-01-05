@@ -566,48 +566,52 @@ function formatFreqLabel(freq) {
     }
   }
 
-  function render() {
-    const lang = getLang();
-    document.documentElement.lang = (lang === "ja" ? "ja" : "de");
+function render() {
+  const lang = getLang();
+  document.documentElement.lang = (lang === "ja" ? "ja" : "de");
 
-    // Header texts
-    document.getElementById("appTitle").textContent = UI[lang].title;
-    document.getElementById("appSub").textContent = UI[lang].sub;
-    document.getElementById("langBtn").textContent = (lang === "ja" ? "JP" : "DE");
-    document.getElementById("shuffleBtn").textContent = "↻ " + UI[lang].shuffle;
+  // Header texts
+  document.getElementById("appTitle").textContent = UI[lang].title;
+  document.getElementById("appSub").textContent = UI[lang].sub;
+  document.getElementById("langBtn").textContent = (lang === "ja" ? "JP" : "DE");
+  document.getElementById("shuffleBtn").textContent = "↻ " + UI[lang].shuffle;
 
-    // Tabs
-    const view = getView();
-    const tabToday = document.getElementById("tabToday");
-    const tabReview = document.getElementById("tabReview");
-    tabToday.textContent = UI[lang].tabToday;
-    tabReview.textContent = UI[lang].tabReview;
-    tabToday.classList.toggle("primary", view === "today");
-    tabReview.classList.toggle("primary", view === "review");
+  // Tabs
+  const view = getView();
+  const tabToday = document.getElementById("tabToday");
+  const tabReview = document.getElementById("tabReview");
+  tabToday.textContent = UI[lang].tabToday;
+  tabReview.textContent = UI[lang].tabReview;
+  tabToday.classList.toggle("primary", view === "today");
+  tabReview.classList.toggle("primary", view === "review");
 
-    const list = document.getElementById("list");
-    list.innerHTML = "";
+  const list = document.getElementById("list");
+  list.innerHTML = "";
 
-    if (view === "today") {
-      document.getElementById("screenTitle").textContent = UI[lang].today;
-      const seed = getSeed();
-      const base = filterCardsByQuery(CARDS);
-      const today = seedShuffle(base, seed).slice(0, 5);
+  if (view === "today") {
+    document.getElementById("screenTitle").textContent = UI[lang].today;
 
-      for (const c of today) list.appendChild(renderCard(c, "today"));
-      document.getElementById("screenCount").textContent = `${today.length}`;
+    const seed = getSeed();
+    const base = filterCardsByQuery(CARDS);
+    const today = seedShuffle(base, seed).slice(0, 5);
+
+    for (const c of today) list.appendChild(renderCard(c, "today"));
+    document.getElementById("screenCount").textContent = `${today.length}`;
+  } else {
+    document.getElementById("screenTitle").textContent = UI[lang].review;
+
+    const due = getDueCards();
+    const dueFiltered = filterCardsByQuery(due);
+
+    if (!dueFiltered.length) {
+      list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
+      document.getElementById("screenCount").textContent = "";
     } else {
-      document.getElementById("screenTitle").textContent = UI[lang].review;
-      const due = getDueCards();
-      if (!due.length) {
-        list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
-        document.getElementById("screenCount").textContent = "";
-      } else {
-        for (const c of due) list.appendChild(renderCard(c, "review"));
-        document.getElementById("screenCount").textContent = `${due.length}`;
-      }
+      for (const c of dueFiltered) list.appendChild(renderCard(c, "review"));
+      document.getElementById("screenCount").textContent = `${dueFiltered.length}`;
     }
   }
+}
 
   // =========================
   // Events
@@ -631,6 +635,21 @@ function formatFreqLabel(freq) {
     setView("review");
     render();
   });
+  // Search input
+const qEl = document.getElementById("q");
+const clearEl = document.getElementById("clearBtn");
+
+qEl.addEventListener("input", () => {
+  setQuery(qEl.value || "");
+  render();
+});
+
+clearEl.addEventListener("click", () => {
+  qEl.value = "";
+  setQuery("");
+  render();
+  qEl.focus();
+});
 
   // =========================
   // PWA: service worker
