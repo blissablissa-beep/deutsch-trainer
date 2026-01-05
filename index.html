@@ -415,11 +415,15 @@
     return map[pos] || String(pos);
   }
 
-  function formatFreqLabel(freq) {
-    const map = { often: "頻出", sometimes: "たまに", rare: "稀" };
-    return map[freq] || String(freq || "");
-  }
+function formatFreqLabel(freq) {
+  const lang = getLang();
 
+  const mapJa = { often: "頻出", sometimes: "たまに", rare: "稀" };
+  const mapDe = { often: "häufig", sometimes: "gelegentlich", rare: "selten" };
+
+  const map = (lang === "de") ? mapDe : mapJa;
+  return map[freq] || String(freq || "");
+}
   function formatGrammarLine(g) {
     if (!g || !g.pos) return "";
     const pos = g.pos;
