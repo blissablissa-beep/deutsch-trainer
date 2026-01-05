@@ -601,7 +601,8 @@ function render() {
   list.innerHTML = "";
 
   if (view === "today") {
-    document.getElementById("screenTitle").textContent = UI[lang].today;
+    document.getElementById("screenTitle").textContent =
+  QUERY ? "検索結果" : UI[lang].today;
 
     const seed = getSeed();
 const base = filterCardsByQuery(CARDS);
