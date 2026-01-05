@@ -306,7 +306,7 @@ function highlightIfNeeded(text) {
   async function loadCards() {
     try {
       // ここを更新するだけで cards.json の更新が反映されやすい
-      const CARDS_VERSION = "2026-01-05";
+      const CARDS_VERSION = "2026-01-06";
 
       const res = await fetch(`./cards.json?v=${encodeURIComponent(CARDS_VERSION)}`, {
         cache: "no-store"
@@ -408,7 +408,22 @@ function filterCardsByQuery(cards) {
     }
     return a;
   }
+// ===== SRS Reset (one-time) =====
+// cards.json のID体系を変更したら、この値を変える
+const SRS_SCHEMA_VERSION = "20260106";
 
+(function resetSrsIfNeeded() {
+  const k = "dt_srs_schema";
+  const prev = localStorage.getItem(k);
+  if (prev !== SRS_SCHEMA_VERSION) {
+    localStorage.removeItem("dt_srs_state"); // 復習履歴リセット
+    localStorage.setItem(k, SRS_SCHEMA_VERSION);
+  }
+})();
+// NOTE:
+// - cards.json の id 体系変更時
+// - SRS データ構造変更時
+// は SRS_SCHEMA_VERSION を更新すること
   // =========================
   // SRS
   // =========================
