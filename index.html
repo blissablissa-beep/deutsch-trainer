@@ -306,8 +306,19 @@
 let QUERY = "";
 
 function setQuery(v) {
-  QUERY = v.toLowerCase().trim();
+  QUERY = (v || "").toLowerCase().trim();
 }
+
+function toArr(v) {
+  if (Array.isArray(v)) return v;
+  if (typeof v === "string") return [v];
+  return [];
+}
+
+function valuesFlat(obj) {
+  return Object.values(obj || {}).flatMap(toArr);
+}
+
 function filterCardsByQuery(cards) {
   if (!QUERY) return cards;
 
@@ -317,13 +328,14 @@ function filterCardsByQuery(cards) {
       c.level,
       c.freq,
       ...(c.tags || []),
-      ...(Object.values(c.meaning || {})),
-      ...(Object.values(c.nuance || {})),
-      ...(Object.values(c.minimal || {})),
-      ...(Object.values(c.etymology || {})),
-      ...(Object.values(c.example || {})),
-      ...(Object.values(c.task || {}))
+      ...valuesFlat(c.meaning),
+      ...valuesFlat(c.nuance),
+      ...valuesFlat(c.minimal),
+      ...valuesFlat(c.etymology),
+      ...valuesFlat(c.example),
+      ...valuesFlat(c.task),
     ]
+      .filter(Boolean)
       .join(" ")
       .toLowerCase();
 
