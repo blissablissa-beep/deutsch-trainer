@@ -95,7 +95,15 @@
       <span style="flex:1"></span>
       <button class="btn" id="shuffleBtn">↻</button>
     </div>
-
+<div class="row" style="margin-top:10px">
+  <input
+    id="q"
+    class="btn"
+    style="flex:1; text-align:left"
+    placeholder="検索（例: Beleg / 証拠 / Inventur）"
+  />
+  <button class="btn" id="clearBtn">✕</button>
+</div>
     <div class="row" style="margin-top:10px">
       <div class="sub" id="screenTitle"></div>
       <div class="count" id="screenCount"></div>
@@ -292,7 +300,36 @@
       );
     }
   }
+// =========================
+// Search
+// =========================
+let QUERY = "";
 
+function setQuery(v) {
+  QUERY = v.toLowerCase().trim();
+}
+function filterCardsByQuery(cards) {
+  if (!QUERY) return cards;
+
+  return cards.filter(c => {
+    const hay = [
+      c.word,
+      c.level,
+      c.freq,
+      ...(c.tags || []),
+      ...(Object.values(c.meaning || {})),
+      ...(Object.values(c.nuance || {})),
+      ...(Object.values(c.minimal || {})),
+      ...(Object.values(c.etymology || {})),
+      ...(Object.values(c.example || {})),
+      ...(Object.values(c.task || {}))
+    ]
+      .join(" ")
+      .toLowerCase();
+
+    return hay.includes(QUERY);
+  });
+}
   // =========================
   // Seed shuffle (today)
   // =========================
@@ -554,7 +591,9 @@ function formatFreqLabel(freq) {
     if (view === "today") {
       document.getElementById("screenTitle").textContent = UI[lang].today;
       const seed = getSeed();
-      const today = seedShuffle(CARDS, seed).slice(0, 5);
+      const base = filterCardsByQuery(CARDS);
+      const today = seedShuffle(base, seed).slice(0, 5);
+
       for (const c of today) list.appendChild(renderCard(c, "today"));
       document.getElementById("screenCount").textContent = `${today.length}`;
     } else {
