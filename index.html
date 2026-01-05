@@ -612,16 +612,23 @@ function render() {
   } else {
     document.getElementById("screenTitle").textContent = UI[lang].review;
 
-    const due = getDueCards();
-    const dueFiltered = filterCardsByQuery(due);
+const due = getDueCards();
+const dueFiltered = filterCardsByQuery(due);
 
-    if (!dueFiltered.length) {
-      list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
-      document.getElementById("screenCount").textContent = "";
-    } else {
-      for (const c of dueFiltered) list.appendChild(renderCard(c, "review"));
-      document.getElementById("screenCount").textContent = `${dueFiltered.length}`;
-    }
+if (!due.length) {
+  // 復習カード自体がない
+  list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
+  document.getElementById("screenCount").textContent = "";
+} else if (!dueFiltered.length) {
+  // 復習カードはあるが、検索にヒットしない
+  list.innerHTML = `<div class="muted">該当なし。検索語を変えてみてください。</div>`;
+  document.getElementById("screenCount").textContent = "";
+} else {
+  for (const c of dueFiltered) {
+    list.appendChild(renderCard(c, "review"));
+  }
+  document.getElementById("screenCount").textContent = `${dueFiltered.length}`;
+}
   }
 }
 
