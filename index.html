@@ -32,7 +32,15 @@
     .btn.primary { border-color:#3a3a3a; background:#222; }
     .grid { display:grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
     .card { background:#121212; border:1px solid #222; border-radius:14px; padding: 12px 12px; }
-    .word { font-size:18px; font-weight:700; margin:0 0 6px; }
+    .word {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 6px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
     .bm-btn {
   background: none;
   border: none;
@@ -734,10 +742,14 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
     el.innerHTML = `
       <div class="row" style="align-items:flex-start">
         <div style="min-width:0">
-          <div class="row" style="align-items:baseline; gap:10px">
-  <div class="word" style="flex:1; min-width:0">${highlightIfNeeded(c.word || "")}</div>
-    <button class="bm-btn" data-bm="1">${starChar}</button></div>
-  <div class="muted mono" style="flex:0 0 auto">${escapeHtml(c.sid || "")}</div>
+        <div class="row" style="align-items:baseline; gap:10px">
+  <div class="word" style="flex:1; min-width:0">
+    ${highlightIfNeeded(c.word || "")}
+  </div>
+  <div class="right" style="display:flex; align-items:center; gap:8px; flex:0 0 auto">
+    <button class="bm-btn" data-bm="1" aria-label="bookmark">${starChar}</button>
+    <div class="muted mono">${escapeHtml(c.sid || "")}</div>
+  </div>
 </div>
           <div>${renderPills(pillTexts)}</div>
           ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
