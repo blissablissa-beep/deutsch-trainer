@@ -375,6 +375,7 @@ function highlightIfNeeded(text) {
       today: "今日の5語",
       searchResult: "検索結果",
       noHit: "該当なし。検索語を変えてみてください。",
+      noReview: "OK。いま復習はありません。",
       review: "復習（期限到来）",
       shuffle: "シャッフル",
       meaning: "意味（核心）",
@@ -398,6 +399,7 @@ function highlightIfNeeded(text) {
       tabReview: "Review",
       searchResult: "Suchergebnis",
       noHit: "Keine Treffer. Bitte ändere den Suchbegriff.",
+      noReview: "OK. Im Moment gibt es nichts zum Wiederholen.",
       today: "Heutige 5 Wörter",
       review: "Wiederholen (fällig)",
       shuffle: "Mischen",
@@ -823,7 +825,7 @@ bmBtn.addEventListener("click", () => {
     const left = list.querySelectorAll(".card").length;
     document.getElementById("screenCount").textContent = left ? `${left}` : "";
     if (!left && getView() === "review") {
-      document.getElementById("list").innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
+      list.innerHTML = `<div class="muted">${escapeHtml(t("noReview"))}</div>`;
     }
   }
 
@@ -881,7 +883,7 @@ const dueFiltered2 = bmOnly
 
   if (!due.length) {
     // 復習カード自体がない
-    list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
+    list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
     document.getElementById("screenCount").textContent = "";
 } else if (!dueFiltered2.length) {
   list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
