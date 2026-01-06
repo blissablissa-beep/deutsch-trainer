@@ -751,12 +751,6 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
 
   <div class="muted">${escapeHtml(t("due"))}: <span class="mono">${escapeHtml(fmtDate(dueMs))}</span></div>
 </div>
-          <div>${renderPills(pillTexts)}</div>
-          ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
-        </div>
-        <div class="muted">${escapeHtml(t("due"))}: <span class="mono">${escapeHtml(fmtDate(dueMs))}</span></div>
-      </div>
-
       ${renderTextBlock(t("meaning"), meaningLines, "txt")}
       ${renderTextBlock(t("nuance"), nuanceLines, "txt")}
       ${renderTextBlock(t("minimal"), minimalLines, "txt")}
