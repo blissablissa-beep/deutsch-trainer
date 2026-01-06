@@ -374,6 +374,7 @@ function highlightIfNeeded(text) {
       tabReview: "Review",
       today: "今日の5語",
       searchResult: "検索結果",
+      noHit: "該当なし。検索語を変えてみてください。",
       review: "復習（期限到来）",
       shuffle: "シャッフル",
       meaning: "意味（核心）",
@@ -396,6 +397,7 @@ function highlightIfNeeded(text) {
       tabToday: "Today",
       tabReview: "Review",
       searchResult: "Suchergebnis",
+      noHit: "Keine Treffer. Bitte ändere den Suchbegriff.",
       today: "Heutige 5 Wörter",
       review: "Wiederholen (fällig)",
       shuffle: "Mischen",
@@ -805,10 +807,13 @@ el.innerHTML = `
     }
 const bmBtn = el.querySelector(".bm-btn");
 if (bmBtn) {
-  bmBtn.addEventListener("click", () => {
-    const nowStarred = toggleBookmark(c.id);
-    bmBtn.textContent = nowStarred ? "★" : "☆";
-  });
+bmBtn.addEventListener("click", () => {
+  const nowStarred = toggleBookmark(c.id);
+  bmBtn.textContent = nowStarred ? "★" : "☆";
+
+  // ★のみフィルタ中なら、表示を即更新（外した瞬間に消える）
+  if (getBmOnly()) render();
+});
 }
     return el;
   }
@@ -850,18 +855,17 @@ if (view === "today") {
 
   const seed = getSeed();
   const base = filterCardsByQuery(CARDS);
-  const bmOnly = getBmOnly();
+const bmOnly = getBmOnly();
 const base2 = bmOnly ? base.filter(c => hasBookmark(c.id)) : base;
 
-  if (!base.length) {
-    // Todayカードはあるが、検索にヒットしない
-    list.innerHTML = `<div class="muted">該当なし。検索語を変えてみてください。</div>`;
-    document.getElementById("screenCount").textContent = "";
-  } else {
-    const today = seedShuffle(base, seed).slice(0, 5);
-    for (const c of today) list.appendChild(renderCard(c, "today"));
-    document.getElementById("screenCount").textContent = `${today.length}`;
-  }
+if (!base2.length) {
+  list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
+  document.getElementById("screenCount").textContent = "";
+} else {
+  const today = seedShuffle(base2, seed).slice(0, 5);
+  for (const c of today) list.appendChild(renderCard(c, "today"));
+  document.getElementById("screenCount").textContent = `${today.length}`;
+}
 
 } else {
   document.getElementById("screenTitle").textContent =
@@ -880,7 +884,7 @@ const dueFiltered2 = bmOnly
     list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
     document.getElementById("screenCount").textContent = "";
 } else if (!dueFiltered2.length) {
-  list.innerHTML = `<div class="muted">該当なし。検索語を変えてみてください。</div>`;
+  list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
   document.getElementById("screenCount").textContent = "";
 } else {
   for (const c of dueFiltered2) list.appendChild(renderCard(c, "review"));
@@ -891,6 +895,17 @@ const dueFiltered2 = bmOnly
   // =========================
   // Events
   // =========================
+const bmToggleBtn = document.getElementById("bmToggleBtn");
+
+function syncBmToggleUi() {
+  bmToggleBtn.textContent = getBmOnly() ? "★" : "☆";
+}
+bmToggleBtn.addEventListener("click", () => {
+  setBmOnly(!getBmOnly());
+  syncBmToggleUi();
+  render();
+});
+syncBmToggleUi();
   document.getElementById("langBtn").addEventListener("click", () => {
     setLang(getLang() === "ja" ? "de" : "ja");
     render();
