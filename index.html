@@ -33,6 +33,25 @@
     .grid { display:grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
     .card { background:#121212; border:1px solid #222; border-radius:14px; padding: 12px 12px; }
     .word { font-size:18px; font-weight:700; margin:0 0 6px; }
+    .bm-btn {
+  background: none;
+  border: none;
+  color: #ffd700;
+  font-size: 18px;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+.bm-btn:hover {
+  filter: brightness(1.2);
+}
+
+.bm-btn:focus-visible {
+  outline: 2px solid #ffd70055;
+  border-radius: 6px;
+}
+.bm-btn:active {
+  transform: scale(0.9);
+}
     .pill {
       display:inline-block; font-size:12px; padding:3px 8px;
       border:1px solid #2a2a2a; border-radius:999px; color:#cfcfcf; margin-right:6px;
@@ -98,6 +117,7 @@ mark.hl {
       <button class="btn tab primary" id="tabToday"></button>
       <button class="btn tab" id="tabReview"></button>
       <span style="flex:1"></span>
+      <button class="btn" id="bmToggleBtn" title="ブックマークで絞り込み">☆</button>
       <button class="btn" id="shuffleBtn">↻</button>
     </div>
 <div class="row" style="margin-top:10px">
@@ -434,6 +454,41 @@ if (!v.ok) {
     }
   }
 // =========================
+// Bookmark
+// =========================
+const LS_BM = "dt_bookmarks"; // string[] of ids
+
+function loadBookmarks() {
+  try {
+    const a = JSON.parse(localStorage.getItem(LS_BM) || "[]");
+    return Array.isArray(a) ? a.filter(nonEmptyStr) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveBookmarks(ids) {
+  localStorage.setItem(LS_BM, JSON.stringify(ids));
+}
+
+function hasBookmark(id) {
+  if (!nonEmptyStr(id)) return false;
+  return loadBookmarks().includes(id);
+}
+
+function toggleBookmark(id) {
+  const ids = loadBookmarks();
+  const idx = ids.indexOf(id);
+  if (idx >= 0) ids.splice(idx, 1);
+  else ids.push(id);
+  saveBookmarks(ids);
+  return ids.includes(id);
+}
+
+// 表示フィルタ（★のみ）
+function getBmOnly() { return localStorage.getItem("dt_bm_only") === "1"; }
+function setBmOnly(v) { localStorage.setItem("dt_bm_only", v ? "1" : "0"); }
+// =========================
 // Search
 // =========================
 let QUERY = "";
@@ -651,6 +706,8 @@ return [pr, pf].filter(Boolean).join(" / ");
   function renderCard(c, mode) {
     const lang = getLang();
     const dueMs = getCardDueMs(c.id);
+    const starred = hasBookmark(c.id);
+  const starChar = starred ? "★" : "☆";
 
     const g = c.grammar || {};
     const posLabel = formatPosLabel(g.pos);
@@ -679,6 +736,7 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
         <div style="min-width:0">
           <div class="row" style="align-items:baseline; gap:10px">
   <div class="word" style="flex:1; min-width:0">${highlightIfNeeded(c.word || "")}</div>
+    <button class="bm-btn" data-bm="1">${starChar}</button></div>
   <div class="muted mono" style="flex:0 0 auto">${escapeHtml(c.sid || "")}</div>
 </div>
           <div>${renderPills(pillTexts)}</div>
@@ -718,7 +776,13 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
         });
       });
     }
-
+const bmBtn = el.querySelector(".bm-btn");
+if (bmBtn) {
+  bmBtn.addEventListener("click", () => {
+    const nowStarred = toggleBookmark(c.id);
+    bmBtn.textContent = nowStarred ? "★" : "☆";
+  });
+}
     return el;
   }
 
