@@ -132,9 +132,80 @@ mark.hl {
   // =========================
   // Utilities
   // =========================
-  function isNonEmptyString(v) {
-    return typeof v === "string" && v.trim().length > 0;
+function isStr(x) { return typeof x === "string"; }
+function nonEmptyStr(x) { return isStr(x) && x.trim().length > 0; }
+
+function isTextBlock(x) {
+  if (x === undefined || x === null) return true;
+  if (isStr(x)) return true;
+  if (Array.isArray(x)) return x.every(isStr);
+  return false;
+}
+
+function isLangObj(x) {
+  if (x === undefined || x === null) return true;
+  if (typeof x !== "object" || Array.isArray(x)) return false;
+  if ("ja" in x && !isTextBlock(x.ja)) return false;
+  if ("de" in x && !isTextBlock(x.de)) return false;
+  return true;
+}
+
+function validateCards(data) {
+  const errors = [];
+
+  if (!Array.isArray(data)) {
+    return { ok: false, errors: ["cards.json is not an array"] };
   }
+
+  const seen = new Map(); // id -> index(first)
+
+  data.forEach((c, i) => {
+    const prefix = `#${i + 1}`;
+
+    if (!c || typeof c !== "object" || Array.isArray(c)) {
+      errors.push(`${prefix}: card is not an object`);
+      return;
+    }
+
+    if (!nonEmptyStr(c.id)) errors.push(`${prefix}: id is missing/empty`);
+    if (!nonEmptyStr(c.word)) errors.push(`${prefix}: word is missing/empty`);
+
+    if (nonEmptyStr(c.id)) {
+      if (seen.has(c.id)) {
+        const j = seen.get(c.id);
+        errors.push(`${prefix}: duplicate id "${c.id}" (also at #${j + 1})`);
+      } else {
+        seen.set(c.id, i);
+      }
+    }
+
+    if (c.tags !== undefined) {
+      if (!Array.isArray(c.tags) || !c.tags.every(nonEmptyStr)) {
+        errors.push(`${prefix} (${c.id || "no-id"}): tags must be string[]`);
+      }
+    }
+
+    if (c.grammar !== undefined) {
+      if (!c.grammar || typeof c.grammar !== "object" || Array.isArray(c.grammar)) {
+        errors.push(`${prefix} (${c.id || "no-id"}): grammar must be an object`);
+      } else if (c.grammar.pos !== undefined) {
+        const okPos = ["noun", "verb", "adj", "adv"];
+        if (!okPos.includes(c.grammar.pos)) {
+          errors.push(`${prefix} (${c.id || "no-id"}): grammar.pos must be one of ${okPos.join(", ")}`);
+        }
+      }
+    }
+
+    const blocks = ["meaning", "nuance", "minimal", "etymology", "example", "task"];
+    for (const k of blocks) {
+      if (!isLangObj(c[k])) {
+        errors.push(`${prefix} (${c.id || "no-id"}): ${k} must be {ja,de} with string or string[]`);
+      }
+    }
+  });
+
+  return { ok: errors.length === 0, errors };
+}
 
   function normalizeText(v) {
     // string | array | undefined -> array of non-empty strings
@@ -314,9 +385,17 @@ function highlightIfNeeded(text) {
 
       if (!res.ok) throw new Error(`HTTP error ${res.status}`);
 
-      const data = await res.json();
-      if (!Array.isArray(data)) throw new Error("cards.json is not an array");
+const data = await res.json();
 
+const v = validateCards(data);
+if (!v.ok) {
+  CARDS = [];
+  showError(
+    "cards.json に問題があります:\n" +
+    v.errors.map(e => "・" + e).join("\n")
+  );
+  return;
+}
       CARDS = data;
       hideError();
     } catch (err) {
@@ -337,7 +416,7 @@ function highlightIfNeeded(text) {
 let QUERY = "";
 
 function setQuery(v) {
-  QUERY = (v || "").toLowerCase().trim();
+  QUERY = (v || "").trim();
 }
 
 function toArr(v) {
@@ -370,7 +449,7 @@ function filterCardsByQuery(cards) {
       .join(" ")
       .toLowerCase();
 
-    return hay.includes(QUERY);
+    return hay.includes(QUERY.toLowerCase());
   });
 }
   // =========================
@@ -524,15 +603,17 @@ function formatFreqLabel(freq) {
     const pos = g.pos;
 
     if (pos === "noun") {
-      const a = isNonEmptyString(g.article) ? g.article : "";
-      const pl = isNonEmptyString(g.plural) ? `Pl.: ${g.plural}` : (g.plural === "" ? "Pl.: —" : "");
+const a = nonEmptyStr(g.article) ? g.article : "";
+const pl = nonEmptyStr(g.plural)
+  ? `Pl.: ${g.plural}`
+  : (g.plural === "" ? "Pl.: —" : "");
       return [a, pl].filter(Boolean).join(" / ");
     }
 
     if (pos === "verb") {
-      const pr = isNonEmptyString(g.praeteritum) ? `Prät.: ${g.praeteritum}` : "";
-      const pf = isNonEmptyString(g.perfekt) ? `Perf.: ${g.perfekt}` : "";
-      return [pr, pf].filter(Boolean).join(" / ");
+const pr = nonEmptyStr(g.praeteritum) ? `Prät.: ${g.praeteritum}` : "";
+const pf = nonEmptyStr(g.perfekt) ? `Perf.: ${g.perfekt}` : "";
+return [pr, pf].filter(Boolean).join(" / ");
     }
 
     if (pos === "adj") return "Adj.";
@@ -555,8 +636,8 @@ function formatFreqLabel(freq) {
     // Pills: pos + level + freq + tags
     const pillTexts = [];
     if (posLabel) pillTexts.push(posLabel);
-    if (isNonEmptyString(c.level)) pillTexts.push(c.level);
-    if (isNonEmptyString(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
+if (nonEmptyStr(c.level)) pillTexts.push(c.level);
+if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
     if (Array.isArray(c.tags)) {
       for (const x of c.tags) pillTexts.push(tagLabel(x));
     }
