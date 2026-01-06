@@ -36,6 +36,14 @@
   font-size: 18px;
   font-weight: 700;
   margin: 0 0 6px;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.right.meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* 右寄せ */
+  gap: 4px;
 }
     .bm-btn {
   background: none;
@@ -44,6 +52,7 @@
   font-size: 18px;
   padding: 4px 6px;
   cursor: pointer;
+  align-self: flex-end;
 }
 .bm-btn:hover {
   filter: brightness(1.2);
@@ -740,10 +749,19 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
   <div style="min-width:0; flex:1">
     <div class="word">${highlightIfNeeded(c.word || "")}</div>
 
-    <div class="row meta" style="justify-content:flex-start; gap:10px; margin-top:2px;">
-      <button class="bm-btn" data-bm="1" aria-label="bookmark">${starChar}</button>
-      <div class="muted mono">${escapeHtml(c.sid || "")}</div>
-    </div>
+<div class="right meta">
+  <div class="muted due">
+    ${escapeHtml(t("due"))}: <span class="mono">${fmtDate(dueMs)}</span>
+  </div>
+
+  <button class="bm-btn" data-bm="1" aria-label="bookmark">
+    ${starChar}
+  </button>
+
+  <div class="muted mono sid">
+    ${escapeHtml(c.sid || "")}
+  </div>
+</div>
 
     <div>${renderPills(pillTexts)}</div>
     ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
