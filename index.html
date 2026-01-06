@@ -850,6 +850,8 @@ if (view === "today") {
 
   const seed = getSeed();
   const base = filterCardsByQuery(CARDS);
+  const bmOnly = getBmOnly();
+const base2 = bmOnly ? base.filter(c => hasBookmark(c.id)) : base;
 
   if (!base.length) {
     // Todayカードはあるが、検索にヒットしない
@@ -866,20 +868,24 @@ if (view === "today") {
     QUERY ? UI[lang].searchResult : UI[lang].review;
 
   const due = getDueCards();
-  const dueFiltered = filterCardsByQuery(due);
+const dueFiltered = filterCardsByQuery(due);
+
+const bmOnly = getBmOnly();
+const dueFiltered2 = bmOnly
+  ? dueFiltered.filter(c => hasBookmark(c.id))
+  : dueFiltered;
 
   if (!due.length) {
     // 復習カード自体がない
     list.innerHTML = `<div class="muted">OK。いま復習はありません。</div>`;
     document.getElementById("screenCount").textContent = "";
-  } else if (!dueFiltered.length) {
-    // 復習カードはあるが、検索にヒットしない
-    list.innerHTML = `<div class="muted">該当なし。検索語を変えてみてください。</div>`;
-    document.getElementById("screenCount").textContent = "";
-  } else {
-    for (const c of dueFiltered) list.appendChild(renderCard(c, "review"));
-    document.getElementById("screenCount").textContent = `${dueFiltered.length}`;
-  }
+} else if (!dueFiltered2.length) {
+  list.innerHTML = `<div class="muted">該当なし。検索語を変えてみてください。</div>`;
+  document.getElementById("screenCount").textContent = "";
+} else {
+  for (const c of dueFiltered2) list.appendChild(renderCard(c, "review"));
+  document.getElementById("screenCount").textContent = `${dueFiltered2.length}`;
+}
 }
 }
   // =========================
