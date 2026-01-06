@@ -750,47 +750,47 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
 
     const el = document.createElement("section");
     el.className = "card";
-    el.innerHTML = `
-      <div class="row" style="align-items:flex-start">
-  <div style="min-width:0; flex:1">
-    <div class="word">${highlightIfNeeded(c.word || "")}</div>
+el.innerHTML = `
+  <div class="row" style="align-items:flex-start">
+    <!-- LEFT -->
+    <div style="min-width:0; flex:1">
+      <div class="word">${highlightIfNeeded(c.word || "")}</div>
 
-<div class="right meta">
-  <div class="muted due">
-    ${escapeHtml(t("due"))}: <span class="mono">${fmtDate(dueMs)}</span>
+      <div>${renderPills(pillTexts)}</div>
+      ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right meta">
+      <div class="muted due">
+        ${escapeHtml(t("due"))}: <span class="mono">${fmtDate(dueMs)}</span>
+      </div>
+
+      <button class="bm-btn" data-bm="1" aria-label="bookmark">${starChar}</button>
+
+      <div class="muted mono sid">${escapeHtml(c.sid || "")}</div>
+    </div>
   </div>
 
-  <button class="bm-btn" data-bm="1" aria-label="bookmark">
-    ${starChar}
-  </button>
+  ${renderTextBlock(t("meaning"), meaningLines, "txt")}
+  ${renderTextBlock(t("nuance"), nuanceLines, "txt")}
+  ${renderTextBlock(t("minimal"), minimalLines, "txt")}
+  ${renderTextBlock(t("etymology"), etyLines, "txt")}
+  ${renderTextBlock(t("example"), exampleLines, "txt mono")}
+  ${renderTextBlock(t("task"), taskLines, "txt")}
 
-  <div class="muted mono sid">
-    ${escapeHtml(c.sid || "")}
-  </div>
-</div>
-
-    <div>${renderPills(pillTexts)}</div>
-    ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
-  </div>
-      ${renderTextBlock(t("meaning"), meaningLines, "txt")}
-      ${renderTextBlock(t("nuance"), nuanceLines, "txt")}
-      ${renderTextBlock(t("minimal"), minimalLines, "txt")}
-      ${renderTextBlock(t("etymology"), etyLines, "txt")}
-      ${renderTextBlock(t("example"), exampleLines, "txt mono")}
-      ${renderTextBlock(t("task"), taskLines, "txt")}
-
-      ${mode === "review" ? `
-        <div class="label">${escapeHtml(t("score"))}</div>
-        <div class="score">
-          <button class="btn" data-score="bad">${escapeHtml(t("bad"))}</button>
-          <button class="btn" data-score="ok">${escapeHtml(t("ok"))}</button>
-          <button class="btn" data-score="good">${escapeHtml(t("good"))}</button>
-        </div>
-        <div class="muted" style="margin-top:8px" data-status=""></div>
-      ` : `
-        <div class="muted" style="margin-top:10px">${escapeHtml(t("score"))}: ${escapeHtml(t("bad"))} / ${escapeHtml(t("ok"))} / ${escapeHtml(t("good"))} はReviewで</div>
-      `}
-    `;
+  ${mode === "review" ? `
+    <div class="label">${escapeHtml(t("score"))}</div>
+    <div class="score">
+      <button class="btn" data-score="bad">${escapeHtml(t("bad"))}</button>
+      <button class="btn" data-score="ok">${escapeHtml(t("ok"))}</button>
+      <button class="btn" data-score="good">${escapeHtml(t("good"))}</button>
+    </div>
+    <div class="muted" style="margin-top:8px" data-status=""></div>
+  ` : `
+    <div class="muted" style="margin-top:10px">${escapeHtml(t("score"))}: ${escapeHtml(t("bad"))} / ${escapeHtml(t("ok"))} / ${escapeHtml(t("good"))} はReviewで</div>
+  `}
+`;
 
     if (mode === "review") {
       const statusEl = el.querySelector('[data-status]');
