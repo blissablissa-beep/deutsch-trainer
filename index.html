@@ -679,7 +679,7 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
         <div style="min-width:0">
           <div class="row" style="align-items:baseline; gap:10px">
   <div class="word" style="flex:1; min-width:0">${highlightIfNeeded(c.word || "")}</div>
-  <div class="muted mono">${escapeHtml(c.sid || "")}</div>
+  <div class="muted mono" style="flex:0 0 auto">${escapeHtml(c.sid || "")}</div>
 </div>
           <div>${renderPills(pillTexts)}</div>
           ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
