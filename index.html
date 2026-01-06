@@ -489,6 +489,17 @@ function loadBookmarks() {
     return [];
   }
 }
+function countAllBookmarks() {
+  return loadBookmarks().length;
+}
+
+function syncBmToggleUi(visibleCount) {
+  const on = getBmOnly();
+  const total = countAllBookmarks();
+  bmToggleBtn.textContent = on
+    ? `★ ${visibleCount ?? total}/${total}`
+    : `☆ ${total}`;
+}
 
 function saveBookmarks(ids) {
   localStorage.setItem(LS_BM, JSON.stringify(ids));
@@ -812,7 +823,7 @@ if (bmBtn) {
 bmBtn.addEventListener("click", () => {
   const nowStarred = toggleBookmark(c.id);
   bmBtn.textContent = nowStarred ? "★" : "☆";
-
+  syncBmToggleUi();
   // ★のみフィルタ中なら、表示を即更新（外した瞬間に消える）
   if (getBmOnly()) render();
 });
@@ -899,9 +910,6 @@ const dueFiltered2 = bmOnly
   // =========================
 const bmToggleBtn = document.getElementById("bmToggleBtn");
 
-function syncBmToggleUi() {
-  bmToggleBtn.textContent = getBmOnly() ? "★" : "☆";
-}
 bmToggleBtn.addEventListener("click", () => {
   setBmOnly(!getBmOnly());
   syncBmToggleUi();
