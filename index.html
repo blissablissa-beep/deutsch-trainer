@@ -737,15 +737,19 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
     el.className = "card";
     el.innerHTML = `
       <div class="row" style="align-items:flex-start">
-        <div style="min-width:0">
-        <div class="row" style="align-items:baseline; gap:10px">
-  <div class="word" style="flex:1; min-width:0">
-    ${highlightIfNeeded(c.word || "")}
+  <div style="min-width:0; flex:1">
+    <div class="word">${highlightIfNeeded(c.word || "")}</div>
+
+    <div class="row meta" style="justify-content:flex-start; gap:10px; margin-top:2px;">
+      <button class="bm-btn" data-bm="1" aria-label="bookmark">${starChar}</button>
+      <div class="muted mono">${escapeHtml(c.sid || "")}</div>
+    </div>
+
+    <div>${renderPills(pillTexts)}</div>
+    ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
   </div>
-  <div class="right" style="display:flex; align-items:center; gap:8px; flex:0 0 auto">
-    <button class="bm-btn" data-bm="1" aria-label="bookmark">${starChar}</button>
-    <div class="muted mono">${escapeHtml(c.sid || "")}</div>
-  </div>
+
+  <div class="muted">${escapeHtml(t("due"))}: <span class="mono">${escapeHtml(fmtDate(dueMs))}</span></div>
 </div>
           <div>${renderPills(pillTexts)}</div>
           ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
