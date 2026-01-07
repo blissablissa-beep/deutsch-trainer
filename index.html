@@ -450,7 +450,7 @@ function highlightIfNeeded(text) {
   async function loadCards() {
     try {
       // ここを更新するだけで cards.json の更新が反映されやすい
-      const CARDS_VERSION = "2026-01-07";
+      const CARDS_VERSION = "2026-01-08";
 
       const res = await fetch(`./cards.json?v=${encodeURIComponent(CARDS_VERSION)}`, {
         cache: "no-store"
