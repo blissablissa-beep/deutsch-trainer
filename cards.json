@@ -659,5 +659,118 @@
       "ja": ["『財政赤字と債務の関係』を一文で独語化。"],
       "de": ["Bilde einen Satz mit „Verschuldung“."]
     }
+  },
+  {
+  "id": "arbeitsumgebung",
+  "sid": "2026-00025",
+  "word": "Arbeitsumgebung",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Arbeitsumgebungen" },
+  "meaning": {
+    "ja": ["職場環境（物理・制度・人間関係を含む）"],
+    "de": ["Arbeitsumfeld; Bedingungen am Arbeitsplatz (physisch, organisatorisch, sozial)"]
+  },
+  "nuance": {
+    "ja": ["単なる部屋や設備だけでなく、制度・文化・人間関係も含めた“環境”として言うことが多い。"],
+    "de": ["Meist umfassend: nicht nur Raum/Equipment, sondern auch Organisation, Kultur, Teamklima."]
+  },
+  "minimal": {
+    "ja": ["Arbeitsplatz=場所/席寄り、Arbeitsumgebung=周辺条件も含む環境、Arbeitsklima=人間関係・雰囲気寄り"],
+    "de": ["Arbeitsplatz: konkreter Ort; Arbeitsumgebung: Rahmenbedingungen; Arbeitsklima: Stimmung/Team."]
+  },
+  "etymology": {
+    "ja": ["Arbeit＋Umgebung（周囲・環境）。"],
+    "de": ["Kompositum aus Arbeit + Umgebung."]
+  },
+  "example": {
+    "ja": ["働きやすい職場環境は生産性に影響する。"],
+    "de": ["Eine gute Arbeitsumgebung wirkt sich auf die Produktivität aus."]
+  },
+  "task": {
+    "ja": ["「リモート勤務で職場環境が変わった」を独語で1文。"],
+    "de": ["Bilde einen Satz: „Durch Remote-Arbeit hat sich meine Arbeitsumgebung verändert.“"]
   }
+},
+{
+  "id": "erwaegung",
+  "sid": "2026-00026",
+  "word": "Erwägung",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Erwägungen" },
+  "meaning": {
+    "ja": ["（熟慮した）考慮、検討（判断材料としての考え）"],
+    "de": ["(sorgfältige) Überlegung; Abwägung; Gesichtspunkt in einer Entscheidung"]
+  },
+  "nuance": {
+    "ja": ["報告書・行政・論文などでよく出る硬めの語。複数形で「〜の考慮事項」になりやすい。"],
+    "de": ["Formell; oft im Plural („aus verschiedenen Erwägungen“, „wirtschaftliche Erwägungen“)."]
+  },
+  "minimal": {
+    "ja": ["Überlegung=思いつき〜熟考まで幅広い／Erwägung=判断材料としての“考慮”寄り／Abwägung=利害・要素を天秤にかける"],
+    "de": ["Überlegung: allgemein; Erwägung: Entscheidungs-Gesichtspunkt; Abwägung: Pro/Contra-Gewichtung."]
+  },
+  "etymology": {
+    "ja": ["erwägen（熟慮する、吟味する）→ Erwägung。語感は「量って確かめる」寄り。"],
+    "de": ["Von „erwägen“ (gründlich bedenken/prüfen)."]
+  },
+  "example": {
+    "ja": ["安全上の考慮から、その計画は見送られた。"],
+    "de": ["Aus Sicherheits­erwägungen wurde der Plan verworfen."]
+  },
+  "task": {
+    "ja": ["「費用面の考慮からA案を選んだ」を独語で。"],
+    "de": ["Formuliere: „Aus Kostenerwägungen haben wir Option A gewählt.“"]
+  }
+},
+{
+  "id": "konkurrieren",
+  "sid": "2026-00027",
+  "word": "kon·kur·rie·ren",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "coll"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "konkurrierte",
+    "perfekt": "hat konkurriert",
+    "patterns": [
+      "mit + Dat (gegenüber)",
+      "mit + Dat um + Akk"
+    ]
+  },
+  "meaning": {
+    "ja": ["競争する／競合する", "（mit + Dat um + Akk）…と…をめぐって争う"],
+    "de": ["konkurrieren; im Wettbewerb stehen", "mit + Dat um + Akk: um etwas konkurrieren"]
+  },
+  "nuance": {
+    "ja": [
+      "ビジネス・市場・大学入試など幅広い文脈で中立的。",
+      "型：『A konkurriert mit B (um X)』が基本。"
+    ],
+    "de": [
+      "Neutral, häufig in Wirtschaft/Markt/Bildung.",
+      "Typisch: „mit jdm. (um etw.) konkurrieren“."
+    ]
+  },
+  "minimal": {
+    "ja": ["wetteifern=やや文語・熱意の競い合い／rivalisieren=ライバル関係強調／konkurrieren=市場・条件としての競合もOK"],
+    "de": ["wetteifern: eher gehoben; rivalisieren: Rivalität; konkurrieren: sachlich/marktbezogen."]
+  },
+  "etymology": {
+    "ja": ["ラテン語 concurrere（共に走る）由来。"],
+    "de": ["Aus lat. „concurrere“ (zusammenlaufen; wetteifern)."]
+  },
+  "example": {
+    "ja": ["その会社は価格で大手と競合している。", "彼らは限られた予算をめぐって競争している。"],
+    "de": ["Das Unternehmen konkurriert mit den Großen über den Preis.", "Sie konkurrieren mit anderen um ein begrenztes Budget."]
+  },
+  "task": {
+    "ja": ["「もう彼らには太刀打ちできない」を mit + Dat で独語化。"],
+    "de": ["Bilde einen Satz: „Wir können mit ihnen nicht mehr konkurrieren.“"]
+  }
+}
 ]
