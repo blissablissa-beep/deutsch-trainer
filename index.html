@@ -39,6 +39,8 @@
   white-space: normal;
   overflow-wrap: anywhere;
 }
+.word-row { display:flex; align-items:center; gap:8px; }
+.chev { opacity:.65; font-size:16px; }
 .row.meta {
   margin-bottom: 6px;
 }
@@ -514,8 +516,17 @@ function loadBookmarks() {
     return [];
   }
 }
+
 function countAllBookmarks() {
   return loadBookmarks().length;
+}
+
+function getBmOnly() {
+  return localStorage.getItem("dt_bm_only") === "1";
+}
+
+function setBmOnly(v) {
+  localStorage.setItem("dt_bm_only", v ? "1" : "0");
 }
 
 function syncBmToggleUi(visibleCount) {
@@ -543,10 +554,6 @@ function toggleBookmark(id) {
   saveBookmarks(ids);
   return ids.includes(id);
 }
-
-// 表示フィルタ（★のみ）
-function getBmOnly() { return localStorage.getItem("dt_bm_only") === "1"; }
-function setBmOnly(v) { localStorage.setItem("dt_bm_only", v ? "1" : "0"); }
 // =========================
 // Search
 // =========================
@@ -791,12 +798,16 @@ if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
     const taskLines = normalizeText(c.task?.[lang]);
 
     const el = document.createElement("section");
-    el.className = "card";
+el.className = "card";
+
 el.innerHTML = `
   <div class="row" style="align-items:flex-start">
     <!-- LEFT -->
     <div style="min-width:0; flex:1">
-      <div class="word">${highlightIfNeeded(c.word || "")}</div>
+      <div class="word word-row">
+        <span>${highlightIfNeeded(c.word || "")}</span>
+        ${bmOnly ? `<span class="chev">${isOpen ? "▾" : "▸"}</span>` : ``}
+      </div>
 
       <div>${renderPills(pillTexts)}</div>
       ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
@@ -814,14 +825,14 @@ el.innerHTML = `
     </div>
   </div>
 
-${showDetails ? `
-  ${renderTextBlock(t("meaning"), meaningLines, "txt")}
-  ${renderTextBlock(t("nuance"), nuanceLines, "txt")}
-  ${renderTextBlock(t("minimal"), minimalLines, "txt")}
-  ${renderTextBlock(t("etymology"), etyLines, "txt")}
-  ${renderTextBlock(t("example"), exampleLines, "txt mono")}
-  ${renderTextBlock(t("task"), taskLines, "txt")}
-` : ``}
+  ${showDetails ? `
+    ${renderTextBlock(t("meaning"), meaningLines, "txt")}
+    ${renderTextBlock(t("nuance"), nuanceLines, "txt")}
+    ${renderTextBlock(t("minimal"), minimalLines, "txt")}
+    ${renderTextBlock(t("etymology"), etyLines, "txt")}
+    ${renderTextBlock(t("example"), exampleLines, "txt mono")}
+    ${renderTextBlock(t("task"), taskLines, "txt")}
+  ` : ``}
 
   ${mode === "review" ? `
     <div class="label">${escapeHtml(t("score"))}</div>
@@ -831,55 +842,54 @@ ${showDetails ? `
       <button class="btn" data-score="good">${escapeHtml(t("good"))}</button>
     </div>
     <div class="muted" style="margin-top:8px" data-status=""></div>
-  ` : `
-   ` : (showDetails ? `
-  <div class="muted" style="margin-top:10px">
-    ${escapeHtml(t("score"))}:
-    ${escapeHtml(t("bad"))} /
-    ${escapeHtml(t("ok"))} /
-    ${escapeHtml(t("good"))}
-    はReviewで
-  </div>
-` : ``)
-`
-  `}
+  ` : (showDetails ? `
+    <div class="muted" style="margin-top:10px">
+      ${escapeHtml(t("score"))}:
+      ${escapeHtml(t("bad"))} /
+      ${escapeHtml(t("ok"))} /
+      ${escapeHtml(t("good"))}
+      はReviewで
+    </div>
+  ` : ``)}
 `;
 
-    if (mode === "review") {
-      const statusEl = el.querySelector('[data-status]');
-      el.querySelectorAll("button[data-score]").forEach(btn => {
-        btn.addEventListener("click", () => {
-          const score = btn.getAttribute("data-score");
-          applyScore(c.id, score);
-          statusEl.textContent = t("done") + ` → ${t("due")}: ${fmtDate(getCardDueMs(c.id))}`;
-          setTimeout(() => { el.remove(); updateCountAfterRemove(); }, 250);
-        });
-      });
-    }
+if (mode === "review") {
+  const statusEl = el.querySelector('[data-status]');
+  el.querySelectorAll("button[data-score]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const score = btn.getAttribute("data-score");
+      applyScore(c.id, score);
+      statusEl.textContent = t("done") + ` → ${t("due")}: ${fmtDate(getCardDueMs(c.id))}`;
+      setTimeout(() => { el.remove(); updateCountAfterRemove(); }, 250);
+    });
+  });
+}
+
 const bmBtn = el.querySelector(".bm-btn");
 if (bmBtn) {
-bmBtn.addEventListener("click", () => {
-  const nowStarred = toggleBookmark(c.id);
-  bmBtn.textContent = nowStarred ? "★" : "☆";
-  syncBmToggleUi();
-  // ★のみフィルタ中なら、表示を即更新（外した瞬間に消える）
-  if (getBmOnly()) render();
-});
+  bmBtn.addEventListener("click", () => {
+    const nowStarred = toggleBookmark(c.id);
+    bmBtn.textContent = nowStarred ? "★" : "☆";
+    syncBmToggleUi();
+    if (getBmOnly()) render();
+  });
 }
+
 const wordEl = el.querySelector(".word");
 if (wordEl) {
   wordEl.style.cursor = "pointer";
   wordEl.addEventListener("click", () => {
-    const bmOnly = getBmOnly();
-    if (!bmOnly) return; // 最小改修：★Only時だけ動作
+    const bmOnlyNow = getBmOnly();
+    if (!bmOnlyNow) return;
 
-    const openId = getOpenIdFromHash();
-    if (openId === c.id) setOpenIdToHash("");   // もう開いてたら閉じる
-    else setOpenIdToHash(c.id);                 // 開く（= 他は閉じる）
+    const openIdNow = getOpenIdFromHash();
+    if (openIdNow === c.id) setOpenIdToHash("");
+    else setOpenIdToHash(c.id);
     render();
   });
 }
-    return el;
+
+return el;
   }
 
   function updateCountAfterRemove() {
@@ -963,21 +973,16 @@ if (!base2.length) {
     }
   } // ← if(view===today) の else を閉じる
 }   // ← render() を閉じる
+}
   // =========================
   // Events
   // =========================
-
+syncBmToggleUi();
 bmToggleBtn.addEventListener("click", () => {
   const next = !getBmOnly();
   setBmOnly(next);
   syncBmToggleUi();
   if (!next) setOpenIdToHash("");
-  render();
-});
-syncBmToggleUi();
-
-document.getElementById("langBtn").addEventListener("click", () => {
-  setLang(getLang() === "ja" ? "de" : "ja");
   render();
 });
 
