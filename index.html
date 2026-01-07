@@ -832,7 +832,16 @@ ${showDetails ? `
     </div>
     <div class="muted" style="margin-top:8px" data-status=""></div>
   ` : `
-    <div class="muted" style="margin-top:10px">${escapeHtml(t("score"))}: ${escapeHtml(t("bad"))} / ${escapeHtml(t("ok"))} / ${escapeHtml(t("good"))} はReviewで</div>
+   ` : (showDetails ? `
+  <div class="muted" style="margin-top:10px">
+    ${escapeHtml(t("score"))}:
+    ${escapeHtml(t("bad"))} /
+    ${escapeHtml(t("ok"))} /
+    ${escapeHtml(t("good"))}
+    はReviewで
+  </div>
+` : ``)
+`
   `}
 `;
 
