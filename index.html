@@ -774,10 +774,28 @@ return [pr, pf].filter(Boolean).join(" / ");
   // =========================
   // Render
   // =========================
-  function setScreenCount(visible) {
+function setScreenCount(visible) {
+  const lang = getLang();
+  const view = getView();
+
   const total = Array.isArray(CARDS) ? CARDS.length : 0;
   const v = Math.max(0, Number(visible) || 0);
-  document.getElementById("screenCount").textContent = `${v} / ${total}`;
+
+  // タイトル（左側）
+  const titleEl = document.getElementById("screenTitle");
+  if (titleEl) {
+    if (QUERY) {
+      titleEl.textContent = UI[lang].searchResult;
+    } else {
+      titleEl.textContent = (view === "review") ? UI[lang].review : UI[lang].today;
+    }
+  }
+
+  // カウント（右側）
+  const countEl = document.getElementById("screenCount");
+  if (countEl) {
+    countEl.textContent = total ? `${v} / ${total}` : "";
+  }
 }
   function renderCard(c, mode, openId) {
     const lang = getLang();
@@ -935,8 +953,6 @@ function render() {
   list.innerHTML = "";
 
 if (view === "today") {
-  document.getElementById("screenTitle").textContent =
-    QUERY ? UI[lang].searchResult : UI[lang].today;
 
 const seed = getSeed();
 const base = filterCardsByQuery(CARDS);
@@ -955,8 +971,6 @@ if (!base2.length) {
 }
 
 } else {
-    document.getElementById("screenTitle").textContent =
-      QUERY ? UI[lang].searchResult : UI[lang].review;
 
     const due = getDueCards();
     const dueFiltered = filterCardsByQuery(due);
@@ -968,19 +982,19 @@ if (!base2.length) {
 
     if (!due.length) {
       list.innerHTML = `<div class="muted">${escapeHtml(t("noReview"))}</div>`;
-      document.getElementById("screenCount").textContent = "";
+      setScreenCount(0);
       syncBmToggleUi(0);
 
     } else if (!dueFiltered2.length) {
       list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
-      document.getElementById("screenCount").textContent = "";
+      setScreenCount(0);
       syncBmToggleUi(0);
 
     } else {
-      for (const c of dueFiltered2) list.appendChild(renderCard(c, "review", openId));
-      document.getElementById("screenCount").textContent = `${dueFiltered2.length}`;
-      syncBmToggleUi(dueFiltered2.length);
-    }
+  for (const c of dueFiltered2) list.appendChild(renderCard(c, "review", openId));
+  setScreenCount(dueFiltered2.length);
+  syncBmToggleUi(dueFiltered2.length);
+}
   } // ← if(view===today) の else を閉じる
 }   // ← render() を閉じる
 
