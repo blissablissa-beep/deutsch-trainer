@@ -334,12 +334,7 @@ function highlightIfNeeded(text) {
       `;
     }
 
-    return `
-      <div class="label">${escapeHtml(label)}</div>
-      <ul class="${className}" style="margin:6px 0 0; padding-left: 18px; line-height:1.5;">
-        ${lines.map(x => `<li>${highlightIfNeeded(x)}</li>`).join("")}
-      </ul>
-    `;
+    return `<div class="label">${escapeHtml(label)}</div><ul class="${className}" style="margin:6px 0 0; padding-left:18px; line-height:1.5;">${lines.map(x => `<li>${highlightIfNeeded(x)}</li>`).join("")}</ul>`;
   }
 
   function renderPills(pills) {
