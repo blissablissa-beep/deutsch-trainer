@@ -250,5 +250,150 @@
     "etymology": { "ja": "Ziel（目標）＋ Konflikt（衝突）。Konflikt はラテン語 conflictus に由来。", "de": "Kompositum aus Ziel + Konflikt (lat. conflictus)." },
     "example": { "ja": "Zwischen Klimaschutz und Wachstum besteht ein Zielkonflikt.", "de": "Zwischen Klimaschutz und Wachstum besteht ein Zielkonflikt." },
     "task": { "ja": "あなたの職場で起こりうるZielkonfliktを1つ挙げ、理由を一言。", "de": "Nenne einen Zielkonflikt in deinem Kontext und begründe kurz." }
+  },
+  {
+    "id": "plaedieren",
+    "sid": "2026-00014",
+    "word": "plädieren",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "plädierte",
+      "perfekt": "hat plädiert"
+    },
+    "meaning": {
+      "ja": "（公的・論理的な文脈で）〜を主張する、擁護する",
+      "de": "sich öffentlich oder argumentativ für oder gegen etwas aussprechen"
+    },
+    "nuance": {
+      "ja": [
+        "感情的な主張ではなく、理由・論拠を伴う主張。",
+        "政治・法律・討論・論文で頻出。"
+      ],
+      "de": [
+        "Impliziert eine begründete, rationale Argumentation.",
+        "Häufig in Politik, Recht und akademischen Kontexten."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "fordern：要求する（より直接的・圧が強い）",
+        "argumentieren：議論する（結論を必ずしも示さない）"
+      ],
+      "de": [
+        "fordern: stärker und direkter",
+        "argumentieren: Fokus auf Argumentation, nicht auf Position"
+      ]
+    },
+    "etymology": {
+      "ja": "ラテン語 plēdere（訴える、弁護する）に由来。",
+      "de": "Vom lateinischen plēdere („vor Gericht sprechen“)."
+    },
+    "example": {
+      "ja": "Viele Experten plädieren für eine Reform des Steuersystems.",
+      "de": "Viele Experten plädieren für eine Reform des Steuersystems."
+    },
+    "task": {
+      "ja": "あなたが賛成または反対する政策について plädieren を用いて1文。",
+      "de": "Formuliere einen Satz mit plädieren für oder gegen."
+    }
+  },
+  {
+    "id": "anpassungsfaehigkeit",
+    "sid": "2026-00015",
+    "word": "Anpassungsfähigkeit",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": {
+      "pos": "noun",
+      "article": "die"
+    },
+    "meaning": {
+      "ja": "環境や状況の変化に適応する能力",
+      "de": "die Fähigkeit, sich an neue Bedingungen anzupassen"
+    },
+    "nuance": {
+      "ja": [
+        "個人・企業・社会など抽象的主体に広く使える。",
+        "変化の速さへの耐性を含意することが多い。"
+      ],
+      "de": [
+        "Bezieht sich auf Personen, Organisationen oder Systeme.",
+        "Impliziert Flexibilität gegenüber Wandel."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Flexibilität：柔軟性（行動面に焦点）",
+        "Belastbarkeit：耐性（ストレス耐久）"
+      ],
+      "de": [
+        "Flexibilität: handlungsbezogen",
+        "Belastbarkeit: Widerstandsfähigkeit"
+      ]
+    },
+    "etymology": {
+      "ja": "anpassen（適応する）＋ Fähigkeit（能力）。",
+      "de": "Kompositum aus anpassen und Fähigkeit."
+    },
+    "example": {
+      "ja": "In einer globalisierten Wirtschaft ist Anpassungsfähigkeit entscheidend.",
+      "de": "In einer globalisierten Wirtschaft ist Anpassungsfähigkeit entscheidend."
+    },
+    "task": {
+      "ja": "Anpassungsfähigkeit が重要になる状況を1つ説明。",
+      "de": "Beschreibe eine Situation, in der Anpassungsfähigkeit wichtig ist."
+    }
+  },
+  {
+    "id": "wettbewerbsfaehigkeit",
+    "sid": "2026-00016",
+    "word": "Wettbewerbsfähigkeit",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": {
+      "pos": "noun",
+      "article": "die"
+    },
+    "meaning": {
+      "ja": "競争力（市場・国・企業などが競争で優位に立つ能力）",
+      "de": "die Fähigkeit, im Wettbewerb erfolgreich zu bestehen"
+    },
+    "nuance": {
+      "ja": [
+        "経済・政策・産業文脈で非常に頻出。",
+        "価格だけでなく、技術・品質・制度も含意しやすい。"
+      ],
+      "de": [
+        "Zentraler Begriff in Wirtschafts- und Standortdebatten.",
+        "Umfasst Kosten, Innovation, Qualität und Rahmenbedingungen."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Konkurrenz：競合相手そのもの",
+        "Leistungsfähigkeit：能力の高さ（競争文脈なし）"
+      ],
+      "de": [
+        "Konkurrenz: Mitbewerber",
+        "Leistungsfähigkeit: allgemeine Leistungsstärke"
+      ]
+    },
+    "etymology": {
+      "ja": "Wettbewerb（競争）＋ Fähigkeit（能力）。",
+      "de": "Kompositum aus Wettbewerb und Fähigkeit."
+    },
+    "example": {
+      "ja": "Die Regierung will die Wettbewerbsfähigkeit der Industrie stärken.",
+      "de": "Die Regierung will die Wettbewerbsfähigkeit der Industrie stärken."
+    },
+    "task": {
+      "ja": "Wettbewerbsfähigkeit を高める要因を2つ挙げる。",
+      "de": "Nenne zwei Faktoren, die die Wettbewerbsfähigkeit erhöhen."
+    }
   }
 ]
