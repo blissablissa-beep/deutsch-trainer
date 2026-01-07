@@ -774,6 +774,11 @@ return [pr, pf].filter(Boolean).join(" / ");
   // =========================
   // Render
   // =========================
+  function setScreenCount(visible) {
+  const total = Array.isArray(CARDS) ? CARDS.length : 0;
+  const v = Math.max(0, Number(visible) || 0);
+  document.getElementById("screenCount").textContent = `${v} / ${total}`;
+}
   function renderCard(c, mode, openId) {
     const lang = getLang();
     const dueMs = getCardDueMs(c.id);
@@ -900,7 +905,7 @@ return el;
   function updateCountAfterRemove() {
     const list = document.getElementById("list");
     const left = list.querySelectorAll(".card").length;
-    document.getElementById("screenCount").textContent = left ? `${left}` : "";
+    setScreenCount(left);
     if (!left && getView() === "review") {
       list.innerHTML = `<div class="muted">${escapeHtml(t("noReview"))}</div>`;
     }
@@ -940,12 +945,12 @@ const base2 = bmOnly ? base.filter(c => hasBookmark(c.id)) : base;
 
 if (!base2.length) {
   list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
-  document.getElementById("screenCount").textContent = "";
+  setScreenCount(0);
   syncBmToggleUi(0);
 } else {
   const today = seedShuffle(base2, seed).slice(0, 5);
   for (const c of today) list.appendChild(renderCard(c, "today", openId));
-  document.getElementById("screenCount").textContent = `${today.length}`;
+  setScreenCount(today.length);
   syncBmToggleUi(today.length);
 }
 
