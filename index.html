@@ -477,8 +477,33 @@ if (!v.ok) {
     }
   }
 // =========================
+// Hash (open card)
+// =========================
+function getOpenIdFromHash() {
+  const h = (location.hash || "").replace(/^#/, "");
+  if (!h) return "";
+  const params = new URLSearchParams(h);
+  const id = params.get("id");
+  return nonEmptyStr(id) ? id : "";
+}
+
+function setOpenIdToHash(id) {
+  if (!nonEmptyStr(id)) {
+    history.replaceState(null, "", location.pathname + location.search);
+    return;
+  }
+  const params = new URLSearchParams();
+  params.set("id", id);
+  location.hash = params.toString(); // => #id=...
+}
+
+function clearOpenIdHashIfMatches(id) {
+  if (getOpenIdFromHash() === id) setOpenIdToHash("");
+}
+// =========================
 // Bookmark
 // =========================
+const bmToggleBtn = document.getElementById("bmToggleBtn");
 const LS_BM = "dt_bookmarks"; // string[] of ids
 
 function loadBookmarks() {
@@ -737,12 +762,14 @@ return [pr, pf].filter(Boolean).join(" / ");
   // =========================
   // Render
   // =========================
-  function renderCard(c, mode) {
+  function renderCard(c, mode, openId) {
     const lang = getLang();
     const dueMs = getCardDueMs(c.id);
     const starred = hasBookmark(c.id);
   const starChar = starred ? "★" : "☆";
-
+const bmOnly = getBmOnly();
+const isOpen = bmOnly && openId === c.id;
+const showDetails = !bmOnly || isOpen;
     const g = c.grammar || {};
     const posLabel = formatPosLabel(g.pos);
     const grammarLine = formatGrammarLine(g);
@@ -787,12 +814,14 @@ el.innerHTML = `
     </div>
   </div>
 
+${showDetails ? `
   ${renderTextBlock(t("meaning"), meaningLines, "txt")}
   ${renderTextBlock(t("nuance"), nuanceLines, "txt")}
   ${renderTextBlock(t("minimal"), minimalLines, "txt")}
   ${renderTextBlock(t("etymology"), etyLines, "txt")}
   ${renderTextBlock(t("example"), exampleLines, "txt mono")}
   ${renderTextBlock(t("task"), taskLines, "txt")}
+` : ``}
 
   ${mode === "review" ? `
     <div class="label">${escapeHtml(t("score"))}</div>
@@ -828,6 +857,19 @@ bmBtn.addEventListener("click", () => {
   if (getBmOnly()) render();
 });
 }
+const wordEl = el.querySelector(".word");
+if (wordEl) {
+  wordEl.style.cursor = "pointer";
+  wordEl.addEventListener("click", () => {
+    const bmOnly = getBmOnly();
+    if (!bmOnly) return; // 最小改修：★Only時だけ動作
+
+    const openId = getOpenIdFromHash();
+    if (openId === c.id) setOpenIdToHash("");   // もう開いてたら閉じる
+    else setOpenIdToHash(c.id);                 // 開く（= 他は閉じる）
+    render();
+  });
+}
     return el;
   }
 
@@ -842,6 +884,7 @@ bmBtn.addEventListener("click", () => {
 
 function render() {
   const lang = getLang();
+  const openId = getOpenIdFromHash();
   document.documentElement.lang = (lang === "ja" ? "ja" : "de");
 
   // Header texts
@@ -866,60 +909,70 @@ if (view === "today") {
   document.getElementById("screenTitle").textContent =
     QUERY ? UI[lang].searchResult : UI[lang].today;
 
-  const seed = getSeed();
-  const base = filterCardsByQuery(CARDS);
+const seed = getSeed();
+const base = filterCardsByQuery(CARDS);
 const bmOnly = getBmOnly();
 const base2 = bmOnly ? base.filter(c => hasBookmark(c.id)) : base;
 
 if (!base2.length) {
   list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
   document.getElementById("screenCount").textContent = "";
+  syncBmToggleUi(0);
 } else {
   const today = seedShuffle(base2, seed).slice(0, 5);
-  for (const c of today) list.appendChild(renderCard(c, "today"));
+  for (const c of today) list.appendChild(renderCard(c, "today", openId));
   document.getElementById("screenCount").textContent = `${today.length}`;
+  syncBmToggleUi(today.length);
 }
 
 } else {
-  document.getElementById("screenTitle").textContent =
-    QUERY ? UI[lang].searchResult : UI[lang].review;
+    document.getElementById("screenTitle").textContent =
+      QUERY ? UI[lang].searchResult : UI[lang].review;
 
-  const due = getDueCards();
-const dueFiltered = filterCardsByQuery(due);
+    const due = getDueCards();
+    const dueFiltered = filterCardsByQuery(due);
 
-const bmOnly = getBmOnly();
-const dueFiltered2 = bmOnly
-  ? dueFiltered.filter(c => hasBookmark(c.id))
-  : dueFiltered;
+    const bmOnly = getBmOnly();
+    const dueFiltered2 = bmOnly
+      ? dueFiltered.filter(c => hasBookmark(c.id))
+      : dueFiltered;
 
-  if (!due.length) {
-    // 復習カード自体がない
-    list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
-    document.getElementById("screenCount").textContent = "";
-} else if (!dueFiltered2.length) {
-  list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
-  document.getElementById("screenCount").textContent = "";
-} else {
-  for (const c of dueFiltered2) list.appendChild(renderCard(c, "review"));
-  document.getElementById("screenCount").textContent = `${dueFiltered2.length}`;
-}
-}
-}
+    if (!due.length) {
+      list.innerHTML = `<div class="muted">${escapeHtml(t("noReview"))}</div>`;
+      document.getElementById("screenCount").textContent = "";
+      syncBmToggleUi(0);
+
+    } else if (!dueFiltered2.length) {
+      list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
+      document.getElementById("screenCount").textContent = "";
+      syncBmToggleUi(0);
+
+    } else {
+      for (const c of dueFiltered2) list.appendChild(renderCard(c, "review", openId));
+      document.getElementById("screenCount").textContent = `${dueFiltered2.length}`;
+      syncBmToggleUi(dueFiltered2.length);
+    }
+  } // ← if(view===today) の else を閉じる
+}   // ← render() を閉じる
   // =========================
   // Events
   // =========================
-const bmToggleBtn = document.getElementById("bmToggleBtn");
 
 bmToggleBtn.addEventListener("click", () => {
-  setBmOnly(!getBmOnly());
+  const next = !getBmOnly();
+  setBmOnly(next);
   syncBmToggleUi();
+  if (!next) setOpenIdToHash("");
   render();
 });
 syncBmToggleUi();
-  document.getElementById("langBtn").addEventListener("click", () => {
-    setLang(getLang() === "ja" ? "de" : "ja");
-    render();
-  });
+
+document.getElementById("langBtn").addEventListener("click", () => {
+  setLang(getLang() === "ja" ? "de" : "ja");
+  render();
+});
+
+// ...以下 shuffle / tabs / search / hashchange etc.
 
   document.getElementById("shuffleBtn").addEventListener("click", () => {
     rotateSeed();
@@ -950,7 +1003,7 @@ clearEl.addEventListener("click", () => {
   render();
   qEl.focus();
 });
-
+window.addEventListener("hashchange", () => render());
   // =========================
   // PWA: service worker
   // =========================
