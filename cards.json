@@ -395,5 +395,270 @@
       "ja": "Wettbewerbsfähigkeit を高める要因を2つ挙げる。",
       "de": "Nenne zwei Faktoren, die die Wettbewerbsfähigkeit erhöhen."
     }
+  },
+  {
+    "id": "basieren",
+    "sid": "2026-00017",
+    "word": "basieren",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "verb", "praeteritum": "basierte", "perfekt": "hat basiert" },
+    "meaning": {
+      "ja": ["（〜に）基づいている"],
+      "de": ["(auf etw.) beruhen; auf etw. gegründet sein"]
+    },
+    "nuance": {
+      "ja": ["根拠・土台がある感じ。形式ばった文脈でも自然。型は basieren auf + Dat."],
+      "de": ["typisch: basieren auf + Dativ; eher sachlich/formell"]
+    },
+    "minimal": {
+      "ja": ["beruhen auf：原因・根拠として「〜に起因」寄り / basieren auf：土台・構成要素として「〜を基盤」寄り"],
+      "de": ["beruhen auf: Ursache/Grund; basieren auf: Grundlage/Basis"]
+    },
+    "etymology": {
+      "ja": ["Basis（基礎）からの派生。"],
+      "de": ["von „Basis“"]
+    },
+    "example": {
+      "ja": ["この結論は限られたデータに基づいている。"],
+      "de": ["Die Schlussfolgerung basiert auf begrenzten Daten."]
+    },
+    "task": {
+      "ja": ["『この制度は〇〇に基づいている』を basieren auf を使って独語で。"],
+      "de": ["Formuliere: „Das System basiert auf …“ (auf + Dativ)."]
+    }
+  },
+  {
+    "id": "beruhen",
+    "sid": "2026-00018",
+    "word": "beruhen",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "verb", "praeteritum": "beruhte", "perfekt": "hat beruht" },
+    "meaning": {
+      "ja": ["（〜に）基づく／（〜に）起因する"],
+      "de": ["auf etw. beruhen; seine Ursache/Grundlage in etw. haben"]
+    },
+    "nuance": {
+      "ja": ["原因・根拠のニュアンスが強い。型は beruhen auf + Dat."],
+      "de": ["typisch: beruhen auf + Dativ; betont Ursache/Grund"]
+    },
+    "minimal": {
+      "ja": ["basieren：土台・構成要素 / beruhen：原因・根拠"],
+      "de": ["basieren: Basis; beruhen: Ursache/Grund"]
+    },
+    "etymology": {
+      "ja": ["ruhen（休む/静止）に由来→『〜の上に落ち着いている』感。"],
+      "de": ["zu „ruhen“ → „auf etwas ruhen“"]
+    },
+    "example": {
+      "ja": ["誤解は翻訳ミスに起因している。"],
+      "de": ["Das Missverständnis beruht auf einem Übersetzungsfehler."]
+    },
+    "task": {
+      "ja": ["『その違いは定義の違いに起因する』を独語で。"],
+      "de": ["Bilde einen Satz mit „beruht auf …“."]
+    }
+  },
+  {
+    "id": "entpuppen",
+    "sid": "2026-00019",
+    "word": "sich entpuppen (als)",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "verb", "praeteritum": "entpuppte sich", "perfekt": "hat sich entpuppt" },
+    "meaning": {
+      "ja": ["（結果として）〜だと判明する／正体を現す"],
+      "de": ["sich als etw./jmd. erweisen; sich als … herausstellen"]
+    },
+    "nuance": {
+      "ja": ["当初の想定と違って“実は〜だった”の感じ。少し劇的。"],
+      "de": ["oft: überraschende Enthüllung („es stellte sich heraus…“)"]
+    },
+    "minimal": {
+      "ja": ["sich herausstellen：中立 / sich entpuppen：ややドラマ性、比喩感"],
+      "de": ["herausstellen: neutral; entpuppen: bildhaft/pointiert"]
+    },
+    "etymology": {
+      "ja": ["Puppe（さなぎ）→殻を破って姿が出る比喩。"],
+      "de": ["„Puppe“ (Kokon/Puppe) → Metapher des „Herausschälens“"]
+    },
+    "example": {
+      "ja": ["その噂はデマだと判明した。"],
+      "de": ["Das Gerücht entpuppte sich als falsch."]
+    },
+    "task": {
+      "ja": ["『彼は実は専門家だった』を sich entpuppen als で。"],
+      "de": ["Formuliere mit „sich als … entpuppen“."]
+    }
+  },
+  {
+    "id": "Spitzenkraft",
+    "sid": "2026-00020",
+    "word": "Spitzenkraft",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "plural": "Spitzenkräfte" },
+    "meaning": {
+      "ja": ["優秀な人材／トップレベルの働き手"],
+      "de": ["hochqualifizierte Fachkraft; Top-Talent"]
+    },
+    "nuance": {
+      "ja": ["必ずしも『幹部』ではなく“能力が高い人材”の意味で使える。"],
+      "de": ["nicht zwingend Führung; betont Leistung/Qualifikation"]
+    },
+    "minimal": {
+      "ja": ["Führungskraft：管理職 / Spitzenkraft：トップ人材（専門職も含む）"],
+      "de": ["Führungskraft: Leitung; Spitzenkraft: Top-Talent (auch ohne Führung)"]
+    },
+    "etymology": {
+      "ja": ["Spitze（頂点）＋Kraft（人材/労働力）。"],
+      "de": ["Spitze + Kraft"]
+    },
+    "example": {
+      "ja": ["企業は優秀な人材の確保に苦労している。"],
+      "de": ["Unternehmen haben Schwierigkeiten, Spitzenkräfte zu gewinnen."]
+    },
+    "task": {
+      "ja": ["『優秀な人材が海外に流出する』を独語で。"],
+      "de": ["Bilde einen Satz mit „Spitzenkräfte“."]
+    }
+  },
+  {
+    "id": "Führungskraft",
+    "sid": "2026-00021",
+    "word": "Führungskraft",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "plural": "Führungskräfte" },
+    "meaning": {
+      "ja": ["管理職／マネージャー"],
+      "de": ["leitende Person; Manager/in"]
+    },
+    "nuance": {
+      "ja": ["組織の『指揮・管理』の役割。職位寄り。"],
+      "de": ["Fokus auf Leitung/Verantwortung"]
+    },
+    "minimal": {
+      "ja": ["Spitzenkraft：能力の高さ / Führungskraft：職務としての統率"],
+      "de": ["Spitzenkraft: Top-Talent; Führungskraft: Leitungsfunktion"]
+    },
+    "etymology": {
+      "ja": ["führen（導く）＋Kraft。"],
+      "de": ["führen + Kraft"]
+    },
+    "example": {
+      "ja": ["管理職向けの研修を実施した。"],
+      "de": ["Wir haben ein Training für Führungskräfte durchgeführt."]
+    },
+    "task": {
+      "ja": ["『優れた管理職には〇〇が必要だ』を独語で。"],
+      "de": ["Formuliere: „Gute Führungskräfte brauchen …“"]
+    }
+  },
+  {
+    "id": "Zuwanderung",
+    "sid": "2026-00022",
+    "word": "Zuwanderung",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "plural": "" },
+    "meaning": {
+      "ja": ["移民（流入）／国外からの人口流入"],
+      "de": ["Einwanderung; Zuzug aus dem Ausland"]
+    },
+    "nuance": {
+      "ja": ["政策・統計の文脈でよく使うやや硬い語。"],
+      "de": ["politisch/statistisch, eher sachlich"]
+    },
+    "minimal": {
+      "ja": ["Einwanderung：一般語 / Zuwanderung：流入としての側面強め（統計・政策語感）"],
+      "de": ["Einwanderung: allgemeiner; Zuwanderung: Zuzug/Flow-Betonung"]
+    },
+    "etymology": {
+      "ja": ["zu-（〜へ）＋wandern（移動する）。"],
+      "de": ["zu + wandern"]
+    },
+    "example": {
+      "ja": ["労働力不足を補うには移民が重要だ。"],
+      "de": ["Zur Sicherung des Arbeitskräfteangebots ist Zuwanderung wichtig."]
+    },
+    "task": {
+      "ja": ["『移民政策をめぐって議論がある』を独語で。"],
+      "de": ["Bilde einen Satz mit „Zuwanderung“."]
+    }
+  },
+  {
+    "id": "Verbrenner",
+    "sid": "2026-00023",
+    "word": "Verbrenner",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["exam"],
+    "grammar": { "pos": "noun", "article": "der", "plural": "Verbrenner" },
+    "meaning": {
+      "ja": ["内燃機関車（ガソリン車・ディーゼル車）"],
+      "de": ["Auto mit Verbrennungsmotor (Benzin/Diesel)"]
+    },
+    "nuance": {
+      "ja": ["口語〜メディア語。EV文脈で対比として出やすい。"],
+      "de": ["umgangssprachlich/medial im Kontrast zu E-Autos"]
+    },
+    "minimal": {
+      "ja": ["Verbrennungsmotor：技術用語 / Verbrenner：それを積んだ車（略称）"],
+      "de": ["Verbrennungsmotor: Technik; Verbrenner: Fahrzeug damit"]
+    },
+    "etymology": {
+      "ja": ["verbrennen（燃やす）からの俗称。"],
+      "de": ["von „verbrennen“"]
+    },
+    "example": {
+      "ja": ["2035年以降は内燃機関車の新車販売が制限される可能性がある。"],
+      "de": ["Ab 2035 könnten neue Verbrenner stärker eingeschränkt werden."]
+    },
+    "task": {
+      "ja": ["『EVか内燃機関車かで迷っている』を独語で。"],
+      "de": ["Formuliere: „Ich schwanke zwischen E-Auto und Verbrenner.“"]
+    }
+  },
+  {
+    "id": "Verschuldung",
+    "sid": "2026-00024",
+    "word": "Verschuldung",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "plural": "" },
+    "meaning": {
+      "ja": ["債務／負債（の程度）"],
+      "de": ["Verschuldung; Grad der Schuldenlast"]
+    },
+    "nuance": {
+      "ja": ["“借金がある”状態や水準を指す。財政・企業分析で頻出。"],
+      "de": ["ökonomisch: Schuldenstand/Schuldenlast"]
+    },
+    "minimal": {
+      "ja": ["Schulden：個々の借金 / Verschuldung：負債状態・水準（抽象度が高い）"],
+      "de": ["Schulden: konkrete Schulden; Verschuldung: Zustand/Grad"]
+    },
+    "etymology": {
+      "ja": ["Schuld（負い目/借金）→ verschulden（負債を負う）→ Verschuldung。"],
+      "de": ["Schuld → verschulden → Verschuldung"]
+    },
+    "example": {
+      "ja": ["高い債務は将来世代への負担になり得る。"],
+      "de": ["Eine hohe Verschuldung kann künftige Generationen belasten."]
+    },
+    "task": {
+      "ja": ["『財政赤字と債務の関係』を一文で独語化。"],
+      "de": ["Bilde einen Satz mit „Verschuldung“."]
+    }
   }
+]
 ]
