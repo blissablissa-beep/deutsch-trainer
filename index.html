@@ -985,7 +985,12 @@ bmToggleBtn.addEventListener("click", () => {
   if (!next) setOpenIdToHash("");
   render();
 });
-
+const langBtn = document.getElementById("langBtn");
+langBtn.addEventListener("click", () => {
+  const next = (getLang() === "ja") ? "de" : "ja";
+  setLang(next);
+  render();
+});
 // ...以下 shuffle / tabs / search / hashchange etc.
 
   document.getElementById("shuffleBtn").addEventListener("click", () => {
