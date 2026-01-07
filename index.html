@@ -780,6 +780,7 @@ function setScreenCount(visible) {
 
   const total = Array.isArray(CARDS) ? CARDS.length : 0;
   const v = Math.max(0, Number(visible) || 0);
+  const bm = countAllBookmarks(); // ← 追加
 
   // タイトル（左側）
   const titleEl = document.getElementById("screenTitle");
@@ -794,7 +795,9 @@ function setScreenCount(visible) {
   // カウント（右側）
   const countEl = document.getElementById("screenCount");
   if (countEl) {
-    countEl.textContent = total ? `${v} / ${total}` : "";
+    countEl.textContent = total
+      ? `${v} / ${total}${bm ? `（★${bm}）` : ""}`
+      : "";
   }
 }
   function renderCard(c, mode, openId) {
