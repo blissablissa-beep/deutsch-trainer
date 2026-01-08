@@ -1152,5 +1152,104 @@
       "ja": ["Umsatz・Gewinn・Ertrag の違いを一言で説明。"],
       "de": ["Erkläre kurz den Unterschied zwischen Umsatz, Gewinn und Ertrag."]
     }
+  },
+  {
+    "id": "versagen",
+    "sid": "2026-00038",
+    "word": "Versagen",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "das", "gender": "n", "plural": "" },
+    "meaning": {
+      "ja": ["失敗、機能不全、（責任ある立場での）不作為"],
+      "de": ["Versagen; Fehlfunktion; Scheitern (v. a. institutionell oder funktional)"]
+    },
+    "nuance": {
+      "ja": ["個人よりも制度・政策・システムの失敗を指すことが多い。"],
+      "de": ["oft bezogen auf Staat, Institutionen, Systeme"]
+    },
+    "minimal": {
+      "ja": ["Fehler：個別ミス / Versagen：全体的・構造的失敗"],
+      "de": ["Fehler punktuell; Versagen strukturell"]
+    },
+    "etymology": {
+      "ja": ["versagen（役割を果たさない）に由来。"],
+      "de": ["von „versagen“ (nicht funktionieren)"]
+    },
+    "example": {
+      "ja": ["これは政治の失敗だ。"],
+      "de": ["Das ist ein politisches Versagen."]
+    },
+    "task": {
+      "ja": ["「制度の失敗」を使って1文。"],
+      "de": ["Bilde einen Satz mit „institutionelles Versagen“."]
+    }
+  },
+  {
+    "id": "wildwuchs",
+    "sid": "2026-00039",
+    "word": "Wildwuchs",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+    "meaning": {
+      "ja": ["無秩序な増殖、野放図な拡大"],
+      "de": ["ungeordnete, unkontrollierte Entwicklung"]
+    },
+    "nuance": {
+      "ja": ["比喩表現。IT・都市計画・規制文脈で多い。"],
+      "de": ["metaphorisch; oft in Regulierung, Stadtplanung, IT"]
+    },
+    "minimal": {
+      "ja": ["Wachstum：中立 / Wildwuchs：統制の欠如"],
+      "de": ["Wachstum neutral; Wildwuchs negativ"]
+    },
+    "etymology": {
+      "ja": ["wild（野生の）＋ Wuchs（成長）。"],
+      "de": ["wild + Wuchs"]
+    },
+    "example": {
+      "ja": ["無秩序な開発を防ぐ必要がある。"],
+      "de": ["Der Wildwuchs von Neubauten muss eingedämmt werden."]
+    },
+    "task": {
+      "ja": ["「規制なき拡大」を Wildwuchs で表現。"],
+      "de": ["Formuliere einen Satz mit „Wildwuchs“."]
+    }
+  },
+  {
+    "id": "aufruestung",
+    "sid": "2026-00040",
+    "word": "Aufrüstung",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "" },
+    "meaning": {
+      "ja": ["軍拡、軍備増強"],
+      "de": ["Aufrüstung; militärische Verstärkung"]
+    },
+    "nuance": {
+      "ja": ["安全保障・国際政治の定番語。否定・懸念文脈が多い。"],
+      "de": ["oft kritisch oder warnend verwendet"]
+    },
+    "minimal": {
+      "ja": ["Rüstung：軍備一般 / Aufrüstung：それを強化する動き"],
+      "de": ["Rüstung allgemein; Aufrüstung als Prozess"]
+    },
+    "etymology": {
+      "ja": ["auf-（増やす）＋ rüsten（武装する）。"],
+      "de": ["auf + rüsten"]
+    },
+    "example": {
+      "ja": ["軍拡は緊張を高める可能性がある。"],
+      "de": ["Aufrüstung kann internationale Spannungen verschärfen."]
+    },
+    "task": {
+      "ja": ["「軍拡競争」を使って1文。"],
+      "de": ["Bilde einen Satz mit „Rüstungswettlauf“ oder „Aufrüstung“."]
+    }
   }
 ]
