@@ -1251,5 +1251,203 @@
       "ja": ["「軍拡競争」を使って1文。"],
       "de": ["Bilde einen Satz mit „Rüstungswettlauf“ oder „Aufrüstung“."]
     }
+  },
+  {
+    "id": "ruestungswettlauf",
+    "sid": "2026-00041",
+    "word": "Rüstungswettlauf",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+    "meaning": {
+      "ja": ["軍拡競争（国家間で軍備増強を競い合うこと）"],
+      "de": ["Rüstungswettlauf; Wettbewerb zwischen Staaten beim Ausbau militärischer Kapazitäten"]
+    },
+    "nuance": {
+      "ja": ["冷戦・現代安全保障の文脈で頻出。否定的含意が強い。"],
+      "de": ["meist negativ konnotiert; historisch (Kalter Krieg) und aktuell"]
+    },
+    "minimal": {
+      "ja": ["Aufrüstung：軍拡（単独）／Rüstungswettlauf：相互的な軍拡"],
+      "de": ["Aufrüstung einzeln; Rüstungswettlauf wechselseitig"]
+    },
+    "etymology": {
+      "ja": ["Rüstung（軍備）＋ Wettlauf（競争）。"],
+      "de": ["Rüstung + Wettlauf"]
+    },
+    "example": {
+      "ja": ["軍拡競争は地域の不安定化を招く。"],
+      "de": ["Ein Rüstungswettlauf kann zur Destabilisierung einer Region führen."]
+    },
+    "task": {
+      "ja": ["「軍拡競争を避けるべきだ」を独語で。"],
+      "de": ["Formuliere einen Satz mit „einen Rüstungswettlauf vermeiden“."]
+    }
+  },
+  {
+    "id": "abschreckung",
+    "sid": "2026-00042",
+    "word": "Abschreckung",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "" },
+    "meaning": {
+      "ja": ["抑止（相手に攻撃を思いとどまらせること）"],
+      "de": ["Abschreckung; Abschrecken potenzieller Gegner"]
+    },
+    "nuance": {
+      "ja": ["核抑止・軍事抑止の定訳。合理性を前提にする概念。"],
+      "de": ["zentraler Begriff der Sicherheits- und Nuklearstrategie"]
+    },
+    "minimal": {
+      "ja": ["Abwehr：防御／Abschreckung：攻撃を未然に防ぐ心理的効果"],
+      "de": ["Abwehr defensiv; Abschreckung präventiv"]
+    },
+    "etymology": {
+      "ja": ["abschrecken（怖がらせる）に由来。"],
+      "de": ["von „abschrecken“"]
+    },
+    "example": {
+      "ja": ["核抑止は今も安全保障政策の柱だ。"],
+      "de": ["Nukleare Abschreckung ist weiterhin ein Kern der Sicherheitspolitik."]
+    },
+    "task": {
+      "ja": ["「抑止が機能するかは議論がある」を1文。"],
+      "de": ["Formuliere einen Satz mit „Wirksamkeit der Abschreckung“."]
+    }
+  },
+  {
+    "id": "sicherheitsarchitektur",
+    "sid": "2026-00043",
+    "word": "Sicherheitsarchitektur",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "" },
+    "meaning": {
+      "ja": ["（地域・国際）安全保障体制"],
+      "de": ["Sicherheitsarchitektur; institutionelle Ordnung der Sicherheit"]
+    },
+    "nuance": {
+      "ja": ["NATO・EU・国際秩序文脈で使用。構造・枠組み重視。"],
+      "de": ["betont institutionelle und strukturelle Dimension"]
+    },
+    "minimal": {
+      "ja": ["Sicherheitspolitik：政策 / Sicherheitsarchitektur：その枠組み"],
+      "de": ["Politik vs. Struktur"]
+    },
+    "etymology": {
+      "ja": ["Architektur（構造）を比喩的に使用。"],
+      "de": ["Architektur als Metapher für Struktur"]
+    },
+    "example": {
+      "ja": ["欧州の安全保障体制が揺らいでいる。"],
+      "de": ["Die europäische Sicherheitsarchitektur steht unter Druck."]
+    },
+    "task": {
+      "ja": ["「新たな安全保障体制が必要だ」を独語で。"],
+      "de": ["Formuliere einen Satz mit „neue Sicherheitsarchitektur“."]
+    }
+  },
+  {
+    "id": "marktversagen",
+    "sid": "2026-00044",
+    "word": "Marktversagen",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "das", "gender": "n", "plural": "" },
+    "meaning": {
+      "ja": ["市場の失敗（市場メカニズムが最適配分を達成しない状態）"],
+      "de": ["Marktversagen; Unfähigkeit des Marktes zu effizienter Allokation"]
+    },
+    "nuance": {
+      "ja": ["経済学・政策議論の基本語。政府介入の根拠。"],
+      "de": ["zentrales Argument für staatliches Eingreifen"]
+    },
+    "minimal": {
+      "ja": ["Marktversagen ↔ Staatsversagen（対比で覚える）"],
+      "de": ["klassisches Gegensatzpaar"]
+    },
+    "etymology": {
+      "ja": ["Markt＋Versagen。"],
+      "de": ["Markt + Versagen"]
+    },
+    "example": {
+      "ja": ["環境問題は市場の失敗の典型例だ。"],
+      "de": ["Umweltprobleme gelten als klassisches Marktversagen."]
+    },
+    "task": {
+      "ja": ["市場の失敗の例を1つ挙げる。"],
+      "de": ["Nenne ein Beispiel für Marktversagen."]
+    }
+  },
+  {
+    "id": "staatsversagen",
+    "sid": "2026-00045",
+    "word": "Staatsversagen",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "das", "gender": "n", "plural": "" },
+    "meaning": {
+      "ja": ["政府の失敗（国家介入が非効率・逆効果になること）"],
+      "de": ["Staatsversagen; ineffektives oder schädliches staatliches Handeln"]
+    },
+    "nuance": {
+      "ja": ["Marktversagenとの対概念。自由主義的議論で重要。"],
+      "de": ["oft als Gegenargument zu Regulierung"]
+    },
+    "minimal": {
+      "ja": ["Marktversagen：市場の限界 / Staatsversagen：国家の限界"],
+      "de": ["Grenzen von Markt vs. Staat"]
+    },
+    "etymology": {
+      "ja": ["Staat＋Versagen。"],
+      "de": ["Staat + Versagen"]
+    },
+    "example": {
+      "ja": ["過度な規制は政府の失敗を招く恐れがある。"],
+      "de": ["Überregulierung kann zu Staatsversagen führen."]
+    },
+    "task": {
+      "ja": ["「国家介入は万能ではない」を独語で。"],
+      "de": ["Formuliere einen Satz mit „Staatsversagen“."]
+    }
+  },
+  {
+    "id": "wettlauf",
+    "sid": "2026-00046",
+    "word": "Wettlauf",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "Wettläufe" },
+    "meaning": {
+      "ja": ["競争、競争状態（比喩的）"],
+      "de": ["Wettlauf; Konkurrenz (meist metaphorisch)"]
+    },
+    "nuance": {
+      "ja": ["Zeit・技術・資源をめぐる競争で多用。"],
+      "de": ["oft mit „um + Akk.“ verwendet"]
+    },
+    "minimal": {
+      "ja": ["Konkurrenz：一般的競争 / Wettlauf：スピード・切迫感"],
+      "de": ["Konkurrenz neutraler; Wettlauf dynamischer"]
+    },
+    "etymology": {
+      "ja": ["wett-（競う）＋ Lauf（走る）。"],
+      "de": ["wett + Lauf"]
+    },
+    "example": {
+      "ja": ["時間との競争だ。"],
+      "de": ["Es ist ein Wettlauf gegen die Zeit."]
+    },
+    "task": {
+      "ja": ["「技術開発競争」を Wettlauf で表現。"],
+      "de": ["Formuliere einen Satz mit „technologischer Wettlauf“."]
+    }
   }
 ]
