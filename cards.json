@@ -915,5 +915,242 @@
     "ja": ["「良い成果を上げた」を erzielten を使って独語で。"],
     "de": ["Formuliere: „Wir haben gute Ergebnisse erzielt.“"]
   }
-}
+},
+  {
+    "id": "geburtenrueckgang",
+    "sid": "2026-00031",
+    "word": "Geburtenrückgang",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+    "meaning": {
+      "ja": ["出生数の減少、少子化"],
+      "de": ["Rückgang der Geburtenzahlen"]
+    },
+    "nuance": {
+      "ja": ["統計・政策文脈で使う硬い語。"],
+      "de": ["typisch in Statistik, Demografie, Politik"]
+    },
+    "minimal": {
+      "ja": ["Geburtenrate：出生率 / Geburtenrückgang：その低下現象"],
+      "de": ["Geburtenrate: Kennzahl; Geburtenrückgang: Entwicklung"]
+    },
+    "etymology": {
+      "ja": ["Geburt（出生）＋ Rückgang（減少）。"],
+      "de": ["Geburt + Rückgang"]
+    },
+    "example": {
+      "ja": ["少子化は社会保障制度に影響を与える。"],
+      "de": ["Der Geburtenrückgang wirkt sich auf das Sozialsystem aus."]
+    },
+    "task": {
+      "ja": ["「少子化が進んでいる」を独語で。"],
+      "de": ["Formuliere: „Der Geburtenrückgang schreitet voran.“"]
+    }
+  },
+  {
+    "id": "ueberalterung",
+    "sid": "2026-00032",
+    "word": "Überalterung",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "" },
+    "meaning": {
+      "ja": ["高齢化（社会全体の年齢構成が高くなること）"],
+      "de": ["Überalterung der Gesellschaft; Alterung der Bevölkerung"]
+    },
+    "nuance": {
+      "ja": ["やや問題提起的・否定的文脈で使われやすい。"],
+      "de": ["oft problemorientiert gebraucht"]
+    },
+    "minimal": {
+      "ja": ["Alterung：中立 / Überalterung：行き過ぎ・問題視"],
+      "de": ["Alterung neutral; Überalterung problematisch"]
+    },
+    "etymology": {
+      "ja": ["über-（過度に）＋ Alter（年齢）。"],
+      "de": ["über + Alter"]
+    },
+    "example": {
+      "ja": ["高齢化は労働市場に影響する。"],
+      "de": ["Die Überalterung stellt den Arbeitsmarkt vor Herausforderungen."]
+    },
+    "task": {
+      "ja": ["「社会の高齢化が進んでいる」を独語で。"],
+      "de": ["Bilde einen Satz mit „Überalterung der Gesellschaft“."]
+    }
+  },
+  {
+    "id": "einwanderung",
+    "sid": "2026-00033",
+    "word": "Einwanderung",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "" },
+    "meaning": {
+      "ja": ["移民、入国定住"],
+      "de": ["Einwanderung; Immigration"]
+    },
+    "nuance": {
+      "ja": ["一般語で、個人の移住にも焦点。"],
+      "de": ["allgemeiner als „Zuwanderung“"]
+    },
+    "minimal": {
+      "ja": ["Einwanderung：一般語 / Zuwanderung：流入・統計語感"],
+      "de": ["Einwanderung allgemein; Zuwanderung fluss-/politikbetont"]
+    },
+    "etymology": {
+      "ja": ["ein-（中へ）＋ wandern（移動する）。"],
+      "de": ["ein + wandern"]
+    },
+    "example": {
+      "ja": ["移民は経済成長に寄与する。"],
+      "de": ["Einwanderung kann zum Wirtschaftswachstum beitragen."]
+    },
+    "task": {
+      "ja": ["「移民を促進する政策」を独語で。"],
+      "de": ["Formuliere: „eine Politik zur Förderung der Einwanderung“."]
+    }
+  },
+  {
+    "id": "nachwuchsmangel",
+    "sid": "2026-00034",
+    "word": "Nachwuchsmangel",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+    "meaning": {
+      "ja": ["若手不足、後進不足"],
+      "de": ["Mangel an Nachwuchs"]
+    },
+    "nuance": {
+      "ja": ["研究・スポーツ・企業で頻出。"],
+      "de": ["häufig in Wissenschaft, Sport, Wirtschaft"]
+    },
+    "minimal": {
+      "ja": ["Nachwuchsmangel：若手層不足 / Fachkräftemangel：技能人材不足"],
+      "de": ["Nachwuchsmangel vs. Fachkräftemangel"]
+    },
+    "etymology": {
+      "ja": ["Nachwuchs＋Mangel。"],
+      "de": ["Nachwuchs + Mangel"]
+    },
+    "example": {
+      "ja": ["技術分野では若手不足が深刻だ。"],
+      "de": ["In technischen Berufen ist der Nachwuchsmangel gravierend."]
+    },
+    "task": {
+      "ja": ["「後進不足が問題だ」を独語で。"],
+      "de": ["Bilde einen Satz mit „Nachwuchsmangel“."]
+    }
+  },
+  {
+    "id": "fachkraeftemangel",
+    "sid": "2026-00035",
+    "word": "Fachkräftemangel",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+    "meaning": {
+      "ja": ["人手不足（特に専門・技能人材）"],
+      "de": ["Mangel an qualifizierten Fachkräften"]
+    },
+    "nuance": {
+      "ja": ["政策・経済ニュースの最重要語彙。"],
+      "de": ["Schlüsselbegriff in Arbeitsmarktdebatten"]
+    },
+    "minimal": {
+      "ja": ["Arbeitskräftemangel：一般労働力 / Fachkräftemangel：専門人材"],
+      "de": ["Arbeitskräfte vs. Fachkräfte"]
+    },
+    "etymology": {
+      "ja": ["Fachkraft＋Mangel。"],
+      "de": ["Fachkraft + Mangel"]
+    },
+    "example": {
+      "ja": ["人手不足が経済成長の制約になっている。"],
+      "de": ["Der Fachkräftemangel bremst das Wirtschaftswachstum."]
+    },
+    "task": {
+      "ja": ["「人材不足を補う」を独語で。"],
+      "de": ["Formuliere: „den Fachkräftemangel ausgleichen“."]
+    }
+  },
+  {
+    "id": "umsatz",
+    "sid": "2026-00036",
+    "word": "Umsatz",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["exam"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "Umsätze" },
+    "meaning": {
+      "ja": ["売上高"],
+      "de": ["Umsatz; Verkaufserlös"]
+    },
+    "nuance": {
+      "ja": ["利益とは無関係（コスト未考慮）。"],
+      "de": ["ohne Berücksichtigung der Kosten"]
+    },
+    "minimal": {
+      "ja": ["Umsatz：売上 / Gewinn：利益"],
+      "de": ["Umsatz ≠ Gewinn"]
+    },
+    "etymology": {
+      "ja": ["umsetzen（売買する）から。"],
+      "de": ["von „umsetzen“"]
+    },
+    "example": {
+      "ja": ["売上は前年比で増加した。"],
+      "de": ["Der Umsatz ist im Vergleich zum Vorjahr gestiegen."]
+    },
+    "task": {
+      "ja": ["「売上が減少した」を独語で。"],
+      "de": ["Formuliere: „Der Umsatz ist zurückgegangen.“"]
+    }
+  },
+  {
+    "id": "gewinn_ertrag",
+    "sid": "2026-00037",
+    "word": "Gewinn / Ertrag",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun" },
+    "meaning": {
+      "ja": [
+        "Gewinn：利益（売上−費用）",
+        "Ertrag：収益（会計・農業・金融寄り）"
+      ],
+      "de": [
+        "Gewinn: Überschuss nach Kosten",
+        "Ertrag: Erwirtschafteter Ertrag (oft buchhalterisch)"
+      ]
+    },
+    "nuance": {
+      "ja": ["Ertrag はやや専門・会計寄り。"],
+      "de": ["Ertrag formeller/technischer"]
+    },
+    "minimal": {
+      "ja": ["Umsatz → Ertrag → Gewinn の順で絞られる"],
+      "de": ["Umsatz → Ertrag → Gewinn"]
+    },
+    "etymology": {
+      "ja": ["Gewinn：gewinnen / Ertrag：er-tragen（もたらす）。"],
+      "de": ["gewinnen / ertragen"]
+    },
+    "example": {
+      "ja": ["利益はコスト削減によって増えた。"],
+      "de": ["Der Gewinn stieg durch Kostensenkungen."]
+    },
+    "task": {
+      "ja": ["Umsatz・Gewinn・Ertrag の違いを一言で説明。"],
+      "de": ["Erkläre kurz den Unterschied zwischen Umsatz, Gewinn und Ertrag."]
+    }
+  }
 ]
