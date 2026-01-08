@@ -772,5 +772,148 @@
     "ja": ["「もう彼らには太刀打ちできない」を mit + Dat で独語化。"],
     "de": ["Bilde einen Satz: „Wir können mit ihnen nicht mehr konkurrieren.“"]
   }
+},
+{
+  "id": "nachwuchs",
+  "sid": "2026-00028",
+  "word": "Nachwuchs",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+  "meaning": {
+    "ja": ["後進、若手、人材育成層（若い世代）", "子ども・次世代（文脈依存）"],
+    "de": ["Nachwuchsgeneration; junge Talente; auch: Kinder/Nachkommen (kontextabhängig)"]
+  },
+  "nuance": {
+    "ja": [
+      "スポーツ・研究・企業で「将来を担う若手人材」の意味が非常に強い。",
+      "可算に見えて不可算名詞扱い（複数形なし）。"
+    ],
+    "de": [
+      "Häufig in Sport, Wissenschaft, Wirtschaft.",
+      "Meist kollektiv gebraucht, ohne Plural."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Jugend: 年齢層そのもの",
+      "Nachwuchs: 将来の担い手・育成対象"
+    ],
+    "de": [
+      "Jugend: Altersgruppe",
+      "Nachwuchs: künftige Leistungsträger"
+    ]
+  },
+  "etymology": {
+    "ja": ["nach-（後に）＋ wachsen（成長する）→ 後から育ってくるもの。"],
+    "de": ["nach + wachsen → „das, was nachwächst“."]
+  },
+  "example": {
+    "ja": ["研究分野では若手人材の育成が課題だ。"],
+    "de": ["In der Forschung ist die Förderung des Nachwuchses eine zentrale Aufgabe."]
+  },
+  "task": {
+    "ja": ["「後進の育成が不可欠だ」を独語で。"],
+    "de": ["Formuliere: „Die Förderung des Nachwuchses ist unverzichtbar.“"]
+  }
+},
+{
+  "id": "erwirtschaften",
+  "sid": "2026-00029",
+  "word": "er·wirt·schaf·ten",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "erwirtschaftete",
+    "perfekt": "hat erwirtschaftet"
+  },
+  "meaning": {
+    "ja": ["（活動の結果として）利益・収益・資金を生み出す"],
+    "de": ["durch wirtschaftliche Tätigkeit erzielen; erwirtschaften (Gewinn/Einnahmen)"]
+  },
+  "nuance": {
+    "ja": [
+      "『努力・事業活動の結果として生み出す』というプロセス感が強い。",
+      "国家・企業・部門が主語になりやすい。"
+    ],
+    "de": [
+      "Betont den wirtschaftlichen Prozess.",
+      "Typisch für Unternehmen, Staat, Sektoren."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "erzielen: 結果そのものに焦点",
+      "erwirtschaften: 経済活動による創出プロセスに焦点"
+    ],
+    "de": [
+      "erzielen: Ergebnis",
+      "erwirtschaften: wirtschaftlicher Prozess"
+    ]
+  },
+  "etymology": {
+    "ja": ["Wirtschaft（経済・経営）からの派生。"],
+    "de": ["Von „Wirtschaft“ abgeleitet."]
+  },
+  "example": {
+    "ja": ["その企業は昨年大きな利益を生み出した。"],
+    "de": ["Das Unternehmen hat im vergangenen Jahr hohe Gewinne erwirtschaftet."]
+  },
+  "task": {
+    "ja": ["「輸出で外貨を稼ぐ」を独語で。"],
+    "de": ["Bilde einen Satz mit „Devisen erwirtschaften“."]
+  }
+},
+{
+  "id": "erzielen",
+  "sid": "2026-00030",
+  "word": "er·zie·len",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "erzielte",
+    "perfekt": "hat erzielt"
+  },
+  "meaning": {
+    "ja": ["（努力・結果として）成果・数値・効果を得る"],
+    "de": ["ein Ergebnis, einen Erfolg oder Wert erreichen"]
+  },
+  "nuance": {
+    "ja": [
+      "数値・成果・合意など『結果』と非常に相性が良い。",
+      "新聞・報告書・試験頻出動詞。"
+    ],
+    "de": [
+      "Sehr häufig in Berichten, Statistiken, Prüfungen.",
+      "Kollokationen: Ergebnis, Umsatz, Quote, Wirkung."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "erreichen: 到達・達成（一般）",
+      "erzielen: 数値・成果を『出す』感じ"
+    ],
+    "de": [
+      "erreichen: allgemein",
+      "erzielen: messbares Resultat"
+    ]
+  },
+  "etymology": {
+    "ja": ["zielen（狙う）→ er-zielen（狙って当てる）。"],
+    "de": ["Von „zielen“ (auf etwas abzielen)."]
+  },
+  "example": {
+    "ja": ["売上は過去最高を記録した。"],
+    "de": ["Der Umsatz erzielte einen neuen Höchstwert."]
+  },
+  "task": {
+    "ja": ["「良い成果を上げた」を erzielten を使って独語で。"],
+    "de": ["Formuliere: „Wir haben gute Ergebnisse erzielt.“"]
+  }
 }
 ]
