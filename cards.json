@@ -1449,5 +1449,174 @@
       "ja": ["「技術開発競争」を Wettlauf で表現。"],
       "de": ["Formuliere einen Satz mit „technologischer Wettlauf“."]
     }
+  },
+  {
+    "id": "uebertreiben",
+    "sid": "2026-00047",
+    "word": "übertreiben",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["verb", "oral", "exam"],
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "übertrieb",
+      "perfekt": "hat übertrieben"
+    },
+    "meaning": {
+      "ja": ["誇張する、過大に表現する"],
+      "de": ["übermäßig darstellen; etwas zu stark betonen"]
+    },
+    "nuance": {
+      "ja": ["評価が感情的・非合理だと批判する際に便利。"],
+      "de": ["oft kritisch; impliziert fehlende Verhältnismäßigkeit"]
+    },
+    "minimal": {
+      "ja": ["überschätzen＝数量・規模の過大評価 / übertreiben＝表現・評価の誇張"],
+      "de": ["überschätzen numerisch; übertreiben rhetorisch"]
+    },
+    "example": {
+      "ja": ["そのリスクは誇張されていると思う。"],
+      "de": ["Ich halte dieses Risiko für übertrieben."]
+    },
+    "task": {
+      "ja": ["「メディアは問題を誇張しがちだ」を1文。"],
+      "de": ["Formuliere: „Die Medien neigen dazu, … zu übertreiben.“"]
+    }
+  },
+
+  {
+    "id": "ueberschaetzen",
+    "sid": "2026-00048",
+    "word": "überschätzen",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["verb", "oral", "exam"],
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "überschätzte",
+      "perfekt": "hat überschätzt"
+    },
+    "meaning": {
+      "ja": ["過大評価する"],
+      "de": ["zu hoch einschätzen"]
+    },
+    "nuance": {
+      "ja": ["能力・効果・影響を冷静に評価する文脈で頻出。"],
+      "de": ["analytisch; oft mit abstrakten Subjekten"]
+    },
+    "minimal": {
+      "ja": ["übertreiben＝表現の誇張 / überschätzen＝判断の誤り"],
+      "de": ["rhetorisch vs. analytisch"]
+    },
+    "example": {
+      "ja": ["技術の短期的影響は過大評価されがちだ。"],
+      "de": ["Die kurzfristigen Effekte der Technologie werden oft überschätzt."]
+    },
+    "task": {
+      "ja": ["「〜の影響を過大評価してはならない」を独語で。"],
+      "de": ["Formuliere: „Man sollte … nicht überschätzen.“"]
+    }
+  },
+
+  {
+    "id": "unterschaetzen",
+    "sid": "2026-00049",
+    "word": "unterschätzen",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["verb", "oral", "exam"],
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "unterschätzte",
+      "perfekt": "hat unterschätzt"
+    },
+    "meaning": {
+      "ja": ["過小評価する"],
+      "de": ["zu gering einschätzen"]
+    },
+    "nuance": {
+      "ja": ["警告・リスク提示で非常に使いやすい。"],
+      "de": ["oft warnend; Hinweis auf Blindstellen"]
+    },
+    "minimal": {
+      "ja": ["unterschätzen ↔ überschätzen（対で覚える）"],
+      "de": ["klassisches Gegensatzpaar"]
+    },
+    "example": {
+      "ja": ["人口動態の影響は過小評価されている。"],
+      "de": ["Die demografischen Auswirkungen werden unterschätzt."]
+    },
+    "task": {
+      "ja": ["「〜を甘く見てはならない」を1文で。"],
+      "de": ["Formuliere: „Man darf … nicht unterschätzen.“"]
+    }
+  },
+
+  {
+    "id": "beschleunigen",
+    "sid": "2026-00050",
+    "word": "beschleunigen",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["verb", "oral", "exam"],
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "beschleunigte",
+      "perfekt": "hat beschleunigt"
+    },
+    "meaning": {
+      "ja": ["加速させる、促進する"],
+      "de": ["beschleunigen; schneller machen"]
+    },
+    "nuance": {
+      "ja": ["政策・改革・変化を語る際の定番動詞。"],
+      "de": ["neutral bis positiv; oft kausal"]
+    },
+    "minimal": {
+      "ja": ["fördern＝支援 / beschleunigen＝速度を上げる"],
+      "de": ["fördern strukturell; beschleunigen temporal"]
+    },
+    "example": {
+      "ja": ["デジタル化は変化を加速させた。"],
+      "de": ["Die Digitalisierung hat den Wandel beschleunigt."]
+    },
+    "task": {
+      "ja": ["「改革を加速させる必要がある」を独語で。"],
+      "de": ["Formuliere: „Reformen müssen beschleunigt werden.“"]
+    }
+  },
+
+  {
+    "id": "bremsen",
+    "sid": "2026-00051",
+    "word": "bremsen",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["verb", "oral", "exam"],
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "bremste",
+      "perfekt": "hat gebremst"
+    },
+    "meaning": {
+      "ja": ["減速させる、抑制する、妨げる"],
+      "de": ["abbremsen; hemmen"]
+    },
+    "nuance": {
+      "ja": ["否定的要因・副作用を述べるのに便利。"],
+      "de": ["oft negativ; Fokus auf Hemmnisse"]
+    },
+    "minimal": {
+      "ja": ["verhindern＝完全阻止 / bremsen＝勢いを弱める"],
+      "de": ["verhindern absolut; bremsen graduell"]
+    },
+    "example": {
+      "ja": ["過度な規制は成長を妨げる。"],
+      "de": ["Übermäßige Regulierung bremst das Wachstum."]
+    },
+    "task": {
+      "ja": ["「経済成長を鈍らせる要因」を1文。"],
+      "de": ["Formuliere einen Satz mit „… bremst das Wachstum“."]
+    }
   }
 ]
