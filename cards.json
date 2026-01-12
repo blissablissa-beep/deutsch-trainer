@@ -1618,5 +1618,239 @@
       "ja": ["「経済成長を鈍らせる要因」を1文。"],
       "de": ["Formuliere einen Satz mit „… bremst das Wachstum“."]
     }
+  },
+  [
+  {
+    "id": "ausgleichen",
+    "sid": "2026-00052",
+    "word": "aus·glei·chen",
+    "tags": ["abs", "exam", "coll"],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "glich aus",
+      "perfekt": "hat ausgeglichen",
+      "patterns": [
+        "etw. ausgleichen (Akk.)",
+        "etw. durch etw. ausgleichen (Akk. + durch + Akk.)",
+        "etw. mit etw. ausgleichen (Akk. + mit + Dat.)"
+      ]
+    },
+    "meaning": {
+      "ja": [
+        "（差・不足・赤字などを）相殺する／埋め合わせる",
+        "（欠点を）補う、バランスを取る"
+      ],
+      "de": [
+        "eine Differenz/Unwucht kompensieren; ausgleichen",
+        "Nachteile/Defizite durch etwas ausbalancieren"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "「不足を別の要素で埋める」「プラスとマイナスをならす」ニュアンス。",
+        "経済・政策：Defizite/Belastungen ausgleichen が鉄板。"
+      ],
+      "de": [
+        "sehr häufig in Ökonomie/Politik: Defizite, Belastungen, Unterschiede ausgleichen",
+        "kann technisch (Differenz) und übertragen (Nachteile) sein"
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "kompensieren：やや専門・書き言葉（代償する）",
+        "ausgleichen：より一般的で幅広い（相殺・補填）"
+      ],
+      "de": [
+        "kompensieren: formeller/technischer",
+        "ausgleichen: allgemeiner, sehr gebräuchlich"
+      ]
+    },
+    "etymology": {
+      "ja": "gleich（等しい）を核に、aus-（〜を外へ＝差を外へ出して消すイメージ）＋ gleichen（等しくする）→「差をならして等しくする」。",
+      "de": "aus- + gleichen („gleich machen“) → eine Differenz „herausnehmen“, nivellieren/kompensieren."
+    },
+    "example": {
+      "ja": ["インフレによる負担を給付で相殺する。", "この制度は地域格差を埋め合わせることを目的とする。"],
+      "de": ["Der Staat will die Belastungen durch die Inflation durch Zuschüsse ausgleichen.", "Die Maßnahme soll regionale Unterschiede ausgleichen."]
+    },
+    "task": {
+      "ja": "「税制は格差を是正（相殺）すべきだ」を ausgleichen で1文。",
+      "de": "Bilde einen Satz: „Das Steuersystem sollte … ausgleichen.“"
+    }
+  },
+  {
+    "id": "verschaerfen",
+    "sid": "2026-00053",
+    "word": "ver·schär·fen",
+    "tags": ["abs", "exam", "oral"],
+    "level": "C1",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "verschärfte",
+      "perfekt": "hat verschärft",
+      "patterns": [
+        "etw. verschärfen (Akk.)",
+        "sich verschärfen"
+      ]
+    },
+    "meaning": {
+      "ja": [
+        "（状況・対立・問題を）深刻化させる／悪化させる",
+        "（規制・措置を）強化する、厳格化する"
+      ],
+      "de": [
+        "etwas verschlimmern/verschärfen (Konflikt, Krise, Problem)",
+        "Maßnahmen/Regeln verschärfen = strenger machen"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "ニュース・論述の定番。『状況が〜』なら自動詞：sich verschärfen。",
+        "『規制を厳格化する』は能動：Regeln/Strafen/Controls verschärfen。"
+      ],
+      "de": [
+        "sehr häufig in Medien: „Die Lage/Krise spitzt sich zu / verschärft sich“",
+        "auch administrativ: „Regeln/Strafen verschärfen“"
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "verschlimmern：露骨に「悪くする」",
+        "verschärfen：『鋭さ・厳しさが増す』＝対立や規制に特に相性が良い"
+      ],
+      "de": [
+        "verschlimmern: klar „schlechter machen“",
+        "verschärfen: betont Schärfe/Strenge (Konflikt, Ton, Regeln)"
+      ]
+    },
+    "etymology": {
+      "ja": "scharf（鋭い／厳しい）→ verschärfen（より鋭くする）。ver- は「状態変化・強化」方向に働くことが多い。",
+      "de": "von „scharf“; Präfix ver- oft als Intensivierung/Veränderung → „schärfer machen“ (wörtlich und übertragen)."
+    },
+    "example": {
+      "ja": ["制裁は緊張を悪化させる恐れがある。", "政府は規制を厳格化した。"],
+      "de": ["Sanktionen könnten die Spannungen weiter verschärfen.", "Die Regierung hat die Regeln verschärft."]
+    },
+    "task": {
+      "ja": "「その発言は対立を深刻化させた」を1文。",
+      "de": "Formuliere: „Die Aussage hat den Konflikt verschärft.“"
+    }
+  },
+  {
+    "id": "abfedern",
+    "sid": "2026-00054",
+    "word": "ab·fe·dern",
+    "tags": ["abs", "exam", "coll"],
+    "level": "C1",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "federte ab",
+      "perfekt": "hat abgefedert",
+      "patterns": [
+        "etw. abfedern (Akk.)",
+        "etw. durch etw. abfedern (Akk. + durch + Akk.)"
+      ]
+    },
+    "meaning": {
+      "ja": [
+        "（衝撃・悪影響・負担を）和らげる／緩和する（クッションする）"
+      ],
+      "de": [
+        "einen Schock/negative Folgen/Belastungen dämpfen; abmildern (wie ein Stoßdämpfer)"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "政策・経済の鉄板：Preissteigerungen/Belastungen/Schocks abfedern。",
+        "「完全に防ぐ」ではなく「衝撃を減らす」点がコア。"
+      ],
+      "de": [
+        "sehr typisch: „soziale Härten abfedern“, „Preisanstieg abfedern“",
+        "impliziert: nicht verhindern, sondern dämpfen"
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "mildern：一般に緩和",
+        "abfedern：衝撃（ショック）を“クッション”する比喩が強い"
+      ],
+      "de": [
+        "mildern: allgemein",
+        "abfedern: bildhaft wie „Stoß abfedern“ (Schock dämpfen)"
+      ]
+    },
+    "etymology": {
+      "ja": "Feder（バネ）→ federn（ばねで受ける）＋ ab-（衝撃を下へ逃がす感じ）→「衝撃をばねで受けて和らげる」。",
+      "de": "von „Feder“ (Sprungfeder) → „einen Stoß abfedern“; übertragen auf wirtschaftliche/soziale Schocks."
+    },
+    "example": {
+      "ja": ["補助金でエネルギー価格高騰の影響を緩和する。", "制度は弱者への打撃を和らげる。"],
+      "de": ["Subventionen sollen die Folgen steigender Energiepreise abfedern.", "Das System soll soziale Härten abfedern."]
+    },
+    "task": {
+      "ja": "「物価高の影響を緩和する必要がある」を abfedern で1文。",
+      "de": "Bilde einen Satz mit „die Folgen der Inflation abfedern“."
+    }
+  },
+  {
+    "id": "begrenzen",
+    "sid": "2026-00055",
+    "word": "be·gren·zen",
+    "tags": ["abs", "exam", "coll"],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "begrenzte",
+      "perfekt": "hat begrenzt",
+      "patterns": [
+        "etw. begrenzen (Akk.)",
+        "auf + Akk. begrenzen"
+      ]
+    },
+    "meaning": {
+      "ja": [
+        "（量・範囲・影響を）制限する、限定する"
+      ],
+      "de": [
+        "einschränken; auf ein bestimmtes Maß/Rahmen limitieren"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "『上限を設ける』『範囲を枠に入れる』。政策・リスク管理で頻出。",
+        "型：auf + Akk. begrenzen（上限・範囲の明示）。"
+      ],
+      "de": [
+        "sehr häufig in Politik/Risikomanagement: Schäden, Kosten, Risiko begrenzen",
+        "typisch: „auf … begrenzen“"
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "einschränken：自由度・機能を狭める（権利制限も）",
+        "begrenzen：数量・範囲に“境界”を引く（上限設定寄り）"
+      ],
+      "de": [
+        "einschränken: Freiheit/Spielraum reduzieren",
+        "begrenzen: eine Grenze setzen (Menge/Umfang)"
+      ]
+    },
+    "etymology": {
+      "ja": "Grenze（境界）→ be-（対象に作用させる）＋ grenzen（境界を引く）→「境界を付ける＝限定する」。",
+      "de": "von „Grenze“; be- als transitivierende Vorsilbe → „mit einer Grenze versehen“ = limitieren."
+    },
+    "example": {
+      "ja": ["損失を最小限に抑える（限定する）必要がある。", "速度は時速30kmに制限されている。"],
+      "de": ["Wir müssen den Schaden begrenzen.", "Die Geschwindigkeit ist auf 30 km/h begrenzt."]
+    },
+    "task": {
+      "ja": "「財政負担を上限付きにする」を begrenzen で1文。",
+      "de": "Formuliere: „Wir müssen die fiskalischen Kosten begrenzen.“"
+    }
   }
 ]
