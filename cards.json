@@ -1851,5 +1851,142 @@
       "ja": "「財政負担を上限付きにする」を begrenzen で1文。",
       "de": "Formuliere: „Wir müssen die fiskalischen Kosten begrenzen.“"
     }
+  },
+  {
+    "id": "co2_fussabdruck",
+    "sid": "2026-00056",
+    "word": "CO₂-Fußabdruck",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam", "env"],
+    "grammar": {
+      "pos": "noun",
+      "article": "der",
+      "gender": "m",
+      "plural": "CO₂-Fußabdrücke",
+      "variants": ["CO2-Fußabdruck", "CO2-Fussabdruck"]
+    },
+    "meaning": {
+      "ja": [
+        "CO₂排出量の総量（個人・企業・製品・国家などが間接的に生む分も含む）"
+      ],
+      "de": [
+        "Gesamte Menge an CO₂-Emissionen, die direkt und indirekt durch eine Person, ein Produkt, ein Unternehmen oder einen Staat verursacht wird"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "ライフサイクル全体（製造・輸送・消費・廃棄）を含むのが核心。",
+        "『責任』『意識』『削減努力』と結びつきやすい語。"
+      ],
+      "de": [
+        "Ganzheitlicher Begriff (Lebenszyklus).",
+        "Stark normativ/moralisch konnotiert (Verantwortung, Reduktion)."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "CO₂-Ausstoß：実際に排出される量（瞬間・直接）",
+        "CO₂-Fußabdruck：影響の総量（間接含む）"
+      ],
+      "de": [
+        "CO₂-Ausstoß = direkte Emission",
+        "CO₂-Fußabdruck = gesamte Klimawirkung"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "Fußabdruck（足跡）＝『残した痕跡』の比喩。",
+        "環境負荷を“跡”として捉える発想。"
+      ],
+      "de": [
+        "Metapher: „Fußabdruck“ als hinterlassene Spur.",
+        "Übertragen auf ökologische Auswirkungen."
+      ]
+    },
+    "example": {
+      "ja": [
+        "個人のCO₂排出量を減らすことが求められている。"
+      ],
+      "de": [
+        "Viele Menschen versuchen, ihren CO₂-Fußabdruck zu reduzieren."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「旅行によってCO₂排出量が増えた」をCO₂-Fußabdruckで独語化。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „seinen CO₂-Fußabdruck verringern“."
+      ]
+    }
+  },
+  {
+    "id": "co2_ausstoss",
+    "sid": "2026-00057",
+    "word": "CO₂-Ausstoß",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "env"],
+    "grammar": {
+      "pos": "noun",
+      "article": "der",
+      "gender": "m",
+      "plural": "CO₂-Ausstoße",
+      "variants": ["CO2-Ausstoß"]
+    },
+    "meaning": {
+      "ja": [
+        "CO₂排出量（ある時点・活動・部門で直接排出される量）"
+      ],
+      "de": [
+        "Menge an CO₂, die direkt ausgestoßen wird (z. B. durch Verkehr, Industrie)"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "統計・規制・目標設定で使われる『測定可能な数値』の語。",
+        "部門別（Verkehr, Industrie, Energie）と相性が良い。"
+      ],
+      "de": [
+        "Sachlich-statistisch.",
+        "Typisch für Berichte, Grenzwerte, Klimaziele."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Emissionen：排出全般（包括的）",
+        "CO₂-Ausstoß：CO₂に特化した排出量"
+      ],
+      "de": [
+        "Emissionen allgemein",
+        "CO₂-Ausstoß spezifisch"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "ausstoßen（外に押し出す）→ Ausstoß（排出）。"
+      ],
+      "de": [
+        "von „ausstoßen“ = nach außen drücken, emittieren"
+      ]
+    },
+    "example": {
+      "ja": [
+        "交通部門のCO₂排出量は依然として高い。"
+      ],
+      "de": [
+        "Der CO₂-Ausstoß des Verkehrssektors ist weiterhin hoch."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「2030年までに排出量を削減する」をCO₂-Ausstoßで独語化。"
+      ],
+      "de": [
+        "Formuliere: „den CO₂-Ausstoß bis 2030 senken“."
+      ]
+    }
   }
+]
 ]
