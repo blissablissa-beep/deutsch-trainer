@@ -1988,7 +1988,6 @@
       ]
     }
   },
-  [
   {
     "id": "globale_erwaermung",
     "sid": "2026-00058",
@@ -2120,6 +2119,270 @@
       "de": [
         "Formuliere einen Satz mit „erneuerbare Energien“."
       ]
+    }
+  },
+  {
+    "id": "brennstoff",
+    "sid": "2026-00060",
+    "word": "Brennstoff",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "energy"],
+    "grammar": {
+      "pos": "noun",
+      "article": "der",
+      "gender": "m",
+      "plural": "Brennstoffe"
+    },
+    "meaning": {
+      "ja": ["燃料（エネルギーを得るために燃やす物質）"],
+      "de": ["Stoff, der zur Energiegewinnung verbrannt wird"]
+    },
+    "nuance": {
+      "ja": [
+        "石炭・石油・ガスなどを含む総称。",
+        "やや技術・政策寄りの語。"
+      ],
+      "de": [
+        "Technisch-sachlich.",
+        "Oberbegriff für fossile und andere Brennstoffe."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Brennstoff：燃やす物質そのもの",
+        "Energiequelle：エネルギー源（より広義）"
+      ],
+      "de": [
+        "Brennstoff = Stoff",
+        "Energiequelle = Quelle"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "brennen（燃える）＋ Stoff（物質）。"
+      ],
+      "de": [
+        "von „brennen“ + „Stoff“"
+      ]
+    },
+    "example": {
+      "ja": ["化石燃料は主要なエネルギー源だった。"],
+      "de": ["Fossile Brennstoffe waren lange die wichtigste Energiequelle."]
+    },
+    "task": {
+      "ja": ["『化石燃料への依存を減らす』を独語で。"],
+      "de": ["Formuliere einen Satz mit „fossile Brennstoffe“."]
+    }
+  },
+  {
+    "id": "heizkraftwerk",
+    "sid": "2026-00061",
+    "word": "Heizkraftwerk",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam", "energy"],
+    "grammar": {
+      "pos": "noun",
+      "article": "das",
+      "gender": "n",
+      "plural": "Heizkraftwerke"
+    },
+    "meaning": {
+      "ja": ["熱と電力を同時に生産する発電所（熱電併給）"],
+      "de": ["Kraftwerk, das gleichzeitig Strom und Wärme erzeugt"]
+    },
+    "nuance": {
+      "ja": [
+        "効率性の高さが強調される。",
+        "都市インフラ文脈で頻出。"
+      ],
+      "de": [
+        "Betont Effizienz (Kraft-Wärme-Kopplung)."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Kraftwerk：発電所（一般）",
+        "Heizkraftwerk：熱も供給"
+      ],
+      "de": [
+        "Kraftwerk allgemein",
+        "Heizkraftwerk mit Wärmeauskopplung"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "heizen（加熱する）＋ Kraft（エネルギー）＋ Werk（施設）。"
+      ],
+      "de": [
+        "heizen + Kraft + Werk"
+      ]
+    },
+    "example": {
+      "ja": ["都市部では熱電併給発電所が使われている。"],
+      "de": ["In Städten werden häufig Heizkraftwerke eingesetzt."]
+    },
+    "task": {
+      "ja": ["『効率向上のために熱電併給が重要だ』を独語で。"],
+      "de": ["Bilde einen Satz mit „Heizkraftwerk“."]
+    }
+  },
+  {
+    "id": "atomkraftwerk",
+    "sid": "2026-00062",
+    "word": "Atomkraftwerk",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "energy"],
+    "grammar": {
+      "pos": "noun",
+      "article": "das",
+      "gender": "n",
+      "plural": "Atomkraftwerke"
+    },
+    "meaning": {
+      "ja": ["原子力発電所"],
+      "de": ["Kraftwerk zur Stromerzeugung durch Kernenergie"]
+    },
+    "nuance": {
+      "ja": [
+        "政治的に議論を伴う語。",
+        "Kernkraftwerk とほぼ同義。"
+      ],
+      "de": [
+        "Politisch aufgeladen.",
+        "Synonym zu „Kernkraftwerk“."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Atomkraftwerk / Kernkraftwerk：ほぼ同義",
+        "Kohlekraftwerk：石炭火力"
+      ],
+      "de": [
+        "Atomkraftwerk ≈ Kernkraftwerk"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "Atom（原子）＋ Kraft（エネルギー）＋ Werk。"
+      ],
+      "de": [
+        "Atom + Kraft + Werk"
+      ]
+    },
+    "example": {
+      "ja": ["原子力発電の是非は国によって異なる。"],
+      "de": ["Die Nutzung von Atomkraftwerken ist politisch umstritten."]
+    },
+    "task": {
+      "ja": ["『原子力発電を段階的に廃止する』を独語で。"],
+      "de": ["Formuliere einen Satz mit „Atomkraftwerk“."]
+    }
+  },
+  {
+    "id": "windkraftwerk",
+    "sid": "2026-00063",
+    "word": "Windkraftwerk",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "energy"],
+    "grammar": {
+      "pos": "noun",
+      "article": "das",
+      "gender": "n",
+      "plural": "Windkraftwerke"
+    },
+    "meaning": {
+      "ja": ["風力発電所"],
+      "de": ["Anlage zur Stromerzeugung aus Windenergie"]
+    },
+    "nuance": {
+      "ja": [
+        "単数で設備、集合的にも使われる。",
+        "景観・騒音問題と結びつきやすい。"
+      ],
+      "de": [
+        "Häufig im Kontext von Akzeptanz und Landschaftsschutz."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Windkraftwerk：発電施設",
+        "Windenergie：エネルギー形態"
+      ],
+      "de": [
+        "Windkraftwerk vs. Windenergie"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "Wind＋Kraft＋Werk。"
+      ],
+      "de": [
+        "Wind + Kraft + Werk"
+      ]
+    },
+    "example": {
+      "ja": ["沿岸部では風力発電が拡大している。"],
+      "de": ["Der Ausbau von Windkraftwerken nimmt zu."]
+    },
+    "task": {
+      "ja": ["『風力発電は天候に左右される』を独語で。"],
+      "de": ["Bilde einen Satz mit „Windkraftwerk“."]
+    }
+  },
+  {
+    "id": "solarenergie",
+    "sid": "2026-00064",
+    "word": "Solarenergie",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "energy"],
+    "grammar": {
+      "pos": "noun",
+      "article": "die",
+      "gender": "f",
+      "plural": ""
+    },
+    "meaning": {
+      "ja": ["太陽エネルギー（太陽光発電・太陽熱を含む）"],
+      "de": ["Energiegewinnung aus Sonnenstrahlung"]
+    },
+    "nuance": {
+      "ja": [
+        "Photovoltaik（太陽光発電）より上位概念。",
+        "政策・家庭用文脈でも頻出。"
+      ],
+      "de": [
+        "Oberbegriff zu Photovoltaik und Solarthermie."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Solarenergie：太陽由来のエネルギー全般",
+        "Photovoltaik：発電方式"
+      ],
+      "de": [
+        "Solarenergie vs. Photovoltaik"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "ラテン語 sol（太陽）に由来。"
+      ],
+      "de": [
+        "von lat. „sol“ (Sonne)"
+      ]
+    },
+    "example": {
+      "ja": ["太陽エネルギーは家庭でも利用できる。"],
+      "de": ["Solarenergie kann auch in privaten Haushalten genutzt werden."]
+    },
+    "task": {
+      "ja": ["『太陽エネルギーの利用を促進する』を独語で。"],
+      "de": ["Formuliere einen Satz mit „Solarenergie“."]
     }
   }
 ]
