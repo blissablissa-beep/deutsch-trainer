@@ -2384,5 +2384,95 @@
       "ja": ["『太陽エネルギーの利用を促進する』を独語で。"],
       "de": ["Formuliere einen Satz mit „Solarenergie“."]
     }
+  },
+  {
+    "id": "fiskal",
+    "sid": "2026-00065",
+    "word": "fiskal",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam", "econ"],
+    "grammar": { "pos": "adj" },
+    "meaning": {
+      "ja": ["財政の（税・歳入歳出・政府財政に関する）"],
+      "de": ["die Staatsfinanzen betreffend; steuer- und haushaltspolitisch"]
+    },
+    "nuance": {
+      "ja": [
+        "ニュース・論文で頻出。「fiskalpolitisch（財政政策の）」とも相性が良い。",
+        "金銭一般ではなく、国家・行政の財政に寄る。"
+      ],
+      "de": [
+        "Häufig in „fiskalische Regeln“, „fiskalpolitisch“, „fiskalischer Spielraum“.",
+        "Bezieht sich meist auf Staat/Haushalt/Steuern."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "finanziell：金銭面の（広い）",
+        "fiskal：政府財政・税・予算に関する（狭い/専門）"
+      ],
+      "de": [
+        "finanziell allgemein",
+        "fiskal staatlich/steuerlich"
+      ]
+    },
+    "etymology": {
+      "ja": ["ラテン語 fiscus（国庫・財庫）→ fiscālis（国庫の）に由来。"],
+      "de": ["aus lat. „fiscus“ (Staatskasse) → „fiscalis“"]
+    },
+    "example": {
+      "ja": ["財政規律は景気対策を制限し得る。"],
+      "de": ["Fiskalische Regeln können konjunkturpolitische Maßnahmen begrenzen."]
+    },
+    "task": {
+      "ja": ["「財政余地が限られている」をfiskalで独語化。"],
+      "de": ["Formuliere einen Satz mit „fiskalischer Spielraum“."]
+    }
+  },
+  {
+    "id": "demografisch",
+    "sid": "2026-00066",
+    "word": "demografisch",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam", "society"],
+    "grammar": { "pos": "adj" },
+    "meaning": {
+      "ja": ["人口動態の（出生・死亡・年齢構成・移動などに関する）"],
+      "de": ["die Demografie betreffend; Bevölkerungsstruktur und -entwicklung"]
+    },
+    "nuance": {
+      "ja": [
+        "少子化・高齢化・移民などとセットで使う最重要形容詞。",
+        "誤綴り「demgrafisch」になりがちなので注意。"
+      ],
+      "de": [
+        "Sehr häufig in „demografischer Wandel“, „demografische Entwicklung“.",
+        "Schreibweise: demografisch (nicht *demgrafisch)."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "demografisch：人口構造・人口変化",
+        "sozial：社会政策・福祉など（より広い）"
+      ],
+      "de": [
+        "demografisch: Bevölkerung/Struktur",
+        "sozial: Gesellschaft/Soziales allgemein"
+      ]
+    },
+    "etymology": {
+      "ja": ["ギリシャ語 dēmos（民衆）＋ -graphie（記述）→ Demografie → demografisch。"],
+      "de": ["aus gr. „dēmos“ (Volk) + „-graphie“ (Beschreibung) → Demografie"]
+    },
+    "example": {
+      "ja": ["人口動態の変化は年金制度に影響する。"],
+      "de": ["Der demografische Wandel wirkt sich auf das Rentensystem aus."]
+    },
+    "task": {
+      "ja": ["「人口動態要因が成長を鈍らせる」を独語で。"],
+      "de": ["Bilde einen Satz mit „demografische Faktoren“ und „Wachstum bremsen“."]
+    }
   }
 ]
