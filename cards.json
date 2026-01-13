@@ -1987,6 +1987,139 @@
         "Formuliere: „den CO₂-Ausstoß bis 2030 senken“."
       ]
     }
+  },
+  [
+  {
+    "id": "globale_erwaermung",
+    "sid": "2026-00058",
+    "word": "globale Erwärmung",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam", "env"],
+    "grammar": {
+      "pos": "noun",
+      "article": "die",
+      "gender": "f",
+      "plural": ""
+    },
+    "meaning": {
+      "ja": [
+        "地球温暖化（地球全体の平均気温が長期的に上昇する現象）"
+      ],
+      "de": [
+        "Langfristiger Anstieg der durchschnittlichen Erdtemperatur"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "現象そのものを指す中立的・科学的用語。",
+        "Klimawandel（気候変動）より範囲は狭い。"
+      ],
+      "de": [
+        "Sachlich-wissenschaftlich.",
+        "Teilbegriff von „Klimawandel“."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "globale Erwärmung：気温上昇そのもの",
+        "Klimawandel：気候全体の変化（極端気象など含む）"
+      ],
+      "de": [
+        "globale Erwärmung = Temperaturanstieg",
+        "Klimawandel = umfassendere Klimaveränderungen"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "global（全世界の）＋ Erwärmung（温め・温暖化）。",
+        "wärmen（温める）に由来。"
+      ],
+      "de": [
+        "global + Erwärmung (von „wärmen“)"
+      ]
+    },
+    "example": {
+      "ja": [
+        "地球温暖化は極端な気象現象を引き起こす。"
+      ],
+      "de": [
+        "Die globale Erwärmung führt zu extremen Wetterereignissen."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「地球温暖化の原因の一つは温室効果ガスだ」を独語で。"
+      ],
+      "de": [
+        "Bilde einen Satz über Ursachen der globalen Erwärmung."
+      ]
+    }
+  },
+  {
+    "id": "erneuerbare_energie",
+    "sid": "2026-00059",
+    "word": "erneuerbare Energie",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "env"],
+    "grammar": {
+      "pos": "noun",
+      "article": "die",
+      "gender": "f",
+      "plural": "erneuerbare Energien"
+    },
+    "meaning": {
+      "ja": [
+        "再生可能エネルギー（太陽光・風力・水力など）"
+      ],
+      "de": [
+        "Energie aus sich erneuernden Quellen wie Sonne, Wind oder Wasser"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "政策・経済・環境すべての文脈で頻出。",
+        "複数形（Energien）で使われることが多い。"
+      ],
+      "de": [
+        "Sehr gebräuchlich in Politik und Wirtschaft.",
+        "Meist im Plural verwendet."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "erneuerbare Energien：再生可能エネルギー",
+        "fossile Energien：化石燃料"
+      ],
+      "de": [
+        "erneuerbare Energien vs. fossile Energien"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "erneuern（新たにする）＋ Energie。",
+        "『枯渇しない』という発想が語源的核心。"
+      ],
+      "de": [
+        "von „erneuern“ + „Energie“"
+      ]
+    },
+    "example": {
+      "ja": [
+        "再生可能エネルギーへの転換が進んでいる。"
+      ],
+      "de": [
+        "Der Ausbau erneuerbarer Energien schreitet voran."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「再生可能エネルギーはCO₂削減に貢献する」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „erneuerbare Energien“."
+      ]
+    }
   }
-]
 ]
