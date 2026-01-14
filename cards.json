@@ -7,16 +7,10 @@
   "level": "B2",
   "freq": "often",
   "grammar": { "pos": "adj" },
-  "meaning": {
-    "ja": [
-      "（心・状態が）落ち着いた／均衡の取れた。",
-      "（差・赤字などが）相殺された／埋め合わせられた。"
-    ],
-    "de": [
-      "Ausbalanciert, ruhig (Person/Stimmung).",
-      "Ausgeglichen worden: eine Differenz ist kompensiert."
-    ]
-  },
+"meaning": {
+  "ja": ["バランスの取れた、偏りのない（配分・評価・食事など）。"],
+  "de": ["Ausbalanciert, nicht einseitig; ausgewogen (z. B. Ernährung, Darstellung, Urteil)."]
+},
   "nuance": {
     "ja": "人物評価でよく出る（temperament）。また「収支が相殺された」でも使う。",
     "de": "Häufig für Charakter/Stimmung („ein ausgeglichener Mensch“); auch technisch: „ausgleichen“ → Differenz kompensieren."
@@ -103,7 +97,10 @@
     "level": "B2",
     "freq": "sometimes",
     "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Belegschaften" },
-    "meaning": { "ja": "従業員全体、社員一同（集団としての労働者）。", "de": "Gesamtheit der Beschäftigten eines Betriebs; die Mitarbeiterschaft." },
+    "meaning": {
+  "ja": ["従業員全体、社員一同（集団としての労働者）。"],
+  "de": ["Gesamtheit der Beschäftigten eines Betriebs; die Mitarbeiterschaft."]
+},
     "nuance": { "ja": "会社/工場/組織の「人員全体」を指すややフォーマル寄りの語。", "de": "Leicht formell; betont die Gesamtheit (Kollektiv) der Beschäftigten." },
     "minimal": { "ja": "Beleg=証拠/領収書/根拠書類／Belegschaft=従業員集団（語尾 -schaft が集合）。", "de": "„Beleg“ = Beweis/Quittung; „Belegschaft“ = Beleg + -schaft (Kollektiv der Beschäftigten)." },
     "etymology": { "ja": "Beleg + -schaft（集合・共同体を作る接尾辞：Mannschaft, Landschaft など）。Beleg は「証拠・裏づけ」の意から。", "de": "„Beleg“ + „-schaft“ (Kollektivsuffix wie in „Mannschaft“)." },
