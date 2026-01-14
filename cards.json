@@ -1,34 +1,40 @@
 [
-  {
-    "id": "ausgeglichen",
-    "sid": "2026-00001",
-    "word": "ausgeglichen",
-    "tags": ["abs", "exam"],
-    "level": "B2",
-    "freq": "often",
-    "grammar": { "pos": "adj" },
-    "meaning": {
-      "ja": "（心・状態が）落ち着いた／均衡の取れた；（差が）相殺された。",
-      "de": "Ausbalanciert/ruhig (Person/Stimmung); auch: ausgeglichen = ausgeglichen worden (Differenz kompensiert)."
-    },
-    "nuance": {
-      "ja": "人物評価でよく出る（temperament）。また「収支が相殺された」でも使う。",
-      "de": "Häufig für Charakter/Stimmung („ein ausgeglichener Mensch“); auch technisch: „ausgleichen“ → Differenz kompensieren."
-    },
-    "minimal": {
-      "ja": "ausgewogen=配分・構成のバランス／ausgeglichen=状態・気分の安定や均衡。",
-      "de": "„ausgewogen“ Komposition/Abwägung; „ausgeglichen“ Zustand/Temperament oder Kompensation."
-    },
-    "etymology": {
-      "ja": "ausgleichen（等しくする・差を埋める）→ ausgeglichen（均衡が取れた）。gleich（等しい）が核。",
-      "de": "Partizip II von „ausgleichen“ < „gleich“ (gleich machen, Differenz ausgleichen)."
-    },
-    "example": { "ja": "Sie wirkt sehr ausgeglichen.", "de": "Sie wirkt sehr ausgeglichen." },
-    "task": {
-      "ja": "「最近は心が落ち着いている」をausgeglichenで1文。",
-      "de": "Bilde einen Satz über dich: „Ich fühle mich … ausgeglichen.“"
-    }
+{
+  "id": "ausgeglichen",
+  "sid": "2026-00001",
+  "word": "ausgeglichen",
+  "tags": ["abs", "exam"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": { "pos": "adj" },
+  "meaning": {
+    "ja": [
+      "（心・状態が）落ち着いた／均衡の取れた。",
+      "（差・赤字などが）相殺された／埋め合わせられた。"
+    ],
+    "de": [
+      "Ausbalanciert, ruhig (Person/Stimmung).",
+      "Ausgeglichen worden: eine Differenz ist kompensiert."
+    ]
   },
+  "nuance": {
+    "ja": "人物評価でよく出る（temperament）。また「収支が相殺された」でも使う。",
+    "de": "Häufig für Charakter/Stimmung („ein ausgeglichener Mensch“); auch technisch: „ausgleichen“ → Differenz kompensieren."
+  },
+  "minimal": {
+    "ja": "ausgewogen=配分・構成のバランス／ausgeglichen=状態・気分の安定や均衡。",
+    "de": "„ausgewogen“ Komposition/Abwägung; „ausgeglichen“ Zustand/Temperament oder Kompensation."
+  },
+  "etymology": {
+    "ja": "ausgleichen（等しくする・差を埋める）→ ausgeglichen（均衡が取れた）。gleich（等しい）が核。",
+    "de": "Partizip II von „ausgleichen“ < „gleich“ (gleich machen, Differenz ausgleichen)."
+  },
+  "example": { "ja": "Sie wirkt sehr ausgeglichen.", "de": "Sie wirkt sehr ausgeglichen." },
+  "task": {
+    "ja": "「最近は心が落ち着いている」をausgeglichenで1文。",
+    "de": "Bilde einen Satz über dich: „Ich fühle mich … ausgeglichen.“"
+  }
+},
   {
     "id": "ausgewogen",
     "sid": "2026-00002",
