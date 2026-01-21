@@ -3156,5 +3156,416 @@
         "Formuliere einen Satz mit „Interessenpolitik“ und „Wertekonflikt“."
       ]
     }
+  },
+  {
+  "id": "aussichtsrahmen",
+  "sid": "2026-00081",
+  "word": "Aussichtsrahmen",
+  "level": "C1",
+  "freq": "sometimes",
+  "tags": ["abs", "exam", "policy", "analysis"],
+  "grammar": {
+    "pos": "noun",
+    "article": "der",
+    "gender": "m",
+    "plural": "Aussichtsrahmen"
+  },
+  "meaning": {
+    "ja": [
+      "（条件・前提を踏まえた）見通しの枠組み",
+      "想定される展望・選択肢の範囲"
+    ],
+    "de": [
+      "Rahmen realistischer Erwartungen und Möglichkeiten unter gegebenen Bedingungen",
+      "abgesteckter Bereich plausibler Perspektiven"
+    ]
+  },
+  "nuance": {
+    "ja": [
+      "単なる将来予測ではなく、制度・環境・制約条件を含めた『現実的な見通しの射程』を示す。",
+      "政策分析・行政文書・経済レポートで用いられる硬めの分析語彙。"
+    ],
+    "de": [
+      "Kein bloßer Ausblick, sondern ein analytischer Begriff für realistische Möglichkeiten unter bestimmten Rahmenbedingungen.",
+      "Typisch für Politik-, Wirtschafts- und Strategieanalysen."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Aussicht：一般的な見通し・期待",
+      "Perspektive：立場・将来像（主観寄り）",
+      "Aussichtsrahmen：前提条件付きの見通しの範囲"
+    ],
+    "de": [
+      "Aussicht: allgemeiner Ausblick",
+      "Perspektive: Blickwinkel/Zukunftsbild",
+      "Aussichtsrahmen: konditionierter Erwartungsspielraum"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "Aussicht（見通し）＋ Rahmen（枠組み）。",
+      "『どこまでを現実的に想定できるか』という思考の枠を示す複合語。"
+    ],
+    "de": [
+      "Aussicht + Rahmen → metaphorisch: der begrenzte Raum realistischer Erwartungen."
+    ]
+  },
+  "example": {
+    "ja": [
+      "人口動態の変化は将来の見通しを制約する。",
+      "この合意は政策上の選択肢を広げた。"
+    ],
+    "de": [
+      "Der demografische Wandel begrenzt den wirtschaftlichen Aussichtsrahmen.",
+      "Das Abkommen hat den politischen Aussichtsrahmen erweitert."
+    ]
+  },
+  "task": {
+    "ja": [
+      "「短期的には見通しが厳しいが、長期的には余地がある」をAussichtsrahmenで独語化。"
+    ],
+    "de": [
+      "Formuliere: „Kurzfristig ist der Aussichtsrahmen eng, langfristig eröffnet er neue Möglichkeiten.“"
+    ]
   }
+},
+{
+  "id": "handlungsspielraum",
+  "sid": "2026-00082",
+  "word": "Handlungsspielraum",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "policy"],
+  "grammar": {
+    "pos": "noun",
+    "article": "der",
+    "gender": "m",
+    "plural": "Handlungsspielräume"
+  },
+  "meaning": {
+    "ja": [
+      "行動の余地、裁量の範囲",
+      "制約の中で実際に取り得る行動可能性"
+    ],
+    "de": [
+      "Spielraum für Handlungen innerhalb gegebener Grenzen",
+      "Möglichkeiten, trotz Restriktionen zu agieren"
+    ]
+  },
+  "nuance": {
+    "ja": [
+      "『何ができるか』に焦点を当てる語。",
+      "政策・外交・組織運営で頻出。現実的・実務的。"
+    ],
+    "de": [
+      "Stärker handlungsorientiert als „Aussichtsrahmen“.",
+      "Sehr gebräuchlich in Politik, Verwaltung und Management."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Aussichtsrahmen：見通し・評価の枠",
+      "Handlungsspielraum：実際の行動余地",
+      "Gestaltungsspielraum：設計・裁量の自由度"
+    ],
+    "de": [
+      "Aussichtsrahmen: analytisch",
+      "Handlungsspielraum: praktisch",
+      "Gestaltungsspielraum: kreativ/strategisch"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "Handlung（行動）＋ Spielraum（余地）。",
+      "直訳的で意味が透明な行政・政策用語。"
+    ],
+    "de": [
+      "Handlung + Spielraum → Raum für Handeln innerhalb von Grenzen."
+    ]
+  },
+  "example": {
+    "ja": [
+      "財政制約によって政府の行動余地は限られている。",
+      "地方自治体には一定の裁量がある。"
+    ],
+    "de": [
+      "Die fiskalischen Zwänge begrenzen den Handlungsspielraum der Regierung.",
+      "Die Kommunen verfügen über einen gewissen Handlungsspielraum."
+    ]
+  },
+  "task": {
+    "ja": [
+      "「国際的制約の中で行動余地を確保する必要がある」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Handlungsspielraum sichern/erhalten/erweitern“."
+    ]
+  }
+},
+{
+  "id": "gestaltungsspielraum",
+  "sid": "2026-00083",
+  "word": "Gestaltungsspielraum",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "policy", "management"],
+  "grammar": {
+    "pos": "noun",
+    "article": "der",
+    "gender": "m",
+    "plural": "Gestaltungsspielräume"
+  },
+  "meaning": {
+    "ja": [
+      "裁量・設計の自由度",
+      "主体的に形を作り込める余地"
+    ],
+    "de": [
+      "Spielraum zur aktiven Gestaltung",
+      "Möglichkeit, Prozesse oder Strukturen eigenständig zu formen"
+    ]
+  },
+  "nuance": {
+    "ja": [
+      "Handlungsspielraum よりも『どう設計するか』『どう組み立てるか』に重点。",
+      "制度設計・組織改革・政策立案で頻出。"
+    ],
+    "de": [
+      "Stärker kreativ-strategisch als „Handlungsspielraum“.",
+      "Häufig in Verwaltung, Organisationsentwicklung, Politik."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Handlungsspielraum：行動できるかどうか",
+      "Gestaltungsspielraum：どう設計・形成できるか"
+    ],
+    "de": [
+      "Handlung = tun",
+      "Gestaltung = formen/entwerfen"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "Gestaltung（形成・デザイン）＋ Spielraum（余地）。"
+    ],
+    "de": [
+      "Gestaltung + Spielraum → Raum zur aktiven Ausgestaltung."
+    ]
+  },
+  "example": {
+    "ja": [
+      "地方自治体には独自政策を設計する余地がある。"
+    ],
+    "de": [
+      "Die Kommunen verfügen über einen gewissen Gestaltungsspielraum."
+    ]
+  },
+  "task": {
+    "ja": [
+      "「法の範囲内で裁量がある」をGestaltungsspielraumで独語化。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „im Rahmen des Gesetzes Gestaltungsspielraum haben“."
+    ]
+  }
+},
+{
+  "id": "rahmenbedingungen",
+  "sid": "2026-00084",
+  "word": "Rahmenbedingungen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam", "analysis"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "gender": "f",
+    "plural": "Rahmenbedingungen"
+  },
+  "meaning": {
+    "ja": [
+      "枠組み条件、前提条件（制度・環境・制約）"
+    ],
+    "de": [
+      "übergeordnete Bedingungen, unter denen etwas stattfindet"
+    ]
+  },
+  "nuance": {
+    "ja": [
+      "議論の『前提整理』に不可欠な語。",
+      "政治・経済・研究・ビジネスの万能カード。"
+    ],
+    "de": [
+      "Sehr häufig in Analysen.",
+      "Markiert klar: Das ist gegeben, darüber hinaus wird diskutiert."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Voraussetzung：単一条件",
+      "Rahmenbedingungen：複数の構造的条件"
+    ],
+    "de": [
+      "Voraussetzung punktuell",
+      "Rahmenbedingungen strukturell"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "Rahmen（枠）＋ Bedingungen（条件）。"
+    ],
+    "de": [
+      "Rahmen + Bedingungen → metaphorischer Ordnungsrahmen."
+    ]
+  },
+  "example": {
+    "ja": [
+      "経済政策は国際的な条件に左右される。"
+    ],
+    "de": [
+      "Die Wirtschaftspolitik wird von internationalen Rahmenbedingungen geprägt."
+    ]
+  },
+  "task": {
+    "ja": [
+      "「現在の条件下では改革は難しい」を独語で。"
+    ],
+    "de": [
+      "Formuliere: „Unter den aktuellen Rahmenbedingungen sind Reformen schwierig.“"
+    ]
+  }
+},
+{
+  "id": "optionen_offenhalten",
+  "sid": "2026-00085",
+  "word": "Optionen offenhalten",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["coll", "exam", "strategy"],
+  "grammar": {
+    "pos": "verb_phrase"
+  },
+  "meaning": {
+    "ja": [
+      "選択肢を残しておく",
+      "将来の対応余地を確保する"
+    ],
+    "de": [
+      "sich nicht festlegen und Handlungsmöglichkeiten bewahren"
+    ]
+  },
+  "nuance": {
+    "ja": [
+      "外交・戦略・不確実性の高い局面で非常に便利。",
+      "『決断を先送りする』よりも前向き・戦略的。"
+    ],
+    "de": [
+      "Strategisch-diplomatischer Ausdruck.",
+      "Impliziert bewusste Zurückhaltung."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "zögern：ためらう（消極的）",
+      "Optionen offenhalten：戦略的保留（積極的）"
+    ],
+    "de": [
+      "zögern emotional",
+      "Optionen offenhalten strategisch"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "Option（選択肢）＋ offen halten（開いたままにする）。"
+    ],
+    "de": [
+      "Option + offen halten → bildhaft: Türen offen lassen."
+    ]
+  },
+  "example": {
+    "ja": [
+      "政府は最終決定を急がず、選択肢を残している。"
+    ],
+    "de": [
+      "Die Regierung hält sich weitere Optionen offen."
+    ]
+  },
+  "task": {
+    "ja": [
+      "「不確実性が高いため選択肢を残す」を独語で。"
+    ],
+    "de": [
+      "Formuliere: „Angesichts der Unsicherheit sollten wir uns Optionen offenhalten.“"
+    ]
+  }
+},
+{
+  "id": "doppelbelastung",
+  "sid": "2026-00086",
+  "word": "Doppelbelastung",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "society", "gender"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "gender": "f",
+    "plural": "Doppelbelastungen"
+  },
+  "meaning": {
+    "ja": [
+      "二重負担（特に仕事と家庭責任を同時に担うこと）"
+    ],
+    "de": [
+      "gleichzeitige Belastung durch zwei zentrale Verantwortungsbereiche, insbesondere Beruf und Familie"
+    ]
+  },
+  "nuance": {
+    "ja": [
+      "女性の就労・育児・介護文脈で非常に頻出。",
+      "問題提起・不公平性・構造的課題を含意する語。"
+    ],
+    "de": [
+      "Stark mit Gleichstellungs- und Familienpolitik verbunden.",
+      "Impliziert strukturelle Ungleichverteilung von Care-Arbeit."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Mehrfachbelastung：複数の負担（一般）",
+      "Doppelbelastung：特に『仕事＋家庭』の二重構造"
+    ],
+    "de": [
+      "Mehrfachbelastung allgemein",
+      "Doppelbelastung klassisch: Beruf + Familie"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "doppel（2重の）＋ Belastung（負担）。",
+      "belasten（負荷をかける）に由来。"
+    ],
+    "de": [
+      "doppel + Belastung → doppelte Beanspruchung."
+    ]
+  },
+  "example": {
+    "ja": [
+      "多くの女性はいまだに仕事と家庭の二重負担を抱えている。"
+    ],
+    "de": [
+      "Viele Frauen sind nach wie vor einer Doppelbelastung durch Beruf und Familie ausgesetzt."
+    ]
+  },
+  "task": {
+    "ja": [
+      "「二重負担を軽減する政策が必要だ」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „die Doppelbelastung reduzieren/abbauen“."
+    ]
+  }
+}
 ]
