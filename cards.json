@@ -2477,5 +2477,684 @@
       "ja": ["「人口動態要因が成長を鈍らせる」を独語で。"],
       "de": ["Bilde einen Satz mit „demografische Faktoren“ und „Wachstum bremsen“."]
     }
+  },
+  {
+    "id": "rechtfertigen",
+    "sid": "2026-00067",
+    "word": "recht·fer·ti·gen",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": {
+      "pos": "verb",
+      "praeteritum": "rechtfertigte",
+      "perfekt": "hat gerechtfertigt",
+      "patterns": [
+        "etw. rechtfertigen (Akk.)",
+        "sich rechtfertigen (für + Akk.)",
+        "etw. lässt sich (nicht) rechtfertigen"
+      ]
+    },
+    "meaning": {
+      "ja": ["（行為・判断を）正当化する", "（非難に対して）弁明する"],
+      "de": ["etwas begründen und als legitim darstellen", "sich gegen Vorwürfe verteidigen; sich erklären"]
+    },
+    "nuance": {
+      "ja": ["『許容できる理由がある』というニュアンス。道徳・政治・法律文脈で頻出。"],
+      "de": ["Impliziert Legitimation (moralisch, politisch, rechtlich); sehr prüfungsnah."]
+    },
+    "minimal": {
+      "ja": ["begründen=理由を述べる（中立）／rechtfertigen=正当性まで主張する"],
+      "de": ["begründen: neutraler; rechtfertigen: Legitimität/Angemessenheit betonen."]
+    },
+    "etymology": {
+      "ja": ["recht（正しい）＋ fertigen（作る/整える）→「正しいものとして整える」イメージ。"],
+      "de": ["recht + (veraltet) fertigen → „recht machen“/legitimieren."]
+    },
+    "example": {
+      "ja": ["その措置は安全上の理由で正当化できる。", "彼は遅刻を弁明した。"],
+      "de": ["Die Maßnahme lässt sich aus Sicherheitsgründen rechtfertigen.", "Er rechtfertigte sich wegen seiner Verspätung."]
+    },
+    "task": {
+      "ja": ["「そのコスト増は投資として正当化できる」を独語で。"],
+      "de": ["Formuliere einen Satz mit „Die Mehrkosten lassen sich … rechtfertigen.“"]
+    }
+  },
+  {
+    "id": "zusammenhalt",
+    "sid": "2026-00068",
+    "word": "Zusammenhalt",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+    "meaning": {
+      "ja": ["結束、団結（集団のまとまり）"],
+      "de": ["Zusammengehörigkeit; Solidarität innerhalb einer Gruppe"]
+    },
+    "nuance": {
+      "ja": ["社会・家族・チームの文脈で『まとまって支え合う力』。ポジティブ。"],
+      "de": ["Betont Solidarität/Teamgeist; häufig in Politik und Gesellschaft."]
+    },
+    "minimal": {
+      "ja": ["Einheit=統一（状態）／Zusammenhalt=支え合いを含む結束（力）"],
+      "de": ["Einheit: Zustand; Zusammenhalt: Bindung/Solidarität als Kraft."]
+    },
+    "etymology": {
+      "ja": ["zusammen（共に）＋ halten（保つ）→「一緒に保つ＝結束」。"],
+      "de": ["zusammen + halten → „zusammenhalten“ → „Zusammenhalt“."]
+    },
+    "example": {
+      "ja": ["危機の時こそ結束が試される。"],
+      "de": ["In Krisenzeiten wird der Zusammenhalt auf die Probe gestellt."]
+    },
+    "task": {
+      "ja": ["「地域の結束を強める必要がある」を独語で。"],
+      "de": ["Bilde einen Satz mit „den Zusammenhalt stärken“."]
+    }
+  },
+  {
+    "id": "meeresspiegel",
+    "sid": "2026-00069",
+    "word": "Meeresspiegel",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "env"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+    "meaning": {
+      "ja": ["海面水位（海面の高さ）"],
+      "de": ["Höhe der Meeresoberfläche; Meeresspiegel"]
+    },
+    "nuance": {
+      "ja": ["気候変動の定番語彙：Anstieg des Meeresspiegels が鉄板。"],
+      "de": ["Typisch im Klimakontext: „Anstieg des Meeresspiegels“."]
+    },
+    "minimal": {
+      "ja": ["Meeresspiegel=海面水位／Wasserstand=河川・湖などの水位（より一般）"],
+      "de": ["Meeresspiegel vs. Wasserstand (allgemein, auch Flüsse/Seen)."]
+    },
+    "etymology": {
+      "ja": ["Meer（海）＋ Spiegel（鏡/面）→「海の面」。"],
+      "de": ["Meer + Spiegel („Spiegel“ = Oberfläche)."]
+    },
+    "example": {
+      "ja": ["海面水位の上昇は沿岸地域を脅かしている。"],
+      "de": ["Der steigende Meeresspiegel bedroht Küstenregionen."]
+    },
+    "task": {
+      "ja": ["「海面上昇に適応する必要がある」を独語で。"],
+      "de": ["Formuliere einen Satz mit „an den steigenden Meeresspiegel anpassen“."]
+    }
+  },
+  {
+    "id": "flut",
+    "sid": "2026-00070",
+    "word": "Flut",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "env"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Fluten" },
+    "meaning": {
+      "ja": ["（大規模な）洪水、氾濫", "（比喩）〜の大量・殺到（Flut an …）"],
+      "de": ["(große) Überschwemmung/Flut", "übertragen: eine große Menge („eine Flut von …“)"]
+    },
+    "nuance": {
+      "ja": ["報道では die Flut が『災害級の洪水』っぽい強い語感。比喩も頻出。"],
+      "de": ["Starkes Wort (Katastrophen-Kontext); auch metaphorisch sehr gebräuchlich."]
+    },
+    "minimal": {
+      "ja": ["Hochwasser=水位が高い状態／Flut=被害を伴う洪水（大きめ）"],
+      "de": ["Hochwasser: hoher Pegel; Flut: Überschwemmung/Ereignis (oft gravierend)."]
+    },
+    "etymology": {
+      "ja": ["（語感）満ちる/押し寄せるイメージ。英 flood と同系統。"],
+      "de": ["germ. Wurzel; verwandt mit engl. „flood“."]
+    },
+    "example": {
+      "ja": ["その地域は大洪水に見舞われた。", "苦情が大量に寄せられた。"],
+      "de": ["Die Region wurde von einer Flut heimgesucht.", "Es gab eine Flut von Beschwerden."]
+    },
+    "task": {
+      "ja": ["「SNSには情報が洪水のように流れる」を独語で。"],
+      "de": ["Bilde einen Satz mit „eine Flut von Informationen“."]
+    }
+  },
+  {
+    "id": "hochwasser",
+    "sid": "2026-00071",
+    "word": "Hochwasser",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "env"],
+    "grammar": { "pos": "noun", "article": "das", "gender": "n", "plural": "" },
+    "meaning": {
+      "ja": ["増水、高水位（洪水状態）"],
+      "de": ["Hochwasser; außergewöhnlich hoher Wasserstand (v. a. Flüsse)"]
+    },
+    "nuance": {
+      "ja": ["水位・現象をやや客観的に言う語。被害強調は Überschwemmung/Flut が得意。"],
+      "de": ["Sachlich/technisch: Pegel/Wasserstand; Schäden eher mit „Überschwemmung/Flut“."]
+    },
+    "minimal": {
+      "ja": ["Hochwasser=水位が高い／Überschwemmung=土地が水に覆われる（被害）"],
+      "de": ["Hochwasser (Pegel) vs. Überschwemmung (überflutete Flächen)."]
+    },
+    "etymology": {
+      "ja": ["hoch（高い）＋ Wasser（水）→高水位。"],
+      "de": ["hoch + Wasser."]
+    },
+    "example": {
+      "ja": ["川の水位が急上昇し、洪水警報が出た。"],
+      "de": ["Der Flusspegel stieg schnell, und es wurde Hochwasserwarnung ausgegeben."]
+    },
+    "task": {
+      "ja": ["「洪水対策を強化する必要がある」を独語で。"],
+      "de": ["Formuliere einen Satz mit „Hochwasserschutz“ oder „gegen Hochwasser“."]
+    }
+  },
+  {
+    "id": "ueberschwemmung",
+    "sid": "2026-00072",
+    "word": "Überschwemmung",
+    "level": "B2",
+    "freq": "often",
+    "tags": ["abs", "exam", "env"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Überschwemmungen" },
+    "meaning": {
+      "ja": ["浸水、洪水（地域が水に覆われること）", "（比喩）〜の氾濫（Überschwemmung mit …）"],
+      "de": ["Überflutung; Zustand/Ereignis, dass Gebiete unter Wasser stehen", "übertragen: Übermaß/„Überschwemmung mit …“"]
+    },
+    "nuance": {
+      "ja": ["『土地・街が水に覆われる』描写に強い。比喩も可能。"],
+      "de": ["Betont das Überflutet-Sein von Flächen/Orten; auch metaphorisch."]
+    },
+    "minimal": {
+      "ja": ["Flut=災害級の“洪水”感／Überschwemmung=浸水そのものの描写"],
+      "de": ["Flut dramatischer; Überschwemmung beschreibender (überflutete Gebiete)."]
+    },
+    "etymology": {
+      "ja": ["überschwemmen（あふれさせる）→ Überschwemmung。schwemmen は「押し流す」。"],
+      "de": ["von „überschwemmen“; „schwemmen“ = spülen/fortschwemmen."]
+    },
+    "example": {
+      "ja": ["大雨で複数の地域が浸水した。"],
+      "de": ["Starker Regen führte zu Überschwemmungen in mehreren Regionen."]
+    },
+    "task": {
+      "ja": ["「毎年のように浸水被害が起きる」を独語で。"],
+      "de": ["Bilde einen Satz mit „zu Überschwemmungen kommen“."]
+    }
+  },
+  {
+    "id": "wertepartnerschaft",
+    "sid": "2026-00073",
+    "word": "Wertepartnerschaft",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam", "pol"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Wertepartnerschaften" },
+    "meaning": {
+      "ja": [
+        "価値観を共有することを前提とした協力関係（国家・組織間）"
+      ],
+      "de": [
+        "Partnerschaft, die auf gemeinsamen politischen, gesellschaftlichen oder normativen Werten beruht"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "単なる利害一致ではなく、民主主義・法の支配・人権などの共有を含意。",
+        "外交・安全保障・EU文脈で頻出。"
+      ],
+      "de": [
+        "Impliziert mehr als Interessenallianz; Werte wie Demokratie, Rechtsstaatlichkeit, Menschenrechte."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Interessengemeinschaft：利害中心",
+        "Wertepartnerschaft：価値観中心"
+      ],
+      "de": [
+        "Interessengemeinschaft = Interessen",
+        "Wertepartnerschaft = gemeinsame Werte"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "Wert（価値）＋ Partnerschaft（協力関係）→「価値を基盤とする協力」。"
+      ],
+      "de": [
+        "Kompositum aus Wert + Partnerschaft."
+      ]
+    },
+    "example": {
+      "ja": [
+        "民主主義国家との価値観外交が重視されている。"
+      ],
+      "de": [
+        "Deutschland setzt zunehmend auf Wertepartnerschaften mit demokratischen Staaten."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「価値観外交には限界もある」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „Grenzen von Wertepartnerschaften“."
+      ]
+    }
+  },
+  {
+    "id": "sicherheitsstrategie",
+    "sid": "2026-00074",
+    "word": "Sicherheitsstrategie",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam", "pol"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Sicherheitsstrategien" },
+    "meaning": {
+      "ja": [
+        "安全保障戦略（国家・組織が安全を確保するための包括的方針）"
+      ],
+      "de": [
+        "übergeordnete Strategie zur Gewährleistung nationaler oder kollektiver Sicherheit"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "軍事に限らず、経済安全保障・サイバー・エネルギーも含むのが現代的用法。",
+        "『包括的（umfassend）』と共起しやすい。"
+      ],
+      "de": [
+        "Heute breit gefasst: militärisch, wirtschaftlich, cyber-, energiepolitisch."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Verteidigungspolitik：軍事寄り",
+        "Sicherheitsstrategie：包括的枠組み"
+      ],
+      "de": [
+        "Verteidigungspolitik enger; Sicherheitsstrategie umfassender."
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "Sicherheit（安全）＋ Strategie（戦略：軍事語源）。"
+      ],
+      "de": [
+        "Sicherheit + Strategie (ursprünglich militärischer Begriff)."
+      ]
+    },
+    "example": {
+      "ja": [
+        "政府は新たな安全保障戦略を策定した。"
+      ],
+      "de": [
+        "Die Regierung hat eine neue Sicherheitsstrategie verabschiedet."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「経済安全保障を含む戦略が必要だ」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „wirtschaftliche Sicherheit als Teil der Sicherheitsstrategie“."
+      ]
+    }
+  },
+  {
+    "id": "zollhammer",
+    "sid": "2026-00075",
+    "word": "Zollhammer",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam", "econ", "pol"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "Zollhämmer" },
+    "meaning": {
+      "ja": [
+        "高関税を強硬に発動する手段（特にトランプ政権の通商戦略を指す表現）"
+      ],
+      "de": [
+        "drastische Erhebung von Zöllen als politisches Druckmittel (v. a. im Kontext Trumps)"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "比喩表現で、強硬・威圧的・一方的な通商政策を批判的に表す。",
+        "メディア語・評論語。"
+      ],
+      "de": [
+        "Metaphorisch, meist kritisch; betont Härte und Konfrontation."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Zoll：中立な関税",
+        "Zollhammer：制裁的・政治的な関税"
+      ],
+      "de": [
+        "Zoll neutral; Zollhammer konfrontativ."
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "Zoll（関税）＋ Hammer（強打）→「関税を武器として叩きつける」比喩。"
+      ],
+      "de": [
+        "Zoll + Hammer (Metapher für Härte und Druck)."
+      ]
+    },
+    "example": {
+      "ja": [
+        "関税の強硬策は国際貿易を混乱させた。"
+      ],
+      "de": [
+        "Der von Trump eingesetzte Zollhammer belastete den internationalen Handel."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「関税強化は報復を招く」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „Zollhammer“ und „Gegenmaßnahmen“."
+      ]
+    }
+  },
+  {
+    "id": "freihandel",
+    "sid": "2026-00076",
+    "word": "Freihandel",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam", "econ"],
+    "grammar": { "pos": "noun", "article": "der", "gender": "m", "plural": "" },
+    "meaning": {
+      "ja": [
+        "自由貿易（関税や規制を最小限にして国際取引を行うこと）"
+      ],
+      "de": [
+        "internationaler Handel ohne oder mit möglichst geringen Zöllen und Handelshemmnissen"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "経済成長・効率性と結びつく一方、国内産業保護との対立を含意。",
+        "Globalisierung 文脈の中核語。"
+      ],
+      "de": [
+        "Wird oft mit Wachstum und Effizienz verbunden, steht aber im Spannungsverhältnis zum Protektionismus."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Freihandel ↔ Protektionismus（対概念）"
+      ],
+      "de": [
+        "Freihandel vs. Protektionismus"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "frei（自由な）＋ Handel（取引）。"
+      ],
+      "de": [
+        "frei + Handel"
+      ]
+    },
+    "example": {
+      "ja": [
+        "自由貿易は必ずしもすべての国に利益をもたらすわけではない。"
+      ],
+      "de": [
+        "Freihandel kommt nicht automatisch allen Ländern zugute."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「自由貿易には勝者と敗者がいる」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „Gewinner und Verlierer des Freihandels“."
+      ]
+    }
+  },
+  {
+    "id": "gegenmassnahmen",
+    "sid": "2026-00077",
+    "word": "Gegenmaßnahmen",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam", "pol", "econ"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Gegenmaßnahmen" },
+    "meaning": {
+      "ja": [
+        "対抗措置、報復措置（他国・相手の行動への対応）"
+      ],
+      "de": [
+        "Maßnahmen als Reaktion auf Handlungen eines anderen Akteurs"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "中立〜やや硬い語。外交・通商・制裁文脈で頻出。",
+        "Vergeltung より感情色が弱い。"
+      ],
+      "de": [
+        "Sachlich-neutral; häufig in Diplomatie, Handel, Sanktionen."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Gegenmaßnahmen：対応策（中立）",
+        "Vergeltung：報復（感情・制裁色が強い）"
+      ],
+      "de": [
+        "Gegenmaßnahmen neutraler als Vergeltung"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "gegen-（対して）＋ Maßnahmen（措置）。"
+      ],
+      "de": [
+        "gegen + Maßnahme"
+      ]
+    },
+    "example": {
+      "ja": [
+        "相手国は直ちに対抗措置を発表した。"
+      ],
+      "de": [
+        "Das betroffene Land kündigte umgehend Gegenmaßnahmen an."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「対抗措置は緊張を高めかねない」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „Gegenmaßnahmen“ und „Spannungen verschärfen“."
+      ]
+    }
+  },
+  {
+    "id": "vergeltungszoelle",
+    "sid": "2026-00078",
+    "word": "Vergeltungszölle",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam", "econ"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "Vergeltungszölle" },
+    "meaning": {
+      "ja": [
+        "報復関税（他国の関税措置への対抗として課す関税）"
+      ],
+      "de": [
+        "Zölle, die als Reaktion auf Zollerhöhungen eines anderen Landes erhoben werden"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "貿易摩擦・通商戦争の典型語。",
+        "エスカレーションの含意が強い。"
+      ],
+      "de": [
+        "Stark konfliktbeladen; typisch für Handelskonflikte."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Zoll：通常の関税",
+        "Vergeltungszoll：制裁・報復目的"
+      ],
+      "de": [
+        "Zoll neutral; Vergeltungszoll reaktiv/sanktionierend"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "Vergeltung（報復）＋ Zoll（関税）。"
+      ],
+      "de": [
+        "Vergeltung + Zoll"
+      ]
+    },
+    "example": {
+      "ja": [
+        "報復関税の応酬は貿易を冷え込ませた。"
+      ],
+      "de": [
+        "Vergeltungszölle führten zu einer Abkühlung des Handels."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「報復関税は消費者に跳ね返る」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „Vergeltungszölle“ und „Verbraucher“."
+      ]
+    }
+  },
+  {
+    "id": "realpolitik",
+    "sid": "2026-00079",
+    "word": "Realpolitik",
+    "level": "C1",
+    "freq": "often",
+    "tags": ["abs", "exam", "pol"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "" },
+    "meaning": {
+      "ja": [
+        "現実主義的政治（理念よりも現実の力関係・国益を優先する政治姿勢）"
+      ],
+      "de": [
+        "pragmatische Politik, die Machtverhältnisse und Interessen über Ideale stellt"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "理想主義（Idealismus）との対比で使われやすい。",
+        "肯定・批判どちらにも振れる語。"
+      ],
+      "de": [
+        "Kann sowohl deskriptiv als auch kritisch verwendet werden."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Realpolitik：現実・国益重視",
+        "Idealpolitik：理念・価値重視"
+      ],
+      "de": [
+        "Realpolitik vs. Idealismus"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "19世紀ドイツ政治思想に由来（real＝現実）。"
+      ],
+      "de": [
+        "Begriff des 19. Jahrhunderts (v. a. Bismarck-Zeit)."
+      ]
+    },
+    "example": {
+      "ja": [
+        "その決定は価値よりも現実を優先したものだ。"
+      ],
+      "de": [
+        "Die Entscheidung folgte eher der Logik der Realpolitik."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「価値外交と現実政治の緊張関係」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „Spannung zwischen Realpolitik und Werten“."
+      ]
+    }
+  },
+  {
+    "id": "interessenpolitik",
+    "sid": "2026-00080",
+    "word": "Interessenpolitik",
+    "level": "C1",
+    "freq": "sometimes",
+    "tags": ["abs", "exam", "pol"],
+    "grammar": { "pos": "noun", "article": "die", "gender": "f", "plural": "" },
+    "meaning": {
+      "ja": [
+        "利害重視の政治（自国・自組織の利益を最優先する政策姿勢）"
+      ],
+      "de": [
+        "Politik, die sich primär an eigenen Interessen orientiert"
+      ]
+    },
+    "nuance": {
+      "ja": [
+        "批判的文脈で使われやすい。",
+        "Wertepolitik の対概念として有効。"
+      ],
+      "de": [
+        "Oft kritisch gebraucht, besonders im Gegensatz zu Wertepolitik."
+      ]
+    },
+    "minimal": {
+      "ja": [
+        "Wertepolitik：価値観重視",
+        "Interessenpolitik：利益重視"
+      ],
+      "de": [
+        "Wertepolitik vs. Interessenpolitik"
+      ]
+    },
+    "etymology": {
+      "ja": [
+        "Interesse（利害）＋ Politik。"
+      ],
+      "de": [
+        "Interesse + Politik"
+      ]
+    },
+    "example": {
+      "ja": [
+        "各国は最終的に自国の利益を優先する。"
+      ],
+      "de": [
+        "Am Ende betreiben Staaten meist Interessenpolitik."
+      ]
+    },
+    "task": {
+      "ja": [
+        "「価値と利益は必ずしも一致しない」を独語で。"
+      ],
+      "de": [
+        "Formuliere einen Satz mit „Interessenpolitik“ und „Wertekonflikt“."
+      ]
+    }
   }
 ]
