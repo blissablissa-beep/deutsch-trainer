@@ -5124,5 +5124,80 @@
       "Formuliere einen Satz mit „Abhängigkeit von seltenen Erden“."
     ]
   }
+},
+{
+  "id": "kapazitaet",
+  "sid": "2026-00126",
+  "word": "Kapazität",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam", "econ", "tech"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "gender": "f",
+    "plural": "Kapazitäten"
+  },
+
+  "meaning": {
+    "ja": [
+      "能力、処理力、対応力",
+      "（設備・人員などの）受け入れ能力・余力"
+    ],
+    "de": [
+      "Leistungsfähigkeit; Aufnahmemöglichkeit",
+      "verfügbare Menge oder Fähigkeit eines Systems"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "物理的（工場・病院・電力）にも抽象的（行政・精神的余力）にも使える。",
+      "しばしば『限界・不足・拡大』と結びつく。"
+    ],
+    "de": [
+      "Sehr breit einsetzbar: technisch, wirtschaftlich, institutionell.",
+      "Häufig in Verbindung mit Grenzen oder Ausbau."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "Fähigkeit：個人の能力寄り",
+      "Kapazität：量・処理可能性・システム的"
+    ],
+    "de": [
+      "Fähigkeit personenzentriert",
+      "Kapazität system- oder mengenbezogen"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "ラテン語 capacitas（収容力・容量）に由来。",
+      "capere（取る・収める）が語根。"
+    ],
+    "de": [
+      "Aus lat. „capacitas“ < „capere“ (fassen, aufnehmen)."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "その病院はすでに受け入れ能力の限界に達している。"
+    ],
+    "de": [
+      "Das Krankenhaus hat seine Kapazitätsgrenze erreicht."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「生産能力を拡大する必要がある」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Kapazitäten ausbauen“."
+    ]
+  }
 }
 ]
