@@ -4250,5 +4250,210 @@
     "ja": "「政府は説明責任を果たしていない」を独語で。",
     "de": "Formuliere einen Satz mit „seiner Pflicht nicht nachkommen“."
   }
+},
+{
+  "id": "wettbewerbsfaehig_bleiben",
+  "sid": "2026-00106",
+  "word": "wettbewerbsfähig bleiben",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "coll", "econ"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["wettbewerbsfähig bleiben"]
+  },
+  "meaning": {
+    "ja": ["競争力を維持する"],
+    "de": ["wettbewerbsfähig bleiben; konkurrenzfähig bleiben"]
+  },
+  "nuance": {
+    "ja": [
+      "国家・企業・産業の文脈で非常に頻出。",
+      "『向上』ではなく『維持』に焦点があるのがポイント。"
+    ],
+    "de": [
+      "Häufig in Wirtschafts- und Standortdebatten.",
+      "Betont Erhalt, nicht Ausbau."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "wettbewerbsfähig werden：競争力を獲得する",
+      "wettbewerbsfähig bleiben：競争力を維持する"
+    ],
+    "de": [
+      "werden = Erwerb",
+      "bleiben = Erhalt"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "Wettbewerb（競争）＋ fähig（能力がある）＋ bleiben（留まる）。"
+    ],
+    "de": [
+      "Kompositum aus Wettbewerb + fähig; bleiben = Zustand aufrechterhalten."
+    ]
+  },
+  "example": {
+    "ja": ["企業は国際的に競争力を維持しなければならない。"],
+    "de": ["Unternehmen müssen international wettbewerbsfähig bleiben."]
+  },
+  "task": {
+    "ja": ["「技術革新なしでは競争力を維持できない」を独語で。"],
+    "de": ["Formuliere: „Ohne Innovation kann man nicht wettbewerbsfähig bleiben.“"]
+  }
+},
+{
+  "id": "maerkte_erschliessen",
+  "sid": "2026-00107",
+  "word": "Märkte erschließen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "coll", "business"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["Märkte erschließen"]
+  },
+  "meaning": {
+    "ja": ["市場を開拓する"],
+    "de": ["neue Märkte erschließen"]
+  },
+  "nuance": {
+    "ja": [
+      "海外展開・成長戦略の定番表現。",
+      "単なる参入より『開拓』のニュアンスが強い。"
+    ],
+    "de": [
+      "Impliziert aktive Entwicklung, nicht nur Markteintritt."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Markt betreten：市場に入る",
+      "Markt erschließen：市場を開拓する"
+    ],
+    "de": [
+      "betreten = Eintritt",
+      "erschließen = Entwicklung"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "erschließen（開く・利用可能にする）← schließen（閉じる）との対。"
+    ],
+    "de": [
+      "erschließen = zugänglich machen, nutzbar machen."
+    ]
+  },
+  "example": {
+    "ja": ["企業はアジア市場を開拓している。"],
+    "de": ["Das Unternehmen erschließt neue Märkte in Asien."]
+  },
+  "task": {
+    "ja": ["「新興国市場を開拓する」を独語で。"],
+    "de": ["Formuliere einen Satz mit „neue Märkte erschließen“."]
+  }
+},
+{
+  "id": "kundenstamm_ausbauen",
+  "sid": "2026-00108",
+  "word": "den Kundenstamm ausbauen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "coll", "business"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["den Kundenstamm ausbauen"]
+  },
+  "meaning": {
+    "ja": ["顧客基盤を拡大する"],
+    "de": ["den Kundenstamm erweitern/ausbauen"]
+  },
+  "nuance": {
+    "ja": [
+      "短期売上より中長期戦略の語感。",
+      "B2〜C1論述で非常に使いやすい。"
+    ],
+    "de": [
+      "Strategischer Begriff, weniger kurzfristig als Umsatz steigern."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Kunden gewinnen：顧客を獲得する",
+      "Kundenstamm ausbauen：顧客基盤を拡大する"
+    ],
+    "de": [
+      "gewinnen = einzelne Kunden",
+      "ausbauen = Struktur"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "Stamm（幹・中核）→ 継続的顧客の集合。"
+    ],
+    "de": [
+      "Kundenstamm = Kernbestand der Kundschaft."
+    ]
+  },
+  "example": {
+    "ja": ["同社は若年層で顧客基盤を拡大した。"],
+    "de": ["Das Unternehmen hat seinen Kundenstamm erweitert."]
+  },
+  "task": {
+    "ja": ["「デジタル戦略で顧客基盤を拡大する」を独語で。"],
+    "de": ["Formuliere einen Satz mit „den Kundenstamm ausbauen“."]
+  }
+},
+{
+  "id": "wettbewerbsfaehig_machen",
+  "sid": "2026-00109",
+  "word": "wettbewerbsfähig machen",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "coll", "econ"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["etw. wettbewerbsfähig machen"]
+  },
+  "meaning": {
+    "ja": ["競争力を持たせる"],
+    "de": ["etwas wettbewerbsfähig machen"]
+  },
+  "nuance": {
+    "ja": [
+      "政策・改革・投資の目的表現に最適。",
+      "主語は Staat / Reform / Investitionen が多い。"
+    ],
+    "de": [
+      "Sehr typisch für politische Programme."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "wettbewerbsfähig sein：状態",
+      "wettbewerbsfähig machen：原因・手段"
+    ],
+    "de": [
+      "sein = Zustand",
+      "machen = Maßnahme"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "machen により形容詞を動詞化。"
+    ],
+    "de": [
+      "Kausative Konstruktion mit „machen“."
+    ]
+  },
+  "example": {
+    "ja": ["改革は産業を国際競争に耐えうるものにする。"],
+    "de": ["Reformen sollen die Industrie wettbewerbsfähig machen."]
+  },
+  "task": {
+    "ja": ["「教育投資は経済を競争力あるものにする」を独語で。"],
+    "de": ["Formuliere einen Satz mit „wettbewerbsfähig machen“."]
+  }
 }
 ]
