@@ -3967,5 +3967,153 @@
     "ja": "「社会的受容が不可欠だ」を独語で。",
     "de": "Formuliere: „Gesellschaftliche Akzeptanz ist unverzichtbar.“"
   }
+},
+{
+  "id": "rechenschaftspflicht",
+  "sid": "2026-00097",
+  "word": "Rechenschaftspflicht",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "説明責任（権限行使について説明し、責任を負う義務）",
+    "de": "Pflicht, Entscheidungen und Handlungen zu erklären und dafür Verantwortung zu übernehmen"
+  },
+  "nuance": {
+    "ja": "民主主義・行政・企業統治の核心語。",
+    "de": "Zentraler Begriff in Demokratie, Verwaltung und Governance."
+  },
+  "minimal": {
+    "ja": "Transparenz＝見えること／Rechenschaftspflicht＝説明し責任を取ること",
+    "de": "Transparenz sichtbar; Rechenschaftspflicht verantwortend"
+  },
+  "etymology": {
+    "ja": "Rechenschaft（報告・勘定）＋ Pflicht（義務）。",
+    "de": "Rechenschaft (Bericht) + Pflicht."
+  },
+  "example": {
+    "ja": "政府には国民に対する説明責任がある。",
+    "de": "Die Regierung hat eine Rechenschaftspflicht gegenüber der Bevölkerung."
+  },
+  "task": {
+    "ja": "「説明責任を果たす」を独語で。",
+    "de": "Formuliere: „der Rechenschaftspflicht nachkommen“."
+  }
+},
+{
+  "id": "konsistenz",
+  "sid": "2026-00098",
+  "word": "Konsistenz",
+  "level": "C1",
+  "freq": "sometimes",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "一貫性（主張・政策・行動が矛盾しないこと）",
+    "de": "Widerspruchsfreiheit und Stimmigkeit von Aussagen oder Handlungen"
+  },
+  "nuance": {
+    "ja": "理論・政策・論理構成の評価で使用。",
+    "de": "Häufig in Theorie-, Politik- und Argumentationskritik."
+  },
+  "minimal": {
+    "ja": "Kohärenz＝全体の整合性／Konsistenz＝矛盾がないこと",
+    "de": "Kohärenz ganzheitlich; Konsistenz widerspruchsfrei"
+  },
+  "etymology": {
+    "ja": "ラテン語 consistere（共に立つ）に由来。",
+    "de": "Aus lat. „consistere“ (zusammenstehen)."
+  },
+  "example": {
+    "ja": "その政策には一貫性が欠けている。",
+    "de": "Der Politik fehlt es an Konsistenz."
+  },
+  "task": {
+    "ja": "「政策の一貫性を保つ」を独語で。",
+    "de": "Formuliere: „die Konsistenz der Politik wahren“."
+  }
+},
+{
+  "id": "kohaerenz",
+  "sid": "2026-00099",
+  "word": "Kohärenz",
+  "level": "C1",
+  "freq": "sometimes",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "整合性、首尾一貫性（要素全体が調和していること）",
+    "de": "Zusammenhang und innere Geschlossenheit eines Ganzen"
+  },
+  "nuance": {
+    "ja": "EU政策・外交・文章評価で頻出。",
+    "de": "Häufig in EU-, Außen- und Strategieanalysen."
+  },
+  "minimal": {
+    "ja": "Konsistenz＝矛盾がない／Kohärenz＝全体としてまとまっている",
+    "de": "Konsistenz logisch; Kohärenz strukturell"
+  },
+  "etymology": {
+    "ja": "ラテン語 cohaerere（結びつく）に由来。",
+    "de": "Aus lat. „cohaerere“ (zusammenhängen)."
+  },
+  "example": {
+    "ja": "外交政策の整合性が問われている。",
+    "de": "Die Kohärenz der Außenpolitik wird infrage gestellt."
+  },
+  "task": {
+    "ja": "「政策全体の整合性」を使って1文。",
+    "de": "Formuliere einen Satz mit „politische Kohärenz“."
+  }
+},
+{
+  "id": "vertrauensverlust",
+  "sid": "2026-00100",
+  "word": "Vertrauensverlust",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "der",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "信頼の失墜、信用喪失",
+    "de": "Verlust von Vertrauen bei Bürgern, Partnern oder Märkten"
+  },
+  "nuance": {
+    "ja": "政治・経済・外交すべてで使える強い評価語。",
+    "de": "Stark wertend; politisch und wirtschaftlich relevant."
+  },
+  "minimal": {
+    "ja": "Kritik＝批判／Vertrauensverlust＝その結果",
+    "de": "Kritik Ursache; Vertrauensverlust Folge"
+  },
+  "etymology": {
+    "ja": "Vertrauen（信頼）＋ Verlust（喪失）。",
+    "de": "Vertrauen + Verlust."
+  },
+  "example": {
+    "ja": "一連の不祥事は深刻な信頼失墜を招いた。",
+    "de": "Die Skandale führten zu einem massiven Vertrauensverlust."
+  },
+  "task": {
+    "ja": "「信頼の失墜を回復する」を独語で。",
+    "de": "Formuliere: „Vertrauen wiederherstellen“."
+  }
 }
 ]
