@@ -3782,5 +3782,190 @@
     "ja": "「グローバル・サウスの台頭」をテーマに一文。",
     "de": "Formuliere einen Satz zum wachsenden Einfluss des Globalen Südens."
   }
+},
+{
+  "id": "glaubwuerdigkeit",
+  "sid": "2026-00092",
+  "word": "Glaubwürdigkeit",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "信頼性、信用度（人・組織・主張がどれだけ信じられるか）",
+    "de": "Maß dafür, wie glaubhaft und vertrauenswürdig eine Person, Institution oder Aussage ist"
+  },
+  "nuance": {
+    "ja": "主張の中身だけでなく、一貫性・実績・行動も含めて評価される。",
+    "de": "Bezieht sich nicht nur auf Aussagen, sondern auch auf Konsistenz und Handeln."
+  },
+  "minimal": {
+    "ja": "Vertrauen：感情的な信頼／Glaubwürdigkeit：論理・実績に基づく信頼性",
+    "de": "„Vertrauen“ emotional; „Glaubwürdigkeit“ rational/argumentativ"
+  },
+  "etymology": {
+    "ja": "glaubwürdig（信じるに足る）＋ -keit（名詞化）。語幹は glauben（信じる）。",
+    "de": "Von „glaubwürdig“ < „glauben“ + „-keit“ (Abstraktum)."
+  },
+  "example": {
+    "ja": "政府の説明は国民の信頼性を損なった。",
+    "de": "Die Erklärung der Regierung hat an Glaubwürdigkeit verloren."
+  },
+  "task": {
+    "ja": "「信頼性を回復する必要がある」を独語で。",
+    "de": "Formuliere: „… muss seine Glaubwürdigkeit wiederherstellen.“"
+  }
+},
+{
+  "id": "legitimitaet",
+  "sid": "2026-00093",
+  "word": "Legitimität",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "正当性（権力・制度・決定が正当と認められること）",
+    "de": "Anerkannte Rechtmäßigkeit oder Berechtigung von Macht, Regeln oder Entscheidungen"
+  },
+  "nuance": {
+    "ja": "合法性（Legalität）とは別で、社会的承認・納得が核。",
+    "de": "Nicht identisch mit Legalität; beruht auf Akzeptanz und Anerkennung."
+  },
+  "minimal": {
+    "ja": "Legalität＝法律上の適法性／Legitimität＝社会的正当性",
+    "de": "Legalität rechtlich; Legitimität gesellschaftlich"
+  },
+  "etymology": {
+    "ja": "ラテン語 legitimus（合法な・正当な）に由来。",
+    "de": "Aus lat. „legitimus“ (gesetzmäßig, berechtigt)."
+  },
+  "example": {
+    "ja": "その政権は正当性を失いつつある。",
+    "de": "Die Regierung verliert zunehmend an Legitimität."
+  },
+  "task": {
+    "ja": "「民主的正当性」を用いて1文。",
+    "de": "Formuliere einen Satz mit „demokratische Legitimität“."
+  }
+},
+{
+  "id": "verlaesslichkeit",
+  "sid": "2026-00094",
+  "word": "Verlässlichkeit",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "信頼できること、一貫性、約束を守る性質",
+    "de": "Zuverlässigkeit; Eigenschaft, auf die man sich verlassen kann"
+  },
+  "nuance": {
+    "ja": "行動の一貫性・予測可能性を強く含意。",
+    "de": "Betont Beständigkeit und Vorhersehbarkeit."
+  },
+  "minimal": {
+    "ja": "Glaubwürdigkeit＝信じられるか／Verlässlichkeit＝裏切られないか",
+    "de": "Glaubwürdigkeit = glaubhaft; Verlässlichkeit = konstant"
+  },
+  "etymology": {
+    "ja": "sich verlassen auf（頼る）から派生。",
+    "de": "Von „sich verlassen (auf)“."
+  },
+  "example": {
+    "ja": "同盟国としての信頼性が問われている。",
+    "de": "Die Verlässlichkeit als Bündnispartner steht infrage."
+  },
+  "task": {
+    "ja": "「長期的な信頼性」を使って独語文。",
+    "de": "Formuliere einen Satz mit „langfristige Verlässlichkeit“."
+  }
+},
+{
+  "id": "transparenz",
+  "sid": "2026-00095",
+  "word": "Transparenz",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "透明性（意思決定や情報公開が明確であること）",
+    "de": "Nachvollziehbarkeit und Offenheit von Prozessen und Entscheidungen"
+  },
+  "nuance": {
+    "ja": "説明責任（Rechenschaftspflicht）とセットで使われやすい。",
+    "de": "Oft verbunden mit Rechenschaftspflicht."
+  },
+  "minimal": {
+    "ja": "Offenheit＝開放性／Transparenz＝理解可能性",
+    "de": "Offenheit allgemein; Transparenz nachvollziehbar"
+  },
+  "etymology": {
+    "ja": "ラテン語 trans-parere（透けて見える）に由来。",
+    "de": "Aus lat. „transparere“ (durchscheinen)."
+  },
+  "example": {
+    "ja": "政策決定の透明性が欠けている。",
+    "de": "Es mangelt an Transparenz bei politischen Entscheidungen."
+  },
+  "task": {
+    "ja": "「透明性を高める」を独語で。",
+    "de": "Formuliere: „die Transparenz erhöhen“."
+  }
+},
+{
+  "id": "akzeptanz",
+  "sid": "2026-00096",
+  "word": "Akzeptanz",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "受容、支持（社会・国民が受け入れること）",
+    "de": "Bereitschaft, etwas anzunehmen oder zu unterstützen"
+  },
+  "nuance": {
+    "ja": "必ずしも賛成ではなく「仕方なく受け入れる」場合も含む。",
+    "de": "Nicht immer Zustimmung, oft pragmatische Duldung."
+  },
+  "minimal": {
+    "ja": "Zustimmung＝賛成／Akzeptanz＝受け入れ",
+    "de": "Zustimmung aktiv; Akzeptanz passiver"
+  },
+  "etymology": {
+    "ja": "ラテン語 acceptare（受け取る）に由来。",
+    "de": "Aus lat. „acceptare“ (annehmen)."
+  },
+  "example": {
+    "ja": "改革は国民の受容を得られなかった。",
+    "de": "Die Reform fand keine Akzeptanz in der Bevölkerung."
+  },
+  "task": {
+    "ja": "「社会的受容が不可欠だ」を独語で。",
+    "de": "Formuliere: „Gesellschaftliche Akzeptanz ist unverzichtbar.“"
+  }
 }
 ]
