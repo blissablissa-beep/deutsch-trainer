@@ -3634,5 +3634,153 @@
       "Formuliere einen Satz mit „Vereinbarkeit“ und einem konkreten Hindernis (z. B. Kinderbetreuung)."
     ]
   }
+},
+{
+  "id": "entwickelte_laender",
+  "sid": "2026-00088",
+  "word": "entwickelte Länder",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": "Länder"
+  },
+  "meaning": {
+    "ja": "先進国（経済・産業・社会インフラが高度に発展した国々）",
+    "de": "wirtschaftlich und gesellschaftlich hoch entwickelte Staaten"
+  },
+  "nuance": {
+    "ja": "経済・政策・国際関係で中立的に使える表現。先進国＝reich とは限らない点が重要。",
+    "de": "Sachlich-neutraler Begriff in Politik, Wirtschaft und internationalen Debatten."
+  },
+  "minimal": {
+    "ja": "Industrieländer：工業化に焦点／entwickelte Länder：社会・経済全体の成熟度",
+    "de": "„Industrieländer“ betont Industrie; „entwickelte Länder“ ist breiter gefasst"
+  },
+  "etymology": {
+    "ja": "entwickeln（発展させる）→ entwickelt（発展した）＋ Länder。",
+    "de": "von „entwickeln“ (sich entfalten, fortschreiten)"
+  },
+  "example": {
+    "ja": "先進国では高齢化が大きな課題となっている。",
+    "de": "In entwickelten Ländern stellt die Überalterung eine große Herausforderung dar."
+  },
+  "task": {
+    "ja": "「先進国が直面する共通課題」を一文で。",
+    "de": "Formuliere einen Satz über gemeinsame Probleme entwickelter Länder."
+  }
+},
+{
+  "id": "entwicklungsländer",
+  "sid": "2026-00089",
+  "word": "Entwicklungsländer",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": "Länder"
+  },
+  "meaning": {
+    "ja": "発展途上国（経済・社会発展の途上にある国々）",
+    "de": "Staaten mit geringerem wirtschaftlichem und sozialem Entwicklungsstand"
+  },
+  "nuance": {
+    "ja": "やや古典的だが現在も公的文書で使用。近年は Globaler Süden と言い換えられることも。",
+    "de": "Traditioneller Begriff; zunehmend ersetzt durch „Globaler Süden“."
+  },
+  "minimal": {
+    "ja": "Schwellenländer：新興国（中間段階）／Entwicklungsländer：より発展度が低い",
+    "de": "„Schwellenländer“ = Übergang; „Entwicklungsländer“ = niedrigerer Entwicklungsstand"
+  },
+  "etymology": {
+    "ja": "Entwicklung（発展）＋ Länder。",
+    "de": "von „Entwicklung“ (Entfaltung, Fortschritt)"
+  },
+  "example": {
+    "ja": "発展途上国では教育への投資が重要だ。",
+    "de": "In Entwicklungsländern ist der Zugang zu Bildung besonders wichtig."
+  },
+  "task": {
+    "ja": "「発展途上国の成長を支援する必要がある」を独語で。",
+    "de": "Formuliere einen Satz zur Unterstützung von Entwicklungsländern."
+  }
+},
+{
+  "id": "schwellenlaender",
+  "sid": "2026-00090",
+  "word": "Schwellenländer",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": "Länder"
+  },
+  "meaning": {
+    "ja": "新興国（先進国と発展途上国の中間段階にある国々）",
+    "de": "Länder, die sich im Übergang von Entwicklungs- zu Industrieländern befinden"
+  },
+  "nuance": {
+    "ja": "経済成長は速いが、制度・所得・社会保障は未成熟なことが多い。",
+    "de": "Typisch: starkes Wachstum, aber noch strukturelle und soziale Defizite."
+  },
+  "minimal": {
+    "ja": "Entwicklungsländer：発展途上段階／Schwellenländer：中間段階／entwickelte Länder：成熟段階",
+    "de": "Entwicklungsländer → Schwellenländer → entwickelte Länder"
+  },
+  "etymology": {
+    "ja": "Schwelle（境目・敷居）＋ Länder →「段階の境目にある国々」。",
+    "de": "„Schwelle“ (Übergang, Grenze) + Länder"
+  },
+  "example": {
+    "ja": "新興国は世界経済の成長を牽引している。",
+    "de": "Schwellenländer treiben zunehmend das globale Wirtschaftswachstum an."
+  },
+  "task": {
+    "ja": "「新興国が抱える課題」を一文で。",
+    "de": "Formuliere einen Satz zu den Herausforderungen der Schwellenländer."
+  }
+},
+{
+  "id": "globaler_sueden",
+  "sid": "2026-00091",
+  "word": "Globaler Süden",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam"],
+  "grammar": {
+    "pos": "noun",
+    "article": "der",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": "グローバル・サウス（主に南半球に位置する発展途上・新興地域の総称）",
+    "de": "Sammelbegriff für wirtschaftlich weniger privilegierte Regionen, vor allem in Afrika, Lateinamerika und Teilen Asiens"
+  },
+  "nuance": {
+    "ja": "『発展途上国』より政治的に配慮された現代的表現。",
+    "de": "Politisch sensibler und moderner als „Entwicklungsländer“."
+  },
+  "minimal": {
+    "ja": "Entwicklungsländer：発展段階の分類語／Globaler Süden：歴史・政治・格差を含む概念",
+    "de": "„Entwicklungsländer“ eher ökonomisch; „Globaler Süden“ politisch-historisch"
+  },
+  "etymology": {
+    "ja": "地理的南北を基礎にしたが、実際は社会経済的区分。",
+    "de": "Bezieht sich nicht strikt auf Geografie, sondern auf globale Ungleichheit."
+  },
+  "example": {
+    "ja": "グローバル・サウスとの関係強化が外交課題となっている。",
+    "de": "Die Beziehungen zum Globalen Süden gewinnen außenpolitisch an Bedeutung."
+  },
+  "task": {
+    "ja": "「グローバル・サウスの台頭」をテーマに一文。",
+    "de": "Formuliere einen Satz zum wachsenden Einfluss des Globalen Südens."
+  }
 }
 ]
