@@ -4115,5 +4115,140 @@
     "ja": "「信頼の失墜を回復する」を独語で。",
     "de": "Formuliere: „Vertrauen wiederherstellen“."
   }
+},
+{
+  "id": "pflicht_erfuellen",
+  "sid": "2026-00101",
+  "word": "die Pflicht erfüllen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["phrase", "exam", "oral"],
+  "grammar": {
+    "pos": "phrase"
+  },
+  "meaning": {
+    "ja": "義務を果たす、責務を全うする",
+    "de": "seine Pflicht erfüllen; das tun, wozu man verpflichtet ist"
+  },
+  "nuance": {
+    "ja": "道徳・法・職務すべてに使える非常に汎用的な表現。",
+    "de": "Universell in Recht, Politik, Beruf und Ethik verwendbar."
+  },
+  "example": {
+    "ja": "政府は国民に対する義務を果たさなければならない。",
+    "de": "Die Regierung muss ihre Pflicht gegenüber der Bevölkerung erfüllen."
+  },
+  "task": {
+    "ja": "「企業は社会的責任を果たすべきだ」を独語で。",
+    "de": "Formuliere einen Satz mit „seine Pflicht erfüllen“."
+  }
+},
+{
+  "id": "verantwortung_uebernehmen",
+  "sid": "2026-00102",
+  "word": "Verantwortung übernehmen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["phrase", "exam", "oral"],
+  "grammar": {
+    "pos": "phrase"
+  },
+  "meaning": {
+    "ja": "責任を引き受ける、責任を取る",
+    "de": "Verantwortung für etwas übernehmen"
+  },
+  "nuance": {
+    "ja": "評価・非難・称賛どちらにも使える万能句。",
+    "de": "Neutral bis positiv; oft in Krisen- oder Führungsdebatten."
+  },
+  "example": {
+    "ja": "誰もその失敗の責任を取ろうとしなかった。",
+    "de": "Niemand wollte die Verantwortung für das Scheitern übernehmen."
+  },
+  "task": {
+    "ja": "「政治家は責任を取るべきだ」を独語で。",
+    "de": "Formuliere einen Satz mit „Verantwortung übernehmen“."
+  }
+},
+{
+  "id": "verantwortung_gerecht_werden",
+  "sid": "2026-00103",
+  "word": "seiner Verantwortung gerecht werden",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["phrase", "exam"],
+  "grammar": {
+    "pos": "phrase"
+  },
+  "meaning": {
+    "ja": "責任を十分に果たす",
+    "de": "seiner Verantwortung in angemessener Weise nachkommen"
+  },
+  "nuance": {
+    "ja": "die Pflicht erfüllen よりも「質・水準」を評価する語感。",
+    "de": "Bewertet die Qualität der Verantwortung, nicht nur deren Existenz."
+  },
+  "example": {
+    "ja": "政府はその国際的責任を果たしていない。",
+    "de": "Die Regierung wird ihrer internationalen Verantwortung nicht gerecht."
+  },
+  "task": {
+    "ja": "「企業は社会的責任を果たしていない」を独語で。",
+    "de": "Formuliere einen Satz mit „seiner Verantwortung gerecht werden“."
+  }
+},
+{
+  "id": "in_der_pflicht_stehen",
+  "sid": "2026-00104",
+  "word": "in der Pflicht stehen",
+  "level": "C1",
+  "freq": "sometimes",
+  "tags": ["phrase", "exam"],
+  "grammar": {
+    "pos": "phrase"
+  },
+  "meaning": {
+    "ja": "義務を負っている、責任ある立場にある",
+    "de": "verpflichtet sein; eine besondere Verantwortung tragen"
+  },
+  "nuance": {
+    "ja": "道徳的・政治的な圧を含む言い方。",
+    "de": "Impliziert moralischen oder politischen Erwartungsdruck."
+  },
+  "example": {
+    "ja": "先進国は気候対策で特に責任ある立場にある。",
+    "de": "Die Industrieländer stehen beim Klimaschutz besonders in der Pflicht."
+  },
+  "task": {
+    "ja": "「EUはこの問題で責任ある立場にある」を独語で。",
+    "de": "Formuliere einen Satz mit „in der Pflicht stehen“."
+  }
+},
+{
+  "id": "pflicht_nicht_nachkommen",
+  "sid": "2026-00105",
+  "word": "seiner Pflicht nicht nachkommen",
+  "level": "C1",
+  "freq": "sometimes",
+  "tags": ["phrase", "exam"],
+  "grammar": {
+    "pos": "phrase"
+  },
+  "meaning": {
+    "ja": "義務を果たさない、不作為に終わる",
+    "de": "seine Pflicht vernachlässigen oder nicht erfüllen"
+  },
+  "nuance": {
+    "ja": "批判・非難文脈で強力。",
+    "de": "Klar wertend; häufig in Kritik und Kommentaren."
+  },
+  "example": {
+    "ja": "国家が国民を守る義務を果たしていない。",
+    "de": "Der Staat kommt seiner Pflicht zum Schutz der Bevölkerung nicht nach."
+  },
+  "task": {
+    "ja": "「政府は説明責任を果たしていない」を独語で。",
+    "de": "Formuliere einen Satz mit „seiner Pflicht nicht nachkommen“."
+  }
 }
 ]
