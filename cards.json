@@ -3567,5 +3567,72 @@
       "Formuliere einen Satz mit „die Doppelbelastung reduzieren/abbauen“."
     ]
   }
+},
+{
+  "id": "vereinbarkeit",
+  "sid": "2026-00087",
+  "word": "Vereinbarkeit (von Familie und Beruf)",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "society", "gender", "work"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "gender": "f",
+    "plural": ""
+  },
+  "meaning": {
+    "ja": [
+      "（両立の）可能性・両立（特に家庭と仕事、育児と就労など）"
+    ],
+    "de": [
+      "Möglichkeit, zwei Bereiche miteinander zu vereinbaren, v. a. Familie und Beruf"
+    ]
+  },
+  "nuance": {
+    "ja": [
+      "政策・企業制度・社会課題の文脈で非常に頻出。",
+      "単に「両立する」だけでなく、制度や環境（Kita、柔軟勤務、休暇制度）まで含む語感。"
+    ],
+    "de": [
+      "Schlüsselbegriff in Familien- und Arbeitsmarktpolitik.",
+      "Meist strukturell gemeint (Kinderbetreuung, Arbeitszeiten, Elternzeit)."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "vereinbaren：両立させる（動詞・個人の行為にも）",
+      "Vereinbarkeit：両立『しやすさ／条件』まで含む（構造・制度寄り）"
+    ],
+    "de": [
+      "vereinbaren: aktiv tun (zwei Dinge vereinbaren)",
+      "Vereinbarkeit: Rahmenbedingungen/„Machbarkeit“ der Kombination"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "vereinbaren（両立させる／調整する）＋ -keit（名詞化）。",
+      "根は ein（1つに）＋ verein-（統合）方向の語感。"
+    ],
+    "de": [
+      "von „vereinbaren“ + „-keit“ → Eigenschaft/Grad der Vereinbarkeit."
+    ]
+  },
+  "example": {
+    "ja": [
+      "家庭と仕事の両立を改善する必要がある。"
+    ],
+    "de": [
+      "Wir müssen die Vereinbarkeit von Familie und Beruf verbessern."
+    ]
+  },
+  "task": {
+    "ja": [
+      "「保育の不足が両立を難しくしている」を独語で1文。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Vereinbarkeit“ und einem konkreten Hindernis (z. B. Kinderbetreuung)."
+    ]
+  }
 }
 ]
