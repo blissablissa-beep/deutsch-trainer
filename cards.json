@@ -4455,5 +4455,257 @@
     "ja": ["「教育投資は経済を競争力あるものにする」を独語で。"],
     "de": ["Formuliere einen Satz mit „wettbewerbsfähig machen“."]
   }
+},
+{
+  "id": "verantwortung_uebernehmen",
+  "sid": "2026-00110",
+  "word": "Verantwortung übernehmen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "coll", "society"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["Verantwortung übernehmen für + Akk"]
+  },
+  "meaning": {
+    "ja": ["責任を引き受ける／負う"],
+    "de": ["Verantwortung tragen; Verantwortung übernehmen"]
+  },
+  "nuance": {
+    "ja": [
+      "政治・企業・個人の評価文脈で極めて頻出。",
+      "能動的な姿勢を強く示す。"
+    ],
+    "de": [
+      "Betont aktive Bereitschaft zur Verantwortung."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Verantwortung tragen：責任を負っている（状態）",
+      "Verantwortung übernehmen：責任を引き受ける（行為）"
+    ],
+    "de": [
+      "tragen = Zustand",
+      "übernehmen = Handlung"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "antworten（答える）→ Verantwortung（応答義務）。"
+    ],
+    "de": [
+      "Verantwortung < antworten (Rechenschaft geben)."
+    ]
+  },
+  "example": {
+    "ja": ["政治家は結果に対して責任を負うべきだ。"],
+    "de": ["Politiker müssen Verantwortung für die Folgen übernehmen."]
+  },
+  "task": {
+    "ja": ["「政府は失敗の責任を引き受けなければならない」を独語で。"],
+    "de": ["Formuliere einen Satz mit „Verantwortung übernehmen“."]
+  }
+},
+{
+  "id": "rechenschaft_ablegen",
+  "sid": "2026-00111",
+  "word": "Rechenschaft ablegen",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "formal", "politics"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["Rechenschaft ablegen über + Akk"]
+  },
+  "meaning": {
+    "ja": ["説明責任を果たす"],
+    "de": ["Rechenschaft geben; Verantwortung öffentlich erklären"]
+  },
+  "nuance": {
+    "ja": [
+      "非常にフォーマル。",
+      "民主主義・監査・政治責任の語彙。"
+    ],
+    "de": [
+      "Formell, häufig in Politik und Verwaltung."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "sich erklären：説明する（一般）",
+      "Rechenschaft ablegen：説明責任を果たす（制度的）"
+    ],
+    "de": [
+      "alltäglich vs. institutionell"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "Rechnung（計算・報告）に由来。"
+    ],
+    "de": [
+      "Rechenschaft < Rechnung (Abrechnung)."
+    ]
+  },
+  "example": {
+    "ja": ["政府は国民に説明責任を果たさなければならない。"],
+    "de": ["Die Regierung muss Rechenschaft ablegen."]
+  },
+  "task": {
+    "ja": ["「議会に説明責任を果たす」を独語で。"],
+    "de": ["Formuliere einen Satz mit „Rechenschaft ablegen“."]
+  }
+},
+{
+  "id": "massnahmen_ergreifen",
+  "sid": "2026-00112",
+  "word": "Maßnahmen ergreifen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "politics", "coll"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["Maßnahmen ergreifen gegen + Akk"]
+  },
+  "meaning": {
+    "ja": ["対策を講じる"],
+    "de": ["Maßnahmen treffen / ergreifen"]
+  },
+  "nuance": {
+    "ja": [
+      "最重要・超汎用フレーズ。",
+      "抽象名詞と組み合わせて万能。"
+    ],
+    "de": [
+      "Sehr häufig in offiziellen Texten."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "handeln：行動する",
+      "Maßnahmen ergreifen：具体的措置を取る"
+    ],
+    "de": [
+      "abstrakt vs. konkret"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "ergreifen = 手に取る → 実行に移す。"
+    ],
+    "de": [
+      "ergreifen = aktiv handeln."
+    ]
+  },
+  "example": {
+    "ja": ["政府は気候変動対策を講じている。"],
+    "de": ["Die Regierung ergreift Maßnahmen gegen den Klimawandel."]
+  },
+  "task": {
+    "ja": ["「インフレ対策を講じる」を独語で。"],
+    "de": ["Formuliere einen Satz mit „Maßnahmen ergreifen“."]
+  }
+},
+{
+  "id": "reformen_umsetzen",
+  "sid": "2026-00113",
+  "word": "Reformen umsetzen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "politics", "econ"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["Reformen umsetzen"]
+  },
+  "meaning": {
+    "ja": ["改革を実行する"],
+    "de": ["Reformen durchführen / umsetzen"]
+  },
+  "nuance": {
+    "ja": [
+      "計画段階ではなく実行段階を強調。",
+      "評価・批判文で非常に便利。"
+    ],
+    "de": [
+      "Fokus auf Umsetzung, nicht Ankündigung."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "Reformen ankündigen：改革を表明する",
+      "Reformen umsetzen：改革を実行する"
+    ],
+    "de": [
+      "Ankündigung vs. Umsetzung"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "umsetzen = 位置を変える → 実現する。"
+    ],
+    "de": [
+      "umsetzen = in die Praxis bringen."
+    ]
+  },
+  "example": {
+    "ja": ["政府は構造改革を実行した。"],
+    "de": ["Die Regierung hat Strukturreformen umgesetzt."]
+  },
+  "task": {
+    "ja": ["「改革が遅れている」を独語で。"],
+    "de": ["Formuliere einen Satz mit „Reformen umsetzen“."]
+  }
+},
+{
+  "id": "erwaegung_ziehen",
+  "sid": "2026-00114",
+  "word": "Erwägung ziehen",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "formal", "coll", "argument"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["etw. in Erwägung ziehen"]
+  },
+  "meaning": {
+    "ja": ["〜を検討する／考慮に入れる"],
+    "de": ["etwas sorgfältig prüfen und als Möglichkeit betrachten"]
+  },
+  "nuance": {
+    "ja": [
+      "即決ではなく、選択肢の一つとして冷静に検討する含意。",
+      "政治・政策・企業戦略・口述試験で非常に高評価。"
+    ],
+    "de": [
+      "Betont Abwägung und Zurückhaltung, nicht sofortige Entscheidung."
+    ]
+  },
+  "minimal": {
+    "ja": [
+      "überlegen：一般的に考える",
+      "prüfen：実務的に検討する",
+      "in Erwägung ziehen：選択肢として慎重に考慮する"
+    ],
+    "de": [
+      "denken → prüfen → abwägen (Erwägung ziehen)"
+    ]
+  },
+  "etymology": {
+    "ja": [
+      "erwägen（天秤で量る）→ 選択肢を比較検討する。"
+    ],
+    "de": [
+      "erwägen < Waage (wiegen, abwägen)."
+    ]
+  },
+  "example": {
+    "ja": ["政府は増税を選択肢として検討している。"],
+    "de": ["Die Regierung zieht eine Steuererhöhung in Erwägung."]
+  },
+  "task": {
+    "ja": ["「再生可能エネルギーへの投資を検討すべきだ」を独語で。"],
+    "de": ["Formuliere einen Satz mit „in Erwägung ziehen“."]
+  }
 }
 ]
