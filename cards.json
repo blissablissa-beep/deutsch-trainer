@@ -4144,30 +4144,72 @@
   }
 },
 {
-  "id": "verantwortung_uebernehmen",
+  "id": "geschweige_denn",
   "sid": "2026-00102",
-  "word": "Verantwortung übernehmen",
-  "level": "B2",
+  "word": "geschweige denn",
+  "level": "C1",
   "freq": "often",
-  "tags": ["phrase", "exam", "oral"],
+  "tags": ["exam", "phrase", "logic"],
   "grammar": {
-    "pos": "verb"
+    "pos": "adv"
   },
+
   "meaning": {
-    "ja": "責任を引き受ける、責任を取る",
-    "de": "Verantwortung für etwas übernehmen"
+    "ja": [
+      "ましてや〜はなおさらだ",
+      "言うまでもなく〜は不可能だ"
+    ],
+    "de": [
+      "erst recht nicht; ganz zu schweigen von"
+    ]
   },
+
   "nuance": {
-    "ja": "評価・非難・称賛どちらにも使える万能句。",
-    "de": "Neutral bis positiv; oft in Krisen- oder Führungsdebatten."
+    "ja": [
+      "前件が否定・困難であることを受けて、後件が『さらに不可能』であることを強調する。",
+      "論理展開・口述・作文で非常に強力。"
+    ],
+    "de": [
+      "Verstärkt eine Verneinung: Wenn schon A nicht gilt, gilt B erst recht nicht.",
+      "Sehr typisch für argumentativen Stil."
+    ]
   },
+
+  "minimal": {
+    "ja": [
+      "erst recht nicht：口語寄り / geschweige denn：書き言葉・論理的"
+    ],
+    "de": [
+      "erst recht nicht umgangssprachlicher; geschweige denn formeller"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "geschweigen（黙る・言及しない）＋ denn。",
+      "『〜については言うまでもない』という意味から発展。"
+    ],
+    "de": [
+      "Von mhd. „geschweigen“ (schweigen, unerwähnt lassen)."
+    ]
+  },
+
   "example": {
-    "ja": "誰もその失敗の責任を取ろうとしなかった。",
-    "de": "Niemand wollte die Verantwortung für das Scheitern übernehmen."
+    "ja": [
+      "彼はドイツ語が話せない。ましてや専門的な議論などできない。"
+    ],
+    "de": [
+      "Er spricht kein Deutsch, geschweige denn kann er an einer fachlichen Diskussion teilnehmen."
+    ]
   },
+
   "task": {
-    "ja": "「政治家は責任を取るべきだ」を独語で。",
-    "de": "Formuliere einen Satz mit „Verantwortung übernehmen“."
+    "ja": [
+      "「時間がない。ましてや準備などできない」を1文で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „geschweige denn“."
+    ]
   }
 },
 {
