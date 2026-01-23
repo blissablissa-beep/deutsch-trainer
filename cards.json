@@ -5199,5 +5199,152 @@
       "Formuliere einen Satz mit „Kapazitäten ausbauen“."
     ]
   }
+},
+{
+  "id": "abstriche_machen",
+  "sid": "2026-00127",
+  "word": "Abstriche machen",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "pattern": "Abstriche machen an + Dat"
+  },
+
+  "meaning": {
+    "ja": [
+      "妥協する、譲歩する",
+      "（品質・原則・要求などで）水準を下げる"
+    ],
+    "de": [
+      "Kompromisse eingehen",
+      "Zugeständnisse machen; Absenkungen akzeptieren"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "『本来は守りたい基準から一部削る』というニュアンスが強い。",
+      "政治・交渉・品質評価で頻出。"
+    ],
+    "de": [
+      "Impliziert Verlust an Qualität oder Anspruch.",
+      "Typisch in Verhandlungen und Bewertungen."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "Kompromiss：中立的な妥協",
+      "Abstriche machen：不本意な譲歩・削減"
+    ],
+    "de": [
+      "Kompromiss neutral",
+      "Abstriche machen mit Verlust verbunden"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "Abstrich（削り取ること）に由来。",
+      "本来は『表面を削る』物理的意味。"
+    ],
+    "de": [
+      "Von „abstreichen“ (etwas abziehen, wegnehmen)."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "安全性の面では一切妥協できない。"
+    ],
+    "de": [
+      "Bei der Sicherheit dürfen keine Abstriche gemacht werden."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「品質で妥協することになった」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Abstriche machen an …“."
+    ]
+  }
+},
+{
+  "id": "einlenken",
+  "sid": "2026-00128",
+  "word": "ein·len·ken",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "lenkte ein",
+    "perfekt": "hat eingelenkt"
+  },
+
+  "meaning": {
+    "ja": [
+      "譲歩する、態度を軟化させる",
+      "（対立の中で）折れる"
+    ],
+    "de": [
+      "nachgeben; seine Position aufweichen",
+      "bereit sein, einen Schritt zurückzugehen"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "議論・対立の文脈で『態度を変える』ことに焦点。",
+      "相手の圧力や状況変化が背景にあることが多い。"
+    ],
+    "de": [
+      "Bezieht sich auf Haltungsänderung.",
+      "Oft nach Druck oder Einsicht."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "nachgeben：単純に折れる",
+      "einlenken：対立の末に譲歩する"
+    ],
+    "de": [
+      "nachgeben direkt",
+      "einlenken konflikthaft"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "lenken（方向づける）＋ ein-。",
+      "比喩的に『方向転換する』意味に発展。"
+    ],
+    "de": [
+      "Von „lenken“ (steuern) → metaphorisch: Kurs ändern."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "政府は最終的に要求を受け入れた。"
+    ],
+    "de": [
+      "Die Regierung lenkte schließlich ein."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「圧力を受けて譲歩した」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „unter Druck einlenken“."
+    ]
+  }
 }
 ]
