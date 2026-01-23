@@ -4707,5 +4707,380 @@
     "ja": ["「再生可能エネルギーへの投資を検討すべきだ」を独語で。"],
     "de": ["Formuliere einen Satz mit „in Erwägung ziehen“."]
   }
+},
+{
+  "id": "in_kauf_nehmen",
+  "sid": "2026-00115",
+  "word": "in Kauf nehmen",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "argument", "coll"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["etw. in Kauf nehmen"]
+  },
+  "meaning": {
+    "ja": ["（不利益・リスクを）承知の上で受け入れる"],
+    "de": ["negative Folgen bewusst akzeptieren"]
+  },
+  "nuance": {
+    "ja": ["現実的判断・トレードオフを示す高評価表現。"],
+    "de": ["Typisch für politische und wirtschaftliche Abwägungen."]
+  },
+  "minimal": {
+    "ja": ["akzeptieren：一般的 / in Kauf nehmen：不利益を覚悟"],
+    "de": ["akzeptieren neutral; in Kauf nehmen bewusst negativ"]
+  },
+  "etymology": {
+    "ja": ["Kauf（取引）→ 不利な条件も含めて引き受ける比喩。"],
+    "de": ["Kauf als Metapher für Handel/Abtausch."]
+  },
+  "example": {
+    "ja": ["環境保護のためにコスト増を受け入れる。"],
+    "de": ["Man nimmt höhere Kosten für den Umweltschutz in Kauf."]
+  },
+  "task": {
+    "ja": ["「短期的な損失を覚悟する」を独語で。"],
+    "de": ["Formuliere einen Satz mit „in Kauf nehmen“."]
+  }
+},
+{
+  "id": "zur_debatte_stehen",
+  "sid": "2026-00116",
+  "word": "zur Debatte stehen",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "formal", "coll"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["zur Debatte stehen"]
+  },
+  "meaning": {
+    "ja": ["議論の対象になっている"],
+    "de": ["öffentlich diskutiert werden"]
+  },
+  "nuance": {
+    "ja": ["政策・制度変更の前段階を示す定番表現。"],
+    "de": ["Neutral, häufig in Medien und Politik."]
+  },
+  "minimal": {
+    "ja": ["diskutieren：行為 / zur Debatte stehen：状態"],
+    "de": ["diskutieren aktiv; zur Debatte stehen passiv"]
+  },
+  "etymology": {
+    "ja": ["Debatte（討論）＋ stehen（状態）。"],
+    "de": ["Debatte + stehen (Zustand)."]
+  },
+  "example": {
+    "ja": ["増税が議論の俎上にある。"],
+    "de": ["Eine Steuererhöhung steht zur Debatte."]
+  },
+  "task": {
+    "ja": ["「制度改革が議論されている」を独語で。"],
+    "de": ["Bilde einen Satz mit „zur Debatte stehen“."]
+  }
+},
+{
+  "id": "eine_option_darstellen",
+  "sid": "2026-00117",
+  "word": "eine Option darstellen",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "argument"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["eine Option darstellen"]
+  },
+  "meaning": {
+    "ja": ["選択肢となる"],
+    "de": ["eine mögliche Lösung sein"]
+  },
+  "nuance": {
+    "ja": ["断定を避けつつ提案できる便利表現。"],
+    "de": ["Zurückhaltend, sachlich."]
+  },
+  "minimal": {
+    "ja": ["sein：直接 / darstellen：分析的"],
+    "de": ["sein direkt; darstellen analytisch"]
+  },
+  "example": {
+    "ja": ["移民は一つの解決策になり得る。"],
+    "de": ["Zuwanderung kann eine Option darstellen."]
+  },
+  "task": {
+    "ja": ["「妥協案も選択肢だ」を独語で。"],
+    "de": ["Formuliere einen Satz mit „Option darstellen“."]
+  }
+},
+{
+  "id": "nicht_ausgeschlossen_werden",
+  "sid": "2026-00118",
+  "word": "nicht ausgeschlossen werden",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "formal"],
+  "grammar": {
+    "pos": "verb",
+    "patterns": ["nicht ausgeschlossen werden"]
+  },
+  "meaning": {
+    "ja": ["排除できない"],
+    "de": ["als Möglichkeit bestehen bleiben"]
+  },
+  "nuance": {
+    "ja": ["慎重・専門家的な言い回し。断定回避に最適。"],
+    "de": ["Sehr typisch für Prognosen."]
+  },
+  "example": {
+    "ja": ["景気後退の可能性は排除できない。"],
+    "de": ["Eine Rezession kann nicht ausgeschlossen werden."]
+  },
+  "task": {
+    "ja": ["「リスクは排除できない」を独語で。"],
+    "de": ["Formuliere einen Satz mit „nicht ausgeschlossen werden“."]
+  }
+},
+{
+  "id": "binnenmarkt",
+  "sid": "2026-00119",
+  "word": "Binnenmarkt",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "economy", "eu"],
+  "grammar": { "pos": "noun", "article": "der" },
+
+  "meaning": {
+    "ja": ["国内市場（特に国家・EU内部の統一市場）"],
+    "de": ["Binnenmarkt; innerer Markt eines Staates oder der EU"]
+  },
+
+  "minimal": {
+    "ja": ["Außenhandel：対外貿易 / Binnenmarkt：国内取引の市場"],
+    "de": ["Außenhandel vs. Binnenmarkt"]
+  },
+
+  "etymology": {
+    "ja": ["binnen（内側の）＋ Markt（市場）。"],
+    "de": ["binnen („innen“) + Markt."]
+  },
+
+  "example": {
+    "ja": ["EUは巨大な域内市場を形成している。"],
+    "de": ["Die EU verfügt über einen großen Binnenmarkt."]
+  }
+},
+{
+  "id": "aktienmarkt",
+  "sid": "2026-00120",
+  "word": "Aktienmarkt",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "economy", "finance"],
+  "grammar": { "pos": "noun", "article": "der" },
+
+  "meaning": {
+    "ja": ["株式市場"],
+    "de": ["Markt für den Handel mit Aktien"]
+  },
+
+  "minimal": {
+    "ja": ["Kapitalmarkt：資本市場全体 / Aktienmarkt：株式に特化"],
+    "de": ["Kapitalmarkt vs. Aktienmarkt"]
+  },
+
+  "etymology": {
+    "ja": ["Aktie（株）＋ Markt（市場）。"],
+    "de": ["Aktie + Markt."]
+  },
+
+  "example": {
+    "ja": ["株式市場は不安定な動きを見せている。"],
+    "de": ["Der Aktienmarkt zeigt starke Schwankungen."]
+  }
+},
+{
+  "id": "flaute",
+  "sid": "2026-00121",
+  "word": "Flaute",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["exam", "economy"],
+  "grammar": { "pos": "noun", "article": "die" },
+
+  "meaning": {
+    "ja": ["不況、停滞（短期的）"],
+    "de": ["wirtschaftliche Abschwächung; Nachfrageschwäche"]
+  },
+
+  "minimal": {
+    "ja": ["Rezession：景気後退（体系的） / Flaute：停滞・低迷"],
+    "de": ["Rezession vs. Flaute"]
+  },
+
+  "etymology": {
+    "ja": ["元は航海用語で「無風状態」。そこから経済の停滞へ比喩拡張。"],
+    "de": ["Ursprünglich Seefahrt („Windstille“), später übertragen auf Wirtschaft."]
+  },
+
+  "example": {
+    "ja": ["建設業界は深刻な停滞に直面している。"],
+    "de": ["Die Baubranche steckt in einer Flaute."]
+  }
+},
+{
+  "id": "stagflation",
+  "sid": "2026-00122",
+  "word": "Stagflation",
+  "level": "C1",
+  "freq": "sometimes",
+  "tags": ["exam", "economy", "macro"],
+  "grammar": { "pos": "noun", "article": "die" },
+
+  "meaning": {
+    "ja": ["景気停滞とインフレが同時に起こる状態"],
+    "de": ["gleichzeitiges Auftreten von Stagnation und Inflation"]
+  },
+
+  "minimal": {
+    "ja": ["Inflation：物価上昇 / Stagflation：停滞＋物価上昇"],
+    "de": ["Inflation vs. Stagflation"]
+  },
+
+  "etymology": {
+    "ja": ["stagnation＋inflation の合成語（英語由来）。"],
+    "de": ["Kofferwort aus „Stagnation“ und „Inflation“."]
+  },
+
+  "example": {
+    "ja": ["1970年代にスタグフレーションが問題となった。"],
+    "de": ["In den 1970er-Jahren wurde die Stagflation zum Problem."]
+  }
+},
+{
+  "id": "staatliche_anleihe",
+  "sid": "2026-00123",
+  "word": "staatliche Anleihe",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "economy", "finance"],
+  "grammar": { "pos": "noun", "article": "die" },
+
+  "meaning": {
+    "ja": ["国債"],
+    "de": ["vom Staat ausgegebene Anleihe"]
+  },
+
+  "minimal": {
+    "ja": ["Unternehmensanleihe：社債 / staatliche Anleihe：国債"],
+    "de": ["Unternehmensanleihe vs. staatliche Anleihe"]
+  },
+
+  "etymology": {
+    "ja": ["anlehnen（借りる）に由来。資金を『借りる』仕組み。"],
+    "de": ["von „anlehnen“ im Sinne von „sich Geld leihen“."]
+  },
+
+  "example": {
+    "ja": ["国債は比較的安全な投資とされる。"],
+    "de": ["Staatliche Anleihen gelten als relativ sichere Anlage."]
+  }
+},
+{
+  "id": "druckmittel",
+  "sid": "2026-00124",
+  "word": "Druckmittel",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "politics"],
+  "grammar": { "pos": "noun", "article": "das" },
+
+  "meaning": {
+    "ja": ["圧力手段"],
+    "de": ["Mittel zur politischen oder wirtschaftlichen Einflussnahme"]
+  },
+
+  "minimal": {
+    "ja": ["Mittel：手段（中立） / Druckmittel：圧力を伴う手段"],
+    "de": ["Mittel vs. Druckmittel"]
+  },
+
+  "etymology": {
+    "ja": ["Druck（圧力）＋ Mittel（手段）。"],
+    "de": ["Druck + Mittel."]
+  },
+
+  "example": {
+    "ja": ["制裁は有効な圧力手段となり得る。"],
+    "de": ["Sanktionen können ein wirksames Druckmittel sein."]
+  }
+},
+{
+  "id": "seltene_erde",
+  "sid": "2026-00125",
+  "word": "seltene Erde",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["exam", "economy", "resources", "geopolitics"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "plural": "seltene Erden"
+  },
+
+  "meaning": {
+    "ja": [
+      "レアアース（希土類元素；ハイテク産業に不可欠な金属資源群）"
+    ],
+    "de": [
+      "Sammelbezeichnung für eine Gruppe seltener Metalle (seltene Erden), die für Hightech-Produkte wichtig sind"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "元素名というより『資源カテゴリー』として使われる。",
+      "地政学・産業政策・供給依存の文脈で頻出。"
+    ],
+    "de": [
+      "Wird meist als Rohstoffkategorie verstanden, nicht als einzelnes Element.",
+      "Häufig in geoökonomischen und industriepolitischen Zusammenhängen."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "Rohstoff：資源一般 / seltene Erde：戦略的重要性の高い希少金属群"
+    ],
+    "de": [
+      "Rohstoff allgemein vs. seltene Erden als strategische Metalle"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "19世紀の化学用語に由来。当時『希少で分離が困難』だった酸化物（Erden）から命名。"
+    ],
+    "de": [
+      "Historischer chemischer Begriff aus dem 19. Jh.; „Erden“ bezog sich auf schwer trennbare Oxide."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "レアアースの供給は国際政治の重要な争点となっている。"
+    ],
+    "de": [
+      "Die Versorgung mit seltenen Erden ist zu einem geopolitischen Streitpunkt geworden."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「レアアースへの依存を減らす必要がある」を1文で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Abhängigkeit von seltenen Erden“."
+    ]
+  }
 }
 ]
