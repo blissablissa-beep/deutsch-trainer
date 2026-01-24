@@ -5346,5 +5346,375 @@
       "Formuliere einen Satz mit „unter Druck einlenken“."
     ]
   }
+},
+{
+  "id": "zugestaendnisse_machen",
+  "sid": "2026-00129",
+  "word": "Zugeständnisse machen",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "pattern": "Zugeständnisse machen an + Akk / gegenüber + Dat"
+  },
+
+  "meaning": {
+    "ja": [
+      "譲歩する、譲歩を行う",
+      "相手の要求を部分的に受け入れる"
+    ],
+    "de": [
+      "Zugeständnisse machen; Kompromisse eingehen",
+      "Forderungen teilweise akzeptieren"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "交渉・外交・労使関係で非常に頻出。",
+      "『戦略的に譲る』ニュアンス。"
+    ],
+    "de": [
+      "Typisch in Politik, Diplomatie und Tarifverhandlungen.",
+      "Impliziert bewusste, kalkulierte Nachgiebigkeit."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "nachgeben：個人的・感情的に折れる",
+      "Zugeständnisse machen：交渉上の正式な譲歩"
+    ],
+    "de": [
+      "nachgeben persönlich",
+      "Zugeständnisse machen institutionell"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "zugeben（認める、与える）に由来。",
+      "『相手に与える』という語感。"
+    ],
+    "de": [
+      "Von „zugeben“ (etwas einräumen)."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "政府は一部譲歩した。"
+    ],
+    "de": [
+      "Die Regierung machte Zugeständnisse."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「労働組合に譲歩した」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Zugeständnisse machen an …“."
+    ]
+  }
+},
+{
+  "id": "sich_verhaerten",
+  "sid": "2026-00130",
+  "word": "sich ver·här·ten",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "verhärtete sich",
+    "perfekt": "hat sich verhärtet"
+  },
+
+  "meaning": {
+    "ja": [
+      "（対立・立場が）硬直化する",
+      "譲歩の余地がなくなる"
+    ],
+    "de": [
+      "sich verhärten; starr werden",
+      "keine Kompromisse mehr zulassen"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "感情よりも『構造的な硬直』を表す。",
+      "紛争・外交・労使交渉で定番。"
+    ],
+    "de": [
+      "Betont strukturelle Verfestigung eines Konflikts.",
+      "Häufig in politischen Analysen."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "sich verschärfen：事態が悪化",
+      "sich verhärten：立場が固まる"
+    ],
+    "de": [
+      "verschärfen dynamisch",
+      "verhärten statisch"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "hart（硬い）から派生。",
+      "比喩的に『態度が硬くなる』。"
+    ],
+    "de": [
+      "Von „hart“ → „hart werden“."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "交渉は行き詰まった。"
+    ],
+    "de": [
+      "Die Fronten haben sich verhärtet."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「立場が硬直している」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Die Fronten verhärten sich.“"
+    ]
+  }
+},
+{
+  "id": "eskalieren",
+  "sid": "2026-00131",
+  "word": "es·ka·lie·ren",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "eskalierte",
+    "perfekt": "hat eskaliert"
+  },
+
+  "meaning": {
+    "ja": [
+      "（対立・紛争が）激化する",
+      "事態が制御不能な方向に進む"
+    ],
+    "de": [
+      "eskalieren; sich zuspitzen",
+      "außer Kontrolle geraten"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "急激な悪化・暴力化を含意しやすい。",
+      "軍事・外交・社会問題で頻出。"
+    ],
+    "de": [
+      "Impliziert Dynamik und Kontrollverlust.",
+      "Sehr häufig in Sicherheits- und Krisendiskursen."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "sich verschärfen：悪化する（一般）",
+      "eskalieren：段階的に激化する"
+    ],
+    "de": [
+      "verschärfen allgemein",
+      "eskalieren stufenweise"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "ラテン語 scala（階段）に由来。",
+      "『一段ずつ上がる』→段階的激化。"
+    ],
+    "de": [
+      "Von lat. „scala“ (Stufe)."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "紛争は急速に激化した。"
+    ],
+    "de": [
+      "Der Konflikt eskalierte rasch."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「事態が制御不能になった」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Die Lage ist eskaliert.“"
+    ]
+  }
+},
+{
+  "id": "vernachlaessigen",
+  "sid": "2026-00132",
+  "word": "ver·nach·läs·si·gen",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "vernachlässigte",
+    "perfekt": "hat vernachlässigt"
+  },
+
+  "meaning": {
+    "ja": [
+      "なおざりにする、軽視する",
+      "（義務・キャリアなどを）犠牲にする"
+    ],
+    "de": [
+      "vernachlässigen; nicht ausreichend beachten",
+      "Pflichten oder Interessen zugunsten von etwas anderem zurückstellen"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "結果として不利益が生じることを含意。",
+      "個人・制度・社会構造への批判文脈で頻出。"
+    ],
+    "de": [
+      "Impliziert negative Folgen.",
+      "Häufig kritisch in gesellschaftlichen Analysen."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "ignorieren：意図的に無視",
+      "vernachlässigen：優先度が下がり結果的に犠牲"
+    ],
+    "de": [
+      "ignorieren bewusst",
+      "vernachlässigen durch Priorisierung"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "nachlässig（不注意な）に由来。",
+      "『十分な注意を払わない』が語源的核心。"
+    ],
+    "de": [
+      "Von „nachlässig“ (unachtsam, sorglos)."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "多くの女性は家事と育児のためにキャリアを犠牲にしてきた。"
+    ],
+    "de": [
+      "Viele Frauen haben ihre Karriere zugunsten von Haushalt und Kindererziehung vernachlässigt."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「仕事より家庭を優先したため、昇進を逃した」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „zugunsten von … vernachlässigen“."
+    ]
+  }
+},
+{
+  "id": "hintanstellen",
+  "sid": "2026-00133",
+  "word": "hin·tan·stel·len",
+  "level": "C1",
+  "freq": "sometimes",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "stellte hintan",
+    "perfekt": "hat hintangestellt",
+    "pattern": "etw. hintanstellen zugunsten von + Dat"
+  },
+
+  "meaning": {
+    "ja": [
+      "後回しにする、二の次にする",
+      "意識的に優先順位を下げる"
+    ],
+    "de": [
+      "hintanstellen; bewusst zurückstellen",
+      "etwas als weniger wichtig behandeln"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "意図的・戦略的な優先順位変更。",
+      "vernachlässigen より中立・理性的。"
+    ],
+    "de": [
+      "Bewusste Priorisierung, weniger wertend.",
+      "Oft sachlich-analytisch."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "vernachlässigen：結果として放置",
+      "hintanstellen：意図的に後回し"
+    ],
+    "de": [
+      "vernachlässigen passiv",
+      "hintanstellen aktiv"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "hinten（後ろ）＋ anstellen（置く）。",
+      "直訳的に『後ろに置く』。"
+    ],
+    "de": [
+      "hinten + anstellen → etwas nach hinten stellen."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "多くの女性は家庭のためにキャリアを後回しにしてきた。"
+    ],
+    "de": [
+      "Viele Frauen haben ihre Karriere zugunsten der Familie hintangestellt."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「私生活を優先して仕事を後回しにした」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „hintanstellen zugunsten von …“."
+    ]
+  }
 }
 ]
