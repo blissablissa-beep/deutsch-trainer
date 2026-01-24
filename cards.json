@@ -5947,7 +5947,7 @@
   "freq": "often",
   "tags": ["phrase", "exam", "oral"],
   "grammar": {
-    "verb",
+    "pos": "verb",
     "pattern": "überzeugt sein + von + Dat"
   },
 
@@ -6018,7 +6018,7 @@
   "freq": "often",
   "tags": ["phrase", "exam", "oral"],
   "grammar": {
-    "verb",
+    "pos": "verb",
     "pattern": "davon ausgehen, dass + Nebensatz"
   },
 
@@ -6089,7 +6089,7 @@
   "freq": "often",
   "tags": ["phrase", "exam", "oral"],
   "grammar": {
-    "verb",
+    "pos": "verb",
     "pattern": "es handelt sich um + Akk"
   },
 
