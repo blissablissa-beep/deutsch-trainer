@@ -5716,5 +5716,227 @@
       "Formuliere einen Satz mit „hintanstellen zugunsten von …“."
     ]
   }
+},
+{
+  "id": "foerdern",
+  "sid": "2026-00134",
+  "word": "för·dern",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "förderte",
+    "perfekt": "hat gefördert"
+  },
+
+  "meaning": {
+    "ja": [
+      "促進する、推進する",
+      "（制度・政策として）支援する"
+    ],
+    "de": [
+      "fördern; aktiv unterstützen",
+      "Entwicklung oder Teilhabe ermöglichen"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "国家・制度・組織が主語になることが多い。",
+      "金銭的・制度的支援の両方を含む。"
+    ],
+    "de": [
+      "Häufig institutionelles Subjekt.",
+      "Kann finanziell oder strukturell sein."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "unterstützen：個別支援",
+      "fördern：制度的・継続的支援"
+    ],
+    "de": [
+      "unterstützen punktuell",
+      "fördern strukturell"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "古語 fördern（前に進める）に由来。",
+      "語源的に『前へ押し出す』。"
+    ],
+    "de": [
+      "Aus ahd. „furdern“ = voranbringen."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "政府は女性の就業を支援している。"
+    ],
+    "de": [
+      "Der Staat fördert die Erwerbstätigkeit von Frauen."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「両立支援策を促進する」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Maßnahmen zur Förderung von …“."
+    ]
+  }
+},
+{
+  "id": "erleichtern",
+  "sid": "2026-00135",
+  "word": "er·leich·tern",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "erleichterte",
+    "perfekt": "hat erleichtert"
+  },
+
+  "meaning": {
+    "ja": [
+      "容易にする、簡単にする",
+      "負担を軽減する"
+    ],
+    "de": [
+      "erleichtern; weniger belastend machen",
+      "Zugang oder Umsetzung vereinfachen"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "既存の困難を前提とする。",
+      "制度改善・改革文脈で頻出。"
+    ],
+    "de": [
+      "Setzt bestehende Hürden voraus.",
+      "Oft in Reform- und Verwaltungssprache."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "ermöglichen：可能にする（ゼロ→1）",
+      "erleichtern：すでに可能だが楽にする"
+    ],
+    "de": [
+      "ermöglichen schafft Möglichkeit",
+      "erleichtern senkt Hürden"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "leicht（軽い）から派生。",
+      "『重さを減らす』が核心。"
+    ],
+    "de": [
+      "Von „leicht“ → weniger schwer machen."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "保育サービスは仕事と家庭の両立を容易にする。"
+    ],
+    "de": [
+      "Kinderbetreuung erleichtert die Vereinbarkeit von Beruf und Familie."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「申請手続きを簡素化する」を erleichtern で。"
+    ],
+    "de": [
+      "Formuliere: „Das Verfahren wird erleichtert.“"
+    ]
+  }
+},
+{
+  "id": "behindern",
+  "sid": "2026-00136",
+  "word": "be·hin·dern",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "oral"],
+  "grammar": {
+    "pos": "verb",
+    "praeteritum": "behinderte",
+    "perfekt": "hat behindert"
+  },
+
+  "meaning": {
+    "ja": [
+      "妨げる、阻害する",
+      "（構造的に）発展を阻む"
+    ],
+    "de": [
+      "behindern; hemmen",
+      "Fortschritt oder Teilhabe einschränken"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "意図的でない制度的障害にも使える。",
+      "批判・分析文脈で重要。"
+    ],
+    "de": [
+      "Nicht zwingend absichtlich.",
+      "Häufig strukturelle Kritik."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "verhindern：完全に阻止",
+      "behindern：部分的に妨害"
+    ],
+    "de": [
+      "verhindern absolut",
+      "behindern graduell"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "hinten（後ろ）に関連。",
+      "進行を後ろから妨げる語感。"
+    ],
+    "de": [
+      "Verwandt mit „hinten“ – etwas zurückhalten."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "不十分な制度は女性のキャリア形成を妨げている。"
+    ],
+    "de": [
+      "Unzureichende Strukturen behindern die Karriereentwicklung von Frauen."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「成長を阻害する要因」を1文で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „… wird durch … behindert“."
+    ]
+  }
 }
 ]
