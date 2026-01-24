@@ -6151,5 +6151,79 @@
       "Formuliere einen Erklärungssatz mit „Es handelt sich um …“."
     ]
   }
+},
+{
+  "id": "klimaneutralitaet",
+  "sid": "2026-00140",
+  "word": "Klimaneutralität",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["abs", "exam", "env", "policy"],
+  "grammar": {
+    "pos": "noun",
+    "article": "die",
+    "gender": "f",
+    "plural": ""
+  },
+
+  "meaning": {
+    "ja": [
+      "気候中立（温室効果ガスの排出量を実質ゼロにする状態）"
+    ],
+    "de": [
+      "Zustand, in dem netto keine Treibhausgase mehr ausgestoßen werden"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "排出ゼロではなく『排出 − 吸収 = 実質ゼロ』が核心。",
+      "政策目標・期限（z. B. bis 2050）とセットで使われることが多い。"
+    ],
+    "de": [
+      "Nicht emissionsfrei, sondern Netto-Null.",
+      "Typisch in politischen Zielsetzungen (z. B. 2045/2050)."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "Klimaschutz：気候保護（広い概念）",
+      "Klimaneutralität：達成目標としての状態"
+    ],
+    "de": [
+      "Klimaschutz allgemein",
+      "Klimaneutralität konkretes Ziel"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "Klima（気候）＋ neutral（中立の）＋ -ität（抽象名詞）。",
+      "『気候への影響が中立』という比喩的表現。"
+    ],
+    "de": [
+      "Klima + neutral + -ität.",
+      "Neutral im Sinne von ausgeglichen (Emissionen vs. Kompensation)."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "多くの国が2050年までの気候中立を目標にしている。"
+    ],
+    "de": [
+      "Viele Länder streben Klimaneutralität bis 2050 an."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "「気候中立の達成には大きな投資が必要だ」を独語で。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Klimaneutralität erreichen“."
+    ]
+  }
 }
 ]
