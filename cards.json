@@ -5938,5 +5938,218 @@
       "Formuliere einen Satz mit „… wird durch … behindert“."
     ]
   }
+},
+{
+  "id": "ueberzeugt_sein",
+  "sid": "2026-00137",
+  "word": "überzeugt sein (von …)",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["phrase", "exam", "oral"],
+  "grammar": {
+    "pos": "phrase",
+    "pattern": "überzeugt sein + von + Dat"
+  },
+
+  "meaning": {
+    "ja": [
+      "（〜について）確信している、強く信じている"
+    ],
+    "de": [
+      "von etwas überzeugt sein; fest davon ausgehen"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "主観的だが根拠を伴う『確信』。",
+      "意見表明・評価の導入に最適。"
+    ],
+    "de": [
+      "Subjektive Überzeugung, meist begründet.",
+      "Sehr häufig in Meinungsäußerungen."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "glauben：思う（弱い）",
+      "überzeugt sein：確信している（強い）"
+    ],
+    "de": [
+      "glauben schwach",
+      "überzeugt sein stark"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "überzeugen＝『説得して越えさせる』。",
+      "ziehen（引く）系の語感。"
+    ],
+    "de": [
+      "überzeugen < ziehen; jemanden auf die eigene Seite ziehen."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "私はこの改革が必要だと確信している。"
+    ],
+    "de": [
+      "Ich bin davon überzeugt, dass diese Reform notwendig ist."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "社会問題について überzeugt sein を使って1文。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Ich bin davon überzeugt, dass …“."
+    ]
+  }
+},
+{
+  "id": "davon_ausgehen",
+  "sid": "2026-00138",
+  "word": "davon ausgehen (dass …)",
+  "level": "C1",
+  "freq": "often",
+  "tags": ["phrase", "exam", "oral"],
+  "grammar": {
+    "pos": "phrase",
+    "pattern": "davon ausgehen, dass + Nebensatz"
+  },
+
+  "meaning": {
+    "ja": [
+      "〜だと想定する、前提とする"
+    ],
+    "de": [
+      "annehmen; von etwas als Grundlage ausgehen"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "事実断定ではなく『合理的前提』。",
+      "分析・論理展開で非常に重要。"
+    ],
+    "de": [
+      "Sachlich, analytisch.",
+      "Nicht emotional, sondern argumentativ."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "annehmen：仮定する（やや弱い）",
+      "davon ausgehen：前提として扱う"
+    ],
+    "de": [
+      "annehmen neutral",
+      "davon ausgehen stärker strukturiert"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "ausgehen（出発する）→ そこから思考を始める。",
+      "『前提点』の比喩。"
+    ],
+    "de": [
+      "ausgehen = Ausgangspunkt nehmen."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "私たちは人口が減少すると想定している。"
+    ],
+    "de": [
+      "Wir gehen davon aus, dass die Bevölkerung schrumpfen wird."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "経済・社会に関する前提を davon ausgehen で表現。"
+    ],
+    "de": [
+      "Formuliere einen Satz mit „Wir gehen davon aus, dass …“."
+    ]
+  }
+},
+{
+  "id": "es_handelt_sich_um",
+  "sid": "2026-00139",
+  "word": "es handelt sich um …",
+  "level": "B2",
+  "freq": "often",
+  "tags": ["phrase", "exam", "oral"],
+  "grammar": {
+    "pos": "phrase",
+    "pattern": "es handelt sich um + Akk"
+  },
+
+  "meaning": {
+    "ja": [
+      "〜である、〜の問題である"
+    ],
+    "de": [
+      "es ist / es geht um"
+    ]
+  },
+
+  "nuance": {
+    "ja": [
+      "定義・整理・論点提示に使う。",
+      "非常に客観的・説明的。"
+    ],
+    "de": [
+      "Neutral, erklärend.",
+      "Typisch in Vorträgen, Texten, Prüfungen."
+    ]
+  },
+
+  "minimal": {
+    "ja": [
+      "sein：単純な断定",
+      "es handelt sich um：説明・分類"
+    ],
+    "de": [
+      "sein direkt",
+      "es handelt sich um erklärend"
+    ]
+  },
+
+  "etymology": {
+    "ja": [
+      "handeln（扱う）から派生。",
+      "『扱っている内容は〜だ』の構文。"
+    ],
+    "de": [
+      "handeln = sich um etwas drehen."
+    ]
+  },
+
+  "example": {
+    "ja": [
+      "これは経済だけでなく社会の問題だ。"
+    ],
+    "de": [
+      "Es handelt sich nicht nur um ein wirtschaftliches, sondern auch um ein gesellschaftliches Problem."
+    ]
+  },
+
+  "task": {
+    "ja": [
+      "時事問題を es handelt sich um で説明する。"
+    ],
+    "de": [
+      "Formuliere einen Erklärungssatz mit „Es handelt sich um …“."
+    ]
+  }
 }
 ]
