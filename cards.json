@@ -6303,5 +6303,44 @@
     "ja": "「彼女は彼の意図を見抜いていた」をドイツ語で言う",
     "de": "Formuliere einen Satz mit „jemanden durchschauen“."
   }
+},
+{
+  "id": "endeffekt",
+  "sid": "2026-00143",
+  "word": "Endeffekt",
+  "tags": ["abs", "argument", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": { "pos": "noun", "gender": "m" },
+
+  "meaning": {
+    "ja": "最終的な結果、結局のところの帰結",
+    "de": "das endgültige Ergebnis oder die letztliche Wirkung"
+  },
+
+  "nuance": {
+    "ja": "議論や過程を経たうえでの『最終的な帰結』を表す。口語では „im Endeffekt“ が非常によく使われる。",
+    "de": "Wird oft verwendet, um das endgültige Resultat einer Entwicklung zusammenzufassen."
+  },
+
+  "minimal": {
+    "ja": "最後に残る結果",
+    "de": "das endgültige Resultat"
+  },
+
+  "etymology": {
+    "ja": "End-（終わり）+ Effekt（効果・結果）。",
+    "de": "Aus End- + Effekt."
+  },
+
+  "example": {
+    "ja": "結局のところ、誰も得をしなかった。",
+    "de": "Im Endeffekt hat niemand davon profitiert."
+  },
+
+  "task": {
+    "ja": "「結局のところ、それは失敗だった」をドイツ語で言う",
+    "de": "Formuliere einen Satz mit „im Endeffekt“."
+  }
 }
 ]
