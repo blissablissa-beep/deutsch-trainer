@@ -6264,5 +6264,44 @@
     "ja": "「経済的相互依存」をドイツ語で表現する",
     "de": "Formuliere einen Satz mit „wirtschaftliche Verflechtung“."
   }
+},
+{
+  "id": "durchschauen",
+  "sid": "2026-00142",
+  "word": "durchschauen",
+  "tags": ["abs", "psych", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": { "pos": "verb" },
+
+  "meaning": {
+    "ja": "見抜く、看破する；全体を見通す",
+    "de": "etwas oder jemanden vollständig erkennen; die wahren Absichten verstehen"
+  },
+
+  "nuance": {
+    "ja": "単なる『見る』ではなく、『裏側まで理解する・欺瞞を見抜く』ニュアンスが強い。",
+    "de": "Betont das Erkennen verborgener Zusammenhänge oder Absichten."
+  },
+
+  "minimal": {
+    "ja": "表面の奥まで理解する",
+    "de": "hinter die Oberfläche sehen"
+  },
+
+  "etymology": {
+    "ja": "durch-（貫いて）+ schauen（見る）。『向こう側まで見通す』が原義。",
+    "de": "durch- + schauen = „hindurchsehen“."
+  },
+
+  "example": {
+    "ja": "彼はその嘘をすぐ見抜いた。",
+    "de": "Er hat die Lüge sofort durchschaut."
+  },
+
+  "task": {
+    "ja": "「彼女は彼の意図を見抜いていた」をドイツ語で言う",
+    "de": "Formuliere einen Satz mit „jemanden durchschauen“."
+  }
 }
 ]
