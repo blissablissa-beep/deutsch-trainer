@@ -6225,5 +6225,44 @@
       "Formuliere einen Satz mit „Klimaneutralität erreichen“."
     ]
   }
+},
+{
+  "id": "verflechtung",
+  "sid": "2026-00141",
+  "word": "Verflechtung",
+  "tags": ["abs", "politik", "wirtschaft", "exam"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": { "pos": "noun", "gender": "f" },
+
+  "meaning": {
+    "ja": "相互連関、複雑な結び付き、相互依存",
+    "de": "enge gegenseitige Verbindung oder Abhängigkeit"
+  },
+
+  "nuance": {
+    "ja": "政治・経済・国際関係などが複雑に絡み合っていることを表す硬めの語。",
+    "de": "Wird häufig in Politik, Wirtschaft und Soziologie verwendet."
+  },
+
+  "minimal": {
+    "ja": "複雑に結びついた状態",
+    "de": "gegenseitige komplexe Verbindung"
+  },
+
+  "etymology": {
+    "ja": "flechten（編む）→『互いに編み込まれた状態』。",
+    "de": "Von flechten („ineinander flechten“)."
+  },
+
+  "example": {
+    "ja": "現代経済は世界規模の相互依存の上に成り立っている。",
+    "de": "Die moderne Wirtschaft basiert auf globaler Verflechtung."
+  },
+
+  "task": {
+    "ja": "「経済的相互依存」をドイツ語で表現する",
+    "de": "Formuliere einen Satz mit „wirtschaftliche Verflechtung“."
+  }
 }
 ]
