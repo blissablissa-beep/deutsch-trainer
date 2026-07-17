@@ -6426,5 +6426,46 @@
     "ja": "「この政策には詳細な費用便益分析が必要だ。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Kosten-Nutzen-Analyse“."
   }
+},
+{
+  "id": "geringfuegig",
+  "sid": "2026-00146",
+  "word": "geringfügig",
+  "tags": ["adj", "general", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adjective"
+  },
+
+  "meaning": {
+    "ja": "わずかな、軽微な、取るに足りない",
+    "de": "nur sehr klein oder unbedeutend; von geringem Ausmaß"
+  },
+
+  "nuance": {
+    "ja": "数量・程度・影響・損害などが非常に小さいことを表す。法律、経済、ニュースなど幅広い分野で頻出。『gering（少ない）』よりもややフォーマルな響きがある。",
+    "de": "Wird häufig in formellen Texten verwendet, um auszudrücken, dass etwas nur in sehr geringem Umfang vorhanden oder von geringer Bedeutung ist."
+  },
+
+  "minimal": {
+    "ja": "ごくわずかな",
+    "de": "sehr klein"
+  },
+
+  "etymology": {
+    "ja": "gering（少ない、小さい）+ fügig（結び付いた語形成要素）。現在では一語として「軽微な」の意味で用いられる。",
+    "de": "Gebildet aus gering und dem historischen Bestandteil -fügig."
+  },
+
+  "example": {
+    "ja": "損害はごく軽微だった。",
+    "de": "Der Schaden war nur geringfügig."
+  },
+
+  "task": {
+    "ja": "「価格はわずかに上昇した。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „geringfügig“."
+  }
 }
 ]
