@@ -450,7 +450,7 @@ function highlightIfNeeded(text) {
   async function loadCards() {
     try {
       // ここを更新するだけで cards.json の更新が反映されやすい
-      const CARDS_VERSION = "2026-05-16";
+      const CARDS_VERSION = "2026-07-17";
 
       const res = await fetch(`./cards.json?v=${encodeURIComponent(CARDS_VERSION)}`, {
         cache: "no-store"
@@ -638,7 +638,7 @@ function filterCardsByQuery(cards) {
   }
 // ===== SRS Reset (one-time) =====
 // cards.json のID体系を変更したら、この値を変える
-const SRS_SCHEMA_VERSION = "20260516";
+const SRS_SCHEMA_VERSION = "20260717";
 
 (function resetSrsIfNeeded() {
   const k = "dt_srs_schema";
