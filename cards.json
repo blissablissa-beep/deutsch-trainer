@@ -6590,5 +6590,46 @@
     "ja": "「その理論の根底には新しい仮説がある。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „zugrunde liegen“."
   }
+},
+{
+  "id": "lobenswert",
+  "sid": "2026-00150",
+  "word": "lobenswert",
+  "tags": ["adj", "evaluation", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "称賛に値する、立派な",
+    "de": "des Lobes würdig; anerkennenswert"
+  },
+
+  "nuance": {
+    "ja": "人の行為や努力、態度などについて『褒めるに値する』ことを表す。ややフォーマルな語で、新聞・評論・演説などでよく用いられる。",
+    "de": "Wird vor allem in formellen Kontexten verwendet, um auszudrücken, dass eine Handlung oder Leistung Anerkennung verdient."
+  },
+
+  "minimal": {
+    "ja": "称賛に値する",
+    "de": "des Lobes würdig"
+  },
+
+  "etymology": {
+    "ja": "Lob（称賛）+ -enswert（～する価値がある）。",
+    "de": "Gebildet aus Lob und dem Suffix -enswert („würdig, es wert zu sein“)."
+  },
+
+  "example": {
+    "ja": "彼女の献身的な活動は称賛に値する。",
+    "de": "Ihr engagierter Einsatz ist lobenswert."
+  },
+
+  "task": {
+    "ja": "「その取り組みは称賛に値する。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „lobenswert“."
+  }
 }
 ]
