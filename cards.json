@@ -6508,5 +6508,46 @@
     "ja": "「その国は食料を自給自足している。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „autark“."
   }
+},
+{
+  "id": "auf_den_grund_gehen",
+  "sid": "2026-00148",
+  "word": "auf den Grund gehen",
+  "tags": ["idiom", "investigation", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（原因・真相などを）徹底的に調べる、究明する",
+    "de": "die Ursache oder den wahren Hintergrund einer Sache gründlich untersuchen"
+  },
+
+  "nuance": {
+    "ja": "単に『調べる』ではなく、問題や事件、原因などを深く掘り下げて真相を突き止めようとすることを表す。報道や学術、警察・司法の文脈で非常によく使われる。",
+    "de": "Die Wendung bedeutet, einer Sache sorgfältig nachzugehen, um ihre Ursachen oder Hintergründe vollständig zu klären."
+  },
+
+  "minimal": {
+    "ja": "原因を究明する",
+    "de": "eine Ursache gründlich untersuchen"
+  },
+
+  "etymology": {
+    "ja": "Grund は『地面・底』のほか『原因・根本』の意味もある。「物事の底まで行く」ことから『真相を究明する』の意味になった。",
+    "de": "Grund bedeutet sowohl „Boden“ als auch „Ursache“. Die Redewendung drückt aus, bis zum Kern einer Sache vorzudringen."
+  },
+
+  "example": {
+    "ja": "警察は事故の原因を究明している。",
+    "de": "Die Polizei geht der Ursache des Unfalls auf den Grund."
+  },
+
+  "task": {
+    "ja": "「私たちはこの問題の原因を究明しなければならない。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „einer Sache auf den Grund gehen“."
+  }
 }
 ]
