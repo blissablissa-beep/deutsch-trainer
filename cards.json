@@ -6467,5 +6467,46 @@
     "ja": "「価格はわずかに上昇した。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „geringfügig“."
   }
+},
+{
+  "id": "autark",
+  "sid": "2026-00147",
+  "word": "autark",
+  "tags": ["politics", "economy", "energy", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "自給自足の、自立した、外部に依存しない",
+    "de": "wirtschaftlich oder organisatorisch unabhängig; sich selbst versorgend"
+  },
+
+  "nuance": {
+    "ja": "国家・地域・家庭・企業などが外部からの供給や支援に頼らず、自ら必要なものを賄えることを表す。近年はエネルギー政策や食料安全保障の文脈で特によく使われる。",
+    "de": "Wird häufig im Zusammenhang mit Energie, Landwirtschaft, Wirtschaft und Versorgungssicherheit verwendet."
+  },
+
+  "minimal": {
+    "ja": "自給自足の",
+    "de": "selbstversorgend; unabhängig"
+  },
+
+  "etymology": {
+    "ja": "ギリシャ語 autos（自己）+ arkein（十分である）に由来。",
+    "de": "Aus dem Griechischen: autos („selbst“) + arkein („genügen“)."
+  },
+
+  "example": {
+    "ja": "その村は電力を自給自足している。",
+    "de": "Das Dorf ist bei der Stromversorgung weitgehend autark."
+  },
+
+  "task": {
+    "ja": "「その国は食料を自給自足している。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „autark“."
+  }
 }
 ]
