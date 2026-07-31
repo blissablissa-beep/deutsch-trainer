@@ -6549,5 +6549,46 @@
     "ja": "「私たちはこの問題の原因を究明しなければならない。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „einer Sache auf den Grund gehen“."
   }
+},
+{
+  "id": "zugrunde_liegen",
+  "sid": "2026-00149",
+  "word": "zugrunde liegen",
+  "tags": ["idiom", "abstract", "exam"],
+  "level": "C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "～の根底にある、～の基礎となる、～の原因となる",
+    "de": "die Grundlage oder Ursache von etwas bilden; etwas zugrunde liegen"
+  },
+
+  "nuance": {
+    "ja": "ある現象・判断・理論・決定などの背景や基礎、原因となっていることを表す。新聞、学術、法律などフォーマルな文章で非常によく使われる。",
+    "de": "Die Wendung beschreibt die Grundlage, den Hintergrund oder die Ursache eines Sachverhalts und ist typisch für formelle Texte."
+  },
+
+  "minimal": {
+    "ja": "根底にある",
+    "de": "die Grundlage bilden"
+  },
+
+  "etymology": {
+    "ja": "zugrunde（根底に）+ liegen（横たわる）。文字どおり「根底に横たわっている」ことから「基礎となる」の意味になった。",
+    "de": "Aus zugrunde + liegen; wörtlich „am Grund liegen“."
+  },
+
+  "example": {
+    "ja": "この決定の根底には経済的な理由がある。",
+    "de": "Dieser Entscheidung liegen wirtschaftliche Gründe zugrunde."
+  },
+
+  "task": {
+    "ja": "「その理論の根底には新しい仮説がある。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „zugrunde liegen“."
+  }
 }
 ]
