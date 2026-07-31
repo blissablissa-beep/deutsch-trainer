@@ -6631,5 +6631,44 @@
     "ja": "「その取り組みは称賛に値する。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „lobenswert“."
   }
+},
+{
+  "id": "bemerkenswert",
+  "sid": "2026-00151",
+  "word": "bemerkenswert",
+  "tags": ["adj", "evaluation", "exam"],
+  "level": "B2-C1",
+  "freq": "very_often",
+  "grammar": { "pos": "adj" },
+
+  "meaning": {
+    "ja": "注目に値する、目立った、顕著な",
+    "de": "auffallend; so gut oder ungewöhnlich, dass es Beachtung verdient"
+  },
+
+  "nuance": {
+    "ja": "新聞や論説で非常によく見られる語。「注目すべき」「特筆すべき」という客観的評価を表す。",
+    "de": "Wird häufig verwendet, um auf etwas Besonderes oder Auffälliges hinzuweisen."
+  },
+
+  "minimal": {
+    "ja": "注目に値する",
+    "de": "beachtenswert"
+  },
+
+  "etymology": {
+    "ja": "bemerken（気づく）+ -enswert。",
+    "de": "Aus bemerken + -enswert."
+  },
+
+  "example": {
+    "ja": "その成果は注目に値する。",
+    "de": "Die Ergebnisse sind bemerkenswert."
+  },
+
+  "task": {
+    "ja": "「これは注目に値する進展だ。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „bemerkenswert“."
+  }
 }
 ]
