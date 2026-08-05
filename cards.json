@@ -6670,5 +6670,238 @@
     "ja": "「これは注目に値する進展だ。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „bemerkenswert“."
   }
+},
+{
+  "id": "bewundernswert",
+  "sid": "2026-00152",
+  "word": "bewundernswert",
+  "tags": ["adj", "evaluation", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": { "pos": "adj" },
+
+  "meaning": {
+    "ja": "賞賛に値する、感嘆すべき",
+    "de": "so gut, dass man Bewunderung empfindet"
+  },
+
+  "nuance": {
+    "ja": "lobenswertよりも強く、「感嘆・尊敬」を含む。",
+    "de": "Drückt stärkere Anerkennung als „lobenswert“ aus."
+  },
+
+  "minimal": {
+    "ja": "感嘆に値する",
+    "de": "Bewunderung verdienend"
+  },
+
+  "etymology": {
+    "ja": "bewundern（感嘆する）+ -enswert。",
+    "de": "Aus bewundern + -enswert."
+  },
+
+  "example": {
+    "ja": "彼女の忍耐力は賞賛に値する。",
+    "de": "Ihre Geduld ist bewundernswert."
+  },
+
+  "task": {
+    "ja": "「彼の努力は感嘆に値する。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „bewundernswert“."
+  }
+},
+{
+  "id": "lesenswert",
+  "sid": "2026-00153",
+  "word": "lesenswert",
+  "tags": ["adj", "media", "exam"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": { "pos": "adj" },
+
+  "meaning": {
+    "ja": "読む価値がある",
+    "de": "wert, gelesen zu werden"
+  },
+
+  "nuance": {
+    "ja": "本・記事・論文などに対して使われる。",
+    "de": "Bezieht sich vor allem auf Bücher, Artikel oder Texte."
+  },
+
+  "minimal": {
+    "ja": "読む価値がある",
+    "de": "wert zu lesen"
+  },
+
+  "etymology": {
+    "ja": "lesen + -enswert。",
+    "de": "Aus lesen + -enswert."
+  },
+
+  "example": {
+    "ja": "その記事は読む価値がある。",
+    "de": "Der Artikel ist lesenswert."
+  },
+
+  "task": {
+    "ja": "「この本は読む価値がある。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „lesenswert“."
+  }
+},
+{
+  "id": "sehenswert",
+  "sid": "2026-00154",
+  "word": "sehenswert",
+  "tags": ["adj", "travel", "media"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": { "pos": "adj" },
+
+  "meaning": {
+    "ja": "見る価値がある",
+    "de": "wert, angesehen zu werden"
+  },
+
+  "nuance": {
+    "ja": "映画・観光地・建築物などによく使われる。",
+    "de": "Typisch für Filme, Sehenswürdigkeiten oder Ausstellungen."
+  },
+
+  "minimal": {
+    "ja": "見る価値がある",
+    "de": "wert zu sehen"
+  },
+
+  "etymology": {
+    "ja": "sehen + -enswert。",
+    "de": "Aus sehen + -enswert."
+  },
+
+  "example": {
+    "ja": "ベルリンには見る価値のある博物館が多い。",
+    "de": "Berlin hat viele sehenswerte Museen."
+  },
+
+  "task": {
+    "ja": "「その映画は見る価値がある。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „sehenswert“."
+  }
+},
+{
+  "id": "hoerenswert",
+  "sid": "2026-00155",
+  "word": "hörenswert",
+  "tags": ["adj", "media"],
+  "level": "B2-C1",
+  "freq": "common",
+  "grammar": { "pos": "adj" },
+
+  "meaning": {
+    "ja": "聞く価値がある",
+    "de": "wert, gehört zu werden"
+  },
+
+  "nuance": {
+    "ja": "講演・音楽・ポッドキャストなどについて使われる。",
+    "de": "Bezieht sich auf Musik, Vorträge oder Podcasts."
+  },
+
+  "minimal": {
+    "ja": "聞く価値がある",
+    "de": "wert zu hören"
+  },
+
+  "etymology": {
+    "ja": "hören + -enswert。",
+    "de": "Aus hören + -enswert."
+  },
+
+  "example": {
+    "ja": "このポッドキャストは聞く価値がある。",
+    "de": "Dieser Podcast ist hörenswert."
+  },
+
+  "task": {
+    "ja": "「彼の講演は聞く価値がある。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „hörenswert“."
+  }
+},{
+  "id": "wissenswert",
+  "sid": "2026-00156",
+  "word": "wissenswert",
+  "tags": ["adj", "general"],
+  "level": "B2-C1",
+  "freq": "common",
+  "grammar": { "pos": "adj" },
+
+  "meaning": {
+    "ja": "知っておく価値がある",
+    "de": "wert, gewusst zu werden"
+  },
+
+  "nuance": {
+    "ja": "雑学・豆知識・説明記事などで頻出。",
+    "de": "Wird oft in Informations- und Sachtexten verwendet."
+  },
+
+  "minimal": {
+    "ja": "知る価値がある",
+    "de": "wert zu wissen"
+  },
+
+  "etymology": {
+    "ja": "wissen + -enswert。",
+    "de": "Aus wissen + -enswert."
+  },
+
+  "example": {
+    "ja": "これは知っておく価値のある事実だ。",
+    "de": "Das ist eine wissenswerte Tatsache."
+  },
+
+  "task": {
+    "ja": "「旅行者にとって知っておく価値がある情報だ。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „wissenswert“."
+  }
+},
+{
+  "id": "erstrebenswert",
+  "sid": "2026-00157",
+  "word": "erstrebenswert",
+  "tags": ["adj", "abstract", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": { "pos": "adj" },
+
+  "meaning": {
+    "ja": "目指す価値がある、望ましい",
+    "de": "so gut, dass man es anstreben sollte"
+  },
+
+  "nuance": {
+    "ja": "理想や目標、社会的価値について論じる際によく使われるフォーマルな語。",
+    "de": "Wird häufig in politischen, philosophischen und gesellschaftlichen Diskussionen verwendet."
+  },
+
+  "minimal": {
+    "ja": "目指す価値がある",
+    "de": "anzustreben"
+  },
+
+  "etymology": {
+    "ja": "erstreben（目指す）+ -enswert。",
+    "de": "Aus erstreben + -enswert."
+  },
+
+  "example": {
+    "ja": "持続可能な社会は目指す価値がある。",
+    "de": "Eine nachhaltige Gesellschaft ist erstrebenswert."
+  },
+
+  "task": {
+    "ja": "「その目標は目指す価値がある。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „erstrebenswert“."
+  }
 }
 ]
