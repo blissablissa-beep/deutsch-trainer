@@ -7026,5 +7026,47 @@
     "ja": "「私たちはできるだけ多くの紙をリサイクルする。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „recyceln“."
   }
+},
+{
+  "id": "stolperstein",
+  "sid": "2026-00161",
+  "word": "Stolperstein",
+  "tags": ["noun", "history", "idiom", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "①つまずきの石、障害物、障害　②（Stolperstein）ナチス犠牲者を追悼する記念舗石",
+    "de": "①ein Hindernis oder Problem, das Schwierigkeiten verursacht ②eine kleine Messingplatte im Gehweg zur Erinnerung an Opfer des Nationalsozialismus"
+  },
+
+  "nuance": {
+    "ja": "比喩的には『障害』『難関』『落とし穴』の意味で非常によく使われる。一方、固有名詞としての Stolperstein は、芸術家グンター・デムニヒが始めた追悼プロジェクトの記念舗石を指す。",
+    "de": "Der Begriff wird sowohl metaphorisch für ein Hindernis als auch für die bekannten Gedenksteine des Künstlers Gunter Demnig verwendet."
+  },
+
+  "minimal": {
+    "ja": "障害、つまずき",
+    "de": "Hindernis"
+  },
+
+  "etymology": {
+    "ja": "stolpern（つまずく）+ Stein（石）。文字どおり『つまずく石』。",
+    "de": "Kompositum aus stolpern und Stein."
+  },
+
+  "example": {
+    "ja": "資金不足が最大の障害となった。",
+    "de": "Der Mangel an Geld erwies sich als größter Stolperstein."
+  },
+
+  "task": {
+    "ja": "「言語の違いが交渉の障害となった。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Stolperstein“."
+  }
 }
 ]
