@@ -7152,5 +7152,88 @@
     "ja": "「この計画には法的な落とし穴がある。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Fallstrick“."
   }
+},
+{
+  "id": "beeintraechtigen",
+  "sid": "2026-00164",
+  "word": "beeinträchtigen",
+  "tags": ["verb", "abstract", "law", "exam"],
+  "level": "C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "損なう、悪影響を及ぼす、支障をきたす",
+    "de": "die Qualität, Funktion oder Wirksamkeit von etwas nachteilig beeinflussen"
+  },
+
+  "nuance": {
+    "ja": "能力・健康・機能・権利・環境・業務などが『十分に機能しなくなる』『悪影響を受ける』ことを表すフォーマルな動詞。単なる『邪魔をする』よりも影響が継続的・本質的であることが多い。",
+    "de": "Ein formelles Verb, das ausdrückt, dass etwas in seiner Funktion, Qualität oder Wirksamkeit eingeschränkt oder verschlechtert wird."
+  },
+
+  "minimal": {
+    "ja": "損なう、悪影響を与える",
+    "de": "nachteilig beeinflussen"
+  },
+
+  "etymology": {
+    "ja": "be- + einträchtigen（古語で「一致させる、調和させる」）。現在では「正常な状態を損なう」という意味で定着している。",
+    "de": "Aus be- und einträchtigen. Heute bedeutet das Verb, etwas in seiner Funktion oder Wirkung zu beeinträchtigen."
+  },
+
+  "example": {
+    "ja": "騒音は生活の質を損なう。",
+    "de": "Lärm beeinträchtigt die Lebensqualität."
+  },
+
+  "task": {
+    "ja": "「この工事は交通に悪影響を及ぼす。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „beeinträchtigen“."
+  }
+},
+{
+  "id": "beeintraechtigung",
+  "sid": "2026-00165",
+  "word": "Beeinträchtigung",
+  "tags": ["noun", "abstract", "law", "exam"],
+  "level": "C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "支障、悪影響、機能低下、障害",
+    "de": "eine nachteilige Auswirkung oder Einschränkung der Funktion, Qualität oder Leistungsfähigkeit"
+  },
+
+  "nuance": {
+    "ja": "健康・機能・権利・環境・生活の質などが損なわれた状態を表すフォーマルな名詞。法律、行政、医療、環境保護の文書で特に頻繁に用いられる。",
+    "de": "Ein formeller Begriff für eine Einschränkung oder nachteilige Auswirkung auf Gesundheit, Funktion, Rechte oder Umwelt."
+  },
+
+  "minimal": {
+    "ja": "支障、悪影響",
+    "de": "Einschränkung; nachteilige Auswirkung"
+  },
+
+  "etymology": {
+    "ja": "動詞 beeinträchtigen の名詞形。",
+    "de": "Substantivbildung zum Verb „beeinträchtigen“."
+  },
+
+  "example": {
+    "ja": "騒音による生活の質への悪影響は無視できない。",
+    "de": "Die Beeinträchtigung der Lebensqualität durch Lärm ist nicht zu unterschätzen."
+  },
+
+  "task": {
+    "ja": "「この工事は交通への大きな支障を引き起こす。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Beeinträchtigung“."
+  }
 }
 ]
