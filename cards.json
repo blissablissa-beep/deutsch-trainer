@@ -7317,5 +7317,87 @@
     "ja": "「彼は人の親切につけ込む。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „ausnutzen“."
   }
+},
+{
+  "id": "ausbeuten",
+  "sid": "2026-00168",
+  "word": "ausbeuten",
+  "tags": ["verb", "economy", "politics", "exam"],
+  "level": "C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①（人を）搾取する、酷使する ②（資源を）採取・開発する",
+    "de": "①Menschen oder Tiere rücksichtslos zu seinem Vorteil ausnutzen ②Bodenschätze oder natürliche Ressourcen wirtschaftlich erschließen"
+  },
+
+  "nuance": {
+    "ja": "人については、労働・弱い立場・善意などを不当に利用することを意味し、強い否定的評価を伴う。一方、鉱山や油田などの資源については『開発する・採掘する』という中立的な意味でも用いられる。",
+    "de": "Bei Menschen bedeutet das Verb fast immer eine ungerechte oder rücksichtslose Ausnutzung. Bei Rohstoffen kann es neutral das wirtschaftliche Erschließen von Ressourcen bedeuten."
+  },
+
+  "minimal": {
+    "ja": "搾取する",
+    "de": "rücksichtslos ausnutzen"
+  },
+
+  "etymology": {
+    "ja": "aus-（完全に）+ beuten（獲物・利益を得る）。もともとは『利益を取り尽くす』という意味。",
+    "de": "Aus aus- und beuten. Ursprünglich im Sinne von „Gewinn oder Ertrag gewinnen“."
+  },
+
+  "example": {
+    "ja": "その企業は労働者を搾取していると非難された。",
+    "de": "Dem Unternehmen wurde vorgeworfen, seine Arbeitnehmer auszubeuten."
+  },
+
+  "task": {
+    "ja": "「天然資源を過度に開発してはならない。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „ausbeuten“."
+  }
+},
+{
+  "id": "ausschoepfen",
+  "sid": "2026-00169",
+  "word": "ausschöpfen",
+  "tags": ["verb", "business", "abstract", "exam"],
+  "level": "C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（能力・可能性・資源などを）最大限に活用する、使い切る",
+    "de": "das volle Potenzial oder die gesamten Möglichkeiten von etwas nutzen"
+  },
+
+  "nuance": {
+    "ja": "本来は『容器を空になるまでくみ出す』という意味。現在では、能力・資源・可能性などを『余すことなく最大限に活用する』という比喩的な意味で非常によく使われる。",
+    "de": "Ursprünglich bedeutete das Verb, etwas vollständig mit einer Schöpfkelle auszuleeren. Heute wird es meist bildlich verwendet und bedeutet, Möglichkeiten oder Potenziale vollständig auszunutzen."
+  },
+
+  "minimal": {
+    "ja": "最大限に活用する",
+    "de": "vollständig nutzen"
+  },
+
+  "etymology": {
+    "ja": "aus-（完全に）+ schöpfen（くみ取る）。文字どおり「すべてくみ出す」が原義。",
+    "de": "Aus aus- und schöpfen („mit einer Schöpfkelle entnehmen“)."
+  },
+
+  "example": {
+    "ja": "その会社は市場の潜在力を十分に活用していない。",
+    "de": "Das Unternehmen schöpft das Marktpotenzial nicht vollständig aus."
+  },
+
+  "task": {
+    "ja": "「私たちはすべての可能性を最大限に活用しなければならない。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „ausschöpfen“."
+  }
 }
 ]
