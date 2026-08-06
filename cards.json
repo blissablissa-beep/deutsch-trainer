@@ -7276,5 +7276,46 @@
     "ja": "「平和があってこそ経済は繁栄する。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „gedeihen“."
   }
+},
+{
+  "id": "ausnutzen",
+  "sid": "2026-00167",
+  "word": "ausnutzen",
+  "tags": ["verb", "general", "exam"],
+  "level": "B2-C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①（機会・資源などを）有効活用する ②（人を）利用する、搾取する",
+    "de": "①eine Gelegenheit oder Ressource optimal nutzen ②jemanden zu seinem eigenen Vorteil ausnutzen"
+  },
+
+  "nuance": {
+    "ja": "目的語によって意味が大きく変わる。『Chance・Gelegenheit・Potenzial』などを目的語にすると「最大限に活用する」という肯定的な意味になる。一方、『Menschen・Kinder・Kunden』などを目的語にすると「利用する・食い物にする」という否定的な意味になる。",
+    "de": "Die Bedeutung hängt stark vom Objekt ab. Bei Gelegenheiten oder Ressourcen bedeutet das Verb meist „optimal nutzen“, bei Personen dagegen häufig „ausbeuten“ oder „zu seinem Vorteil benutzen“."
+  },
+
+  "minimal": {
+    "ja": "活用する／利用する",
+    "de": "optimal nutzen; ausbeuten"
+  },
+
+  "etymology": {
+    "ja": "aus-（完全に、余すところなく）+ nutzen（利用する）。もともとは「最後まで利用する」が原義。",
+    "de": "Aus aus- und nutzen. Ursprünglich im Sinne von „etwas vollständig nutzen“."
+  },
+
+  "example": {
+    "ja": "彼女は留学の機会を最大限に活用した。",
+    "de": "Sie hat die Gelegenheit zum Auslandsstudium optimal ausgenutzt."
+  },
+
+  "task": {
+    "ja": "「彼は人の親切につけ込む。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „ausnutzen“."
+  }
 }
 ]
