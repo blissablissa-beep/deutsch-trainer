@@ -7068,5 +7068,89 @@
     "ja": "「言語の違いが交渉の障害となった。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Stolperstein“."
   }
+},
+{
+  "id": "huerde",
+  "sid": "2026-00162",
+  "word": "Hürde",
+  "tags": ["noun", "abstract", "exam"],
+  "level": "B2-C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "ハードル、乗り越えるべき障害",
+    "de": "ein Hindernis, das überwunden werden muss"
+  },
+
+  "nuance": {
+    "ja": "本来は陸上競技のハードル。比喩的には、努力や工夫によって乗り越えるべき障害を表す。政治・法律・経済・就職など幅広い分野で頻出。",
+    "de": "Ursprünglich ein Hindernis im Sport. Heute meist bildlich für Schwierigkeiten, die überwunden werden müssen."
+  },
+
+  "minimal": {
+    "ja": "乗り越えるべき障害",
+    "de": "überwindbares Hindernis"
+  },
+
+  "etymology": {
+    "ja": "古高ドイツ語 hurdi（柵・囲い）に由来。",
+    "de": "Aus althochdeutsch hurdi („Flechtwerk, Zaun“)."
+  },
+
+  "example": {
+    "ja": "官僚的な手続きが最大の障害だった。",
+    "de": "Die Bürokratie war die größte Hürde."
+  },
+
+  "task": {
+    "ja": "「言語の壁は最初のハードルだった。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Hürde“."
+  }
+},
+{
+  "id": "fallstrick",
+  "sid": "2026-00163",
+  "word": "Fallstrick",
+  "tags": ["noun", "idiom", "law", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "落とし穴、思わぬ罠、落としどころ",
+    "de": "eine verborgene Schwierigkeit oder ein unerwartetes Problem"
+  },
+
+  "nuance": {
+    "ja": "契約・法律・制度・計画などに潜む『見えにくい罠』を表す。単なる障害ではなく、気づかずに陥りやすい危険というニュアンスがある。",
+    "de": "Bezeichnet meist ein verstecktes Risiko oder eine unerwartete Schwierigkeit, besonders in Verträgen, Gesetzen oder Plänen."
+  },
+
+  "minimal": {
+    "ja": "落とし穴",
+    "de": "versteckte Schwierigkeit"
+  },
+
+  "etymology": {
+    "ja": "fallen（落ちる）+ Strick（縄）。もともとは動物を捕らえる罠を意味した。",
+    "de": "Aus fallen und Strick; ursprünglich eine Schlinge zum Fangen von Tieren."
+  },
+
+  "example": {
+    "ja": "契約にはいくつかの落とし穴がある。",
+    "de": "Der Vertrag enthält einige Fallstricke."
+  },
+
+  "task": {
+    "ja": "「この計画には法的な落とし穴がある。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Fallstrick“."
+  }
 }
 ]
