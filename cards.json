@@ -7235,5 +7235,46 @@
     "ja": "「この工事は交通への大きな支障を引き起こす。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Beeinträchtigung“."
   }
+},
+{
+  "id": "gedeihen",
+  "sid": "2026-00166",
+  "word": "gedeihen",
+  "tags": ["verb", "abstract", "nature", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "順調に育つ、繁栄する、発展する",
+    "de": "sich gut entwickeln, wachsen oder erfolgreich sein"
+  },
+
+  "nuance": {
+    "ja": "植物・子ども・事業・社会・文化などが、良い環境のもとで健全に成長・発展することを表す。単なる『成長する』よりも、『望ましい状態で順調に発展する』という肯定的な響きが強い。",
+    "de": "Das Verb beschreibt eine positive Entwicklung oder ein gesundes Wachstum von Pflanzen, Menschen, Unternehmen oder Gesellschaften."
+  },
+
+  "minimal": {
+    "ja": "順調に育つ、繁栄する",
+    "de": "gut wachsen; sich gut entwickeln"
+  },
+
+  "etymology": {
+    "ja": "古高ドイツ語 githīhan に由来し、「繁栄する・成功する」を意味したゲルマン系の古い動詞。",
+    "de": "Aus althochdeutsch githīhan („gedeihen, Erfolg haben“)."
+  },
+
+  "example": {
+    "ja": "この植物は暖かい気候でよく育つ。",
+    "de": "Diese Pflanze gedeiht in warmem Klima."
+  },
+
+  "task": {
+    "ja": "「平和があってこそ経済は繁栄する。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „gedeihen“."
+  }
 }
 ]
