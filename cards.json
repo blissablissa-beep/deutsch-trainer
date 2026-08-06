@@ -6903,5 +6903,128 @@
     "ja": "「その目標は目指す価値がある。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „erstrebenswert“."
   }
+},
+{
+  "id": "entsorgen",
+  "sid": "2026-00158",
+  "word": "entsorgen",
+  "tags": ["verb", "daily", "environment", "exam"],
+  "level": "B2",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（ごみ・不要物などを）適切に処分する、廃棄する",
+    "de": "Abfälle oder nicht mehr benötigte Gegenstände fachgerecht beseitigen oder recyceln"
+  },
+
+  "nuance": {
+    "ja": "単に『捨てる（wegwerfen）』ではなく、ごみを分別したり、法律やルールに従って適切に処分したりすることを表す。ドイツでは環境保護やリサイクルの文脈で非常によく使われる。",
+    "de": "Im Unterschied zu „wegwerfen“ bedeutet „entsorgen“, etwas ordnungsgemäß und umweltgerecht zu beseitigen oder dem Recycling zuzuführen."
+  },
+
+  "minimal": {
+    "ja": "適切に処分する",
+    "de": "fachgerecht beseitigen"
+  },
+
+  "etymology": {
+    "ja": "接頭辞 ent-（取り除く）+ sorgen（配慮する、世話をする）。もともとは『心配事を取り除く』という発想から、現在では『不要物を適切に処理する』という意味になった。",
+    "de": "Aus ent- und sorgen. Ursprünglich bedeutete es, etwas aus der Sorge zu schaffen; heute vor allem „Abfälle fachgerecht beseitigen“."
+  },
+
+  "example": {
+    "ja": "古い電池は適切に処分しなければならない。",
+    "de": "Alte Batterien müssen fachgerecht entsorgt werden."
+  },
+
+  "task": {
+    "ja": "「この家具は粗大ごみとして処分できます。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „entsorgen“."
+  }
+},
+{
+  "id": "beseitigen",
+  "sid": "2026-00159",
+  "word": "beseitigen",
+  "tags": ["verb", "general", "exam"],
+  "level": "B2-C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "取り除く、除去する、排除する",
+    "de": "etwas entfernen oder aus dem Weg schaffen"
+  },
+
+  "nuance": {
+    "ja": "障害物・危険・問題・汚れ・証拠など、幅広い対象を『取り除く』ことを表す。物理的な除去にも抽象的な問題解決にも使える非常に汎用性の高い動詞。",
+    "de": "Ein vielseitiges Verb für das Entfernen von Gegenständen, Hindernissen, Problemen oder Gefahren."
+  },
+
+  "minimal": {
+    "ja": "取り除く",
+    "de": "entfernen"
+  },
+
+  "etymology": {
+    "ja": "bei（そばへ）+ Seite（脇）に由来し、「脇へどける」が原義。",
+    "de": "Aus beiseite („zur Seite“) und dem Verb beseitigen („zur Seite schaffen“)."
+  },
+
+  "example": {
+    "ja": "道路から雪が取り除かれた。",
+    "de": "Der Schnee wurde von der Straße beseitigt."
+  },
+
+  "task": {
+    "ja": "「まず問題の原因を取り除かなければならない。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „beseitigen“."
+  }
+},
+{
+  "id": "recyceln",
+  "sid": "2026-00160",
+  "word": "recyceln",
+  "tags": ["verb", "environment", "daily"],
+  "level": "B2",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "リサイクルする、再資源化する",
+    "de": "Abfälle oder gebrauchte Materialien wiederaufbereiten und erneut verwenden"
+  },
+
+  "nuance": {
+    "ja": "廃棄物を処分するのではなく、新たな原料や製品として再利用することを表す。環境問題や資源循環の文脈で非常によく使われる。",
+    "de": "Bedeutet, Materialien so aufzubereiten, dass sie erneut verwendet werden können."
+  },
+
+  "minimal": {
+    "ja": "再利用する",
+    "de": "wiederverwenden"
+  },
+
+  "etymology": {
+    "ja": "英語 recycle に由来する外来語。",
+    "de": "Lehnwort aus dem Englischen „to recycle“."
+  },
+
+  "example": {
+    "ja": "ガラスは何度でもリサイクルできる。",
+    "de": "Glas kann beliebig oft recycelt werden."
+  },
+
+  "task": {
+    "ja": "「私たちはできるだけ多くの紙をリサイクルする。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „recyceln“."
+  }
 }
 ]
