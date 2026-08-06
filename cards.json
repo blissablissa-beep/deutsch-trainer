@@ -7399,5 +7399,47 @@
     "ja": "「私たちはすべての可能性を最大限に活用しなければならない。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „ausschöpfen“."
   }
+},
+{
+  "id": "gewissheit",
+  "sid": "2026-00170",
+  "word": "Gewissheit",
+  "tags": ["noun", "abstract", "exam"],
+  "level": "C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "確実性、確信、確かなこと",
+    "de": "das sichere Wissen oder die feste Überzeugung, dass etwas wahr ist"
+  },
+
+  "nuance": {
+    "ja": "単なる推測ではなく、『疑う余地のない確信』や『確かな事実』を表す。客観的な確実性にも、主観的な確信にも使われる。",
+    "de": "Bezeichnet sowohl die objektive Sicherheit eines Sachverhalts als auch die subjektive Gewissheit einer Person."
+  },
+
+  "minimal": {
+    "ja": "確信、確実性",
+    "de": "Sicherheit; feste Überzeugung"
+  },
+
+  "etymology": {
+    "ja": "形容詞 gewiss（確かな、間違いない）+ 接尾辞 -heit。",
+    "de": "Abgeleitet von dem Adjektiv „gewiss“ mit dem Suffix -heit."
+  },
+
+  "example": {
+    "ja": "彼は成功すると確信していた。",
+    "de": "Er hatte die Gewissheit, dass er Erfolg haben würde."
+  },
+
+  "task": {
+    "ja": "「私たちは真実を知っているという確信を持っていた。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Gewissheit“."
+  }
 }
 ]
