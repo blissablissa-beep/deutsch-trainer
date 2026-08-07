@@ -7605,5 +7605,46 @@
     "ja": "「その改革で問題は一挙に解決した。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „auf einen Schlag“."
   }
+},
+{
+  "id": "schonen",
+  "sid": "2026-00175",
+  "word": "schonen",
+  "tags": ["verb", "health", "environment", "exam"],
+  "level": "B2-C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①いたわる、大切に扱う ②負担をかけない、温存する ③容赦する、見逃す",
+    "de": "①etwas oder jemanden sorgsam behandeln ②etwas nicht unnötig belasten oder beanspruchen ③jemanden verschonen oder verschont lassen"
+  },
+
+  "nuance": {
+    "ja": "最も多いのは『負担をかけない』『いたわる』という意味。身体・環境・資源・設備など幅広い対象に使われる。文脈によっては『容赦する』という意味にもなる。",
+    "de": "Das Verb bedeutet meist, etwas oder jemanden vor unnötiger Belastung zu schützen. Je nach Kontext kann es auch „verschonen“ bedeuten."
+  },
+
+  "minimal": {
+    "ja": "いたわる、負担をかけない",
+    "de": "nicht belasten; sorgsam behandeln"
+  },
+
+  "etymology": {
+    "ja": "古高ドイツ語 skōnōn（守る、いたわる）に由来するゲルマン系の古い動詞。",
+    "de": "Aus althochdeutsch skōnōn („schützen, schonend behandeln“)."
+  },
+
+  "example": {
+    "ja": "この靴は膝への負担を軽減する。",
+    "de": "Diese Schuhe schonen die Knie."
+  },
+
+  "task": {
+    "ja": "「私たちは天然資源を大切に扱わなければならない。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „schonen“."
+  }
 }
 ]
