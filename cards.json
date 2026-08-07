@@ -7482,5 +7482,128 @@
     "ja": "「彼はコップ一杯の水を一気に飲み干した。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „in einem Zug“."
   }
+},
+{
+  "id": "am_stueck",
+  "sid": "2026-00172",
+  "word": "am Stück",
+  "tags": ["idiom", "daily", "exam"],
+  "level": "B2",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "adv"
+  },
+
+  "meaning": {
+    "ja": "続けて、ぶっ通しで、途切れずに",
+    "de": "ohne Unterbrechung; ununterbrochen"
+  },
+
+  "nuance": {
+    "ja": "途中で休憩や中断を挟まず、連続して行うことを表す。「in einem Zug」より客観的な言い方。",
+    "de": "Beschreibt eine Handlung, die ohne Pause oder Unterbrechung erfolgt."
+  },
+
+  "minimal": {
+    "ja": "ぶっ通しで",
+    "de": "ohne Pause"
+  },
+
+  "etymology": {
+    "ja": "Stück（一区切り・ひとかたまり）から、「一続きで」の意味になった。",
+    "de": "Aus Stück im Sinne von „ein zusammenhängender Abschnitt“."
+  },
+
+  "example": {
+    "ja": "彼は8時間ぶっ通しで働いた。",
+    "de": "Er arbeitete acht Stunden am Stück."
+  },
+
+  "task": {
+    "ja": "「彼女はドラマを5話続けて見た。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „am Stück“."
+  }
+},
+{
+  "id": "auf_einmal",
+  "sid": "2026-00173",
+  "word": "auf einmal",
+  "tags": ["idiom", "daily", "exam"],
+  "level": "B1-B2",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "adv"
+  },
+
+  "meaning": {
+    "ja": "①突然 ②一度に",
+    "de": "①plötzlich ②alles gleichzeitig oder auf einmal"
+  },
+
+  "nuance": {
+    "ja": "文脈によって「突然」と「一度に」の二つの意味を持つ非常に頻出の表現。",
+    "de": "Die Wendung kann sowohl „plötzlich“ als auch „alles gleichzeitig“ bedeuten."
+  },
+
+  "minimal": {
+    "ja": "突然／一度に",
+    "de": "plötzlich; gleichzeitig"
+  },
+
+  "etymology": {
+    "ja": "文字どおり「一回で」「一度に」。",
+    "de": "Wörtlich „auf ein Mal“."
+  },
+
+  "example": {
+    "ja": "突然、電気が消えた。",
+    "de": "Auf einmal ging das Licht aus."
+  },
+
+  "task": {
+    "ja": "「一度に全部食べないで。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „auf einmal“."
+  }
+},
+{
+  "id": "auf_einen_schlag",
+  "sid": "2026-00174",
+  "word": "auf einen Schlag",
+  "tags": ["idiom", "abstract", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adv"
+  },
+
+  "meaning": {
+    "ja": "一挙に、一気に、一度に",
+    "de": "mit einem einzigen Schlag; plötzlich und vollständig"
+  },
+
+  "nuance": {
+    "ja": "一回の出来事や行動で状況が大きく変わることを表す。「一撃で」「一挙に」というイメージが強い。",
+    "de": "Betont, dass sich etwas mit einer einzigen Handlung oder in einem einzigen Moment vollständig verändert."
+  },
+
+  "minimal": {
+    "ja": "一挙に",
+    "de": "mit einem Mal"
+  },
+
+  "etymology": {
+    "ja": "Schlag（一撃、打撃）から、「一撃で」の意味になった。",
+    "de": "Aus Schlag im Sinne von „Hieb“."
+  },
+
+  "example": {
+    "ja": "彼は一夜にして有名になった。",
+    "de": "Er wurde auf einen Schlag berühmt."
+  },
+
+  "task": {
+    "ja": "「その改革で問題は一挙に解決した。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „auf einen Schlag“."
+  }
 }
 ]
