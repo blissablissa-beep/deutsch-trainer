@@ -7441,5 +7441,46 @@
     "ja": "「私たちは真実を知っているという確信を持っていた。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Gewissheit“."
   }
+},
+{
+  "id": "in_einem_zug",
+  "sid": "2026-00171",
+  "word": "in einem Zug",
+  "tags": ["idiom", "daily", "exam"],
+  "level": "B2-C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "adv"
+  },
+
+  "meaning": {
+    "ja": "①一気に、休まずに ②（一筆・一息で）",
+    "de": "①ohne Unterbrechung; in einem Stück ②mit einem einzigen Strich oder Atemzug"
+  },
+
+  "nuance": {
+    "ja": "最も多いのは『途中で休まず、一気に最後まで』という意味。本・映画・飲み物・仕事など幅広い対象に使える。書く・描く場合には『一筆で』という意味にもなる。",
+    "de": "Meist bedeutet die Wendung, etwas ohne Pause oder Unterbrechung zu tun. Beim Schreiben oder Zeichnen kann sie auch „mit einem einzigen Strich“ bedeuten."
+  },
+
+  "minimal": {
+    "ja": "一気に",
+    "de": "ohne Unterbrechung"
+  },
+
+  "etymology": {
+    "ja": "Zug は『引くこと』『一息』『一筆』『列車』など多くの意味を持つ語。この表現では『一息・一続き』の意味から発展した。",
+    "de": "Die Wendung geht auf die Bedeutung von Zug als „Atemzug“ oder „durchgehende Bewegung“ zurück."
+  },
+
+  "example": {
+    "ja": "その小説を一気に読み終えた。",
+    "de": "Ich habe den Roman in einem Zug durchgelesen."
+  },
+
+  "task": {
+    "ja": "「彼はコップ一杯の水を一気に飲み干した。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „in einem Zug“."
+  }
 }
 ]
