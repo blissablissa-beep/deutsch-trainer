@@ -423,7 +423,52 @@ function highlightIfNeeded(text) {
     if (!ok.length) return "";
     return ok.map(x => `<span class="pill">${escapeHtml(x)}</span>`).join("");
   }
+function renderEquivalents(eq) {
+  if (!eq || typeof eq !== "object" || Array.isArray(eq)) return "";
 
+  const langLabels = {
+    en: "EN",
+    it: "IT",
+    fr: "FR",
+    es: "ES",
+    pt: "PT",
+    nl: "NL",
+    sv: "SV",
+    da: "DA",
+    no: "NO",
+    pl: "PL",
+    ru: "RU",
+    la: "LA"
+  };
+
+  const rows = Object.entries(eq)
+    .map(([lang, value]) => {
+      const words = normalizeText(value);
+      if (!words.length) return "";
+
+      const label = langLabels[lang.toLowerCase()] || lang.toUpperCase();
+
+      return `
+        <div class="equiv-row">
+          <span class="equiv-lang">${escapeHtml(label)}</span>
+          <span class="equiv-words">${words.map(highlightIfNeeded).join(" / ")}</span>
+        </div>
+      `;
+    })
+    .filter(Boolean)
+    .join("");
+
+  if (!rows) return "";
+
+  return `
+    <div class="equivalents">
+      <div class="label">${escapeHtml(t("equivalents"))}</div>
+      <div class="equiv-list">
+        ${rows}
+      </div>
+    </div>
+  `;
+}
   // =========================
   // Error overlay
   // =========================
@@ -470,6 +515,7 @@ function highlightIfNeeded(text) {
       nuance: "語感・ニュアンス",
       minimal: "最小対立（近い語との違い）",
       etymology: "語源",
+      equivalents: "他言語相当語",
       example: "例文",
       task: "産出課題",
       due: "復習期限",
@@ -494,6 +540,7 @@ function highlightIfNeeded(text) {
       meaning: "Kernbedeutung",
       nuance: "Nuance / Gebrauch",
       minimal: "Minimalpaar (Abgrenzung)",
+      equivalents: "Entsprechungen in anderen Sprachen",
       etymology: "Etymologie",
       example: "Beispiel",
       task: "Output-Aufgabe",
@@ -671,6 +718,7 @@ function filterCardsByQuery(cards) {
       ...valuesFlat(c.meaning),
       ...valuesFlat(c.nuance),
       ...valuesFlat(c.minimal),
+      ...valuesFlat(c.equivalents),
       ...valuesFlat(c.etymology),
       ...valuesFlat(c.example),
       ...valuesFlat(c.task),
