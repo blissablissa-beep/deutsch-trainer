@@ -103,6 +103,38 @@ mark.hl {
   padding: 0 .12em;
   border-radius: .25em;
 }
+/* ===== Other-language equivalents ===== */
+.equivalents {
+  margin-top: 10px;
+}
+
+.equiv-list {
+  margin-top: 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.equiv-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  line-height: 1.5;
+}
+
+.equiv-lang {
+  flex: 0 0 28px;
+  color: #8e8e8e;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .4px;
+}
+
+.equiv-words {
+  min-width: 0;
+  color: #f2f2f2;
+  font-size: 14px;
+}
     /* ===== Error box ===== */
     .error {
       background: #2a0f0f;
@@ -276,6 +308,55 @@ function validateCards(data) {
         errors.push(`${prefix} (${c.id || "no-id"}): ${k} must be {ja,de} with string or string[]`);
       }
     }
+    // optional: equivalents
+
+if (c.equivalents !== undefined) {
+
+  if (
+
+    !c.equivalents ||
+
+    typeof c.equivalents !== "object" ||
+
+    Array.isArray(c.equivalents)
+
+  ) {
+
+    errors.push(
+
+      `${prefix} (${c.id || "no-id"}): equivalents must be an object`
+
+    );
+
+  } else {
+
+    for (const [lang, words] of Object.entries(c.equivalents)) {
+
+      if (!/^[a-z]{2,3}$/i.test(lang)) {
+
+        errors.push(
+
+          `${prefix} (${c.id || "no-id"}): invalid equivalents language code "${lang}"`
+
+        );
+
+      }
+
+      if (!isTextBlock(words)) {
+
+        errors.push(
+
+          `${prefix} (${c.id || "no-id"}): equivalents.${lang} must be string or string[]`
+
+        );
+
+      }
+
+    }
+
+  }
+
+}
   });
 
   return { ok: errors.length === 0, errors };
