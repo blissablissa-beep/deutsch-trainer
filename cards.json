@@ -144,20 +144,46 @@
     "task": { "ja": "あなたの分野でEntrepreneurに必要な資質を1つ挙げて1文。", "de": "Nenne eine wichtige Eigenschaft eines Entrepreneurs in deinem Bereich (ein Satz)." }
   },
   {
-    "id": "gedeihen",
-    "sid": "2026-00007",
-    "word": "gedeihen",
-    "tags": ["abs", "exam"],
-    "level": "B2",
-    "freq": "sometimes",
-    "grammar": { "pos": "verb", "praeteritum": "gedieh", "perfekt": "ist gediehen" },
-    "meaning": { "ja": "（植物・事業・関係などが）順調に育つ／発展する／うまくいく（やや文語）。", "de": "Gut wachsen; sich günstig entwickeln; prosperieren (gehoben)." },
-    "nuance": { "ja": "自然・比喩どちらも可だが、やや格調高く文章語寄り。", "de": "Gehoben; oft für Pflanzen, Projekte oder Beziehungen." },
-    "minimal": { "ja": "wachsen＝単なる成長／gedeihen＝良い条件下で健全に成功する。", "de": "„wachsen“ neutral; „gedeihen“ impliziert günstige Bedingungen." },
-    "etymology": { "ja": "古高ドイツ語 gedehan（成功する・うまくいく）に由来。", "de": "Aus ahd. „gedehan“ (gelingen, Erfolg haben)." },
-    "example": { "ja": "Unter diesen Bedingungen kann das Projekt gedeihen.", "de": "Unter diesen Bedingungen kann das Projekt gedeihen." },
-    "task": { "ja": "「〜がなければ発展しない」をgedeihenで1文。", "de": "Bilde einen Satz mit „ohne … kann … nicht gedeihen“." }
+  "id": "verwoehnen",
+  "sid": "2026-00007",
+  "word": "verwöhnen",
+  "tags": ["verb", "daily", "exam"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
   },
+
+  "meaning": {
+    "ja": "甘やかす、ちやほやする、ぜいたくをさせる",
+    "de": "jemanden übermäßig gut behandeln oder ihm viele Annehmlichkeiten bieten"
+  },
+
+  "nuance": {
+    "ja": "子どもや恋人、ペットなどを『甘やかす』だけでなく、おいしい料理やスパなどで『もてなす』『ぜいたくな気分にさせる』という肯定的な意味でも非常によく使われる。",
+    "de": "Das Verb kann sowohl negativ („verziehen“) als auch positiv („jemandem etwas Gutes tun“) verwendet werden."
+  },
+
+  "minimal": {
+    "ja": "甘やかす、もてなす",
+    "de": "zu sehr verwöhnen; etwas Gutes tun"
+  },
+
+  "etymology": {
+    "ja": "接頭辞 ver- + wohnen（古い語源的関係）に由来する古い動詞で、「快適に暮らさせる」という意味から発展した。",
+    "de": "Historisches Verb germanischen Ursprungs; heute im Sinne von „jemanden zu gut behandeln“."
+  },
+
+  "example": {
+    "ja": "祖父母は孫を甘やかしすぎる。",
+    "de": "Die Großeltern verwöhnen ihre Enkel zu sehr."
+  },
+
+  "task": {
+    "ja": "「今日は自分に少しぜいたくをさせたい。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verwöhnen“."
+  }
+},
   {
     "id": "hapern",
     "sid": "2026-00008",
