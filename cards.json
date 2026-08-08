@@ -7677,5 +7677,53 @@
     "ja": "「私たちは天然資源を大切に扱わなければならない。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „schonen“."
   }
+},
+{
+  "id": "lockern",
+  "sid": "2026-00176",
+  "word": "lockern",
+  "tags": ["verb", "general", "abstract", "exam"],
+  "level": "B2-C1",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "緩める、ほぐす、和らげる、緩和する",
+    "de": "etwas weniger fest, streng oder angespannt machen"
+  },
+
+  "nuance": {
+    "ja": "物理的に締まったものを緩めるだけでなく、規制・ルール・雰囲気・筋肉などを『より緩やかな状態にする』場合にも広く使われる。文脈によっては『ほぐす』『緩和する』『和ませる』と訳す。",
+    "de": "Das Verb wird sowohl konkret als auch übertragen gebraucht, etwa für Schrauben, Muskeln, Regeln, Vorschriften oder eine angespannte Atmosphäre."
+  },
+
+  "minimal": {
+    "ja": "緩める、ほぐす",
+    "de": "weniger fest oder streng machen"
+  },
+
+  "equivalents": {
+    "en": ["loosen", "relax", "ease"],
+    "it": ["allentare", "rilassare"],
+    "fr": ["desserrer", "assouplir"],
+    "es": ["aflojar", "relajar"]
+  },
+
+  "etymology": {
+    "ja": "形容詞 locker（緩い、ゆるんだ）から派生した動詞。",
+    "de": "Abgeleitet vom Adjektiv „locker“."
+  },
+
+  "example": {
+    "ja": "政府は規制を徐々に緩和した。",
+    "de": "Die Regierung lockerte die Vorschriften schrittweise."
+  },
+
+  "task": {
+    "ja": "「少し肩の力を抜いて。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „lockern“."
+  }
 }
 ]
