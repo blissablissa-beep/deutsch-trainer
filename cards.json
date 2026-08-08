@@ -7773,5 +7773,53 @@
     "ja": "「もっと気楽に考えて。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „locker“."
   }
+},
+{
+  "id": "heikel",
+  "sid": "2026-00178",
+  "word": "heikel",
+  "tags": ["adj", "abstract", "general", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "扱いの難しい、微妙な、デリケートな",
+    "de": "schwierig, sensibel oder problematisch und daher mit Vorsicht zu behandeln"
+  },
+
+  "nuance": {
+    "ja": "単に『難しい』のではなく、少し対応を誤ると問題になりやすい『微妙さ』『扱いにくさ』を含む。政治・外交・人間関係・交渉・技術的問題などでよく使われる。",
+    "de": "Bezeichnet Situationen, Themen oder Probleme, bei denen besondere Vorsicht nötig ist, weil sie sensibel oder leicht problematisch werden können."
+  },
+
+  "minimal": {
+    "ja": "微妙で扱いにくい",
+    "de": "sensibel und schwierig"
+  },
+
+  "equivalents": {
+    "en": ["delicate", "tricky", "sensitive"],
+    "it": ["delicato", "spinoso"],
+    "fr": ["délicat", "épineux"],
+    "es": ["delicado", "espinoso"]
+  },
+
+  "etymology": {
+    "ja": "中高ドイツ語 heikel にさかのぼり、『気難しい、選り好みする』という意味から、現在の『扱いが難しい』という意味へ広がった。",
+    "de": "Aus mittelhochdeutsch „heikel“; ursprünglich eher im Sinne von „wählerisch, schwierig“, später allgemein „schwierig und sensibel“."
+  },
+
+  "example": {
+    "ja": "これは政治的に非常に微妙な問題だ。",
+    "de": "Das ist eine politisch sehr heikle Frage."
+  },
+
+  "task": {
+    "ja": "「その交渉はかなり微妙な段階にある。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „heikel“."
+  }
 }
 ]
