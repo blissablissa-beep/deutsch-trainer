@@ -7725,5 +7725,53 @@
     "ja": "「少し肩の力を抜いて。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „lockern“."
   }
+},
+{
+  "id": "locker",
+  "sid": "2026-00177",
+  "word": "locker",
+  "tags": ["adj", "daily", "general", "exam"],
+  "level": "B2",
+  "freq": "very_often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "①緩い、ゆるんだ ②気楽な、くだけた ③余裕のある、楽々の",
+    "de": "①nicht fest oder straff ②ungezwungen und entspannt ③ohne große Mühe"
+  },
+
+  "nuance": {
+    "ja": "物理的な『緩さ』だけでなく、人の態度や雰囲気が『気楽でくだけている』こと、さらに口語では『楽勝で、余裕で』という意味にも使われる。",
+    "de": "Das Adjektiv kann sowohl körperliche Lockerheit als auch eine entspannte Atmosphäre oder im umgangssprachlichen Gebrauch Leichtigkeit ausdrücken."
+  },
+
+  "minimal": {
+    "ja": "緩い、気楽な",
+    "de": "nicht fest; entspannt"
+  },
+
+  "equivalents": {
+    "en": ["loose", "relaxed", "casual", "easily"],
+    "it": ["allentato", "rilassato", "informale"],
+    "fr": ["lâche", "détendu", "décontracté"],
+    "es": ["flojo", "relajado", "informal"]
+  },
+
+  "etymology": {
+    "ja": "中高ドイツ語 locker にさかのぼり、『緩んだ、固定されていない』という意味から、比喩的に『気楽な』へ意味が広がった。",
+    "de": "Aus mittelhochdeutsch „locker“; von der konkreten Bedeutung „nicht fest“ entwickelte sich auch die übertragene Bedeutung „entspannt, ungezwungen“."
+  },
+
+  "example": {
+    "ja": "その会議はとてもくだけた雰囲気だった。",
+    "de": "Die Besprechung fand in einer sehr lockeren Atmosphäre statt."
+  },
+
+  "task": {
+    "ja": "「もっと気楽に考えて。」をドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „locker“."
+  }
 }
 ]
