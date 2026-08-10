@@ -7821,5 +7821,53 @@
     "ja": "「その交渉はかなり微妙な段階にある。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „heikel“."
   }
+},
+{
+  "id": "basteln",
+  "sid": "2026-00179",
+  "word": "basteln",
+  "tags": ["verb", "daily", "creative", "exam"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "工作する、手作りする、こつこつ組み立てる",
+    "de": "mit den Händen etwas herstellen, zusammensetzen oder kreativ gestalten"
+  },
+
+  "nuance": {
+    "ja": "子どもの工作や趣味の手作りに非常によく使う。専門的に製作するというより、身近な材料を使って工夫しながら作る感じが強い。比喩的には、即興的・試行錯誤的に何かを組み立てる意味にも使われる。",
+    "de": "Typisch für kreatives oder handwerkliches Arbeiten im kleinen Maßstab. Es klingt weniger professionell als „herstellen“ und kann auch übertragen für improvisiertes oder tüftelndes Zusammenbauen verwendet werden."
+  },
+
+  "minimal": {
+    "ja": "工作する、手作りする",
+    "de": "kreativ mit den Händen etwas machen"
+  },
+
+  "equivalents": {
+    "en": ["craft", "tinker", "make"],
+    "it": ["fare lavoretti", "bricolare"],
+    "fr": ["bricoler", "faire des travaux manuels"],
+    "es": ["hacer manualidades", "hacer bricolaje"]
+  },
+
+  "etymology": {
+    "ja": "語源は完全には明確ではないが、近世以降のドイツ語で『細かな手仕事をする、工作する』という意味で定着した。",
+    "de": "Die Herkunft ist nicht völlig geklärt; das Verb etablierte sich im Neuhochdeutschen im Sinne von „kleine handwerkliche oder kreative Arbeiten machen“."
+  },
+
+  "example": {
+    "ja": "子どもたちは紙と段ボールで船を作った。",
+    "de": "Die Kinder haben aus Papier und Pappe ein Schiff gebastelt."
+  },
+
+  "task": {
+    "ja": "「彼は古い部品を使って小さなロボットを組み立てた。」を basteln を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „basteln“."
+  }
 }
 ]
