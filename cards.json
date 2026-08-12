@@ -6470,12 +6470,10 @@
     "ja": "数量・程度・影響・損害などが非常に小さいことを表す。法律、経済、ニュースなど幅広い分野で頻出。『gering（少ない）』よりもややフォーマルな響きがある。",
     "de": "Wird häufig in formellen Texten verwendet, um auszudrücken, dass etwas nur in sehr geringem Umfang vorhanden oder von geringer Bedeutung ist."
   },
-
-  "minimal": {
-    "ja": "ごくわずかな",
-    "de": "sehr klein"
+　"minimal": {
+  "ja": "gering＝単に数量・程度が小さい／geringfügig＝影響・差・損害などがごく軽微である／unerheblich＝重要性が低く判断にほぼ影響しない",
+  "de": "gering = allgemein klein oder niedrig; geringfügig = nur von sehr geringem Umfang oder Ausmaß; unerheblich = für die Beurteilung kaum relevant"
   },
-
   "etymology": {
     "ja": "gering（少ない、小さい）+ fügig（結び付いた語形成要素）。現在では一語として「軽微な」の意味で用いられる。",
     "de": "Gebildet aus gering und dem historischen Bestandteil -fügig."
