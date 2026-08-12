@@ -6543,17 +6543,14 @@
     "ja": "（原因・真相などを）徹底的に調べる、究明する",
     "de": "die Ursache oder den wahren Hintergrund einer Sache gründlich untersuchen"
   },
-
   "nuance": {
     "ja": "単に『調べる』ではなく、問題や事件、原因などを深く掘り下げて真相を突き止めようとすることを表す。報道や学術、警察・司法の文脈で非常によく使われる。",
     "de": "Die Wendung bedeutet, einer Sache sorgfältig nachzugehen, um ihre Ursachen oder Hintergründe vollständig zu klären."
   },
-
   "minimal": {
-    "ja": "原因を究明する",
-    "de": "eine Ursache gründlich untersuchen"
+  "ja": "untersuchen＝対象を一般的・体系的に調べる／einer Sache nachgehen＝手掛かりや問題を追って調査する／einer Sache auf den Grund gehen＝原因・真相の核心まで徹底的に突き止める",
+  "de": "untersuchen = etwas allgemein oder systematisch prüfen; einer Sache nachgehen = einem Hinweis oder Problem weiter folgen; einer Sache auf den Grund gehen = Ursachen oder Hintergründe bis zum Kern gründlich klären"
   },
-
   "etymology": {
     "ja": "Grund は『地面・底』のほか『原因・根本』の意味もある。「物事の底まで行く」ことから『真相を究明する』の意味になった。",
     "de": "Grund bedeutet sowohl „Boden“ als auch „Ursache“. Die Redewendung drückt aus, bis zum Kern einer Sache vorzudringen."
