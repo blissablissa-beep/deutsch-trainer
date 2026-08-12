@@ -8251,5 +8251,677 @@
     "ja": "「将来の需要を事前に計算するのは難しい。」を vorausberechnen を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „vorausberechnen“."
   }
+},
+{
+  "id": "verrammen",
+  "sid": "2026-00189",
+  "word": "verrammen",
+  "tags": ["verb", "rare", "blocking", "exam"],
+  "level": "C1",
+  "freq": "rare",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "しっかり塞ぐ、封鎖する、通れないようにする",
+    "de": "etwas fest und sicher versperren oder blockieren"
+  },
+
+  "nuance": {
+    "ja": "入口・通路などを物理的に塞いで通れなくすることを表す。現代ドイツ語では非常に稀で、通常は verrammeln や verbarrikadieren が使われる。",
+    "de": "Bezeichnet das feste Versperren eines Zugangs oder Durchgangs. Im heutigen Deutsch ist das Verb selten; gebräuchlicher sind „verrammeln“ oder „verbarrikadieren“."
+  },
+
+  "minimal": {
+    "ja": "versperren＝通行・アクセスを広く妨げる／verbarrikadieren＝バリケードなどを築いて封鎖する／verrammeln＝大きな物などで入口を頑丈に塞ぐ一般的な語／verrammen＝同様に頑丈に塞ぐ意味だが、現代ではかなり稀",
+    "de": "versperren = allgemein einen Zugang oder Durchgang blockieren; verbarrikadieren = mit Barrikaden oder Gegenständen absperren; verrammeln = einen Zugang fest und sicher versperren und heute die gebräuchliche Form; verrammen = ebenfalls fest versperren, heute jedoch deutlich seltener"
+  },
+
+  "equivalents": {
+    "en": ["block", "bar", "barricade"],
+    "it": ["sbarrare", "barricare"],
+    "fr": ["bloquer", "barricader"],
+    "es": ["bloquear", "barricar"]
+  },
+
+  "etymology": {
+    "ja": "rammen（強く打ち込む、突き当てる）と関係する語。物を押し当てたり打ち込んだりして入口を塞ぐという発想。",
+    "de": "Zu „rammen“ („mit Wucht hineinstoßen, einschlagen“); die Bedeutung entwickelte sich aus dem festen Versperren durch schwere oder fest eingesetzte Gegenstände."
+  },
+
+  "example": {
+    "ja": "彼らは重い家具で入口を封鎖した。",
+    "de": "Sie verrammten den Eingang mit schweren Möbeln."
+  },
+
+  "task": {
+    "ja": "「彼らは扉をしっかり塞いだ。」を verrammen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verrammen“."
+  }
+},
+{
+  "id": "verrammeln",
+  "sid": "2026-00190",
+  "word": "verrammeln",
+  "tags": ["verb", "blocking", "security", "exam"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（入口・扉などを）頑丈に塞ぐ、封鎖する",
+    "de": "einen Zugang, eine Tür oder Öffnung mit schweren Gegenständen fest versperren"
+  },
+
+  "nuance": {
+    "ja": "単に閉めるのではなく、家具・板・物体などを使って物理的に頑丈に塞ぎ、簡単には通れない状態にすることを表す。危険回避・防御・封鎖などの文脈で使われる。",
+    "de": "Bezeichnet ein festes, meist physisches Versperren eines Zugangs, häufig mithilfe schwerer Gegenstände. Es klingt stärker und konkreter als ein bloßes „schließen“ oder „versperren“."
+  },
+
+  "minimal": {
+    "ja": "versperren＝通路・入口を広く塞ぐ一般語／verbarrikadieren＝バリケードを築くように防御的に封鎖する／verrammeln＝家具・板などで入口を頑丈に物理的に塞ぐ／verrammen＝ほぼ同義だが現代語ではかなり稀",
+    "de": "versperren = einen Zugang allgemein blockieren; verbarrikadieren = einen Zugang bewusst wie mit einer Barrikade sichern; verrammeln = einen Zugang mit schweren oder festen Gegenständen gründlich versperren; verrammen = nahezu gleichbedeutend, heute jedoch deutlich seltener"
+  },
+
+  "equivalents": {
+    "en": ["barricade", "bar", "block up"],
+    "it": ["barricare", "sbarrare"],
+    "fr": ["barricader", "condamner"],
+    "es": ["barricar", "atrancar"]
+  },
+
+  "etymology": {
+    "ja": "rammen（強く打ち込む、ぶつける）と同系で、物を押し当てたり固定したりして入口を頑丈に塞ぐイメージから発達した語。",
+    "de": "Zu „rammen“; die Bedeutung beruht auf der Vorstellung, einen Zugang durch fest eingesetzte oder schwere Gegenstände zu blockieren."
+  },
+
+  "example": {
+    "ja": "住民たちは重い家具で扉を頑丈に塞いだ。",
+    "de": "Die Bewohner verrammelten die Tür mit schweren Möbeln."
+  },
+
+  "task": {
+    "ja": "「彼らは入口を板で封鎖した。」を verrammeln を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verrammeln“."
+  }
+},
+{
+  "id": "versperren",
+  "sid": "2026-00191",
+  "word": "versperren",
+  "tags": ["verb", "general", "movement", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "塞ぐ、通れなくする、遮る、閉ざす",
+    "de": "einen Weg, Zugang oder Durchgang blockieren oder unzugänglich machen"
+  },
+
+  "nuance": {
+    "ja": "道・入口・通路などを物理的に塞ぐ一般的な動詞。verrammeln のように『物を使って頑丈に封鎖する』ことまでは含まず、単に通行やアクセスができない状態にすることを表す。比喩的に Möglichkeiten や Wege などを『閉ざす』場合にも使える。",
+    "de": "Ein allgemeines Verb für das Blockieren eines Weges, Zugangs oder Durchgangs. Anders als „verrammeln“ betont es nicht unbedingt ein besonders festes oder massives Versperren. Es kann auch übertragen gebraucht werden, etwa bei Möglichkeiten oder Wegen."
+  },
+
+  "minimal": {
+    "ja": "blockieren＝機能・進行などを広くブロックする／versperren＝道・入口・アクセスを塞いで通れなくする／verrammeln＝家具・板などを使って入口を頑丈に封鎖する／verbarrikadieren＝防御目的でバリケードのように封鎖する",
+    "de": "blockieren = allgemein eine Funktion, Bewegung oder einen Ablauf blockieren; versperren = einen Weg oder Zugang unpassierbar machen; verrammeln = einen Zugang mit schweren oder festen Gegenständen gründlich versperren; verbarrikadieren = einen Zugang zu Verteidigungszwecken wie mit einer Barrikade sichern"
+  },
+
+  "equivalents": {
+    "en": ["block", "bar", "obstruct"],
+    "it": ["sbarrare", "bloccare", "ostruire"],
+    "fr": ["barrer", "bloquer", "obstruer"],
+    "es": ["bloquear", "cerrar el paso", "obstruir"]
+  },
+
+  "etymology": {
+    "ja": "sperren（閉鎖する、通行を止める）に接頭辞 ver- が付いた語。対象への通行・アクセスを完全に妨げる方向を強める。",
+    "de": "Gebildet aus ver- und „sperren“. Das Verb bezeichnet das vollständige Sperren oder Blockieren eines Zugangs oder Weges."
+  },
+
+  "example": {
+    "ja": "倒れた木が道路を塞いでいた。",
+    "de": "Ein umgestürzter Baum versperrte die Straße."
+  },
+
+  "task": {
+    "ja": "「箱が非常口を塞いでいる。」を versperren を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „versperren“."
+  }
+},
+{
+  "id": "schleudern",
+  "sid": "2026-00192",
+  "word": "schleudern",
+  "tags": ["verb", "movement", "daily", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①勢いよく投げる、放り投げる ②（車などが）横滑りする、スピンする ③（洗濯物を）脱水する",
+    "de": "①etwas mit großer Kraft werfen oder fortschleudern ②seitlich wegrutschen oder sich unkontrolliert drehen ③Wäsche durch schnelles Drehen entwässern"
+  },
+
+  "nuance": {
+    "ja": "共通するイメージは『回転や遠心力、強い勢いによって外へ飛ばす・振り回す』こと。物を投げる場合は werfen より勢いが強く、車ではコントロールを失って横滑り・回転する意味になる。洗濯機では Schleudergang の『脱水』を表す。",
+    "de": "Allen Bedeutungen liegt die Vorstellung einer kräftigen, oft drehenden Bewegung zugrunde. Beim Werfen ist „schleudern“ kräftiger als „werfen“, bei Fahrzeugen bezeichnet es unkontrolliertes Rutschen oder Drehen, und bei Wäsche das Entwässern im Schleudergang."
+  },
+
+  "minimal": {
+    "ja": "werfen＝一般的に物を投げる／schleudern＝強い勢い・回転を伴って投げ飛ばす、または車などが横滑り・回転する／schmeißen＝口語的に投げる・放る／schleudern（洗濯）＝高速回転で水分を飛ばして脱水する",
+    "de": "werfen = etwas allgemein durch die Luft werfen; schleudern = etwas mit großer Kraft oder drehender Bewegung fortwerfen bzw. bei Fahrzeugen unkontrolliert rutschen oder drehen; schmeißen = umgangssprachlich etwas werfen; schleudern bei Wäsche = durch schnelles Drehen Wasser entfernen"
+  },
+
+  "equivalents": {
+    "en": ["hurl", "fling", "skid", "spin-dry"],
+    "it": ["scagliare", "slittare", "centrifugare"],
+    "fr": ["projeter", "déraper", "essorer"],
+    "es": ["lanzar", "derrapar", "centrifugar"]
+  },
+
+  "etymology": {
+    "ja": "中高ドイツ語 slūdern / slūder にさかのぼり、強く振る・投げ飛ばす動作を表した語。回転運動との結び付きから、車の横滑りや洗濯機の脱水にも意味が広がった。",
+    "de": "Das Verb geht auf mittelhochdeutsche Formen zurück, die kräftiges Schwingen oder Werfen bezeichneten. Aus der Vorstellung der schnellen Drehbewegung entwickelten sich auch die Bedeutungen beim Fahrzeug und beim Schleudergang."
+  },
+
+  "example": {
+    "ja": "凍った道路で車が横滑りした。",
+    "de": "Das Auto geriet auf der vereisten Straße ins Schleudern."
+  },
+
+  "task": {
+    "ja": "「洗濯機は今、洗濯物を脱水している。」を schleudern を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „schleudern“ im Zusammenhang mit einer Waschmaschine."
+  }
+},
+{
+  "id": "einsperren",
+  "sid": "2026-00193",
+  "word": "einsperren",
+  "tags": ["verb", "movement", "law", "daily"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "閉じ込める、監禁する、檻などに入れて出られなくする",
+    "de": "jemanden oder ein Tier in einem geschlossenen Raum festhalten und am Verlassen hindern"
+  },
+
+  "nuance": {
+    "ja": "人や動物を部屋・牢屋・檻などの内部に入れ、外へ出られない状態にすることを表す。意図的に自由を奪うニュアンスが強く、文脈によっては『監禁する』に近い。",
+    "de": "Bezeichnet, dass eine Person oder ein Tier in einem geschlossenen Raum festgehalten wird und diesen nicht verlassen kann. Häufig schwingt ein bewusstes Entziehen der Bewegungsfreiheit mit."
+  },
+
+  "minimal": {
+    "ja": "sperren＝場所・道路・口座などを広く閉鎖・利用停止にする／einschließen＝中に入れて閉める、または結果的に閉じ込める／einsperren＝人・動物を意図的に内部に閉じ込め、出られなくする／aussperren＝人を外側に締め出し、中へ入れなくする",
+    "de": "sperren = einen Ort, Weg oder Zugang allgemein schließen oder unzugänglich machen; einschließen = jemanden oder etwas in einem Raum einschließen, auch ohne den starken Beiklang von Gefangenschaft; einsperren = eine Person oder ein Tier bewusst einschließen und am Verlassen hindern; aussperren = jemanden draußen halten und am Betreten hindern"
+  },
+
+  "equivalents": {
+    "en": ["lock up", "confine", "imprison"],
+    "it": ["rinchiudere", "imprigionare"],
+    "fr": ["enfermer", "emprisonner"],
+    "es": ["encerrar", "encarcelar"]
+  },
+
+  "etymology": {
+    "ja": "sperren（閉鎖する、遮断する）に ein-（中へ）が付いた語で、文字どおり『中に入れて閉鎖する』という構造。",
+    "de": "Gebildet aus ein- und „sperren“; wörtlich bezeichnet es das Sperren einer Person oder eines Tieres in einen geschlossenen Bereich hinein."
+  },
+
+  "example": {
+    "ja": "犯人は被害者を地下室に閉じ込めた。",
+    "de": "Der Täter sperrte das Opfer im Keller ein."
+  },
+
+  "task": {
+    "ja": "「彼らは犬を檻に閉じ込めた。」を einsperren を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „einsperren“ und einem Hund."
+  }
+},
+{
+  "id": "aussperren",
+  "sid": "2026-00194",
+  "word": "aussperren",
+  "tags": ["verb", "movement", "daily", "society"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "締め出す、中に入れないようにする、ロックアウトする",
+    "de": "jemanden daran hindern, einen Raum, ein Gebäude oder einen Bereich zu betreten"
+  },
+
+  "nuance": {
+    "ja": "人を外側に置いたまま、部屋・建物・組織などの内部へ入れない状態にすることを表す。日常的には鍵をかけて締め出す場合に使い、労働関係では Arbeitgeber が Arbeitnehmer を職場から締め出す『ロックアウト』の意味でも用いられる。",
+    "de": "Bezeichnet, dass jemand draußen bleibt und keinen Zugang zu einem Raum, Gebäude oder Bereich erhält. Im Alltag kann es etwa um eine verschlossene Tür gehen; im Arbeitsrecht bezeichnet „aussperren“ auch den Ausschluss von Arbeitnehmern durch den Arbeitgeber."
+  },
+
+  "minimal": {
+    "ja": "einsperren＝人・動物を内部に閉じ込めて外へ出られなくする／ausschließen＝参加・所属・利用などから除外する広い語／aussperren＝人を外側に締め出し、内部へ入れなくする／versperren＝入口・道そのものを塞いで通れなくする",
+    "de": "einsperren = jemanden oder ein Tier drinnen festhalten und am Verlassen hindern; ausschließen = jemanden allgemein von Teilnahme, Zugehörigkeit oder Nutzung ausschließen; aussperren = jemanden draußen halten und am Betreten hindern; versperren = einen Weg oder Zugang selbst blockieren"
+  },
+
+  "equivalents": {
+    "en": ["lock out", "shut out", "exclude"],
+    "it": ["chiudere fuori", "escludere"],
+    "fr": ["enfermer dehors", "exclure", "interdire l'accès"],
+    "es": ["dejar fuera", "impedir la entrada", "excluir"]
+  },
+
+  "etymology": {
+    "ja": "sperren（閉鎖する、遮断する）に aus-（外へ）が付いた語。einsperren『中に閉じ込める』とは方向が正反対で、『外に置いたまま締め出す』ことを表す。",
+    "de": "Gebildet aus aus- und „sperren“. Im Gegensatz zu „einsperren“, bei dem jemand drinnen festgehalten wird, bleibt die betroffene Person beim „aussperren“ draußen."
+  },
+
+  "example": {
+    "ja": "鍵を部屋の中に置いたまま、自分を締め出してしまった。",
+    "de": "Ich habe mich ausgesperrt und den Schlüssel in der Wohnung liegen lassen."
+  },
+
+  "task": {
+    "ja": "「彼はうっかり自分を家から締め出してしまった。」を sich aussperren を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „sich aussperren“."
+  }
+},
+{
+  "id": "sperren",
+  "sid": "2026-00195",
+  "word": "sperren",
+  "tags": ["verb", "general", "daily", "society"],
+  "level": "B1-B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "閉鎖する、通行止めにする、利用停止にする、ロックする",
+    "de": "einen Zugang, Weg, Dienst oder eine Nutzung schließen, blockieren oder deaktivieren"
+  },
+
+  "nuance": {
+    "ja": "非常に広い語で、道路・区域を閉鎖する、カード・口座・電話回線を利用停止にする、アクセスを遮断するなどに使う。必ずしも物理的に物で塞ぐことを意味せず、『使えない・通れない状態にする』ことが中心。",
+    "de": "Ein sehr allgemeines Verb für das Schließen, Blockieren oder Deaktivieren eines Zugangs oder einer Nutzung. Es kann sich auf Straßen und Bereiche ebenso beziehen wie auf Karten, Konten, Anschlüsse oder digitale Zugänge."
+  },
+
+  "minimal": {
+    "ja": "schließen＝扉・店などを一般的に閉める／sperren＝道路・区域・口座・カードなどを通行・利用できない状態にする／versperren＝道・入口そのものを物理的に塞ぐ／einsperren＝人・動物を中に閉じ込める／aussperren＝人を外に締め出す",
+    "de": "schließen = etwas allgemein zumachen oder den Betrieb beenden; sperren = einen Weg, Bereich, Zugang oder Dienst unbenutzbar oder unzugänglich machen; versperren = einen Weg oder Eingang konkret blockieren; einsperren = jemanden oder ein Tier drinnen festhalten; aussperren = jemanden draußen halten und am Betreten hindern"
+  },
+
+  "equivalents": {
+    "en": ["block", "close", "lock", "disable"],
+    "it": ["bloccare", "chiudere", "disattivare"],
+    "fr": ["bloquer", "fermer", "désactiver"],
+    "es": ["bloquear", "cerrar", "desactivar"]
+  },
+
+  "etymology": {
+    "ja": "古高ドイツ語 sperran にさかのぼり、『棒などで閉じる、遮る』という意味を持つ。英語の spar やドイツ語の Sperre と同系。",
+    "de": "Geht auf althochdeutsch „sperran“ zurück, ursprünglich im Sinne von „mit einer Stange verschließen oder abriegeln“. Verwandt ist unter anderem das Substantiv „Sperre“."
+  },
+
+  "example": {
+    "ja": "事故のため警察は道路を通行止めにした。",
+    "de": "Die Polizei sperrte die Straße wegen des Unfalls."
+  },
+
+  "task": {
+    "ja": "「銀行は私のカードを利用停止にした。」を sperren を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „sperren“ und einer Bankkarte."
+  }
+},
+{
+  "id": "einschliessen",
+  "sid": "2026-00196",
+  "word": "einschließen",
+  "tags": ["verb", "general", "movement", "abstract"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①中に入れて閉じ込める ②包囲する ③含む、包含する",
+    "de": "①jemanden oder etwas in einem geschlossenen Raum einschließen ②etwas oder jemanden umschließen oder einkreisen ③etwas mit umfassen oder enthalten"
+  },
+
+  "nuance": {
+    "ja": "einsperren より中立的で意味が広い。人を部屋などに閉じ込める場合にも使えるが、必ずしも監禁のニュアンスはない。また地域を包囲する意味や、費用・条件などを『含む』という抽象的用法も非常に重要。",
+    "de": "Das Verb ist neutraler und bedeutungsweiter als „einsperren“. Es kann das Einschließen in einen Raum bezeichnen, ohne notwendigerweise Gefangenschaft zu betonen. Außerdem bedeutet es auch „umschließen“ sowie abstrakt „mit umfassen“ oder „enthalten“."
+  },
+
+  "minimal": {
+    "ja": "einsperren＝人・動物を意図的に閉じ込めて自由を奪う／einschließen＝中に入れて閉める一般語で、監禁の含意は必須でなく、『含む』の意味にも使う／umschließen＝周囲を取り囲む・包み込む／enthalten＝内容・成分として含んでいる",
+    "de": "einsperren = eine Person oder ein Tier bewusst festhalten und der Bewegungsfreiheit berauben; einschließen = jemanden oder etwas allgemein in einem geschlossenen Bereich einschließen und außerdem „mit umfassen“ bedeuten; umschließen = etwas von allen Seiten umgeben; enthalten = etwas als Bestandteil oder Inhalt in sich haben"
+  },
+
+  "equivalents": {
+    "en": ["enclose", "lock in", "include", "surround"],
+    "it": ["chiudere dentro", "includere", "circondare"],
+    "fr": ["enfermer", "inclure", "encercler"],
+    "es": ["encerrar", "incluir", "rodear"]
+  },
+
+  "etymology": {
+    "ja": "schließen（閉じる）に ein-（中へ）が付いた語で、基本イメージは『中に入れて閉じる』。そこから『周囲を囲む』『範囲の中に含める』へ意味が広がった。",
+    "de": "Gebildet aus ein- und „schließen“. Die Grundvorstellung ist, etwas durch Schließen in einem Bereich zu halten; daraus entwickelten sich die Bedeutungen „umschließen“ und „mit umfassen“."
+  },
+
+  "example": {
+    "ja": "料金には朝食が含まれています。",
+    "de": "Der Preis schließt das Frühstück ein."
+  },
+
+  "task": {
+    "ja": "「送料は料金に含まれている。」を einschließen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „einschließen“ in der Bedeutung „mit umfassen“."
+  }
+},
+{
+  "id": "ausschliessen",
+  "sid": "2026-00197",
+  "word": "ausschließen",
+  "tags": ["verb", "general", "abstract", "society"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①除外する、締め出す ②可能性を排除する ③参加・利用などを認めない",
+    "de": "①jemanden oder etwas von einer Gruppe, Teilnahme oder Nutzung ausschließen ②eine Möglichkeit als unmöglich verwerfen ③jemandem den Zugang oder die Teilnahme verwehren"
+  },
+
+  "nuance": {
+    "ja": "人を集団・活動・制度などから除外する場合にも、ある可能性を論理的に『排除する』場合にも使える非常に広い語。aussperren のような物理的な『外に締め出す』より抽象的な除外にも自然に使える。",
+    "de": "Ein sehr vielseitiges Verb. Es kann bedeuten, jemanden von einer Gruppe, Tätigkeit oder Nutzung auszuschließen, aber auch eine Möglichkeit logisch oder sachlich auszuschließen. Anders als „aussperren“ ist es nicht auf ein physisches Draußenhalten beschränkt."
+  },
+
+  "minimal": {
+    "ja": "aussperren＝人を物理的に外に締め出して中へ入れなくする／ausschließen＝人を参加・所属・利用などから除外する、または可能性を排除する／ausgrenzen＝人・集団を社会的に周縁化し仲間外れにする／verwerfen＝案・仮説・考えなどを不適切として退ける",
+    "de": "aussperren = jemanden physisch draußen halten und am Betreten hindern; ausschließen = jemanden von Teilnahme, Zugehörigkeit oder Nutzung ausschließen oder eine Möglichkeit verwerfen; ausgrenzen = Personen oder Gruppen sozial an den Rand drängen; verwerfen = einen Vorschlag, eine Hypothese oder Idee als ungeeignet ablehnen"
+  },
+
+  "equivalents": {
+    "en": ["exclude", "rule out", "bar"],
+    "it": ["escludere", "scartare"],
+    "fr": ["exclure", "écarter"],
+    "es": ["excluir", "descartar"]
+  },
+
+  "etymology": {
+    "ja": "schließen（閉じる）に aus-（外へ）が付いた語。もともとの『外側に閉め出す』という発想から、『集団や範囲から除外する』『可能性を排除する』という抽象的意味へ発展した。",
+    "de": "Gebildet aus aus- und „schließen“. Aus der Grundvorstellung, jemanden oder etwas außerhalb eines geschlossenen Bereichs zu halten, entwickelten sich die abstrakten Bedeutungen „von etwas ausschließen“ und „eine Möglichkeit ausschließen“."
+  },
+
+  "example": {
+    "ja": "技術的な故障の可能性は排除できない。",
+    "de": "Ein technischer Defekt kann nicht ausgeschlossen werden."
+  },
+
+  "task": {
+    "ja": "「その可能性を完全に排除することはできない。」を ausschließen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „ausschließen“ in der Bedeutung „eine Möglichkeit verwerfen“."
+  }
+},
+{
+  "id": "samt",
+  "sid": "2026-00198",
+  "word": "samt",
+  "tags": ["preposition", "general", "written", "exam"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "preposition"
+  },
+
+  "meaning": {
+    "ja": "〜を含めて、〜ごと、〜付きで",
+    "de": "zusammen mit; einschließlich; mitsamt"
+  },
+
+  "nuance": {
+    "ja": "ある人・物に、それに付随するものもまとめて含めることを表す前置詞。日常語の mit よりやや文章語的で、『本体だけでなく付属するものまで全部ひっくるめて』というまとまりの感覚がある。通常は3格を取る。",
+    "de": "Die Präposition bezeichnet, dass etwas zusammen mit einer dazugehörigen Person oder Sache einbezogen wird. Sie wirkt etwas schriftsprachlicher als „mit“ und betont häufig, dass etwas als Ganzes mitsamt seinen Bestandteilen erfasst wird. Sie steht gewöhnlich mit dem Dativ."
+  },
+
+  "minimal": {
+    "ja": "mit＝単に『〜と一緒に・〜付きで』を表す最も一般的な語／einschließlich＝範囲・料金・項目などに『〜を含めて』と明示する／samt＝本体に付随する人・物もまとめて含める、やや文章語的な『〜ごと・〜付きで』／mitsamt＝samt をさらに強調し、『〜もろとも・〜一式ごと』の意味を強く出す",
+    "de": "mit = die allgemeine Präposition für Begleitung oder Ausstattung; einschließlich = betont ausdrücklich, dass etwas in einen Umfang oder eine Gesamtheit einbezogen ist; samt = schließt etwas zusammen mit dem Dazugehörigen ein und wirkt etwas schriftsprachlicher; mitsamt = verstärkt „samt“ und betont besonders das vollständige Mitnehmen oder Einbeziehen"
+  },
+
+  "equivalents": {
+    "en": ["including", "together with", "complete with"],
+    "it": ["compreso", "insieme con"],
+    "fr": ["avec", "y compris"],
+    "es": ["con", "incluido"]
+  },
+
+  "etymology": {
+    "ja": "中高ドイツ語 samet に由来し、もともと『一緒に、共に』を意味した。zusammen と同じく『一体となって』という発想をもつ。",
+    "de": "Geht auf mittelhochdeutsch „samet“ zurück und bedeutete ursprünglich „zusammen, gemeinsam“. Die Grundvorstellung ist das gemeinsame Zusammenfassen."
+  },
+
+  "example": {
+    "ja": "彼は家を家具ごと売った。",
+    "de": "Er verkaufte das Haus samt den Möbeln."
+  },
+
+  "task": {
+    "ja": "「彼女は子どもたちを荷物ごと連れてきた。」を samt を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „samt“."
+  }
+},
+{
+  "id": "mitsamt",
+  "sid": "2026-00199",
+  "word": "mitsamt",
+  "tags": ["preposition", "written", "emphasis", "exam"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "preposition"
+  },
+
+  "meaning": {
+    "ja": "〜もろとも、〜ごと全部、〜一式を含めて",
+    "de": "zusammen mit allem Dazugehörigen; samt; einschließlich"
+  },
+
+  "nuance": {
+    "ja": "samt を強めた表現で、本体だけでなく付随する人・物・内容まで丸ごと一緒に含まれることを強調する。やや文章語的で、『一式ごと』『もろとも』というニュアンスが出やすい。通常は3格を取る。",
+    "de": "„Mitsamt“ ist eine verstärkende Variante von „samt“ und betont, dass etwas vollständig zusammen mit allem Dazugehörigen einbezogen wird. Es wirkt eher schriftsprachlich und steht gewöhnlich mit dem Dativ."
+  },
+
+  "minimal": {
+    "ja": "mit＝単に『〜と一緒に』を表す一般語／samt＝付随するものも含めて『〜ごと・〜付きで』というやや文章語的表現／mitsamt＝samt を強めて『〜もろとも・付属するもの一式ごと』と丸ごと含むことを強調する／einschließlich＝範囲・料金・項目などに『〜を含めて』と明示する",
+    "de": "mit = allgemeiner Ausdruck für Begleitung; samt = etwas zusammen mit dem Dazugehörigen, etwas schriftsprachlich; mitsamt = verstärkt „samt“ und betont das vollständige Einbeziehen von etwas samt allem Zubehör oder Begleitenden; einschließlich = betont ausdrücklich die Einbeziehung in einen Umfang oder eine Gesamtheit"
+  },
+
+  "equivalents": {
+    "en": ["together with", "complete with", "along with everything"],
+    "it": ["insieme con tutto", "compreso tutto"],
+    "fr": ["avec tout", "y compris tout"],
+    "es": ["junto con todo", "incluido todo"]
+  },
+
+  "etymology": {
+    "ja": "mit と samt の結合。samt 自体が『一緒に』を意味するため、mitsamt は意味的には重ね合わせによって『一緒に全部まとめて』という強調を生む。",
+    "de": "Zusammensetzung aus „mit“ und „samt“. Da „samt“ bereits „zusammen mit“ bedeutet, entsteht durch die Verbindung eine verstärkende Bedeutung im Sinne von „vollständig zusammen mit allem Dazugehörigen“."
+  },
+
+  "example": {
+    "ja": "彼は家を家具もろとも売った。",
+    "de": "Er verkaufte das Haus mitsamt den Möbeln."
+  },
+
+  "task": {
+    "ja": "「車は中の荷物もろとも盗まれた。」を mitsamt を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „mitsamt“."
+  }
+},
+{
+  "id": "einschliesslich",
+  "sid": "2026-00200",
+  "word": "einschließlich",
+  "tags": ["preposition", "written", "formal", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "preposition"
+  },
+
+  "meaning": {
+    "ja": "〜を含めて、〜込みで",
+    "de": "unter Einbeziehung von; inklusive"
+  },
+
+  "nuance": {
+    "ja": "料金・期間・人数・項目・範囲などについて、あるものが明示的にその中に含まれることを表す。samt や mitsamt のような『付随物もまとめて』という感覚より、範囲や計算上の包含を客観的に示す表現。文章語・事務的文脈で特に多い。",
+    "de": "Bezeichnet ausdrücklich, dass etwas in einen Umfang, Preis, Zeitraum, eine Anzahl oder Aufzählung einbezogen ist. Im Unterschied zu „samt“ oder „mitsamt“ steht weniger das gemeinsame Mitführen als die sachliche Einbeziehung in eine Gesamtheit im Vordergrund."
+  },
+
+  "minimal": {
+    "ja": "inklusive＝『〜込みで』を簡潔に表す一般的な語／einschließlich＝範囲・料金・期間・項目などに明示的に含まれることを表す、やや事務的・文章語的な語／samt＝本体に付随するものもまとめて『〜ごと・〜付きで』／mitsamt＝付随物まで丸ごと含めることをさらに強調して『〜もろとも』",
+    "de": "inklusive = kurze und allgemeine Angabe im Sinne von „mit eingeschlossen“; einschließlich = ausdrückliche Einbeziehung in einen Umfang, Preis, Zeitraum oder eine Aufzählung, eher sachlich und schriftsprachlich; samt = etwas zusammen mit dem Dazugehörigen; mitsamt = verstärkt „samt“ und betont das vollständige Mitumfassen"
+  },
+
+  "equivalents": {
+    "en": ["including", "inclusive of"],
+    "it": ["compreso", "incluso"],
+    "fr": ["y compris", "inclus"],
+    "es": ["incluido", "incluyendo"]
+  },
+
+  "etymology": {
+    "ja": "einschließen（含める、包含する）から派生した語。文字どおり『中に含めることによって』という発想。",
+    "de": "Abgeleitet von „einschließen“ in der Bedeutung „mit umfassen, einbeziehen“."
+  },
+
+  "example": {
+    "ja": "料金は朝食込みで120ユーロです。",
+    "de": "Der Preis beträgt 120 Euro einschließlich Frühstück."
+  },
+
+  "task": {
+    "ja": "「月曜日を含めて5日間です。」を einschließlich を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „einschließlich“ und einem Zeitraum."
+  }
+},
+{
+  "id": "inklusive",
+  "sid": "2026-00201",
+  "word": "inklusive",
+  "tags": ["preposition", "general", "daily", "commerce"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "preposition"
+  },
+
+  "meaning": {
+    "ja": "〜を含めて、〜込みで",
+    "de": "einschließlich; im Preis oder Umfang enthalten"
+  },
+
+  "nuance": {
+    "ja": "料金・サービス・付属品などが『込み』であることを簡潔に示す語。einschließlich より会話・広告・料金表示などで軽く使いやすい。『inklusive Frühstück』『Preis inklusive Versand』のような形が典型的。",
+    "de": "Eine kurze und gebräuchliche Angabe dafür, dass etwas im Preis, Angebot oder Umfang enthalten ist. Im Vergleich zu „einschließlich“ wirkt „inklusive“ oft knapper und alltagssprachlicher und ist besonders in Werbung, Preisangaben und Angeboten häufig."
+  },
+
+  "minimal": {
+    "ja": "mit＝単に『〜と一緒に・〜付きで』を表す一般語／inklusive＝料金・サービス・付属品などについて簡潔に『〜込みで』と示す／einschließlich＝範囲・期間・料金・項目などへの包含をより明示的・事務的に表す／samt＝本体に付随するものもまとめて『〜ごと・〜付きで』",
+    "de": "mit = allgemeiner Ausdruck für Begleitung oder Ausstattung; inklusive = kurze und gebräuchliche Angabe dafür, dass etwas im Preis oder Umfang enthalten ist; einschließlich = ausdrückliche und eher sachlich-schriftsprachliche Einbeziehung in einen Umfang, Zeitraum oder Preis; samt = etwas zusammen mit dem Dazugehörigen"
+  },
+
+  "equivalents": {
+    "en": ["including", "inclusive of"],
+    "it": ["incluso", "compreso"],
+    "fr": ["inclus", "y compris"],
+    "es": ["incluido", "con"]
+  },
+
+  "etymology": {
+    "ja": "ラテン語 includere（中に閉じ込める、含める）に由来する国際語。ドイツ語では inklusive として『〜を含めて』の意味で定着した。",
+    "de": "Internationales Wort auf Grundlage von lateinisch „includere“ („einschließen“). Im Deutschen entwickelte sich „inklusive“ zur gebräuchlichen Angabe im Sinne von „einschließlich“."
+  },
+
+  "example": {
+    "ja": "宿泊料金は朝食込みで80ユーロです。",
+    "de": "Das Zimmer kostet 80 Euro inklusive Frühstück."
+  },
+
+  "task": {
+    "ja": "「価格は送料込みです。」を inklusive を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „inklusive“ und Versandkosten."
+  }
+},
+{
+  "id": "ausschliesslich",
+  "sid": "2026-00202",
+  "word": "ausschließlich",
+  "tags": ["adverb", "preposition", "formal", "written"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adverb"
+  },
+
+  "meaning": {
+    "ja": "もっぱら、〜だけ、〜のみ、〜に限って",
+    "de": "nur; einzig; unter Ausschluss aller anderen"
+  },
+
+  "nuance": {
+    "ja": "ある対象・範囲だけに限定し、それ以外を明確に除外することを表す。nur より硬く、契約・規約・案内・説明文などで特に多い。副詞としても、名詞句とともに前置詞的にも使われる。",
+    "de": "Bezeichnet eine klare Beschränkung auf eine bestimmte Person, Sache, Gruppe oder Möglichkeit unter Ausschluss aller anderen. Es wirkt formeller und präziser als „nur“ und ist besonders in Verträgen, Regeln und sachlichen Texten häufig."
+  },
+
+  "minimal": {
+    "ja": "nur＝『〜だけ』を表す最も一般的な語／lediglich＝『単に・ただ〜だけ』と範囲や程度の小ささをやや客観的に示す／ausschließlich＝他のものを明確に除外して『〜のみ』に限定する、より硬く明示的な語／einschließlich＝逆に、あるものを範囲の中へ『含めて』という意味",
+    "de": "nur = der allgemeine Ausdruck für eine Beschränkung; lediglich = betont eher sachlich, dass etwas nicht mehr als das Genannte ist; ausschließlich = beschränkt etwas ausdrücklich auf das Genannte und schließt alles andere aus; einschließlich = bezeichnet im Gegensatz dazu die ausdrückliche Einbeziehung von etwas"
+  },
+
+  "equivalents": {
+    "en": ["exclusively", "solely", "only"],
+    "it": ["esclusivamente", "soltanto"],
+    "fr": ["exclusivement", "uniquement"],
+    "es": ["exclusivamente", "solamente"]
+  },
+
+  "etymology": {
+    "ja": "ausschließen（除外する、排除する）から派生した語で、文字どおり『他を除外して』という発想から『〜だけ、〜のみ』の意味になった。",
+    "de": "Abgeleitet von „ausschließen“. Die Bedeutung beruht auf der Vorstellung, alles andere auszuschließen und sich nur auf das Genannte zu beschränken."
+  },
+
+  "example": {
+    "ja": "この部屋は宿泊客だけが利用できます。",
+    "de": "Dieser Raum ist ausschließlich für Hotelgäste bestimmt."
+  },
+
+  "task": {
+    "ja": "「このサービスは会員のみ利用できます。」を ausschließlich を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „ausschließlich“ und Mitgliedern."
+  }
 }
 ]
