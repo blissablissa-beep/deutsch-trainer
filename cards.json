@@ -6774,12 +6774,10 @@
     "ja": "映画・観光地・建築物などによく使われる。",
     "de": "Typisch für Filme, Sehenswürdigkeiten oder Ausstellungen."
   },
-
   "minimal": {
-    "ja": "見る価値がある",
-    "de": "wert zu sehen"
-  },
-
+  "ja": "interessant＝内容として興味深い／beeindruckend＝強い印象を与える／sehenswert＝映画・景色・建物などが実際に見る価値をもつ",
+  "de": "interessant = inhaltlich interessant; beeindruckend = einen starken Eindruck hinterlassend; sehenswert = etwas ist es wert, angesehen oder besichtigt zu werden"
+　},
   "etymology": {
     "ja": "sehen + -enswert。",
     "de": "Aus sehen + -enswert."
