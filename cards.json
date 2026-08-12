@@ -6626,12 +6626,10 @@
     "ja": "人の行為や努力、態度などについて『褒めるに値する』ことを表す。ややフォーマルな語で、新聞・評論・演説などでよく用いられる。",
     "de": "Wird vor allem in formellen Kontexten verwendet, um auszudrücken, dass eine Handlung oder Leistung Anerkennung verdient."
   },
-
   "minimal": {
-    "ja": "称賛に値する",
-    "de": "des Lobes würdig"
+  "ja": "lobenswert＝称賛に値する（最も一般的）／lobenswürdig＝称賛に値する（より硬く、やや古風）／anerkennenswert＝努力・成果などを評価・承認するに値する",
+  "de": "lobenswert = allgemein des Lobes wert; lobenswürdig = ebenfalls des Lobes würdig, aber gehobener und etwas altmodischer; anerkennenswert = eine Leistung oder Bemühung verdient Anerkennung"
   },
-
   "etymology": {
     "ja": "Lob（称賛）+ -enswert（～する価値がある）。",
     "de": "Gebildet aus Lob und dem Suffix -enswert („würdig, es wert zu sein“)."
