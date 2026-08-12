@@ -6349,12 +6349,10 @@
     "ja": "議論や過程を経たうえでの『最終的な帰結』を表す。口語では „im Endeffekt“ が非常によく使われる。",
     "de": "Wird oft verwendet, um das endgültige Resultat einer Entwicklung zusammenzufassen."
   },
-
-  "minimal": {
-    "ja": "最後に残る結果",
-    "de": "das endgültige Resultat"
-  },
-
+ "minimal": {
+  "ja": "Ergebnis＝作業・過程の結果そのもの／Folge＝ある原因から生じる帰結・影響／Endeffekt＝さまざまな経過を経た末の最終的な結果",
+  "de": "Ergebnis = das Resultat eines Vorgangs; Folge = eine daraus entstehende Konsequenz; Endeffekt = das endgültige Resultat nach dem gesamten Verlauf"
+ },
   "etymology": {
     "ja": "End-（終わり）+ Effekt（効果・結果）。",
     "de": "Aus End- + Effekt."
