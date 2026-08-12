@@ -6312,12 +6312,10 @@
     "ja": "単なる『見る』ではなく、『裏側まで理解する・欺瞞を見抜く』ニュアンスが強い。",
     "de": "Betont das Erkennen verborgener Zusammenhänge oder Absichten."
   },
-
-  "minimal": {
-    "ja": "表面の奥まで理解する",
-    "de": "hinter die Oberfläche sehen"
-  },
-
+ "minimal": {
+  "ja": "verstehen＝内容を理解する／erkennen＝何かに気づく・見分ける／durchschauen＝表面の奥にある仕組み・意図・欺瞞まで見抜く",
+  "de": "verstehen = den Inhalt begreifen; erkennen = etwas wahrnehmen oder identifizieren; durchschauen = verborgene Zusammenhänge, Absichten oder Täuschungen vollständig erkennen"
+ },
   "etymology": {
     "ja": "durch-（貫いて）+ schauen（見る）。『向こう側まで見通す』が原義。",
     "de": "durch- + schauen = „hindurchsehen“."
