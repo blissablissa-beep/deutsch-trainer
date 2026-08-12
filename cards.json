@@ -7869,5 +7869,101 @@
     "ja": "「彼は古い部品を使って小さなロボットを組み立てた。」を basteln を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „basteln“."
   }
+},
+{
+  "id": "begeben",
+  "sid": "2026-00180",
+  "word": "sich begeben",
+  "tags": ["verb", "formal", "movement", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①向かう、赴く ②（ある状態・状況に）身を置く",
+    "de": "①sich an einen Ort begeben ②sich in einen bestimmten Zustand oder eine Situation bringen"
+  },
+
+  "nuance": {
+    "ja": "日常的な gehen よりフォーマルで、案内・公的表現・書き言葉でよく使われる。場所への移動だけでなく、Gefahr・Abhängigkeit・Obhut など抽象的な状態に入る場合にも使える。",
+    "de": "Formeller als „gehen“. Das Verb wird häufig in Anweisungen, offiziellen Texten und festen Wendungen verwendet und kann sowohl räumliche Bewegung als auch den Eintritt in eine abstrakte Situation ausdrücken."
+  },
+
+  "minimal": {
+    "ja": "赴く、身を置く",
+    "de": "gehen; sich in eine Lage bringen"
+  },
+
+  "equivalents": {
+    "en": ["proceed", "go", "enter"],
+    "it": ["recarsi", "dirigersi"],
+    "fr": ["se rendre", "se diriger"],
+    "es": ["dirigirse", "acudir"]
+  },
+
+  "etymology": {
+    "ja": "geben に接頭辞 be- が付いた古い動詞に由来し、再帰形 sich begeben が『ある場所・状態へ身を移す』という意味で定着した。",
+    "de": "Historisch zu „geben“ gebildet; die reflexive Form „sich begeben“ entwickelte die Bedeutung „sich an einen Ort oder in einen Zustand bringen“."
+  },
+
+  "example": {
+    "ja": "乗客はすぐに搭乗口へ向かうよう求められた。",
+    "de": "Die Passagiere wurden gebeten, sich unverzüglich zum Gate zu begeben."
+  },
+
+  "task": {
+    "ja": "「彼は自ら危険な状況に身を置いた。」を sich begeben を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „sich in Gefahr begeben“."
+  }
+},
+{
+  "id": "anvertrauen",
+  "sid": "2026-00181",
+  "word": "anvertrauen",
+  "tags": ["verb", "trust", "communication", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①（秘密・考えなどを）打ち明ける ②（人・物・任務などを）信頼して託す",
+    "de": "①jemandem etwas Persönliches oder Vertrauliches mitteilen ②jemandem etwas oder jemanden in vertrauensvolle Obhut geben"
+  },
+
+  "nuance": {
+    "ja": "単に『伝える』のではなく、相手を信頼して大切な情報・人・物などを委ねるニュアンスがある。秘密、悩み、子ども、財産、任務など幅広い目的語と使える。",
+    "de": "Das Verb setzt Vertrauen voraus. Man übergibt einer Person etwas Wertvolles, Persönliches oder Schutzbedürftiges oder teilt ihr etwas Vertrauliches mit."
+  },
+
+  "minimal": {
+    "ja": "信頼して託す、打ち明ける",
+    "de": "jemandem vertrauensvoll etwas übergeben oder mitteilen"
+  },
+
+  "equivalents": {
+    "en": ["entrust", "confide"],
+    "it": ["affidare", "confidare"],
+    "fr": ["confier"],
+    "es": ["confiar", "confiar a"]
+  },
+
+  "etymology": {
+    "ja": "接頭辞 an- + vertrauen（信頼する）。『誰かに信頼をもって委ねる』という構造。",
+    "de": "Gebildet aus an- und „vertrauen“; ursprünglich im Sinne von „jemandem im Vertrauen übergeben“."
+  },
+
+  "example": {
+    "ja": "彼女は親友にその秘密を打ち明けた。",
+    "de": "Sie vertraute ihrer besten Freundin das Geheimnis an."
+  },
+
+  "task": {
+    "ja": "「私は子どもを彼に安心して任せられる。」を anvertrauen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „jemandem etwas anvertrauen“."
+  }
 }
 ]
