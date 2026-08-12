@@ -6700,12 +6700,10 @@
     "ja": "lobenswertよりも強く、「感嘆・尊敬」を含む。",
     "de": "Drückt stärkere Anerkennung als „lobenswert“ aus."
   },
-
   "minimal": {
-    "ja": "感嘆に値する",
-    "de": "Bewunderung verdienend"
+  "ja": "lobenswert＝行為・姿勢などが称賛に値する／bemerkenswert＝特徴・内容が特筆に値する／bewundernswert＝能力・勇気・成果などが感嘆・敬服に値する",
+  "de": "lobenswert = eine Handlung oder Haltung verdient Lob; bemerkenswert = etwas ist wegen einer besonderen Eigenschaft erwähnenswert; bewundernswert = eine Leistung, Fähigkeit oder Haltung verdient echte Bewunderung"
   },
-
   "etymology": {
     "ja": "bewundern（感嘆する）+ -enswert。",
     "de": "Aus bewundern + -enswert."
