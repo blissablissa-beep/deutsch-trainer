@@ -6271,10 +6271,10 @@
     "ja": "政治・経済・国際関係などが複雑に絡み合っていることを表す硬めの語。",
     "de": "Wird häufig in Politik, Wirtschaft und Soziologie verwendet."
   },
-　"minimal": {
+ "minimal": {
    "ja": "Verbindung＝単なる結び付き／Abhängigkeit＝依存関係／Verflechtung＝複数要素が複雑に絡み合った相互連関",
    "de": "Verbindung = allgemeine Verbindung; Abhängigkeit = einseitige oder gegenseitige Abhängigkeit; Verflechtung = komplexes Ineinandergreifen mehrerer Beziehungen"
-　},
+  },
   "etymology": {
     "ja": "flechten（編む）→『互いに編み込まれた状態』。",
     "de": "Von flechten („ineinander flechten“)."
@@ -6385,7 +6385,7 @@
     "ja": "投資や事業、政策などを実施する価値があるかを判断するための試算を表す。経営・経済・行政の文脈でよく用いられる。",
     "de": "Wird verwendet, um zu beurteilen, ob sich eine Investition, ein Projekt oder eine Maßnahme wirtschaftlich lohnt."
   },
-　"minimal": {
+  "minimal": {
    "ja": "Kosten-Nutzen-Kalkulation＝費用と便益を具体的に試算・計算すること／Kosten-Nutzen-Analyse＝費用と便益をより広く体系的に評価・分析すること",
    "de": "Kosten-Nutzen-Kalkulation = konkrete rechnerische Gegenüberstellung von Kosten und Nutzen; Kosten-Nutzen-Analyse = umfassendere systematische Bewertung von Kosten und Nutzen"
  },
@@ -6466,7 +6466,7 @@
     "ja": "数量・程度・影響・損害などが非常に小さいことを表す。法律、経済、ニュースなど幅広い分野で頻出。『gering（少ない）』よりもややフォーマルな響きがある。",
     "de": "Wird häufig in formellen Texten verwendet, um auszudrücken, dass etwas nur in sehr geringem Umfang vorhanden oder von geringer Bedeutung ist."
   },
-　"minimal": {
+  "minimal": {
    "ja": "gering＝単に数量・程度が小さい／geringfügig＝影響・差・損害などがごく軽微である／unerheblich＝重要性が低く判断にほぼ影響しない",
    "de": "gering = allgemein klein oder niedrig; geringfügig = nur von sehr geringem Umfang oder Ausmaß; unerheblich = für die Beurteilung kaum relevant"
   },
@@ -6585,7 +6585,7 @@
   "minimal": {
    "ja": "basieren auf＝何かを土台・基盤として成り立つ／beruhen auf＝原因・根拠に由来する／zugrunde liegen＝判断・理論・現象などの背後で根本的な基礎・要因として存在する",
    "de": "basieren auf = auf einer Grundlage aufgebaut sein; beruhen auf = auf einer Ursache oder einem Grund beruhen; zugrunde liegen = einem Sachverhalt als grundlegende Basis oder Ursache zugrunde liegen"
-　},
+  },
 
   "etymology": {
     "ja": "zugrunde（根底に）+ liegen（横たわる）。文字どおり「根底に横たわっている」ことから「基礎となる」の意味になった。",
@@ -6773,7 +6773,7 @@
   "minimal": {
    "ja": "interessant＝内容として興味深い／beeindruckend＝強い印象を与える／sehenswert＝映画・景色・建物などが実際に見る価値をもつ",
    "de": "interessant = inhaltlich interessant; beeindruckend = einen starken Eindruck hinterlassend; sehenswert = etwas ist es wert, angesehen oder besichtigt zu werden"
-　},
+  },
   "etymology": {
     "ja": "sehen + -enswert。",
     "de": "Aus sehen + -enswert."
@@ -6843,7 +6843,7 @@
     "ja": "雑学・豆知識・説明記事などで頻出。",
     "de": "Wird oft in Informations- und Sachtexten verwendet."
   },
-　"minimal": {
+  "minimal": {
    "ja": "interessant＝興味を引く／wichtig＝重要性が高い／wissenswert＝知識として知っておく価値がある",
    "de": "interessant = Interesse weckend; wichtig = von großer Bedeutung; wissenswert = etwas ist es wert, gewusst zu werden"
   },
@@ -6920,10 +6920,10 @@
     "ja": "単に『捨てる（wegwerfen）』ではなく、ごみを分別したり、法律やルールに従って適切に処分したりすることを表す。ドイツでは環境保護やリサイクルの文脈で非常によく使われる。",
     "de": "Im Unterschied zu „wegwerfen“ bedeutet „entsorgen“, etwas ordnungsgemäß und umweltgerecht zu beseitigen oder dem Recycling zuzuführen."
   },
-　"minimal": {
+  "minimal": {
    "ja": "wegwerfen＝不要な物を単に捨てる／beseitigen＝邪魔・問題などを取り除く／entsorgen＝ごみ・廃棄物などを適切な方法で処分する",
    "de": "wegwerfen = etwas nicht mehr Benötigtes einfach fortwerfen; beseitigen = etwas Störendes oder ein Problem entfernen; entsorgen = Abfall oder nicht mehr benötigte Stoffe sachgerecht der Entsorgung zuführen"
-　 },
+  },
   "etymology": {
     "ja": "接頭辞 ent-（取り除く）+ sorgen（配慮する、世話をする）。もともとは『心配事を取り除く』という発想から、現在では『不要物を適切に処理する』という意味になった。",
     "de": "Aus ent- und sorgen. Ursprünglich bedeutete es, etwas aus der Sorge zu schaffen; heute vor allem „Abfälle fachgerecht beseitigen“."
@@ -6959,7 +6959,7 @@
     "ja": "障害物・危険・問題・汚れ・証拠など、幅広い対象を『取り除く』ことを表す。物理的な除去にも抽象的な問題解決にも使える非常に汎用性の高い動詞。",
     "de": "Ein vielseitiges Verb für das Entfernen von Gegenständen, Hindernissen, Problemen oder Gefahren."
   },
-　 "minimal": {
+  "minimal": {
    "ja": "entfernen＝広く「取り除く・遠ざける」／beseitigen＝邪魔・問題・欠陥などをなくす／entsorgen＝不要物・廃棄物を適切に処分する",
    "de": "entfernen = allgemein etwas wegnehmen oder auf Distanz bringen; beseitigen = etwas Störendes, Unerwünschtes oder ein Problem aus dem Weg schaffen; entsorgen = Abfall oder nicht mehr benötigte Stoffe sachgerecht der Entsorgung zuführen"
   },
@@ -7032,7 +7032,7 @@
   },
 
   "meaning": {
-    "ja": "①つまずきの石、障害物、障害　②（Stolperstein）ナチス犠牲者を追悼する記念舗石",
+    "ja": "①つまずきの石、障害物、障害 ②（Stolperstein）ナチス犠牲者を追悼する記念舗石",
     "de": "①ein Hindernis oder Problem, das Schwierigkeiten verursacht ②eine kleine Messingplatte im Gehweg zur Erinnerung an Opfer des Nationalsozialismus"
   },
 
