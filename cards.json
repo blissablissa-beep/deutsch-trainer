@@ -6586,11 +6586,10 @@
     "ja": "ある現象・判断・理論・決定などの背景や基礎、原因となっていることを表す。新聞、学術、法律などフォーマルな文章で非常によく使われる。",
     "de": "Die Wendung beschreibt die Grundlage, den Hintergrund oder die Ursache eines Sachverhalts und ist typisch für formelle Texte."
   },
-
   "minimal": {
-    "ja": "根底にある",
-    "de": "die Grundlage bilden"
-  },
+  "ja": "basieren auf＝何かを土台・基盤として成り立つ／beruhen auf＝原因・根拠に由来する／zugrunde liegen＝判断・理論・現象などの背後で根本的な基礎・要因として存在する",
+  "de": "basieren auf = auf einer Grundlage aufgebaut sein; beruhen auf = auf einer Ursache oder einem Grund beruhen; zugrunde liegen = einem Sachverhalt als grundlegende Basis oder Ursache zugrunde liegen"
+　} ,
 
   "etymology": {
     "ja": "zugrunde（根底に）+ liegen（横たわる）。文字どおり「根底に横たわっている」ことから「基礎となる」の意味になった。",
