@@ -6663,12 +6663,10 @@
     "ja": "新聞や論説で非常によく見られる語。「注目すべき」「特筆すべき」という客観的評価を表す。",
     "de": "Wird häufig verwendet, um auf etwas Besonderes oder Auffälliges hinzuweisen."
   },
-
   "minimal": {
-    "ja": "注目に値する",
-    "de": "beachtenswert"
+  "ja": "auffällig＝目立つ・人目を引く（良し悪しは問わない）／beachtlich＝量・程度・成果などがかなり大きく注目に値する／bemerkenswert＝内容・特徴が特筆する価値をもち、言及するに値する",
+  "de": "auffällig = ins Auge fallend, ohne notwendige Wertung; beachtlich = hinsichtlich Umfang, Grad oder Leistung erheblich; bemerkenswert = aufgrund einer besonderen Eigenschaft erwähnens- oder beachtenswert"
   },
-
   "etymology": {
     "ja": "bemerken（気づく）+ -enswert。",
     "de": "Aus bemerken + -enswert."
