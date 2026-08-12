@@ -6216,7 +6216,6 @@
       "Typisch in politischen Zielsetzungen (z. B. 2045/2050)."
     ]
   },
-
   "minimal": {
     "ja": [
       "Klimaschutz：気候保護（広い概念）",
@@ -6227,7 +6226,6 @@
       "Klimaneutralität konkretes Ziel"
     ]
   },
-
   "etymology": {
     "ja": [
       "Klima（気候）＋ neutral（中立の）＋ -ität（抽象名詞）。",
@@ -6238,7 +6236,6 @@
       "Neutral im Sinne von ausgeglichen (Emissionen vs. Kompensation)."
     ]
   },
-
   "example": {
     "ja": [
       "多くの国が2050年までの気候中立を目標にしている。"
@@ -6247,7 +6244,6 @@
       "Viele Länder streben Klimaneutralität bis 2050 an."
     ]
   },
-
   "task": {
     "ja": [
       "「気候中立の達成には大きな投資が必要だ」を独語で。"
@@ -6276,8 +6272,8 @@
     "de": "Wird häufig in Politik, Wirtschaft und Soziologie verwendet."
   },
 　"minimal": {
-  "ja": "Verbindung＝単なる結び付き／Abhängigkeit＝依存関係／Verflechtung＝複数要素が複雑に絡み合った相互連関",
-  "de": "Verbindung = allgemeine Verbindung; Abhängigkeit = einseitige oder gegenseitige Abhängigkeit; Verflechtung = komplexes Ineinandergreifen mehrerer Beziehungen"
+   "ja": "Verbindung＝単なる結び付き／Abhängigkeit＝依存関係／Verflechtung＝複数要素が複雑に絡み合った相互連関",
+   "de": "Verbindung = allgemeine Verbindung; Abhängigkeit = einseitige oder gegenseitige Abhängigkeit; Verflechtung = komplexes Ineinandergreifen mehrerer Beziehungen"
 　},
   "etymology": {
     "ja": "flechten（編む）→『互いに編み込まれた状態』。",
@@ -6313,8 +6309,8 @@
     "de": "Betont das Erkennen verborgener Zusammenhänge oder Absichten."
   },
  "minimal": {
-  "ja": "verstehen＝内容を理解する／erkennen＝何かに気づく・見分ける／durchschauen＝表面の奥にある仕組み・意図・欺瞞まで見抜く",
-  "de": "verstehen = den Inhalt begreifen; erkennen = etwas wahrnehmen oder identifizieren; durchschauen = verborgene Zusammenhänge, Absichten oder Täuschungen vollständig erkennen"
+   "ja": "verstehen＝内容を理解する／erkennen＝何かに気づく・見分ける／durchschauen＝表面の奥にある仕組み・意図・欺瞞まで見抜く",
+   "de": "verstehen = den Inhalt begreifen; erkennen = etwas wahrnehmen oder identifizieren; durchschauen = verborgene Zusammenhänge, Absichten oder Täuschungen vollständig erkennen"
  },
   "etymology": {
     "ja": "durch-（貫いて）+ schauen（見る）。『向こう側まで見通す』が原義。",
@@ -6350,8 +6346,8 @@
     "de": "Wird oft verwendet, um das endgültige Resultat einer Entwicklung zusammenzufassen."
   },
  "minimal": {
-  "ja": "Ergebnis＝作業・過程の結果そのもの／Folge＝ある原因から生じる帰結・影響／Endeffekt＝さまざまな経過を経た末の最終的な結果",
-  "de": "Ergebnis = das Resultat eines Vorgangs; Folge = eine daraus entstehende Konsequenz; Endeffekt = das endgültige Resultat nach dem gesamten Verlauf"
+   "ja": "Ergebnis＝作業・過程の結果そのもの／Folge＝ある原因から生じる帰結・影響／Endeffekt＝さまざまな経過を経た末の最終的な結果",
+   "de": "Ergebnis = das Resultat eines Vorgangs; Folge = eine daraus entstehende Konsequenz; Endeffekt = das endgültige Resultat nach dem gesamten Verlauf"
  },
   "etymology": {
     "ja": "End-（終わり）+ Effekt（効果・結果）。",
@@ -6390,8 +6386,8 @@
     "de": "Wird verwendet, um zu beurteilen, ob sich eine Investition, ein Projekt oder eine Maßnahme wirtschaftlich lohnt."
   },
 　"minimal": {
-  "ja": "Kosten-Nutzen-Kalkulation＝費用と便益を具体的に試算・計算すること／Kosten-Nutzen-Analyse＝費用と便益をより広く体系的に評価・分析すること",
-  "de": "Kosten-Nutzen-Kalkulation = konkrete rechnerische Gegenüberstellung von Kosten und Nutzen; Kosten-Nutzen-Analyse = umfassendere systematische Bewertung von Kosten und Nutzen"
+   "ja": "Kosten-Nutzen-Kalkulation＝費用と便益を具体的に試算・計算すること／Kosten-Nutzen-Analyse＝費用と便益をより広く体系的に評価・分析すること",
+   "de": "Kosten-Nutzen-Kalkulation = konkrete rechnerische Gegenüberstellung von Kosten und Nutzen; Kosten-Nutzen-Analyse = umfassendere systematische Bewertung von Kosten und Nutzen"
  },
   "etymology": {
     "ja": "Kosten（費用）+ Nutzen（利益・便益）+ Kalkulation（計算・試算）から成る複合名詞。",
@@ -6471,8 +6467,8 @@
     "de": "Wird häufig in formellen Texten verwendet, um auszudrücken, dass etwas nur in sehr geringem Umfang vorhanden oder von geringer Bedeutung ist."
   },
 　"minimal": {
-  "ja": "gering＝単に数量・程度が小さい／geringfügig＝影響・差・損害などがごく軽微である／unerheblich＝重要性が低く判断にほぼ影響しない",
-  "de": "gering = allgemein klein oder niedrig; geringfügig = nur von sehr geringem Umfang oder Ausmaß; unerheblich = für die Beurteilung kaum relevant"
+   "ja": "gering＝単に数量・程度が小さい／geringfügig＝影響・差・損害などがごく軽微である／unerheblich＝重要性が低く判断にほぼ影響しない",
+   "de": "gering = allgemein klein oder niedrig; geringfügig = nur von sehr geringem Umfang oder Ausmaß; unerheblich = für die Beurteilung kaum relevant"
   },
   "etymology": {
     "ja": "gering（少ない、小さい）+ fügig（結び付いた語形成要素）。現在では一語として「軽微な」の意味で用いられる。",
@@ -6510,8 +6506,8 @@
     "de": "Wird häufig im Zusammenhang mit Energie, Landwirtschaft, Wirtschaft und Versorgungssicherheit verwendet."
   },
  "minimal": {
-  "ja": "unabhängig＝他者に依存しない（広い一般語）／selbstständig＝自力で行動・運営できる／autark＝外部供給に頼らず必要なものを自給できる",
-  "de": "unabhängig = allgemein nicht abhängig; selbstständig = eigenständig handeln oder funktionieren; autark = sich ohne externe Versorgung selbst versorgen können"
+   "ja": "unabhängig＝他者に依存しない（広い一般語）／selbstständig＝自力で行動・運営できる／autark＝外部供給に頼らず必要なものを自給できる",
+   "de": "unabhängig = allgemein nicht abhängig; selbstständig = eigenständig handeln oder funktionieren; autark = sich ohne externe Versorgung selbst versorgen können"
  },
   "etymology": {
     "ja": "ギリシャ語 autos（自己）+ arkein（十分である）に由来。",
@@ -6548,8 +6544,8 @@
     "de": "Die Wendung bedeutet, einer Sache sorgfältig nachzugehen, um ihre Ursachen oder Hintergründe vollständig zu klären."
   },
   "minimal": {
-  "ja": "untersuchen＝対象を一般的・体系的に調べる／einer Sache nachgehen＝手掛かりや問題を追って調査する／einer Sache auf den Grund gehen＝原因・真相の核心まで徹底的に突き止める",
-  "de": "untersuchen = etwas allgemein oder systematisch prüfen; einer Sache nachgehen = einem Hinweis oder Problem weiter folgen; einer Sache auf den Grund gehen = Ursachen oder Hintergründe bis zum Kern gründlich klären"
+   "ja": "untersuchen＝対象を一般的・体系的に調べる／einer Sache nachgehen＝手掛かりや問題を追って調査する／einer Sache auf den Grund gehen＝原因・真相の核心まで徹底的に突き止める",
+   "de": "untersuchen = etwas allgemein oder systematisch prüfen; einer Sache nachgehen = einem Hinweis oder Problem weiter folgen; einer Sache auf den Grund gehen = Ursachen oder Hintergründe bis zum Kern gründlich klären"
   },
   "etymology": {
     "ja": "Grund は『地面・底』のほか『原因・根本』の意味もある。「物事の底まで行く」ことから『真相を究明する』の意味になった。",
@@ -6587,9 +6583,9 @@
     "de": "Die Wendung beschreibt die Grundlage, den Hintergrund oder die Ursache eines Sachverhalts und ist typisch für formelle Texte."
   },
   "minimal": {
-  "ja": "basieren auf＝何かを土台・基盤として成り立つ／beruhen auf＝原因・根拠に由来する／zugrunde liegen＝判断・理論・現象などの背後で根本的な基礎・要因として存在する",
-  "de": "basieren auf = auf einer Grundlage aufgebaut sein; beruhen auf = auf einer Ursache oder einem Grund beruhen; zugrunde liegen = einem Sachverhalt als grundlegende Basis oder Ursache zugrunde liegen"
-　} ,
+   "ja": "basieren auf＝何かを土台・基盤として成り立つ／beruhen auf＝原因・根拠に由来する／zugrunde liegen＝判断・理論・現象などの背後で根本的な基礎・要因として存在する",
+   "de": "basieren auf = auf einer Grundlage aufgebaut sein; beruhen auf = auf einer Ursache oder einem Grund beruhen; zugrunde liegen = einem Sachverhalt als grundlegende Basis oder Ursache zugrunde liegen"
+　},
 
   "etymology": {
     "ja": "zugrunde（根底に）+ liegen（横たわる）。文字どおり「根底に横たわっている」ことから「基礎となる」の意味になった。",
@@ -6627,8 +6623,8 @@
     "de": "Wird vor allem in formellen Kontexten verwendet, um auszudrücken, dass eine Handlung oder Leistung Anerkennung verdient."
   },
   "minimal": {
-  "ja": "lobenswert＝称賛に値する（最も一般的）／lobenswürdig＝称賛に値する（より硬く、やや古風）／anerkennenswert＝努力・成果などを評価・承認するに値する",
-  "de": "lobenswert = allgemein des Lobes wert; lobenswürdig = ebenfalls des Lobes würdig, aber gehobener und etwas altmodischer; anerkennenswert = eine Leistung oder Bemühung verdient Anerkennung"
+   "ja": "lobenswert＝称賛に値する（最も一般的）／lobenswürdig＝称賛に値する（より硬く、やや古風）／anerkennenswert＝努力・成果などを評価・承認するに値する",
+   "de": "lobenswert = allgemein des Lobes wert; lobenswürdig = ebenfalls des Lobes würdig, aber gehobener und etwas altmodischer; anerkennenswert = eine Leistung oder Bemühung verdient Anerkennung"
   },
   "etymology": {
     "ja": "Lob（称賛）+ -enswert（～する価値がある）。",
@@ -6664,8 +6660,8 @@
     "de": "Wird häufig verwendet, um auf etwas Besonderes oder Auffälliges hinzuweisen."
   },
   "minimal": {
-  "ja": "auffällig＝目立つ・人目を引く（良し悪しは問わない）／beachtlich＝量・程度・成果などがかなり大きく注目に値する／bemerkenswert＝内容・特徴が特筆する価値をもち、言及するに値する",
-  "de": "auffällig = ins Auge fallend, ohne notwendige Wertung; beachtlich = hinsichtlich Umfang, Grad oder Leistung erheblich; bemerkenswert = aufgrund einer besonderen Eigenschaft erwähnens- oder beachtenswert"
+   "ja": "auffällig＝目立つ・人目を引く（良し悪しは問わない）／beachtlich＝量・程度・成果などがかなり大きく注目に値する／bemerkenswert＝内容・特徴が特筆する価値をもち、言及するに値する",
+   "de": "auffällig = ins Auge fallend, ohne notwendige Wertung; beachtlich = hinsichtlich Umfang, Grad oder Leistung erheblich; bemerkenswert = aufgrund einer besonderen Eigenschaft erwähnens- oder beachtenswert"
   },
   "etymology": {
     "ja": "bemerken（気づく）+ -enswert。",
@@ -6701,8 +6697,8 @@
     "de": "Drückt stärkere Anerkennung als „lobenswert“ aus."
   },
   "minimal": {
-  "ja": "lobenswert＝行為・姿勢などが称賛に値する／bemerkenswert＝特徴・内容が特筆に値する／bewundernswert＝能力・勇気・成果などが感嘆・敬服に値する",
-  "de": "lobenswert = eine Handlung oder Haltung verdient Lob; bemerkenswert = etwas ist wegen einer besonderen Eigenschaft erwähnenswert; bewundernswert = eine Leistung, Fähigkeit oder Haltung verdient echte Bewunderung"
+   "ja": "lobenswert＝行為・姿勢などが称賛に値する／bemerkenswert＝特徴・内容が特筆に値する／bewundernswert＝能力・勇気・成果などが感嘆・敬服に値する",
+   "de": "lobenswert = eine Handlung oder Haltung verdient Lob; bemerkenswert = etwas ist wegen einer besonderen Eigenschaft erwähnenswert; bewundernswert = eine Leistung, Fähigkeit oder Haltung verdient echte Bewunderung"
   },
   "etymology": {
     "ja": "bewundern（感嘆する）+ -enswert。",
@@ -6738,8 +6734,8 @@
     "de": "Bezieht sich vor allem auf Bücher, Artikel oder Texte."
   },
   "minimal": {
-  "ja": "interessant＝内容が興味深い／empfehlenswert＝広く人に勧める価値がある／lesenswert＝文章・本などが読む価値をもつ",
-  "de": "interessant = inhaltlich interessant; empfehlenswert = allgemein eine Empfehlung wert; lesenswert = ein Text oder Buch ist es wert, gelesen zu werden"
+   "ja": "interessant＝内容が興味深い／empfehlenswert＝広く人に勧める価値がある／lesenswert＝文章・本などが読む価値をもつ",
+   "de": "interessant = inhaltlich interessant; empfehlenswert = allgemein eine Empfehlung wert; lesenswert = ein Text oder Buch ist es wert, gelesen zu werden"
   },
   "etymology": {
     "ja": "lesen + -enswert。",
@@ -6775,8 +6771,8 @@
     "de": "Typisch für Filme, Sehenswürdigkeiten oder Ausstellungen."
   },
   "minimal": {
-  "ja": "interessant＝内容として興味深い／beeindruckend＝強い印象を与える／sehenswert＝映画・景色・建物などが実際に見る価値をもつ",
-  "de": "interessant = inhaltlich interessant; beeindruckend = einen starken Eindruck hinterlassend; sehenswert = etwas ist es wert, angesehen oder besichtigt zu werden"
+   "ja": "interessant＝内容として興味深い／beeindruckend＝強い印象を与える／sehenswert＝映画・景色・建物などが実際に見る価値をもつ",
+   "de": "interessant = inhaltlich interessant; beeindruckend = einen starken Eindruck hinterlassend; sehenswert = etwas ist es wert, angesehen oder besichtigt zu werden"
 　},
   "etymology": {
     "ja": "sehen + -enswert。",
@@ -6811,12 +6807,10 @@
     "ja": "講演・音楽・ポッドキャストなどについて使われる。",
     "de": "Bezieht sich auf Musik, Vorträge oder Podcasts."
   },
-
   "minimal": {
-    "ja": "聞く価値がある",
-    "de": "wert zu hören"
-  },
-
+   "ja": "interessant＝内容として興味深い／hörenswert＝音楽・講演・ポッドキャストなどが聴く価値をもつ／lesenswert・sehenswert＝それぞれ読む価値・見る価値をもつ",
+   "de": "interessant = inhaltlich interessant; hörenswert = etwas ist es wert, angehört zu werden; lesenswert und sehenswert = entsprechend des Lesens bzw. Sehens wert"
+   },
   "etymology": {
     "ja": "hören + -enswert。",
     "de": "Aus hören + -enswert."
@@ -6849,10 +6843,9 @@
     "ja": "雑学・豆知識・説明記事などで頻出。",
     "de": "Wird oft in Informations- und Sachtexten verwendet."
   },
-
-  "minimal": {
-    "ja": "知る価値がある",
-    "de": "wert zu wissen"
+　"minimal": {
+   "ja": "interessant＝興味を引く／wichtig＝重要性が高い／wissenswert＝知識として知っておく価値がある",
+   "de": "interessant = Interesse weckend; wichtig = von großer Bedeutung; wissenswert = etwas ist es wert, gewusst zu werden"
   },
 
   "etymology": {
@@ -6888,12 +6881,10 @@
     "ja": "理想や目標、社会的価値について論じる際によく使われるフォーマルな語。",
     "de": "Wird häufig in politischen, philosophischen und gesellschaftlichen Diskussionen verwendet."
   },
-
-  "minimal": {
-    "ja": "目指す価値がある",
-    "de": "anzustreben"
+ "minimal": {
+   "ja": "wünschenswert＝そうなれば望ましい／lohnenswert＝労力や費用をかける価値がある／erstrebenswert＝目標として積極的に追求する価値がある",
+   "de": "wünschenswert = etwas wäre wünschenswert; lohnenswert = der Aufwand lohnt sich; erstrebenswert = etwas ist als Ziel wert, aktiv angestrebt zu werden"
   },
-
   "etymology": {
     "ja": "erstreben（目指す）+ -enswert。",
     "de": "Aus erstreben + -enswert."
@@ -6929,12 +6920,10 @@
     "ja": "単に『捨てる（wegwerfen）』ではなく、ごみを分別したり、法律やルールに従って適切に処分したりすることを表す。ドイツでは環境保護やリサイクルの文脈で非常によく使われる。",
     "de": "Im Unterschied zu „wegwerfen“ bedeutet „entsorgen“, etwas ordnungsgemäß und umweltgerecht zu beseitigen oder dem Recycling zuzuführen."
   },
-
-  "minimal": {
-    "ja": "適切に処分する",
-    "de": "fachgerecht beseitigen"
-  },
-
+　"minimal": {
+   "ja": "wegwerfen＝不要な物を単に捨てる／beseitigen＝邪魔・問題などを取り除く／entsorgen＝ごみ・廃棄物などを適切な方法で処分する",
+   "de": "wegwerfen = etwas nicht mehr Benötigtes einfach fortwerfen; beseitigen = etwas Störendes oder ein Problem entfernen; entsorgen = Abfall oder nicht mehr benötigte Stoffe sachgerecht der Entsorgung zuführen"
+　 },
   "etymology": {
     "ja": "接頭辞 ent-（取り除く）+ sorgen（配慮する、世話をする）。もともとは『心配事を取り除く』という発想から、現在では『不要物を適切に処理する』という意味になった。",
     "de": "Aus ent- und sorgen. Ursprünglich bedeutete es, etwas aus der Sorge zu schaffen; heute vor allem „Abfälle fachgerecht beseitigen“."
@@ -6970,12 +6959,10 @@
     "ja": "障害物・危険・問題・汚れ・証拠など、幅広い対象を『取り除く』ことを表す。物理的な除去にも抽象的な問題解決にも使える非常に汎用性の高い動詞。",
     "de": "Ein vielseitiges Verb für das Entfernen von Gegenständen, Hindernissen, Problemen oder Gefahren."
   },
-
-  "minimal": {
-    "ja": "取り除く",
-    "de": "entfernen"
+　 "minimal": {
+   "ja": "entfernen＝広く「取り除く・遠ざける」／beseitigen＝邪魔・問題・欠陥などをなくす／entsorgen＝不要物・廃棄物を適切に処分する",
+   "de": "entfernen = allgemein etwas wegnehmen oder auf Distanz bringen; beseitigen = etwas Störendes, Unerwünschtes oder ein Problem aus dem Weg schaffen; entsorgen = Abfall oder nicht mehr benötigte Stoffe sachgerecht der Entsorgung zuführen"
   },
-
   "etymology": {
     "ja": "bei（そばへ）+ Seite（脇）に由来し、「脇へどける」が原義。",
     "de": "Aus beiseite („zur Seite“) und dem Verb beseitigen („zur Seite schaffen“)."
