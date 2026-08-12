@@ -7844,8 +7844,8 @@
   },
 
   "minimal": {
-    "ja": "赴く、身を置く",
-    "de": "gehen; sich in eine Lage bringen"
+  "ja": "gehen＝場所へ行くことを表す最も一般的な語／sich auf den Weg machen＝ある場所へ向けて出発することに焦点を置く／sich begeben＝ある場所へ赴くというフォーマルな表現で、抽象的に自らある状態・状況に身を置く場合にも使う／geraten＝意図せず・成り行きで好ましくない状況に陥ることが多い",
+  "de": "gehen = das allgemeine Verb für die Bewegung zu einem Ort; sich auf den Weg machen = den Aufbruch zu einem Ziel betonen; sich begeben = sich in formeller Sprache an einen Ort bewegen oder sich bewusst in eine bestimmte Lage oder Situation bringen; geraten = meist unbeabsichtigt oder durch die Umstände in eine bestimmte, oft problematische Situation kommen"
   },
 
   "equivalents": {
@@ -7892,8 +7892,8 @@
   },
 
   "minimal": {
-    "ja": "信頼して託す、打ち明ける",
-    "de": "jemandem vertrauensvoll etwas übergeben oder mitteilen"
+  "ja": "vertrauen＝人・物事を信頼する／überlassen＝物・判断・仕事などを相手に任せる・委ねる（信頼の含意は必須でない）／jemandem etwas anvertrauen＝秘密・大切な物・人・任務などを信頼して相手に託す／sich jemandem anvertrauen＝相手を信頼して悩み・秘密・個人的なことを打ち明ける",
+  "de": "vertrauen = Vertrauen zu jemandem oder etwas haben; überlassen = jemandem eine Sache, Aufgabe oder Entscheidung übergeben, ohne dass Vertrauen im Vordergrund stehen muss; jemandem etwas anvertrauen = jemandem im Vertrauen etwas Persönliches, Wertvolles oder Schutzbedürftiges übergeben oder mitteilen; sich jemandem anvertrauen = einer Person im Vertrauen persönliche Sorgen, Gefühle oder Geheimnisse mitteilen"
   },
 
   "equivalents": {
@@ -7940,8 +7940,8 @@
   },
 
   "minimal": {
-    "ja": "拒む、認めない",
-    "de": "nicht gewähren"
+  "ja": "verbieten＝行為そのものを禁止する／verweigern＝要求・依頼されたものを拒んで与えない、または行為を拒否する／versagen＝権利・許可・給付などを認めず与えない（特に公的・法的文脈）／verwehren＝人に本来得られうるアクセス・機会・権利・享受などを与えず、そこから締め出す",
+  "de": "verbieten = eine Handlung ausdrücklich untersagen; verweigern = etwas Verlangtes oder Erbetenes nicht gewähren oder eine Handlung ablehnen; versagen = besonders in formeller oder rechtlicher Sprache einen Anspruch, eine Genehmigung oder Leistung nicht gewähren; verwehren = jemandem den Zugang, eine Möglichkeit, ein Recht oder den Genuss von etwas nicht gewähren und ihn davon ausschließen"
   },
 
   "equivalents": {
@@ -7988,8 +7988,8 @@
   },
 
   "minimal": {
-    "ja": "妨げられない",
-    "de": "nicht verwehrt"
+  "ja": "erlaubt＝規則・権限上許可されている／ungehindert＝外部から邪魔・妨害されずに行える／uneingeschränkt＝範囲・程度・条件に制限がない／unverwehrt＝権利・機会・アクセスなどを拒まれず、享受することが認められている（やや文語的・古風）",
+  "de": "erlaubt = nach Regeln oder durch eine Erlaubnis zulässig; ungehindert = ohne äußere Hindernisse oder Behinderung möglich; uneingeschränkt = ohne Begrenzung, Einschränkung oder Vorbehalt; unverwehrt = nicht verwehrt oder vorenthalten und daher zugänglich oder möglich, heute eher gehoben oder literarisch"
   },
 
   "equivalents": {
@@ -8036,8 +8036,8 @@
   },
 
   "minimal": {
-    "ja": "妨げられずに",
-    "de": "ohne Hindernis"
+  "ja": "unverwehrt＝権利・機会・アクセスなどを拒まれていない（やや文語的）／unbehindert＝身体的・物理的な妨げがなく自由に行動できる／ungehindert＝行動・移動・進行などが外部の障害や妨害によって阻まれない／uneingeschränkt＝範囲・程度・権利などに制限や条件がない",
+  "de": "unverwehrt = nicht verwehrt oder vorenthalten, eher gehoben; unbehindert = ohne körperliche oder konkrete Behinderung; ungehindert = ohne äußere Hindernisse oder Störungen handeln, sich bewegen oder fortschreiten können; uneingeschränkt = ohne Begrenzung, Einschränkung oder Vorbehalt"
   },
 
   "equivalents": {
@@ -8084,8 +8084,8 @@
   },
 
   "minimal": {
-    "ja": "制限なく、全面的に",
-    "de": "ohne Einschränkung"
+  "ja": "ungehindert＝外部の障害・妨害によって行動や進行を阻まれない／unbegrenzt＝数量・時間・範囲などに上限がない／vorbehaltlos＝条件・留保を付けず全面的に認めたり支持したりする／uneingeschränkt＝権利・利用・自由・支持などについて範囲・程度・条件による制限がなく全面的である",
+  "de": "ungehindert = ohne äußere Hindernisse oder Störungen handeln oder fortschreiten können; unbegrenzt = keine mengenmäßige, zeitliche oder räumliche Obergrenze haben; vorbehaltlos = ohne Vorbehalte oder Bedingungen zustimmen oder unterstützen; uneingeschränkt = hinsichtlich Umfang, Geltung, Nutzung oder Zustimmung keinerlei Einschränkungen unterliegen"
   },
 
   "equivalents": {
@@ -8132,8 +8132,8 @@
   },
 
   "minimal": {
-    "ja": "予測不能な",
-    "de": "nicht vorhersehbar"
+  "ja": "unvorhersehbar＝出来事・結果・展開などを事前に予測できない／unbeständig＝状態・態度などが安定せず変わりやすい／unkalkulierbar＝リスク・費用・影響などを確実に算定・見積もりできない／unberechenbar＝人・状況・自然などの挙動に一貫性がなく、次にどうなるか読めない",
+  "de": "unvorhersehbar = ein Ereignis, eine Folge oder Entwicklung lässt sich im Voraus nicht vorhersagen; unbeständig = ein Zustand oder Verhalten bleibt nicht stabil und verändert sich häufig; unkalkulierbar = Risiken, Kosten oder Auswirkungen lassen sich nicht zuverlässig einschätzen oder berechnen; unberechenbar = das Verhalten einer Person, Situation oder Naturerscheinung ist nicht verlässlich einzuschätzen und kann sich unerwartet entwickeln"
   },
 
   "equivalents": {
@@ -8178,10 +8178,9 @@
     "ja": "出来事・結果・展開などが事前には予測できないことを中立的に表す。unberechenbar のような『挙動が不安定で何をするかわからない』という含みは比較的弱い。",
     "de": "Bezeichnet neutral, dass ein Ereignis, eine Entwicklung oder Folge im Voraus nicht zuverlässig vorhergesagt werden kann. Im Unterschied zu „unberechenbar“ liegt weniger Betonung auf Instabilität oder gefährlicher Unzuverlässigkeit."
   },
-
   "minimal": {
-    "ja": "予見できない",
-    "de": "nicht vorhersehbar"
+  "ja": "unerwartet＝実際に予想していなかった・思いがけなかった／unvorhersehbar＝出来事・結果・展開などが事前には予見できない／unberechenbar＝人・状況などの挙動が不安定・不規則で、次にどうなるか読めない／unkalkulierbar＝リスク・費用・影響などを事前に確実に算定・評価できない",
+  "de": "unerwartet = tatsächlich nicht erwartet oder überraschend; unvorhersehbar = ein Ereignis, eine Folge oder Entwicklung lässt sich im Voraus nicht zuverlässig vorhersehen; unberechenbar = das Verhalten einer Person oder die Entwicklung einer Situation ist nicht verlässlich einzuschätzen; unkalkulierbar = Risiken, Kosten oder Auswirkungen lassen sich im Voraus nicht zuverlässig berechnen oder einschätzen"
   },
 
   "equivalents": {
