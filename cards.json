@@ -6509,12 +6509,10 @@
     "ja": "国家・地域・家庭・企業などが外部からの供給や支援に頼らず、自ら必要なものを賄えることを表す。近年はエネルギー政策や食料安全保障の文脈で特によく使われる。",
     "de": "Wird häufig im Zusammenhang mit Energie, Landwirtschaft, Wirtschaft und Versorgungssicherheit verwendet."
   },
-
-  "minimal": {
-    "ja": "自給自足の",
-    "de": "selbstversorgend; unabhängig"
-  },
-
+ "minimal": {
+  "ja": "unabhängig＝他者に依存しない（広い一般語）／selbstständig＝自力で行動・運営できる／autark＝外部供給に頼らず必要なものを自給できる",
+  "de": "unabhängig = allgemein nicht abhängig; selbstständig = eigenständig handeln oder funktionieren; autark = sich ohne externe Versorgung selbst versorgen können"
+ },
   "etymology": {
     "ja": "ギリシャ語 autos（自己）+ arkein（十分である）に由来。",
     "de": "Aus dem Griechischen: autos („selbst“) + arkein („genügen“)."
