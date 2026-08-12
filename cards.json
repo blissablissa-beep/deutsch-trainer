@@ -6389,12 +6389,10 @@
     "ja": "投資や事業、政策などを実施する価値があるかを判断するための試算を表す。経営・経済・行政の文脈でよく用いられる。",
     "de": "Wird verwendet, um zu beurteilen, ob sich eine Investition, ein Projekt oder eine Maßnahme wirtschaftlich lohnt."
   },
-
-  "minimal": {
-    "ja": "費用と利益を比べる計算",
-    "de": "Vergleich von Kosten und Nutzen"
-  },
-
+　"minimal": {
+  "ja": "Kosten-Nutzen-Kalkulation＝費用と便益を具体的に試算・計算すること／Kosten-Nutzen-Analyse＝費用と便益をより広く体系的に評価・分析すること",
+  "de": "Kosten-Nutzen-Kalkulation = konkrete rechnerische Gegenüberstellung von Kosten und Nutzen; Kosten-Nutzen-Analyse = umfassendere systematische Bewertung von Kosten und Nutzen"
+ },
   "etymology": {
     "ja": "Kosten（費用）+ Nutzen（利益・便益）+ Kalkulation（計算・試算）から成る複合名詞。",
     "de": "Kompositum aus Kosten, Nutzen und Kalkulation."
