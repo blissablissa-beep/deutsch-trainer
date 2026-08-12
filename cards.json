@@ -6737,12 +6737,10 @@
     "ja": "本・記事・論文などに対して使われる。",
     "de": "Bezieht sich vor allem auf Bücher, Artikel oder Texte."
   },
-
   "minimal": {
-    "ja": "読む価値がある",
-    "de": "wert zu lesen"
+  "ja": "interessant＝内容が興味深い／empfehlenswert＝広く人に勧める価値がある／lesenswert＝文章・本などが読む価値をもつ",
+  "de": "interessant = inhaltlich interessant; empfehlenswert = allgemein eine Empfehlung wert; lesenswert = ein Text oder Buch ist es wert, gelesen zu werden"
   },
-
   "etymology": {
     "ja": "lesen + -enswert。",
     "de": "Aus lesen + -enswert."
