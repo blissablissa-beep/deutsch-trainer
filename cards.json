@@ -7000,8 +7000,8 @@
   },
 
   "minimal": {
-    "ja": "再利用する",
-    "de": "wiederverwenden"
+  "ja": "wiederverwenden＝同じ物をそのまま再使用する／recyceln＝廃棄物や使用済み材料を処理して再資源化する／entsorgen＝不要物を適切に処分する",
+  "de": "wiederverwenden = denselben Gegenstand erneut benutzen; recyceln = gebrauchte Materialien aufbereiten und als Rohstoff oder Produkt erneut nutzbar machen; entsorgen = nicht mehr benötigte Stoffe sachgerecht beseitigen"
   },
 
   "etymology": {
@@ -7040,12 +7040,10 @@
     "ja": "比喩的には『障害』『難関』『落とし穴』の意味で非常によく使われる。一方、固有名詞としての Stolperstein は、芸術家グンター・デムニヒが始めた追悼プロジェクトの記念舗石を指す。",
     "de": "Der Begriff wird sowohl metaphorisch für ein Hindernis als auch für die bekannten Gedenksteine des Künstlers Gunter Demnig verwendet."
   },
-
   "minimal": {
-    "ja": "障害、つまずき",
-    "de": "Hindernis"
+  "ja": "Hürde＝努力して乗り越えるべき障害・難関／Stolperstein＝進行を妨げたり失敗の原因になったりする障害・つまずきの種／Fallstrick＝気づかず陥りやすい隠れた罠・落とし穴",
+  "de": "Hürde = ein Hindernis, das überwunden werden muss; Stolperstein = eine Schwierigkeit, die den Fortschritt behindert oder zum Scheitern führen kann; Fallstrick = eine versteckte Schwierigkeit oder Gefahr, in die man leicht geraten kann"
   },
-
   "etymology": {
     "ja": "stolpern（つまずく）+ Stein（石）。文字どおり『つまずく石』。",
     "de": "Kompositum aus stolpern und Stein."
@@ -7055,7 +7053,6 @@
     "ja": "資金不足が最大の障害となった。",
     "de": "Der Mangel an Geld erwies sich als größter Stolperstein."
   },
-
   "task": {
     "ja": "「言語の違いが交渉の障害となった。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Stolperstein“."
@@ -7084,10 +7081,9 @@
   },
 
   "minimal": {
-    "ja": "乗り越えるべき障害",
-    "de": "überwindbares Hindernis"
+  "ja": "Hindernis＝進行を妨げるもの全般／Hürde＝目標達成のために乗り越える必要がある障害・難関／Stolperstein＝途中でつまずきや失敗を引き起こす障害／Fallstrick＝気づかず陥りやすい隠れた罠・落とし穴",
+  "de": "Hindernis = allgemeiner Oberbegriff für etwas, das den Fortschritt erschwert; Hürde = eine Schwierigkeit, die auf dem Weg zu einem Ziel überwunden werden muss; Stolperstein = eine Schwierigkeit, die den Fortschritt behindert oder zum Scheitern führen kann; Fallstrick = eine versteckte Schwierigkeit oder Gefahr, in die man leicht geraten kann"
   },
-
   "etymology": {
     "ja": "古高ドイツ語 hurdi（柵・囲い）に由来。",
     "de": "Aus althochdeutsch hurdi („Flechtwerk, Zaun“)."
@@ -7124,22 +7120,18 @@
     "ja": "契約・法律・制度・計画などに潜む『見えにくい罠』を表す。単なる障害ではなく、気づかずに陥りやすい危険というニュアンスがある。",
     "de": "Bezeichnet meist ein verstecktes Risiko oder eine unerwartete Schwierigkeit, besonders in Verträgen, Gesetzen oder Plänen."
   },
-
   "minimal": {
-    "ja": "落とし穴",
-    "de": "versteckte Schwierigkeit"
+  "ja": "Hindernis＝進行を妨げるもの全般／Hürde＝目標達成のために乗り越えるべき障害・難関／Stolperstein＝途中でつまずきや失敗の原因となる障害／Fallstrick＝一見気づきにくく、知らずに陥りやすい罠・落とし穴",
+  "de": "Hindernis = allgemeiner Oberbegriff für etwas, das den Fortschritt erschwert; Hürde = eine Schwierigkeit, die überwunden werden muss; Stolperstein = eine Schwierigkeit, die den Fortschritt behindert oder zum Scheitern führen kann; Fallstrick = eine versteckte Schwierigkeit oder Gefahr, die leicht übersehen wird und in die man geraten kann"
   },
-
   "etymology": {
     "ja": "fallen（落ちる）+ Strick（縄）。もともとは動物を捕らえる罠を意味した。",
     "de": "Aus fallen und Strick; ursprünglich eine Schlinge zum Fangen von Tieren."
   },
-
   "example": {
     "ja": "契約にはいくつかの落とし穴がある。",
     "de": "Der Vertrag enthält einige Fallstricke."
   },
-
   "task": {
     "ja": "「この計画には法的な落とし穴がある。」をドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Fallstrick“."
@@ -7167,8 +7159,8 @@
   },
 
   "minimal": {
-    "ja": "損なう、悪影響を与える",
-    "de": "nachteilig beeinflussen"
+  "ja": "stören＝正常な進行や集中などを一時的に邪魔する／behindern＝行動・進行を妨げて難しくする／beeinträchtigen＝機能・品質・権利・状態などに悪影響を与え、その程度や働きを損なう／schädigen＝具体的な損害・害を与える",
+  "de": "stören = einen normalen Ablauf oder eine Tätigkeit unterbrechen oder beeinträchtigen; behindern = eine Handlung oder einen Fortschritt erschweren; beeinträchtigen = Funktion, Qualität, Rechte oder Zustand nachteilig beeinflussen oder einschränken; schädigen = einen konkreten Schaden oder Nachteil verursachen"
   },
 
   "etymology": {
@@ -7209,8 +7201,8 @@
   },
 
   "minimal": {
-    "ja": "支障、悪影響",
-    "de": "Einschränkung; nachteilige Auswirkung"
+  "ja": "Störung＝正常な状態・進行が乱されること／Behinderung＝行動・進行が妨げられること／Beeinträchtigung＝機能・品質・権利・状態などが悪影響を受け、本来の水準より損なわれること／Schädigung＝具体的な損害・害を受けること",
+  "de": "Störung = Beeinflussung oder Unterbrechung eines normalen Zustands oder Ablaufs; Behinderung = Erschwerung einer Handlung oder eines Fortschritts; Beeinträchtigung = nachteilige Einschränkung von Funktion, Qualität, Rechten oder Zustand; Schädigung = Verursachung eines konkreten Schadens oder einer Verletzung"
   },
 
   "etymology": {
@@ -7250,8 +7242,8 @@
   },
 
   "minimal": {
-    "ja": "順調に育つ、繁栄する",
-    "de": "gut wachsen; sich gut entwickeln"
+  "ja": "wachsen＝大きさ・量が増えて成長する／sich entwickeln＝時間とともに変化・発展する（良い方向とは限らない）／gedeihen＝良い条件のもとで健全・順調に育ち、発展する／florieren＝事業・経済などが活況を呈し繁栄する",
+  "de": "wachsen = an Größe oder Menge zunehmen; sich entwickeln = sich im Laufe der Zeit verändern oder fortentwickeln, nicht unbedingt positiv; gedeihen = sich unter günstigen Bedingungen gesund und positiv entwickeln; florieren = besonders wirtschaftlich oder geschäftlich sehr erfolgreich sein"
   },
 
   "etymology": {
@@ -7291,8 +7283,8 @@
   },
 
   "minimal": {
-    "ja": "活用する／利用する",
-    "de": "optimal nutzen; ausbeuten"
+  "ja": "nutzen＝何かを普通に利用する／ausschöpfen＝可能性・能力・資源などを余すところなく最大限に活用する／ausnutzen＝機会・状況などを最大限利用する、または人・弱みなどにつけ込む／ausbeuten＝人・労働力などを不当に搾取する、または資源を徹底的に採取する",
+  "de": "nutzen = etwas allgemein verwenden oder sich zunutze machen; ausschöpfen = Möglichkeiten, Potenziale oder Ressourcen vollständig nutzen; ausnutzen = eine Gelegenheit oder Situation möglichst weit nutzen oder eine Person bzw. ihre Schwäche zum eigenen Vorteil ausnutzen; ausbeuten = Menschen oder Arbeitskraft rücksichtslos ausnutzen oder Ressourcen intensiv wirtschaftlich verwerten"
   },
 
   "etymology": {
@@ -7332,8 +7324,8 @@
   },
 
   "minimal": {
-    "ja": "搾取する",
-    "de": "rücksichtslos ausnutzen"
+  "ja": "ausnutzen＝機会・状況などを最大限利用する、または人・弱みにつけ込む／ausbeuten＝人・労働力などを自己利益のため不当に搾取する、または天然資源を採取・開発する／ausschöpfen＝可能性・能力・資源などを余すところなく最大限に活用する",
+  "de": "ausnutzen = eine Gelegenheit oder Situation möglichst weit nutzen oder eine Person bzw. ihre Schwäche zum eigenen Vorteil ausnutzen; ausbeuten = Menschen oder Arbeitskraft rücksichtslos zum eigenen Vorteil ausnutzen oder natürliche Ressourcen wirtschaftlich erschließen; ausschöpfen = Möglichkeiten, Potenziale oder Ressourcen vollständig nutzen"
   },
 
   "etymology": {
@@ -7371,10 +7363,9 @@
     "ja": "本来は『容器を空になるまでくみ出す』という意味。現在では、能力・資源・可能性などを『余すことなく最大限に活用する』という比喩的な意味で非常によく使われる。",
     "de": "Ursprünglich bedeutete das Verb, etwas vollständig mit einer Schöpfkelle auszuleeren. Heute wird es meist bildlich verwendet und bedeutet, Möglichkeiten oder Potenziale vollständig auszunutzen."
   },
-
   "minimal": {
-    "ja": "最大限に活用する",
-    "de": "vollständig nutzen"
+  "ja": "nutzen＝何かを一般的に利用する／ausnutzen＝機会・状況などを十分に利用する（人については「つけ込む」の意味にもなる）／ausschöpfen＝可能性・能力・資源などを余すところなく最大限に活用する／ausreizen＝許容範囲・限界・可能性などをぎりぎりまで使い切る",
+  "de": "nutzen = etwas allgemein verwenden; ausnutzen = eine Gelegenheit oder Situation möglichst weit nutzen, bei Personen auch zum eigenen Vorteil ausnutzen; ausschöpfen = Möglichkeiten, Potenziale oder Ressourcen vollständig nutzen; ausreizen = Möglichkeiten, Spielräume oder Grenzen bis zum Äußersten nutzen"
   },
 
   "etymology": {
@@ -7415,8 +7406,8 @@
   },
 
   "minimal": {
-    "ja": "確信、確実性",
-    "de": "Sicherheit; feste Überzeugung"
+  "ja": "Klugheit＝一般的な賢さ・賢明さ／Schläue＝機転が利き、うまく立ち回る賢さ（しばしば狡猾さも含む）／Gerissenheit＝経験や抜け目のなさを生かして相手の裏をかくような狡猾な賢さ／List＝目的達成のために策略・計略を用いる狡猾さ",
+  "de": "Klugheit = allgemeine Intelligenz oder vernünftige Urteilsfähigkeit; Schläue = geschickte, oft auch etwas hintergründige Cleverness; Gerissenheit = ausgeprägte Cleverness und Raffinesse, mit der man andere durchschaut oder überlistet; List = Schlauheit, die sich besonders im Einsatz von Tricks oder Täuschung zeigt"
   },
 
   "etymology": {
@@ -7456,8 +7447,8 @@
   },
 
   "minimal": {
-    "ja": "一気に",
-    "de": "ohne Unterbrechung"
+  "ja": "in einem Zug＝一つの行為を途中で止めず一気に最後まで行う／am Stück＝一定時間・数量を中断せず連続して行う／auf einmal＝複数のことを一度にする、または「突然」／auf einen Schlag＝一度の行為・出来事で状況が一挙に大きく変わる",
+  "de": "in einem Zug = eine Handlung ohne Unterbrechung von Anfang bis Ende ausführen; am Stück = über eine bestimmte Dauer oder Menge hinweg ununterbrochen etwas tun; auf einmal = mehrere Dinge gleichzeitig tun oder „plötzlich“; auf einen Schlag = durch eine einzige Handlung oder ein einziges Ereignis eine größere Veränderung auf einmal bewirken"
   },
 
   "etymology": {
@@ -7497,8 +7488,8 @@
   },
 
   "minimal": {
-    "ja": "ぶっ通しで",
-    "de": "ohne Pause"
+  "ja": "in einem Zug＝一つの行為を途中で止めず一気に最後まで行う／am Stück＝時間・距離・数量などについて中断を挟まず連続して行う／durchgehend＝時間・営業・状態などが途切れることなく継続している／hintereinander＝複数の行為・物事が次々と連続する",
+  "de": "in einem Zug = eine Handlung ohne Unterbrechung von Anfang bis Ende ausführen; am Stück = etwas über eine bestimmte Dauer, Strecke oder Menge hinweg ohne Unterbrechung tun; durchgehend = ohne zeitliche oder räumliche Unterbrechung fortbestehen; hintereinander = mehrere Handlungen oder Dinge unmittelbar nacheinander folgen lassen"
   },
 
   "etymology": {
@@ -7538,8 +7529,8 @@
   },
 
   "minimal": {
-    "ja": "突然／一度に",
-    "de": "plötzlich; gleichzeitig"
+  "ja": "plötzlich＝予期せず突然起こることだけを表す／gleichzeitig＝複数のことが同時に起こることを中立的に表す／auf einmal＝①予期せず「突然」②複数のものを「一度に」の両方に使える／in einem Zug＝一つの行為を中断せず一気に最後まで行う",
+  "de": "plötzlich = bezeichnet ausschließlich ein unerwartetes plötzliches Geschehen; gleichzeitig = mehrere Dinge geschehen neutral zur selben Zeit; auf einmal = kann sowohl „plötzlich“ als auch „alles gleichzeitig/in einem Vorgang“ bedeuten; in einem Zug = eine Handlung ohne Unterbrechung von Anfang bis Ende ausführen"
   },
 
   "etymology": {
@@ -7579,8 +7570,8 @@
   },
 
   "minimal": {
-    "ja": "一挙に",
-    "de": "mit einem Mal"
+  "ja": "auf einmal＝「突然」または複数のことを「一度に」／mit einem Mal＝突然・一度に（auf einmalに近い）／auf einen Schlag＝一度の出来事・行為によって多数のことが一挙に起こる、または状況が大きく変わる／in einem Zug＝一つの行為を中断せず一気に最後まで行う",
+  "de": "auf einmal = entweder „plötzlich“ oder mehrere Dinge gleichzeitig; mit einem Mal = ähnlich wie „auf einmal“, oft im Sinne von plötzlich oder auf einmal; auf einen Schlag = durch ein einziges Ereignis oder eine einzige Handlung vieles zugleich bewirken oder eine deutliche Veränderung herbeiführen; in einem Zug = eine Handlung ohne Unterbrechung von Anfang bis Ende ausführen"
   },
 
   "etymology": {
@@ -7620,8 +7611,8 @@
   },
 
   "minimal": {
-    "ja": "いたわる、負担をかけない",
-    "de": "nicht belasten; sorgsam behandeln"
+  "ja": "schützen＝危険・損害などから守る／schonen＝身体・資源・物などに余計な負担をかけず、いたわる・温存する／verschonen＝人・場所などを災害・攻撃・罰などの被害から免れさせる／sparen＝金・時間・資源などを節約して消費を抑える",
+  "de": "schützen = jemanden oder etwas vor Gefahr oder Schaden bewahren; schonen = jemanden oder etwas nicht unnötig belasten oder beanspruchen; verschonen = jemanden oder etwas von einem Schaden, Angriff oder einer unangenehmen Folge ausnehmen; sparen = Geld, Zeit oder Ressourcen möglichst wenig verbrauchen"
   },
 
   "etymology": {
@@ -7661,8 +7652,8 @@
   },
 
   "minimal": {
-    "ja": "緩める、ほぐす",
-    "de": "weniger fest oder streng machen"
+  "ja": "lösen＝固定・結合されているものを外す、または問題を解決する／entspannen＝緊張した人・身体・状況をリラックスさせる／lockern＝締まった物・筋肉・規制などを緩めて程度を弱める／auflockern＝密集・単調・堅苦しい状態をほぐして、より軽く変化のある状態にする",
+  "de": "lösen = eine Verbindung oder Befestigung aufheben bzw. ein Problem lösen; entspannen = körperliche oder psychische Anspannung vermindern; lockern = etwas weniger fest, angespannt oder streng machen; auflockern = etwas Dichtes, Starres oder Eintöniges lockerer und abwechslungsreicher machen"
   },
 
   "equivalents": {
@@ -7709,8 +7700,8 @@
   },
 
   "minimal": {
-    "ja": "緩い、気楽な",
-    "de": "nicht fest; entspannt"
+  "ja": "lose＝固定・結合されておらず外れた／entspannt＝緊張がなくリラックスした／lässig＝態度・服装などが肩肘張らずカジュアルな／locker＝物理的に緩い、または雰囲気・態度が堅苦しくなく気楽な",
+  "de": "lose = nicht fest verbunden oder befestigt; entspannt = frei von körperlicher oder psychischer Anspannung; lässig = ungezwungen und betont zwanglos, besonders bei Auftreten oder Kleidung; locker = nicht fest oder straff bzw. übertragen ungezwungen, entspannt und nicht steif"
   },
 
   "equivalents": {
@@ -7757,8 +7748,8 @@
   },
 
   "minimal": {
-    "ja": "微妙で扱いにくい",
-    "de": "sensibel und schwierig"
+  "ja": "schwierig＝一般的に難しく、解決・実行に困難がある／kompliziert＝構造・事情が複雑で理解・処理が難しい／sensibel＝慎重な配慮を要する繊細・敏感な／heikel＝扱いを誤ると問題になりやすく、特に慎重な対応を要する",
+  "de": "schwierig = allgemein schwer zu lösen oder zu bewältigen; kompliziert = aufgrund einer komplexen Struktur oder vieler Faktoren schwer zu verstehen oder zu handhaben; sensibel = empfindlich und daher mit besonderer Rücksicht zu behandeln; heikel = schwierig oder sensibel in einer Weise, bei der leicht Probleme entstehen können und besondere Vorsicht nötig ist"
   },
 
   "equivalents": {
@@ -7805,8 +7796,8 @@
   },
 
   "minimal": {
-    "ja": "工作する、手作りする",
-    "de": "kreativ mit den Händen etwas machen"
+  "ja": "bauen＝建物・機械などを組み立てて作る／herstellen＝製品・物を生産・製造する／basteln＝身近な材料を使い、趣味・工作として工夫しながら手作りする／tüfteln＝難しい課題や仕組みについて試行錯誤しながら工夫・考案する",
+  "de": "bauen = etwas durch Zusammenfügen oder Konstruieren errichten; herstellen = etwas gezielt produzieren oder anfertigen; basteln = meist im kleinen Maßstab mit einfachen Materialien kreativ etwas selbst herstellen; tüfteln = durch geduldiges Ausprobieren und Nachdenken an einer technischen oder kniffligen Lösung arbeiten"
   },
 
   "equivalents": {
