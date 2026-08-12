@@ -6275,12 +6275,10 @@
     "ja": "政治・経済・国際関係などが複雑に絡み合っていることを表す硬めの語。",
     "de": "Wird häufig in Politik, Wirtschaft und Soziologie verwendet."
   },
-
-  "minimal": {
-    "ja": "複雑に結びついた状態",
-    "de": "gegenseitige komplexe Verbindung"
-  },
-
+　"minimal": {
+  "ja": "Verbindung＝単なる結び付き／Abhängigkeit＝依存関係／Verflechtung＝複数要素が複雑に絡み合った相互連関",
+  "de": "Verbindung = allgemeine Verbindung; Abhängigkeit = einseitige oder gegenseitige Abhängigkeit; Verflechtung = komplexes Ineinandergreifen mehrerer Beziehungen"
+　},
   "etymology": {
     "ja": "flechten（編む）→『互いに編み込まれた状態』。",
     "de": "Von flechten („ineinander flechten“)."
@@ -7964,6 +7962,341 @@
   "task": {
     "ja": "「私は子どもを彼に安心して任せられる。」を anvertrauen を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „jemandem etwas anvertrauen“."
+  }
+},
+{
+  "id": "verwehren",
+  "sid": "2026-00182",
+  "word": "verwehren",
+  "tags": ["verb", "formal", "law", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（人に権利・機会・アクセスなどを）与えない、拒む、認めない",
+    "de": "jemandem etwas nicht gewähren oder erlauben"
+  },
+
+  "nuance": {
+    "ja": "単なる ablehnen よりも、『本来得られるかもしれない権利・機会・利用などを認めない』というニュアンスが強い。法律・行政・報道などフォーマルな文脈でよく使われる。",
+    "de": "Das Verb klingt formell und bezeichnet häufig, dass jemandem ein Recht, Zugang, eine Möglichkeit oder Erlaubnis nicht gewährt wird."
+  },
+
+  "minimal": {
+    "ja": "拒む、認めない",
+    "de": "nicht gewähren"
+  },
+
+  "equivalents": {
+    "en": ["deny", "refuse", "withhold"],
+    "it": ["negare", "rifiutare"],
+    "fr": ["refuser", "interdire"],
+    "es": ["negar", "denegar"]
+  },
+
+  "etymology": {
+    "ja": "古いドイツ語の wehren（防ぐ、拒む）に接頭辞 ver- が付いた形。『阻んで与えない』という意味に発展した。",
+    "de": "Zu „wehren“ im Sinne von „abwehren, zurückweisen“; mit ver- entwickelte sich die Bedeutung „jemandem etwas versagen“."
+  },
+
+  "example": {
+    "ja": "彼には建物への立ち入りが認められなかった。",
+    "de": "Ihm wurde der Zutritt zum Gebäude verwehrt."
+  },
+
+  "task": {
+    "ja": "「その申請者にはその権利が認められなかった。」を verwehren を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „jemandem etwas verwehren“."
+  }
+},
+{
+  "id": "unverwehrt",
+  "sid": "2026-00183",
+  "word": "unverwehrt",
+  "tags": ["adj", "formal", "literary", "exam"],
+  "level": "C1",
+  "freq": "rare",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "妨げられない、拒まれない、自由に許された",
+    "de": "nicht verwehrt; ohne Hindernis oder Verbot möglich"
+  },
+
+  "nuance": {
+    "ja": "verwehren の否定形で、『誰にも阻まれずに許されている』『妨げられない』ことを表す。現代ドイツ語ではやや文語的・古風で、法律・文学・評論などで見られる。",
+    "de": "Das Wort ist die negierte Form von „verwehrt“ und bedeutet, dass etwas nicht verhindert, untersagt oder vorenthalten wird. Im heutigen Deutsch wirkt es eher gehoben oder literarisch."
+  },
+
+  "minimal": {
+    "ja": "妨げられない",
+    "de": "nicht verwehrt"
+  },
+
+  "equivalents": {
+    "en": ["unhindered", "unimpeded", "unrestricted"],
+    "it": ["senza impedimenti", "liberamente"],
+    "fr": ["sans entrave", "librement"],
+    "es": ["sin impedimentos", "libremente"]
+  },
+
+  "etymology": {
+    "ja": "un-（否定）+ verwehrt（verwehren の過去分詞）。文字どおり『拒まれていない』。",
+    "de": "Aus un- + „verwehrt“, dem Partizip II von „verwehren“."
+  },
+
+  "example": {
+    "ja": "彼にはその場所への立ち入りが自由に認められていた。",
+    "de": "Der Zugang zu diesem Ort war ihm unverwehrt."
+  },
+
+  "task": {
+    "ja": "「彼女には自由に意見を述べることが認められていた。」を unverwehrt を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „unverwehrt“."
+  }
+},
+{
+  "id": "ungehindert",
+  "sid": "2026-00184",
+  "word": "ungehindert",
+  "tags": ["adj", "formal", "general", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "妨げられずに、自由に、邪魔されずに",
+    "de": "ohne Hindernis oder Behinderung; frei von Störungen"
+  },
+
+  "nuance": {
+    "ja": "移動・進行・活動などが外部から妨げられないことを表す。物理的な障害にも、比喩的な妨害にも使える。『制限がない』というより『邪魔されない』ことに焦点がある。",
+    "de": "Betont, dass eine Bewegung, Handlung oder Entwicklung nicht behindert wird. Der Fokus liegt auf fehlenden Hindernissen, nicht auf fehlenden Regeln oder Beschränkungen."
+  },
+
+  "minimal": {
+    "ja": "妨げられずに",
+    "de": "ohne Hindernis"
+  },
+
+  "equivalents": {
+    "en": ["unhindered", "unimpeded"],
+    "it": ["senza impedimenti", "liberamente"],
+    "fr": ["sans entrave", "librement"],
+    "es": ["sin impedimentos", "libremente"]
+  },
+
+  "etymology": {
+    "ja": "un-（否定）+ gehindert（hindern『妨げる』の過去分詞）。",
+    "de": "Aus un- + „gehindert“, dem Partizip II von „hindern“."
+  },
+
+  "example": {
+    "ja": "救急車は妨げられることなく進むことができた。",
+    "de": "Der Krankenwagen konnte ungehindert weiterfahren."
+  },
+
+  "task": {
+    "ja": "「情報は国境を越えて自由に流れる。」を ungehindert を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „ungehindert“."
+  }
+},
+{
+  "id": "uneingeschraenkt",
+  "sid": "2026-00185",
+  "word": "uneingeschränkt",
+  "tags": ["adj", "formal", "abstract", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "制限のない、全面的な、無条件の",
+    "de": "ohne Einschränkung; vollständig und vorbehaltlos"
+  },
+
+  "nuance": {
+    "ja": "権利・アクセス・支持・自由・利用などに制約や条件がないことを表す。単に『邪魔されない』のではなく、『範囲や程度に制限がない』ことが核心。",
+    "de": "Betont das Fehlen von Einschränkungen, Bedingungen oder Begrenzungen. Häufig bei Rechten, Zugang, Zustimmung, Unterstützung oder Nutzung."
+  },
+
+  "minimal": {
+    "ja": "制限なく、全面的に",
+    "de": "ohne Einschränkung"
+  },
+
+  "equivalents": {
+    "en": ["unrestricted", "unlimited", "unreserved"],
+    "it": ["illimitato", "senza restrizioni"],
+    "fr": ["sans restriction", "illimité"],
+    "es": ["sin restricciones", "ilimitado"]
+  },
+
+  "etymology": {
+    "ja": "un-（否定）+ eingeschränkt（einschränken『制限する』の過去分詞）。",
+    "de": "Aus un- + „eingeschränkt“, dem Partizip II von „einschränken“."
+  },
+
+  "example": {
+    "ja": "彼はその提案を全面的に支持した。",
+    "de": "Er unterstützte den Vorschlag uneingeschränkt."
+  },
+
+  "task": {
+    "ja": "「すべての利用者が無制限にアクセスできるわけではない。」を uneingeschränkt を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „uneingeschränkt“."
+  }
+},
+{
+  "id": "unberechenbar",
+  "sid": "2026-00186",
+  "word": "unberechenbar",
+  "tags": ["adj", "abstract", "risk", "exam"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "予測不能な、何をするかわからない、見通せない",
+    "de": "nicht zuverlässig vorhersehbar; in seinem Verhalten oder seiner Entwicklung schwer einzuschätzen"
+  },
+
+  "nuance": {
+    "ja": "単に『予想しにくい』だけでなく、挙動や展開が一定せず、先を読めないというニュアンスが強い。人について使うと『何をするかわからない危うさ』を含むことがある。",
+    "de": "Betont, dass Verhalten oder Entwicklung nicht verlässlich vorausgesagt werden können. Bei Personen kann das Wort zusätzlich eine gewisse Gefährlichkeit oder Unzuverlässigkeit ausdrücken."
+  },
+
+  "minimal": {
+    "ja": "予測不能な",
+    "de": "nicht vorhersehbar"
+  },
+
+  "equivalents": {
+    "en": ["unpredictable", "unforeseeable"],
+    "it": ["imprevedibile", "incalcolabile"],
+    "fr": ["imprévisible", "incalculable"],
+    "es": ["imprevisible", "incalculable"]
+  },
+
+  "etymology": {
+    "ja": "un-（否定）+ berechenbar（計算可能な、予測可能な）。berechenbar は berechnen（計算する）+ -bar から成るため、文字どおりには『計算できない』。",
+    "de": "Aus un- + „berechenbar“; „berechenbar“ ist von „berechnen“ + -bar abgeleitet. Wörtlich bedeutet das Wort also „nicht berechenbar“."
+  },
+
+  "example": {
+    "ja": "市場の反応はますます予測不能になっている。",
+    "de": "Die Reaktionen des Marktes werden zunehmend unberechenbar."
+  },
+
+  "task": {
+    "ja": "「彼の行動はまったく予測できない。」を unberechenbar を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „unberechenbar“."
+  }
+},
+{
+  "id": "unvorhersehbar",
+  "sid": "2026-00187",
+  "word": "unvorhersehbar",
+  "tags": ["adj", "abstract", "risk", "exam"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "予測できない、予見不能な、不測の",
+    "de": "nicht im Voraus vorhersehbar; nicht zuverlässig vorauszusagen"
+  },
+
+  "nuance": {
+    "ja": "出来事・結果・展開などが事前には予測できないことを中立的に表す。unberechenbar のような『挙動が不安定で何をするかわからない』という含みは比較的弱い。",
+    "de": "Bezeichnet neutral, dass ein Ereignis, eine Entwicklung oder Folge im Voraus nicht zuverlässig vorhergesagt werden kann. Im Unterschied zu „unberechenbar“ liegt weniger Betonung auf Instabilität oder gefährlicher Unzuverlässigkeit."
+  },
+
+  "minimal": {
+    "ja": "予見できない",
+    "de": "nicht vorhersehbar"
+  },
+
+  "equivalents": {
+    "en": ["unforeseeable", "unpredictable"],
+    "it": ["imprevedibile", "impreveduto"],
+    "fr": ["imprévisible", "imprévu"],
+    "es": ["imprevisible", "imprevisto"]
+  },
+
+  "etymology": {
+    "ja": "un-（否定）+ vorhersehbar（予見できる）。vorhersehen は vorher（前もって）+ sehen（見る）から成り、文字どおり『前もって見ることができない』という意味。",
+    "de": "Aus un- + „vorhersehbar“. „vorhersehen“ besteht aus „vorher“ + „sehen“ und bedeutet wörtlich, etwas im Voraus sehen zu können."
+  },
+
+  "example": {
+    "ja": "その決定は予測できない結果をもたらした。",
+    "de": "Die Entscheidung hatte unvorhersehbare Folgen."
+  },
+
+  "task": {
+    "ja": "「突然の天候変化は予測できなかった。」を unvorhersehbar を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „unvorhersehbar“."
+  }
+},
+{
+  "id": "vorausberechnen",
+  "sid": "2026-00188",
+  "word": "vorausberechnen",
+  "tags": ["verb", "calculation", "business", "exam"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "あらかじめ計算する、事前に算出する",
+    "de": "etwas im Voraus berechnen oder rechnerisch bestimmen"
+  },
+
+  "nuance": {
+    "ja": "費用・需要・所要時間・収益・数値などを、推測ではなく計算にもとづいて事前に算出することを表す。予測というより『前もって計算して出す』ことに重点がある。",
+    "de": "Betont die rechnerische Ermittlung eines Werts im Voraus, etwa von Kosten, Bedarf, Dauer oder Ertrag. Der Fokus liegt stärker auf Berechnung als auf bloßer Prognose."
+  },
+  "minimal": {
+  "ja": "vorausberechnen＝数値を計算によって事前に算出する／vorhersagen＝将来の出来事・展開を予測する",
+  "de": "vorausberechnen = einen Wert rechnerisch im Voraus bestimmen; vorhersagen = eine zukünftige Entwicklung oder ein Ereignis prognostizieren"
+  },
+
+  "equivalents": {
+    "en": ["calculate in advance", "precalculate", "estimate"],
+    "it": ["calcolare in anticipo", "precalcolare"],
+    "fr": ["calculer à l'avance", "précalculer"],
+    "es": ["calcular de antemano", "precalcular"]
+  },
+
+  "etymology": {
+    "ja": "voraus（前もって）+ berechnen（計算する）。文字どおり『前もって計算する』。",
+    "de": "Gebildet aus „voraus“ und „berechnen“; wörtlich „im Voraus berechnen“."
+  },
+
+  "example": {
+    "ja": "そのプロジェクトの総費用はあらかじめ計算された。",
+    "de": "Die Gesamtkosten des Projekts wurden im Voraus berechnet."
+  },
+
+  "task": {
+    "ja": "「将来の需要を事前に計算するのは難しい。」を vorausberechnen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „vorausberechnen“."
   }
 }
 ]
