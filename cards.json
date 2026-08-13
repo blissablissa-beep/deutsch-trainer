@@ -9357,5 +9357,390 @@
     "ja": "「その会話のあと、私は感情的にかなり動揺していた。」を aufgewühlt を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „aufgewühlt“ nach einem emotionalen Gespräch."
   }
+},
+{
+  "id": "zusammenreissen",
+  "sid": "2026-00212",
+  "word": "sich zusammenreißen",
+  "tags": ["verb", "reflexive", "colloquial", "emotion"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "自分を奮い立たせる、自制する、気を取り直す",
+    "de": "sich beherrschen und trotz starker Gefühle, Unlust oder Schwierigkeiten die Kontrolle über sich behalten"
+  },
+
+  "nuance": {
+    "ja": "泣きそう・怒りそう・やる気が出ない・弱気になっているなど、自分をコントロールできなくなりそうな状況で、意志の力によって感情や行動を抑え、立て直すことを表す口語的な表現。「Reiß dich zusammen!」は『しっかりしろ』『自分を抑えろ』のような強い命令になり、文脈によってはきつく響く。",
+    "de": "Eine umgangssprachliche Wendung dafür, sich mit Willenskraft zu beherrschen und trotz Angst, Ärger, Traurigkeit, Unlust oder Überforderung wieder unter Kontrolle zu bringen. Der Imperativ „Reiß dich zusammen!“ kann recht scharf oder wenig einfühlsam wirken."
+  },
+
+  "minimal": {
+    "ja": "sich beherrschen＝感情・衝動を抑えて自制することに焦点／sich fassen＝ショックや動揺のあとで平静を取り戻す／sich zusammennehmen＝自分を奮い立たせて態度・行動を立て直す／sich zusammenreißen＝強い感情・弱気・怠け心などを意志で抑え、ぐっと自分を立て直す口語的で力強い表現",
+    "de": "sich beherrschen = Gefühle oder Impulse kontrollieren; sich fassen = nach einem Schock oder einer starken Erregung wieder ruhig werden; sich zusammennehmen = sich bewusst zu mehr Disziplin oder angemessenem Verhalten zwingen; sich zusammenreißen = sich mit spürbarer Willensanstrengung beherrschen und trotz starker Gefühle oder Unlust wieder unter Kontrolle bringen"
+  },
+
+  "equivalents": {
+    "en": ["pull oneself together", "get a grip", "control oneself"],
+    "it": ["farsi forza", "controllarsi", "riprendersi"],
+    "fr": ["se ressaisir", "se maîtriser"],
+    "es": ["reponerse", "controlarse", "sobreponerse"]
+  },
+
+  "etymology": {
+    "ja": "zusammen（ひとつに、まとまって）＋ reißen（強く引く、引き裂く）からなる。文字どおりには『自分をぐっと一つに引きまとめる』ようなイメージで、そこから『自制して自分を立て直す』の意味になった。",
+    "de": "Gebildet aus „zusammen“ und „reißen“. Bildlich liegt die Vorstellung zugrunde, sich selbst mit Kraft wieder „zusammenzuziehen“ und dadurch die Kontrolle über sich zurückzugewinnen."
+  },
+
+  "example": {
+    "ja": "私は泣きそうになったが、なんとか自分を抑えた。",
+    "de": "Ich war kurz davor zu weinen, aber ich riss mich zusammen."
+  },
+
+  "task": {
+    "ja": "「彼は自分を奮い立たせて仕事を続けた。」を sich zusammenreißen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „sich zusammenreißen“ und einer schwierigen Aufgabe."
+  }
+},
+{
+  "id": "ueberlisten",
+  "sid": "2026-00213",
+  "word": "überlisten",
+  "tags": ["verb", "strategy", "abstract", "general"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "策略で出し抜く、裏をかく、うまく欺く",
+    "de": "jemanden durch Klugheit, List oder einen geschickten Trick übertreffen oder täuschen"
+  },
+
+  "nuance": {
+    "ja": "相手より一枚上手に立ち、知恵・策略・工夫によって相手の予想や防御をかいくぐることを表す。単なる嘘や詐欺よりも、『頭を使って相手を出し抜く』というニュアンスが強い。",
+    "de": "Bezeichnet, dass man jemanden durch Klugheit, List oder einen geschickten Trick überwindet. Im Vordergrund steht weniger bloße Täuschung als das geistige Ausmanövrieren oder Überwinden eines Gegners."
+  },
+
+  "minimal": {
+    "ja": "täuschen＝誤った印象を与えて相手を欺く／betrügen＝不正・詐欺によって相手をだます／austricksen＝口語的に工夫や小細工で相手を出し抜く／überlisten＝知恵・策略で相手の裏をかき、予想や防御を上回る",
+    "de": "täuschen = bei jemandem einen falschen Eindruck hervorrufen; betrügen = jemanden durch Unredlichkeit oder Täuschung schädigen; austricksen = umgangssprachlich jemanden durch einen Trick ausspielen; überlisten = jemanden durch Klugheit oder List ausmanövrieren und seine Erwartungen oder Abwehr umgehen"
+  },
+
+  "equivalents": {
+    "en": ["outwit", "outsmart", "trick"],
+    "it": ["raggirare", "aggirare", "battere in astuzia"],
+    "fr": ["déjouer", "berner", "surpasser par la ruse"],
+    "es": ["burlar", "engañar con astucia", "superar en astucia"]
+  },
+
+  "etymology": {
+    "ja": "List（策略、機知）と同じ語族で、über- によって『策略で相手を上回る』という意味をもつようになった。",
+    "de": "Das Verb gehört zur Wortfamilie von „List“. Mit „über-“ entstand die Bedeutung, jemanden durch List oder Klugheit zu überwinden."
+  },
+
+  "example": {
+    "ja": "警察は巧妙な作戦で犯人を出し抜いた。",
+    "de": "Die Polizei überlistete den Täter mit einem geschickten Plan."
+  },
+
+  "task": {
+    "ja": "「彼女は相手を知恵で出し抜いた。」を überlisten を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „überlisten“ und einem Gegner."
+  }
+},
+{
+  "id": "austricksen",
+  "sid": "2026-00214",
+  "word": "austricksen",
+  "tags": ["verb", "colloquial", "strategy", "daily"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "うまく出し抜く、裏をかく、小細工で攻略する",
+    "de": "jemanden oder etwas durch einen Trick, eine clevere Idee oder geschicktes Vorgehen umgehen oder überwinden"
+  },
+
+  "nuance": {
+    "ja": "相手や仕組みの弱点・盲点を見つけ、ちょっとした工夫やトリックでうまく突破することを表す口語的な語。überlisten より軽く、知略というより『うまい手を使って出し抜く』感じが出やすい。",
+    "de": "Ein eher umgangssprachliches Verb dafür, jemanden oder ein System mit einem cleveren Trick, einer geschickten Idee oder durch Ausnutzen einer Schwachstelle zu umgehen. Es wirkt meist leichter und alltäglicher als „überlisten“."
+  },
+
+  "minimal": {
+    "ja": "täuschen＝相手に誤った印象を与えて欺く／überlisten＝知恵・策略で相手の予想や防御を上回る／austricksen＝口語的にトリックや工夫を使って相手・仕組みをうまく出し抜く／umgehen＝規則・障害・仕組みなどを避けて回避する",
+    "de": "täuschen = bei jemandem einen falschen Eindruck hervorrufen; überlisten = jemanden durch Klugheit oder List ausmanövrieren; austricksen = umgangssprachlich jemanden oder ein System mit einem cleveren Trick ausspielen; umgehen = eine Regel, ein Hindernis oder ein System vermeiden oder umgehen"
+  },
+
+  "equivalents": {
+    "en": ["outsmart", "outwit", "trick"],
+    "it": ["aggirare", "raggirare", "battere in astuzia"],
+    "fr": ["berner", "déjouer", "contourner astucieusement"],
+    "es": ["burlar", "engañar con astucia", "sortear"]
+  },
+
+  "etymology": {
+    "ja": "Trick に接頭辞 aus- が付いた口語的な動詞。相手に対してトリックを『使い切る・仕掛けて上回る』という発想から『出し抜く』の意味を表す。",
+    "de": "Umgangssprachliche Bildung zu „Trick“ mit dem Präfix aus-. Das Verb bezeichnet, jemanden durch einen geschickten Trick auszuspielen oder zu umgehen."
+  },
+
+  "example": {
+    "ja": "彼は簡単な工夫でそのシステムを出し抜いた。",
+    "de": "Er trickste das System mit einer einfachen Idee aus."
+  },
+
+  "task": {
+    "ja": "「彼女は相手の策略をうまく出し抜いた。」を austricksen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „austricksen“ und einem Gegner."
+  }
+},
+{
+  "id": "hintergehen",
+  "sid": "2026-00215",
+  "word": "hintergehen",
+  "tags": ["verb", "betrayal", "formal", "abstract"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "裏切る、陰でだます、背信的に出し抜く",
+    "de": "jemanden heimlich täuschen oder betrügen und dabei sein Vertrauen missbrauchen"
+  },
+
+  "nuance": {
+    "ja": "相手の信頼を利用し、本人に知られないよう陰で不利益を与えたり、約束・忠誠を破ったりすることを表す。単なる Täuschung よりも『背後で裏切る』という背信性が強い。",
+    "de": "Bezeichnet ein heimliches Täuschen oder Betrügen, bei dem das Vertrauen einer Person missbraucht wird. Im Vordergrund steht häufig ein treuwidriges oder verräterisches Verhalten."
+  },
+
+  "minimal": {
+    "ja": "täuschen＝誤った印象を与えて相手を欺く／betrügen＝不正・詐欺などによって相手をだます／überlisten＝知恵や策略で相手を出し抜く／hintergehen＝信頼関係を利用し、相手に隠れて背信的にだます・裏切る",
+    "de": "täuschen = bei jemandem einen falschen Eindruck hervorrufen; betrügen = jemanden durch Unredlichkeit oder Täuschung schädigen; überlisten = jemanden durch Klugheit oder List ausmanövrieren; hintergehen = jemanden heimlich und treuwidrig täuschen und dabei sein Vertrauen missbrauchen"
+  },
+
+  "equivalents": {
+    "en": ["betray", "deceive behind someone's back", "double-cross"],
+    "it": ["tradire", "ingannare alle spalle"],
+    "fr": ["trahir", "tromper dans le dos"],
+    "es": ["traicionar", "engañar a espaldas de alguien"]
+  },
+
+  "etymology": {
+    "ja": "hinter（後ろで）＋ gehen（行く）からなり、文字どおりには『相手の背後を回る』という発想。そこから、本人に知られないよう陰で行動して裏切る意味になった。",
+    "de": "Gebildet aus „hinter“ und „gehen“. Die ursprüngliche Vorstellung ist, gleichsam hinter dem Rücken einer Person zu handeln; daraus entwickelte sich die Bedeutung des heimlichen und treuwidrigen Täuschens."
+  },
+
+  "example": {
+    "ja": "彼は長年のビジネスパートナーを陰で裏切った。",
+    "de": "Er hinterging seinen langjährigen Geschäftspartner."
+  },
+
+  "task": {
+    "ja": "「彼女は友人の信頼を裏切った。」を hintergehen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „hintergehen“ und dem Vertrauen eines Freundes."
+  }
+},
+{
+  "id": "unterbringen",
+  "sid": "2026-00216",
+  "word": "unterbringen",
+  "tags": ["verb", "general", "daily", "abstract"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①泊める、収容する ②置き場所を見つける、収納する ③盛り込む、組み込む",
+    "de": "①jemandem eine Unterkunft geben oder jemanden irgendwo unterbringen ②für etwas einen geeigneten Platz finden ③etwas in einem Text, Plan oder Zusammenhang unterbringen"
+  },
+
+  "nuance": {
+    "ja": "人なら『宿泊・収容する』、物なら『置き場所を確保する』、情報や内容なら『文章・計画などにうまく盛り込む』という意味になる。共通するのは、限られた場所や枠の中に何かを適切に収めること。",
+    "de": "Das Verb kann sich auf Personen, Gegenstände oder abstrakte Inhalte beziehen. Gemeinsam ist den Bedeutungen, dass für etwas oder jemanden ein passender Platz oder Rahmen gefunden wird."
+  },
+
+  "minimal": {
+    "ja": "beherbergen＝人を宿泊させる・施設が人を収容することに焦点／unterbringen＝人・物・内容について適切な場所や枠を確保して収める広い語／verstauen＝物を限られた空間にうまく収納する／einbauen＝部品・要素を構造の中に組み込む",
+    "de": "beherbergen = Personen Unterkunft bieten oder Gäste aufnehmen; unterbringen = für Personen, Dinge oder Inhalte einen passenden Platz oder Rahmen finden; verstauen = Gegenstände platzsparend und ordentlich unterbringen; einbauen = ein Teil oder Element fest in eine Struktur integrieren"
+  },
+
+  "equivalents": {
+    "en": ["accommodate", "house", "fit in", "place"],
+    "it": ["alloggiare", "sistemare", "inserire"],
+    "fr": ["loger", "caser", "placer"],
+    "es": ["alojar", "colocar", "encajar"]
+  },
+
+  "etymology": {
+    "ja": "unter と bringen からなる語で、もともとは『保護される場所・覆いの下へ持っていく』という発想。そこから『収容する、置き場所を与える』へ意味が広がった。",
+    "de": "Gebildet aus „unter“ und „bringen“. Die ältere Grundvorstellung ist, jemanden oder etwas an einen geschützten oder geeigneten Platz zu bringen."
+  },
+
+  "example": {
+    "ja": "私たちは客を近くのホテルに泊めた。",
+    "de": "Wir haben die Gäste in einem nahe gelegenen Hotel untergebracht."
+  },
+
+  "task": {
+    "ja": "「この情報を報告書のどこかにうまく盛り込みたい。」を unterbringen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „unterbringen“ im Sinne von „in einen Bericht einfügen“."
+  }
+},
+{
+  "id": "verdutzt",
+  "sid": "2026-00217",
+  "word": "verdutzt",
+  "tags": ["adj", "emotion", "reaction", "daily"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "面食らった、きょとんとした、ぽかんとした",
+    "de": "überrascht und für einen Moment ratlos oder sprachlos"
+  },
+
+  "nuance": {
+    "ja": "予想外の出来事や発言に不意を突かれ、一瞬状況を理解できず、どう反応すべきか分からない様子を表す。強いショックというより、驚きと困惑が混ざった反応。",
+    "de": "Bezeichnet eine Reaktion auf etwas Unerwartetes, bei der man für einen Moment überrascht, verwirrt oder sprachlos ist und nicht recht weiß, wie man reagieren soll."
+  },
+
+  "minimal": {
+    "ja": "überrascht＝予想外のことに驚いたという最も一般的な語／verblüfft＝強く意表を突かれて驚き、感心や困惑を伴うこともある／verdutzt＝不意を突かれて一瞬きょとんとし、どう反応してよいか分からない／fassungslos＝非常に強い衝撃で言葉を失う",
+    "de": "überrascht = allgemeiner Ausdruck für eine unerwartete Reaktion; verblüfft = stark überrascht und oft erstaunt oder beeindruckt; verdutzt = durch etwas Unerwartetes kurz ratlos, verwirrt oder sprachlos; fassungslos = durch einen starken Schock völlig aus der Fassung gebracht"
+  },
+
+  "equivalents": {
+    "en": ["taken aback", "dumbfounded", "nonplussed"],
+    "it": ["sconcertato", "interdetto"],
+    "fr": ["déconcerté", "interloqué"],
+    "es": ["desconcertado", "atónito"]
+  },
+
+  "etymology": {
+    "ja": "動詞 verdutzen に由来する形容詞。verdutzen は『面食らわせる、きょとんとさせる』の意味で、語源は不明確。",
+    "de": "Adjektivischer Gebrauch des Partizips von „verdutzen“ im Sinne von „jemanden überraschen und ratlos machen“. Die weitere Herkunft ist nicht eindeutig geklärt."
+  },
+
+  "example": {
+    "ja": "突然の質問に、彼は一瞬きょとんとした。",
+    "de": "Auf die unerwartete Frage reagierte er zunächst verdutzt."
+  },
+
+  "task": {
+    "ja": "「彼女はその返事を聞いて、ぽかんと彼を見た。」を verdutzt を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verdutzt“ nach einer unerwarteten Antwort."
+  }
+},
+{
+  "id": "verbluefft",
+  "sid": "2026-00218",
+  "word": "verblüfft",
+  "tags": ["adj", "emotion", "reaction", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "びっくりした、面食らった、あっけにとられた",
+    "de": "stark überrascht oder erstaunt"
+  },
+
+  "nuance": {
+    "ja": "予想外の出来事・結果・能力などに強く驚くことを表す。単なる überrascht より驚きが強く、感心や困惑を伴うこともある。verdutzt のように『一瞬どう反応すべきか分からない』ことは必須ではない。",
+    "de": "Bezeichnet eine deutliche oder starke Überraschung über etwas Unerwartetes. Im Vergleich zu „überrascht“ ist die Reaktion stärker; Staunen oder Verwirrung können mitschwingen, sind aber nicht zwingend."
+  },
+
+  "minimal": {
+    "ja": "überrascht＝予想外のことに驚いたという一般語／erstaunt＝意外な事実・程度などに驚き、感心していることもある／verblüfft＝予想を大きく裏切られて強く驚く／verdutzt＝不意を突かれて一瞬きょとんとし、どう反応してよいか分からない",
+    "de": "überrascht = allgemeiner Ausdruck für eine unerwartete Reaktion; erstaunt = überrascht oder verwundert, oft mit Staunen; verblüfft = durch etwas völlig Unerwartetes deutlich und stark überrascht; verdutzt = durch etwas Unerwartetes kurz ratlos oder sprachlos und unsicher, wie man reagieren soll"
+  },
+
+  "equivalents": {
+    "en": ["astonished", "amazed", "taken aback"],
+    "it": ["sbalordito", "stupito"],
+    "fr": ["étonné", "stupéfait"],
+    "es": ["asombrado", "sorprendido"]
+  },
+
+  "etymology": {
+    "ja": "動詞 verblüffen の過去分詞が形容詞化したもの。verblüffen は『ひどく驚かせる』の意味をもち、語源は必ずしも明確ではない。",
+    "de": "Adjektivischer Gebrauch des Partizips II von „verblüffen“, das „stark überraschen oder erstaunen“ bedeutet. Die weitere Herkunft ist nicht eindeutig geklärt."
+  },
+
+  "example": {
+    "ja": "その結果には本当に驚いた。",
+    "de": "Ich war von dem Ergebnis wirklich verblüfft."
+  },
+
+  "task": {
+    "ja": "「彼女の流暢なドイツ語に私はびっくりした。」を verblüfft を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verblüfft“ über die Sprachkenntnisse einer Person."
+  }
+},
+{
+  "id": "puste",
+  "sid": "2026-00219",
+  "word": "Puste",
+  "tags": ["noun", "colloquial", "body", "daily"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "息、呼吸の余力、体力、スタミナ",
+    "de": "Atem; umgangssprachlich auch körperliche Ausdauer oder Kondition"
+  },
+
+  "nuance": {
+    "ja": "主に口語で使われる語で、単なる Atem というより『まだどれだけ息がもつか』『どれだけ体力が残っているか』という感覚を表す。特に aus der Puste sein で『息を切らしている』、keine Puste mehr haben で『もう息・体力が残っていない』の意味になる。",
+    "de": "Ein umgangssprachliches Wort, das nicht nur den Atem selbst, sondern oft auch die körperliche Ausdauer bezeichnet. Besonders häufig ist die Wendung „aus der Puste sein“ für „außer Atem sein“."
+  },
+
+  "minimal": {
+    "ja": "Atem＝呼吸・息そのものを表す中立的な一般語／Kondition＝運動能力としての持久力・体力／Ausdauer＝長時間続けられる持続力／Puste＝口語的に、息の余力や運動時のスタミナを表す",
+    "de": "Atem = neutraler Ausdruck für die Atmung oder den Atem; Kondition = körperliche Leistungsfähigkeit und Fitness; Ausdauer = Fähigkeit, eine Belastung längere Zeit durchzuhalten; Puste = umgangssprachlich Atemreserve bzw. körperliche Ausdauer"
+  },
+
+  "equivalents": {
+    "en": ["breath", "wind", "stamina"],
+    "it": ["fiato", "resistenza"],
+    "fr": ["souffle", "endurance"],
+    "es": ["aliento", "fuelle", "resistencia"]
+  },
+
+  "etymology": {
+    "ja": "pusten（ふうっと吹く、息を吹きかける）と同じ語族の口語的な名詞。『吹く息』から『呼吸の余力・スタミナ』へ意味が広がった。",
+    "de": "Gehört zur Wortfamilie von „pusten“. Aus der Vorstellung des Ausatmens entwickelte sich die umgangssprachliche Bedeutung „Atem“ und weiter „körperliche Ausdauer“."
+  },
+
+  "example": {
+    "ja": "階段を駆け上がったあと、私は完全に息を切らしていた。",
+    "de": "Nach dem Treppensteigen war ich völlig aus der Puste."
+  },
+
+  "task": {
+    "ja": "「もう息が続かない。」を Puste を使って口語的なドイツ語で言う。",
+    "de": "Formuliere einen umgangssprachlichen Satz mit „Puste“ im Sinne von fehlender Ausdauer."
+  }
 }
 ]
