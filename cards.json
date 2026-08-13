@@ -9019,5 +9019,343 @@
     "ja": "「私は新しい人と話すのが比較的楽だ。」を leichtfallen を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „leichtfallen“ und „mit neuen Leuten sprechen“."
   }
+},
+{
+  "id": "besinnen",
+  "sid": "2026-00205",
+  "word": "besinnen",
+  "tags": ["verb", "reflexive", "abstract", "formal"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①よく考える、考え直す ②我に返る ③〜を思い起こす、〜に立ち返る",
+    "de": "①gründlich nachdenken oder zur Vernunft kommen ②sich wieder fassen ③sich an etwas erinnern oder sich auf etwas Wesentliches zurückbesinnen"
+  },
+
+  "nuance": {
+    "ja": "主に再帰形 sich besinnen で使う。単なる denken より、『一度立ち止まって冷静に考える』『本来大切なものを思い出して立ち返る』という内省的なニュアンスがある。sich auf etwas besinnen は『〜を改めて重視する・〜に立ち返る』、sich eines Genitivs besinnen は『〜を思い出す』というやや硬い用法。",
+    "de": "Das Verb wird heute vor allem reflexiv als „sich besinnen“ gebraucht. Es bezeichnet ein bewusstes Innehalten und Nachdenken oder die Rückkehr zu etwas Wesentlichem. „Sich auf etwas besinnen“ bedeutet, sich wieder auf etwas zu konzentrieren; „sich einer Sache besinnen“ ist eine gehobene Wendung für „sich an etwas erinnern“."
+  },
+
+  "minimal": {
+    "ja": "nachdenken＝あることについて一般的によく考える／sich überlegen＝具体的な判断・行動について考える／sich besinnen＝立ち止まって冷静さを取り戻し、本質・原則・記憶などに立ち返る／sich erinnern＝過去の出来事・情報を思い出す",
+    "de": "nachdenken = allgemein über etwas gründlich denken; sich überlegen = eine konkrete Entscheidung oder Handlung gedanklich abwägen; sich besinnen = innehalten, zur Besonnenheit zurückfinden oder sich wieder auf etwas Wesentliches konzentrieren; sich erinnern = etwas Vergangenes wieder ins Gedächtnis rufen"
+  },
+
+  "equivalents": {
+    "en": ["reflect", "come to one's senses", "recall", "return to"],
+    "it": ["riflettere", "ravvedersi", "ricordarsi"],
+    "fr": ["réfléchir", "se ressaisir", "se souvenir"],
+    "es": ["reflexionar", "recapacitar", "recordar"]
+  },
+
+  "etymology": {
+    "ja": "Sinn（感覚、心、意味）と同系の古い動詞で、もともとは『心を向ける、意識する』という意味をもった。そこから『熟考する』『思い出す』『正気に返る』という意味が発達した。",
+    "de": "Das Verb gehört etymologisch zu „Sinn“. Die ältere Grundbedeutung war etwa „den Sinn auf etwas richten“, woraus sich die Bedeutungen „nachdenken“, „sich erinnern“ und „zur Besonnenheit kommen“ entwickelten."
+  },
+
+  "example": {
+    "ja": "私たちは自分たちの本来の強みに立ち返るべきだ。",
+    "de": "Wir sollten uns wieder auf unsere eigentlichen Stärken besinnen."
+  },
+
+  "task": {
+    "ja": "「彼はようやく我に返り、自分の決断を考え直した。」を sich besinnen を使ってドイツ語で表現する。",
+    "de": "Formuliere einen Satz mit „sich besinnen“ im Sinne von „zur Vernunft kommen“."
+  }
+},
+{
+  "id": "besonnen",
+  "sid": "2026-00206",
+  "word": "besonnen",
+  "tags": ["adj", "personality", "formal", "abstract"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "思慮深い、冷静な、落ち着いた",
+    "de": "ruhig, vernünftig und wohlüberlegt handelnd"
+  },
+
+  "nuance": {
+    "ja": "感情や勢いに流されず、状況を落ち着いて判断して慎重に行動することを表す。単に ruhig であるだけでなく、理性的・思慮深い判断力を含む肯定的な語。",
+    "de": "Bezeichnet ein ruhiges, vernünftiges und überlegtes Verhalten, bei dem man sich nicht von Emotionen oder Impulsen leiten lässt. Das Wort beschreibt nicht nur Ruhe, sondern auch Urteilsvermögen und Selbstkontrolle."
+  },
+
+  "minimal": {
+    "ja": "ruhig＝単に落ち着いていて興奮していない／vernünftig＝理性的で筋の通った判断をする／überlegt＝よく考えた上で慎重に行動する／besonnen＝感情に流されず、冷静さと思慮を保って判断・行動する",
+    "de": "ruhig = nicht aufgeregt oder unruhig; vernünftig = rational und sinnvoll urteilend; überlegt = nach sorgfältigem Nachdenken handelnd; besonnen = ruhig, selbstbeherrscht und mit vernünftigem Urteilsvermögen handelnd"
+  },
+
+  "equivalents": {
+    "en": ["level-headed", "composed", "prudent"],
+    "it": ["assennato", "ponderato", "calmo"],
+    "fr": ["réfléchi", "posé", "prudent"],
+    "es": ["sensato", "sereno", "prudente"]
+  },
+
+  "etymology": {
+    "ja": "sich besinnen と同じ語族で、もともと『意識を保ち、よく考えている』という発想から『冷静で思慮深い』という意味になった。",
+    "de": "Gehört zur Wortfamilie von „sich besinnen“. Die Bedeutung entwickelte sich aus der Vorstellung, bei klarem Bewusstsein und mit Überlegung zu handeln."
+  },
+
+  "example": {
+    "ja": "危機的な状況でも彼女は冷静に対応した。",
+    "de": "Auch in der Krise reagierte sie ruhig und besonnen."
+  },
+
+  "task": {
+    "ja": "「彼は非常に冷静で思慮深い判断を下した。」を besonnen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „besonnen“ über eine Entscheidung."
+  }
+},
+{
+  "id": "besinnung",
+  "sid": "2026-00207",
+  "word": "Besinnung",
+  "tags": ["noun", "abstract", "formal", "reflection"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "①熟考、内省 ②意識、正気 ③本質・原点への回帰",
+    "de": "①ruhiges Nachdenken oder innere Sammlung ②Bewusstsein oder geistige Klarheit ③Rückkehr zu etwas Wesentlichem"
+  },
+
+  "nuance": {
+    "ja": "単なる Denken よりも、心を落ち着けて自分や本質について考える『内省・沈思』を表す。また「zur Besinnung kommen」で『意識を取り戻す』『我に返る』という重要な用法がある。",
+    "de": "Bezeichnet mehr als bloßes Denken: häufig ruhige innere Sammlung, Reflexion oder die Rückkehr zu etwas Wesentlichem. In der festen Wendung „zur Besinnung kommen“ bedeutet es auch, das Bewusstsein oder die geistige Klarheit wiederzuerlangen."
+  },
+
+  "minimal": {
+    "ja": "Nachdenken＝ある問題について一般的によく考えること／Reflexion＝対象を分析的・知的に振り返ること／Besinnung＝心を落ち着けて内省し、本質・原点・理性に立ち返ること／Bewusstsein＝意識そのもの、または自覚",
+    "de": "Nachdenken = allgemeines gründliches Denken über etwas; Reflexion = eher analytisches oder bewusstes Nachdenken; Besinnung = innere Sammlung, ruhige Selbstreflexion oder Rückkehr zu Vernunft und Wesentlichem; Bewusstsein = Zustand des Wachseins oder bewusstes Wahrnehmen"
+  },
+
+  "equivalents": {
+    "en": ["reflection", "contemplation", "consciousness"],
+    "it": ["riflessione", "raccoglimento", "coscienza"],
+    "fr": ["réflexion", "recueillement", "conscience"],
+    "es": ["reflexión", "recogimiento", "conciencia"]
+  },
+
+  "etymology": {
+    "ja": "sich besinnen から派生した名詞。Sinn と同語族で、『心・意識を何かに向ける』という基本イメージをもつ。",
+    "de": "Abgeleitet von „sich besinnen“ und etymologisch mit „Sinn“ verwandt. Die Grundvorstellung ist das bewusste Richten des Geistes auf etwas."
+  },
+
+  "example": {
+    "ja": "事故のあと、彼はしばらくして意識を取り戻した。",
+    "de": "Nach dem Unfall kam er nach einiger Zeit wieder zur Besinnung."
+  },
+
+  "task": {
+    "ja": "「私たちは本質に立ち返る必要がある。」を Besinnung を使った自然なドイツ語で表現する。",
+    "de": "Formuliere einen Satz mit „Besinnung“ im Sinne einer Rückkehr zum Wesentlichen."
+  }
+},
+{
+  "id": "besonnenheit",
+  "sid": "2026-00208",
+  "word": "Besonnenheit",
+  "tags": ["noun", "abstract", "personality", "formal"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "冷静さ、思慮深さ、慎重さ、自制",
+    "de": "ruhige, vernünftige und selbstbeherrschte Haltung oder Handlungsweise"
+  },
+
+  "nuance": {
+    "ja": "感情や衝動に流されず、状況を落ち着いて見極め、理性的かつ慎重に判断・行動する性質を表す。単なる Ruhe よりも、判断力・自制心・思慮深さを含む。",
+    "de": "Bezeichnet die Fähigkeit oder Haltung, auch in schwierigen Situationen ruhig, vernünftig und selbstbeherrscht zu bleiben. Im Unterschied zu bloßer Ruhe schließt „Besonnenheit“ Urteilsvermögen, Selbstkontrolle und Überlegung ein."
+  },
+
+  "minimal": {
+    "ja": "Ruhe＝興奮や騒がしさがない落ち着いた状態／Gelassenheit＝物事に動じず余裕を保つ落ち着き／Vernunft＝理性的に判断する能力／Besonnenheit＝感情に流されず、冷静さ・自制・思慮を保って判断し行動する性質",
+    "de": "Ruhe = Zustand ohne Unruhe oder Aufregung; Gelassenheit = innere Ruhe und Unaufgeregtheit gegenüber Belastungen; Vernunft = Fähigkeit zu rationalem Urteilen; Besonnenheit = ruhige, selbstbeherrschte und wohlüberlegte Haltung beim Urteilen und Handeln"
+  },
+
+  "equivalents": {
+    "en": ["level-headedness", "composure", "prudence"],
+    "it": ["assennatezza", "ponderatezza", "calma"],
+    "fr": ["sang-froid", "pondération", "prudence"],
+    "es": ["sensatez", "serenidad", "prudencia"]
+  },
+
+  "etymology": {
+    "ja": "形容詞 besonnen に抽象名詞を作る接尾辞 -heit が付いた語。besinnen・Sinn と同じ語族で、『よく考え、正気を保っていること』から現在の意味になった。",
+    "de": "Abstraktbildung zu „besonnen“ mit dem Suffix „-heit“. Das Wort gehört zur Familie von „besinnen“ und „Sinn“ und bezeichnet den Zustand bzw. die Eigenschaft des ruhigen und überlegten Handelns."
+  },
+
+  "example": {
+    "ja": "危機的な状況では冷静さと思慮深さが求められる。",
+    "de": "In einer Krisensituation sind Ruhe und Besonnenheit gefragt."
+  },
+
+  "task": {
+    "ja": "「彼女は困難な状況でも驚くほど冷静さを保った。」を Besonnenheit を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Besonnenheit“ über das Verhalten in einer schwierigen Situation."
+  }
+},
+{
+  "id": "durch-den-wind",
+  "sid": "2026-00209",
+  "word": "durch den Wind",
+  "tags": ["idiom", "colloquial", "emotion", "daily"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "idiom"
+  },
+
+  "meaning": {
+    "ja": "動揺している、頭が混乱している、平常心を失っている",
+    "de": "verwirrt, nervös oder emotional aus dem Gleichgewicht sein"
+  },
+
+  "nuance": {
+    "ja": "驚き・ストレス・寝不足・ショックなどのために、普段どおりに考えたり行動したりできない状態を表す口語的な慣用表現。単なる混乱だけでなく、精神的に調子を崩している感じを含む。",
+    "de": "Eine umgangssprachliche Redewendung für einen Zustand, in dem man wegen Stress, Aufregung, Schock oder Erschöpfung nicht ganz bei sich ist und nicht wie gewohnt denken oder handeln kann."
+  },
+
+  "minimal": {
+    "ja": "verwirrt＝情報や状況が理解できず混乱している／aufgewühlt＝感情が強く揺さぶられている／nervös＝緊張・不安で落ち着かない／durch den Wind＝何かの影響で精神的に調子が狂い、ぼんやり・動揺・混乱して普段どおりでない",
+    "de": "verwirrt = gedanklich nicht klar oder orientierungslos; aufgewühlt = emotional stark erregt; nervös = angespannt und unruhig; durch den Wind = durch Stress, Aufregung oder Erschöpfung insgesamt aus dem inneren Gleichgewicht und nicht ganz bei sich"
+  },
+
+  "equivalents": {
+    "en": ["rattled", "flustered", "all over the place"],
+    "it": ["scombussolato", "confuso"],
+    "fr": ["déboussolé", "perturbé"],
+    "es": ["desconcertado", "alterado"]
+  },
+
+  "etymology": {
+    "ja": "直訳は『風を通り抜けて』だが、語源は必ずしも明確ではない。現代語では、強い風に吹き乱されたように精神状態が乱れている、という比喩的なイメージで理解すると覚えやすい。",
+    "de": "Die genaue Herkunft der Redewendung ist nicht eindeutig. Heute lässt sie sich bildlich so verstehen, dass jemand innerlich so durcheinander ist, als wäre er vom Wind völlig zerzaust oder aus dem Gleichgewicht gebracht worden."
+  },
+
+  "example": {
+    "ja": "昨日ほとんど眠れなかったので、今日は完全に頭がぼんやりしている。",
+    "de": "Ich habe gestern kaum geschlafen und bin heute völlig durch den Wind."
+  },
+
+  "task": {
+    "ja": "「その知らせを聞いて、彼女はかなり動揺していた。」を durch den Wind を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „durch den Wind“ nach einer überraschenden Nachricht."
+  }
+},
+{
+  "id": "verwirrt",
+  "sid": "2026-00210",
+  "word": "verwirrt",
+  "tags": ["adj", "mental-state", "general", "daily"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "混乱した、当惑した、頭がこんがらがった",
+    "de": "gedanklich unklar, orientierungslos oder durcheinander"
+  },
+
+  "nuance": {
+    "ja": "情報・状況・説明などをうまく整理できず、頭の中が混乱している状態を表す。感情的に強く動揺していることまでは必ずしも含まない。",
+    "de": "Bezeichnet einen Zustand, in dem Gedanken, Informationen oder Eindrücke nicht klar geordnet werden können. Eine starke emotionale Erregung ist dabei nicht unbedingt gemeint."
+  },
+
+  "minimal": {
+    "ja": "verwirrt＝情報・状況を整理できず頭の中が混乱している／ratlos＝どうすればよいか分からず途方に暮れている／aufgewühlt＝感情が強く揺さぶられている／durch den Wind＝ストレス・驚き・疲労などで精神的に調子を崩し、普段どおりでない",
+    "de": "verwirrt = Gedanken oder Informationen nicht klar ordnen können; ratlos = nicht wissen, was man tun oder wie man entscheiden soll; aufgewühlt = emotional stark erregt sein; durch den Wind = durch Stress, Aufregung oder Erschöpfung insgesamt aus dem Gleichgewicht sein"
+  },
+
+  "equivalents": {
+    "en": ["confused", "bewildered", "mixed up"],
+    "it": ["confuso", "disorientato"],
+    "fr": ["confus", "désorienté"],
+    "es": ["confundido", "desorientado"]
+  },
+
+  "etymology": {
+    "ja": "動詞 verwirren（混乱させる）の過去分詞が形容詞化したもの。wirr（乱れた、混乱した）と同じ語族。",
+    "de": "Partizip II von „verwirren“, das adjektivisch gebraucht wird. Es gehört zur Wortfamilie von „wirr“."
+  },
+
+  "example": {
+    "ja": "その説明を聞いて、私はかえって混乱した。",
+    "de": "Nach dieser Erklärung war ich noch verwirrter."
+  },
+
+  "task": {
+    "ja": "「私はその複雑な説明に少し混乱した。」を verwirrt を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verwirrt“ nach einer komplizierten Erklärung."
+  }
+},
+{
+  "id": "aufgewuehlt",
+  "sid": "2026-00211",
+  "word": "aufgewühlt",
+  "tags": ["adj", "emotion", "mental-state", "formal"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "ひどく動揺した、感情がかき乱された",
+    "de": "emotional stark erregt, innerlich aufgewühlt oder tief bewegt"
+  },
+
+  "nuance": {
+    "ja": "ショック・怒り・悲しみ・不安などによって感情が大きく揺れ、内面的に落ち着きを失っている状態を表す。単に考えが混乱しているのではなく、感情面の激しい動揺が中心。",
+    "de": "Bezeichnet einen Zustand starker innerer und emotionaler Erregung, etwa durch Schock, Angst, Trauer oder Wut. Im Mittelpunkt steht nicht gedankliche Verwirrung, sondern eine tief aufgewühlte Gefühlslage."
+  },
+
+  "minimal": {
+    "ja": "verwirrt＝情報や状況を整理できず頭の中が混乱している／nervös＝緊張や不安で落ち着かない／aufgewühlt＝強い感情によって内面が大きく揺さぶられている／durch den Wind＝ストレス・驚き・疲労などで精神状態全体が乱れ、普段どおりでない",
+    "de": "verwirrt = Gedanken oder Informationen nicht klar ordnen können; nervös = angespannt und unruhig sein; aufgewühlt = durch starke Gefühle innerlich tief erregt und aus dem Gleichgewicht gebracht sein; durch den Wind = durch Stress, Aufregung oder Erschöpfung insgesamt nicht ganz bei sich sein"
+  },
+
+  "equivalents": {
+    "en": ["upset", "agitated", "emotionally shaken"],
+    "it": ["turbato", "sconvolto", "agitato"],
+    "fr": ["bouleversé", "agité"],
+    "es": ["alterado", "conmovido", "agitado"]
+  },
+
+  "etymology": {
+    "ja": "動詞 aufwühlen の過去分詞が形容詞化したもの。wühlen は『かき回す、掘り返す』の意で、aufwühlen は本来『かき混ぜて乱す』、そこから比喩的に『感情をかき乱す』の意味になった。",
+    "de": "Adjektivischer Gebrauch des Partizips II von „aufwühlen“. „Wühlen“ bedeutet ursprünglich „umgraben, durcheinanderbringen“; daraus entwickelte sich übertragen die Bedeutung, Gefühle stark aufzurühren."
+  },
+
+  "example": {
+    "ja": "その知らせを聞いたあと、彼女はひどく動揺していた。",
+    "de": "Nach dieser Nachricht war sie völlig aufgewühlt."
+  },
+
+  "task": {
+    "ja": "「その会話のあと、私は感情的にかなり動揺していた。」を aufgewühlt を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „aufgewühlt“ nach einem emotionalen Gespräch."
+  }
 }
 ]
