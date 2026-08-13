@@ -9742,5 +9742,633 @@
     "ja": "「もう息が続かない。」を Puste を使って口語的なドイツ語で言う。",
     "de": "Formuliere einen umgangssprachlichen Satz mit „Puste“ im Sinne von fehlender Ausdauer."
   }
+},
+{
+  "id": "festhalten",
+  "sid": "2026-00220",
+  "word": "festhalten",
+  "tags": ["verb", "general", "daily", "abstract"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①しっかりつかむ、押さえておく ②引き止める、拘束する ③記録する、書き留める ④固守する",
+    "de": "①etwas fest greifen oder halten ②jemanden am Weggehen hindern oder festhalten ③etwas schriftlich oder anderweitig dokumentieren ④an etwas weiterhin festhalten"
+  },
+
+  "nuance": {
+    "ja": "物理的に『しっかりつかむ』だけでなく、人をその場にとどめる、事実や合意を記録として残す、考え・方針・主張を維持する、という抽象的な意味にも広く使われる。",
+    "de": "Das Verb reicht vom konkreten festen Halten über das Zurückhalten einer Person bis zum Dokumentieren von Informationen und zum Beharren auf einer Meinung, Entscheidung oder Position."
+  },
+
+  "minimal": {
+    "ja": "halten＝一般的に持つ・保つ／festhalten＝しっかりつかむ、相手をとどめる、または内容を記録・固守する／zurückhalten＝前進・発言・感情などを抑えて控えさせる／notieren＝情報を簡潔に書き留める",
+    "de": "halten = etwas allgemein halten oder in einem Zustand bewahren; festhalten = etwas fest greifen, jemanden am Weggehen hindern oder Informationen bzw. Positionen dauerhaft sichern; zurückhalten = jemanden oder etwas am Weitergehen, Äußern oder Hervortreten hindern; notieren = Informationen kurz schriftlich festhalten"
+  },
+
+  "equivalents": {
+    "en": ["hold on to", "detain", "record", "stick to"],
+    "it": ["tenere fermo", "trattenere", "annotare", "mantenere"],
+    "fr": ["tenir fermement", "retenir", "consigner", "maintenir"],
+    "es": ["sujetar", "retener", "anotar", "mantener"]
+  },
+
+  "etymology": {
+    "ja": "fest（しっかりした、固定した）＋ halten（保つ、持つ）からなる語。『固定した状態で保つ』という基本イメージから、拘束・記録・固守などの意味が発達した。",
+    "de": "Gebildet aus „fest“ und „halten“. Die Grundvorstellung ist, etwas in fester oder unveränderter Position zu halten; daraus entwickelten sich die Bedeutungen des Zurückhaltens, Dokumentierens und Beharrens."
+  },
+
+  "example": {
+    "ja": "会議の結果は議事録に記録された。",
+    "de": "Die Ergebnisse der Sitzung wurden im Protokoll festgehalten."
+  },
+
+  "task": {
+    "ja": "「彼は自分の意見を最後まで固守した。」を an etwas festhalten を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „an etwas festhalten“ im Sinne von „an einer Meinung festhalten“."
+  }
+},
+{
+  "id": "keuchen",
+  "sid": "2026-00221",
+  "word": "keuchen",
+  "tags": ["verb", "body", "breathing", "daily"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "あえぐ、はあはあと荒い息をする、息を切らす",
+    "de": "schwer, laut und angestrengt atmen"
+  },
+
+  "nuance": {
+    "ja": "激しい運動、疲労、痛み、恐怖、呼吸困難などによって、苦しそうに荒く息をすることを表す。単なる schnell atmen よりも、呼吸に明らかな負担や苦しさがある。",
+    "de": "Bezeichnet schweres, hörbares und angestrengtes Atmen, etwa nach körperlicher Anstrengung, bei Erschöpfung, Schmerz, Angst oder Atemnot. Es klingt deutlich belasteter als bloßes schnelles Atmen."
+  },
+
+  "minimal": {
+    "ja": "atmen＝一般的に呼吸する／schnaufen＝荒く息をする・ふうふう言う口語的な語／keuchen＝苦しそうに、音を立てて激しくあえぐ／japsen＝息が足りず短く必死にあえぐ",
+    "de": "atmen = allgemein Luft ein- und ausatmen; schnaufen = umgangssprachlich hörbar und kräftig atmen; keuchen = schwer, angestrengt und hörbar atmen; japsen = in kurzen, hastigen Atemzügen nach Luft ringen"
+  },
+
+  "equivalents": {
+    "en": ["pant", "gasp", "breathe heavily"],
+    "it": ["ansimare", "affannarsi"],
+    "fr": ["haleter", "喘er"],
+    "es": ["jadear", "boquear"]
+  },
+
+  "etymology": {
+    "ja": "古いゲルマン系の擬音的な語と考えられ、荒く苦しい呼吸音を表すところから発達した。",
+    "de": "Ein altes lautmalerisch geprägtes Verb, das ursprünglich schweres und hörbares Atmen bezeichnete."
+  },
+
+  "example": {
+    "ja": "彼は階段を駆け上がり、息を切らしていた。",
+    "de": "Er rannte die Treppe hinauf und keuchte."
+  },
+
+  "task": {
+    "ja": "「彼女は走ったあと、激しく息を切らしていた。」を keuchen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „keuchen“ nach körperlicher Anstrengung."
+  }
+},
+{
+  "id": "schnaufen",
+  "sid": "2026-00222",
+  "word": "schnaufen",
+  "tags": ["verb", "body", "breathing", "colloquial"],
+  "level": "B2",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "ふうふう息をする、荒い息をする、息を切らす",
+    "de": "hörbar und kräftig atmen, besonders nach körperlicher Anstrengung"
+  },
+
+  "nuance": {
+    "ja": "運動・疲労・暑さなどで、音を立てながら荒く呼吸することを表す口語的な語。keuchen ほど苦痛や呼吸困難のニュアンスは強くなく、単に『ふうふう言っている』程度にも使える。",
+    "de": "Ein eher umgangssprachliches Verb für hörbares, kräftiges Atmen, besonders nach Anstrengung. Im Vergleich zu „keuchen“ muss das Atmen nicht so qualvoll oder stark belastet wirken."
+  },
+
+  "minimal": {
+    "ja": "atmen＝一般的に呼吸する／schnaufen＝運動・疲労などでふうふうと音を立てて荒く呼吸する／keuchen＝苦しそうに強くあえぐ／japsen＝息を求めて短く必死にあえぐ",
+    "de": "atmen = allgemein Luft ein- und ausatmen; schnaufen = besonders nach Anstrengung hörbar und kräftig atmen; keuchen = schwer und deutlich angestrengt atmen; japsen = in kurzen, hastigen Atemzügen nach Luft ringen"
+  },
+
+  "equivalents": {
+    "en": ["pant", "puff", "breathe heavily"],
+    "it": ["ansimare", "sbuffare"],
+    "fr": ["souffler", "haleter"],
+    "es": ["jadear", "resoplar"]
+  },
+
+  "etymology": {
+    "ja": "呼吸音をまねた擬音的なゲルマン系の語。schnauben などとも近く、鼻や口から勢いよく息をする音のイメージをもつ。",
+    "de": "Ein lautmalerisch geprägtes germanisches Verb, verwandt mit Wörtern wie „schnauben“, die kräftiges und hörbares Ausatmen bezeichnen."
+  },
+
+  "example": {
+    "ja": "彼は階段を上りきると、しばらくふうふう息をしていた。",
+    "de": "Oben angekommen, schnaufte er erst einmal eine Weile."
+  },
+
+  "task": {
+    "ja": "「彼女は重い荷物を運んだあと、ふうふう息をしていた。」を schnaufen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „schnaufen“ nach körperlicher Anstrengung."
+  }
+},
+{
+  "id": "japsen",
+  "sid": "2026-00223",
+  "word": "japsen",
+  "tags": ["verb", "body", "breathing", "colloquial"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "あえぐ、息を切らして必死に呼吸する、息を求めてはあはあする",
+    "de": "in kurzen, hastigen Atemzügen nach Luft ringen"
+  },
+
+  "nuance": {
+    "ja": "激しい運動・驚き・苦しさなどで息が足りず、短く途切れた呼吸をしながら空気を求めることを表す口語的な語。schnaufen より切迫し、keuchen よりも『息を求める』感じが前面に出る。",
+    "de": "Ein eher umgangssprachliches Verb für kurzes, hastiges Atmen, bei dem man deutlich nach Luft ringt. Im Vergleich zu „schnaufen“ wirkt es dringlicher; gegenüber „keuchen“ steht das Luftschnappen stärker im Vordergrund."
+  },
+
+  "minimal": {
+    "ja": "schnaufen＝運動・疲労などでふうふうと荒く呼吸する／keuchen＝苦しそうに強くあえぐ／japsen＝息が足りず短く必死に空気を求めてあえぐ／nach Luft schnappen＝急いで息を吸おうとする動作そのものを強調する",
+    "de": "schnaufen = besonders nach Anstrengung hörbar und kräftig atmen; keuchen = schwer und deutlich angestrengt atmen; japsen = in kurzen, hastigen Atemzügen dringend nach Luft ringen; nach Luft schnappen = das hastige Einatmen von Luft besonders stark betonen"
+  },
+
+  "equivalents": {
+    "en": ["gasp", "pant", "gasp for air"],
+    "it": ["ansimare", "boccheggiare"],
+    "fr": ["haleter", "chercher son souffle"],
+    "es": ["jadear", "boquear"]
+  },
+
+  "etymology": {
+    "ja": "呼吸音をまねた擬音的な口語表現に由来する語とされ、短く途切れる荒い呼吸の音を表す。",
+    "de": "Ein lautmalerisch geprägtes umgangssprachliches Verb, das kurze und hastige Atemzüge nachahmt."
+  },
+
+  "example": {
+    "ja": "彼は全力で走ったあと、息を求めてあえいでいた。",
+    "de": "Nach dem Sprint japste er nach Luft."
+  },
+
+  "task": {
+    "ja": "「階段を駆け上がったあと、彼女は息を求めてあえいでいた。」を japsen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „japsen“ und „nach Luft“."
+  }
+},
+{
+  "id": "getrauen",
+  "sid": "2026-00224",
+  "word": "sich getrauen",
+  "tags": ["verb", "reflexive", "formal", "archaic"],
+  "level": "C1-C2",
+  "freq": "rare",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "敢えて〜する、勇気を出して〜する",
+    "de": "den Mut haben, etwas zu tun; sich etwas zu tun wagen"
+  },
+
+  "nuance": {
+    "ja": "現代語ではかなり古風・文語的で、通常は sich trauen や wagen が使われる。『怖さ・ためらいがあるが、それでも敢えて行う』という意味。",
+    "de": "Heute eher gehoben, altmodisch oder literarisch. Im normalen Sprachgebrauch werden meist „sich trauen“ oder „wagen“ verwendet. Gemeint ist, trotz Hemmung oder Angst den Mut zu einer Handlung aufzubringen."
+  },
+
+  "minimal": {
+    "ja": "sich trauen＝現代口語で普通に『勇気を出して〜する』／wagen＝危険・失敗の可能性を承知で敢えて行う／sich getrauen＝sich trauen に近いが、古風・文語的で『敢えて〜する』／riskieren＝損失・危険を覚悟してリスクを取る",
+    "de": "sich trauen = heute der normale Ausdruck dafür, den Mut zu etwas zu haben; wagen = etwas trotz Gefahr oder möglichem Scheitern versuchen; sich getrauen = ähnlich wie „sich trauen“, aber deutlich gehobener oder altertümlicher; riskieren = bewusst ein Risiko oder einen möglichen Verlust in Kauf nehmen"
+  },
+
+  "equivalents": {
+    "en": ["dare", "venture", "have the courage to"],
+    "it": ["osare", "ardire"],
+    "fr": ["oser"],
+    "es": ["atreverse", "osar"]
+  },
+
+  "etymology": {
+    "ja": "trauen と同じ語族の古い動詞で、もともと『信頼する・頼る』という意味領域から、『自分を信じて敢えて行う』という意味へ発展した。",
+    "de": "Gehört zur Wortfamilie von „trauen“. Aus älteren Bedeutungen im Bereich von Vertrauen entwickelte sich die Bedeutung, sich etwas mutig zuzutrauen."
+  },
+
+  "example": {
+    "ja": "彼はその質問をする勇気がなかった。",
+    "de": "Er getraute sich nicht, die Frage zu stellen."
+  },
+
+  "task": {
+    "ja": "「彼女はついに反論する勇気を出した。」を sich getrauen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „sich getrauen“ im Sinne von „den Mut haben“."
+  }
+},
+{
+  "id": "trauen",
+  "sid": "2026-00225",
+  "word": "sich trauen",
+  "tags": ["verb", "reflexive", "daily", "general"],
+  "level": "B1-B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "勇気を出して〜する、敢えて〜する",
+    "de": "den Mut haben, etwas zu tun"
+  },
+
+  "nuance": {
+    "ja": "ためらい・不安・恥ずかしさなどがある中で、それでも勇気を出して行動することを表す。現代ドイツ語では sich getrauen よりはるかに普通で、日常会話でも頻繁に使われる。",
+    "de": "Bezeichnet, dass man trotz Unsicherheit, Angst oder Hemmung den Mut zu einer Handlung aufbringt. Im heutigen Deutsch ist „sich trauen“ deutlich gebräuchlicher als „sich getrauen“."
+  },
+
+  "minimal": {
+    "ja": "sich trauen＝ためらいや不安を乗り越えて勇気を出して行う、現代語で最も普通／sich getrauen＝ほぼ同義だが古風・文語的／wagen＝危険や失敗の可能性を承知で敢えて試みる／sich zutrauen＝自分にその能力・力量があると見込む",
+    "de": "sich trauen = heute der normale Ausdruck dafür, trotz Hemmung oder Angst den Mut zu etwas zu haben; sich getrauen = nahezu gleichbedeutend, aber deutlich gehobener oder altmodischer; wagen = etwas trotz Gefahr oder möglichem Scheitern versuchen; sich etwas zutrauen = sich selbst die Fähigkeit oder Kompetenz für etwas zuschreiben"
+  },
+
+  "equivalents": {
+    "en": ["dare", "have the courage to"],
+    "it": ["osare", "avere il coraggio di"],
+    "fr": ["oser", "avoir le courage de"],
+    "es": ["atreverse", "tener el valor de"]
+  },
+
+  "etymology": {
+    "ja": "trauen は本来『信頼する』という意味を持つ語で、そこから『自分を信じて敢えて行う』という意味の sich trauen が発達した。",
+    "de": "„Trauen“ gehört zur Wortfamilie von „Vertrauen“. Aus der Vorstellung des Vertrauens entwickelte sich reflexiv die Bedeutung, sich etwas mutig zu erlauben oder zu wagen."
+  },
+
+  "example": {
+    "ja": "私は彼にそれを直接聞く勇気がなかった。",
+    "de": "Ich habe mich nicht getraut, ihn direkt danach zu fragen."
+  },
+
+  "task": {
+    "ja": "「彼女はついに一人で海外へ行く勇気を出した。」を sich trauen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „sich trauen“ und einer Reise ins Ausland."
+  }
+},
+{
+  "id": "zutrauen",
+  "sid": "2026-00226",
+  "word": "zutrauen",
+  "tags": ["verb", "general", "ability", "judgment"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（人に）〜する能力・可能性があると思う、見込む、自分ならできると思う",
+    "de": "jemandem eine Fähigkeit, Handlung oder Eigenschaft zutrauen; sich selbst etwas für möglich halten"
+  },
+
+  "nuance": {
+    "ja": "ある人が何かをできる、あるいはしそうだと評価・予想することを表す。肯定的な能力評価にも、否定的な行動予測にも使える。再帰形 sich etwas zutrauen では、自分自身の能力に自信を持つという意味になる。",
+    "de": "Bezeichnet die Einschätzung, dass jemand zu einer bestimmten Leistung oder Handlung fähig ist oder etwas wahrscheinlich tun könnte. Es kann positiv wie negativ gebraucht werden. Reflexiv bedeutet „sich etwas zutrauen“, sich selbst eine Fähigkeit oder Leistung zuzutrauen."
+  },
+
+  "minimal": {
+    "ja": "sich trauen＝不安やためらいを乗り越えて実行する勇気がある／sich etwas zutrauen＝自分にはそれを実行する能力・力量があると思う／jemandem etwas zutrauen＝その人ならそれができる・しそうだと見込む／vertrauen＝人そのものやその誠実さ・判断などを信頼する",
+    "de": "sich trauen = trotz Angst oder Hemmung den Mut zu etwas haben; sich etwas zutrauen = sich selbst die Fähigkeit oder Kompetenz für etwas zuschreiben; jemandem etwas zutrauen = glauben, dass jemand zu einer bestimmten Leistung oder Handlung fähig ist; vertrauen = auf die Zuverlässigkeit, Ehrlichkeit oder Urteilskraft einer Person bauen"
+  },
+
+  "equivalents": {
+    "en": ["believe someone capable of", "expect of", "feel capable of"],
+    "it": ["ritenere capace", "sentirsi capace di"],
+    "fr": ["croire capable de", "se sentir capable de"],
+    "es": ["considerar capaz de", "sentirse capaz de"]
+  },
+
+  "etymology": {
+    "ja": "trauen（信頼する）に zu- が付いた語で、『ある能力・行動をその人に属するものとして信頼して見込む』という発想から現在の意味になった。",
+    "de": "Gebildet aus „trauen“ mit dem Präfix „zu-“. Die Grundidee ist, einer Person eine bestimmte Fähigkeit oder Handlung als möglich zuzutrauen."
+  },
+
+  "example": {
+    "ja": "私は自分ならその仕事を一人でやり遂げられると思っている。",
+    "de": "Ich traue mir zu, diese Aufgabe allein zu bewältigen."
+  },
+
+  "task": {
+    "ja": "「彼ならそんなことをする可能性があると思う。」を jemandem etwas zutrauen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „jemandem etwas zutrauen“ im Sinne einer Einschätzung."
+  }
+},
+{
+  "id": "aufprall",
+  "sid": "2026-00227",
+  "word": "Aufprall",
+  "tags": ["noun", "movement", "impact", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "衝突、激突、衝撃",
+    "de": "heftiges Auftreffen auf eine Oberfläche oder einen Gegenstand"
+  },
+
+  "nuance": {
+    "ja": "物体・人・車両などが何かに勢いよくぶつかった瞬間や、その際の衝撃を表す。単なる接触ではなく、ある程度の速度や力を伴う『激突』のイメージが強い。",
+    "de": "Bezeichnet den Moment und die Wirkung eines heftigen Auftreffens auf eine Fläche oder einen Gegenstand. Typisch ist eine gewisse Geschwindigkeit oder Kraft."
+  },
+
+  "minimal": {
+    "ja": "Stoß＝押す・ぶつかるなどの一回の衝撃を広く表す／Zusammenstoß＝二つの人・車・物などが互いに衝突すること／Aufprall＝何かが表面や物体に勢いよくぶつかる瞬間とその衝撃／Einschlag＝弾丸・隕石・雷などが対象に打ち込まれるように当たる衝撃",
+    "de": "Stoß = allgemeiner einzelner Schlag oder Impuls; Zusammenstoß = gegenseitige Kollision zweier Personen, Fahrzeuge oder Gegenstände; Aufprall = heftiges Auftreffen eines Körpers auf eine Fläche oder einen Gegenstand; Einschlag = besonders das Auftreffen etwa eines Geschosses, Meteoriten oder Blitzes"
+  },
+
+  "equivalents": {
+    "en": ["impact", "collision", "crash"],
+    "it": ["impatto", "urto"],
+    "fr": ["impact", "choc"],
+    "es": ["impacto", "choque"]
+  },
+
+  "etymology": {
+    "ja": "動詞 aufprallen（勢いよくぶつかる）から派生した名詞。prallen は『はね返る、勢いよくぶつかる』を意味する。",
+    "de": "Abgeleitet von „aufprallen“. Das Grundverb „prallen“ bezeichnet ein heftiges Stoßen oder Zurückspringen beim Auftreffen."
+  },
+
+  "example": {
+    "ja": "車は衝突の衝撃で大きく変形した。",
+    "de": "Das Auto wurde durch den Aufprall stark beschädigt."
+  },
+
+  "task": {
+    "ja": "「彼は衝突の瞬間に意識を失った。」を Aufprall を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Aufprall“ im Zusammenhang mit einem Unfall."
+  }
+},
+{
+  "id": "einschlag",
+  "sid": "2026-00228",
+  "word": "Einschlag",
+  "tags": ["noun", "impact", "physics", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "①着弾、衝突、命中 ②雷撃、隕石衝突 ③（比喩的に）強い影響",
+    "de": "①das heftige Auftreffen oder Eindringen eines Geschosses oder Gegenstands ②das Auftreffen eines Blitzes oder Meteoriten ③übertragen eine starke Wirkung"
+  },
+
+  "nuance": {
+    "ja": "弾丸・砲弾・隕石・雷などが対象に勢いよく命中し、しばしば表面や内部に痕跡・損傷を残す場合に使われる。Aufprall よりも『命中して打ち込まれる』感じが強い。",
+    "de": "Bezeichnet besonders das heftige Auftreffen eines Geschosses, Meteoriten oder Blitzes, häufig mit einer sichtbaren Spur oder Beschädigung. Im Vergleich zu „Aufprall“ steht das gezielte oder punktuelle Auftreffen stärker im Vordergrund."
+  },
+
+  "minimal": {
+    "ja": "Aufprall＝物体が表面や対象に勢いよくぶつかる瞬間と衝撃／Zusammenstoß＝二つの物体・車両などが互いに衝突すること／Einschlag＝弾丸・隕石・雷などが一点に命中・着弾して衝撃を与えること／Treffer＝命中したという結果そのものを表す",
+    "de": "Aufprall = heftiges Auftreffen eines Körpers auf eine Fläche oder einen Gegenstand; Zusammenstoß = gegenseitige Kollision zweier Körper oder Fahrzeuge; Einschlag = punktuelles heftiges Auftreffen etwa eines Geschosses, Meteoriten oder Blitzes; Treffer = das erfolgreiche Treffen eines Ziels als Ergebnis"
+  },
+
+  "equivalents": {
+    "en": ["impact", "strike", "hit"],
+    "it": ["impatto", "colpo"],
+    "fr": ["impact", "frappe"],
+    "es": ["impacto", "golpe"]
+  },
+
+  "etymology": {
+    "ja": "動詞 einschlagen から派生した名詞。ein- は『中へ』、schlagen は『打つ』を意味し、文字どおり『打ち込む』という発想から現在の意味になった。",
+    "de": "Abgeleitet von „einschlagen“. Die Verbindung aus „ein-“ und „schlagen“ vermittelt ursprünglich die Vorstellung des Hineinschlagens oder heftigen Auftreffens."
+  },
+
+  "example": {
+    "ja": "隕石の衝突によって巨大なクレーターができた。",
+    "de": "Durch den Einschlag des Meteoriten entstand ein riesiger Krater."
+  },
+
+  "task": {
+    "ja": "「雷が木に落ち、その跡が残った。」を Einschlag を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Einschlag“ im Zusammenhang mit einem Blitz."
+  }
+},
+{
+  "id": "zusammenstoss",
+  "sid": "2026-00229",
+  "word": "Zusammenstoß",
+  "tags": ["noun", "movement", "accident", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "①衝突、接触事故 ②対立、衝突",
+    "de": "①Kollision zweier Fahrzeuge, Personen oder Gegenstände ②heftiger Konflikt oder Streit"
+  },
+
+  "nuance": {
+    "ja": "二つの車両・人・物体などが互いにぶつかることを表す。交通事故の文脈で特に多い。また比喩的に、集団・意見・利害などの『衝突・対立』にも使える。",
+    "de": "Bezeichnet das gegenseitige Aufeinandertreffen zweier Fahrzeuge, Personen oder Gegenstände, besonders häufig bei Verkehrsunfällen. Übertragen kann das Wort auch einen heftigen Konflikt zwischen Personen, Gruppen oder Interessen bezeichnen."
+  },
+
+  "minimal": {
+    "ja": "Aufprall＝一方の物体が表面・対象に勢いよくぶつかる瞬間と衝撃／Einschlag＝弾丸・隕石・雷などが一点に命中・着弾すること／Zusammenstoß＝二つの車・人・物体などが互いに衝突すること／Kollision＝衝突を表すより技術的・中立的な語",
+    "de": "Aufprall = heftiges Auftreffen eines Körpers auf eine Fläche oder einen Gegenstand; Einschlag = punktuelles Auftreffen etwa eines Geschosses, Meteoriten oder Blitzes; Zusammenstoß = gegenseitige Kollision zweier Fahrzeuge, Personen oder Gegenstände; Kollision = eher technischer und neutraler Ausdruck für einen Zusammenstoß"
+  },
+
+  "equivalents": {
+    "en": ["collision", "crash", "clash"],
+    "it": ["collisione", "scontro"],
+    "fr": ["collision", "choc", "affrontement"],
+    "es": ["colisión", "choque", "enfrentamiento"]
+  },
+
+  "etymology": {
+    "ja": "zusammen（互いに、一緒に）＋ Stoß（衝撃、突き）からなる語で、文字どおり『互いにぶつかること』を表す。",
+    "de": "Zusammengesetzt aus „zusammen“ und „Stoß“. Die Grundbedeutung ist das gegenseitige Aufeinanderstoßen."
+  },
+
+  "example": {
+    "ja": "二台の車の衝突で三人が負傷した。",
+    "de": "Bei dem Zusammenstoß zweier Autos wurden drei Menschen verletzt."
+  },
+
+  "task": {
+    "ja": "「自転車と車が交差点で衝突した。」を Zusammenstoß を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Zusammenstoß“ zwischen einem Fahrrad und einem Auto."
+  }
+},
+{
+  "id": "gierig",
+  "sid": "2026-00230",
+  "word": "gierig",
+  "tags": ["adj", "personality", "desire", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "貪欲な、欲深い、がつがつした",
+    "de": "von starkem Verlangen geprägt; immer mehr haben, bekommen oder konsumieren wollen"
+  },
+
+  "nuance": {
+    "ja": "金銭・食べ物・権力・利益などを強く欲しがり、満足せずさらに求める様子を表す。多くの場合は否定的だが、gierig nach Wissen のように『知識を貪欲に求める』という比較的中立・肯定的な用法もある。",
+    "de": "Bezeichnet ein starkes, oft übermäßiges Verlangen nach Geld, Essen, Macht, Gewinn oder anderen Dingen. Meist ist das Wort negativ, kann aber in Verbindungen wie „gierig nach Wissen“ auch neutraler oder positiv wirken."
+  },
+
+  "minimal": {
+    "ja": "hungrig＝食べ物を必要として空腹である／habgierig＝金銭・財産への欲が強い／geizig＝持っている金や物を手放したがらない／gierig＝何かをもっと得たい・取り込みたいという欲求が強く、満足しにくい",
+    "de": "hungrig = körperlich Nahrung brauchen; habgierig = übermäßig nach Geld oder Besitz verlangen; geizig = vorhandenes Geld oder Besitz ungern hergeben; gierig = ein starkes, oft maßloses Verlangen haben, immer mehr von etwas zu bekommen oder aufzunehmen"
+  },
+
+  "equivalents": {
+    "en": ["greedy", "eager", "avid"],
+    "it": ["avido", "ingordo"],
+    "fr": ["avide", "gourmand"],
+    "es": ["codicioso", "ávido"]
+  },
+
+  "etymology": {
+    "ja": "Gier（強い欲望、貪欲）から派生した形容詞。Gier は『激しく欲しがること』を表し、gierig はその欲求に駆られている状態を意味する。",
+    "de": "Abgeleitet von „Gier“. Das Substantiv bezeichnet ein starkes oder maßloses Verlangen; „gierig“ beschreibt entsprechend eine von solcher Begierde geprägte Haltung."
+  },
+
+  "example": {
+    "ja": "彼は利益を求めてますます貪欲になった。",
+    "de": "Er wurde immer gieriger nach Gewinn."
+  },
+
+  "task": {
+    "ja": "「その子どもはお菓子を欲しそうに見つめた。」を gierig を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „gierig“ im Zusammenhang mit Süßigkeiten."
+  }
+},
+{
+  "id": "schmuggeln",
+  "sid": "2026-00231",
+  "word": "schmuggeln",
+  "tags": ["verb", "crime", "border", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "密輸する、こっそり持ち込む・持ち出す",
+    "de": "Waren oder Personen heimlich und rechtswidrig über eine Grenze oder an Kontrollen vorbei transportieren"
+  },
+
+  "nuance": {
+    "ja": "典型的には商品・薬物・武器などを税関や国境検査を避けて違法に運ぶことを表す。人についても使え、文脈によっては密入国させる意味になる。日常的には比喩的に、禁止されている物をこっそり持ち込む場合にも使われる。",
+    "de": "Bezeichnet typischerweise den heimlichen und rechtswidrigen Transport von Waren, Drogen, Waffen oder anderen Gegenständen über Grenzen oder an Kontrollen vorbei. Das Verb kann auch auf Personen bezogen werden und wird gelegentlich übertragen für das heimliche Hineinbringen verbotener Dinge verwendet."
+  },
+
+  "minimal": {
+    "ja": "transportieren＝物・人を一般的に運ぶ／schmuggeln＝検査・税関・規制を避けて物や人を秘密裏に違法に運ぶ／einschleusen＝人・物を気づかれないよう組織・地域・システムなどに潜り込ませる／verbergen＝単に見つからないよう隠す",
+    "de": "transportieren = Personen oder Dinge allgemein von einem Ort zum anderen befördern; schmuggeln = Waren oder Personen heimlich und rechtswidrig an Grenzen oder Kontrollen vorbeibringen; einschleusen = jemanden oder etwas unbemerkt in eine Organisation, ein Gebiet oder ein System bringen; verbergen = etwas lediglich vor Entdeckung verstecken"
+  },
+
+  "equivalents": {
+    "en": ["smuggle"],
+    "it": ["contrabbandare"],
+    "fr": ["faire passer en contrebande"],
+    "es": ["contrabandear"]
+  },
+
+  "etymology": {
+    "ja": "低地ドイツ語系の語に由来するとされ、もともと『秘密裏に交易する・こっそり運ぶ』という意味領域を持つ。英語 smuggle とも近縁。",
+    "de": "Das Wort stammt aus dem niederdeutschen bzw. niederländischen Sprachraum und bezeichnete ursprünglich heimliches oder unerlaubtes Handeln und Befördern. Es ist mit englisch „smuggle“ verwandt."
+  },
+
+  "example": {
+    "ja": "彼らは国境を越えてたばこを密輸しようとした。",
+    "de": "Sie versuchten, Zigaretten über die Grenze zu schmuggeln."
+  },
+
+  "task": {
+    "ja": "「彼は税関を通して禁止品を密かに持ち込もうとした。」を schmuggeln を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „schmuggeln“ und einer Zollkontrolle."
+  }
+},
+{
+  "id": "list",
+  "sid": "2026-00232",
+  "word": "List",
+  "tags": ["noun", "strategy", "abstract", "formal"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "策略、計略、奸計、巧妙な手段",
+    "de": "geschickte oder täuschende Strategie, mit der man ein Ziel erreicht"
+  },
+
+  "nuance": {
+    "ja": "正面からではなく、知恵・策略・欺きなどを使って目的を達成することを表す。文脈によっては肯定的な『機転の利いた策』にも、否定的な『奸計』にもなる。",
+    "de": "Bezeichnet eine geschickte, oft auch täuschende Strategie, mit der ein Ziel auf indirektem Weg erreicht wird. Je nach Kontext kann „List“ bewundernde Cleverness oder moralisch fragwürdige Täuschung ausdrücken."
+  },
+
+  "minimal": {
+    "ja": "Trick＝具体的な小技・仕掛け・トリック／Schläue＝機転が利き、うまく立ち回る賢さ／Gerissenheit＝抜け目なく相手の裏をかく狡猾な賢さ／List＝目的達成のために用いる策略・計略そのもの",
+    "de": "Trick = konkrete kleine Methode oder geschickter Kniff; Schläue = Fähigkeit, clever und geschickt zu handeln; Gerissenheit = ausgeprägte, oft skrupellose Cleverness; List = gezielt eingesetzte Strategie oder Täuschung zur Erreichung eines Ziels"
+  },
+
+  "equivalents": {
+    "en": ["cunning", "ruse", "stratagem"],
+    "it": ["astuzia", "stratagemma"],
+    "fr": ["ruse", "stratagème"],
+    "es": ["astucia", "estratagema"]
+  },
+
+  "etymology": {
+    "ja": "古高ドイツ語 list にさかのぼり、もともとは『知識、技術、巧みさ』を意味した。そこから『巧妙な策・策略』という意味へ発展した。",
+    "de": "Geht auf althochdeutsch „list“ zurück, ursprünglich im Sinne von „Wissen, Können, Geschick“. Daraus entwickelte sich die heutige Bedeutung „geschickte Strategie oder Täuschung“."
+  },
+
+  "example": {
+    "ja": "彼は策略を使って相手を出し抜いた。",
+    "de": "Mit einer List überlistete er seinen Gegner."
+  },
+
+  "task": {
+    "ja": "「彼女は巧妙な策略で罠を回避した。」を List を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „List“ im Sinne einer geschickten Strategie."
+  }
 }
 ]
