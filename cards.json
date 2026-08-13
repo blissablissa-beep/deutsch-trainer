@@ -8692,7 +8692,7 @@
   "level": "B2-C1",
   "freq": "sometimes",
   "grammar": {
-    "pos": "preposition"
+    "pos": "prep"
   },
 
   "meaning": {
@@ -8740,7 +8740,7 @@
   "level": "C1",
   "freq": "sometimes",
   "grammar": {
-    "pos": "preposition"
+    "pos": "prep"
   },
 
   "meaning": {
@@ -8788,7 +8788,7 @@
   "level": "B2-C1",
   "freq": "often",
   "grammar": {
-    "pos": "preposition"
+    "pos": "prep"
   },
 
   "meaning": {
@@ -8836,7 +8836,7 @@
   "level": "B2",
   "freq": "often",
   "grammar": {
-    "pos": "preposition"
+    "pos": "prep"
   },
 
   "meaning": {
@@ -8880,11 +8880,11 @@
   "id": "ausschliesslich",
   "sid": "2026-00202",
   "word": "ausschließlich",
-  "tags": ["adverb", "preposition", "formal", "written"],
+  "tags": ["adverb", "formal", "written"],
   "level": "B2-C1",
   "freq": "often",
   "grammar": {
-    "pos": "adverb"
+    "pos": "adv"
   },
 
   "meaning": {
