@@ -10370,5 +10370,103 @@
     "ja": "「彼女は巧妙な策略で罠を回避した。」を List を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „List“ im Sinne einer geschickten Strategie."
   }
+},
+{
+  "id": "gerissenheit",
+  "sid": "2026-00233",
+  "word": "Gerissenheit",
+  "tags": ["noun", "personality", "strategy", "abstract"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "抜け目のなさ、狡猾さ、老獪さ",
+    "de": "ausgeprägte Schlauheit und Raffinesse, mit der man andere geschickt durchschaut oder überlistet"
+  },
+
+  "nuance": {
+    "ja": "経験・機転・抜け目のなさを利用して、相手の意図を見抜いたり裏をかいたりする能力・性質を表す。単なる賢さよりも狡猾さが強く、しばしば否定的だが、文脈によっては『一枚上手な巧妙さ』として感嘆を含むこともある。",
+    "de": "Bezeichnet eine ausgeprägte, oft durch Erfahrung erworbene Schlauheit und Raffinesse, mit der jemand andere durchschaut, ausmanövriert oder überlistet. Das Wort ist häufig negativ gefärbt, kann aber auch eine gewisse Bewunderung für besondere Cleverness ausdrücken."
+  },
+
+  "minimal": {
+    "ja": "Klugheit＝一般的な知性・賢明さ／Schläue＝機転を利かせてうまく立ち回る賢さ／Gerissenheit＝経験と抜け目のなさを生かして相手の裏をかく狡猾な賢さ／List＝目的達成のために実際に用いる策略・計略",
+    "de": "Klugheit = allgemeine Intelligenz oder vernünftige Urteilsfähigkeit; Schläue = geschickte, oft auch etwas hintergründige Cleverness; Gerissenheit = ausgeprägte, erfahrene und oft skrupellose Cleverness, mit der man andere durchschaut oder überlistet; List = konkrete Strategie oder Täuschung, die zur Erreichung eines Ziels eingesetzt wird"
+  },
+
+  "equivalents": {
+    "en": ["cunning", "slyness", "craftiness"],
+    "it": ["scaltrezza", "astuzia"],
+    "fr": ["roublardise", "ruse", "astuce"],
+    "es": ["astucia", "picardía"]
+  },
+
+  "etymology": {
+    "ja": "形容詞 gerissen に抽象名詞を作る接尾辞 -heit が付いた語。gerissen は本来 reißen（引き裂く）の過去分詞だが、比喩的に『世慣れて抜け目のない、狡猾な』という意味を持つようになった。",
+    "de": "Abstraktbildung zu „gerissen“ mit dem Suffix „-heit“. „Gerissen“ ist ursprünglich das Partizip II von „reißen“, entwickelte aber übertragen die Bedeutung „sehr schlau, raffiniert und schwer zu überlisten“."
+  },
+
+  "example": {
+    "ja": "彼は抜け目のなさを発揮して交渉相手を出し抜いた。",
+    "de": "Mit großer Gerissenheit überlistete er seinen Verhandlungspartner."
+  },
+
+  "task": {
+    "ja": "「彼女はその策略を抜け目なく見破った。」を Gerissenheit を使ってドイツ語で表現する。",
+    "de": "Formuliere einen Satz mit „Gerissenheit“ über geschicktes Verhalten."
+  }
+},
+{
+  "id": "schlaeue",
+  "sid": "2026-00234",
+  "word": "Schläue",
+  "tags": ["noun", "personality", "strategy", "abstract"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "機転、抜け目のない賢さ、巧妙さ",
+    "de": "geschickte, praktische Klugheit, mit der man Situationen clever zu seinem Vorteil nutzt"
+  },
+
+  "nuance": {
+    "ja": "単なる知性ではなく、状況をすばやく読み、機転や工夫を使ってうまく立ち回る能力を表す。文脈によっては少し狡猾な含みもあるが、Gerissenheit ほど強く否定的ではない。",
+    "de": "Bezeichnet praktische und situationsbezogene Cleverness, mit der man schnell erkennt, wie man geschickt handeln kann. Je nach Kontext kann ein leicht hintergründiger Beiklang entstehen, doch ist das Wort meist weniger negativ als „Gerissenheit“."
+  },
+
+  "minimal": {
+    "ja": "Klugheit＝一般的な知性・賢明さ／Schläue＝状況を読み、機転を利かせてうまく立ち回る実践的な賢さ／Gerissenheit＝経験と抜け目のなさで相手の裏をかく、より狡猾で否定的な賢さ／List＝目的達成のために用いる具体的な策略・計略",
+    "de": "Klugheit = allgemeine Intelligenz oder vernünftige Urteilsfähigkeit; Schläue = praktische Cleverness, mit der man eine Situation geschickt erkennt und nutzt; Gerissenheit = ausgeprägte, oft negativ bewertete Raffinesse, mit der man andere ausmanövriert; List = konkrete Strategie oder Täuschung zur Erreichung eines Ziels"
+  },
+
+  "equivalents": {
+    "en": ["cleverness", "cunning", "shrewdness"],
+    "it": ["astuzia", "scaltrezza"],
+    "fr": ["astuce", "ruse"],
+    "es": ["astucia", "picardía"]
+  },
+
+  "etymology": {
+    "ja": "形容詞 schlau から作られた抽象名詞。schlau は『賢い、抜け目のない』を意味し、Schläue はその性質を表す。",
+    "de": "Abstraktbildung zu „schlau“. Das Substantiv bezeichnet die Eigenschaft, geschickt, clever und situationsgerecht zu handeln."
+  },
+
+  "example": {
+    "ja": "彼女は機転を利かせて難しい状況を切り抜けた。",
+    "de": "Mit ihrer Schläue meisterte sie die schwierige Situation."
+  },
+
+  "task": {
+    "ja": "「彼は機転を利かせて相手の策略を見抜いた。」を Schläue を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Schläue“ über das geschickte Durchschauen einer Strategie."
+  }
 }
 ]
