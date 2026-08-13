@@ -294,7 +294,19 @@ function validateCards(data) {
       if (!c.grammar || typeof c.grammar !== "object" || Array.isArray(c.grammar)) {
         errors.push(`${prefix} (${c.id || "no-id"}): grammar must be an object`);
       } else if (c.grammar.pos !== undefined) {
-        const okPos = ["noun", "verb", "adj", "adv"];
+        const okPos = [
+           "noun",
+           "verb",
+           "adj",
+           "adv",
+           "prep",
+           "conj",
+           "pron",
+           "particle",
+           "interj",
+           "phrase",
+          "idiom"
+       ];
         if (!okPos.includes(c.grammar.pos)) {
           errors.push(`${prefix} (${c.id || "no-id"}): grammar.pos must be one of ${okPos.join(", ")}`);
         }
@@ -862,10 +874,24 @@ const SRS_SCHEMA_VERSION = "20260717";
   // Grammar / labels
   // =========================
   function formatPosLabel(pos) {
-    if (!pos) return "";
-    const map = { noun: "N", verb: "V", adj: "Adj", adv: "Adv" };
-    return map[pos] || String(pos);
-  }
+  if (!pos) return "";
+
+  const map = {
+    noun: "N",
+    verb: "V",
+    adj: "Adj",
+    adv: "Adv",
+    prep: "Prep",
+    conj: "Conj",
+    pron: "Pron",
+    particle: "Partikel",
+    interj: "Interj",
+    phrase: "Phrase",
+    idiom: "Redewendung"
+  };
+
+  return map[pos] || String(pos);
+}
 
 function formatFreqLabel(freq) {
   const lang = getLang();
