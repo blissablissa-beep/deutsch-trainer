@@ -8923,5 +8923,101 @@
     "ja": "「このサービスは会員のみ利用できます。」を ausschließlich を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „ausschließlich“ und Mitgliedern."
   }
+},
+{
+  "id": "schwerfallen",
+  "sid": "2026-00203",
+  "word": "schwerfallen",
+  "tags": ["verb", "general", "daily", "abstract"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（人にとって）難しい、容易でない、苦労する",
+    "de": "für jemanden schwierig sein; jemandem Mühe bereiten"
+  },
+
+  "nuance": {
+    "ja": "課題そのものの客観的な難しさよりも、ある人がそれを行う・受け入れる・理解するのに苦労することを表す。典型構文は「etwas fällt jemandem schwer」で、経験者は3格になる。",
+    "de": "Betont weniger die objektive Schwierigkeit einer Sache als die Tatsache, dass eine bestimmte Person Mühe damit hat. Typisch ist die Konstruktion „etwas fällt jemandem schwer“, wobei die betroffene Person im Dativ steht."
+  },
+
+  "minimal": {
+    "ja": "schwierig sein＝物事そのものが難しいことを一般的に述べる／schwerfallen＝ある人にとって何かをする・理解する・受け入れることが難しい／sich schwertun＝本人があることに苦戦していることを能動的に表す／Mühe machen＝人に手間・努力を要求する",
+    "de": "schwierig sein = allgemein die Schwierigkeit einer Sache bezeichnen; schwerfallen = ausdrücken, dass etwas einer bestimmten Person Mühe bereitet; sich schwertun = betonen, dass jemand selbst mit etwas Schwierigkeiten hat; Mühe machen = Aufwand oder Anstrengung verursachen"
+  },
+
+  "equivalents": {
+    "en": ["find difficult", "have difficulty with", "struggle with"],
+    "it": ["risultare difficile", "fare fatica"],
+    "fr": ["être difficile à quelqu'un", "avoir du mal à"],
+    "es": ["costarle a alguien", "tener dificultad para"]
+  },
+
+  "etymology": {
+    "ja": "schwer（重い、難しい）＋ fallen（落ちる）からなる語。もともと『重くのしかかるように感じられる』という発想から、『人にとって容易でない』という意味を表す。",
+    "de": "Gebildet aus „schwer“ und „fallen“. Bildlich liegt die Vorstellung zugrunde, dass etwas jemandem schwer und belastend erscheint und deshalb Mühe bereitet."
+  },
+
+  "example": {
+    "ja": "私は人前で話すのが苦手だ。",
+    "de": "Es fällt mir schwer, vor anderen Menschen zu sprechen."
+  },
+
+  "task": {
+    "ja": "「彼には自分の間違いを認めるのが難しい。」を schwerfallen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „schwerfallen“ und „einen Fehler zugeben“."
+  }
+},
+{
+  "id": "leichtfallen",
+  "sid": "2026-00204",
+  "word": "leichtfallen",
+  "tags": ["verb", "general", "daily", "abstract"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（人にとって）容易である、簡単にできる、苦にならない",
+    "de": "für jemanden leicht oder mühelos sein; jemandem keine große Mühe bereiten"
+  },
+
+  "nuance": {
+    "ja": "物事そのものが客観的に簡単であるというより、ある人にとってそれを行う・理解する・習得することが容易であることを表す。典型構文は「etwas fällt jemandem leicht」で、経験者は3格になる。",
+    "de": "Betont, dass etwas für eine bestimmte Person leicht oder mühelos ist, nicht unbedingt, dass die Sache objektiv einfach ist. Typisch ist die Konstruktion „etwas fällt jemandem leicht“, wobei die betroffene Person im Dativ steht."
+  },
+
+  "minimal": {
+    "ja": "einfach sein＝物事そのものが簡単である／leichtfallen＝ある人にとって何かをする・理解することが容易である／gut können＝あることを能力として上手にできる／schwerfallen＝ある人にとって何かが難しく、苦労を伴う",
+    "de": "einfach sein = die Sache selbst ist unkompliziert oder leicht; leichtfallen = etwas bereitet einer bestimmten Person wenig Mühe; etwas gut können = eine Fähigkeit gut beherrschen; schwerfallen = etwas bereitet einer bestimmten Person Mühe oder Schwierigkeiten"
+  },
+
+  "equivalents": {
+    "en": ["find easy", "come easily to", "have no difficulty with"],
+    "it": ["risultare facile", "venire facile"],
+    "fr": ["être facile à quelqu'un", "venir facilement"],
+    "es": ["resultarle fácil a alguien", "dársele bien"]
+  },
+
+  "etymology": {
+    "ja": "leicht（軽い、容易な）＋ fallen（落ちる）からなる語。『軽く感じられる』というイメージから、『人にとって容易である』という意味を表す。",
+    "de": "Gebildet aus „leicht“ und „fallen“. Die bildliche Vorstellung ist, dass etwas jemandem leicht erscheint und deshalb wenig Mühe bereitet."
+  },
+
+  "example": {
+    "ja": "彼女は外国語を覚えるのが得意だ。",
+    "de": "Es fällt ihr leicht, Fremdsprachen zu lernen."
+  },
+
+  "task": {
+    "ja": "「私は新しい人と話すのが比較的楽だ。」を leichtfallen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „leichtfallen“ und „mit neuen Leuten sprechen“."
+  }
 }
 ]
