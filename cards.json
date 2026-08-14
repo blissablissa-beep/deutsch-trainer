@@ -10468,5 +10468,1122 @@
     "ja": "「彼は機転を利かせて相手の策略を見抜いた。」を Schläue を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Schläue“ über das geschickte Durchschauen einer Strategie."
   }
+},
+{
+  "id": "bedrueckt",
+  "sid": "2026-00235",
+  "word": "bedrückt",
+  "tags": ["adj", "emotion", "mental-state", "formal"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "気が重い、沈んだ、憂うつな、心を重くしている",
+    "de": "traurig, niedergeschlagen oder innerlich belastet"
+  },
+
+  "nuance": {
+    "ja": "心配・悲しみ・罪悪感・不安などが心に重くのしかかり、気分が沈んでいる状態を表す。単なる traurig よりも『何かに圧迫されて心が晴れない』という重苦しさがある。",
+    "de": "Bezeichnet eine gedrückte Stimmung, bei der Sorgen, Trauer, Schuldgefühle oder andere Belastungen innerlich schwer auf jemandem lasten. Im Vergleich zu „traurig“ wirkt „bedrückt“ oft schwerer und belasteter."
+  },
+
+  "minimal": {
+    "ja": "traurig＝悲しいという感情を表す最も一般的な語／niedergeschlagen＝悪い出来事などで意気消沈し元気を失っている／bedrückt＝心配・悲しみなどが重くのしかかり、心が沈んで晴れない／bekümmert＝ある具体的な問題や人のことで心配・悲嘆している",
+    "de": "traurig = allgemeiner Ausdruck für Traurigkeit; niedergeschlagen = nach einem Rückschlag oder einer Enttäuschung mutlos und ohne Energie; bedrückt = durch Sorgen oder Kummer innerlich belastet und in gedrückter Stimmung; bekümmert = wegen einer bestimmten Sache oder Person besorgt und traurig"
+  },
+
+  "equivalents": {
+    "en": ["downcast", "troubled", "heavy-hearted"],
+    "it": ["abbattuto", "afflitto", "oppresso"],
+    "fr": ["abattu", "accablé", "morose"],
+    "es": ["abatido", "afligido", "apesadumbrado"]
+  },
+
+  "etymology": {
+    "ja": "bedrücken（圧迫する、心を重くする）の過去分詞が形容詞化したもの。drücken（押す）と同じ語族で、『心が押しつぶされるように重い』という比喩的イメージをもつ。",
+    "de": "Adjektivischer Gebrauch des Partizips II von „bedrücken“. Das Verb gehört zu „drücken“; bildlich liegt die Vorstellung zugrunde, dass eine seelische Belastung auf jemandem lastet."
+  },
+
+  "example": {
+    "ja": "その知らせを聞いて、彼は一日中沈んだ様子だった。",
+    "de": "Nach der Nachricht wirkte er den ganzen Tag bedrückt."
+  },
+
+  "task": {
+    "ja": "「彼女は心配事のせいで気が重そうだった。」を bedrückt を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „bedrückt“ im Zusammenhang mit Sorgen."
+  }
+},
+{
+  "id": "niedergeschlagen",
+  "sid": "2026-00236",
+  "word": "niedergeschlagen",
+  "tags": ["adj", "emotion", "mental-state", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "意気消沈した、しょんぼりした、落ち込んだ",
+    "de": "entmutigt, traurig und ohne viel Energie oder Zuversicht"
+  },
+
+  "nuance": {
+    "ja": "失敗・失望・悪い知らせなどを受けて、気力や自信を失い、元気がなくなっている状態を表す。単なる traurig より『打ちのめされて勢いを失った』感じが強い。",
+    "de": "Bezeichnet einen Zustand nach Enttäuschung, Misserfolg oder einer schlechten Nachricht, in dem jemand mutlos, traurig und energielos wirkt. Im Vergleich zu „traurig“ steht stärker der Verlust von Zuversicht und Schwung im Vordergrund."
+  },
+
+  "minimal": {
+    "ja": "traurig＝悲しいという感情を表す一般語／bedrückt＝心配や悲しみが重くのしかかって沈んでいる／niedergeschlagen＝失敗・失望などで気力を失い、しょんぼりしている／entmutigt＝勇気や意欲を失い、やる気がくじかれている",
+    "de": "traurig = allgemeiner Ausdruck für Traurigkeit; bedrückt = durch Sorgen oder Kummer innerlich belastet; niedergeschlagen = nach Enttäuschung oder Rückschlag mutlos und ohne Schwung; entmutigt = in seinem Mut oder seiner Motivation deutlich geschwächt"
+  },
+
+  "equivalents": {
+    "en": ["downcast", "dejected", "disheartened"],
+    "it": ["abbattuto", "demoralizzato"],
+    "fr": ["abattu", "découragé"],
+    "es": ["abatido", "desanimado"]
+  },
+
+  "etymology": {
+    "ja": "niederschlagen（打ち倒す、打ちのめす）の過去分詞が形容詞化したもの。文字どおり『打ち倒された』状態から、比喩的に『気力を失った、意気消沈した』の意味になった。",
+    "de": "Adjektivischer Gebrauch des Partizips II von „niederschlagen“. Aus der wörtlichen Bedeutung „zu Boden schlagen“ entwickelte sich übertragen die Bedeutung „entmutigen, bedrücken“."
+  },
+
+  "example": {
+    "ja": "試験に落ちて、彼はかなり落ち込んでいた。",
+    "de": "Nach der nicht bestandenen Prüfung war er ziemlich niedergeschlagen."
+  },
+
+  "task": {
+    "ja": "「悪い知らせを聞いて、彼女はひどく意気消沈していた。」を niedergeschlagen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „niedergeschlagen“ nach einer schlechten Nachricht."
+  }
+},
+{
+  "id": "begleiterscheinung",
+  "sid": "2026-00237",
+  "word": "Begleiterscheinung",
+  "tags": ["noun", "abstract", "formal", "general"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "付随現象、随伴現象、副次的に生じる現象",
+    "de": "eine Erscheinung, die zusammen mit einem anderen Vorgang oder Zustand auftritt"
+  },
+
+  "nuance": {
+    "ja": "ある出来事・社会変化・病気・治療などに伴って現れる副次的な現象を表す。必ずしも悪いものとは限らず、単に『本体に付随して起こるもの』という中立的な語。",
+    "de": "Bezeichnet eine Erscheinung, die einen anderen Vorgang, Zustand oder eine Entwicklung begleitet. Sie muss nicht negativ sein, sondern kann neutral als begleitendes Phänomen verstanden werden."
+  },
+
+  "minimal": {
+    "ja": "Nebenwirkung＝特に薬・治療などによる望ましくない副作用／Folge＝ある原因から生じる結果・帰結／Begleiterscheinung＝主となる現象と同時に付随して現れる副次的な現象／Symptom＝病気・状態を示す徴候",
+    "de": "Nebenwirkung = besonders eine unerwünschte Wirkung eines Medikaments oder einer Behandlung; Folge = Ergebnis oder Konsequenz einer Ursache; Begleiterscheinung = Erscheinung, die einen Hauptvorgang oder Zustand begleitend mittritt; Symptom = Anzeichen einer Krankheit oder eines Zustands"
+  },
+
+  "equivalents": {
+    "en": ["accompanying phenomenon", "concomitant effect", "side phenomenon"],
+    "it": ["fenomeno concomitante", "manifestazione accessoria"],
+    "fr": ["phénomène concomitant", "manifestation secondaire"],
+    "es": ["fenómeno concomitante", "manifestación secundaria"]
+  },
+
+  "etymology": {
+    "ja": "Begleit-（伴う）＋ Erscheinung（現象、現れ）からなる複合語で、文字どおり『伴って現れる現象』を意味する。",
+    "de": "Zusammensetzung aus „Begleit-“ und „Erscheinung“; wörtlich eine Erscheinung, die einen anderen Vorgang begleitet."
+  },
+
+  "example": {
+    "ja": "価格上昇は急速な経済成長にしばしば伴う現象である。",
+    "de": "Steigende Preise sind oft eine Begleiterscheinung schnellen Wirtschaftswachstums."
+  },
+
+  "task": {
+    "ja": "「睡眠障害は強いストレスに伴う現象であることがある。」を Begleiterscheinung を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Begleiterscheinung“ im Zusammenhang mit starkem Stress."
+  }
+},
+{
+  "id": "befruchtung",
+  "sid": "2026-00238",
+  "word": "Befruchtung",
+  "tags": ["noun", "biology", "medicine", "abstract"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "①受精 ②（比喩的に）刺激、相互作用による発展",
+    "de": "①Verschmelzung von Ei- und Samenzelle ②übertragen: anregender Einfluss, der eine Entwicklung fördert"
+  },
+
+  "nuance": {
+    "ja": "生物学では、精子と卵細胞が結合して受精卵が形成される過程を表す。医学・生殖医療でも頻出する。比喩的には、思想・文化・学問などが互いに刺激し合って発展することを表す。",
+    "de": "In der Biologie bezeichnet „Befruchtung“ die Verschmelzung von Samen- und Eizelle. Das Wort ist auch in der Reproduktionsmedizin gebräuchlich. Übertragen kann es einen anregenden Einfluss zwischen Ideen, Kulturen oder Fachgebieten bezeichnen."
+  },
+
+  "minimal": {
+    "ja": "Befruchtung＝精子と卵細胞が結合する受精そのもの／Empfängnis＝受胎・妊娠成立をより広く表す語／Implantation＝受精卵が子宮内膜に着床すること／Bestäubung＝植物で花粉がめしべに運ばれる受粉",
+    "de": "Befruchtung = Verschmelzung von Samen- und Eizelle; Empfängnis = weiter gefasster Begriff für die Entstehung einer Schwangerschaft; Implantation = Einnistung der befruchteten Eizelle in die Gebärmutterschleimhaut; Bestäubung = Übertragung von Pollen auf die Narbe einer Blüte"
+  },
+
+  "equivalents": {
+    "en": ["fertilization"],
+    "it": ["fecondazione"],
+    "fr": ["fécondation"],
+    "es": ["fecundación"]
+  },
+
+  "etymology": {
+    "ja": "befruchten（受精させる、実りをもたらす）から派生した名詞。Frucht（果実、実り）と同じ語族で、『実りを生じさせる』という発想をもつ。",
+    "de": "Abgeleitet von „befruchten“ und mit „Frucht“ verwandt. Die Grundvorstellung ist, etwas fruchtbar zu machen und dadurch neues Leben oder Entwicklung hervorzubringen."
+  },
+
+  "example": {
+    "ja": "受精は通常、卵管内で起こる。",
+    "de": "Die Befruchtung findet normalerweise im Eileiter statt."
+  },
+
+  "task": {
+    "ja": "「受精後、受精卵は子宮へ移動する。」を Befruchtung を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Befruchtung“ und der anschließenden Entwicklung der Eizelle."
+  }
+},
+{
+  "id": "bestaeubung",
+  "sid": "2026-00239",
+  "word": "Bestäubung",
+  "tags": ["noun", "biology", "botany", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "受粉",
+    "de": "Übertragung von Pollen auf die Narbe einer Blüte"
+  },
+
+  "nuance": {
+    "ja": "植物で、花粉が雄しべから雌しべの柱頭へ運ばれる過程を表す。これは受精そのものではなく、その前段階にあたる。風・昆虫・鳥などが媒介する。",
+    "de": "Bezeichnet bei Pflanzen die Übertragung von Pollen auf die Narbe einer Blüte. Sie ist nicht mit der Befruchtung gleichzusetzen, sondern geht dieser voraus. Die Übertragung kann etwa durch Wind, Insekten oder Vögel erfolgen."
+  },
+
+  "minimal": {
+    "ja": "Bestäubung＝花粉が柱頭へ運ばれる受粉／Befruchtung＝雄性・雌性の生殖細胞が融合する受精／Selbstbestäubung＝同じ花または同じ個体内で起こる自家受粉／Fremdbestäubung＝別個体から花粉が運ばれる他家受粉",
+    "de": "Bestäubung = Übertragung von Pollen auf die Narbe; Befruchtung = Verschmelzung männlicher und weiblicher Keimzellen; Selbstbestäubung = Bestäubung innerhalb derselben Blüte oder Pflanze; Fremdbestäubung = Bestäubung durch Pollen einer anderen Pflanze"
+  },
+
+  "equivalents": {
+    "en": ["pollination"],
+    "it": ["impollinazione"],
+    "fr": ["pollinisation"],
+    "es": ["polinización"]
+  },
+
+  "etymology": {
+    "ja": "bestäuben（粉を振りかける、受粉させる）から派生した名詞。Staub（粉、ほこり）と同じ語族で、花粉が粉のように付着するイメージに由来する。",
+    "de": "Abgeleitet von „bestäuben“, das mit „Staub“ verwandt ist. Die Vorstellung beruht darauf, dass Pollen wie feiner Staub auf die Narbe gelangt."
+  },
+
+  "example": {
+    "ja": "多くの植物は受粉のために昆虫に依存している。",
+    "de": "Viele Pflanzen sind für die Bestäubung auf Insekten angewiesen."
+  },
+
+  "task": {
+    "ja": "「ミツバチは多くの植物の受粉で重要な役割を果たす。」を Bestäubung を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Bestäubung“ und Bienen."
+  }
+},
+{
+  "id": "qualm",
+  "sid": "2026-00240",
+  "word": "Qualm",
+  "tags": ["noun", "air", "smoke", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "もうもうとした煙、むせるような煙、濃い煙",
+    "de": "dichter, unangenehmer oder beißender Rauch"
+  },
+
+  "nuance": {
+    "ja": "火・たばこ・排気などから出る、濃くて不快な煙を表す。Rauch よりも視界を妨げたり、むせたりするような『煙たさ』が強く感じられる語。",
+    "de": "Bezeichnet dichten, oft unangenehmen oder beißenden Rauch, etwa von Feuer, Zigaretten oder Abgasen. Im Vergleich zu „Rauch“ wirkt „Qualm“ meist stärker, dichter und störender."
+  },
+
+  "minimal": {
+    "ja": "Rauch＝煙を表す最も一般的で中立的な語／Qualm＝濃くて不快・むせるような煙／Dunst＝空気中に漂う薄いもや・蒸気／Nebel＝空気中の水滴による霧",
+    "de": "Rauch = allgemeiner neutraler Ausdruck für Smoke; Qualm = dichter, unangenehmer oder beißender Rauch; Dunst = feiner Schleier aus Feuchtigkeit, Dampf oder Partikeln in der Luft; Nebel = dichte Ansammlung feinster Wassertröpfchen in Bodennähe"
+  },
+
+  "equivalents": {
+    "en": ["thick smoke", "fumes", "smoke"],
+    "it": ["fumo denso", "fumo acre"],
+    "fr": ["fumée épaisse", "fumée âcre"],
+    "es": ["humo denso", "humo acre"]
+  },
+
+  "etymology": {
+    "ja": "古いゲルマン系の語で、濃い煙や蒸気を表す語から発達した。現代語ではとくに不快で濃い煙の意味が強い。",
+    "de": "Ein altes germanisches Wort für dichten Rauch oder Dampf. Im heutigen Deutsch bezeichnet es besonders unangenehmen, starken Rauch."
+  },
+
+  "example": {
+    "ja": "濃い煙が部屋いっぱいに立ちこめていた。",
+    "de": "Dichter Qualm füllte den ganzen Raum."
+  },
+
+  "task": {
+    "ja": "「火事の煙でほとんど何も見えなかった。」を Qualm を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Qualm“ im Zusammenhang mit einem Brand."
+  }
+},
+{
+  "id": "dunst",
+  "sid": "2026-00241",
+  "word": "Dunst",
+  "tags": ["noun", "air", "weather", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "もや、薄い霧、蒸気、薄く漂う煙",
+    "de": "feiner Schleier aus Feuchtigkeit, Dampf, Rauch oder kleinen Partikeln in der Luft"
+  },
+
+  "nuance": {
+    "ja": "空気中に薄く漂う水分・蒸気・煙・微粒子などによって、景色が少しかすんで見える状態を表す。Nebel より薄く、Qualm ほど濃く不快ではない。",
+    "de": "Bezeichnet einen feinen Schleier aus Feuchtigkeit, Dampf, Rauch oder Partikeln, durch den die Luft oder Landschaft leicht verschwommen wirkt. „Dunst“ ist meist weniger dicht als „Nebel“ und deutlich weniger massiv als „Qualm“."
+  },
+
+  "minimal": {
+    "ja": "Dunst＝空気中に薄く漂うもや・蒸気・微粒子の層／Nebel＝水滴が濃く集まって視界を大きく遮る霧／Rauch＝燃焼によって生じる煙の一般語／Qualm＝濃くて不快・むせるような煙",
+    "de": "Dunst = feiner Schleier aus Feuchtigkeit, Dampf oder Partikeln in der Luft; Nebel = dichte Ansammlung von Wassertröpfchen mit deutlich eingeschränkter Sicht; Rauch = allgemeiner Ausdruck für bei Verbrennung entstehende Gase und Partikel; Qualm = dichter, unangenehmer oder beißender Rauch"
+  },
+
+  "equivalents": {
+    "en": ["haze", "mist", "vapor"],
+    "it": ["foschia", "vapore"],
+    "fr": ["brume", "vapeur"],
+    "es": ["calina", "bruma", "vapor"]
+  },
+
+  "etymology": {
+    "ja": "古高ドイツ語・中高ドイツ語の語にさかのぼり、蒸気・霧・煙のように空中に漂うものを表してきた。",
+    "de": "Das Wort geht auf ältere germanische Sprachstufen zurück und bezeichnete schon früh etwas Dampf-, Nebel- oder Rauchähnliches, das in der Luft schwebt."
+  },
+
+  "example": {
+    "ja": "朝のもやがゆっくりと谷の上に漂っていた。",
+    "de": "Am Morgen lag leichter Dunst über dem Tal."
+  },
+
+  "task": {
+    "ja": "「遠くの山々はもやの中にかすんでいた。」を Dunst を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Dunst“ über eine verschwommene Berglandschaft."
+  }
+},
+{
+  "id": "dunstabzug",
+  "sid": "2026-00242",
+  "word": "Dunstabzug",
+  "tags": ["noun", "household", "kitchen", "daily"],
+  "level": "B1-B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "レンジフード、換気扇、調理用排気装置",
+    "de": "Vorrichtung zum Absaugen von Dampf, Rauch und Gerüchen beim Kochen"
+  },
+
+  "nuance": {
+    "ja": "キッチンで調理中に出る湯気・煙・油分・においなどを吸い出す装置を表す。日常語では Dunstabzughaube の短縮形として使われることも多い。",
+    "de": "Bezeichnet eine Vorrichtung in der Küche, die beim Kochen Dampf, Rauch, Fettpartikel und Gerüche absaugt. Häufig wird „Dunstabzug“ verkürzt für „Dunstabzugshaube“ verwendet."
+  },
+
+  "minimal": {
+    "ja": "Dunstabzug＝調理中の湯気・煙・においを吸い出す装置の一般的な呼び方／Dunstabzugshaube＝コンロ上部に設置されるレンジフード本体／Ventilator＝空気を動かす一般的な送風・換気装置／Lüftung＝換気設備・換気システム全般",
+    "de": "Dunstabzug = allgemeine Bezeichnung für eine Vorrichtung zum Absaugen von Kochdunst; Dunstabzugshaube = konkrete Haube über dem Herd; Ventilator = allgemeines Gerät zur Luftbewegung; Lüftung = allgemeines Belüftungs- oder Abluftsystem"
+  },
+
+  "equivalents": {
+    "en": ["range hood", "extractor hood", "kitchen exhaust"],
+    "it": ["cappa aspirante"],
+    "fr": ["hotte aspirante"],
+    "es": ["campana extractora"]
+  },
+
+  "etymology": {
+    "ja": "Dunst（湯気・もや・蒸気）＋ Abzug（排出、吸い出し）からなる複合語。文字どおり『湯気を排出するもの』。",
+    "de": "Zusammensetzung aus „Dunst“ und „Abzug“. Gemeint ist wörtlich eine Vorrichtung, die Kochdunst abzieht."
+  },
+
+  "example": {
+    "ja": "料理を始める前に換気扇をつけた。",
+    "de": "Vor dem Kochen habe ich den Dunstabzug eingeschaltet."
+  },
+
+  "task": {
+    "ja": "「換気扇がうまく作動していない。」を Dunstabzug を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Dunstabzug“ im Zusammenhang mit einer Störung."
+  }
+},
+{
+  "id": "souterrain",
+  "sid": "2026-00243",
+  "word": "Souterrain",
+  "tags": ["noun", "housing", "architecture", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "n"
+  },
+
+  "meaning": {
+    "ja": "半地下階、地下階、半地下の住居部分",
+    "de": "Untergeschoss oder teilweise unter dem Erdboden liegendes Geschoss, oft zu Wohn- oder Nutzungszwecken"
+  },
+
+  "nuance": {
+    "ja": "建物の地面より一部または大部分が低い階を表す。Keller が物置・設備室などを含む一般的な『地下室』なのに対し、Souterrain は窓があり、住居・店舗・事務所などとして利用される半地下階を指すことが多い。",
+    "de": "Bezeichnet ein ganz oder teilweise unterhalb des Straßenniveaus liegendes Geschoss. Im Unterschied zum allgemeinen „Keller“ wird „Souterrain“ häufig für Räume verwendet, die als Wohnung, Büro oder Laden nutzbar sind und oft Fenster besitzen."
+  },
+
+  "minimal": {
+    "ja": "Keller＝地下にある物置・設備室などを含む一般的な地下室／Untergeschoss＝地上階より下にある階を表す中立的・建築的な語／Souterrain＝半地下に位置し、住居・店舗などとして利用されることの多い階／Tiefparterre＝地面より少し低い位置にある低層階・半地下階",
+    "de": "Keller = allgemeiner Begriff für unterirdische Räume, oft als Lager- oder Technikraum; Untergeschoss = neutraler baulicher Begriff für ein Geschoss unterhalb des Erdgeschosses; Souterrain = meist teilweise unter Straßenniveau liegendes und oft als Wohn- oder Nutzraum verwendetes Geschoss; Tiefparterre = niedrig gelegenes, teilweise unter dem Straßenniveau befindliches Geschoss"
+  },
+
+  "equivalents": {
+    "en": ["basement", "semi-basement"],
+    "it": ["seminterrato"],
+    "fr": ["sous-sol"],
+    "es": ["semisótano"]
+  },
+
+  "etymology": {
+    "ja": "フランス語 souterrain『地下の』からの借用語。さらに sous『下に』＋ terrain『土地、地面』に由来する。",
+    "de": "Entlehnt aus französisch „souterrain“ im Sinne von „unterirdisch“, letztlich zu „sous“ („unter“) und „terrain“ („Gelände, Boden“)."
+  },
+
+  "example": {
+    "ja": "そのアパートは半地下にあるが、大きな窓がある。",
+    "de": "Die Wohnung liegt im Souterrain, hat aber große Fenster."
+  },
+
+  "task": {
+    "ja": "「彼らは半地下の部屋を事務所として使っている。」を Souterrain を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Souterrain“ im Zusammenhang mit einem Büro."
+  }
+},
+{
+  "id": "unterhaken",
+  "sid": "2026-00244",
+  "word": "unterhaken",
+  "tags": ["verb", "movement", "body", "daily"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "腕を組む、腕を絡ませる、腕を取る",
+    "de": "den eigenen Arm in den Arm einer anderen Person einhaken"
+  },
+
+  "nuance": {
+    "ja": "歩くときなどに、相手の腕に自分の腕を絡ませる動作を表す。親しさ・支え・エスコートなどのニュアンスを伴うことがある。典型的には sich bei jemandem unterhaken の形で使われる。",
+    "de": "Bezeichnet das Einhaken des eigenen Arms in den Arm einer anderen Person, etwa beim gemeinsamen Gehen. Die Handlung kann Nähe, Unterstützung oder Begleitung ausdrücken. Häufig steht die Konstruktion „sich bei jemandem unterhaken“."
+  },
+
+  "minimal": {
+    "ja": "einhaken＝鉤・腕などを何かに引っ掛ける一般的な語／unterhaken＝人の腕に自分の腕を絡ませて腕を組む／sich einhaken＝何かに腕・鉤などを引っ掛けることを広く表す／Arm in Arm gehen＝腕を組んだ状態で一緒に歩くことに焦点",
+    "de": "einhaken = etwas mit einem Haken oder dem Arm einhängen; unterhaken = den eigenen Arm bei einer anderen Person einhaken; sich einhaken = sich allgemein mit Arm oder Haken an etwas festmachen; Arm in Arm gehen = betont das gemeinsame Gehen mit eingehakten Armen"
+  },
+
+  "equivalents": {
+    "en": ["link arms", "hook one's arm through"],
+    "it": ["prendere sottobraccio", "andare a braccetto"],
+    "fr": ["prendre par le bras", "marcher bras dessus bras dessous"],
+    "es": ["cogerse del brazo", "ir del brazo"]
+  },
+
+  "etymology": {
+    "ja": "unter と Haken（鉤）に由来する語で、腕を相手の腕の下から鉤のように引っ掛ける動作を表す。",
+    "de": "Gebildet zu „Haken“ mit „unter-“. Die Bewegung wird bildlich als Einhaken des Arms unter bzw. in den Arm einer anderen Person verstanden."
+  },
+
+  "example": {
+    "ja": "彼女は母親の腕に自分の腕を絡ませた。",
+    "de": "Sie hakte sich bei ihrer Mutter unter."
+  },
+
+  "task": {
+    "ja": "「二人は腕を組んで通りを歩いた。」を unterhaken を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „unterhaken“ über zwei Personen, die gemeinsam die Straße entlanggehen."
+  }
+},
+{
+  "id": "abhandlung",
+  "sid": "2026-00245",
+  "word": "Abhandlung",
+  "tags": ["noun", "academic", "written", "formal"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "論考、論説、学術的な論文・論述",
+    "de": "ausführliche, systematische schriftliche Darstellung und Untersuchung eines Themas"
+  },
+
+  "nuance": {
+    "ja": "あるテーマについて、ある程度まとまった分量で体系的・論理的に論じる文章を表す。日常的な記事というより、学術・思想・専門分野のまとまった論考に使われることが多い。",
+    "de": "Bezeichnet eine ausführliche und systematische schriftliche Behandlung eines bestimmten Themas. Das Wort wird besonders für wissenschaftliche, philosophische oder fachliche Texte verwendet und wirkt formeller als „Artikel“ oder „Aufsatz“."
+  },
+
+  "minimal": {
+    "ja": "Artikel＝新聞・雑誌・学術誌などの記事を広く表す／Aufsatz＝比較的短い論述・作文・エッセイ／Abhandlung＝一つのテーマを体系的かつ詳しく論じた学術的・専門的な論考／Monografie＝一つのテーマを一冊の本として包括的に扱う学術書",
+    "de": "Artikel = allgemeiner Beitrag in Zeitung, Zeitschrift oder Fachpublikation; Aufsatz = eher kürzerer schriftlicher Text oder Essay; Abhandlung = ausführliche und systematische wissenschaftliche oder fachliche Behandlung eines Themas; Monografie = umfassende wissenschaftliche Buchpublikation zu einem einzelnen Thema"
+  },
+
+  "equivalents": {
+    "en": ["treatise", "dissertation", "essay"],
+    "it": ["trattato", "saggio"],
+    "fr": ["traité", "étude"],
+    "es": ["tratado", "ensayo"]
+  },
+
+  "etymology": {
+    "ja": "abhandeln（あるテーマを論じる、取り扱う）から派生した名詞。handeln はここでは『扱う、論じる』の意味。",
+    "de": "Abgeleitet von „abhandeln“ im Sinne von „ein Thema ausführlich behandeln oder erörtern“."
+  },
+
+  "example": {
+    "ja": "彼は法哲学について長い論考を書いた。",
+    "de": "Er verfasste eine ausführliche Abhandlung über Rechtsphilosophie."
+  },
+
+  "task": {
+    "ja": "「その研究者は人工知能の倫理について詳細な論考を発表した。」を Abhandlung を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Abhandlung“ über ein wissenschaftliches Thema."
+  }
+},
+{
+  "id": "aufsatz",
+  "sid": "2026-00246",
+  "word": "Aufsatz",
+  "tags": ["noun", "academic", "written", "education"],
+  "level": "B1-B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "作文、小論文、論説、エッセイ",
+    "de": "kürzerer zusammenhängender schriftlicher Text, besonders als Schulaufgabe oder fachlicher Beitrag"
+  },
+
+  "nuance": {
+    "ja": "学校で書く作文・小論文を表す代表的な語だが、学術・専門分野の比較的短い論考にも使われる。Abhandlung より短く、体系性や専門性の要求も弱い。",
+    "de": "Bezeichnet besonders einen zusammenhängenden schriftlichen Text als Schulaufgabe, kann aber auch einen kürzeren fachlichen oder wissenschaftlichen Beitrag meinen. Im Vergleich zu „Abhandlung“ ist ein Aufsatz meist kürzer und weniger umfassend."
+  },
+
+  "minimal": {
+    "ja": "Aufsatz＝学校作文から比較的短い専門的論考までを表す／Essay＝個人的・思索的で比較的自由な形式の論考／Artikel＝新聞・雑誌・学術誌などに掲載される記事・論文／Abhandlung＝一つのテーマを体系的かつ詳細に論じた、より長く専門的な論考",
+    "de": "Aufsatz = kürzerer zusammenhängender Text, von der Schulkomposition bis zum fachlichen Beitrag; Essay = eher freier, persönlicher oder reflektierender Text; Artikel = Beitrag in einer Zeitung, Zeitschrift oder Fachpublikation; Abhandlung = ausführliche und systematische fachliche oder wissenschaftliche Behandlung eines Themas"
+  },
+
+  "equivalents": {
+    "en": ["essay", "composition", "paper"],
+    "it": ["tema", "saggio"],
+    "fr": ["rédaction", "dissertation", "essai"],
+    "es": ["redacción", "ensayo"]
+  },
+
+  "etymology": {
+    "ja": "aufsetzen の名詞形で、もともと『上に置くこと』などを意味した。そこから『文章を書き上げること・書かれた文章』という意味が発達した。",
+    "de": "Abgeleitet von „aufsetzen“. Neben verschiedenen konkreten Bedeutungen entwickelte sich daraus die Bedeutung eines schriftlich abgefassten Textes."
+  },
+
+  "example": {
+    "ja": "生徒たちは休暇について作文を書かなければならなかった。",
+    "de": "Die Schüler mussten einen Aufsatz über ihre Ferien schreiben."
+  },
+
+  "task": {
+    "ja": "「私は環境保護について短い作文を書いた。」を Aufsatz を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Aufsatz“ über ein Umweltthema."
+  }
+},
+{
+  "id": "verwundete",
+  "sid": "2026-00247",
+  "word": "Verwundete",
+  "tags": ["noun", "person", "injury", "war"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m/f"
+  },
+
+  "meaning": {
+    "ja": "負傷者、傷を負った人",
+    "de": "eine Person, die verwundet wurde, besonders durch Waffen, Gewalt oder Kampfhandlungen"
+  },
+
+  "nuance": {
+    "ja": "形容詞 verwundet が名詞化した語。特に戦争・戦闘・銃撃・刃物などによって身体に傷を負った人を指すことが多い。事故やスポーツなどによる負傷者には、より一般的な Verletzte が普通。",
+    "de": "Substantiviertes Adjektiv zu „verwundet“. Das Wort bezeichnet besonders Personen, die durch Waffen, Gewalt oder Kampfhandlungen körperliche Wunden erlitten haben. Bei Unfällen oder Sportverletzungen ist meist „Verletzte“ allgemeiner und üblicher."
+  },
+
+  "minimal": {
+    "ja": "Verletzte＝事故・スポーツ・暴力など原因を問わず負傷した人を広く表す／Verwundete＝特に武器・戦闘・暴力によって傷を負った人／Opfer＝負傷の有無にかかわらず犯罪・事故・災害などの被害者／Tote＝死亡した人",
+    "de": "Verletzte = allgemeiner Ausdruck für eine verletzte Person unabhängig von der Ursache; Verwundete = besonders eine durch Waffen, Gewalt oder Kampfhandlungen verwundete Person; Opfer = von einem Verbrechen, Unfall oder Unglück betroffene Person, unabhängig von einer Verletzung; Tote = Personen, die ums Leben gekommen sind"
+  },
+
+  "equivalents": {
+    "en": ["wounded person", "the wounded"],
+    "it": ["ferito"],
+    "fr": ["blessé"],
+    "es": ["herido"]
+  },
+
+  "etymology": {
+    "ja": "verwunden（傷を負わせる）の過去分詞 verwundet を名詞化したもの。Wunde（傷）と同じ語族で、文字どおり『傷を負った人』を意味する。",
+    "de": "Substantivierung von „verwundet“, dem Partizip II von „verwunden“. Das Wort gehört zur Familie von „Wunde“ und bezeichnet wörtlich eine Person, die eine Wunde erlitten hat."
+  },
+
+  "example": {
+    "ja": "救助隊は負傷者を安全な場所へ運んだ。",
+    "de": "Die Rettungskräfte brachten die Verwundeten in Sicherheit."
+  },
+
+  "task": {
+    "ja": "「戦闘後、多くの負傷者が病院へ運ばれた。」を Verwundete を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Verwundete“ im Zusammenhang mit Kampfhandlungen."
+  }
+},
+{
+  "id": "verwunden",
+  "sid": "2026-00248",
+  "word": "verwunden",
+  "tags": ["verb", "injury", "war", "formal"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "傷つける、負傷させる、けがを負わせる",
+    "de": "jemandem eine körperliche Wunde zufügen, besonders durch Waffen, Gewalt oder Kampfhandlungen"
+  },
+
+  "nuance": {
+    "ja": "人に身体的な傷を負わせることを表し、とくに戦争・銃撃・刃物・暴力などの文脈で使われやすい。verletzen より範囲が狭く、心理的に『傷つける』意味では通常使わない。",
+    "de": "Bezeichnet das Zufügen einer körperlichen Wunde, besonders durch Waffen, Gewalt oder Kampfhandlungen. Im Vergleich zu „verletzen“ ist die Bedeutung enger; für seelische Verletzungen wird „verwunden“ normalerweise nicht verwendet."
+  },
+
+  "minimal": {
+    "ja": "verletzen＝事故・スポーツ・暴力・感情など幅広く『傷つける』／verwunden＝特に武器・戦闘・暴力によって身体に傷を負わせる／beschädigen＝物や機能を損傷する／kränken＝人の感情・自尊心を傷つける",
+    "de": "verletzen = allgemein körperlich oder seelisch verletzen; verwunden = besonders durch Waffen, Gewalt oder Kampfhandlungen eine körperliche Wunde zufügen; beschädigen = einen Gegenstand oder eine Funktion schädigen; kränken = die Gefühle oder das Selbstwertgefühl einer Person verletzen"
+  },
+
+  "equivalents": {
+    "en": ["wound", "injure"],
+    "it": ["ferire"],
+    "fr": ["blesser"],
+    "es": ["herir"]
+  },
+
+  "etymology": {
+    "ja": "Wunde（傷）と同じ語族で、ver- を伴って『傷を負わせる』という意味を表す。",
+    "de": "Gehört zur Wortfamilie von „Wunde“. Mit dem Präfix „ver-“ bezeichnet das Verb das Zufügen einer Wunde."
+  },
+
+  "example": {
+    "ja": "爆発で数人が負傷した。",
+    "de": "Bei der Explosion wurden mehrere Menschen verwundet."
+  },
+
+  "task": {
+    "ja": "「兵士は戦闘で重傷を負った。」を verwunden を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verwunden“ im Zusammenhang mit Kampfhandlungen."
+  }
+},
+{
+  "id": "widerstrebend",
+  "sid": "2026-00249",
+  "word": "widerstrebend",
+  "tags": ["adj", "attitude", "formal", "general"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "気が進まない、しぶしぶの、不本意ながら",
+    "de": "innerlich dagegen eingestellt und nur ungern bereit, etwas zu tun"
+  },
+
+  "nuance": {
+    "ja": "内心では反対・抵抗感があり、本当はしたくないものの、事情に押されて受け入れたり行動したりする様子を表す。単なる迷いではなく、明確な心理的抵抗があるのがポイント。",
+    "de": "Bezeichnet eine innere Abneigung oder einen Widerstand gegen eine Handlung oder Entscheidung. Man tut etwas dennoch, meist weil die Umstände es verlangen oder weil man sich schließlich fügt."
+  },
+
+  "minimal": {
+    "ja": "zögernd＝迷いや不確信のため決断・行動をためらう／ungern＝単に『好んでは〜しない』という一般的な語／widerwillig＝嫌々ながら、露骨な不満や反感を伴って行う／widerstrebend＝内心の抵抗を抱えつつ、しぶしぶ受け入れたり行動したりする",
+    "de": "zögernd = aus Unsicherheit oder Unentschlossenheit nicht sofort handeln; ungern = etwas allgemein nicht gern tun; widerwillig = etwas mit deutlicher Abneigung oder Unmut tun; widerstrebend = trotz innerem Widerstand oder Vorbehalt schließlich handeln oder zustimmen"
+  },
+
+  "equivalents": {
+    "en": ["reluctant", "reluctantly"],
+    "it": ["riluttante", "malvolentieri"],
+    "fr": ["réticent", "à contrecœur"],
+    "es": ["reacio", "de mala gana"]
+  },
+
+  "etymology": {
+    "ja": "wider（〜に逆らって）＋ streben（努力する、向かう）に由来し、文字どおり『逆方向へ力が働く』という発想から『内心では抵抗している』という意味になった。",
+    "de": "Gebildet aus „wider“ und „streben“. Die Grundvorstellung ist ein inneres Streben gegen etwas, also ein Widerstand gegen eine Handlung oder Entscheidung."
+  },
+
+  "example": {
+    "ja": "彼はしぶしぶその提案に同意した。",
+    "de": "Er stimmte dem Vorschlag nur widerstrebend zu."
+  },
+
+  "task": {
+    "ja": "「彼女は気が進まなかったが、最終的にその仕事を引き受けた。」を widerstrebend を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „widerstrebend“ und einer Aufgabe, die jemand schließlich übernimmt."
+  }
+},
+{
+  "id": "widerwillig",
+  "sid": "2026-00250",
+  "word": "widerwillig",
+  "tags": ["adj", "attitude", "emotion", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj"
+  },
+
+  "meaning": {
+    "ja": "嫌々ながらの、しぶしぶの、不承不承の",
+    "de": "etwas nur ungern und mit deutlicher Abneigung oder Unwillen tuend"
+  },
+
+  "nuance": {
+    "ja": "本当はしたくないという反感・不満を抱えたまま、仕方なく行動する様子を表す。widerstrebend よりも感情的な『嫌々感』が表面に出やすい。",
+    "de": "Bezeichnet eine Handlung, die jemand nur ungern und mit deutlich spürbarem Unwillen oder Widerstand ausführt. Im Vergleich zu „widerstrebend“ tritt die Abneigung häufig stärker nach außen."
+  },
+
+  "minimal": {
+    "ja": "ungern＝単に『好んでは〜しない』という一般的な語／zögernd＝迷いや不確信のため行動をためらう／widerstrebend＝内心の抵抗を抱えつつ、しぶしぶ受け入れる／widerwillig＝嫌悪・不満を感じながら、明らかに嫌々ながら行動する",
+    "de": "ungern = etwas allgemein nicht gern tun; zögernd = aus Unsicherheit oder Unentschlossenheit nicht sofort handeln; widerstrebend = trotz innerem Widerstand schließlich handeln oder zustimmen; widerwillig = etwas mit deutlich spürbarer Abneigung oder Unwillen tun"
+  },
+
+  "equivalents": {
+    "en": ["reluctant", "unwilling", "grudging"],
+    "it": ["riluttante", "contro voglia"],
+    "fr": ["réticent", "à contrecœur"],
+    "es": ["reacio", "de mala gana"]
+  },
+
+  "etymology": {
+    "ja": "wider（〜に逆らって）＋ Willen（意志）に由来し、文字どおり『自分の意志に反して』という発想をもつ。",
+    "de": "Gebildet aus „wider“ und „Wille“. Wörtlich bezeichnet es ein Handeln gegen den eigenen Willen."
+  },
+
+  "example": {
+    "ja": "彼は嫌々ながらその書類に署名した。",
+    "de": "Er unterschrieb das Dokument widerwillig."
+  },
+
+  "task": {
+    "ja": "「彼女は嫌々ながら謝った。」を widerwillig を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „widerwillig“ und einer Entschuldigung."
+  }
+},
+{
+  "id": "zusammenfassen",
+  "sid": "2026-00251",
+  "word": "zusammenfassen",
+  "tags": ["verb", "academic", "general", "written"],
+  "level": "B1-B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "要約する、まとめる、総括する",
+    "de": "die wichtigsten Punkte eines Inhalts kurz und geordnet wiedergeben"
+  },
+
+  "nuance": {
+    "ja": "文章・発言・議論・出来事などから重要な点を選び、短く整理してまとめることを表す。単に情報を集めるのではなく、内容を圧縮して要点を示すのが中心。",
+    "de": "Bezeichnet das geordnete und verkürzte Wiedergeben der wichtigsten Punkte eines Textes, Gesprächs, Ereignisses oder einer Argumentation. Im Vordergrund steht die inhaltliche Verdichtung."
+  },
+
+  "minimal": {
+    "ja": "zusammenfassen＝内容を圧縮して要点をまとめる／resümieren＝議論・経過などを最後に総括する、やや文章語的／zusammenstellen＝複数の情報・資料・項目を集めて一つにまとめる／bündeln＝複数の力・情報・資源などを一つに集中・集約する",
+    "de": "zusammenfassen = Inhalte verkürzen und die wesentlichen Punkte geordnet wiedergeben; resümieren = einen Verlauf oder eine Argumentation abschließend zusammenfassend darstellen; zusammenstellen = verschiedene Informationen, Materialien oder Elemente sammeln und ordnen; bündeln = mehrere Kräfte, Informationen oder Ressourcen zu einer Einheit konzentrieren"
+  },
+
+  "equivalents": {
+    "en": ["summarize", "sum up"],
+    "it": ["riassumere", "sintetizzare"],
+    "fr": ["résumer", "synthétiser"],
+    "es": ["resumir", "sintetizar"]
+  },
+
+  "etymology": {
+    "ja": "zusammen（まとめて）＋ fassen（つかむ、捉える）からなる語。文字どおりには『まとめて一つにつかむ』という発想で、そこから内容を要約する意味になった。",
+    "de": "Gebildet aus „zusammen“ und „fassen“. Die Grundvorstellung ist, mehrere Einzelheiten gedanklich zu einer Einheit zusammenzufassen."
+  },
+
+  "example": {
+    "ja": "彼女は報告書の要点を数文でまとめた。",
+    "de": "Sie fasste die wichtigsten Punkte des Berichts in wenigen Sätzen zusammen."
+  },
+
+  "task": {
+    "ja": "「その議論を三つのポイントに要約してください。」を zusammenfassen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „zusammenfassen“ und drei Punkten."
+  }
+},
+{
+  "id": "resuemieren",
+  "sid": "2026-00252",
+  "word": "resümieren",
+  "tags": ["verb", "academic", "formal", "written"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "総括する、要約する、結論としてまとめる",
+    "de": "einen Verlauf, eine Argumentation oder Überlegung abschließend zusammenfassen"
+  },
+
+  "nuance": {
+    "ja": "議論・考察・報告・経過などを最後に振り返り、要点や結論を簡潔にまとめることを表す。zusammenfassen よりフォーマルで、特に文章・発表・議論の締めくくりに使われやすい。",
+    "de": "Bezeichnet das abschließende Zusammenfassen eines Verlaufs, einer Argumentation oder Überlegung. Das Verb wirkt formeller als „zusammenfassen“ und wird häufig am Ende von Texten, Vorträgen oder Diskussionen verwendet."
+  },
+
+  "minimal": {
+    "ja": "zusammenfassen＝文章・発言などの要点を一般的に短くまとめる／resümieren＝議論・経過・考察を最後に振り返って総括する、より文章語的な語／bilanzieren＝結果・成果・損失などを評価して総括する／schlussfolgern＝情報や前提から結論を導き出す",
+    "de": "zusammenfassen = Inhalte allgemein verkürzt und geordnet wiedergeben; resümieren = einen Verlauf oder eine Argumentation abschließend und eher formell zusammenfassen; bilanzieren = Ergebnisse, Erfolge oder Verluste bewertend zusammenfassen; schlussfolgern = aus Informationen oder Voraussetzungen eine Schlussfolgerung ableiten"
+  },
+
+  "equivalents": {
+    "en": ["summarize", "sum up", "recapitulate"],
+    "it": ["riassumere", "ricapitolare"],
+    "fr": ["résumer", "récapituler"],
+    "es": ["resumir", "recapitular"]
+  },
+
+  "etymology": {
+    "ja": "フランス語 résumer を経由し、ラテン語 resumere『再び取る、取り上げ直す』に由来する。そこから『要点を再び取り上げてまとめる』という意味になった。",
+    "de": "Entlehnt aus französisch „résumer“, letztlich aus lateinisch „resumere“ („wieder aufnehmen“). Daraus entwickelte sich die Bedeutung, die wesentlichen Punkte noch einmal zusammenzufassen."
+  },
+
+  "example": {
+    "ja": "最後に、彼女は議論の主要なポイントを総括した。",
+    "de": "Zum Schluss resümierte sie die wichtigsten Punkte der Diskussion."
+  },
+
+  "task": {
+    "ja": "「最後に、著者は研究結果を簡潔に総括する。」を resümieren を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „resümieren“ über die Ergebnisse einer Untersuchung."
+  }
+},
+{
+  "id": "zusammenstellen",
+  "sid": "2026-00253",
+  "word": "zusammenstellen",
+  "tags": ["verb", "general", "academic", "organization"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "集めてまとめる、取りそろえる、編成する",
+    "de": "mehrere Informationen, Gegenstände oder Personen auswählen und zu einer Einheit zusammenbringen"
+  },
+
+  "nuance": {
+    "ja": "複数の情報・資料・商品・人員などを選び、目的に応じて一つのまとまりとして集めることを表す。内容を短く要約するのではなく、必要な要素を集めて構成することが中心。",
+    "de": "Bezeichnet das gezielte Auswählen und Zusammenbringen mehrerer Informationen, Gegenstände oder Personen zu einer passenden Einheit. Im Unterschied zu „zusammenfassen“ werden Inhalte nicht verkürzt, sondern Elemente gesammelt und geordnet."
+  },
+
+  "minimal": {
+    "ja": "sammeln＝物・情報などを広く集める／zusammenstellen＝必要な資料・項目・人員などを選んで一つのまとまりにする／zusammenfassen＝内容を圧縮して要点をまとめる／bündeln＝複数の力・情報・資源などを一つに集中・集約する",
+    "de": "sammeln = Dinge oder Informationen allgemein zusammentragen; zusammenstellen = benötigte Informationen, Materialien oder Personen gezielt auswählen und zu einer Einheit ordnen; zusammenfassen = Inhalte verkürzen und auf die wesentlichen Punkte reduzieren; bündeln = mehrere Kräfte, Informationen oder Ressourcen konzentriert zusammenführen"
+  },
+
+  "equivalents": {
+    "en": ["compile", "assemble", "put together"],
+    "it": ["compilare", "assemblare", "mettere insieme"],
+    "fr": ["compiler", "rassembler", "composer"],
+    "es": ["recopilar", "reunir", "componer"]
+  },
+
+  "etymology": {
+    "ja": "zusammen（まとめて）＋ stellen（置く、配置する）からなる語で、文字どおり『複数のものを一緒に配置する』という発想。",
+    "de": "Gebildet aus „zusammen“ und „stellen“. Die Grundvorstellung ist, mehrere einzelne Elemente gemeinsam anzuordnen oder zu einer Einheit zusammenzubringen."
+  },
+
+  "example": {
+    "ja": "彼女は報告書のために必要な資料を集めてまとめた。",
+    "de": "Sie stellte die notwendigen Unterlagen für den Bericht zusammen."
+  },
+
+  "task": {
+    "ja": "「私は会議のために資料を一式まとめた。」を zusammenstellen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „zusammenstellen“ und Unterlagen für eine Besprechung."
+  }
+},
+{
+  "id": "buendeln",
+  "sid": "2026-00254",
+  "word": "bündeln",
+  "tags": ["verb", "general", "abstract", "organization"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "束ねる、集約する、集中させる",
+    "de": "mehrere einzelne Dinge, Kräfte, Informationen oder Ressourcen zu einer Einheit zusammenfassen oder konzentrieren"
+  },
+
+  "nuance": {
+    "ja": "本来は物を束にすることを表すが、現代語では情報・能力・関心・資源・権限などを一つにまとめて効果的に集中させる比喩的用法が非常に多い。",
+    "de": "Ursprünglich bezeichnet das Verb das Zusammenbinden zu einem Bündel. Heute wird es sehr häufig übertragen gebraucht, etwa für Informationen, Kräfte, Kompetenzen, Interessen oder Ressourcen, die konzentriert zusammengeführt werden."
+  },
+
+  "minimal": {
+    "ja": "sammeln＝物・情報などを広く集める／zusammenstellen＝必要な要素を選び、一つのまとまりとして構成する／bündeln＝複数の力・情報・資源などを一つに集中・集約して効果を高める／zusammenfassen＝内容を圧縮して要点をまとめる",
+    "de": "sammeln = Dinge oder Informationen allgemein zusammentragen; zusammenstellen = ausgewählte Elemente gezielt zu einer Einheit ordnen; bündeln = mehrere Kräfte, Informationen oder Ressourcen konzentriert zusammenführen; zusammenfassen = Inhalte verkürzen und auf die wesentlichen Punkte reduzieren"
+  },
+
+  "equivalents": {
+    "en": ["bundle", "pool", "consolidate"],
+    "it": ["raggruppare", "concentrare", "riunire"],
+    "fr": ["regrouper", "concentrer", "rassembler"],
+    "es": ["agrupar", "concentrar", "reunir"]
+  },
+
+  "etymology": {
+    "ja": "Bündel（束）から派生した動詞。もともとは複数の物を束ねることを表し、そこから抽象的に『力・情報・資源を集約する』意味へ広がった。",
+    "de": "Abgeleitet von „Bündel“. Ursprünglich bedeutete das Verb, mehrere Gegenstände zu einem Bündel zusammenzubinden; daraus entwickelte sich die übertragene Bedeutung des konzentrierten Zusammenführens."
+  },
+
+  "example": {
+    "ja": "両社は研究開発の力を結集した。",
+    "de": "Die beiden Unternehmen bündelten ihre Kräfte in Forschung und Entwicklung."
+  },
+
+  "task": {
+    "ja": "「私たちは利用可能な資源を一つに集約する必要がある。」を bündeln を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „bündeln“ und verfügbaren Ressourcen."
+  }
+},
+{
+  "id": "ermittlung",
+  "sid": "2026-00255",
+  "word": "Ermittlung",
+  "tags": ["noun", "investigation", "law", "formal"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "①調査、捜査 ②算定、測定、特定",
+    "de": "①systematische Untersuchung zur Aufklärung eines Sachverhalts ②Feststellung oder Berechnung eines Werts, einer Größe oder Tatsache"
+  },
+
+  "nuance": {
+    "ja": "事実関係・犯人・原因・数値など、まだ確定していないものを調べて明らかにすることを表す。法律・警察文脈では複数形 Ermittlungen が『捜査』の定型語。技術・行政では『算定・特定』にも使われる。",
+    "de": "Bezeichnet das systematische Feststellen oder Aufklären eines noch ungeklärten Sachverhalts. Im Polizei- und Rechtsbereich steht besonders der Plural „Ermittlungen“ für strafrechtliche Untersuchungen. In technischen oder administrativen Zusammenhängen kann das Wort auch die Bestimmung eines Werts oder einer Größe bezeichnen."
+  },
+
+  "minimal": {
+    "ja": "Untersuchung＝対象を広く詳しく調べる一般語／Ermittlung＝未知の事実・犯人・原因・数値などを調査して突き止めること／Recherche＝資料・情報源を調べて情報を集めること／Fahndung＝容疑者・逃亡者・行方不明者などを捜索すること",
+    "de": "Untersuchung = allgemeine gründliche Prüfung eines Gegenstands oder Sachverhalts; Ermittlung = gezieltes Feststellen oder Aufklären unbekannter Tatsachen, Täter, Ursachen oder Werte; Recherche = gezieltes Suchen und Sammeln von Informationen aus Quellen; Fahndung = gezielte Suche nach Verdächtigen, Flüchtigen oder vermissten Personen"
+  },
+
+  "equivalents": {
+    "en": ["investigation", "inquiry", "determination"],
+    "it": ["indagine", "accertamento", "determinazione"],
+    "fr": ["enquête", "investigation", "détermination"],
+    "es": ["investigación", "averiguación", "determinación"]
+  },
+
+  "etymology": {
+    "ja": "ermitteln（調べて突き止める、算定する）から派生した名詞。Mitte と同じ語族で、もともとは『中間・中心を見いだす』という発想から『正しい値・事実を突き止める』意味へ発展した。",
+    "de": "Abgeleitet von „ermitteln“. Das Verb gehört historisch zur Wortfamilie von „Mitte“ und entwickelte die Bedeutung, durch Nachforschen oder Berechnen einen richtigen Wert oder Sachverhalt festzustellen."
+  },
+
+  "example": {
+    "ja": "警察は事件について捜査を開始した。",
+    "de": "Die Polizei nahm die Ermittlungen zu dem Fall auf."
+  },
+
+  "task": {
+    "ja": "「検察はその企業に対する捜査を続けている。」を Ermittlungen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Ermittlungen“ im Zusammenhang mit der Staatsanwaltschaft."
+  }
+},
+{
+  "id": "nachforschung",
+  "sid": "2026-00256",
+  "word": "Nachforschung",
+  "tags": ["noun", "investigation", "research", "formal"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "調査、追究、詳しい照会・探索",
+    "de": "gründliche Suche nach Informationen oder Tatsachen, um etwas Ungeklärtes herauszufinden"
+  },
+
+  "nuance": {
+    "ja": "不明な事実・事情・人物・経緯などについて、手掛かりを追いながら詳しく調べることを表す。警察・法的文脈に限定されず、歴史・家系・資料・所在確認などにも使える。実際には複数形 Nachforschungen がよく使われる。",
+    "de": "Bezeichnet das gründliche Nachforschen nach unbekannten Tatsachen, Umständen, Personen oder Zusammenhängen. Das Wort ist nicht auf Polizei oder Justiz beschränkt und wird häufig im Plural „Nachforschungen“ gebraucht."
+  },
+
+  "minimal": {
+    "ja": "Ermittlung＝未知の事実・犯人・原因・数値などを体系的に突き止める、特に捜査・公的調査で多い／Nachforschung＝手掛かりや資料をたどって事情・所在・経緯などを詳しく調べる／Recherche＝文献・資料・情報源から情報を収集する／Untersuchung＝対象を広く体系的に検査・調査する一般語",
+    "de": "Ermittlung = gezieltes Feststellen unbekannter Tatsachen, Täter, Ursachen oder Werte, besonders in amtlichen oder strafrechtlichen Zusammenhängen; Nachforschung = gründliches Nachgehen von Spuren, Informationen oder Zusammenhängen; Recherche = gezielte Informationssuche in Quellen und Materialien; Untersuchung = allgemeine systematische Prüfung eines Gegenstands oder Sachverhalts"
+  },
+
+  "equivalents": {
+    "en": ["inquiry", "investigation", "research"],
+    "it": ["ricerca", "indagine"],
+    "fr": ["recherche", "enquête"],
+    "es": ["indagación", "investigación"]
+  },
+
+  "etymology": {
+    "ja": "nachforschen（後を追って調べる、詳しく追究する）から派生した名詞。forschen は『研究する、探究する』で、nach- によって『手掛かりを追って調べる』という方向性が加わる。",
+    "de": "Abgeleitet von „nachforschen“. „Forschen“ bedeutet gründlich untersuchen oder erforschen; „nach-“ fügt die Vorstellung hinzu, einer Spur oder einem Sachverhalt weiter nachzugehen."
+  },
+
+  "example": {
+    "ja": "詳しい調査の結果、その手紙の送り主が判明した。",
+    "de": "Nach eingehenden Nachforschungen konnte der Absender des Briefes ermittelt werden."
+  },
+
+  "task": {
+    "ja": "「警察はその人物の所在についてさらに調査を行った。」を Nachforschungen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Nachforschungen“ über den Aufenthaltsort einer Person."
+  }
+},
+{
+  "id": "scherbenhaufen",
+  "sid": "2026-00257",
+  "word": "Scherbenhaufen",
+  "tags": ["noun", "idiom", "abstract", "general"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+
+  "meaning": {
+    "ja": "①割れた破片の山 ②（比喩的に）崩壊した状態、めちゃくちゃになった結果",
+    "de": "①Haufen aus Scherben ②übertragen: völlig zerstörter oder gescheiterter Zustand"
+  },
+
+  "nuance": {
+    "ja": "文字どおりには陶器・ガラスなどの破片の山。比喩的には、関係・計画・組織・政治状況などが完全に壊れてしまった状態を表す。特に vor einem Scherbenhaufen stehen で『すべてが崩壊した状況に直面する』という表現が非常に重要。",
+    "de": "Wörtlich bezeichnet das Wort einen Haufen zerbrochener Stücke. Übertragen beschreibt es eine Situation, in der Beziehungen, Pläne, Organisationen oder politische Vorhaben völlig gescheitert oder zerstört sind. Besonders häufig ist die Wendung „vor einem Scherbenhaufen stehen“."
+  },
+
+  "minimal": {
+    "ja": "Trümmer＝建物・構造物などが壊れた残骸・瓦礫／Chaos＝秩序が失われた混乱状態／Desaster＝重大な失敗・惨事そのもの／Scherbenhaufen＝何かが壊れた結果として残った『修復困難な崩壊状態』を比喩的に表す",
+    "de": "Trümmer = zerstörte Reste von Gebäuden oder Strukturen; Chaos = Zustand völliger Unordnung; Desaster = schweres Unglück oder völliger Fehlschlag; Scherbenhaufen = bildlich der zerstörte, kaum noch zu reparierende Zustand nach einem Scheitern"
+  },
+
+  "equivalents": {
+    "en": ["shambles", "wreckage", "broken mess"],
+    "it": ["rovine", "disastro", "cocci"],
+    "fr": ["débris", "désastre", "ruines"],
+    "es": ["ruinas", "desastre", "destrozos"]
+  },
+
+  "etymology": {
+    "ja": "Scherbe（陶器・ガラスなどの破片）＋ Haufen（山、積み重なり）からなる複合語。文字どおりの『破片の山』から、比喩的に『完全に壊れた状況』を表すようになった。",
+    "de": "Zusammengesetzt aus „Scherbe“ und „Haufen“. Aus der wörtlichen Bedeutung eines Haufens zerbrochener Stücke entwickelte sich die übertragene Bedeutung eines völlig gescheiterten oder zerstörten Zustands."
+  },
+
+  "example": {
+    "ja": "交渉が決裂し、両者は完全に崩壊した状況に直面した。",
+    "de": "Nach dem Scheitern der Verhandlungen standen beide Seiten vor einem Scherbenhaufen."
+  },
+
+  "task": {
+    "ja": "「その会社は経営陣の失策によってめちゃくちゃな状態になった。」を Scherbenhaufen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Scherbenhaufen“ über ein gescheitertes Unternehmen."
+  }
 }
 ]
