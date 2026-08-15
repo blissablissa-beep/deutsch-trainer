@@ -11585,5 +11585,591 @@
     "ja": "「その会社は経営陣の失策によってめちゃくちゃな状態になった。」を Scherbenhaufen を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „Scherbenhaufen“ über ein gescheitertes Unternehmen."
   }
+},
+{
+  "id": "aufregerthema",
+  "sid": "2026-00258",
+  "word": "Aufregerthema",
+  "tags": ["noun", "media", "politics", "colloquial"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "n"
+  },
+
+  "meaning": {
+    "ja": "世間を騒がせる話題、議論を呼ぶテーマ、炎上しやすい話題",
+    "de": "Thema, das starke Aufmerksamkeit, Aufregung oder kontroverse Diskussionen hervorruft"
+  },
+
+  "nuance": {
+    "ja": "人々の感情を刺激し、強い反応や議論を引き起こすテーマを表す。単に kontrovers なだけでなく、メディアや世論で『みんなが騒ぐ話題』という口語的・ジャーナリズム的な響きがある。",
+    "de": "Bezeichnet ein Thema, das starke emotionale Reaktionen, öffentliche Aufmerksamkeit oder heftige Diskussionen hervorruft. Das Wort wirkt eher umgangssprachlich und journalistisch und betont den öffentlichen Aufregungsfaktor."
+  },
+
+  "minimal": {
+    "ja": "Streitthema＝意見が対立して争点となっているテーマ／Reizthema＝触れると強い感情的反応を引き起こしやすい敏感なテーマ／Aufregerthema＝世論やメディアで大きな騒ぎ・感情的反応を呼ぶ話題／Skandal＝問題となる出来事・行為そのもの",
+    "de": "Streitthema = Thema, über das unterschiedliche Positionen heftig streiten; Reizthema = sensibles Thema, das leicht starke emotionale Reaktionen auslöst; Aufregerthema = Thema, das öffentlich große Aufmerksamkeit und Aufregung erzeugt; Skandal = anstößiges oder empörendes Ereignis selbst"
+  },
+
+  "equivalents": {
+    "en": ["hot-button issue", "controversial topic", "talking point"],
+    "it": ["tema scottante", "argomento controverso"],
+    "fr": ["sujet brûlant", "sujet polémique"],
+    "es": ["tema candente", "tema polémico"]
+  },
+
+  "etymology": {
+    "ja": "Aufreger＋Thema の複合語。Aufreger は『人々を憤慨・興奮させ、激しく議論される出来事や発言』を意味し、そこから『世間を騒がせるテーマ』という語が作られた。",
+    "de": "Zusammensetzung aus „Aufreger“ und „Thema“. „Aufreger“ bezeichnet etwas, das als provokant oder skandalös empfunden und heftig diskutiert wird."
+  },
+
+  "example": {
+    "ja": "移民政策は選挙戦で最大の議論を呼ぶテーマの一つになった。",
+    "de": "Die Migrationspolitik wurde zu einem der größten Aufregerthemen im Wahlkampf."
+  },
+
+  "task": {
+    "ja": "「その問題は数週間にわたってメディアを騒がせる話題だった。」を Aufregerthema を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Aufregerthema“ über eine öffentliche Debatte."
+  }
+},
+{
+  "id": "streitthema",
+  "sid": "2026-00259",
+  "word": "Streitthema",
+  "tags": ["noun", "debate", "society", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "n"
+  },
+
+  "meaning": {
+    "ja": "争点、議論の的、意見が対立するテーマ",
+    "de": "Thema, über das unterschiedliche Meinungen oder Interessen miteinander in Konflikt stehen"
+  },
+
+  "nuance": {
+    "ja": "複数の立場の意見が食い違い、繰り返し議論や対立の対象になるテーマを表す。感情的な大騒ぎを必ずしも伴わず、政治・社会・家庭・職場など幅広い文脈で使える。",
+    "de": "Bezeichnet ein Thema, über das unterschiedliche Positionen, Interessen oder Meinungen regelmäßig aufeinanderprallen. Starke öffentliche Aufregung ist dabei nicht notwendig."
+  },
+
+  "minimal": {
+    "ja": "Streitthema＝意見が対立し、継続的な争点となっているテーマ／Reizthema＝触れると強い感情的反応を引き起こしやすい敏感なテーマ／Aufregerthema＝世論やメディアで大きな騒ぎや感情的反応を呼ぶ話題／Kontroverse＝対立する意見の間で起こる論争そのもの",
+    "de": "Streitthema = Thema, über das unterschiedliche Positionen dauerhaft streiten; Reizthema = sensibles Thema, das leicht starke emotionale Reaktionen auslöst; Aufregerthema = Thema, das öffentlich große Aufmerksamkeit und Aufregung erzeugt; Kontroverse = die eigentliche Auseinandersetzung zwischen gegensätzlichen Positionen"
+  },
+
+  "equivalents": {
+    "en": ["contentious issue", "bone of contention", "controversial issue"],
+    "it": ["tema controverso", "motivo di disputa"],
+    "fr": ["sujet de discorde", "question controversée"],
+    "es": ["tema polémico", "motivo de disputa"]
+  },
+
+  "etymology": {
+    "ja": "Streit（争い、論争）＋ Thema（テーマ）からなる複合語で、文字どおり『争いの対象となるテーマ』を意味する。",
+    "de": "Zusammensetzung aus „Streit“ und „Thema“; wörtlich ein Thema, das zum Gegenstand einer Auseinandersetzung wird."
+  },
+
+  "example": {
+    "ja": "年金制度の改革は長年にわたる政治上の争点である。",
+    "de": "Die Reform des Rentensystems ist seit Jahren ein politisches Streitthema."
+  },
+
+  "task": {
+    "ja": "「在宅勤務はその会社で依然として議論の的になっている。」を Streitthema を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Streitthema“ im Zusammenhang mit Homeoffice."
+  }
+},
+{
+  "id": "vernehmen",
+  "sid": "2026-00260",
+  "word": "vernehmen",
+  "tags": ["verb", "formal", "law", "perception"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①聞く、聞き知る ②（警察・司法が）事情聴取する、尋問する",
+    "de": "①etwas hören oder zur Kenntnis nehmen ②eine Person amtlich oder gerichtlich befragen"
+  },
+
+  "nuance": {
+    "ja": "①の『聞く』は hören より古風・文章語的で、音や知らせを耳にする意味。②では警察・検察・裁判所などが証人・容疑者等から正式に事情を聞くことを表し、法律・報道文脈で重要。",
+    "de": "In der Bedeutung „hören“ wirkt „vernehmen“ heute eher gehoben oder literarisch. Im rechtlichen und behördlichen Bereich bezeichnet es das formelle Befragen einer Person, etwa durch Polizei, Staatsanwaltschaft oder Gericht."
+  },
+
+  "minimal": {
+    "ja": "hören＝最も一般的な『聞く』／vernehmen＝文章語的に音・知らせを聞く、または公的に事情聴取する／befragen＝質問して情報を得る一般語／verhören＝警察などが容疑者を厳しく取り調べる意味が強い",
+    "de": "hören = allgemeines Verb für akustische Wahrnehmung; vernehmen = gehoben etwas hören bzw. amtlich oder gerichtlich eine Person befragen; befragen = allgemein durch Fragen Informationen erhalten; verhören = besonders einen Verdächtigen eingehend oder streng polizeilich befragen"
+  },
+
+  "equivalents": {
+    "en": ["hear", "learn", "question", "examine"],
+    "it": ["udire", "apprendere", "interrogare"],
+    "fr": ["entendre", "apprendre", "interroger"],
+    "es": ["oír", "enterarse", "interrogar"]
+  },
+
+  "etymology": {
+    "ja": "nehmen（取る）を含む古い複合動詞で、もともと『知覚して受け取る』という意味から『聞き取る・知る』へ発展した。そこからさらに、供述を正式に『聞き取る』という司法上の意味が生じた。",
+    "de": "Historisch mit „nehmen“ verbunden. Aus der Vorstellung, etwas wahrnehmend aufzunehmen, entwickelte sich die Bedeutung „hören“ und später auch das amtliche Aufnehmen einer Aussage durch Befragung."
+  },
+
+  "example": {
+    "ja": "警察はその証人を数時間にわたって事情聴取した。",
+    "de": "Die Polizei vernahm den Zeugen mehrere Stunden lang."
+  },
+
+  "task": {
+    "ja": "「検察は昨日その証人を聴取した。」を vernehmen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „vernehmen“ im Zusammenhang mit einem Zeugen und der Staatsanwaltschaft."
+  }
+},
+{
+  "id": "elternzeit",
+  "sid": "2026-00261",
+  "word": "Elternzeit",
+  "tags": ["noun", "family", "work", "law", "society"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "育児休業、育児のための休職期間",
+    "de": "gesetzlich geschützte Freistellung von der Arbeit zur Betreuung und Erziehung eines Kindes"
+  },
+
+  "nuance": {
+    "ja": "子どもの養育のために、親が一定期間仕事を休む制度・期間を表す。単なる休暇 Urlaub ではなく、雇用関係を維持しつつ育児のために就労を休止・軽減する法制度上の概念。母親だけでなく父親も取得できる。",
+    "de": "Bezeichnet eine gesetzlich geregelte Freistellung von der Erwerbsarbeit zur Betreuung und Erziehung eines Kindes. Anders als „Urlaub“ handelt es sich um eine familien- und arbeitsrechtliche Regelung. Elternzeit kann von Müttern und Vätern genommen werden."
+  },
+
+  "minimal": {
+    "ja": "Elternzeit＝親が育児のために仕事を休む法制度上の期間／Mutterschutz＝出産前後に母親を保護するための法定保護期間／Elterngeld＝育児期間中の収入減を補うための給付金／Urlaub＝一般的な休暇・年次有給休暇",
+    "de": "Elternzeit = gesetzlich geschützte Freistellung zur Betreuung eines Kindes; Mutterschutz = besonderer gesetzlicher Schutz der Mutter vor und nach der Geburt; Elterngeld = staatliche finanzielle Leistung zum Ausgleich wegfallenden Einkommens nach der Geburt; Urlaub = allgemeine arbeitsfreie Zeit bzw. Erholungsurlaub"
+  },
+
+  "equivalents": {
+    "en": ["parental leave"],
+    "it": ["congedo parentale"],
+    "fr": ["congé parental"],
+    "es": ["permiso parental"]
+  },
+
+  "etymology": {
+    "ja": "Eltern（両親、親）＋ Zeit（時間、期間）からなる複合語。文字どおりには『親として過ごす期間』で、現在は育児のための法定休業制度を指す。",
+    "de": "Zusammensetzung aus „Eltern“ und „Zeit“. Wörtlich bezeichnet das Wort eine Zeit für Eltern; heute ist es die feste Bezeichnung für die gesetzlich geregelte Freistellung zur Kinderbetreuung."
+  },
+
+  "example": {
+    "ja": "彼は娘の誕生後、6か月の育児休業を取得した。",
+    "de": "Nach der Geburt seiner Tochter nahm er sechs Monate Elternzeit."
+  },
+
+  "task": {
+    "ja": "「彼女は来年から1年間育児休業を取る予定だ。」を Elternzeit を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Elternzeit“ über eine geplante einjährige Auszeit."
+  }
+},
+{
+  "id": "chromosom",
+  "sid": "2026-00262",
+  "word": "Chromosom",
+  "tags": ["noun", "biology", "genetics", "science"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "n"
+  },
+
+  "meaning": {
+    "ja": "染色体",
+    "de": "Struktur aus DNA und Proteinen, die genetische Information trägt"
+  },
+
+  "nuance": {
+    "ja": "DNAとタンパク質からなる構造で、遺伝情報を担う。遺伝学・細胞生物学・医学で使われる基本的な専門語。複数形は Chromosomen。",
+    "de": "Bezeichnet eine aus DNA und Proteinen bestehende Struktur, in der genetische Information organisiert ist. Der Begriff gehört zum Grundwortschatz der Genetik, Zellbiologie und Medizin. Der Plural lautet „Chromosomen“."
+  },
+
+  "minimal": {
+    "ja": "Chromosom＝DNAがタンパク質とともに組織化された、遺伝情報を担う構造／Gen＝特定の機能や形質に関係するDNA上の情報単位／DNA＝遺伝情報を保存する分子そのもの／Chromatid＝複製された染色体を構成する各一本の部分",
+    "de": "Chromosom = aus DNA und Proteinen aufgebaute Struktur, die genetische Information trägt; Gen = funktioneller Abschnitt der DNA mit genetischer Information; DNA = Molekül, in dem genetische Information gespeichert ist; Chromatid = eine der Längseinheiten eines verdoppelten Chromosoms"
+  },
+
+  "equivalents": {
+    "en": ["chromosome"],
+    "it": ["cromosoma"],
+    "fr": ["chromosome"],
+    "es": ["cromosoma"]
+  },
+
+  "etymology": {
+    "ja": "ギリシャ語 chrōma（色）＋ sōma（体）に由来する。細胞を染色した際に、この構造がよく染まって観察できることから『色のつく体』という名称が付けられた。",
+    "de": "Das Wort geht auf griechisch „chrōma“ („Farbe“) und „sōma“ („Körper“) zurück. Die Bezeichnung entstand, weil Chromosomen bei bestimmten Färbeverfahren im Mikroskop deutlich sichtbar werden."
+  },
+
+  "example": {
+    "ja": "人間の体細胞には通常46本の染色体がある。",
+    "de": "Eine menschliche Körperzelle enthält normalerweise 46 Chromosomen."
+  },
+
+  "task": {
+    "ja": "「この遺伝子は7番染色体上に存在する。」を Chromosom を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Chromosom“ und einem Gen, das auf Chromosom 7 liegt."
+  }
+},
+{
+  "id": "chromosomenanalyse",
+  "sid": "2026-00263",
+  "word": "Chromosomenanalyse",
+  "tags": ["noun", "biology", "genetics", "medicine"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "染色体分析、染色体検査",
+    "de": "Untersuchung der Chromosomen hinsichtlich ihrer Zahl, Struktur und möglicher Veränderungen"
+  },
+
+  "nuance": {
+    "ja": "染色体の数や構造を調べ、異常や変化の有無を確認する検査・分析を表す。遺伝学、出生前診断、腫瘍学などの医学的文脈で使われる。文脈によっては Karyotypisierung や Chromosomenuntersuchung と近い。",
+    "de": "Bezeichnet die Untersuchung von Chromosomen auf Anzahl, Struktur und mögliche Veränderungen. Der Begriff wird vor allem in Genetik, Pränataldiagnostik und Onkologie verwendet und überschneidet sich je nach Kontext mit „Karyotypisierung“ oder „Chromosomenuntersuchung“."
+  },
+
+  "minimal": {
+    "ja": "Chromosomenanalyse＝染色体の数・構造・異常を調べる分析の総称／Karyotypisierung＝染色体を分類・配列して核型を決定することに重点を置く／Gentest＝特定の遺伝子やDNA配列の変異を調べる検査／Genomanalyse＝個別遺伝子より広くゲノム全体またはその大部分を解析する",
+    "de": "Chromosomenanalyse = allgemeine Untersuchung von Zahl, Struktur und Veränderungen der Chromosomen; Karyotypisierung = Bestimmung und geordnete Darstellung des Karyotyps; Gentest = Untersuchung bestimmter Gene oder DNA-Varianten; Genomanalyse = umfassendere Analyse des gesamten Genoms oder großer Teile davon"
+  },
+
+  "equivalents": {
+    "en": ["chromosome analysis", "chromosomal analysis"],
+    "it": ["analisi cromosomica"],
+    "fr": ["analyse chromosomique"],
+    "es": ["análisis cromosómico"]
+  },
+
+  "etymology": {
+    "ja": "Chromosom（染色体）＋ Analyse（分析）からなる複合語。Chromosom はギリシャ語 chrōma『色』＋ sōma『体』、Analyse はギリシャ語 analysis『分解、分析』に由来する。",
+    "de": "Zusammensetzung aus „Chromosom“ und „Analyse“. „Chromosom“ geht auf griechisch „chrōma“ und „sōma“ zurück, „Analyse“ auf griechisch „analysis“."
+  },
+
+  "example": {
+    "ja": "染色体分析によって染色体数の異常が確認された。",
+    "de": "Bei der Chromosomenanalyse wurde eine Abweichung der Chromosomenzahl festgestellt."
+  },
+
+  "task": {
+    "ja": "「医師はより詳しい染色体分析を勧めた。」を Chromosomenanalyse を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Chromosomenanalyse“ und einer ärztlichen Empfehlung."
+  }
+},
+{
+  "id": "behinderung",
+  "sid": "2026-00264",
+  "word": "Behinderung",
+  "tags": ["noun", "society", "health", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "①障害、障がい ②妨害、支障",
+    "de": "①dauerhafte körperliche, geistige, seelische oder sensorische Beeinträchtigung ②Hinderung oder Erschwerung eines Ablaufs"
+  },
+
+  "nuance": {
+    "ja": "人について使う場合は身体的・精神的・感覚的などの障害を表す。一方、交通・作業・進行などについては『妨害・支障』の意味でも使われる。文脈によって意味が大きく変わるので注意が必要。",
+    "de": "Bei Personen bezeichnet das Wort eine körperliche, geistige, seelische oder sensorische Beeinträchtigung. Daneben kann es auch eine Behinderung im Sinn einer Erschwerung oder Störung eines Ablaufs bezeichnen, etwa im Verkehr oder bei Arbeiten."
+  },
+
+  "minimal": {
+    "ja": "Behinderung＝人については障害、物事については妨害・支障／Beeinträchtigung＝機能・能力・状態などが損なわれていることを広く表す／Einschränkung＝可能性・行動範囲・機能などが制限されていること／Hindernis＝進行を妨げる具体的または抽象的な障害物・障壁",
+    "de": "Behinderung = bei Personen eine Behinderung, bei Abläufen auch eine Störung oder Erschwerung; Beeinträchtigung = allgemeine Minderung einer Funktion, Fähigkeit oder eines Zustands; Einschränkung = Begrenzung von Möglichkeiten oder Funktionen; Hindernis = konkretes oder abstraktes Element, das das Vorankommen erschwert"
+  },
+
+  "equivalents": {
+    "en": ["disability", "impairment", "obstruction"],
+    "it": ["disabilità", "menomazione", "ostacolo"],
+    "fr": ["handicap", "déficience", "entrave"],
+    "es": ["discapacidad", "impedimento", "obstáculo"]
+  },
+
+  "etymology": {
+    "ja": "behindern（妨げる、支障を与える）から派生した名詞。さらに Hindernis や hindern と同じ語族で、『進行を妨げる』という基本概念をもつ。",
+    "de": "Abgeleitet von „behindern“ und mit „hindern“ sowie „Hindernis“ verwandt. Die Grundbedeutung ist das Erschweren oder Verhindern eines ungehinderten Ablaufs."
+  },
+
+  "example": {
+    "ja": "建設工事のため、交通に一時的な支障が出ている。",
+    "de": "Wegen der Bauarbeiten kommt es vorübergehend zu Behinderungen im Verkehr."
+  },
+
+  "task": {
+    "ja": "「この建物は障害のある人にも利用しやすい。」を Behinderung を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Menschen mit Behinderung“ über die Zugänglichkeit eines Gebäudes."
+  }
+},
+{
+  "id": "periduralanaesthesie",
+  "sid": "2026-00265",
+  "word": "Periduralanästhesie",
+  "tags": ["noun", "medicine", "anesthesia", "childbirth"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "硬膜外麻酔、硬膜外鎮痛（略：PDA）",
+    "de": "Regionalanästhesieverfahren, bei dem ein Betäubungs- oder Schmerzmittel in den Periduralraum nahe der Wirbelsäule gegeben wird"
+  },
+
+  "nuance": {
+    "ja": "脊椎の近くにある硬膜外腔へ麻酔薬・鎮痛薬を投与し、特定の身体領域からの痛みの伝達を抑える方法。特に出産時の疼痛緩和でよく知られ、ドイツ語では通常 PDA と略される。",
+    "de": "Bezeichnet ein rückenmarksnahes Regionalanästhesieverfahren, bei dem Medikamente in den Periduralraum eingebracht werden. Besonders bekannt ist die Anwendung zur Schmerzlinderung während der Geburt. Häufig wird die Abkürzung „PDA“ verwendet."
+  },
+
+  "minimal": {
+    "ja": "Periduralanästhesie＝硬膜外腔に薬剤を投与し、カテーテルを用いて持続的・追加的に投与することもできる麻酔・鎮痛法／Spinalanästhesie＝薬剤をより内側の脊髄くも膜下腔へ直接注入する脊髄くも膜下麻酔／Vollnarkose＝意識を失わせて全身を麻酔する全身麻酔／Lokalanästhesie＝身体の限定された小範囲を局所的に麻酔する方法",
+    "de": "Periduralanästhesie = Regionalanästhesie mit Medikamentengabe in den Periduralraum, häufig über einen Katheter; Spinalanästhesie = Injektion des Anästhetikums weiter innen direkt in den Liquorraum; Vollnarkose = Allgemeinanästhesie mit Ausschaltung des Bewusstseins; Lokalanästhesie = örtliche Betäubung eines begrenzten Körperbereichs"
+  },
+
+  "equivalents": {
+    "en": ["epidural anesthesia", "epidural analgesia"],
+    "it": ["anestesia epidurale", "analgesia epidurale"],
+    "fr": ["anesthésie péridurale", "péridurale"],
+    "es": ["anestesia epidural", "analgesia epidural"]
+  },
+
+  "etymology": {
+    "ja": "peri-（周囲に）＋ dura mater（硬膜）＋ Anästhesie（麻酔）からなる医学用語。つまり『硬膜の周囲で行う麻酔』という構成。",
+    "de": "Der Begriff setzt sich aus „peri-“ („um ... herum“), „dura“ in „Dura mater“ und „Anästhesie“ zusammen und bezeichnet damit eine Anästhesie im Bereich außerhalb der harten Rückenmarkshaut."
+  },
+
+  "example": {
+    "ja": "彼女は出産時に硬膜外麻酔を希望した。",
+    "de": "Sie wünschte sich für die Geburt eine Periduralanästhesie."
+  },
+
+  "task": {
+    "ja": "「助産師は硬膜外麻酔について説明した。」を Periduralanästhesie を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Periduralanästhesie“ im Zusammenhang mit einer Geburt."
+  }
+},
+{
+  "id": "anaesthesie",
+  "sid": "2026-00266",
+  "word": "Anästhesie",
+  "tags": ["noun", "medicine", "anesthesia", "general"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "麻酔、麻酔法",
+    "de": "medizinische Ausschaltung oder Verminderung von Schmerzempfindung und Wahrnehmung, insbesondere bei Eingriffen"
+  },
+
+  "nuance": {
+    "ja": "手術や処置の際に、痛みや感覚を一時的に抑える医療行為・状態を広く表す。全身麻酔だけでなく、局所麻酔・区域麻酔なども含む上位概念。",
+    "de": "Bezeichnet allgemein die medizinisch herbeigeführte Ausschaltung oder Verminderung von Schmerzempfindung und anderen Wahrnehmungen. Der Begriff umfasst sowohl Allgemein- als auch Regional- und Lokalanästhesieverfahren."
+  },
+
+  "minimal": {
+    "ja": "Anästhesie＝局所麻酔・区域麻酔・全身麻酔などを含む『麻酔』全般／Narkose＝通常は意識を失わせる全身麻酔を指す／Lokalanästhesie＝身体の狭い範囲だけを麻酔する方法／Analgesie＝意識や他の感覚を必ずしも失わせず、痛みだけを軽減・消失させること",
+    "de": "Anästhesie = Oberbegriff für Verfahren zur Ausschaltung oder Verminderung von Schmerz und Wahrnehmung; Narkose = meist Allgemeinanästhesie mit Ausschaltung des Bewusstseins; Lokalanästhesie = örtliche Betäubung eines begrenzten Bereichs; Analgesie = gezielte Ausschaltung oder Linderung von Schmerz ohne notwendige Bewusstlosigkeit"
+  },
+
+  "equivalents": {
+    "en": ["anesthesia", "anaesthesia"],
+    "it": ["anestesia"],
+    "fr": ["anesthésie"],
+    "es": ["anestesia"]
+  },
+
+  "etymology": {
+    "ja": "ギリシャ語 anaisthēsía『無感覚』に由来する。an-（〜がない）＋ aisthēsis（感覚、知覚）からなり、文字どおり『感覚がないこと』を意味する。",
+    "de": "Das Wort geht auf griechisch „anaisthēsía“ („Empfindungslosigkeit“) zurück, gebildet aus „an-“ („ohne“) und „aisthēsis“ („Wahrnehmung, Empfindung“)."
+  },
+
+  "example": {
+    "ja": "手術は全身麻酔下で行われた。",
+    "de": "Die Operation wurde unter Allgemeinanästhesie durchgeführt."
+  },
+
+  "task": {
+    "ja": "「医師は患者に麻酔の種類について説明した。」を Anästhesie を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Anästhesie“ über die Aufklärung eines Patienten."
+  }
+},
+{
+  "id": "narkose",
+  "sid": "2026-00267",
+  "word": "Narkose",
+  "tags": ["noun", "medicine", "anesthesia", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "全身麻酔、麻酔による意識消失状態",
+    "de": "medizinisch herbeigeführter Zustand mit ausgeschaltetem Bewusstsein und verminderter Schmerzempfindung, meist bei Operationen"
+  },
+
+  "nuance": {
+    "ja": "通常、手術などのために薬剤で意識を失わせ、痛みや反射を抑えた状態を指す。日常語では『麻酔』一般のように使われることもあるが、医学的には Anästhesie より狭く、主に Allgemeinanästhesie を意味する。",
+    "de": "Bezeichnet meist einen durch Medikamente herbeigeführten Zustand der Bewusstlosigkeit mit ausgeschalteter oder stark verminderter Schmerzempfindung. Umgangssprachlich kann das Wort weiter gebraucht werden, medizinisch entspricht es in der Regel der Allgemeinanästhesie."
+  },
+
+  "minimal": {
+    "ja": "Anästhesie＝局所・区域・全身を含む麻酔全般の上位概念／Narkose＝通常、意識を失わせる全身麻酔／Sedierung＝意識を完全には失わせず、鎮静して不安や緊張を軽減すること／Analgesie＝意識とは別に、痛みを軽減・消失させること",
+    "de": "Anästhesie = Oberbegriff für örtliche, regionale und allgemeine Betäubungsverfahren; Narkose = meist Allgemeinanästhesie mit Ausschaltung des Bewusstseins; Sedierung = Beruhigung und Dämpfung des Bewusstseins ohne notwendige vollständige Bewusstlosigkeit; Analgesie = gezielte Linderung oder Ausschaltung von Schmerz"
+  },
+
+  "equivalents": {
+    "en": ["general anesthesia", "narcosis"],
+    "it": ["anestesia generale", "narcosi"],
+    "fr": ["anesthésie générale", "narcose"],
+    "es": ["anestesia general", "narcosis"]
+  },
+
+  "etymology": {
+    "ja": "ギリシャ語 nárkōsis『麻痺、感覚の鈍化』に由来し、さらに narkē『しびれ、麻痺』にさかのぼる。",
+    "de": "Das Wort geht auf griechisch „nárkōsis“ („Betäubung, Erstarrung“) zurück, das wiederum mit „narkē“ („Taubheit, Erstarrung“) zusammenhängt."
+  },
+
+  "example": {
+    "ja": "手術は全身麻酔で行われた。",
+    "de": "Die Operation wurde unter Narkose durchgeführt."
+  },
+
+  "task": {
+    "ja": "「患者は麻酔からゆっくり目を覚ました。」を Narkose を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Narkose“ über das Aufwachen eines Patienten."
+  }
+},
+{
+  "id": "sedierung",
+  "sid": "2026-00268",
+  "word": "Sedierung",
+  "tags": ["noun", "medicine", "anesthesia", "general"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+
+  "meaning": {
+    "ja": "鎮静、鎮静処置",
+    "de": "medikamentöse Beruhigung und Dämpfung von Bewusstsein, Angst oder Unruhe"
+  },
+
+  "nuance": {
+    "ja": "薬剤によって不安・緊張・興奮を抑え、意識レベルをある程度低下させることを表す。軽い鎮静から深い鎮静まで程度があり、必ずしも完全な意識消失を伴わない。",
+    "de": "Bezeichnet die medikamentöse Beruhigung und Dämpfung des Bewusstseins. Je nach Tiefe reicht sie von leichter Entspannung bis zu starker Bewusstseinsdämpfung, ohne zwingend eine vollständige Bewusstlosigkeit hervorzurufen."
+  },
+
+  "minimal": {
+    "ja": "Sedierung＝不安・緊張・意識レベルを薬で抑える鎮静処置／Narkose＝通常は完全な意識消失を伴う全身麻酔／Anästhesie＝局所・区域・全身を含む麻酔全般の上位概念／Analgesie＝主に痛みそのものを軽減・消失させること",
+    "de": "Sedierung = medikamentöse Beruhigung und Dämpfung des Bewusstseins ohne notwendige vollständige Bewusstlosigkeit; Narkose = meist Allgemeinanästhesie mit vollständiger Ausschaltung des Bewusstseins; Anästhesie = Oberbegriff für Verfahren zur Ausschaltung von Schmerz und Wahrnehmung; Analgesie = gezielte Linderung oder Ausschaltung von Schmerz"
+  },
+
+  "equivalents": {
+    "en": ["sedation"],
+    "it": ["sedazione"],
+    "fr": ["sédation"],
+    "es": ["sedación"]
+  },
+
+  "etymology": {
+    "ja": "ラテン語 sedare『静める、落ち着かせる』に由来する。そこから医学的に『薬剤で患者を鎮静させること』という意味になった。",
+    "de": "Das Wort geht auf lateinisch „sedare“ („beruhigen, besänftigen“) zurück. Daraus entwickelte sich die medizinische Bedeutung der medikamentösen Beruhigung eines Patienten."
+  },
+
+  "example": {
+    "ja": "検査は軽い鎮静下で行われた。",
+    "de": "Die Untersuchung wurde unter leichter Sedierung durchgeführt."
+  },
+
+  "task": {
+    "ja": "「患者は処置の前に軽い鎮静を受けた。」を Sedierung を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Sedierung“ über einen medizinischen Eingriff."
+  }
+},
+{
+  "id": "unterziehen",
+  "sid": "2026-00269",
+  "word": "unterziehen",
+  "tags": ["verb", "formal", "medicine", "general"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "（検査・治療・試験・手続きなどを）受ける、身を委ねる",
+    "de": "sich einer Prüfung, Behandlung, Untersuchung oder einem Verfahren aussetzen und es durchlaufen"
+  },
+
+  "nuance": {
+    "ja": "現代語では主に再帰形 sich einer Sache unterziehen として使われる。検査・手術・治療・試験・審査など、ある程度正式で負担を伴う手続きや処置を『受ける』ことを表す。単なる bekommen よりフォーマル。",
+    "de": "Das Verb wird heute vor allem reflexiv als „sich einer Sache unterziehen“ verwendet. Es bezeichnet das Durchlaufen einer meist formellen oder belastenden Prüfung, Behandlung, Untersuchung oder Prozedur."
+  },
+
+  "minimal": {
+    "ja": "sich einer Sache unterziehen＝検査・治療・試験など一定の負担を伴う正式な処置を受ける／etwas machen lassen＝何かをしてもらうという日常的な表現／durchlaufen＝過程・手続き・段階を一通り経ることに焦点を置く／sich einer Sache stellen＝課題・問題・試練などに正面から立ち向かう",
+    "de": "sich einer Sache unterziehen = eine meist formelle oder belastende Untersuchung, Behandlung oder Prüfung durchlaufen; etwas machen lassen = umgangssprachlich etwas von jemandem durchführen lassen; durchlaufen = einen Prozess oder mehrere Stufen vollständig absolvieren; sich einer Sache stellen = einer Aufgabe, einem Problem oder einer Herausforderung bewusst entgegentreten"
+  },
+
+  "equivalents": {
+    "en": ["undergo", "submit to"],
+    "it": ["sottoporsi a"],
+    "fr": ["se soumettre à", "subir"],
+    "es": ["someterse a"]
+  },
+
+  "etymology": {
+    "ja": "unter＋ziehen からなる古い複合動詞。『あるものの下に身を置く』という発想から、『一定の処置・試験・手続きに身を委ねる』という意味へ発展した。",
+    "de": "Historisch aus „unter“ und „ziehen“ gebildet. Aus der Vorstellung, sich unter etwas zu begeben, entwickelte sich die Bedeutung, sich einer Maßnahme, Prüfung oder Behandlung auszusetzen."
+  },
+
+  "example": {
+    "ja": "彼は詳しい健康診断を受けなければならなかった。",
+    "de": "Er musste sich einer gründlichen medizinischen Untersuchung unterziehen."
+  },
+
+  "task": {
+    "ja": "「彼女は来週手術を受ける予定だ。」を sich unterziehen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „sich einer Operation unterziehen“."
+  }
 }
 ]
