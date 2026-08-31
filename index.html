@@ -1,1227 +1,222 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#111111" />
-  <link rel="manifest" href="./manifest.webmanifest" />
-  <title>Deutsch Trainer (Private)</title>
-  <style>
-    :root {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, "Hiragino Sans", "Noto Sans JP", sans-serif;
-    }
-    body { margin: 0; background: #0b0b0b; color: #f2f2f2; }
-    header {
-      position: sticky; top: 0;
-      background: rgba(10,10,10,.92);
-      backdrop-filter: blur(10px);
-      border-bottom: 1px solid #222;
-      z-index: 10;
-    }
-    .wrap { max-width: 900px; margin: 0 auto; padding: 14px 14px 28px; }
-    .row { display:flex; align-items:center; justify-content:space-between; gap: 12px; }
-    h1 { font-size: 18px; margin: 0; letter-spacing: .2px; }
-    .btn {
-      background:#1b1b1b; border:1px solid #2a2a2a; color:#fff;
-      padding:8px 10px; border-radius:10px; font-size:14px;
-    }
-    .btn:active { transform: translateY(1px); }
-    .sub { color:#bdbdbd; font-size:13px; margin-top: 6px; }
-    .tabs { display:flex; gap:8px; margin-top: 10px; }
-    .tab { flex: 0 0 auto; }
-    .btn.primary { border-color:#3a3a3a; background:#222; }
-    .grid { display:grid; grid-template-columns: 1fr; gap: 12px; margin-top: 14px; }
-    .card { background:#121212; border:1px solid #222; border-radius:14px; padding: 12px 12px; }
-    .word {
-  font-size: 18px;
-  font-weight: 700;
-  margin: 0 0 6px;
-  white-space: normal;
-  overflow-wrap: anywhere;
-}
-.word-row { display:flex; align-items:center; gap:8px; }
-.chev { opacity:.65; font-size:16px; }
-.row.meta {
-  margin-bottom: 6px;
-}
-.right.meta {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end; /* 右寄せ */
-  gap: 4px;
-}
-.right.meta .mono {
-  font-size: 12px;
-}
-    .bm-btn {
-  background: none;
-  border: none;
-  color: #ffd700;
-  font-size: 18px;
-  padding: 4px 6px;
-  cursor: pointer;
-  align-self: flex-end;
-}
-.bm-btn:hover {
-  filter: brightness(1.2);
-}
+  <meta charset="utf-8">
 
-.bm-btn:focus-visible {
-  outline: 2px solid #ffd70055;
-  border-radius: 6px;
-}
-.bm-btn:active {
-  transform: scale(0.9);
-}
-    .pill {
-      display:inline-block; font-size:12px; padding:3px 8px;
-      border:1px solid #2a2a2a; border-radius:999px; color:#cfcfcf; margin-right:6px;
-    }
-    .label { color:#9a9a9a; font-size:12px; margin-top:10px; }
-    .txt {
-  margin: 4px 0 0;
-  white-space: pre-wrap;
-  line-height: 1.5;
-}
-ul.txt { 
-  white-space: normal;   /* ul 全体の改行・インデントを無効化 */
-}
-ul.txt li {
-  white-space: pre-wrap; /* li の中身だけ改行保持 */
-}
-    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
-    .actions { display:flex; gap:8px; margin-top: 10px; flex-wrap: wrap; }
-    .score { display:flex; gap:8px; margin-top: 10px; }
-    .score .btn { flex: 1 1 0; padding: 10px 10px; }
-    .muted { color:#8e8e8e; font-size:12px; }
-    footer { margin-top: 18px; color:#8e8e8e; font-size:12px; }
-    a { color:#9bd; }
-    .count { color:#cfcfcf; font-size:13px; }
-mark.hl {
-  background: rgba(255, 215, 0, .22);
-  color: inherit;
-  padding: 0 .12em;
-  border-radius: .25em;
-}
-/* ===== Other-language equivalents ===== */
-.equivalents {
-  margin-top: 10px;
-}
+  <meta
+    name="viewport"
+    content="width=device-width,initial-scale=1,viewport-fit=cover"
+  >
 
-.equiv-list {
-  margin-top: 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
+  <meta
+    name="theme-color"
+    content="#176b5b"
+  >
 
-.equiv-row {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  line-height: 1.5;
-}
+  <title>Italiano Trainer</title>
 
-.equiv-lang {
-  flex: 0 0 28px;
-  color: #8e8e8e;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .4px;
-}
+  <link
+    rel="manifest"
+    href="manifest.webmanifest"
+  >
 
-.equiv-words {
-  min-width: 0;
-  color: #f2f2f2;
-  font-size: 14px;
-}
-    /* ===== Error box ===== */
-    .error {
-      background: #2a0f0f;
-      border: 1px solid #5a1a1a;
-      color: #ffd6d6;
-      padding: 12px;
-      border-radius: 12px;
-      margin-bottom: 14px;
-      font-size: 14px;
-      line-height: 1.5;
-    }
-    .error.hidden { display: none; }
-    .error .err-actions {
-      margin-top: 10px;
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-    }
-    .error .err-btn {
-      background: #1b1b1b;
-      border: 1px solid #5a1a1a;
-      color: #ffd6d6;
-      padding: 8px 10px;
-      border-radius: 10px;
-      font-size: 14px;
-    }
-    .error .err-btn:active { transform: translateY(1px); }
-  </style>
+  <link
+    rel="icon"
+    href="icon.svg"
+  >
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
 </head>
 
 <body>
-<header>
-  <div class="wrap">
-    <div class="row">
-      <div>
-        <h1 id="appTitle">Deutsch Trainer</h1>
-        <div class="sub" id="appSub">個人用 / PWA / JP⇄DE切替</div>
+  <header class="topbar">
+    <div class="brand">
+      <span class="flag">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+
+      <span>
+        <b>Italiano</b> Trainer
+      </span>
+    </div>
+
+    <div class="header-actions">
+      <button
+        id="langBtn"
+        class="pill"
+        type="button"
+      >
+        JA
+      </button>
+
+      <button
+        id="themeBtn"
+        class="icon-btn"
+        type="button"
+        aria-label="配色を切り替える"
+      >
+        ◐
+      </button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="intro">
+      <p class="eyebrow">
+        IL TUO LESSICO, UN PO’ ALLA VOLTA
+      </p>
+
+      <h1>
+        言葉の輪郭まで、<br>
+        <em>一枚で。</em>
+      </h1>
+
+      <p id="introText">
+        意味だけでなく、語感・語源・結びつき・活用まで。使えるイタリア語を静かに積み上げます。
+      </p>
+    </section>
+
+    <section class="controls">
+      <nav
+        class="tabs"
+        aria-label="表示モード"
+      >
+        <button
+          class="tab active"
+          data-mode="today"
+          type="button"
+        >
+          <b
+            class="tab-label"
+            id="todayLabel"
+          >
+            Today
+          </b>
+
+          <span
+            class="tab-count"
+            id="todayCount"
+          >
+            0
+          </span>
+        </button>
+
+        <button
+          class="tab"
+          data-mode="dictionary"
+          type="button"
+        >
+          <b
+            class="tab-label"
+            id="dictionaryLabel"
+          >
+            Dictionary
+          </b>
+
+          <span
+            class="tab-count"
+            id="dictionaryCount"
+          >
+            0
+          </span>
+        </button>
+
+        <button
+          class="tab"
+          data-mode="bookmarks"
+          type="button"
+        >
+          ★
+
+          <b
+            class="tab-label"
+            id="bookmarkLabel"
+          >
+            ブックマーク
+          </b>
+
+          <span
+            class="tab-count"
+            id="bookmarkCount"
+          >
+            0
+          </span>
+        </button>
+      </nav>
+
+      <div class="tools">
+        <label class="search">
+          <span>⌕</span>
+
+          <input
+            id="searchInput"
+            type="search"
+            placeholder="単語・意味・例文を検索"
+          >
+        </label>
+
+        <button
+          id="shuffleBtn"
+          class="tool-btn"
+          type="button"
+        >
+          ↝
+          <span>Shuffle</span>
+        </button>
       </div>
-      <button class="btn" id="langBtn" aria-label="toggle language">JP</button>
+    </section>
+
+    <section
+      id="filterPanel"
+      class="filter-panel"
+      aria-label="辞書フィルター"
+      hidden
+    >
+      <div
+        id="levelFilters"
+        class="filter-row"
+      ></div>
+
+      <div
+        id="posFilters"
+        class="filter-row"
+      ></div>
+    </section>
+
+    <div
+      id="status"
+      class="status"
+      aria-live="polite"
+    ></div>
+
+    <section
+      id="cards"
+      class="cards"
+    ></section>
+  </main>
+
+  <template id="emptyTemplate">
+    <div class="empty">
+      <div>◇</div>
+
+      <h2>
+        該当する単語がありません
+      </h2>
+
+      <p>
+        検索条件またはフィルターを変更してください。
+      </p>
     </div>
-
-    <div class="tabs">
-      <button class="btn tab primary" id="tabToday"></button>
-      <button class="btn tab" id="tabReview"></button>
-      <span style="flex:1"></span>
-      <button class="btn" id="bmToggleBtn" title="ブックマークで絞り込み">☆</button>
-      <button class="btn" id="shuffleBtn">↻</button>
-    </div>
-<div class="row" style="margin-top:10px">
-  <input
-    id="q"
-    class="btn"
-    style="flex:1; text-align:left"
-    placeholder="検索（例: Beleg / 証拠 / Inventur）"
-  />
-  <button class="btn" id="clearBtn">✕</button>
-</div>
-    <div class="row" style="margin-top:10px">
-      <div class="sub" id="screenTitle"></div>
-      <div class="count" id="screenCount"></div>
-    </div>
-  </div>
-</header>
-
-<main class="wrap">
-  <!-- Error -->
-  <div id="errorBox" class="error hidden"></div>
-
-  <!-- Cards -->
-  <div id="list" class="grid" aria-live="polite"></div>
-
-  <footer>
-    <div class="muted">Tip: iPhone Safari → 共有 → <span class="mono">ホーム画面に追加</span></div>
-  </footer>
-</main>
-
-<script>
-  // =========================
-  // Utilities
-  // =========================
-function isStr(x) { return typeof x === "string"; }
-function nonEmptyStr(x) { return isStr(x) && x.trim().length > 0; }
-
-function isTextBlock(x) {
-  if (x === undefined || x === null) return true;
-  if (isStr(x)) return true;
-  if (Array.isArray(x)) return x.every(isStr);
-  return false;
-}
-
-function isLangObj(x) {
-  if (x === undefined || x === null) return true;
-  if (typeof x !== "object" || Array.isArray(x)) return false;
-  if ("ja" in x && !isTextBlock(x.ja)) return false;
-  if ("de" in x && !isTextBlock(x.de)) return false;
-  return true;
-}
-
-function validateCards(data) {
-  const errors = [];
-
-  if (!Array.isArray(data)) {
-    return { ok: false, errors: ["cards.json is not an array"] };
-  }
-
-  const seenId = new Map();   // id  -> index(first)
-  const seenSid = new Map();  // sid -> index(first)
-  const sidRe = /^\d{4}-\d{5}$/;
-
-  data.forEach((c, i) => {
-    const prefix = `#${i + 1}`;
-
-    if (!c || typeof c !== "object" || Array.isArray(c)) {
-      errors.push(`${prefix}: card is not an object`);
-      return;
-    }
-
-    // required: id, sid, word
-    if (!nonEmptyStr(c.id)) errors.push(`${prefix}: id is missing/empty`);
-    if (!nonEmptyStr(c.sid)) errors.push(`${prefix}: sid is missing/empty`);
-    if (!nonEmptyStr(c.word)) errors.push(`${prefix}: word is missing/empty`);
-
-    // sid format
-    if (nonEmptyStr(c.sid) && !sidRe.test(c.sid)) {
-      errors.push(`${prefix} (${c.id || "no-id"}): sid must match YYYY-00000 (e.g. 2026-00001)`);
-    }
-
-    // duplicate id
-    if (nonEmptyStr(c.id)) {
-      if (seenId.has(c.id)) {
-        const j = seenId.get(c.id);
-        errors.push(`${prefix}: duplicate id "${c.id}" (also at #${j + 1})`);
-      } else {
-        seenId.set(c.id, i);
-      }
-    }
-
-    // duplicate sid
-    if (nonEmptyStr(c.sid)) {
-      if (seenSid.has(c.sid)) {
-        const j = seenSid.get(c.sid);
-        errors.push(`${prefix}: duplicate sid "${c.sid}" (also at #${j + 1})`);
-      } else {
-        seenSid.set(c.sid, i);
-      }
-    }
-
-    // optional: tags
-    if (c.tags !== undefined) {
-      if (!Array.isArray(c.tags) || !c.tags.every(nonEmptyStr)) {
-        errors.push(`${prefix} (${c.id || "no-id"}): tags must be string[]`);
-      }
-    }
-
-    // optional: grammar
-    if (c.grammar !== undefined) {
-      if (!c.grammar || typeof c.grammar !== "object" || Array.isArray(c.grammar)) {
-        errors.push(`${prefix} (${c.id || "no-id"}): grammar must be an object`);
-      } else if (c.grammar.pos !== undefined) {
-        const okPos = [
-           "noun",
-           "verb",
-           "adj",
-           "adv",
-           "prep",
-           "conj",
-           "pron",
-           "particle",
-           "interj",
-           "phrase",
-          "idiom"
-       ];
-        if (!okPos.includes(c.grammar.pos)) {
-          errors.push(`${prefix} (${c.id || "no-id"}): grammar.pos must be one of ${okPos.join(", ")}`);
-        }
-      }
-    }
-
-    // language blocks
-    const blocks = ["meaning", "nuance", "minimal", "etymology", "example", "task"];
-    for (const k of blocks) {
-      if (!isLangObj(c[k])) {
-        errors.push(`${prefix} (${c.id || "no-id"}): ${k} must be {ja,de} with string or string[]`);
-      }
-    }
-    // optional: equivalents
-
-if (c.equivalents !== undefined) {
-
-  if (
-
-    !c.equivalents ||
-
-    typeof c.equivalents !== "object" ||
-
-    Array.isArray(c.equivalents)
-
-  ) {
-
-    errors.push(
-
-      `${prefix} (${c.id || "no-id"}): equivalents must be an object`
-
-    );
-
-  } else {
-
-    for (const [lang, words] of Object.entries(c.equivalents)) {
-
-      if (!/^[a-z]{2,3}$/i.test(lang)) {
-
-        errors.push(
-
-          `${prefix} (${c.id || "no-id"}): invalid equivalents language code "${lang}"`
-
-        );
-
-      }
-
-      if (!isTextBlock(words)) {
-
-        errors.push(
-
-          `${prefix} (${c.id || "no-id"}): equivalents.${lang} must be string or string[]`
-
-        );
-
-      }
-
-    }
-
-  }
-
-}
-  });
-
-  return { ok: errors.length === 0, errors };
-}
-
-  function normalizeText(v) {
-    // string | array | undefined -> array of non-empty strings
-    if (Array.isArray(v)) return v.map(x => (typeof x === "string" ? x.trim() : "")).filter(Boolean);
-    if (typeof v === "string") {
-      const s = v.trim();
-      return s ? [s] : [];
-    }
-    return [];
-  }
-
-  function escapeHtml(s) {
-    return String(s)
-      .replaceAll("&", "&amp;")
-      .replaceAll("<", "&lt;")
-      .replaceAll(">", "&gt;")
-      .replaceAll('"', "&quot;")
-      .replaceAll("'", "&#039;");
-  }
-function escapeRegExp(s) {
-  return String(s).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-function highlightIfNeeded(text) {
-  const q = (QUERY || "").trim();
-  if (q.length < 2) return escapeHtml(text);
-
-  const re = new RegExp(escapeRegExp(q), "ig");
-
-  // ① 一時マーカーを仕込む（開始・終了を分ける）
-  let s = String(text).replace(
-    re,
-    m => `__HL_O__${m}__HL_C__`
-  );
-
-  // ② 全体を escape
-  s = escapeHtml(s);
-
-  // ③ マーカーを <mark> に戻す
-  s = s
-    .replaceAll("__HL_O__", '<mark class="hl">')
-    .replaceAll("__HL_C__", "</mark>");
-
-  return s;
-}
-  function renderTextBlock(label, lines, className = "txt") {
-    if (!lines || lines.length === 0) return "";
-
-    if (lines.length === 1) {
-      return `
-        <div class="label">${escapeHtml(label)}</div>
-        <p class="${className}">${highlightIfNeeded(lines[0])}</p>
-      `;
-    }
-
-    return `<div class="label">${escapeHtml(label)}</div><ul class="${className}" style="margin:6px 0 0; padding-left:18px; line-height:1.5;">${lines.map(x => `<li>${highlightIfNeeded(x)}</li>`).join("")}</ul>`;
-  }
-
-  function renderPills(pills) {
-    const ok = pills.map(x => (typeof x === "string" ? x.trim() : "")).filter(Boolean);
-    if (!ok.length) return "";
-    return ok.map(x => `<span class="pill">${escapeHtml(x)}</span>`).join("");
-  }
-function renderEquivalents(eq) {
-  if (!eq || typeof eq !== "object" || Array.isArray(eq)) return "";
-
-  const langLabels = {
-    en: "EN",
-    it: "IT",
-    fr: "FR",
-    es: "ES",
-    pt: "PT",
-    nl: "NL",
-    sv: "SV",
-    da: "DA",
-    no: "NO",
-    pl: "PL",
-    ru: "RU",
-    la: "LA"
-  };
-
-  const rows = Object.entries(eq)
-    .map(([lang, value]) => {
-      const words = normalizeText(value);
-      if (!words.length) return "";
-
-      const label = langLabels[lang.toLowerCase()] || lang.toUpperCase();
-
-      return `
-        <div class="equiv-row">
-          <span class="equiv-lang">${escapeHtml(label)}</span>
-          <span class="equiv-words">${words.map(highlightIfNeeded).join(" / ")}</span>
-        </div>
-      `;
-    })
-    .filter(Boolean)
-    .join("");
-
-  if (!rows) return "";
-
-  return `
-    <div class="equivalents">
-      <div class="label">${escapeHtml(t("equivalents"))}</div>
-      <div class="equiv-list">
-        ${rows}
-      </div>
-    </div>
-  `;
-}
-  // =========================
-  // Error overlay
-  // =========================
-  function showError(msg) {
-    const box = document.getElementById("errorBox");
-    if (!box) return;
-
-    const htmlMsg = escapeHtml(msg).replaceAll("\n", "<br>");
-    box.innerHTML = `
-      <div>${htmlMsg}</div>
-      <div class="err-actions">
-        <button class="err-btn" id="reloadBtn">再読み込み</button>
-      </div>
-    `;
-    box.classList.remove("hidden");
-
-    const btn = document.getElementById("reloadBtn");
-    if (btn) btn.onclick = () => location.reload();
-  }
-
-  function hideError() {
-    const box = document.getElementById("errorBox");
-    if (!box) return;
-    box.classList.add("hidden");
-    box.innerHTML = "";
-  }
-
-  // =========================
-  // i18n (UI)
-  // =========================
-  const UI = {
-    ja: {
-      title: "Deutsch Trainer",
-      sub: "個人用 / PWA / JP⇄DE切替",
-      tabToday: "Today",
-      tabReview: "Review",
-      today: "今日の5語",
-      searchResult: "検索結果",
-      noHit: "該当なし。検索語を変えてみてください。",
-      noReview: "OK。いま復習はありません。",
-      review: "復習（期限到来）",
-      shuffle: "シャッフル",
-      meaning: "意味（核心）",
-      nuance: "語感・ニュアンス",
-      minimal: "最小対立（近い語との違い）",
-      etymology: "語源",
-      equivalents: "他言語相当語",
-      example: "例文",
-      task: "産出課題",
-      due: "復習期限",
-      score: "自己採点",
-      good: "覚えた",
-      ok: "微妙",
-      bad: "ダメ",
-      done: "記録しました",
-      tags: { abs: "抽象", exam: "試験", coll: "コロケ" }
-    },
-    de: {
-      title: "Deutsch Trainer",
-      sub: "Privat / PWA / Umschalten JP⇄DE",
-      tabToday: "Today",
-      tabReview: "Review",
-      searchResult: "Suchergebnis",
-      noHit: "Keine Treffer. Bitte ändere den Suchbegriff.",
-      noReview: "OK. Im Moment gibt es nichts zum Wiederholen.",
-      today: "Heutige 5 Wörter",
-      review: "Wiederholen (fällig)",
-      shuffle: "Mischen",
-      meaning: "Kernbedeutung",
-      nuance: "Nuance / Gebrauch",
-      minimal: "Minimalpaar (Abgrenzung)",
-      equivalents: "Entsprechungen in anderen Sprachen",
-      etymology: "Etymologie",
-      example: "Beispiel",
-      task: "Output-Aufgabe",
-      due: "Fällig am",
-      score: "Selbsteinschätzung",
-      good: "Gewusst",
-      ok: "So lala",
-      bad: "Falsch",
-      done: "Gespeichert",
-      tags: { abs: "abstrakt", exam: "Prüfung", coll: "Kollok." }
-    }
-  };
-
-  function getLang() { return localStorage.getItem("dt_lang") || "ja"; }
-  function setLang(lang) { localStorage.setItem("dt_lang", lang); }
-
-  function getView() { return localStorage.getItem("dt_view") || "today"; }
-  function setView(v) { localStorage.setItem("dt_view", v); }
-
-  function t(key) {
-    const lang = getLang();
-    return UI[lang][key] ?? key;
-  }
-
-  function tagLabel(tag) {
-    const lang = getLang();
-    return UI[lang].tags[tag] || tag;
-  }
-
-  // =========================
-  // Cards: load from JSON
-  // =========================
-  let CARDS = [];
-
-  async function loadCards() {
-    try {
-      // ここを更新するだけで cards.json の更新が反映されやすい
-      const CARDS_VERSION = "2026-07-17";
-
-      const res = await fetch(`./cards.json?v=${encodeURIComponent(CARDS_VERSION)}`, {
-        cache: "no-store"
-      });
-
-      if (!res.ok) throw new Error(`HTTP error ${res.status}`);
-
-const data = await res.json();
-
-const v = validateCards(data);
-if (!v.ok) {
-  CARDS = [];
-  showError(
-    "cards.json に問題があります:\n" +
-    v.errors.map(e => "・" + e).join("\n")
-  );
-  return;
-}
-      CARDS = data;
-      hideError();
-    } catch (err) {
-      console.error("cards.json の読み込みに失敗:", err);
-      CARDS = [];
-      showError(
-        "単語データの読み込みに失敗しました。\n" +
-        "・cards.json が存在するか\n" +
-        "・JSON の文法エラーがないか\n" +
-        "・GitHub Pages の反映待ち/キャッシュが残っていないか\n" +
-        "を確認してください。"
-      );
-    }
-  }
-// =========================
-// Hash (open card)
-// =========================
-function getOpenIdFromHash() {
-  const h = (location.hash || "").replace(/^#/, "");
-  if (!h) return "";
-  const params = new URLSearchParams(h);
-  const id = params.get("id");
-  return nonEmptyStr(id) ? id : "";
-}
-
-function setOpenIdToHash(id) {
-  if (!nonEmptyStr(id)) {
-    history.replaceState(null, "", location.pathname + location.search);
-    return;
-  }
-  const params = new URLSearchParams();
-  params.set("id", id);
-  location.hash = params.toString(); // => #id=...
-}
-
-function clearOpenIdHashIfMatches(id) {
-  if (getOpenIdFromHash() === id) setOpenIdToHash("");
-}
-// =========================
-// Bookmark
-// =========================
-const bmToggleBtn = document.getElementById("bmToggleBtn");
-const LS_BM = "dt_bookmarks"; // string[] of ids
-
-function loadBookmarks() {
-  try {
-    const a = JSON.parse(localStorage.getItem(LS_BM) || "[]");
-    return Array.isArray(a) ? a.filter(nonEmptyStr) : [];
-  } catch {
-    return [];
-  }
-}
-
-function countAllBookmarks() {
-  return loadBookmarks().length;
-}
-
-function getBmOnly() {
-  return localStorage.getItem("dt_bm_only") === "1";
-}
-
-function setBmOnly(v) {
-  localStorage.setItem("dt_bm_only", v ? "1" : "0");
-}
-
-function syncBmToggleUi(visibleCount) {
-  const on = getBmOnly();
-  const total = countAllBookmarks();
-  bmToggleBtn.textContent = on
-    ? `★ ${visibleCount ?? total}/${total}`
-    : `☆ ${total}`;
-}
-
-function saveBookmarks(ids) {
-  localStorage.setItem(LS_BM, JSON.stringify(ids));
-}
-
-function hasBookmark(id) {
-  if (!nonEmptyStr(id)) return false;
-  return loadBookmarks().includes(id);
-}
-
-function toggleBookmark(id) {
-  const ids = loadBookmarks();
-  const idx = ids.indexOf(id);
-  if (idx >= 0) ids.splice(idx, 1);
-  else ids.push(id);
-  saveBookmarks(ids);
-  return ids.includes(id);
-}
-// =========================
-// Search
-// =========================
-let QUERY = "";
-
-function setQuery(v) {
-  QUERY = (v || "").trim();
-}
-
-function toArr(v) {
-  if (Array.isArray(v)) return v;
-  if (typeof v === "string") return [v];
-  return [];
-}
-
-function valuesFlat(obj) {
-  return Object.values(obj || {}).flatMap(toArr);
-}
-
-function filterCardsByQuery(cards) {
-  if (!QUERY) return cards;
-
-  return cards.filter(c => {
-    const hay = [
-      c.word,
-      c.level,
-      c.freq,
-      ...(c.tags || []),
-      ...valuesFlat(c.meaning),
-      ...valuesFlat(c.nuance),
-      ...valuesFlat(c.minimal),
-      ...valuesFlat(c.equivalents),
-      ...valuesFlat(c.etymology),
-      ...valuesFlat(c.example),
-      ...valuesFlat(c.task),
-    ]
-      .filter(Boolean)
-      .join(" ")
-      .toLowerCase();
-
-    return hay.includes(QUERY.toLowerCase());
-  });
-}
-  // =========================
-  // Seed shuffle (today)
-  // =========================
-  function todayKeyDate() {
-    const d = new Date();
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, "0");
-    const day = String(d.getDate()).padStart(2, "0");
-    return `${y}${m}${day}`;
-  }
-
-  function getSeed() {
-    let s = localStorage.getItem("dt_seed");
-    if (!s) {
-      s = Number(todayKeyDate());
-      localStorage.setItem("dt_seed", String(s));
-    }
-    return Number(s);
-  }
-
-  function rotateSeed() {
-    const s = Math.floor(Math.random() * 1e9);
-    localStorage.setItem("dt_seed", String(s));
-  }
-
-  function seedShuffle(arr, seed) {
-    let a = arr.slice();
-    let x = seed;
-    for (let i = a.length - 1; i > 0; i--) {
-      x = (x * 1664525 + 1013904223) % 4294967296;
-      const j = x % (i + 1);
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-  }
-// ===== SRS Reset (one-time) =====
-// cards.json のID体系を変更したら、この値を変える
-const SRS_SCHEMA_VERSION = "20260717";
-
-(function resetSrsIfNeeded() {
-  const k = "dt_srs_schema";
-  const prev = localStorage.getItem(k);
-  if (prev !== SRS_SCHEMA_VERSION) {
-    localStorage.removeItem("dt_srs_state"); // 復習履歴リセット
-    localStorage.setItem(k, SRS_SCHEMA_VERSION);
-  }
-})();
-// NOTE:
-// - cards.json の id 体系変更時
-// - SRS データ構造変更時
-// は SRS_SCHEMA_VERSION を更新すること
-  // =========================
-  // SRS
-  // =========================
-  const LS_SRS = "dt_srs_state";
-
-  function startOfTodayMs() {
-    const d = new Date();
-    d.setHours(0, 0, 0, 0);
-    return d.getTime();
-  }
-
-  function fmtDate(ms) {
-    const d = new Date(ms);
-    const y = d.getFullYear();
-    const m = String(d.getMonth() + 1).padStart(2, "0");
-    const day = String(d.getDate()).padStart(2, "0");
-    return `${y}-${m}-${day}`;
-  }
-
-  function loadSrs() {
-    try { return JSON.parse(localStorage.getItem(LS_SRS) || "{}"); }
-    catch { return {}; }
-  }
-
-  function saveSrs(state) {
-    localStorage.setItem(LS_SRS, JSON.stringify(state));
-  }
-
-  function ensureCardState(state, id) {
-    if (!state[id]) {
-      state[id] = { intervalDays: 1, dueMs: startOfTodayMs() };
-    }
-    return state[id];
-  }
-
-  function applyScore(id, score) {
-    const state = loadSrs();
-    const s = ensureCardState(state, id);
-    const today = startOfTodayMs();
-
-    if (score === "good") {
-      const next = Math.max(2, Math.round(s.intervalDays * 2.2));
-      s.intervalDays = next;
-      s.dueMs = today + next * 86400000;
-    } else if (score === "ok") {
-      const next = Math.max(1, Math.round(s.intervalDays * 1.3));
-      s.intervalDays = next;
-      s.dueMs = today + next * 86400000;
-    } else {
-      s.intervalDays = 1;
-      s.dueMs = today;
-    }
-
-    state[id] = s;
-    saveSrs(state);
-  }
-
-  function getDueCards() {
-    const state = loadSrs();
-    const today = startOfTodayMs();
-    const due = [];
-    for (const c of CARDS) {
-      if (!c || !c.id) continue;
-      const s = ensureCardState(state, c.id);
-      if (s.dueMs <= today) due.push(c);
-    }
-    saveSrs(state);
-    return due;
-  }
-
-  function getCardDueMs(id) {
-    const state = loadSrs();
-    const s = ensureCardState(state, id);
-    saveSrs(state);
-    return s.dueMs;
-  }
-
-  // =========================
-  // Grammar / labels
-  // =========================
-  function formatPosLabel(pos) {
-  if (!pos) return "";
-
-  const map = {
-    noun: "N",
-    verb: "V",
-    adj: "Adj",
-    adv: "Adv",
-    prep: "Prep",
-    conj: "Conj",
-    pron: "Pron",
-    particle: "Partikel",
-    interj: "Interj",
-    phrase: "Phrase",
-    idiom: "Redewendung"
-  };
-
-  return map[pos] || String(pos);
-}
-
-function formatFreqLabel(freq) {
-  const lang = getLang();
-
-  const mapJa = { often: "頻出", sometimes: "たまに", rare: "稀" };
-  const mapDe = { often: "häufig", sometimes: "gelegentlich", rare: "selten" };
-
-  const map = (lang === "de") ? mapDe : mapJa;
-  return map[freq] || String(freq || "");
-}
-  function formatGrammarLine(g) {
-    if (!g || !g.pos) return "";
-    const pos = g.pos;
-
-    if (pos === "noun") {
-const a = nonEmptyStr(g.article) ? g.article : "";
-const pl = nonEmptyStr(g.plural)
-  ? `Pl.: ${g.plural}`
-  : (g.plural === "" ? "Pl.: —" : "");
-      return [a, pl].filter(Boolean).join(" / ");
-    }
-
-    if (pos === "verb") {
-const pr = nonEmptyStr(g.praeteritum) ? `Prät.: ${g.praeteritum}` : "";
-const pf = nonEmptyStr(g.perfekt) ? `Perf.: ${g.perfekt}` : "";
-return [pr, pf].filter(Boolean).join(" / ");
-    }
-
-    if (pos === "adj") return "Adj.";
-    if (pos === "adv") return "Adv.";
-
-    return String(pos);
-  }
-
-  // =========================
-  // Render
-  // =========================
-function setScreenCount(visible) {
-  const lang = getLang();
-  const view = getView();
-
-  const total = Array.isArray(CARDS) ? CARDS.length : 0;
-  const v = Math.max(0, Number(visible) || 0);
-  const bm = countAllBookmarks(); // ← 追加
-
-  // タイトル（左側）
-  const titleEl = document.getElementById("screenTitle");
-  if (titleEl) {
-    if (QUERY) {
-      titleEl.textContent = UI[lang].searchResult;
-    } else {
-      titleEl.textContent = (view === "review") ? UI[lang].review : UI[lang].today;
-    }
-  }
-
-  // カウント（右側）
-  const countEl = document.getElementById("screenCount");
-  if (countEl) {
-    countEl.textContent = total
-      ? `${v} / ${total}${bm ? `（★${bm}）` : ""}`
-      : "";
-  }
-}
-  function renderCard(c, mode, openId) {
-    const lang = getLang();
-    const dueMs = getCardDueMs(c.id);
-    const starred = hasBookmark(c.id);
-  const starChar = starred ? "★" : "☆";
-const bmOnly = getBmOnly();
-const isOpen = bmOnly && openId === c.id;
-const showDetails = !bmOnly || isOpen;
-    const g = c.grammar || {};
-    const posLabel = formatPosLabel(g.pos);
-    const grammarLine = formatGrammarLine(g);
-
-    // Pills: pos + level + freq + tags
-    const pillTexts = [];
-    if (posLabel) pillTexts.push(posLabel);
-if (nonEmptyStr(c.level)) pillTexts.push(c.level);
-if (nonEmptyStr(c.freq)) pillTexts.push(formatFreqLabel(c.freq));
-    if (Array.isArray(c.tags)) {
-      for (const x of c.tags) pillTexts.push(tagLabel(x));
-    }
-
-    const meaningLines = normalizeText(c.meaning?.[lang]);
-    const nuanceLines = normalizeText(c.nuance?.[lang]);
-    const minimalLines = normalizeText(c.minimal?.[lang]);
-    const etyLines = normalizeText(c.etymology?.[lang]);
-    const exampleLines = normalizeText(c.example?.[lang]);
-    const taskLines = normalizeText(c.task?.[lang]);
-
-    const el = document.createElement("section");
-el.className = "card";
-
-el.innerHTML = `
-  <div class="row" style="align-items:flex-start">
-    <!-- LEFT -->
-    <div style="min-width:0; flex:1">
-      <div class="word word-row">
-        <span>${highlightIfNeeded(c.word || "")}</span>
-        ${bmOnly ? `<span class="chev">${isOpen ? "▾" : "▸"}</span>` : ``}
-      </div>
-
-      <div>${renderPills(pillTexts)}</div>
-      ${grammarLine ? `<div class="muted" style="margin-top:6px">${escapeHtml(grammarLine)}</div>` : ""}
-    </div>
-
-    <!-- RIGHT -->
-    <div class="right meta">
-      <div class="muted due">
-        ${escapeHtml(t("due"))}: <span class="mono">${fmtDate(dueMs)}</span>
-      </div>
-
-      <button class="bm-btn" data-bm="1" aria-label="bookmark">${starChar}</button>
-
-      <div class="muted mono sid">${escapeHtml(c.sid || "")}</div>
-    </div>
-  </div>
-
-  ${showDetails ? `
-    ${renderTextBlock(t("meaning"), meaningLines, "txt")}
-    ${renderTextBlock(t("nuance"), nuanceLines, "txt")}
-    ${renderTextBlock(t("minimal"), minimalLines, "txt")}
-    ${renderEquivalents(c.equivalents)}
-    ${renderTextBlock(t("etymology"), etyLines, "txt")}
-    ${renderTextBlock(t("example"), exampleLines, "txt mono")}
-    ${renderTextBlock(t("task"), taskLines, "txt")}
-  ` : ``}
-
-  ${mode === "review" ? `
-    <div class="label">${escapeHtml(t("score"))}</div>
-    <div class="score">
-      <button class="btn" data-score="bad">${escapeHtml(t("bad"))}</button>
-      <button class="btn" data-score="ok">${escapeHtml(t("ok"))}</button>
-      <button class="btn" data-score="good">${escapeHtml(t("good"))}</button>
-    </div>
-    <div class="muted" style="margin-top:8px" data-status=""></div>
-  ` : (showDetails ? `
-    <div class="muted" style="margin-top:10px">
-      ${escapeHtml(t("score"))}:
-      ${escapeHtml(t("bad"))} /
-      ${escapeHtml(t("ok"))} /
-      ${escapeHtml(t("good"))}
-      はReviewで
-    </div>
-  ` : ``)}
-`;
-
-if (mode === "review") {
-  const statusEl = el.querySelector('[data-status]');
-  el.querySelectorAll("button[data-score]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const score = btn.getAttribute("data-score");
-      applyScore(c.id, score);
-      statusEl.textContent = t("done") + ` → ${t("due")}: ${fmtDate(getCardDueMs(c.id))}`;
-      setTimeout(() => { el.remove(); updateCountAfterRemove(); }, 250);
-    });
-  });
-}
-
-const bmBtn = el.querySelector(".bm-btn");
-if (bmBtn) {
-  bmBtn.addEventListener("click", () => {
-    const nowStarred = toggleBookmark(c.id);
-    bmBtn.textContent = nowStarred ? "★" : "☆";
-    syncBmToggleUi();
-    if (getBmOnly()) render();
-  });
-}
-
-const wordEl = el.querySelector(".word");
-if (wordEl) {
-  wordEl.style.cursor = "pointer";
-  wordEl.addEventListener("click", () => {
-    const bmOnlyNow = getBmOnly();
-    if (!bmOnlyNow) return;
-
-    const openIdNow = getOpenIdFromHash();
-    if (openIdNow === c.id) setOpenIdToHash("");
-    else setOpenIdToHash(c.id);
-    render();
-  });
-}
-
-return el;
-  }
-
-  function updateCountAfterRemove() {
-    const list = document.getElementById("list");
-    const left = list.querySelectorAll(".card").length;
-    setScreenCount(left);
-    if (!left && getView() === "review") {
-      list.innerHTML = `<div class="muted">${escapeHtml(t("noReview"))}</div>`;
-    }
-  }
-
-function render() {
-  const lang = getLang();
-  const openId = getOpenIdFromHash();
-  document.documentElement.lang = (lang === "ja" ? "ja" : "de");
-
-  // Header texts
-  document.getElementById("appTitle").textContent = UI[lang].title;
-  document.getElementById("appSub").textContent = UI[lang].sub;
-  document.getElementById("langBtn").textContent = (lang === "ja" ? "JP" : "DE");
-  document.getElementById("shuffleBtn").textContent = "↻ " + UI[lang].shuffle;
-
-  // Tabs
-  const view = getView();
-  const tabToday = document.getElementById("tabToday");
-  const tabReview = document.getElementById("tabReview");
-  tabToday.textContent = UI[lang].tabToday;
-  tabReview.textContent = UI[lang].tabReview;
-  tabToday.classList.toggle("primary", view === "today");
-  tabReview.classList.toggle("primary", view === "review");
-
-  const list = document.getElementById("list");
-  list.innerHTML = "";
-
-if (view === "today") {
-
-const seed = getSeed();
-const base = filterCardsByQuery(CARDS);
-const bmOnly = getBmOnly();
-const base2 = bmOnly ? base.filter(c => hasBookmark(c.id)) : base;
-
-if (!base2.length) {
-  list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
-  setScreenCount(0);
-  syncBmToggleUi(0);
-} else {
-  const today = seedShuffle(base2, seed).slice(0, 5);
-  for (const c of today) list.appendChild(renderCard(c, "today", openId));
-  setScreenCount(today.length);
-  syncBmToggleUi(today.length);
-}
-
-} else {
-
-    const due = getDueCards();
-    const dueFiltered = filterCardsByQuery(due);
-
-    const bmOnly = getBmOnly();
-    const dueFiltered2 = bmOnly
-      ? dueFiltered.filter(c => hasBookmark(c.id))
-      : dueFiltered;
-
-    if (!due.length) {
-      list.innerHTML = `<div class="muted">${escapeHtml(t("noReview"))}</div>`;
-      setScreenCount(0);
-      syncBmToggleUi(0);
-
-    } else if (!dueFiltered2.length) {
-      list.innerHTML = `<div class="muted">${escapeHtml(t("noHit"))}</div>`;
-      setScreenCount(0);
-      syncBmToggleUi(0);
-
-    } else {
-  for (const c of dueFiltered2) list.appendChild(renderCard(c, "review", openId));
-  setScreenCount(dueFiltered2.length);
-  syncBmToggleUi(dueFiltered2.length);
-}
-  } // ← if(view===today) の else を閉じる
-}   // ← render() を閉じる
-
-  // =========================
-  // Events
-  // =========================
-syncBmToggleUi();
-bmToggleBtn.addEventListener("click", () => {
-  const next = !getBmOnly();
-  setBmOnly(next);
-  syncBmToggleUi();
-  if (!next) setOpenIdToHash("");
-  render();
-});
-const langBtn = document.getElementById("langBtn");
-langBtn.addEventListener("click", () => {
-  const next = (getLang() === "ja") ? "de" : "ja";
-  setLang(next);
-  render();
-});
-// ...以下 shuffle / tabs / search / hashchange etc.
-
-  document.getElementById("shuffleBtn").addEventListener("click", () => {
-    rotateSeed();
-    render();
-  });
-
-  document.getElementById("tabToday").addEventListener("click", () => {
-    setView("today");
-    render();
-  });
-
-  document.getElementById("tabReview").addEventListener("click", () => {
-    setView("review");
-    render();
-  });
-  // Search input
-const qEl = document.getElementById("q");
-const clearEl = document.getElementById("clearBtn");
-
-qEl.addEventListener("input", () => {
-  setQuery(qEl.value || "");
-  render();
-});
-
-clearEl.addEventListener("click", () => {
-  qEl.value = "";
-  setQuery("");
-  render();
-  qEl.focus();
-});
-window.addEventListener("hashchange", () => render());
-  // =========================
-  // PWA: service worker
-  // =========================
-  if ("serviceWorker" in navigator) {
-    window.addEventListener("load", async () => {
-      try { await navigator.serviceWorker.register("./sw.js"); } catch (e) {}
-    });
-  }
-
-  // =========================
-  // Boot
-  // =========================
-  (async () => {
-    await loadCards();
-    render();
-  })();
-</script>
+  </template>
+
+  <script
+    src="app.js"
+    defer
+  ></script>
 </body>
 </html>
