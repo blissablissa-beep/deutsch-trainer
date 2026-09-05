@@ -5,218 +5,718 @@
 
   <meta
     name="viewport"
-    content="width=device-width,initial-scale=1,viewport-fit=cover"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
   >
 
-  <meta
-    name="theme-color"
-    content="#176b5b"
-  >
+  <meta name="theme-color" content="#111111">
 
-  <title>Italiano Trainer</title>
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./style.css">
 
-  <link
-    rel="manifest"
-    href="manifest.webmanifest"
-  >
-
-  <link
-    rel="icon"
-    href="icon.svg"
-  >
-
-  <link
-    rel="stylesheet"
-    href="styles.css"
-  >
+  <title>Deutsch Trainer</title>
 </head>
 
 <body>
-  <header class="topbar">
-    <div class="brand">
-      <span class="flag">
-        <i></i>
-        <i></i>
-        <i></i>
-      </span>
 
-      <span>
-        <b>Italiano</b> Trainer
-      </span>
+  <!-- =========================================================
+       Header
+  ========================================================== -->
+  <header class="app-header">
+
+    <div class="header-top">
+
+      <div>
+        <h1 class="app-title">Deutsch Trainer</h1>
+        <div id="wordCount" class="word-count">
+          Wörter werden geladen...
+        </div>
+      </div>
+
+      <div class="header-actions">
+
+        <button
+          id="languageToggle"
+          class="icon-button"
+          type="button"
+          aria-label="Sprache wechseln"
+          title="Sprache wechseln"
+        >
+          JP
+        </button>
+
+      </div>
+
     </div>
 
-    <div class="header-actions">
-      <button
-        id="langBtn"
-        class="pill"
-        type="button"
-      >
-        JA
-      </button>
-
-      <button
-        id="themeBtn"
-        class="icon-btn"
-        type="button"
-        aria-label="配色を切り替える"
-      >
-        ◐
-      </button>
-    </div>
   </header>
 
-  <main class="shell">
-    <section class="intro">
-      <p class="eyebrow">
-        IL TUO LESSICO, UN PO’ ALLA VOLTA
-      </p>
 
-      <h1>
-        言葉の輪郭まで、<br>
-        <em>一枚で。</em>
-      </h1>
+  <!-- =========================================================
+       Main
+  ========================================================== -->
+  <main class="app-main">
 
-      <p id="introText">
-        意味だけでなく、語感・語源・結びつき・活用まで。使えるイタリア語を静かに積み上げます。
-      </p>
-    </section>
 
-    <section class="controls">
-      <nav
-        class="tabs"
-        aria-label="表示モード"
-      >
-        <button
-          class="tab active"
-          data-mode="today"
-          type="button"
+    <!-- =======================================================
+         Home / Dictionary View
+    ======================================================== -->
+    <section
+      id="dictionaryView"
+      class="view"
+    >
+
+
+      <!-- =====================================================
+           Today's 5 words
+      ====================================================== -->
+      <section class="panel today-panel">
+
+        <div class="section-heading-row">
+
+          <div>
+            <h2 class="section-title">
+              今日の5語
+            </h2>
+
+            <p class="section-subtitle">
+              Heute – 5 Wörter
+            </p>
+          </div>
+
+          <button
+            id="refreshTodayButton"
+            class="small-button"
+            type="button"
+            aria-label="今日の5語を更新"
+          >
+            ↻
+          </button>
+
+        </div>
+
+
+        <div
+          id="todayWordList"
+          class="headline-list"
+          aria-live="polite"
         >
-          <b
-            class="tab-label"
-            id="todayLabel"
-          >
-            Today
-          </b>
+          <div class="loading-message">
+            読み込み中...
+          </div>
+        </div>
 
-          <span
-            class="tab-count"
-            id="todayCount"
-          >
-            0
-          </span>
-        </button>
+      </section>
 
-        <button
-          class="tab"
-          data-mode="dictionary"
-          type="button"
+
+      <!-- =====================================================
+           Search
+      ====================================================== -->
+      <section class="panel search-panel">
+
+        <label
+          for="searchInput"
+          class="field-label"
         >
-          <b
-            class="tab-label"
-            id="dictionaryLabel"
-          >
-            Dictionary
-          </b>
+          検索
+        </label>
 
-          <span
-            class="tab-count"
-            id="dictionaryCount"
-          >
-            0
-          </span>
-        </button>
-
-        <button
-          class="tab"
-          data-mode="bookmarks"
-          type="button"
-        >
-          ★
-
-          <b
-            class="tab-label"
-            id="bookmarkLabel"
-          >
-            ブックマーク
-          </b>
-
-          <span
-            class="tab-count"
-            id="bookmarkCount"
-          >
-            0
-          </span>
-        </button>
-      </nav>
-
-      <div class="tools">
-        <label class="search">
-          <span>⌕</span>
+        <div class="search-box">
 
           <input
             id="searchInput"
+            class="search-input"
             type="search"
-            placeholder="単語・意味・例文を検索"
+            placeholder="単語・意味・例文などを検索"
+            autocomplete="off"
+            spellcheck="false"
           >
-        </label>
+
+          <button
+            id="clearSearchButton"
+            class="clear-search-button"
+            type="button"
+            aria-label="検索をクリア"
+            title="検索をクリア"
+          >
+            ×
+          </button>
+
+        </div>
+
+      </section>
+
+
+      <!-- =====================================================
+           Filters
+      ====================================================== -->
+      <section class="panel filter-panel">
+
+        <div class="section-heading-row">
+
+          <div>
+            <h2 class="section-title">
+              Wörterbuch
+            </h2>
+
+            <p class="section-subtitle">
+              辞書・絞り込み
+            </p>
+          </div>
+
+          <button
+            id="resetFiltersButton"
+            class="small-button"
+            type="button"
+          >
+            リセット
+          </button>
+
+        </div>
+
+
+        <div class="filter-grid">
+
+
+          <!-- Level -->
+          <div class="filter-field">
+
+            <label
+              for="levelFilter"
+              class="field-label"
+            >
+              Level
+            </label>
+
+            <select
+              id="levelFilter"
+              class="filter-select"
+            >
+              <option value="">すべて</option>
+              <option value="A1">A1</option>
+              <option value="A2">A2</option>
+              <option value="B1">B1</option>
+              <option value="B2">B2</option>
+              <option value="C1">C1</option>
+              <option value="C2">C2</option>
+            </select>
+
+          </div>
+
+
+          <!-- POS -->
+          <div class="filter-field">
+
+            <label
+              for="posFilter"
+              class="field-label"
+            >
+              Wortart
+            </label>
+
+            <select
+              id="posFilter"
+              class="filter-select"
+            >
+              <option value="">すべて</option>
+              <option value="noun">Nomen</option>
+              <option value="verb">Verb</option>
+              <option value="adj">Adjektiv</option>
+              <option value="adv">Adverb</option>
+              <option value="prep">Präposition</option>
+              <option value="conj">Konjunktion</option>
+              <option value="pron">Pronomen</option>
+              <option value="particle">Partikel</option>
+              <option value="interj">Interjektion</option>
+              <option value="phrase">Phrase</option>
+              <option value="idiom">Redewendung</option>
+            </select>
+
+          </div>
+
+
+          <!-- Frequency -->
+          <div class="filter-field">
+
+            <label
+              for="freqFilter"
+              class="field-label"
+            >
+              Häufigkeit
+            </label>
+
+            <select
+              id="freqFilter"
+              class="filter-select"
+            >
+              <option value="">すべて</option>
+              <option value="very often">very often</option>
+              <option value="often">often</option>
+              <option value="sometimes">sometimes</option>
+              <option value="rare">rare</option>
+              <option value="very rare">very rare</option>
+            </select>
+
+          </div>
+
+
+          <!-- Learning status -->
+          <div class="filter-field">
+
+            <label
+              for="statusFilter"
+              class="field-label"
+            >
+              習得状態
+            </label>
+
+            <select
+              id="statusFilter"
+              class="filter-select"
+            >
+              <option value="">すべて</option>
+              <option value="known">覚えた</option>
+              <option value="learning">まだ覚えていない</option>
+              <option value="unset">未設定</option>
+            </select>
+
+          </div>
+
+
+          <!-- Bookmark -->
+          <div class="filter-field">
+
+            <label
+              for="bookmarkFilter"
+              class="field-label"
+            >
+              Bookmark
+            </label>
+
+            <select
+              id="bookmarkFilter"
+              class="filter-select"
+            >
+              <option value="">すべて</option>
+              <option value="bookmarked">ブックマークのみ</option>
+            </select>
+
+          </div>
+
+
+          <!-- Tag -->
+          <div class="filter-field">
+
+            <label
+              for="tagFilter"
+              class="field-label"
+            >
+              Tag
+            </label>
+
+            <select
+              id="tagFilter"
+              class="filter-select"
+            >
+              <option value="">すべて</option>
+            </select>
+
+          </div>
+
+
+          <!-- Sort -->
+          <div class="filter-field filter-field-wide">
+
+            <label
+              for="sortSelect"
+              class="field-label"
+            >
+              Sortierung
+            </label>
+
+            <select
+              id="sortSelect"
+              class="filter-select"
+            >
+              <option value="alphabetical">
+                A → Z
+              </option>
+
+              <option value="reverse">
+                Z → A
+              </option>
+
+              <option value="sid-new">
+                新しいカード順
+              </option>
+
+              <option value="sid-old">
+                古いカード順
+              </option>
+
+              <option value="level">
+                レベル順
+              </option>
+            </select>
+
+          </div>
+
+        </div>
+
+
+        <div
+          id="activeFilterSummary"
+          class="active-filter-summary"
+        ></div>
+
+      </section>
+
+
+      <!-- =====================================================
+           Dictionary headline list
+      ====================================================== -->
+      <section class="panel dictionary-panel">
+
+        <div class="dictionary-list-header">
+
+          <div
+            id="filteredWordCount"
+            class="filtered-word-count"
+          >
+            0 Wörter
+          </div>
+
+        </div>
+
+
+        <div
+          id="dictionaryWordList"
+          class="headline-list dictionary-word-list"
+          aria-live="polite"
+        >
+
+          <div class="loading-message">
+            辞書を読み込み中...
+          </div>
+
+        </div>
+
+      </section>
+
+    </section>
+
+
+
+    <!-- =======================================================
+         Detail View
+    ======================================================== -->
+    <section
+      id="detailView"
+      class="view hidden"
+      aria-hidden="true"
+    >
+
+
+      <!-- Back -->
+      <div class="detail-toolbar">
 
         <button
-          id="shuffleBtn"
-          class="tool-btn"
+          id="backToDictionaryButton"
+          class="back-button"
           type="button"
         >
-          ↝
-          <span>Shuffle</span>
+          ← Wörterbuch
         </button>
+
       </div>
+
+
+      <!-- Main card -->
+      <article
+        id="detailCard"
+        class="detail-card"
+      >
+
+
+        <!-- ===================================================
+             Word Header
+        ==================================================== -->
+        <section class="detail-word-header">
+
+          <div class="detail-heading-row">
+
+            <div class="detail-heading-main">
+
+              <h2
+                id="detailWord"
+                class="detail-word"
+              ></h2>
+
+              <div
+                id="detailPronunciation"
+                class="detail-pronunciation hidden"
+              ></div>
+
+              <div
+                id="detailMeta"
+                class="detail-meta"
+              ></div>
+
+            </div>
+
+
+            <button
+              id="bookmarkButton"
+              class="bookmark-button"
+              type="button"
+              aria-label="ブックマーク"
+              title="ブックマーク"
+            >
+              ☆
+            </button>
+
+          </div>
+
+
+          <!-- Tags -->
+          <div
+            id="detailTags"
+            class="tag-list"
+          ></div>
+
+
+          <!-- Learning status -->
+          <div class="learning-status-block">
+
+            <div class="learning-status-label">
+              習得状態
+            </div>
+
+            <div class="learning-status-buttons">
+
+              <button
+                id="statusUnsetButton"
+                class="status-button"
+                type="button"
+                data-status="unset"
+              >
+                ○ 未設定
+              </button>
+
+              <button
+                id="statusKnownButton"
+                class="status-button"
+                type="button"
+                data-status="known"
+              >
+                ✓ 覚えた
+              </button>
+
+              <button
+                id="statusLearningButton"
+                class="status-button"
+                type="button"
+                data-status="learning"
+              >
+                ● まだ覚えていない
+              </button>
+
+            </div>
+
+          </div>
+
+        </section>
+
+
+
+        <!-- ===================================================
+             Meaning
+        ==================================================== -->
+        <section
+          id="meaningSection"
+          class="detail-section"
+        >
+
+          <h3 class="detail-section-title">
+            意味
+          </h3>
+
+          <div
+            id="detailMeaning"
+            class="detail-section-content"
+          ></div>
+
+        </section>
+
+
+
+        <!-- ===================================================
+             Nuance
+        ==================================================== -->
+        <section
+          id="nuanceSection"
+          class="detail-section"
+        >
+
+          <h3 class="detail-section-title">
+            ニュアンス
+          </h3>
+
+          <div
+            id="detailNuance"
+            class="detail-section-content"
+          ></div>
+
+        </section>
+
+
+
+        <!-- ===================================================
+             Conjugation
+             Optional: shown only when card has conjugation
+        ==================================================== -->
+        <section
+          id="conjugationSection"
+          class="detail-section hidden"
+        >
+
+          <h3 class="detail-section-title">
+            活用
+          </h3>
+
+          <div
+            id="detailConjugation"
+            class="detail-section-content"
+          ></div>
+
+        </section>
+
+
+
+        <!-- ===================================================
+             Minimal contrast
+        ==================================================== -->
+        <section
+          id="minimalSection"
+          class="detail-section"
+        >
+
+          <h3 class="detail-section-title">
+            Minimal
+          </h3>
+
+          <div
+            id="detailMinimal"
+            class="detail-section-content"
+          ></div>
+
+        </section>
+
+
+
+        <!-- ===================================================
+             Equivalents
+        ==================================================== -->
+        <section
+          id="equivalentsSection"
+          class="detail-section hidden"
+        >
+
+          <h3 class="detail-section-title">
+            他言語相当語
+          </h3>
+
+          <div
+            id="detailEquivalents"
+            class="detail-section-content"
+          ></div>
+
+        </section>
+
+
+
+        <!-- ===================================================
+             Etymology
+        ==================================================== -->
+        <section
+          id="etymologySection"
+          class="detail-section"
+        >
+
+          <h3 class="detail-section-title">
+            語源
+          </h3>
+
+          <div
+            id="detailEtymology"
+            class="detail-section-content"
+          ></div>
+
+        </section>
+
+
+
+        <!-- ===================================================
+             Example
+        ==================================================== -->
+        <section
+          id="exampleSection"
+          class="detail-section"
+        >
+
+          <h3 class="detail-section-title">
+            例文
+          </h3>
+
+          <div
+            id="detailExample"
+            class="detail-section-content"
+          ></div>
+
+        </section>
+
+
+
+        <!-- ===================================================
+             Task
+        ==================================================== -->
+        <section
+          id="taskSection"
+          class="detail-section"
+        >
+
+          <h3 class="detail-section-title">
+            Task
+          </h3>
+
+          <div
+            id="detailTask"
+            class="detail-section-content"
+          ></div>
+
+        </section>
+
+      </article>
+
     </section>
 
-    <section
-      id="filterPanel"
-      class="filter-panel"
-      aria-label="辞書フィルター"
-      hidden
-    >
-      <div
-        id="levelFilters"
-        class="filter-row"
-      ></div>
-
-      <div
-        id="posFilters"
-        class="filter-row"
-      ></div>
-    </section>
-
-    <div
-      id="status"
-      class="status"
-      aria-live="polite"
-    ></div>
-
-    <section
-      id="cards"
-      class="cards"
-    ></section>
   </main>
 
-  <template id="emptyTemplate">
-    <div class="empty">
-      <div>◇</div>
 
-      <h2>
-        該当する単語がありません
-      </h2>
+  <!-- =========================================================
+       Error / Toast
+  ========================================================== -->
+  <div
+    id="toast"
+    class="toast hidden"
+    role="status"
+    aria-live="polite"
+  ></div>
 
-      <p>
-        検索条件またはフィルターを変更してください。
-      </p>
-    </div>
-  </template>
 
-  <script
-    src="app.js"
-    defer
-  ></script>
+  <!-- =========================================================
+       JavaScript
+  ========================================================== -->
+  <script src="./app.js"></script>
+
 </body>
 </html>
