@@ -1,8 +1,9 @@
 "use strict";
 
+
 /* =========================================================
    Deutsch Trainer
-   Dictionary Edition
+   Dictionary Edition v3
 ========================================================= */
 
 
@@ -16,10 +17,20 @@ const CONFIG = {
   todayCount: 5,
 
   storage: {
-    bookmarks: "deutsch_trainer_bookmarks_v2",
-    learningStatus: "deutsch_trainer_learning_status_v2",
-    todayWords: "deutsch_trainer_today_words_v2",
-    uiLanguage: "deutsch_trainer_ui_language_v2"
+    bookmarks:
+      "deutsch_trainer_bookmarks_v3",
+
+    learningStatus:
+      "deutsch_trainer_learning_status_v3",
+
+    todayWords:
+      "deutsch_trainer_today_words_v3",
+
+    uiLanguage:
+      "deutsch_trainer_ui_language_v3",
+
+    theme:
+      "deutsch_trainer_theme_v3"
   },
 
   validPos: [
@@ -39,6 +50,337 @@ const CONFIG = {
 
 
 /* =========================================================
+   UI Text
+========================================================= */
+
+const UI_TEXT = {
+
+  ja: {
+    todayTitle:
+      "今日の5語",
+
+    todaySubtitle:
+      "Heute – 5 Wörter",
+
+    searchLabel:
+      "検索",
+
+    searchPlaceholder:
+      "単語・意味・例文などを検索",
+
+    dictionaryTitle:
+      "Wörterbuch",
+
+    dictionarySubtitle:
+      "辞書・絞り込み",
+
+    reset:
+      "リセット",
+
+    level:
+      "Level",
+
+    pos:
+      "Wortart",
+
+    frequency:
+      "Häufigkeit",
+
+    status:
+      "習得状態",
+
+    bookmark:
+      "Bookmark",
+
+    tag:
+      "Tag",
+
+    sort:
+      "Sortierung",
+
+    all:
+      "すべて",
+
+    known:
+      "覚えた",
+
+    learning:
+      "まだ覚えていない",
+
+    unset:
+      "未設定",
+
+    bookmarkOnly:
+      "ブックマークのみ",
+
+    newest:
+      "新しいカード順",
+
+    oldest:
+      "古いカード順",
+
+    levelSort:
+      "レベル順",
+
+    back:
+      "← Wörterbuch",
+
+    meaning:
+      "意味",
+
+    nuance:
+      "ニュアンス",
+
+    conjugation:
+      "活用",
+
+    collocations:
+      "コロケーション",
+
+    minimal:
+      "Minimal",
+
+    equivalents:
+      "他言語相当語",
+
+    etymology:
+      "語源",
+
+    example:
+      "例文",
+
+    task:
+      "Task",
+
+    learningStatus:
+      "習得状態",
+
+    statusUnset:
+      "○ 未設定",
+
+    statusKnown:
+      "✓ 覚えた",
+
+    statusLearning:
+      "● まだ覚えていない",
+
+    loadingToday:
+      "読み込み中...",
+
+    loadingDictionary:
+      "辞書を読み込み中...",
+
+    noTodayWords:
+      "今日の単語がありません。",
+
+    noResults:
+      "条件に一致する単語がありません。",
+
+    refreshToday:
+      "今日の5語を更新しました",
+
+    bookmarked:
+      "ブックマークしました",
+
+    bookmarkRemoved:
+      "ブックマークを解除しました",
+
+    setKnown:
+      "「覚えた」に設定しました",
+
+    setLearning:
+      "「まだ覚えていない」に設定しました",
+
+    setUnset:
+      "習得状態を未設定に戻しました",
+
+    loadError:
+      "カードの読み込み中にエラーが発生しました。JSONの構文またはファイル名を確認してください。",
+
+    searchPrefix:
+      "検索",
+
+    posPrefix:
+      "Wortart",
+
+    levelPrefix:
+      "Level",
+
+    freqPrefix:
+      "Freq",
+
+    statusPrefix:
+      "Status",
+
+    tagPrefix:
+      "Tag"
+  },
+
+
+  de: {
+    todayTitle:
+      "Heutige 5 Wörter",
+
+    todaySubtitle:
+      "Tägliche Auswahl",
+
+    searchLabel:
+      "Suche",
+
+    searchPlaceholder:
+      "Wort, Bedeutung, Beispielsatz usw. suchen",
+
+    dictionaryTitle:
+      "Wörterbuch",
+
+    dictionarySubtitle:
+      "Suche und Filter",
+
+    reset:
+      "Zurücksetzen",
+
+    level:
+      "Niveau",
+
+    pos:
+      "Wortart",
+
+    frequency:
+      "Häufigkeit",
+
+    status:
+      "Lernstatus",
+
+    bookmark:
+      "Lesezeichen",
+
+    tag:
+      "Tag",
+
+    sort:
+      "Sortierung",
+
+    all:
+      "Alle",
+
+    known:
+      "Gelernt",
+
+    learning:
+      "Noch nicht gelernt",
+
+    unset:
+      "Nicht markiert",
+
+    bookmarkOnly:
+      "Nur Lesezeichen",
+
+    newest:
+      "Neueste zuerst",
+
+    oldest:
+      "Älteste zuerst",
+
+    levelSort:
+      "Nach Niveau",
+
+    back:
+      "← Wörterbuch",
+
+    meaning:
+      "Bedeutung",
+
+    nuance:
+      "Nuance",
+
+    conjugation:
+      "Konjugation",
+
+    collocations:
+      "Kollokationen",
+
+    minimal:
+      "Abgrenzung",
+
+    equivalents:
+      "Entsprechungen",
+
+    etymology:
+      "Etymologie",
+
+    example:
+      "Beispielsatz",
+
+    task:
+      "Aufgabe",
+
+    learningStatus:
+      "Lernstatus",
+
+    statusUnset:
+      "○ Nicht markiert",
+
+    statusKnown:
+      "✓ Gelernt",
+
+    statusLearning:
+      "● Noch nicht gelernt",
+
+    loadingToday:
+      "Wörter werden geladen...",
+
+    loadingDictionary:
+      "Wörterbuch wird geladen...",
+
+    noTodayWords:
+      "Keine Wörter für heute.",
+
+    noResults:
+      "Keine passenden Wörter gefunden.",
+
+    refreshToday:
+      "Die heutigen 5 Wörter wurden aktualisiert.",
+
+    bookmarked:
+      "Als Lesezeichen gespeichert.",
+
+    bookmarkRemoved:
+      "Lesezeichen entfernt.",
+
+    setKnown:
+      "Als gelernt markiert.",
+
+    setLearning:
+      "Als noch nicht gelernt markiert.",
+
+    setUnset:
+      "Lernstatus zurückgesetzt.",
+
+    loadError:
+      "Beim Laden der Karten ist ein Fehler aufgetreten. Bitte JSON-Syntax und Dateinamen prüfen.",
+
+    searchPrefix:
+      "Suche",
+
+    posPrefix:
+      "Wortart",
+
+    levelPrefix:
+      "Niveau",
+
+    freqPrefix:
+      "Häufigkeit",
+
+    statusPrefix:
+      "Lernstatus",
+
+    tagPrefix:
+      "Tag"
+  }
+};
+
+
+/* =========================================================
    State
 ========================================================= */
 
@@ -46,14 +388,23 @@ const state = {
   cards: [],
   filteredCards: [],
 
-  bookmarks: new Set(),
-  learningStatus: {},
+  bookmarks:
+    new Set(),
 
-  todayWordIds: [],
+  learningStatus:
+    {},
 
-  selectedCard: null,
+  todayWordIds:
+    [],
 
-  uiLanguage: "ja"
+  selectedCard:
+    null,
+
+  uiLanguage:
+    "ja",
+
+  theme:
+    "dark"
 };
 
 
@@ -63,142 +414,465 @@ const state = {
 
 const dom = {
   dictionaryView:
-    document.getElementById("dictionaryView"),
+    document.getElementById(
+      "dictionaryView"
+    ),
 
   detailView:
-    document.getElementById("detailView"),
+    document.getElementById(
+      "detailView"
+    ),
 
   wordCount:
-    document.getElementById("wordCount"),
+    document.getElementById(
+      "wordCount"
+    ),
 
   languageToggle:
-    document.getElementById("languageToggle"),
+    document.getElementById(
+      "languageToggle"
+    ),
+
+  themeToggle:
+    document.getElementById(
+      "themeToggle"
+    ),
+
+  themeColorMeta:
+    document.getElementById(
+      "themeColorMeta"
+    ),
+
+
+  /* Today */
+
+  todayTitle:
+    document.getElementById(
+      "todayTitle"
+    ),
+
+  todaySubtitle:
+    document.getElementById(
+      "todaySubtitle"
+    ),
 
   todayWordList:
-    document.getElementById("todayWordList"),
+    document.getElementById(
+      "todayWordList"
+    ),
 
   refreshTodayButton:
-    document.getElementById("refreshTodayButton"),
+    document.getElementById(
+      "refreshTodayButton"
+    ),
+
+
+  /* Search */
+
+  searchLabel:
+    document.getElementById(
+      "searchLabel"
+    ),
 
   searchInput:
-    document.getElementById("searchInput"),
+    document.getElementById(
+      "searchInput"
+    ),
 
   clearSearchButton:
-    document.getElementById("clearSearchButton"),
+    document.getElementById(
+      "clearSearchButton"
+    ),
 
-  levelFilter:
-    document.getElementById("levelFilter"),
 
-  posFilter:
-    document.getElementById("posFilter"),
+  /* Dictionary */
 
-  freqFilter:
-    document.getElementById("freqFilter"),
+  dictionaryTitle:
+    document.getElementById(
+      "dictionaryTitle"
+    ),
 
-  statusFilter:
-    document.getElementById("statusFilter"),
-
-  bookmarkFilter:
-    document.getElementById("bookmarkFilter"),
-
-  tagFilter:
-    document.getElementById("tagFilter"),
-
-  sortSelect:
-    document.getElementById("sortSelect"),
+  dictionarySubtitle:
+    document.getElementById(
+      "dictionarySubtitle"
+    ),
 
   resetFiltersButton:
-    document.getElementById("resetFiltersButton"),
+    document.getElementById(
+      "resetFiltersButton"
+    ),
+
+
+  /* Labels */
+
+  levelLabel:
+    document.getElementById(
+      "levelLabel"
+    ),
+
+  posLabel:
+    document.getElementById(
+      "posLabel"
+    ),
+
+  freqLabel:
+    document.getElementById(
+      "freqLabel"
+    ),
+
+  statusLabel:
+    document.getElementById(
+      "statusLabel"
+    ),
+
+  bookmarkLabel:
+    document.getElementById(
+      "bookmarkLabel"
+    ),
+
+  tagLabel:
+    document.getElementById(
+      "tagLabel"
+    ),
+
+  sortLabel:
+    document.getElementById(
+      "sortLabel"
+    ),
+
+
+  /* Filters */
+
+  levelFilter:
+    document.getElementById(
+      "levelFilter"
+    ),
+
+  posFilter:
+    document.getElementById(
+      "posFilter"
+    ),
+
+  freqFilter:
+    document.getElementById(
+      "freqFilter"
+    ),
+
+  statusFilter:
+    document.getElementById(
+      "statusFilter"
+    ),
+
+  bookmarkFilter:
+    document.getElementById(
+      "bookmarkFilter"
+    ),
+
+  tagFilter:
+    document.getElementById(
+      "tagFilter"
+    ),
+
+  sortSelect:
+    document.getElementById(
+      "sortSelect"
+    ),
+
+
+  /* Options */
+
+  levelAllOption:
+    document.getElementById(
+      "levelAllOption"
+    ),
+
+  posAllOption:
+    document.getElementById(
+      "posAllOption"
+    ),
+
+  freqAllOption:
+    document.getElementById(
+      "freqAllOption"
+    ),
+
+  statusAllOption:
+    document.getElementById(
+      "statusAllOption"
+    ),
+
+  statusKnownOption:
+    document.getElementById(
+      "statusKnownOption"
+    ),
+
+  statusLearningOption:
+    document.getElementById(
+      "statusLearningOption"
+    ),
+
+  statusUnsetOption:
+    document.getElementById(
+      "statusUnsetOption"
+    ),
+
+  bookmarkAllOption:
+    document.getElementById(
+      "bookmarkAllOption"
+    ),
+
+  bookmarkOnlyOption:
+    document.getElementById(
+      "bookmarkOnlyOption"
+    ),
+
+  tagAllOption:
+    document.getElementById(
+      "tagAllOption"
+    ),
+
+  sortNewOption:
+    document.getElementById(
+      "sortNewOption"
+    ),
+
+  sortOldOption:
+    document.getElementById(
+      "sortOldOption"
+    ),
+
+  sortLevelOption:
+    document.getElementById(
+      "sortLevelOption"
+    ),
+
+
+  /* Results */
 
   activeFilterSummary:
-    document.getElementById("activeFilterSummary"),
+    document.getElementById(
+      "activeFilterSummary"
+    ),
 
   filteredWordCount:
-    document.getElementById("filteredWordCount"),
+    document.getElementById(
+      "filteredWordCount"
+    ),
 
   dictionaryWordList:
-    document.getElementById("dictionaryWordList"),
+    document.getElementById(
+      "dictionaryWordList"
+    ),
+
+
+  /* Detail */
 
   backToDictionaryButton:
-    document.getElementById("backToDictionaryButton"),
-
-  detailCard:
-    document.getElementById("detailCard"),
+    document.getElementById(
+      "backToDictionaryButton"
+    ),
 
   detailWord:
-    document.getElementById("detailWord"),
+    document.getElementById(
+      "detailWord"
+    ),
 
   detailPronunciation:
-    document.getElementById("detailPronunciation"),
+    document.getElementById(
+      "detailPronunciation"
+    ),
 
   detailMeta:
-    document.getElementById("detailMeta"),
+    document.getElementById(
+      "detailMeta"
+    ),
 
   detailTags:
-    document.getElementById("detailTags"),
+    document.getElementById(
+      "detailTags"
+    ),
 
   bookmarkButton:
-    document.getElementById("bookmarkButton"),
+    document.getElementById(
+      "bookmarkButton"
+    ),
+
+
+  /* Learning */
+
+  learningStatusLabel:
+    document.getElementById(
+      "learningStatusLabel"
+    ),
 
   statusUnsetButton:
-    document.getElementById("statusUnsetButton"),
+    document.getElementById(
+      "statusUnsetButton"
+    ),
 
   statusKnownButton:
-    document.getElementById("statusKnownButton"),
+    document.getElementById(
+      "statusKnownButton"
+    ),
 
   statusLearningButton:
-    document.getElementById("statusLearningButton"),
+    document.getElementById(
+      "statusLearningButton"
+    ),
+
+
+  /* Sections */
 
   meaningSection:
-    document.getElementById("meaningSection"),
+    document.getElementById(
+      "meaningSection"
+    ),
+
+  meaningTitle:
+    document.getElementById(
+      "meaningTitle"
+    ),
 
   detailMeaning:
-    document.getElementById("detailMeaning"),
+    document.getElementById(
+      "detailMeaning"
+    ),
+
 
   nuanceSection:
-    document.getElementById("nuanceSection"),
+    document.getElementById(
+      "nuanceSection"
+    ),
+
+  nuanceTitle:
+    document.getElementById(
+      "nuanceTitle"
+    ),
 
   detailNuance:
-    document.getElementById("detailNuance"),
+    document.getElementById(
+      "detailNuance"
+    ),
+
 
   conjugationSection:
-    document.getElementById("conjugationSection"),
+    document.getElementById(
+      "conjugationSection"
+    ),
+
+  conjugationTitle:
+    document.getElementById(
+      "conjugationTitle"
+    ),
 
   detailConjugation:
-    document.getElementById("detailConjugation"),
+    document.getElementById(
+      "detailConjugation"
+    ),
+
+
+  collocationsSection:
+    document.getElementById(
+      "collocationsSection"
+    ),
+
+  collocationsTitle:
+    document.getElementById(
+      "collocationsTitle"
+    ),
+
+  detailCollocations:
+    document.getElementById(
+      "detailCollocations"
+    ),
+
 
   minimalSection:
-    document.getElementById("minimalSection"),
+    document.getElementById(
+      "minimalSection"
+    ),
+
+  minimalTitle:
+    document.getElementById(
+      "minimalTitle"
+    ),
 
   detailMinimal:
-    document.getElementById("detailMinimal"),
+    document.getElementById(
+      "detailMinimal"
+    ),
+
 
   equivalentsSection:
-    document.getElementById("equivalentsSection"),
+    document.getElementById(
+      "equivalentsSection"
+    ),
+
+  equivalentsTitle:
+    document.getElementById(
+      "equivalentsTitle"
+    ),
 
   detailEquivalents:
-    document.getElementById("detailEquivalents"),
+    document.getElementById(
+      "detailEquivalents"
+    ),
+
 
   etymologySection:
-    document.getElementById("etymologySection"),
+    document.getElementById(
+      "etymologySection"
+    ),
+
+  etymologyTitle:
+    document.getElementById(
+      "etymologyTitle"
+    ),
 
   detailEtymology:
-    document.getElementById("detailEtymology"),
+    document.getElementById(
+      "detailEtymology"
+    ),
+
 
   exampleSection:
-    document.getElementById("exampleSection"),
+    document.getElementById(
+      "exampleSection"
+    ),
+
+  exampleTitle:
+    document.getElementById(
+      "exampleTitle"
+    ),
 
   detailExample:
-    document.getElementById("detailExample"),
+    document.getElementById(
+      "detailExample"
+    ),
+
 
   taskSection:
-    document.getElementById("taskSection"),
+    document.getElementById(
+      "taskSection"
+    ),
+
+  taskTitle:
+    document.getElementById(
+      "taskTitle"
+    ),
 
   detailTask:
-    document.getElementById("detailTask"),
+    document.getElementById(
+      "detailTask"
+    ),
+
+
+  /* Toast */
 
   toast:
-    document.getElementById("toast")
+    document.getElementById(
+      "toast"
+    )
 };
 
 
@@ -216,9 +890,9 @@ async function init() {
   try {
     loadLocalState();
 
-    bindEvents();
+    applyTheme();
 
-    updateLanguageToggle();
+    bindEvents();
 
     state.cards =
       await loadAllCardFiles();
@@ -228,6 +902,8 @@ async function init() {
     populateTagFilter();
 
     restoreTodayWords();
+
+    updateUiLanguage();
 
     renderTodayWords();
 
@@ -240,14 +916,27 @@ async function init() {
     console.error(error);
 
     showFatalError(
-      "カードの読み込み中にエラーが発生しました。JSONの構文またはファイル名を確認してください。"
+      text("loadError")
     );
   }
 }
 
 
 /* =========================================================
-   Card File Loading
+   Text Helper
+========================================================= */
+
+function text(key) {
+  return (
+    UI_TEXT[state.uiLanguage]?.[key] ||
+    UI_TEXT.ja[key] ||
+    key
+  );
+}
+
+
+/* =========================================================
+   Card Loading
 ========================================================= */
 
 async function loadAllCardFiles() {
@@ -267,7 +956,8 @@ async function loadAllCardFiles() {
     );
   }
 
-  let foundAnyFile = false;
+  let foundAnyFile =
+    false;
 
   for (
     const fileName
@@ -278,7 +968,8 @@ async function loadAllCardFiles() {
         await fetch(
           `./${fileName}`,
           {
-            cache: "no-store"
+            cache:
+              "no-store"
           }
         );
 
@@ -290,12 +981,15 @@ async function loadAllCardFiles() {
         await response.json();
 
       const extracted =
-        extractCardsFromJson(data);
+        extractCardsFromJson(
+          data
+        );
 
       if (
         extracted.length > 0
       ) {
-        foundAnyFile = true;
+        foundAnyFile =
+          true;
 
         cards.push(
           ...extracted
@@ -328,7 +1022,9 @@ function extractCardsFromJson(data) {
 
   if (
     data &&
-    Array.isArray(data.cards)
+    Array.isArray(
+      data.cards
+    )
   ) {
     return data.cards;
   }
@@ -338,7 +1034,7 @@ function extractCardsFromJson(data) {
 
 
 /* =========================================================
-   Validation / Normalization
+   Validation
 ========================================================= */
 
 function validateAndNormalizeCards() {
@@ -357,7 +1053,8 @@ function validateAndNormalizeCards() {
   ) {
     if (
       !rawCard ||
-      typeof rawCard !== "object"
+      typeof rawCard !==
+        "object"
     ) {
       continue;
     }
@@ -379,7 +1076,9 @@ function validateAndNormalizeCards() {
     }
 
     if (
-      seenIds.has(card.id)
+      seenIds.has(
+        card.id
+      )
     ) {
       console.warn(
         `Duplicate id: ${card.id}`
@@ -388,11 +1087,15 @@ function validateAndNormalizeCards() {
       continue;
     }
 
-    seenIds.add(card.id);
+    seenIds.add(
+      card.id
+    );
 
     if (card.sid) {
       if (
-        seenSids.has(card.sid)
+        seenSids.has(
+          card.sid
+        )
       ) {
         console.warn(
           `Duplicate sid: ${card.sid}`
@@ -401,17 +1104,22 @@ function validateAndNormalizeCards() {
         continue;
       }
 
-      seenSids.add(card.sid);
+      seenSids.add(
+        card.sid
+      );
     }
 
     card.tags =
-      Array.isArray(card.tags)
+      Array.isArray(
+        card.tags
+      )
         ? card.tags
         : [];
 
     card.grammar =
       card.grammar &&
-      typeof card.grammar === "object"
+      typeof card.grammar ===
+        "object"
         ? card.grammar
         : {};
 
@@ -426,7 +1134,9 @@ function validateAndNormalizeCards() {
       );
     }
 
-    normalized.push(card);
+    normalized.push(
+      card
+    );
   }
 
   state.cards =
@@ -458,11 +1168,27 @@ function loadLocalState() {
       CONFIG.storage.uiLanguage
     ) || "ja";
 
+  state.theme =
+    localStorage.getItem(
+      CONFIG.storage.theme
+    ) || "dark";
+
   if (
-    state.uiLanguage !== "ja" &&
-    state.uiLanguage !== "de"
+    !["ja", "de"].includes(
+      state.uiLanguage
+    )
   ) {
-    state.uiLanguage = "ja";
+    state.uiLanguage =
+      "ja";
+  }
+
+  if (
+    !["dark", "light"].includes(
+      state.theme
+    )
+  ) {
+    state.theme =
+      "dark";
   }
 }
 
@@ -473,13 +1199,17 @@ function readJsonStorage(
 ) {
   try {
     const raw =
-      localStorage.getItem(key);
+      localStorage.getItem(
+        key
+      );
 
     if (!raw) {
       return fallback;
     }
 
-    return JSON.parse(raw);
+    return JSON.parse(
+      raw
+    );
   } catch (error) {
     console.warn(
       `Storage read error: ${key}`,
@@ -495,7 +1225,9 @@ function saveBookmarks() {
   localStorage.setItem(
     CONFIG.storage.bookmarks,
     JSON.stringify(
-      [...state.bookmarks]
+      [
+        ...state.bookmarks
+      ]
     )
   );
 }
@@ -516,6 +1248,346 @@ function saveUiLanguage() {
     CONFIG.storage.uiLanguage,
     state.uiLanguage
   );
+}
+
+
+function saveTheme() {
+  localStorage.setItem(
+    CONFIG.storage.theme,
+    state.theme
+  );
+}
+
+
+/* =========================================================
+   Theme
+========================================================= */
+
+function toggleTheme() {
+  state.theme =
+    state.theme ===
+      "dark"
+      ? "light"
+      : "dark";
+
+  saveTheme();
+
+  applyTheme();
+}
+
+
+function applyTheme() {
+  document.documentElement
+    .setAttribute(
+      "data-theme",
+      state.theme
+    );
+
+  if (
+    state.theme ===
+    "dark"
+  ) {
+    dom.themeToggle.textContent =
+      "☀︎";
+
+    dom.themeToggle.title =
+      "Light Mode";
+
+    dom.themeColorMeta
+      ?.setAttribute(
+        "content",
+        "#0b0b0b"
+      );
+  } else {
+    dom.themeToggle.textContent =
+      "☾";
+
+    dom.themeToggle.title =
+      "Dark Mode";
+
+    dom.themeColorMeta
+      ?.setAttribute(
+        "content",
+        "#f5f5f5"
+      );
+  }
+}
+
+
+/* =========================================================
+   UI Language
+========================================================= */
+
+function toggleUiLanguage() {
+  state.uiLanguage =
+    state.uiLanguage ===
+      "ja"
+      ? "de"
+      : "ja";
+
+  saveUiLanguage();
+
+  updateUiLanguage();
+
+  renderTodayWords();
+
+  applyFilters();
+
+  if (
+    state.selectedCard
+  ) {
+    renderDetail(
+      state.selectedCard
+    );
+  }
+}
+
+
+function updateUiLanguage() {
+  document.documentElement.lang =
+    state.uiLanguage ===
+      "ja"
+      ? "ja"
+      : "de";
+
+  dom.languageToggle.textContent =
+    state.uiLanguage ===
+      "ja"
+      ? "DE"
+      : "JP";
+
+  dom.languageToggle.title =
+    state.uiLanguage ===
+      "ja"
+      ? "Deutsch anzeigen"
+      : "日本語表示";
+
+
+  dom.todayTitle.textContent =
+    text(
+      "todayTitle"
+    );
+
+  dom.todaySubtitle.textContent =
+    text(
+      "todaySubtitle"
+    );
+
+  dom.searchLabel.textContent =
+    text(
+      "searchLabel"
+    );
+
+  dom.searchInput.placeholder =
+    text(
+      "searchPlaceholder"
+    );
+
+  dom.dictionaryTitle.textContent =
+    text(
+      "dictionaryTitle"
+    );
+
+  dom.dictionarySubtitle.textContent =
+    text(
+      "dictionarySubtitle"
+    );
+
+  dom.resetFiltersButton.textContent =
+    text(
+      "reset"
+    );
+
+  dom.levelLabel.textContent =
+    text(
+      "level"
+    );
+
+  dom.posLabel.textContent =
+    text(
+      "pos"
+    );
+
+  dom.freqLabel.textContent =
+    text(
+      "frequency"
+    );
+
+  dom.statusLabel.textContent =
+    text(
+      "status"
+    );
+
+  dom.bookmarkLabel.textContent =
+    text(
+      "bookmark"
+    );
+
+  dom.tagLabel.textContent =
+    text(
+      "tag"
+    );
+
+  dom.sortLabel.textContent =
+    text(
+      "sort"
+    );
+
+
+  /* All options */
+
+  dom.levelAllOption.textContent =
+    text(
+      "all"
+    );
+
+  dom.posAllOption.textContent =
+    text(
+      "all"
+    );
+
+  dom.freqAllOption.textContent =
+    text(
+      "all"
+    );
+
+  dom.statusAllOption.textContent =
+    text(
+      "all"
+    );
+
+  dom.bookmarkAllOption.textContent =
+    text(
+      "all"
+    );
+
+  dom.tagAllOption.textContent =
+    text(
+      "all"
+    );
+
+
+  /* Status */
+
+  dom.statusKnownOption.textContent =
+    text(
+      "known"
+    );
+
+  dom.statusLearningOption.textContent =
+    text(
+      "learning"
+    );
+
+  dom.statusUnsetOption.textContent =
+    text(
+      "unset"
+    );
+
+
+  /* Bookmark */
+
+  dom.bookmarkOnlyOption.textContent =
+    text(
+      "bookmarkOnly"
+    );
+
+
+  /* Sorting */
+
+  dom.sortNewOption.textContent =
+    text(
+      "newest"
+    );
+
+  dom.sortOldOption.textContent =
+    text(
+      "oldest"
+    );
+
+  dom.sortLevelOption.textContent =
+    text(
+      "levelSort"
+    );
+
+
+  /* Detail */
+
+  dom.backToDictionaryButton.textContent =
+    text(
+      "back"
+    );
+
+  dom.meaningTitle.textContent =
+    text(
+      "meaning"
+    );
+
+  dom.nuanceTitle.textContent =
+    text(
+      "nuance"
+    );
+
+  dom.conjugationTitle.textContent =
+    text(
+      "conjugation"
+    );
+
+  dom.collocationsTitle.textContent =
+    text(
+      "collocations"
+    );
+
+  dom.minimalTitle.textContent =
+    text(
+      "minimal"
+    );
+
+  dom.equivalentsTitle.textContent =
+    text(
+      "equivalents"
+    );
+
+  dom.etymologyTitle.textContent =
+    text(
+      "etymology"
+    );
+
+  dom.exampleTitle.textContent =
+    text(
+      "example"
+    );
+
+  dom.taskTitle.textContent =
+    text(
+      "task"
+    );
+
+
+  /* Learning Buttons */
+
+  dom.learningStatusLabel.textContent =
+    text(
+      "learningStatus"
+    );
+
+  dom.statusUnsetButton.textContent =
+    text(
+      "statusUnset"
+    );
+
+  dom.statusKnownButton.textContent =
+    text(
+      "statusKnown"
+    );
+
+  dom.statusLearningButton.textContent =
+    text(
+      "statusLearning"
+    );
+
+
+  updateGlobalWordCount();
 }
 
 
@@ -546,7 +1618,9 @@ function getTodayKey() {
       "0"
     );
 
-  return `${year}-${month}-${day}`;
+  return (
+    `${year}-${month}-${day}`
+  );
 }
 
 
@@ -563,7 +1637,9 @@ function restoreTodayWords() {
   if (
     stored &&
     stored.date === today &&
-    Array.isArray(stored.ids)
+    Array.isArray(
+      stored.ids
+    )
   ) {
     const validIds =
       stored.ids.filter(
@@ -598,14 +1674,18 @@ function generateTodayWords() {
 
   state.todayWordIds =
     selected.map(
-      card => card.id
+      card =>
+        card.id
     );
 
   localStorage.setItem(
     CONFIG.storage.todayWords,
     JSON.stringify({
-      date: getTodayKey(),
-      ids: state.todayWordIds
+      date:
+        getTodayKey(),
+
+      ids:
+        state.todayWordIds
     })
   );
 }
@@ -616,9 +1696,12 @@ function weightedRandomCards(
   count
 ) {
   if (
-    cards.length <= count
+    cards.length <=
+    count
   ) {
-    return [...cards];
+    return [
+      ...cards
+    ];
   }
 
   const pool =
@@ -626,14 +1709,18 @@ function weightedRandomCards(
       card => ({
         card,
         weight:
-          getTodayWeight(card)
+          getTodayWeight(
+            card
+          )
       })
     );
 
-  const result = [];
+  const result =
+    [];
 
   while (
-    result.length < count &&
+    result.length <
+      count &&
     pool.length > 0
   ) {
     const totalWeight =
@@ -642,7 +1729,8 @@ function weightedRandomCards(
           sum,
           item
         ) =>
-          sum + item.weight,
+          sum +
+          item.weight,
         0
       );
 
@@ -650,11 +1738,13 @@ function weightedRandomCards(
       Math.random() *
       totalWeight;
 
-    let selectedIndex = 0;
+    let selectedIndex =
+      0;
 
     for (
       let i = 0;
-      i < pool.length;
+      i <
+      pool.length;
       i += 1
     ) {
       random -=
@@ -663,14 +1753,17 @@ function weightedRandomCards(
       if (
         random <= 0
       ) {
-        selectedIndex = i;
+        selectedIndex =
+          i;
 
         break;
       }
     }
 
     result.push(
-      pool[selectedIndex].card
+      pool[
+        selectedIndex
+      ].card
     );
 
     pool.splice(
@@ -689,28 +1782,39 @@ function getTodayWeight(card) {
       card.freq
     );
 
-  let weight = 1;
+  let weight =
+    1;
 
   if (
-    freq === "very rare"
+    freq ===
+    "very rare"
   ) {
-    weight = 3.4;
+    weight =
+      3.4;
   } else if (
-    freq === "rare"
+    freq ===
+    "rare"
   ) {
-    weight = 2.8;
+    weight =
+      2.8;
   } else if (
-    freq === "sometimes"
+    freq ===
+    "sometimes"
   ) {
-    weight = 1.8;
+    weight =
+      1.8;
   } else if (
-    freq === "often"
+    freq ===
+    "often"
   ) {
-    weight = 1.1;
+    weight =
+      1.1;
   } else if (
-    freq === "very often"
+    freq ===
+    "very often"
   ) {
-    weight = 0.8;
+    weight =
+      0.8;
   }
 
   const status =
@@ -719,15 +1823,19 @@ function getTodayWeight(card) {
     );
 
   if (
-    status === "known"
+    status ===
+    "known"
   ) {
-    weight *= 0.65;
+    weight *=
+      0.65;
   }
 
   if (
-    status === "learning"
+    status ===
+    "learning"
   ) {
-    weight *= 1.45;
+    weight *=
+      1.45;
   }
 
   return weight;
@@ -744,18 +1852,26 @@ function renderTodayWords() {
         id =>
           state.cards.find(
             card =>
-              card.id === id
+              card.id ===
+              id
           )
       )
-      .filter(Boolean);
+      .filter(
+        Boolean
+      );
 
   if (
-    cards.length === 0
+    cards.length ===
+    0
   ) {
     dom.todayWordList.innerHTML =
       `
         <div class="empty-message">
-          今日の単語がありません。
+          ${escapeHtml(
+            text(
+              "noTodayWords"
+            )
+          )}
         </div>
       `;
 
@@ -766,9 +1882,12 @@ function renderTodayWords() {
     const card
     of cards
   ) {
-    dom.todayWordList.appendChild(
-      createHeadlineItem(card)
-    );
+    dom.todayWordList
+      .appendChild(
+        createHeadlineItem(
+          card
+        )
+      );
   }
 }
 
@@ -802,22 +1921,23 @@ function applyFilters() {
     dom.tagFilter.value;
 
   let result =
-    [...state.cards];
+    [
+      ...state.cards
+    ];
 
-
-  /* Search */
 
   if (search) {
     result =
       result.filter(
         card =>
-          buildSearchText(card)
-            .includes(search)
+          buildSearchText(
+            card
+          ).includes(
+            search
+          )
       );
   }
 
-
-  /* Level */
 
   if (level) {
     result =
@@ -831,18 +1951,15 @@ function applyFilters() {
   }
 
 
-  /* POS */
-
   if (pos) {
     result =
       result.filter(
         card =>
-          card.grammar?.pos === pos
+          card.grammar
+            ?.pos === pos
       );
   }
 
-
-  /* Frequency */
 
   if (freq) {
     result =
@@ -851,12 +1968,12 @@ function applyFilters() {
           normalizeString(
             card.freq
           ) ===
-          normalizeString(freq)
+          normalizeString(
+            freq
+          )
       );
   }
 
-
-  /* Learning Status */
 
   if (status) {
     result =
@@ -864,12 +1981,11 @@ function applyFilters() {
         card =>
           getLearningStatus(
             card.id
-          ) === status
+          ) ===
+          status
       );
   }
 
-
-  /* Bookmark */
 
   if (
     bookmark ===
@@ -878,20 +1994,22 @@ function applyFilters() {
     result =
       result.filter(
         card =>
-          state.bookmarks.has(
-            card.id
-          )
+          state.bookmarks
+            .has(
+              card.id
+            )
       );
   }
 
-
-  /* Tag */
 
   if (tag) {
     result =
       result.filter(
         card =>
-          card.tags.includes(tag)
+          card.tags
+            .includes(
+              tag
+            )
       );
   }
 
@@ -923,29 +2041,32 @@ function buildSearchText(card) {
     card.level,
     card.freq,
 
-    ...(card.tags || []),
+    ...(
+      card.tags ||
+      []
+    ),
 
-    extractLocalizedText(
+    flattenObjectText(
       card.meaning
     ),
 
-    extractLocalizedText(
+    flattenObjectText(
       card.nuance
     ),
 
-    extractLocalizedText(
+    flattenObjectText(
       card.minimal
     ),
 
-    extractLocalizedText(
+    flattenObjectText(
       card.etymology
     ),
 
-    extractLocalizedText(
+    flattenObjectText(
       card.example
     ),
 
-    extractLocalizedText(
+    flattenObjectText(
       card.task
     ),
 
@@ -955,13 +2076,25 @@ function buildSearchText(card) {
 
     flattenObjectText(
       card.conjugation
+    ),
+
+    flattenObjectText(
+      card.collocations
+    ),
+
+    flattenObjectText(
+      card.pronunciation
     )
   ];
 
   return normalizeString(
     parts
-      .filter(Boolean)
-      .join(" ")
+      .filter(
+        Boolean
+      )
+      .join(
+        " "
+      )
   );
 }
 
@@ -969,41 +2102,56 @@ function buildSearchText(card) {
 function flattenObjectText(value) {
   if (
     value === null ||
-    value === undefined
+    value ===
+      undefined
   ) {
     return "";
   }
 
   if (
-    typeof value === "string" ||
-    typeof value === "number" ||
-    typeof value === "boolean"
+    typeof value ===
+      "string" ||
+    typeof value ===
+      "number" ||
+    typeof value ===
+      "boolean"
   ) {
-    return String(value);
+    return String(
+      value
+    );
   }
 
   if (
-    Array.isArray(value)
+    Array.isArray(
+      value
+    )
   ) {
     return value
-      .map(flattenObjectText)
-      .join(" ");
+      .map(
+        flattenObjectText
+      )
+      .join(
+        " "
+      );
   }
 
   if (
-    typeof value === "object"
+    typeof value ===
+      "object"
   ) {
-    return Object.values(value)
-      .map(flattenObjectText)
-      .join(" ");
+    return Object
+      .values(
+        value
+      )
+      .map(
+        flattenObjectText
+      )
+      .join(
+        " "
+      );
   }
 
   return "";
-}
-
-
-function extractLocalizedText(value) {
-  return flattenObjectText(value);
 }
 
 
@@ -1015,18 +2163,27 @@ function cardMatchesLevel(
   card,
   selectedLevel
 ) {
-  if (!card.level) {
+  if (
+    !card.level
+  ) {
     return false;
   }
 
   const normalized =
-    String(card.level)
+    String(
+      card.level
+    )
       .toUpperCase()
-      .replace(/\s+/g, "");
+      .replace(
+        /\s+/g,
+        ""
+      );
 
-  return normalized.includes(
-    selectedLevel.toUpperCase()
-  );
+  return normalized
+    .includes(
+      selectedLevel
+        .toUpperCase()
+    );
 }
 
 
@@ -1039,13 +2196,19 @@ function sortCards(
   mode
 ) {
   const result =
-    [...cards];
+    [
+      ...cards
+    ];
 
   switch (mode) {
+
     case "reverse":
 
       result.sort(
-        (a, b) =>
+        (
+          a,
+          b
+        ) =>
           compareWords(
             b.word,
             a.word
@@ -1058,7 +2221,10 @@ function sortCards(
     case "sid-new":
 
       result.sort(
-        (a, b) =>
+        (
+          a,
+          b
+        ) =>
           compareSid(
             b.sid,
             a.sid
@@ -1071,7 +2237,10 @@ function sortCards(
     case "sid-old":
 
       result.sort(
-        (a, b) =>
+        (
+          a,
+          b
+        ) =>
           compareSid(
             a.sid,
             b.sid
@@ -1094,7 +2263,10 @@ function sortCards(
     default:
 
       result.sort(
-        (a, b) =>
+        (
+          a,
+          b
+        ) =>
           compareWords(
             a.word,
             b.word
@@ -1112,14 +2284,20 @@ function compareWords(
   a,
   b
 ) {
-  return String(a || "")
-    .localeCompare(
-      String(b || ""),
-      "de",
-      {
-        sensitivity: "base"
-      }
-    );
+  return String(
+    a ||
+    ""
+  ).localeCompare(
+    String(
+      b ||
+      ""
+    ),
+    "de",
+    {
+      sensitivity:
+        "base"
+    }
+  );
 }
 
 
@@ -1127,10 +2305,15 @@ function compareSid(
   a,
   b
 ) {
-  return String(a || "")
-    .localeCompare(
-      String(b || "")
-    );
+  return String(
+    a ||
+    ""
+  ).localeCompare(
+    String(
+      b ||
+      ""
+    )
+  );
 }
 
 
@@ -1160,9 +2343,13 @@ function compareByLevel(
     );
 
   if (
-    aLevel !== bLevel
+    aLevel !==
+    bLevel
   ) {
-    return aLevel - bLevel;
+    return (
+      aLevel -
+      bLevel
+    );
   }
 
   return compareWords(
@@ -1181,7 +2368,9 @@ function getLowestLevelRank(
   }
 
   const matches =
-    String(level)
+    String(
+      level
+    )
       .toUpperCase()
       .match(
         /A1|A2|B1|B2|C1|C2/g
@@ -1189,7 +2378,8 @@ function getLowestLevelRank(
 
   if (
     !matches ||
-    matches.length === 0
+    matches.length ===
+      0
   ) {
     return 999;
   }
@@ -1197,7 +2387,8 @@ function getLowestLevelRank(
   return Math.min(
     ...matches.map(
       item =>
-        order[item] || 999
+        order[item] ||
+        999
     )
   );
 }
@@ -1208,26 +2399,33 @@ function getLowestLevelRank(
 ========================================================= */
 
 function renderDictionaryList() {
-  dom.dictionaryWordList.innerHTML =
+  dom.dictionaryWordList
+    .innerHTML =
     "";
 
   const count =
-    state.filteredCards.length;
+    state.filteredCards
+      .length;
 
-  dom.filteredWordCount.textContent =
-    `${count} ${
-      count === 1
-        ? "Wort"
-        : "Wörter"
-    }`;
+  dom.filteredWordCount
+    .textContent =
+    formatWordCount(
+      count
+    );
 
   if (
-    count === 0
+    count ===
+    0
   ) {
-    dom.dictionaryWordList.innerHTML =
+    dom.dictionaryWordList
+      .innerHTML =
       `
         <div class="empty-message">
-          条件に一致する単語がありません。
+          ${escapeHtml(
+            text(
+              "noResults"
+            )
+          )}
         </div>
       `;
 
@@ -1235,26 +2433,32 @@ function renderDictionaryList() {
   }
 
   const fragment =
-    document.createDocumentFragment();
+    document
+      .createDocumentFragment();
 
   for (
     const card
     of state.filteredCards
   ) {
     fragment.appendChild(
-      createHeadlineItem(card)
+      createHeadlineItem(
+        card
+      )
     );
   }
 
-  dom.dictionaryWordList.appendChild(
-    fragment
-  );
+  dom.dictionaryWordList
+    .appendChild(
+      fragment
+    );
 }
 
 
 function createHeadlineItem(card) {
   const button =
-    document.createElement("button");
+    document.createElement(
+      "button"
+    );
 
   button.type =
     "button";
@@ -1265,8 +2469,11 @@ function createHeadlineItem(card) {
   button.dataset.cardId =
     card.id;
 
+
   const word =
-    document.createElement("span");
+    document.createElement(
+      "span"
+    );
 
   word.className =
     "headline-word";
@@ -1276,19 +2483,25 @@ function createHeadlineItem(card) {
 
 
   const meta =
-    document.createElement("span");
+    document.createElement(
+      "span"
+    );
 
   meta.className =
     "headline-meta";
 
-  const indicators = [];
+  const indicators =
+    [];
 
   if (
-    state.bookmarks.has(
-      card.id
-    )
+    state.bookmarks
+      .has(
+        card.id
+      )
   ) {
-    indicators.push("★");
+    indicators.push(
+      "★"
+    );
   }
 
   const status =
@@ -1297,17 +2510,25 @@ function createHeadlineItem(card) {
     );
 
   if (
-    status === "known"
+    status ===
+    "known"
   ) {
-    indicators.push("✓");
+    indicators.push(
+      "✓"
+    );
   } else if (
-    status === "learning"
+    status ===
+    "learning"
   ) {
-    indicators.push("●");
+    indicators.push(
+      "●"
+    );
   }
 
   meta.textContent =
-    indicators.join(" ");
+    indicators.join(
+      " "
+    );
 
   button.append(
     word,
@@ -1317,7 +2538,9 @@ function createHeadlineItem(card) {
   button.addEventListener(
     "click",
     () =>
-      openCard(card.id)
+      openCard(
+        card.id
+      )
   );
 
   return button;
@@ -1329,6 +2552,9 @@ function createHeadlineItem(card) {
 ========================================================= */
 
 function populateTagFilter() {
+  const currentValue =
+    dom.tagFilter.value;
+
   const tags =
     new Set();
 
@@ -1338,16 +2564,31 @@ function populateTagFilter() {
   ) {
     for (
       const tag
-      of card.tags || []
+      of card.tags ||
+      []
     ) {
       if (tag) {
-        tags.add(tag);
+        tags.add(
+          tag
+        );
       }
     }
   }
 
+  while (
+    dom.tagFilter
+      .options.length >
+    1
+  ) {
+    dom.tagFilter.remove(
+      1
+    );
+  }
+
   const sortedTags =
-    [...tags].sort(
+    [
+      ...tags
+    ].sort(
       (
         a,
         b
@@ -1356,7 +2597,8 @@ function populateTagFilter() {
           b,
           "de",
           {
-            sensitivity: "base"
+            sensitivity:
+              "base"
           }
         )
     );
@@ -1376,9 +2618,19 @@ function populateTagFilter() {
     option.textContent =
       tag;
 
-    dom.tagFilter.appendChild(
-      option
-    );
+    dom.tagFilter
+      .appendChild(
+        option
+      );
+  }
+
+  if (
+    sortedTags.includes(
+      currentValue
+    )
+  ) {
+    dom.tagFilter.value =
+      currentValue;
   }
 }
 
@@ -1388,13 +2640,22 @@ function populateTagFilter() {
 ========================================================= */
 
 function renderFilterSummary() {
-  const active = [];
+  const active =
+    [];
 
   if (
-    dom.searchInput.value.trim()
+    dom.searchInput
+      .value
+      .trim()
   ) {
     active.push(
-      `検索: ${dom.searchInput.value.trim()}`
+      `${text(
+        "searchPrefix"
+      )}: ${
+        dom.searchInput
+          .value
+          .trim()
+      }`
     );
   }
 
@@ -1402,7 +2663,12 @@ function renderFilterSummary() {
     dom.levelFilter.value
   ) {
     active.push(
-      `Level: ${dom.levelFilter.value}`
+      `${text(
+        "levelPrefix"
+      )}: ${
+        dom.levelFilter
+          .value
+      }`
     );
   }
 
@@ -1410,9 +2676,12 @@ function renderFilterSummary() {
     dom.posFilter.value
   ) {
     active.push(
-      `Wortart: ${
+      `${text(
+        "posPrefix"
+      )}: ${
         formatPosLabel(
-          dom.posFilter.value
+          dom.posFilter
+            .value
         )
       }`
     );
@@ -1422,7 +2691,12 @@ function renderFilterSummary() {
     dom.freqFilter.value
   ) {
     active.push(
-      `Freq: ${dom.freqFilter.value}`
+      `${text(
+        "freqPrefix"
+      )}: ${
+        dom.freqFilter
+          .value
+      }`
     );
   }
 
@@ -1430,19 +2704,25 @@ function renderFilterSummary() {
     dom.statusFilter.value
   ) {
     active.push(
-      `Status: ${
+      `${text(
+        "statusPrefix"
+      )}: ${
         formatLearningStatus(
-          dom.statusFilter.value
+          dom.statusFilter
+            .value
         )
       }`
     );
   }
 
   if (
-    dom.bookmarkFilter.value
+    dom.bookmarkFilter
+      .value
   ) {
     active.push(
-      "Bookmark"
+      text(
+        "bookmark"
+      )
     );
   }
 
@@ -1450,26 +2730,35 @@ function renderFilterSummary() {
     dom.tagFilter.value
   ) {
     active.push(
-      `Tag: ${dom.tagFilter.value}`
+      `${text(
+        "tagPrefix"
+      )}: ${
+        dom.tagFilter
+          .value
+      }`
     );
   }
 
-  dom.activeFilterSummary.textContent =
+  dom.activeFilterSummary
+    .textContent =
     active.length
-      ? active.join(" · ")
+      ? active.join(
+          " · "
+        )
       : "";
 }
 
 
 /* =========================================================
-   Open / Close Detail
+   Detail Navigation
 ========================================================= */
 
 function openCard(cardId) {
   const card =
     state.cards.find(
       item =>
-        item.id === cardId
+        item.id ===
+        cardId
     );
 
   if (!card) {
@@ -1479,20 +2768,25 @@ function openCard(cardId) {
   state.selectedCard =
     card;
 
-  renderDetail(card);
-
-  dom.dictionaryView.classList.add(
-    "hidden"
+  renderDetail(
+    card
   );
 
-  dom.detailView.classList.remove(
-    "hidden"
-  );
+  dom.dictionaryView
+    .classList.add(
+      "hidden"
+    );
 
-  dom.detailView.setAttribute(
-    "aria-hidden",
-    "false"
-  );
+  dom.detailView
+    .classList.remove(
+      "hidden"
+    );
+
+  dom.detailView
+    .setAttribute(
+      "aria-hidden",
+      "false"
+    );
 
   window.scrollTo({
     top: 0,
@@ -1511,7 +2805,8 @@ function openCard(cardId) {
 
   history.pushState(
     {
-      cardId: card.id
+      cardId:
+        card.id
     },
     "",
     url
@@ -1525,20 +2820,25 @@ function closeDetail({
   state.selectedCard =
     null;
 
-  dom.detailView.classList.add(
-    "hidden"
-  );
+  dom.detailView
+    .classList.add(
+      "hidden"
+    );
 
-  dom.detailView.setAttribute(
-    "aria-hidden",
-    "true"
-  );
+  dom.detailView
+    .setAttribute(
+      "aria-hidden",
+      "true"
+    );
 
-  dom.dictionaryView.classList.remove(
-    "hidden"
-  );
+  dom.dictionaryView
+    .classList.remove(
+      "hidden"
+    );
 
-  if (updateHistory) {
+  if (
+    updateHistory
+  ) {
     const url =
       new URL(
         window.location.href
@@ -1563,17 +2863,28 @@ function closeDetail({
 
 function renderDetail(card) {
   dom.detailWord.textContent =
-    card.word || "";
+    card.word ||
+    "";
 
-  renderPronunciation(card);
+  renderPronunciation(
+    card
+  );
 
-  renderMeta(card);
+  renderMeta(
+    card
+  );
 
-  renderTags(card);
+  renderTags(
+    card
+  );
 
-  updateBookmarkButton(card);
+  updateBookmarkButton(
+    card
+  );
 
-  updateStatusButtons(card);
+  updateStatusButtons(
+    card
+  );
 
   renderLocalizedSection(
     dom.meaningSection,
@@ -1587,7 +2898,13 @@ function renderDetail(card) {
     card.nuance
   );
 
-  renderConjugation(card);
+  renderConjugation(
+    card
+  );
+
+  renderCollocations(
+    card
+  );
 
   renderLocalizedSection(
     dom.minimalSection,
@@ -1595,7 +2912,9 @@ function renderDetail(card) {
     card.minimal
   );
 
-  renderEquivalents(card);
+  renderEquivalents(
+    card
+  );
 
   renderLocalizedSection(
     dom.etymologySection,
@@ -1623,25 +2942,31 @@ function renderDetail(card) {
 
 function renderPronunciation(card) {
   const pronunciation =
-    getPronunciationText(card);
+    getPronunciationText(
+      card
+    );
 
   if (!pronunciation) {
-    dom.detailPronunciation.textContent =
+    dom.detailPronunciation
+      .textContent =
       "";
 
-    dom.detailPronunciation.classList.add(
-      "hidden"
-    );
+    dom.detailPronunciation
+      .classList.add(
+        "hidden"
+      );
 
     return;
   }
 
-  dom.detailPronunciation.textContent =
+  dom.detailPronunciation
+    .textContent =
     pronunciation;
 
-  dom.detailPronunciation.classList.remove(
-    "hidden"
-  );
+  dom.detailPronunciation
+    .classList.remove(
+      "hidden"
+    );
 }
 
 
@@ -1654,19 +2979,25 @@ function getPronunciationText(card) {
   }
 
   if (
-    typeof value === "string"
+    typeof value ===
+    "string"
   ) {
     return value;
   }
 
   if (
-    typeof value === "object"
+    typeof value ===
+    "object"
   ) {
-    if (value.ipa) {
+    if (
+      value.ipa
+    ) {
       return value.ipa;
     }
 
-    if (value.IPA) {
+    if (
+      value.IPA
+    ) {
       return value.IPA;
     }
   }
@@ -1680,7 +3011,8 @@ function getPronunciationText(card) {
 ========================================================= */
 
 function renderMeta(card) {
-  const parts = [];
+  const parts =
+    [];
 
   if (
     card.grammar?.pos
@@ -1702,26 +3034,35 @@ function renderMeta(card) {
     );
   }
 
-  if (card.level) {
+  if (
+    card.level
+  ) {
     parts.push(
       card.level
     );
   }
 
-  if (card.freq) {
+  if (
+    card.freq
+  ) {
     parts.push(
       card.freq
     );
   }
 
-  if (card.sid) {
+  if (
+    card.sid
+  ) {
     parts.push(
       card.sid
     );
   }
 
-  dom.detailMeta.textContent =
-    parts.join(" · ");
+  dom.detailMeta
+    .textContent =
+    parts.join(
+      " · "
+    );
 }
 
 
@@ -1734,13 +3075,20 @@ function formatPosLabel(pos) {
     prep: "Prep",
     conj: "Conj",
     pron: "Pron",
-    particle: "Partikel",
-    interj: "Interj",
-    phrase: "Phrase",
-    idiom: "Redewendung"
+    particle:
+      "Partikel",
+    interj:
+      "Interj",
+    phrase:
+      "Phrase",
+    idiom:
+      "Redewendung"
   };
 
-  return labels[pos] || pos;
+  return (
+    labels[pos] ||
+    pos
+  );
 }
 
 
@@ -1752,8 +3100,10 @@ function formatGender(gender) {
     "m/f": "m/f"
   };
 
-  return labels[gender] ||
-    gender;
+  return (
+    labels[gender] ||
+    gender
+  );
 }
 
 
@@ -1762,12 +3112,16 @@ function formatGender(gender) {
 ========================================================= */
 
 function renderTags(card) {
-  dom.detailTags.innerHTML =
+  dom.detailTags
+    .innerHTML =
     "";
 
   if (
-    !Array.isArray(card.tags) ||
-    card.tags.length === 0
+    !Array.isArray(
+      card.tags
+    ) ||
+    card.tags.length ===
+      0
   ) {
     return;
   }
@@ -1787,9 +3141,10 @@ function renderTags(card) {
     span.textContent =
       tag;
 
-    dom.detailTags.appendChild(
-      span
-    );
+    dom.detailTags
+      .appendChild(
+        span
+      );
   }
 }
 
@@ -1805,13 +3160,16 @@ function renderLocalizedSection(
 ) {
   if (
     !value ||
-    typeof value !== "object"
+    typeof value !==
+      "object"
   ) {
-    sectionElement.classList.add(
-      "hidden"
-    );
+    sectionElement
+      .classList.add(
+        "hidden"
+      );
 
-    targetElement.innerHTML =
+    targetElement
+      .innerHTML =
       "";
 
     return;
@@ -1821,73 +3179,90 @@ function renderLocalizedSection(
     state.uiLanguage;
 
   const secondaryLanguage =
-    primaryLanguage === "ja"
+    primaryLanguage ===
+      "ja"
       ? "de"
       : "ja";
 
   const primaryText =
-    value[primaryLanguage];
+    value[
+      primaryLanguage
+    ];
 
   const secondaryText =
-    value[secondaryLanguage];
+    value[
+      secondaryLanguage
+    ];
 
   if (
     !primaryText &&
     !secondaryText
   ) {
-    sectionElement.classList.add(
-      "hidden"
-    );
+    sectionElement
+      .classList.add(
+        "hidden"
+      );
 
-    targetElement.innerHTML =
+    targetElement
+      .innerHTML =
       "";
 
     return;
   }
 
-  sectionElement.classList.remove(
-    "hidden"
-  );
+  sectionElement
+    .classList.remove(
+      "hidden"
+    );
 
-  targetElement.innerHTML =
+  targetElement
+    .innerHTML =
     "";
 
-  if (primaryText) {
+  if (
+    primaryText
+  ) {
     const primary =
       document.createElement(
         "div"
       );
 
     primary.className =
-      primaryLanguage === "ja"
+      primaryLanguage ===
+        "ja"
         ? "detail-japanese"
         : "detail-german";
 
     primary.textContent =
       primaryText;
 
-    targetElement.appendChild(
-      primary
-    );
+    targetElement
+      .appendChild(
+        primary
+      );
   }
 
-  if (secondaryText) {
+  if (
+    secondaryText
+  ) {
     const secondary =
       document.createElement(
         "div"
       );
 
     secondary.className =
-      secondaryLanguage === "ja"
+      secondaryLanguage ===
+        "ja"
         ? "detail-japanese"
         : "detail-german";
 
     secondary.textContent =
       secondaryText;
 
-    targetElement.appendChild(
-      secondary
-    );
+    targetElement
+      .appendChild(
+        secondary
+      );
   }
 }
 
@@ -1902,24 +3277,32 @@ function renderEquivalents(card) {
 
   if (
     !equivalents ||
-    typeof equivalents !== "object" ||
-    Object.keys(equivalents).length === 0
+    typeof equivalents !==
+      "object" ||
+    Object.keys(
+      equivalents
+    ).length ===
+      0
   ) {
-    dom.equivalentsSection.classList.add(
-      "hidden"
-    );
+    dom.equivalentsSection
+      .classList.add(
+        "hidden"
+      );
 
-    dom.detailEquivalents.innerHTML =
+    dom.detailEquivalents
+      .innerHTML =
       "";
 
     return;
   }
 
-  dom.equivalentsSection.classList.remove(
-    "hidden"
-  );
+  dom.equivalentsSection
+    .classList.remove(
+      "hidden"
+    );
 
-  dom.detailEquivalents.innerHTML =
+  dom.detailEquivalents
+    .innerHTML =
     "";
 
   const wrapper =
@@ -1938,17 +3321,25 @@ function renderEquivalents(card) {
   ];
 
   const keys =
-    Object.keys(equivalents)
+    Object.keys(
+      equivalents
+    )
       .sort(
         (
           a,
           b
         ) => {
           const aIndex =
-            languageOrder.indexOf(a);
+            languageOrder
+              .indexOf(
+                a
+              );
 
           const bIndex =
-            languageOrder.indexOf(b);
+            languageOrder
+              .indexOf(
+                b
+              );
 
           const aRank =
             aIndex === -1
@@ -1960,7 +3351,10 @@ function renderEquivalents(card) {
               ? 999
               : bIndex;
 
-          return aRank - bRank;
+          return (
+            aRank -
+            bRank
+          );
         }
       );
 
@@ -1969,14 +3363,25 @@ function renderEquivalents(card) {
     of keys
   ) {
     const values =
-      equivalents[lang];
+      equivalents[
+        lang
+      ];
 
-    const text =
-      Array.isArray(values)
-        ? values.join(", ")
-        : String(values || "");
+    const valueText =
+      Array.isArray(
+        values
+      )
+        ? values.join(
+            ", "
+          )
+        : String(
+            values ||
+            ""
+          );
 
-    if (!text) {
+    if (
+      !valueText
+    ) {
       continue;
     }
 
@@ -1987,6 +3392,7 @@ function renderEquivalents(card) {
 
     row.className =
       "equivalent-row";
+
 
     const label =
       document.createElement(
@@ -1999,6 +3405,7 @@ function renderEquivalents(card) {
     label.textContent =
       lang;
 
+
     const value =
       document.createElement(
         "div"
@@ -2008,7 +3415,8 @@ function renderEquivalents(card) {
       "equivalent-values";
 
     value.textContent =
-      text;
+      valueText;
+
 
     row.append(
       label,
@@ -2020,9 +3428,10 @@ function renderEquivalents(card) {
     );
   }
 
-  dom.detailEquivalents.appendChild(
-    wrapper
-  );
+  dom.detailEquivalents
+    .appendChild(
+      wrapper
+    );
 }
 
 
@@ -2036,23 +3445,28 @@ function renderConjugation(card) {
 
   if (
     !conjugation ||
-    typeof conjugation !== "object"
+    typeof conjugation !==
+      "object"
   ) {
-    dom.conjugationSection.classList.add(
-      "hidden"
-    );
+    dom.conjugationSection
+      .classList.add(
+        "hidden"
+      );
 
-    dom.detailConjugation.innerHTML =
+    dom.detailConjugation
+      .innerHTML =
       "";
 
     return;
   }
 
-  dom.conjugationSection.classList.remove(
-    "hidden"
-  );
+  dom.conjugationSection
+    .classList.remove(
+      "hidden"
+    );
 
-  dom.detailConjugation.innerHTML =
+  dom.detailConjugation
+    .innerHTML =
     "";
 
   const wrapper =
@@ -2063,8 +3477,6 @@ function renderConjugation(card) {
   wrapper.className =
     "conjugation-block";
 
-
-  /* Variant model */
 
   if (
     Array.isArray(
@@ -2082,9 +3494,6 @@ function renderConjugation(card) {
       );
     }
   } else {
-
-    /* Simple model */
-
     wrapper.appendChild(
       createConjugationVariant(
         conjugation
@@ -2092,9 +3501,10 @@ function renderConjugation(card) {
     );
   }
 
-  dom.detailConjugation.appendChild(
-    wrapper
-  );
+  dom.detailConjugation
+    .appendChild(
+      wrapper
+    );
 }
 
 
@@ -2110,22 +3520,28 @@ function createConjugationVariant(
     "conjugation-variant";
 
 
-  const titleParts = [];
+  const titleParts =
+    [];
 
-  if (data.meaning) {
+  if (
+    data.meaning
+  ) {
     titleParts.push(
       data.meaning
     );
   }
 
-  if (data.stress) {
+  if (
+    data.stress
+  ) {
     titleParts.push(
       data.stress
     );
   }
 
   if (
-    titleParts.length > 0
+    titleParts.length >
+    0
   ) {
     const title =
       document.createElement(
@@ -2136,7 +3552,9 @@ function createConjugationVariant(
       "conjugation-variant-title";
 
     title.textContent =
-      titleParts.join(" · ");
+      titleParts.join(
+        " · "
+      );
 
     container.appendChild(
       title
@@ -2158,18 +3576,22 @@ function createConjugationVariant(
       "Präsens",
       data.present
     ],
+
     [
       "Präteritum",
       data.preterite
     ],
+
     [
       "Perfekt",
       data.perfect
     ],
+
     [
       "Partizip II",
       data.participle2
     ],
+
     [
       "Trennbar",
       formatBoolean(
@@ -2189,7 +3611,8 @@ function createConjugationVariant(
     if (
       value === "" ||
       value === null ||
-      value === undefined
+      value ===
+        undefined
     ) {
       continue;
     }
@@ -2234,18 +3657,279 @@ function createConjugationVariant(
 
 function formatBoolean(value) {
   if (
-    value === true
+    value ===
+    true
   ) {
     return "ja";
   }
 
   if (
-    value === false
+    value ===
+    false
   ) {
     return "nein";
   }
 
   return value;
+}
+
+
+/* =========================================================
+   Collocations
+========================================================= */
+
+function renderCollocations(card) {
+  const collocations =
+    card.collocations;
+
+  if (
+    !collocations
+  ) {
+    hideCollocations();
+
+    return;
+  }
+
+
+  /* Array format */
+
+  if (
+    Array.isArray(
+      collocations
+    )
+  ) {
+    if (
+      collocations.length ===
+      0
+    ) {
+      hideCollocations();
+
+      return;
+    }
+
+    renderCollocationArray(
+      collocations
+    );
+
+    return;
+  }
+
+
+  /* Localized object format */
+
+  if (
+    typeof collocations ===
+      "object" &&
+    (
+      collocations.ja ||
+      collocations.de
+    )
+  ) {
+    renderLocalizedSection(
+      dom.collocationsSection,
+      dom.detailCollocations,
+      collocations
+    );
+
+    return;
+  }
+
+
+  /* String */
+
+  if (
+    typeof collocations ===
+      "string"
+  ) {
+    dom.collocationsSection
+      .classList.remove(
+        "hidden"
+      );
+
+    dom.detailCollocations
+      .textContent =
+      collocations;
+
+    return;
+  }
+
+
+  hideCollocations();
+}
+
+
+function hideCollocations() {
+  dom.collocationsSection
+    .classList.add(
+      "hidden"
+    );
+
+  dom.detailCollocations
+    .innerHTML =
+    "";
+}
+
+
+function renderCollocationArray(
+  collocations
+) {
+  dom.collocationsSection
+    .classList.remove(
+      "hidden"
+    );
+
+  dom.detailCollocations
+    .innerHTML =
+    "";
+
+  const wrapper =
+    document.createElement(
+      "div"
+    );
+
+  wrapper.className =
+    "collocation-list";
+
+  for (
+    const item
+    of collocations
+  ) {
+    if (
+      !item
+    ) {
+      continue;
+    }
+
+    if (
+      typeof item ===
+      "string"
+    ) {
+      const simple =
+        document.createElement(
+          "div"
+        );
+
+      simple.className =
+        "collocation-item";
+
+      simple.textContent =
+        item;
+
+      wrapper.appendChild(
+        simple
+      );
+
+      continue;
+    }
+
+    if (
+      typeof item !==
+      "object"
+    ) {
+      continue;
+    }
+
+    const container =
+      document.createElement(
+        "div"
+      );
+
+    container.className =
+      "collocation-item";
+
+
+    /* German */
+
+    if (
+      item.de
+    ) {
+      const de =
+        document.createElement(
+          "div"
+        );
+
+      de.className =
+        "collocation-de";
+
+      de.textContent =
+        item.de;
+
+      container.appendChild(
+        de
+      );
+    }
+
+
+    /* Japanese */
+
+    if (
+      item.ja
+    ) {
+      const ja =
+        document.createElement(
+          "div"
+        );
+
+      ja.className =
+        "collocation-ja";
+
+      ja.textContent =
+        item.ja;
+
+      container.appendChild(
+        ja
+      );
+    }
+
+
+    /* Note */
+
+    if (
+      item.note
+    ) {
+      const note =
+        document.createElement(
+          "div"
+        );
+
+      note.className =
+        "collocation-note";
+
+      note.textContent =
+        item.note;
+
+      container.appendChild(
+        note
+      );
+    }
+
+
+    if (
+      container.childNodes
+        .length >
+      0
+    ) {
+      wrapper.appendChild(
+        container
+      );
+    }
+  }
+
+
+  if (
+    wrapper.childNodes
+      .length ===
+    0
+  ) {
+    hideCollocations();
+
+    return;
+  }
+
+  dom.detailCollocations
+    .appendChild(
+      wrapper
+    );
 }
 
 
@@ -2262,30 +3946,39 @@ function toggleBookmark() {
   }
 
   if (
-    state.bookmarks.has(
-      card.id
-    )
+    state.bookmarks
+      .has(
+        card.id
+      )
   ) {
-    state.bookmarks.delete(
-      card.id
-    );
+    state.bookmarks
+      .delete(
+        card.id
+      );
 
     showToast(
-      "ブックマークを解除しました"
+      text(
+        "bookmarkRemoved"
+      )
     );
   } else {
-    state.bookmarks.add(
-      card.id
-    );
+    state.bookmarks
+      .add(
+        card.id
+      );
 
     showToast(
-      "ブックマークしました"
+      text(
+        "bookmarked"
+      )
     );
   }
 
   saveBookmarks();
 
-  updateBookmarkButton(card);
+  updateBookmarkButton(
+    card
+  );
 
   renderTodayWords();
 
@@ -2295,26 +3988,30 @@ function toggleBookmark() {
 
 function updateBookmarkButton(card) {
   const bookmarked =
-    state.bookmarks.has(
-      card.id
-    );
+    state.bookmarks
+      .has(
+        card.id
+      );
 
-  dom.bookmarkButton.textContent =
+  dom.bookmarkButton
+    .textContent =
     bookmarked
       ? "★"
       : "☆";
 
-  dom.bookmarkButton.classList.toggle(
-    "active",
-    bookmarked
-  );
+  dom.bookmarkButton
+    .classList.toggle(
+      "active",
+      bookmarked
+    );
 
-  dom.bookmarkButton.setAttribute(
-    "aria-pressed",
-    bookmarked
-      ? "true"
-      : "false"
-  );
+  dom.bookmarkButton
+    .setAttribute(
+      "aria-pressed",
+      bookmarked
+        ? "true"
+        : "false"
+    );
 }
 
 
@@ -2329,8 +4026,10 @@ function getLearningStatus(cardId) {
     ];
 
   if (
-    value === "known" ||
-    value === "learning"
+    value ===
+      "known" ||
+    value ===
+      "learning"
   ) {
     return value;
   }
@@ -2339,7 +4038,9 @@ function getLearningStatus(cardId) {
 }
 
 
-function setLearningStatus(status) {
+function setLearningStatus(
+  status
+) {
   const card =
     state.selectedCard;
 
@@ -2348,40 +4049,54 @@ function setLearningStatus(status) {
   }
 
   if (
-    status === "unset"
+    status ===
+    "unset"
   ) {
-    delete state.learningStatus[
-      card.id
-    ];
+    delete state
+      .learningStatus[
+        card.id
+      ];
   } else {
     state.learningStatus[
       card.id
-    ] = status;
+    ] =
+      status;
   }
 
   saveLearningStatus();
 
-  updateStatusButtons(card);
+  updateStatusButtons(
+    card
+  );
 
   renderTodayWords();
 
   applyFilters();
 
+
   if (
-    status === "known"
+    status ===
+    "known"
   ) {
     showToast(
-      "「覚えた」に設定しました"
+      text(
+        "setKnown"
+      )
     );
   } else if (
-    status === "learning"
+    status ===
+    "learning"
   ) {
     showToast(
-      "「まだ覚えていない」に設定しました"
+      text(
+        "setLearning"
+      )
     );
   } else {
     showToast(
-      "習得状態を未設定に戻しました"
+      text(
+        "setUnset"
+      )
     );
   }
 }
@@ -2403,11 +4118,13 @@ function updateStatusButtons(card) {
     const button
     of buttons
   ) {
-    button.classList.toggle(
-      "active",
-      button.dataset.status ===
-        status
-    );
+    button.classList
+      .toggle(
+        "active",
+        button.dataset
+          .status ===
+          status
+      );
   }
 }
 
@@ -2415,51 +4132,27 @@ function updateStatusButtons(card) {
 function formatLearningStatus(
   status
 ) {
-  const labels = {
-    known: "覚えた",
-    learning: "まだ覚えていない",
-    unset: "未設定"
-  };
-
-  return labels[status] ||
-    status;
-}
-
-
-/* =========================================================
-   JP / DE Toggle
-========================================================= */
-
-function toggleUiLanguage() {
-  state.uiLanguage =
-    state.uiLanguage === "ja"
-      ? "de"
-      : "ja";
-
-  saveUiLanguage();
-
-  updateLanguageToggle();
-
   if (
-    state.selectedCard
+    status ===
+    "known"
   ) {
-    renderDetail(
-      state.selectedCard
+    return text(
+      "known"
     );
   }
-}
 
+  if (
+    status ===
+    "learning"
+  ) {
+    return text(
+      "learning"
+    );
+  }
 
-function updateLanguageToggle() {
-  dom.languageToggle.textContent =
-    state.uiLanguage === "ja"
-      ? "JP"
-      : "DE";
-
-  dom.languageToggle.title =
-    state.uiLanguage === "ja"
-      ? "日本語を優先表示"
-      : "Deutsch zuerst";
+  return text(
+    "unset"
+  );
 }
 
 
@@ -2501,20 +4194,39 @@ function resetFilters() {
 ========================================================= */
 
 function updateGlobalWordCount() {
-  const count =
-    state.cards.length;
+  if (
+    !dom.wordCount
+  ) {
+    return;
+  }
 
   dom.wordCount.textContent =
-    `${count} ${
+    formatWordCount(
+      state.cards.length
+    );
+}
+
+
+function formatWordCount(
+  count
+) {
+  if (
+    state.uiLanguage ===
+    "de"
+  ) {
+    return `${count} ${
       count === 1
         ? "Wort"
         : "Wörter"
     }`;
+  }
+
+  return `${count}語`;
 }
 
 
 /* =========================================================
-   URL / Browser History
+   URL / History
 ========================================================= */
 
 function handleInitialUrlState() {
@@ -2524,9 +4236,10 @@ function handleInitialUrlState() {
     );
 
   const cardId =
-    url.searchParams.get(
-      "word"
-    );
+    url.searchParams
+      .get(
+        "word"
+      );
 
   if (!cardId) {
     return;
@@ -2535,10 +4248,13 @@ function handleInitialUrlState() {
   const exists =
     state.cards.some(
       card =>
-        card.id === cardId
+        card.id ===
+        cardId
     );
 
-  if (exists) {
+  if (
+    exists
+  ) {
     openCardWithoutHistory(
       cardId
     );
@@ -2552,7 +4268,8 @@ function openCardWithoutHistory(
   const card =
     state.cards.find(
       item =>
-        item.id === cardId
+        item.id ===
+        cardId
     );
 
   if (!card) {
@@ -2562,20 +4279,25 @@ function openCardWithoutHistory(
   state.selectedCard =
     card;
 
-  renderDetail(card);
-
-  dom.dictionaryView.classList.add(
-    "hidden"
+  renderDetail(
+    card
   );
 
-  dom.detailView.classList.remove(
-    "hidden"
-  );
+  dom.dictionaryView
+    .classList.add(
+      "hidden"
+    );
 
-  dom.detailView.setAttribute(
-    "aria-hidden",
-    "false"
-  );
+  dom.detailView
+    .classList.remove(
+      "hidden"
+    );
+
+  dom.detailView
+    .setAttribute(
+      "aria-hidden",
+      "false"
+    );
 }
 
 
@@ -2588,17 +4310,21 @@ window.addEventListener(
       );
 
     const cardId =
-      url.searchParams.get(
-        "word"
-      );
+      url.searchParams
+        .get(
+          "word"
+        );
 
-    if (cardId) {
+    if (
+      cardId
+    ) {
       openCardWithoutHistory(
         cardId
       );
     } else {
       closeDetail({
-        updateHistory: false
+        updateHistory:
+          false
       });
     }
   }
@@ -2610,22 +4336,27 @@ window.addEventListener(
 ========================================================= */
 
 function bindEvents() {
-  dom.searchInput.addEventListener(
-    "input",
-    applyFilters
-  );
 
-  dom.clearSearchButton.addEventListener(
-    "click",
-    () => {
-      dom.searchInput.value =
-        "";
+  dom.searchInput
+    .addEventListener(
+      "input",
+      applyFilters
+    );
 
-      applyFilters();
 
-      dom.searchInput.focus();
-    }
-  );
+  dom.clearSearchButton
+    .addEventListener(
+      "click",
+      () => {
+        dom.searchInput.value =
+          "";
+
+        applyFilters();
+
+        dom.searchInput
+          .focus();
+      }
+    );
 
 
   const filters = [
@@ -2649,78 +4380,96 @@ function bindEvents() {
   }
 
 
-  dom.resetFiltersButton.addEventListener(
-    "click",
-    resetFilters
-  );
+  dom.resetFiltersButton
+    .addEventListener(
+      "click",
+      resetFilters
+    );
 
 
-  dom.refreshTodayButton.addEventListener(
-    "click",
-    () => {
-      generateTodayWords();
+  dom.refreshTodayButton
+    .addEventListener(
+      "click",
+      () => {
+        generateTodayWords();
 
-      renderTodayWords();
+        renderTodayWords();
 
-      showToast(
-        "今日の5語を更新しました"
-      );
-    }
-  );
-
-
-  dom.languageToggle.addEventListener(
-    "click",
-    toggleUiLanguage
-  );
-
-
-  dom.backToDictionaryButton.addEventListener(
-    "click",
-    () => {
-      if (
-        history.state &&
-        history.state.cardId
-      ) {
-        history.back();
-      } else {
-        closeDetail();
+        showToast(
+          text(
+            "refreshToday"
+          )
+        );
       }
-    }
-  );
+    );
 
 
-  dom.bookmarkButton.addEventListener(
-    "click",
-    toggleBookmark
-  );
+  dom.languageToggle
+    .addEventListener(
+      "click",
+      toggleUiLanguage
+    );
 
 
-  dom.statusUnsetButton.addEventListener(
-    "click",
-    () =>
-      setLearningStatus(
-        "unset"
-      )
-  );
+  dom.themeToggle
+    .addEventListener(
+      "click",
+      toggleTheme
+    );
 
 
-  dom.statusKnownButton.addEventListener(
-    "click",
-    () =>
-      setLearningStatus(
-        "known"
-      )
-  );
+  dom.backToDictionaryButton
+    .addEventListener(
+      "click",
+      () => {
+        if (
+          history.state &&
+          history.state
+            .cardId
+        ) {
+          history.back();
+        } else {
+          closeDetail();
+        }
+      }
+    );
 
 
-  dom.statusLearningButton.addEventListener(
-    "click",
-    () =>
-      setLearningStatus(
-        "learning"
-      )
-  );
+  dom.bookmarkButton
+    .addEventListener(
+      "click",
+      toggleBookmark
+    );
+
+
+  dom.statusUnsetButton
+    .addEventListener(
+      "click",
+      () =>
+        setLearningStatus(
+          "unset"
+        )
+    );
+
+
+  dom.statusKnownButton
+    .addEventListener(
+      "click",
+      () =>
+        setLearningStatus(
+          "known"
+        )
+    );
+
+
+  dom.statusLearningButton
+    .addEventListener(
+      "click",
+      () =>
+        setLearningStatus(
+          "learning"
+        )
+    );
 }
 
 
@@ -2751,9 +4500,10 @@ function showToast(message) {
   toastTimer =
     setTimeout(
       () => {
-        dom.toast.classList.add(
-          "hidden"
-        );
+        dom.toast
+          .classList.add(
+            "hidden"
+          );
       },
       1800
     );
@@ -2764,23 +4514,32 @@ function showToast(message) {
    Fatal Error
 ========================================================= */
 
-function showFatalError(message) {
-  dom.todayWordList.innerHTML =
+function showFatalError(
+  message
+) {
+  dom.todayWordList
+    .innerHTML =
     `
       <div class="empty-message">
-        ${escapeHtml(message)}
+        ${escapeHtml(
+          message
+        )}
       </div>
     `;
 
-  dom.dictionaryWordList.innerHTML =
+  dom.dictionaryWordList
+    .innerHTML =
     `
       <div class="empty-message">
-        ${escapeHtml(message)}
+        ${escapeHtml(
+          message
+        )}
       </div>
     `;
 
-  dom.wordCount.textContent =
-    "読み込みエラー";
+  dom.wordCount
+    .textContent =
+    "Error";
 }
 
 
@@ -2788,18 +4547,29 @@ function showFatalError(message) {
    Utility
 ========================================================= */
 
-function normalizeString(value) {
+function normalizeString(
+  value
+) {
   return String(
-    value ?? ""
+    value ??
+    ""
   )
-    .normalize("NFKC")
-    .toLocaleLowerCase("de-DE")
+    .normalize(
+      "NFKC"
+    )
+    .toLocaleLowerCase(
+      "de-DE"
+    )
     .trim();
 }
 
 
-function escapeHtml(value) {
-  return String(value)
+function escapeHtml(
+  value
+) {
+  return String(
+    value
+  )
     .replace(
       /&/g,
       "&amp;"
