@@ -3152,7 +3152,6 @@ function renderTags(card) {
 /* =========================================================
    Localized Sections
 ========================================================= */
-
 function renderLocalizedSection(
   sectionElement,
   targetElement,
@@ -3160,112 +3159,132 @@ function renderLocalizedSection(
 ) {
   if (
     !value ||
-    typeof value !==
-      "object"
+    typeof value !== "object"
   ) {
-    sectionElement
-      .classList.add(
-        "hidden"
-      );
-
-    targetElement
-      .innerHTML =
-      "";
-
-    return;
-  }
-
-  const primaryLanguage =
-    state.uiLanguage;
-
-  const secondaryLanguage =
-    primaryLanguage ===
-      "ja"
-      ? "de"
-      : "ja";
-
-  const primaryText =
-    value[
-      primaryLanguage
-    ];
-
-  const secondaryText =
-    value[
-      secondaryLanguage
-    ];
-
-  if (
-    !primaryText &&
-    !secondaryText
-  ) {
-    sectionElement
-      .classList.add(
-        "hidden"
-      );
-
-    targetElement
-      .innerHTML =
-      "";
-
-    return;
-  }
-
-  sectionElement
-    .classList.remove(
+    sectionElement.classList.add(
       "hidden"
     );
 
-  targetElement
-    .innerHTML =
+    targetElement.innerHTML =
+      "";
+
+    return;
+  }
+
+
+  /* =======================================================
+     DE mode
+     German only
+  ======================================================== */
+
+  if (
+    state.uiLanguage === "de"
+  ) {
+    if (
+      !value.de
+    ) {
+      sectionElement.classList.add(
+        "hidden"
+      );
+
+      targetElement.innerHTML =
+        "";
+
+      return;
+    }
+
+    sectionElement.classList.remove(
+      "hidden"
+    );
+
+    targetElement.innerHTML =
+      "";
+
+    const de =
+      document.createElement(
+        "div"
+      );
+
+    de.className =
+      "detail-german";
+
+    de.textContent =
+      value.de;
+
+    targetElement.appendChild(
+      de
+    );
+
+    return;
+  }
+
+
+  /* =======================================================
+     JP mode
+     Japanese first + German below
+  ======================================================== */
+
+  if (
+    !value.ja &&
+    !value.de
+  ) {
+    sectionElement.classList.add(
+      "hidden"
+    );
+
+    targetElement.innerHTML =
+      "";
+
+    return;
+  }
+
+  sectionElement.classList.remove(
+    "hidden"
+  );
+
+  targetElement.innerHTML =
     "";
 
+
   if (
-    primaryText
+    value.ja
   ) {
-    const primary =
+    const ja =
       document.createElement(
         "div"
       );
 
-    primary.className =
-      primaryLanguage ===
-        "ja"
-        ? "detail-japanese"
-        : "detail-german";
+    ja.className =
+      "detail-japanese";
 
-    primary.textContent =
-      primaryText;
+    ja.textContent =
+      value.ja;
 
-    targetElement
-      .appendChild(
-        primary
-      );
+    targetElement.appendChild(
+      ja
+    );
   }
 
+
   if (
-    secondaryText
+    value.de
   ) {
-    const secondary =
+    const de =
       document.createElement(
         "div"
       );
 
-    secondary.className =
-      secondaryLanguage ===
-        "ja"
-        ? "detail-japanese"
-        : "detail-german";
+    de.className =
+      "detail-german";
 
-    secondary.textContent =
-      secondaryText;
+    de.textContent =
+      value.de;
 
-    targetElement
-      .appendChild(
-        secondary
-      );
+    targetElement.appendChild(
+      de
+    );
   }
 }
-
 
 /* =========================================================
    Equivalents
