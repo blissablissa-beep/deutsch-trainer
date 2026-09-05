@@ -3788,7 +3788,6 @@ function hideCollocations() {
     "";
 }
 
-
 function renderCollocationArray(
   collocations
 ) {
@@ -3809,15 +3808,19 @@ function renderCollocationArray(
   wrapper.className =
     "collocation-list";
 
+
   for (
     const item
     of collocations
   ) {
-    if (
-      !item
-    ) {
+    if (!item) {
       continue;
     }
+
+
+    /* =====================================================
+       Simple string
+    ====================================================== */
 
     if (
       typeof item ===
@@ -3841,12 +3844,14 @@ function renderCollocationArray(
       continue;
     }
 
+
     if (
       typeof item !==
       "object"
     ) {
       continue;
     }
+
 
     const container =
       document.createElement(
@@ -3857,7 +3862,10 @@ function renderCollocationArray(
       "collocation-item";
 
 
-    /* German */
+    /* =====================================================
+       German collocation
+       Always shown
+    ====================================================== */
 
     if (
       item.de
@@ -3879,9 +3887,14 @@ function renderCollocationArray(
     }
 
 
-    /* Japanese */
+    /* =====================================================
+       Japanese translation
+       JP mode only
+    ====================================================== */
 
     if (
+      state.uiLanguage ===
+        "ja" &&
       item.ja
     ) {
       const ja =
@@ -3901,25 +3914,76 @@ function renderCollocationArray(
     }
 
 
-    /* Note */
+    /* =====================================================
+       Optional note
+
+       DE mode:
+       show only German note if note is multilingual
+
+       JP mode:
+       show Japanese note if available,
+       otherwise German note
+    ====================================================== */
 
     if (
       item.note
     ) {
-      const note =
-        document.createElement(
-          "div"
+      let noteText =
+        "";
+
+      if (
+        typeof item.note ===
+          "string"
+      ) {
+        /*
+          Existing simple notes remain supported.
+          Because language cannot be determined,
+          show them in JP mode only.
+        */
+        if (
+          state.uiLanguage ===
+          "ja"
+        ) {
+          noteText =
+            item.note;
+        }
+      } else if (
+        typeof item.note ===
+          "object"
+      ) {
+        if (
+          state.uiLanguage ===
+            "de"
+        ) {
+          noteText =
+            item.note.de ||
+            "";
+        } else {
+          noteText =
+            item.note.ja ||
+            item.note.de ||
+            "";
+        }
+      }
+
+      if (
+        noteText
+      ) {
+        const note =
+          document.createElement(
+            "div"
+          );
+
+        note.className =
+          "collocation-note";
+
+        note.textContent =
+          noteText;
+
+        container.appendChild(
+          note
         );
-
-      note.className =
-        "collocation-note";
-
-      note.textContent =
-        item.note;
-
-      container.appendChild(
-        note
-      );
+      }
     }
 
 
@@ -3945,12 +4009,12 @@ function renderCollocationArray(
     return;
   }
 
+
   dom.detailCollocations
     .appendChild(
       wrapper
     );
 }
-
 
 /* =========================================================
    Bookmark
