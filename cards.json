@@ -12171,5 +12171,53 @@
     "ja": "「彼女は来週手術を受ける予定だ。」を sich unterziehen を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „sich einer Operation unterziehen“."
   }
+},
+{
+  "id": "unterstellen",
+  "sid": "2026-00270",
+  "word": "unterstellen",
+  "tags": ["verb", "general", "formal", "organization"],
+  "level": "C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①（悪意・意図などを）決めつける、邪推する ②～の指揮・管轄下に置く ③（物を）屋根の下などに置いて保護する",
+    "de": "①jemandem eine Absicht, Haltung oder Handlung zuschreiben, oft ohne ausreichenden Beweis ②jemanden oder etwas einer Leitung oder Behörde unterordnen ③etwas geschützt, etwa unter einem Dach, abstellen"
+  },
+
+  "nuance": {
+    "ja": "抽象的な用法では jemandem etwas unterstellen の形で、相手に特定の意図・動機・発言などを『そうだと決めつける』意味になり、しばしば否定的。組織では einer Stelle unterstellt sein の形で『～の管轄下にある』を表す。物については自転車や車などを雨風から守るために屋根のある場所へ入れる意味でも使う。",
+    "de": "In abstrakter Bedeutung heißt „jemandem etwas unterstellen“, einer Person eine bestimmte Absicht, Haltung oder Handlung zuzuschreiben, häufig mit negativer Wertung. Organisatorisch bedeutet „jemandem unterstellt sein“, einer Leitung oder Behörde untergeordnet zu sein. Bei Gegenständen kann „unterstellen“ auch bedeuten, sie geschützt unterzubringen."
+  },
+
+  "minimal": {
+    "ja": "unterstellen＝相手の意図などを根拠薄く決めつける、または組織的に下位に置く／vermuten＝根拠をもとに単に推測する／beschuldigen＝具体的な違反・犯罪などの責任を相手に負わせる／unterordnen＝一般に上位のものに従属させる",
+    "de": "unterstellen = jemandem eine Absicht oder Haltung zuschreiben bzw. organisatorisch unterordnen; vermuten = etwas aufgrund von Anhaltspunkten annehmen; beschuldigen = jemandem eine konkrete Schuld oder Tat vorwerfen; unterordnen = allgemein einer übergeordneten Instanz oder einem Prinzip unterstellen"
+  },
+
+  "equivalents": {
+    "en": ["impute", "assume", "subordinate", "shelter"],
+    "it": ["attribuire", "supporre", "subordinare", "riparare"],
+    "fr": ["prêter", "supposer", "subordonner", "abriter"],
+    "es": ["atribuir", "suponer", "subordinar", "resguardar"]
+  },
+
+  "etymology": {
+    "ja": "unter（下に）＋ stellen（置く）からなる語。文字どおりの『下に置く』から、物を保護して置く意味、さらに組織的に下位に置く意味、比喩的にある意図・考えを人に『帰する』意味へ広がった。",
+    "de": "Gebildet aus „unter“ und „stellen“. Aus der wörtlichen Bedeutung „unter etwas stellen“ entwickelten sich sowohl die organisatorische Bedeutung des Unterordnens als auch die übertragene Bedeutung, jemandem eine Absicht oder Haltung zuzuschreiben."
+  },
+
+  "example": {
+    "ja": "私は彼に悪意があるなどと決めつけたくない。",
+    "de": "Ich möchte ihm keine böse Absicht unterstellen."
+  },
+
+  "task": {
+    "ja": "「彼女は私が嘘をついていると決めつけた。」を unterstellen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „unterstellen“, in dem jemandem unterstellt wird, nicht die Wahrheit zu sagen."
+  }
 }
 ]
