@@ -1,1 +1,50 @@
-[]
+[
+{
+  "id": "umfahren",
+  "sid": "2026-00271",
+  "word": "umfahren",
+  "tags": ["verb", "movement", "driving", "contrast"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+
+  "meaning": {
+    "ja": "①迂回する、避けて通る ②車ではねる、ひき倒す",
+    "de": "①um etwas herumfahren und es vermeiden ②jemanden oder etwas mit einem Fahrzeug anfahren und zu Fall bringen"
+  },
+
+  "nuance": {
+    "ja": "同じ綴りだが、アクセントと活用によって意味が変わる。『迂回する』の umFAHren は分離動詞で、現在形では fährt ... um、過去分詞は umgefahren。『車ではねる』の UMfahren は非分離動詞で、現在形では umfährt、過去分詞も umfahren となる。",
+    "de": "Das Verb hat je nach Betonung und Trennbarkeit zwei unterschiedliche Bedeutungen. „umFAHren“ ist trennbar und bedeutet, um etwas herumzufahren; „UMfahren“ ist untrennbar und bedeutet, jemanden oder etwas mit einem Fahrzeug anzufahren und umzuwerfen."
+  },
+
+  "minimal": {
+    "ja": "umFAHren＝障害物・渋滞・場所などを避けて迂回する／UMfahren＝車両で人・物に衝突して倒す／ausweichen＝危険・障害物などを避けるため進路を変える／überfahren＝車で人・物の上を通過する、または轢く",
+    "de": "umFAHren = um ein Hindernis oder einen Ort herumfahren und ihn vermeiden; UMfahren = jemanden oder etwas mit einem Fahrzeug anfahren und zu Fall bringen; ausweichen = die Richtung ändern, um etwas zu vermeiden; überfahren = mit einem Fahrzeug über jemanden oder etwas hinwegfahren"
+  },
+
+  "equivalents": {
+    "en": ["drive around", "bypass", "knock down with a vehicle"],
+    "it": ["aggirare", "investire"],
+    "fr": ["contourner", "renverser"],
+    "es": ["rodear", "atropellar"]
+  },
+
+  "etymology": {
+    "ja": "um（周囲に、回って）＋ fahren（乗り物で進む）からなる。分離動詞では『周りを走る』から『迂回する』、非分離動詞では『車でぶつかって倒す』という意味に発達した。",
+    "de": "Gebildet aus „um“ und „fahren“. In der trennbaren Verwendung bezeichnet es das Fahren um etwas herum; in der untrennbaren Verwendung entwickelte sich die Bedeutung, jemanden oder etwas mit einem Fahrzeug umzustoßen."
+  },
+
+  "example": {
+    "ja": "私たちは工事現場を迂回しなければならなかった。",
+    "de": "Wir mussten die Baustelle umfahren."
+  },
+
+  "task": {
+    "ja": "『車は標識をはね倒した。』を umfahren を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit dem untrennbaren „umfahren“, in dem ein Auto ein Schild umfährt."
+  }
+}
+]
