@@ -46,5 +46,75 @@
     "ja": "『車は標識をはね倒した。』を umfahren を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit dem untrennbaren „umfahren“, in dem ein Auto ein Schild umfährt."
   }
+},
+{
+  "id": "verschwommen",
+  "sid": "2026-00272",
+  "word": "verschwommen",
+  "tags": ["adj", "perception", "abstract", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+  "pronunciation": {
+    "ipa": "/fɛɐ̯ˈʃvɔmən/"
+  },
+  "meaning": {
+    "ja": "①ぼやけた、かすんだ ②曖昧な、はっきりしない",
+    "de": "①nicht klar oder scharf erkennbar ②unklar, undeutlich oder nur vage bestimmt"
+  },
+  "nuance": {
+    "ja": "視覚的に輪郭がぼやけている状態にも、記憶・境界・考えなどが曖昧ではっきりしない状態にも使える。物理的な『ぼやけ』から抽象的な『曖昧さ』まで広く使われる。",
+    "de": "Kann sowohl eine optisch unscharfe Wahrnehmung als auch etwas gedanklich oder begrifflich Unklares bezeichnen. Das Wort wird daher sowohl konkret als auch übertragen verwendet."
+  },
+  "collocations": [
+    {
+      "de": "ein verschwommenes Bild",
+      "ja": "ぼやけた画像"
+    },
+    {
+      "de": "verschwommene Konturen",
+      "ja": "ぼやけた輪郭"
+    },
+    {
+      "de": "eine verschwommene Erinnerung",
+      "ja": "ぼんやりした記憶"
+    },
+    {
+      "de": "verschwommene Grenzen",
+      "ja": "曖昧な境界"
+    },
+    {
+      "de": "nur verschwommen erkennen",
+      "ja": "ぼんやりとしか認識できない"
+    },
+    {
+      "de": "alles wirkt verschwommen",
+      "ja": "すべてがぼやけて見える"
+    }
+  ],
+  "minimal": {
+    "ja": "unscharf＝主に画像・視界などが焦点の合っていない状態／undeutlich＝音・文字・説明などが明瞭でないという広い語／vage＝考え・発言・情報などが具体性を欠いて曖昧／verschwommen＝輪郭や境界が溶けるようにぼやけ、視覚的にも抽象的にもはっきりしない",
+    "de": "unscharf = besonders bei Bildern oder Sicht nicht scharf fokussiert; undeutlich = allgemein nicht klar wahrnehmbar oder verständlich; vage = inhaltlich wenig konkret oder genau; verschwommen = so unklar, dass Konturen, Grenzen oder Vorstellungen gleichsam ineinander übergehen"
+  },
+  "equivalents": {
+    "en": ["blurred", "blurry", "fuzzy", "vague"],
+    "it": ["sfocato", "confuso", "vago"],
+    "fr": ["flou", "brouillé", "vague"],
+    "es": ["borroso", "difuso", "vago"]
+  },
+  "etymology": {
+    "ja": "動詞 verschwimmen『ぼやける、境界が溶け合う』の過去分詞 verschwommen に由来する。さらに schwimmen『泳ぐ、浮かぶ』と同語族で、輪郭が流動的になって境界が失われるイメージをもつ。",
+    "de": "Das Adjektiv geht auf das Partizip II „verschwommen“ von „verschwimmen“ zurück. Die Grundvorstellung ist, dass klare Konturen oder Grenzen gleichsam ineinanderfließen."
+  },
+  "example": {
+    "ja": "霧の中では建物の輪郭がぼやけて見えた。",
+    "de": "Im Nebel wirkten die Umrisse der Gebäude verschwommen."
+  },
+  "task": {
+    "ja": "「その出来事については、ぼんやりとした記憶しかない。」を verschwommen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verschwommen“ über eine nur undeutliche Erinnerung an ein Ereignis."
+  }
 }
 ]
