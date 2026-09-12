@@ -310,5 +310,214 @@
     "ja": "「雨が私たちの遠足を台無しにした。」を verderben を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „verderben“, in dem Regen einen Ausflug ruiniert."
   }
+},
+{
+  "id": "opfergabe",
+  "sid": "2026-00276",
+  "word": "Opfergabe",
+  "tags": ["noun", "religion", "history", "ritual"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+  "pronunciation": {
+    "ipa": "/ˈɔpfɐˌɡaːbə/"
+  },
+  "meaning": {
+    "ja": "供物、捧げ物、奉納物",
+    "de": "Gabe, die einer Gottheit oder im Rahmen eines religiösen Rituals dargebracht wird"
+  },
+  "nuance": {
+    "ja": "神・神々・祖先などに宗教的・儀礼的な目的で捧げる物を表す。食物、酒、香、動物、貴重品などさまざまなものが Opfergabe になり得る。現代の日常語というより、宗教・歴史・考古学・神話の文脈で使われやすい。",
+    "de": "Bezeichnet eine Gabe, die einer Gottheit, den Ahnen oder im Rahmen eines religiösen Rituals dargebracht wird. Opfergaben können etwa aus Nahrung, Getränken, Tieren, Weihrauch oder wertvollen Gegenständen bestehen."
+  },
+  "collocations": [
+    {
+      "de": "eine Opfergabe darbringen",
+      "ja": "供物を捧げる"
+    },
+    {
+      "de": "eine Opfergabe niederlegen",
+      "ja": "供物を供える"
+    },
+    {
+      "de": "rituelle Opfergaben",
+      "ja": "儀礼的な供物"
+    },
+    {
+      "de": "Opfergaben für die Götter",
+      "ja": "神々への供物"
+    }
+  ],
+  "minimal": {
+    "ja": "Opfergabe＝神や宗教的存在に捧げる供物そのもの／Opfer＝犠牲・供犠という行為や、その対象を広く表す／Weihegabe＝神殿などに奉納する品で、必ずしも供犠を伴わない／Spende＝宗教的供物に限らない寄付・寄贈",
+    "de": "Opfergabe = konkrete Gabe, die einer Gottheit oder im Ritual dargebracht wird; Opfer = allgemeiner Begriff für Opferhandlung oder Opferobjekt; Weihegabe = einer Gottheit oder einem Heiligtum gewidmeter Gegenstand, nicht zwingend als Opfer; Spende = freiwillige Gabe oder Geldzuwendung ohne notwendigen religiösen Opfercharakter"
+  },
+  "equivalents": {
+    "en": ["offering", "sacrificial offering"],
+    "it": ["offerta votiva", "offerta sacrificale"],
+    "fr": ["offrande", "offrande sacrificielle"],
+    "es": ["ofrenda", "ofrenda sacrificial"]
+  },
+  "etymology": {
+    "ja": "Opfer（供犠、犠牲）＋ Gabe（贈り物、与えるもの）からなる複合語で、文字どおり『供犠として捧げる物』を意味する。",
+    "de": "Zusammensetzung aus „Opfer“ und „Gabe“. Wörtlich bezeichnet das Wort eine Gabe, die als Opfer dargebracht wird."
+  },
+  "example": {
+    "ja": "古代の人々は神々に食物や酒を供物として捧げた。",
+    "de": "Die Menschen der Antike brachten den Göttern Nahrung und Wein als Opfergaben dar."
+  },
+  "task": {
+    "ja": "「祭壇の前に供物が置かれていた。」を Opfergabe を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „Opfergabe“ und einem Altar."
+  }
+},
+{
+  "id": "diversifizieren",
+  "sid": "2026-00277",
+  "word": "diversifizieren",
+  "tags": ["verb", "business", "finance", "strategy"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/divɛʁzifiˈtsiːʁən/"
+  },
+  "conjugation": {
+    "present": "er diversifiziert",
+    "preterite": "er diversifizierte",
+    "perfect": "er hat diversifiziert",
+    "participle2": "diversifiziert",
+    "separable": false
+  },
+  "meaning": {
+    "ja": "多角化する、分散する、多様化する",
+    "de": "etwas auf mehrere Bereiche, Produkte, Märkte oder Anlageformen verteilen und dadurch vielfältiger strukturieren"
+  },
+  "nuance": {
+    "ja": "企業活動・投資・製品構成などを一つの分野に集中させず、複数の分野・市場・資産などに広げることを表す。単に種類を増やすだけでなく、リスク分散や事業基盤の拡大を意図する場合が多い。",
+    "de": "Bezeichnet die gezielte Verteilung auf mehrere Bereiche, Produkte, Märkte oder Anlageformen. Häufig geht es dabei nicht nur um größere Vielfalt, sondern auch um Risikostreuung und strategische Erweiterung."
+  },
+  "collocations": [
+    {
+      "de": "das Portfolio diversifizieren",
+      "ja": "ポートフォリオを分散する"
+    },
+    {
+      "de": "das Geschäft diversifizieren",
+      "ja": "事業を多角化する"
+    },
+    {
+      "de": "die Produktpalette diversifizieren",
+      "ja": "製品構成を多様化する"
+    },
+    {
+      "de": "in verschiedene Märkte diversifizieren",
+      "ja": "複数の市場へ事業を広げる"
+    },
+    {
+      "de": "Risiken durch Diversifizierung reduzieren",
+      "ja": "分散によってリスクを低減する"
+    }
+  ],
+  "minimal": {
+    "ja": "diversifizieren＝事業・投資・製品などを複数分野に戦略的に分散・多角化する／streuen＝投資やリスクなどを広く分散させることに重点／erweitern＝範囲や規模を単純に拡大する／variieren＝内容や形を変化させて多様性を持たせる",
+    "de": "diversifizieren = Aktivitäten, Anlagen oder Produkte strategisch auf mehrere Bereiche verteilen; streuen = besonders Risiken oder Anlagen breit verteilen; erweitern = Umfang oder Bereich allgemein vergrößern; variieren = Inhalte oder Formen verändern und abwechslungsreicher gestalten"
+  },
+  "equivalents": {
+    "en": ["diversify"],
+    "it": ["diversificare"],
+    "fr": ["diversifier"],
+    "es": ["diversificar"]
+  },
+  "etymology": {
+    "ja": "ラテン語 diversus『異なる、多様な』に由来する語族から生じた国際語。そこから『多様な方向へ広げる』という意味になった。",
+    "de": "Das Verb gehört zur internationalen Wortfamilie von lateinisch „diversus“ („verschieden, vielfältig“) und bezeichnet entsprechend das Aufteilen oder Erweitern in verschiedene Bereiche."
+  },
+  "example": {
+    "ja": "企業は海外市場への進出によって事業を多角化した。",
+    "de": "Das Unternehmen diversifizierte sein Geschäft durch den Einstieg in ausländische Märkte."
+  },
+  "task": {
+    "ja": "「投資家はリスクを減らすためにポートフォリオを分散した。」を diversifizieren を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „diversifizieren“, in dem ein Anleger sein Portfolio zur Risikoreduzierung breiter aufstellt."
+  }
+},
+{
+  "id": "auszeichnen",
+  "sid": "2026-00278",
+  "word": "auszeichnen",
+  "tags": ["verb", "general", "evaluation", "commerce"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ˈaʊ̯sˌtsaɪ̯çnən/"
+  },
+  "conjugation": {
+    "present": "er zeichnet aus",
+    "preterite": "er zeichnete aus",
+    "perfect": "er hat ausgezeichnet",
+    "participle2": "ausgezeichnet",
+    "separable": true
+  },
+  "meaning": {
+    "ja": "①表彰する、賞を授ける ②特徴づける、際立たせる ③（商品に）価格などを表示する",
+    "de": "①jemanden für eine besondere Leistung ehren oder prämieren ②ein besonderes Merkmal von jemandem oder etwas sein und ihn oder es dadurch hervorheben ③Waren mit Preis- oder anderen Kennzeichnungen versehen"
+  },
+  "nuance": {
+    "ja": "①では功績や優れた成果に対して賞・勲章などを与える。②では再帰形 sich durch etwas auszeichnen が特に重要で、『～という特徴で際立つ、～を長所とする』の意味になる。③では小売・商業文脈で、商品に価格などを表示する意味。",
+    "de": "In Bedeutung ① geht es um eine Ehrung für besondere Leistungen. Besonders wichtig ist in Bedeutung ② die reflexive Konstruktion „sich durch etwas auszeichnen“, mit der ein hervorstechendes Merkmal bezeichnet wird. In Bedeutung ③ wird das Verb im Handel für die Kennzeichnung von Waren, insbesondere mit Preisen, verwendet."
+  },
+  "collocations": [
+    {
+      "de": "jemanden mit einem Preis auszeichnen",
+      "ja": "人に賞を授与する"
+    },
+    {
+      "de": "für besondere Leistungen ausgezeichnet werden",
+      "ja": "優れた功績で表彰される"
+    },
+    {
+      "de": "sich durch hohe Qualität auszeichnen",
+      "ja": "高品質を特徴とする"
+    },
+    {
+      "de": "sich durch Zuverlässigkeit auszeichnen",
+      "ja": "信頼性の高さで際立つ"
+    },
+    {
+      "de": "Waren mit Preisen auszeichnen",
+      "ja": "商品に価格を表示する"
+    }
+  ],
+  "minimal": {
+    "ja": "auszeichnen＝功績を表彰する、または特徴によって際立たせる／ehren＝敬意を示して称えることに重点／prämieren＝賞・賞金などを与えて選出・表彰することに重点／hervorheben＝ある特徴や点を意識的に強調する／kennzeichnen＝記号・表示・特徴によって識別可能にする一般語",
+    "de": "auszeichnen = jemanden ehren oder durch ein besonderes Merkmal hervorheben; ehren = jemandem besondere Achtung oder Anerkennung erweisen; prämieren = eine Leistung mit einem Preis oder einer Prämie würdigen; hervorheben = einen bestimmten Aspekt bewusst betonen; kennzeichnen = etwas durch Zeichen, Angaben oder Merkmale erkennbar machen"
+  },
+  "equivalents": {
+    "en": ["award", "honor", "distinguish", "mark", "label"],
+    "it": ["premiare", "distinguere", "contrassegnare"],
+    "fr": ["récompenser", "distinguer", "étiqueter"],
+    "es": ["premiar", "distinguir", "marcar"]
+  },
+  "etymology": {
+    "ja": "aus-＋zeichnen『印を付ける、描く』からなる。もともとは『特別な印を付けて他と区別する』という発想で、そこから『際立たせる』『功績を認めて表彰する』という意味へ発展した。",
+    "de": "Gebildet aus „aus-“ und „zeichnen“. Ausgangspunkt ist die Vorstellung, etwas durch ein besonderes Zeichen hervorzuheben; daraus entwickelten sich die Bedeutungen des Unterscheidens, Hervorhebens und Ehrens."
+  },
+  "example": {
+    "ja": "①彼女は研究成果に対して賞を授与された。②このホテルは特に優れたサービスを特徴としている。③店員は新しく入荷した商品に価格を付けた。",
+    "de": "①Sie wurde für ihre Forschungsleistung mit einem Preis ausgezeichnet. ②Dieses Hotel zeichnet sich besonders durch seinen hervorragenden Service aus. ③Die Mitarbeiterin zeichnete die neu eingetroffenen Waren mit Preisen aus."
+  },
+  "task": {
+    "ja": "①『彼は長年の功績をたたえて表彰された。』②『この製品は高い耐久性を特徴としている。』③『すべての商品には価格が表示されている。』を auszeichnen を使ってドイツ語で表現する。",
+    "de": "Formuliere je einen Satz mit „auszeichnen“ in den Bedeutungen ① ehren, ② sich durch ein Merkmal hervorheben und ③ Waren mit Preisen kennzeichnen."
+  }
 }
 ]
