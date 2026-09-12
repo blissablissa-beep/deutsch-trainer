@@ -116,5 +116,199 @@
     "ja": "「その出来事については、ぼんやりとした記憶しかない。」を verschwommen を使ってドイツ語で言う。",
     "de": "Formuliere einen Satz mit „verschwommen“ über eine nur undeutliche Erinnerung an ein Ereignis."
   }
+},
+{
+  "id": "tuepfelchen_auf_dem_i",
+  "sid": "2026-00273",
+  "word": "das Tüpfelchen auf dem i",
+  "tags": ["idiom", "figurative", "general", "positive"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "idiom"
+  },
+  "pronunciation": {
+    "ipa": "/das ˈtʏpfəlçən aʊ̯f deːm ˈiː/"
+  },
+  "meaning": {
+    "ja": "画竜点睛、最後の仕上げ、さらに完璧にする決め手",
+    "de": "die letzte kleine Ergänzung, die etwas bereits Gutes vollkommen oder besonders gelungen macht"
+  },
+  "nuance": {
+    "ja": "すでに十分よくできているものに、最後の小さな要素が加わることで完成度がさらに高まる、という肯定的な比喩表現。物事の最後の仕上げや、成功を決定づける細部について使われる。",
+    "de": "Bezeichnet eine kleine abschließende Ergänzung, die etwas bereits Gelungenes noch vollkommener macht. Die Wendung wird meist positiv und bildlich gebraucht."
+  },
+  "collocations": [
+    {
+      "de": "das Tüpfelchen auf dem i sein",
+      "ja": "最後の仕上げになる"
+    },
+    {
+      "de": "das Tüpfelchen auf dem i setzen",
+      "ja": "最後の仕上げを施す"
+    },
+    {
+      "de": "noch das Tüpfelchen auf dem i",
+      "ja": "さらに最後のひと押し"
+    }
+  ],
+  "minimal": {
+    "ja": "das Tüpfelchen auf dem i＝すでに良いものをさらに完成させる最後の小さな要素／der letzte Schliff＝最終的な仕上げ作業・磨き上げ／das Sahnehäubchen＝追加のうれしい特典や好ましい上乗せ／das i-Tüpfelchen＝ほぼ同義で、より短い名詞的表現",
+    "de": "das Tüpfelchen auf dem i = kleine letzte Ergänzung, die etwas Vollkommenes abrundet; der letzte Schliff = abschließende Verfeinerung oder Überarbeitung; das Sahnehäubchen = zusätzliche angenehme Zugabe; das i-Tüpfelchen = weitgehend gleichbedeutende, kürzere nominale Form"
+  },
+  "equivalents": {
+    "en": ["the icing on the cake", "the finishing touch"],
+    "it": ["la ciliegina sulla torta"],
+    "fr": ["la cerise sur le gâteau"],
+    "es": ["la guinda del pastel"]
+  },
+  "etymology": {
+    "ja": "Tüpfelchen は Tüpfel『小さな点』の指小形。文字どおりには小文字 i の上の点を指し、その点を最後に加えることで文字が完成することから、『最後の仕上げ』という比喩表現になった。",
+    "de": "„Tüpfelchen“ ist die Verkleinerungsform von „Tüpfel“ („kleiner Punkt“). Gemeint ist ursprünglich der Punkt über dem Buchstaben i; daraus entwickelte sich die bildliche Bedeutung einer letzten vervollkommnenden Ergänzung."
+  },
+  "example": {
+    "ja": "素晴らしい景色に加えて、夕焼けが最後の仕上げとなった。",
+    "de": "Der Sonnenuntergang war das Tüpfelchen auf dem i bei dieser ohnehin schon wunderschönen Aussicht."
+  },
+  "task": {
+    "ja": "「デザートがその素晴らしい夕食の最後の仕上げだった。」を das Tüpfelchen auf dem i を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „das Tüpfelchen auf dem i“ über ein gelungenes Abendessen."
+  }
+},
+{
+  "id": "i_tuepfelchen",
+  "sid": "2026-00274",
+  "word": "das i-Tüpfelchen",
+  "tags": ["noun", "idiom", "figurative", "general", "positive"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "n"
+  },
+  "pronunciation": {
+    "ipa": "/ˈiːˌtʏpfəlçən/"
+  },
+  "meaning": {
+    "ja": "画竜点睛、最後の仕上げ、完成度をさらに高める決め手",
+    "de": "kleine letzte Ergänzung, die etwas bereits Gelungenes vollkommen macht"
+  },
+  "nuance": {
+    "ja": "すでに良い状態にあるものを、最後の小さな要素によってさらに完成させることを表す。das Tüpfelchen auf dem i とほぼ同義だが、i-Tüpfelchen は独立した名詞としてより簡潔に使える。",
+    "de": "Bezeichnet eine kleine abschließende Ergänzung, durch die etwas bereits Gelungenes noch vollkommener wird. Es ist weitgehend gleichbedeutend mit „das Tüpfelchen auf dem i“, wird aber kompakter als selbstständiges Substantiv verwendet."
+  },
+  "collocations": [
+    {
+      "de": "das i-Tüpfelchen sein",
+      "ja": "最後の仕上げになる"
+    },
+    {
+      "de": "das i-Tüpfelchen setzen",
+      "ja": "最後の仕上げを施す"
+    },
+    {
+      "de": "das fehlende i-Tüpfelchen",
+      "ja": "欠けていた最後のひと押し"
+    },
+    {
+      "de": "als i-Tüpfelchen",
+      "ja": "最後の仕上げとして"
+    }
+  ],
+  "minimal": {
+    "ja": "das i-Tüpfelchen＝完成度を高める最後の小さな要素を名詞的に簡潔に表す／das Tüpfelchen auf dem i＝同じ発想を慣用句としてより明示的に表す／der letzte Schliff＝仕上げ・磨き上げという作業や改善に焦点／das Sahnehäubchen＝すでに良いものへの嬉しい追加・上乗せに焦点",
+    "de": "das i-Tüpfelchen = kompakte nominale Bezeichnung für die letzte vervollkommnende Kleinigkeit; das Tüpfelchen auf dem i = entsprechende feste Wendung in ausführlicher Form; der letzte Schliff = abschließende Verfeinerung oder Überarbeitung; das Sahnehäubchen = zusätzliche angenehme Zugabe zu etwas bereits Gutem"
+  },
+  "equivalents": {
+    "en": ["finishing touch", "icing on the cake"],
+    "it": ["ciliegina sulla torta", "tocco finale"],
+    "fr": ["touche finale", "cerise sur le gâteau"],
+    "es": ["toque final", "guinda del pastel"]
+  },
+  "etymology": {
+    "ja": "i の上に置かれる小さな点 Tüpfelchen に由来する。文字を完成させる最後の小さな点というイメージから、比喩的に『完成を決定づける最後の細部』を表すようになった。",
+    "de": "Das Wort bezieht sich auf den kleinen Punkt über dem Buchstaben i. Aus der Vorstellung dieses letzten kleinen Details entwickelte sich die übertragene Bedeutung einer abschließenden, vervollkommnenden Ergänzung."
+  },
+  "example": {
+    "ja": "テラスからの眺めが、その素晴らしいホテルの最後の仕上げだった。",
+    "de": "Der Blick von der Terrasse war das i-Tüpfelchen dieses ohnehin schon hervorragenden Hotels."
+  },
+  "task": {
+    "ja": "「生演奏がその夜の最後の仕上げだった。」を i-Tüpfelchen を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „i-Tüpfelchen“ über Live-Musik bei einem gelungenen Abend."
+  }
+},
+{
+  "id": "verderben",
+  "sid": "2026-00275",
+  "word": "verderben",
+  "tags": ["verb", "general", "food", "abstract"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/fɛɐ̯ˈdɛʁbn̩/"
+  },
+  "conjugation": {
+    "present": "er verdirbt",
+    "preterite": "er verdarb",
+    "perfect": "er hat verdorben",
+    "participle2": "verdorben",
+    "separable": false
+  },
+  "meaning": {
+    "ja": "①腐る、傷む ②台無しにする、損なう ③堕落させる",
+    "de": "①schlecht oder ungenießbar werden ②etwas ruinieren oder beeinträchtigen ③jemanden moralisch negativ beeinflussen"
+  },
+  "nuance": {
+    "ja": "食べ物などが自然に傷んで食べられなくなる場合にも、外的要因によって気分・計画・楽しみなどを台無しにする場合にも使える。人については『悪影響を与えて堕落させる』という強い意味にもなる。",
+    "de": "Das Verb kann intransitiv bedeuten, dass Lebensmittel schlecht werden, und transitiv, dass etwas ruiniert oder beeinträchtigt wird. Bei Personen kann es auch eine moralisch negative Beeinflussung ausdrücken."
+  },
+  "collocations": [
+    {
+      "de": "Lebensmittel verderben",
+      "ja": "食品が傷む"
+    },
+    {
+      "de": "jemandem die Laune verderben",
+      "ja": "人の気分を台無しにする"
+    },
+    {
+      "de": "jemandem den Appetit verderben",
+      "ja": "人の食欲をなくさせる"
+    },
+    {
+      "de": "den Spaß verderben",
+      "ja": "楽しみを台無しにする"
+    },
+    {
+      "de": "eine Überraschung verderben",
+      "ja": "サプライズを台無しにする"
+    }
+  ],
+  "minimal": {
+    "ja": "verderben＝腐る・台無しになる／するという広い語／faulen＝主に有機物が腐敗すること／verrotten＝長時間かけて朽ちる・腐食すること／ruinieren＝物事を完全に台無しにする、より強く結果重視／verschlechtern＝状態を悪化させる一般語",
+    "de": "verderben = allgemein schlecht werden oder etwas ruinieren; faulen = vor allem bei organischem Material verfaulen; verrotten = allmählich zerfallen oder faulen; ruinieren = etwas stark oder vollständig zugrunde richten; verschlechtern = einen Zustand allgemein schlechter machen"
+  },
+  "equivalents": {
+    "en": ["spoil", "go bad", "ruin", "corrupt"],
+    "it": ["guastarsi", "rovinare", "corrompere"],
+    "fr": ["se gâter", "gâcher", "corrompre"],
+    "es": ["echarse a perder", "arruinar", "corromper"]
+  },
+  "etymology": {
+    "ja": "古高ドイツ語 farterban などにさかのぼり、『損なう、滅ぼす』という意味をもっていた。terben 系は sterben『死ぬ』とも歴史的に関係し、そこから『だめになる、滅びる』という意味が発達した。",
+    "de": "Das Verb geht auf althochdeutsche Formen wie „farterban“ zurück und bedeutete ursprünglich etwa „zugrunde richten“. Historisch ist es mit der Wortfamilie von „sterben“ verwandt."
+  },
+  "example": {
+    "ja": "冷蔵しないと、その食品はすぐに傷んでしまう。",
+    "de": "Ohne Kühlung verdirbt das Lebensmittel schnell."
+  },
+  "task": {
+    "ja": "「雨が私たちの遠足を台無しにした。」を verderben を使ってドイツ語で言う。",
+    "de": "Formuliere einen Satz mit „verderben“, in dem Regen einen Ausflug ruiniert."
+  }
 }
 ]
