@@ -1,50 +1,67 @@
 [
 {
-  "id": "umfahren",
+  "id": "umfahren_trennbar",
   "sid": "2026-00271",
-  "word": "umfahren",
-  "tags": ["verb", "movement", "driving", "contrast"],
-  "level": "C1",
+  "word": "umfahren (trennbar)",
+  "tags": ["verb", "separable", "driving", "movement"],
+  "level": "B2-C1",
   "freq": "sometimes",
   "grammar": {
     "pos": "verb"
   },
-
+  "pronunciation": {
+    "ipa": "/ˈʊmˌfaːʁən/"
+  },
+  "conjugation": {
+    "present": "er fährt ... um",
+    "preterite": "er fuhr ... um",
+    "perfect": "er hat ... umgefahren",
+    "participle2": "umgefahren",
+    "separable": true
+  },
   "meaning": {
-    "ja": "①迂回する、避けて通る ②車ではねる、ひき倒す",
-    "de": "①um etwas herumfahren und es vermeiden ②jemanden oder etwas mit einem Fahrzeug anfahren und zu Fall bringen"
+    "ja": "（車などで）ぶつけて倒す、はね倒す",
+    "de": "jemanden oder etwas mit einem Fahrzeug anfahren und dadurch zu Fall bringen oder umstoßen"
   },
-
   "nuance": {
-    "ja": "同じ綴りだが、アクセントと活用によって意味が変わる。『迂回する』の umFAHren は分離動詞で、現在形では fährt ... um、過去分詞は umgefahren。『車ではねる』の UMfahren は非分離動詞で、現在形では umfährt、過去分詞も umfahren となる。",
-    "de": "Das Verb hat je nach Betonung und Trennbarkeit zwei unterschiedliche Bedeutungen. „umFAHren“ ist trennbar und bedeutet, um etwas herumzufahren; „UMfahren“ ist untrennbar und bedeutet, jemanden oder etwas mit einem Fahrzeug anzufahren und umzuwerfen."
+    "ja": "車両が人や物に衝突し、その対象を倒すことを表す。接頭辞 um- に強勢があり、分離動詞として活用する。『迂回する』を意味する非分離の umfahren とは、発音・活用・意味がすべて異なる。",
+    "de": "Bezeichnet das Anfahren einer Person oder eines Gegenstands mit einem Fahrzeug, sodass diese oder dieser umgestoßen wird. Die Vorsilbe „um-“ wird betont und das Verb ist trennbar."
   },
-
+  "collocations": [
+    {
+      "de": "einen Pfosten umfahren",
+      "ja": "車で柱をなぎ倒す"
+    },
+    {
+      "de": "ein Verkehrsschild umfahren",
+      "ja": "道路標識を車ではね倒す"
+    },
+    {
+      "de": "einen Fußgänger umfahren",
+      "ja": "歩行者を車ではねて倒す"
+    }
+  ],
   "minimal": {
-    "ja": "umFAHren＝障害物・渋滞・場所などを避けて迂回する／UMfahren＝車両で人・物に衝突して倒す／ausweichen＝危険・障害物などを避けるため進路を変える／überfahren＝車で人・物の上を通過する、または轢く",
-    "de": "umFAHren = um ein Hindernis oder einen Ort herumfahren und ihn vermeiden; UMfahren = jemanden oder etwas mit einem Fahrzeug anfahren und zu Fall bringen; ausweichen = die Richtung ändern, um etwas zu vermeiden; überfahren = mit einem Fahrzeug über jemanden oder etwas hinwegfahren"
+    "ja": "UMfahren（分離）＝車両で衝突して対象を倒す／anfahren＝車両を人・物に衝突させるが、必ずしも倒すとは限らない／überfahren＝人・物の上を車両で通過する、轢く／umFAHren（非分離）＝対象を避けて迂回する",
+    "de": "UMfahren (trennbar) = jemanden oder etwas mit einem Fahrzeug anstoßen und umwerfen; anfahren = mit einem Fahrzeug gegen jemanden oder etwas stoßen, ohne dass es unbedingt umgestoßen wird; überfahren = mit einem Fahrzeug über jemanden oder etwas hinwegfahren; umFAHren (untrennbar) = um etwas herumfahren und es vermeiden"
   },
-
   "equivalents": {
-    "en": ["drive around", "bypass", "knock down with a vehicle"],
-    "it": ["aggirare", "investire"],
-    "fr": ["contourner", "renverser"],
-    "es": ["rodear", "atropellar"]
+    "en": ["knock over with a vehicle", "run into and knock down"],
+    "it": ["investire e abbattere", "travolgere"],
+    "fr": ["renverser avec un véhicule"],
+    "es": ["atropellar y derribar", "derribar con un vehículo"]
   },
-
   "etymology": {
-    "ja": "um（周囲に、回って）＋ fahren（乗り物で進む）からなる。分離動詞では『周りを走る』から『迂回する』、非分離動詞では『車でぶつかって倒す』という意味に発達した。",
-    "de": "Gebildet aus „um“ und „fahren“. In der trennbaren Verwendung bezeichnet es das Fahren um etwas herum; in der untrennbaren Verwendung entwickelte sich die Bedeutung, jemanden oder etwas mit einem Fahrzeug umzustoßen."
+    "ja": "um- と fahren からなる。分離用法では um- が『倒して向きを変える』という結果を表し、車両によって対象を倒す意味になる。",
+    "de": "Gebildet aus „um-“ und „fahren“. In der trennbaren Verwendung bezeichnet „um-“ das Ergebnis des Umstoßens oder Umkippens."
   },
-
   "example": {
-    "ja": "私たちは工事現場を迂回しなければならなかった。",
-    "de": "Wir mussten die Baustelle umfahren."
+    "ja": "①車は道路標識をはね倒した。②運転手は駐車中に誤って柱をなぎ倒した。③そのトラックは柵をはね倒した。",
+    "de": "①Das Auto fuhr das Verkehrsschild um. ②Der Fahrer hat beim Einparken versehentlich einen Pfosten umgefahren. ③Der Lastwagen fuhr den Zaun um."
   },
-
   "task": {
-    "ja": "『車は標識をはね倒した。』を umfahren を使ってドイツ語で言う。",
-    "de": "Formuliere einen Satz mit dem untrennbaren „umfahren“, in dem ein Auto ein Schild umfährt."
+    "ja": "「車が街灯をはね倒した。」を分離動詞 umfahren を使って言う。",
+    "de": "Formuliere einen Satz mit dem trennbaren „umfahren“, in dem ein Auto eine Straßenlaterne umstößt."
   }
 },
 {
@@ -518,6 +535,75 @@
   "task": {
     "ja": "①『彼は長年の功績をたたえて表彰された。』②『この製品は高い耐久性を特徴としている。』③『すべての商品には価格が表示されている。』を auszeichnen を使ってドイツ語で表現する。",
     "de": "Formuliere je einen Satz mit „auszeichnen“ in den Bedeutungen ① ehren, ② sich durch ein Merkmal hervorheben und ③ Waren mit Preisen kennzeichnen."
+  }
+},
+{
+  "id": "umfahren_untrennbar",
+  "sid": "2026-00279",
+  "word": "umfahren (untrennbar)",
+  "tags": ["verb", "inseparable", "driving", "movement"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ʊmˈfaːʁən/"
+  },
+  "conjugation": {
+    "present": "er umfährt",
+    "preterite": "er umfuhr",
+    "perfect": "er hat umfahren",
+    "participle2": "umfahren",
+    "separable": false
+  },
+  "meaning": {
+    "ja": "迂回する、回避して通る、周りを走る",
+    "de": "um ein Hindernis, einen Ort oder einen bestimmten Bereich herumfahren, statt hindurchzufahren"
+  },
+  "nuance": {
+    "ja": "工事現場・渋滞・障害物・都市などを避け、別の経路でその周囲を通ることを表す。fahren に強勢があり、非分離動詞なので現在形でも umfährt、過去分詞も ge- を取らず umfahren となる。",
+    "de": "Bezeichnet das Fahren um ein Hindernis, einen Ort oder einen Bereich herum. Der Verbstamm „fahren“ wird betont; das Verb ist untrennbar und bildet das Partizip II ohne „ge-“."
+  },
+  "collocations": [
+    {
+      "de": "eine Baustelle umfahren",
+      "ja": "工事現場を迂回する"
+    },
+    {
+      "de": "einen Stau umfahren",
+      "ja": "渋滞を迂回する"
+    },
+    {
+      "de": "ein Hindernis umfahren",
+      "ja": "障害物を避けて通る"
+    },
+    {
+      "de": "die Innenstadt weiträumig umfahren",
+      "ja": "市街中心部を大きく迂回する"
+    }
+  ],
+  "minimal": {
+    "ja": "umFAHren（非分離）＝車で対象の周囲を通り、避けて進む／ausweichen＝危険・障害物を避けるため進路を変える一般的な動作／umgehen＝問題・規則・障害などを回避することが多く、比喩的にも使う／UMfahren（分離）＝車両で対象に衝突して倒す",
+    "de": "umFAHren (untrennbar) = mit einem Fahrzeug um etwas herumfahren und es vermeiden; ausweichen = die Richtung ändern, um einer Gefahr oder einem Hindernis zu entgehen; umgehen = etwas vermeiden oder umgehen, häufig auch übertragen; UMfahren (trennbar) = jemanden oder etwas mit einem Fahrzeug anfahren und umstoßen"
+  },
+  "equivalents": {
+    "en": ["drive around", "bypass", "go around"],
+    "it": ["aggirare", "circumnavigare"],
+    "fr": ["contourner", "éviter en passant autour"],
+    "es": ["rodear", "sortear"]
+  },
+  "etymology": {
+    "ja": "um と fahren からなる。非分離用法では『周囲を回って走る』という空間的意味を保ち、対象を避けてその周囲を通行することを表す。",
+    "de": "Gebildet aus „um“ und „fahren“. In der untrennbaren Verwendung bleibt die räumliche Vorstellung erhalten, um etwas herumzufahren."
+  },
+  "example": {
+    "ja": "①私たちは工事現場を迂回した。②彼は渋滞を避けるため市街地を迂回した。③大型車はその狭い道路を避けて通らなければならない。",
+    "de": "①Wir haben die Baustelle umfahren. ②Er umfuhr die Innenstadt, um den Stau zu vermeiden. ③Schwere Fahrzeuge müssen die enge Straße umfahren."
+  },
+  "task": {
+    "ja": "「私たちは渋滞を迂回するため別の道を通った。」を非分離動詞 umfahren を使って言う。",
+    "de": "Formuliere einen Satz mit dem untrennbaren „umfahren“, in dem ein Stau vermieden wird."
   }
 }
 ]
