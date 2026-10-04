@@ -956,5 +956,143 @@
     "ja": "①「飛行機は空港への進入を開始した。」②「彼女の表情には一瞬、不安の色が浮かんだ。」を Anflug を使って表現する。",
     "de": "Formuliere je einen Satz mit „Anflug“ in den Bedeutungen ① Annäherung eines Flugzeugs und ② schwaches Auftreten eines Gefühls."
   }
+},
+{
+  "id": "lappen",
+  "sid": "2026-00285",
+  "word": "Lappen",
+  "tags": ["noun", "general", "household", "colloquial", "insult"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+  "pronunciation": {
+    "ipa": "/ˈlapn̩/"
+  },
+  "meaning": {
+    "ja": "①布きれ、雑巾、ふきん ②ぼろ布状・薄片状のもの ③俗語：間抜け、弱虫、だらしない人",
+    "de": "①ein Stück Stoff, besonders zum Wischen oder Reinigen ②ein weiches, flaches oder herabhängendes Stück von etwas ③umgangssprachlich und abwertend: eine unfähige, schwache oder lächerliche Person"
+  },
+  "nuance": {
+    "ja": "①が基本義で、特に Reinigungslappen のように掃除用の布を指す。②では文脈により皮膚・組織・布などの『ひらひらした一片』のようなものにも使われる。③はかなり口語的で侮蔑的なので、学習上は意味を知っておく価値はあるが、自分から使う際は注意が必要。",
+    "de": "Die Grundbedeutung ist ein Stück Stoff, häufig zum Putzen oder Wischen. Je nach Kontext kann „Lappen“ auch ein flaches oder herabhängendes Stück von etwas bezeichnen. Als Personenbezeichnung ist das Wort umgangssprachlich und abwertend."
+  },
+  "collocations": [
+    {
+      "de": "ein feuchter Lappen",
+      "ja": "湿らせた布"
+    },
+    {
+      "de": "mit einem Lappen abwischen",
+      "ja": "布で拭き取る"
+    },
+    {
+      "de": "ein Putzlappen",
+      "ja": "雑巾"
+    },
+    {
+      "de": "ein alter Lappen",
+      "ja": "古いぼろ布"
+    },
+    {
+      "de": "Du Lappen!",
+      "ja": "この間抜け！／この弱虫！"
+    }
+  ],
+  "minimal": {
+    "ja": "Lappen＝布きれ・雑巾を表す口語的で具体的な語／Tuch＝布・クロスを広く表す中立的な語／Fetzen＝破れた布切れ・ぼろ切れというニュアンスが強い／Waschlappen＝体を洗うための洗浄布／Putzlappen＝掃除用の雑巾",
+    "de": "Lappen = konkretes Stück Stoff, oft zum Wischen oder Putzen; Tuch = neutraler und allgemeiner Begriff für ein Stoffstück; Fetzen = zerrissenes oder abgerissenes Stück Stoff; Waschlappen = Lappen zum Waschen des Körpers; Putzlappen = Lappen zum Reinigen"
+  },
+  "equivalents": {
+    "en": ["rag", "cloth", "wipe", "wimp", "loser"],
+    "it": ["straccio", "panno", "pezzo di stoffa", "incapace"],
+    "fr": ["chiffon", "linge", "loque", "minable"],
+    "es": ["trapo", "paño", "harapo", "pelele"]
+  },
+  "etymology": {
+    "ja": "古くからゲルマン語系に見られる語で、もともと布や皮などの『垂れ下がる一片』を指した。そこから掃除用の布や、形状の似たものへ意味が広がった。",
+    "de": "Das Wort ist altgermanischen Ursprungs und bezeichnete ursprünglich ein herabhängendes oder loses Stück Stoff oder Material. Daraus entwickelten sich die heutigen konkreten und übertragenen Bedeutungen."
+  },
+  "example": {
+    "ja": "①彼は湿らせた布でテーブルを拭いた。②床には古い布切れが落ちていた。③彼を『Lappen』と呼ぶのはかなり失礼だ。",
+    "de": "①Er wischte den Tisch mit einem feuchten Lappen ab. ②Auf dem Boden lag ein alter Lappen. ③Es ist ziemlich beleidigend, jemanden als „Lappen“ zu bezeichnen."
+  },
+  "task": {
+    "ja": "①「その汚れを布で拭き取って。」②「床にぼろ布が落ちている。」③「Lappen は人に対して使うと侮蔑的だ。」を Lappen を使って表現する。",
+    "de": "Formuliere je einen Satz mit „Lappen“ in den Bedeutungen ① Putz- oder Wischtuch, ② altes Stoffstück und ③ abwertende Personenbezeichnung."
+  }
+},
+{
+  "id": "nachschub",
+  "sid": "2026-00286",
+  "word": "Nachschub",
+  "tags": ["noun", "logistics", "military", "supply", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+  "pronunciation": {
+    "ipa": "/ˈnaːxˌʃuːp/"
+  },
+  "meaning": {
+    "ja": "①補給、補給物資 ②追加供給、補充分 ③比喩的に追加投入・追加分",
+    "de": "①Versorgung mit zusätzlichem Material, Proviant oder Ausrüstung ②zusätzliche Lieferung oder Auffüllung ③übertragen: zusätzliche Menge oder Verstärkung"
+  },
+  "nuance": {
+    "ja": "もともとは軍事・兵站の文脈で、前線や部隊へ物資・食料・弾薬などを送り続ける『補給』を表す語。そこから物流や日常でも、在庫・飲食物・資源などの追加供給を表すようになった。単なる Lieferung より『足りなくなったものを後から補う』感覚が強い。",
+    "de": "Ursprünglich bezeichnet das Wort vor allem die Versorgung von Truppen mit Material, Proviant oder Munition. Heute kann es auch allgemein für zusätzliche Lieferungen oder die Auffüllung knapper Bestände verwendet werden."
+  },
+  "collocations": [
+    {
+      "de": "für Nachschub sorgen",
+      "ja": "補給を確保する"
+    },
+    {
+      "de": "Nachschub erhalten",
+      "ja": "補給を受ける"
+    },
+    {
+      "de": "der Nachschub an Lebensmitteln",
+      "ja": "食料の補給"
+    },
+    {
+      "de": "militärischer Nachschub",
+      "ja": "軍事補給"
+    },
+    {
+      "de": "der Nachschub stockt",
+      "ja": "補給が滞る"
+    },
+    {
+      "de": "für ausreichend Nachschub sorgen",
+      "ja": "十分な補給を確保する"
+    }
+  ],
+  "minimal": {
+    "ja": "Nachschub＝不足分を後から補うための継続的・追加的な供給／Lieferung＝品物を届けること、またはその配送物そのもの／Versorgung＝必要な物資やサービスを継続的に供給するというより広い概念／Vorrat＝すでに蓄えてある在庫・備蓄／Auffüllung＝減ったものを再び満たすことに重点",
+    "de": "Nachschub = zusätzliche Versorgung, um verbrauchte oder fehlende Bestände zu ersetzen; Lieferung = das Bringen oder die Sendung von Waren; Versorgung = umfassendere kontinuierliche Bereitstellung notwendiger Güter oder Leistungen; Vorrat = bereits vorhandener Bestand; Auffüllung = das erneute Füllen eines verminderten Bestands"
+  },
+  "equivalents": {
+    "en": ["resupply", "reinforcements", "additional supplies"],
+    "it": ["rifornimento", "approvvigionamento", "scorte aggiuntive"],
+    "fr": ["ravitaillement", "réapprovisionnement"],
+    "es": ["abastecimiento", "reabastecimiento", "suministros adicionales"]
+  },
+  "etymology": {
+    "ja": "nach-『後から、追加で』と Schub『押すこと、送り出すこと』からなる。文字どおりには『後から送り込まれるもの』という発想で、そこから補給物資・追加供給の意味になった。",
+    "de": "Das Wort ist aus „nach-“ und „Schub“ gebildet. Die Grundvorstellung ist etwas, das nachträglich weitergeschoben oder nachgeliefert wird."
+  },
+  "example": {
+    "ja": "①部隊は数日間、十分な補給を受けられなかった。②店では飲料の追加補充が必要になった。③イベントの途中でスタッフが新しい資料を追加で持ってきた。",
+    "de": "①Die Truppen erhielten mehrere Tage lang keinen ausreichenden Nachschub. ②Im Geschäft wurde zusätzlicher Nachschub an Getränken benötigt. ③Während der Veranstaltung brachte das Personal Nachschub an Informationsmaterial."
+  },
+  "task": {
+    "ja": "①「部隊への補給が途絶えた。」②「飲み物の追加補充が必要だ。」③「資料の追加分が届いた。」を Nachschub を使って表現する。",
+    "de": "Formuliere je einen Satz mit „Nachschub“ in den Bedeutungen ① militärische Versorgung, ② zusätzliche Warenlieferung und ③ allgemeine zusätzliche Menge."
+  }
 }
 ]
