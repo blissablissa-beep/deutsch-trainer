@@ -605,5 +605,356 @@
     "ja": "「私たちは渋滞を迂回するため別の道を通った。」を非分離動詞 umfahren を使って言う。",
     "de": "Formuliere einen Satz mit dem untrennbaren „umfahren“, in dem ein Stau vermieden wird."
   }
+},
+{
+  "id": "stornierung",
+  "sid": "2026-00280",
+  "word": "Stornierung",
+  "tags": ["noun", "travel", "business", "booking", "general"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "f"
+  },
+  "pronunciation": {
+    "ipa": "/ʃtɔʁˈniːʁʊŋ/"
+  },
+  "meaning": {
+    "ja": "①キャンセル、取消し ②（予約・注文・契約などの）取り消し手続き",
+    "de": "①das Rückgängigmachen einer Buchung, Bestellung oder Vereinbarung ②der Vorgang, durch den eine Buchung, Bestellung oder ein Vertrag aufgehoben wird"
+  },
+  "nuance": {
+    "ja": "ホテル、航空券、レストラン、イベント、注文など、すでに成立・確定した予約や取引を取り消す場面で使う。日常語の Absage よりも、予約・商取引・事務手続きのニュアンスが強い。",
+    "de": "Wird besonders bei Buchungen, Reisen, Bestellungen, Verträgen und anderen geschäftlichen oder organisatorischen Vorgängen verwendet. Im Vergleich zu „Absage“ klingt „Stornierung“ stärker nach einer formalen Rücknahme einer bereits bestehenden Buchung oder Vereinbarung."
+  },
+  "collocations": [
+    {
+      "de": "eine Stornierung vornehmen",
+      "ja": "キャンセル手続きをする"
+    },
+    {
+      "de": "kostenlose Stornierung",
+      "ja": "無料キャンセル"
+    },
+    {
+      "de": "Stornierung einer Buchung",
+      "ja": "予約のキャンセル"
+    },
+    {
+      "de": "Stornierungsgebühr",
+      "ja": "キャンセル料"
+    },
+    {
+      "de": "eine Stornierung bestätigen",
+      "ja": "キャンセルを確認する"
+    }
+  ],
+  "minimal": {
+    "ja": "Stornierung＝予約・注文・契約などを正式に取り消すこと／Absage＝予定・会合・招待などを断る、開催を取りやめること／Widerruf＝意思表示や契約を法的に撤回すること／Kündigung＝契約関係を将来に向かって終了させること",
+    "de": "Stornierung = formelle Aufhebung einer Buchung, Bestellung oder ähnlichen Vereinbarung; Absage = Mitteilung, dass ein Termin, Treffen oder eine Veranstaltung nicht stattfindet oder nicht wahrgenommen wird; Widerruf = rechtliche Rücknahme einer Erklärung oder eines Vertrags; Kündigung = Beendigung eines Vertragsverhältnisses für die Zukunft"
+  },
+  "equivalents": {
+    "en": ["cancellation"],
+    "it": ["cancellazione", "annullamento"],
+    "fr": ["annulation"],
+    "es": ["cancelación", "anulación"]
+  },
+  "etymology": {
+    "ja": "動詞 stornieren『取り消す、キャンセルする』から派生した名詞。stornieren はイタリア語 stornare『取り消す、差し引く』などを経由した商業・会計語彙に由来する。",
+    "de": "Das Substantiv ist von „stornieren“ abgeleitet. Das Verb gelangte über die kaufmännische Sprache ins Deutsche und steht historisch unter anderem mit italienisch „stornare“ in Verbindung."
+  },
+  "example": {
+    "ja": "①このホテルでは到着日の2日前まで無料でキャンセルできます。②予約のキャンセル後、確認メールが送られてきた。",
+    "de": "①Bei diesem Hotel ist eine kostenlose Stornierung bis zwei Tage vor der Anreise möglich. ②Nach der Stornierung der Buchung wurde mir eine Bestätigung per E-Mail geschickt."
+  },
+  "task": {
+    "ja": "①「この予約は無料でキャンセルできます。」②「キャンセルには手数料がかかります。」を Stornierung を使ってドイツ語で表現する。",
+    "de": "Formuliere zwei Sätze mit „Stornierung“: einen über eine kostenlose Stornierung und einen über eine Stornierungsgebühr."
+  }
+},
+{
+  "id": "defizit",
+  "sid": "2026-00281",
+  "word": "Defizit",
+  "tags": ["noun", "finance", "economics", "general", "abstract"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "n"
+  },
+  "pronunciation": {
+    "ipa": "/defiˈtsiːt/"
+  },
+  "meaning": {
+    "ja": "①不足、欠損 ②赤字、財政赤字 ③能力・知識などの不足、欠点",
+    "de": "①ein Mangel oder Fehlbetrag ②ein finanzieller Fehlbetrag, besonders bei einem Haushalt ③ein Mangel an Fähigkeiten, Wissen oder anderen Eigenschaften"
+  },
+  "nuance": {
+    "ja": "数量的な不足にも、財政上の赤字にも、能力や知識など抽象的な不足にも使える。特に経済・財政分野では Haushaltdefizit や Staatsdefizit のような複合語で非常によく使われる。",
+    "de": "Das Wort kann sowohl einen quantitativen Mangel als auch einen finanziellen Fehlbetrag oder einen abstrakten Mangel an Fähigkeiten oder Wissen bezeichnen. Besonders häufig ist es in wirtschaftlichen und politischen Zusammenhängen."
+  },
+  "collocations": [
+    {
+      "de": "ein Defizit aufweisen",
+      "ja": "不足・赤字を抱えている"
+    },
+    {
+      "de": "ein Defizit ausgleichen",
+      "ja": "不足・赤字を埋め合わせる"
+    },
+    {
+      "de": "ein Defizit abbauen",
+      "ja": "赤字・不足を削減する"
+    },
+    {
+      "de": "ein Haushaltsdefizit",
+      "ja": "財政赤字"
+    },
+    {
+      "de": "ein Wissensdefizit",
+      "ja": "知識不足"
+    },
+    {
+      "de": "ein Kompetenzdefizit",
+      "ja": "能力不足"
+    }
+  ],
+  "minimal": {
+    "ja": "Defizit＝数量・財政・能力などの不足を広く表す、やや硬い語／Mangel＝不足・欠陥を表す最も一般的な語／Fehlbetrag＝会計上の不足額そのもの／Schwäche＝能力・性質上の弱点／Minus＝口語的に赤字やマイナスを表すことがある",
+    "de": "Defizit = eher formeller Begriff für einen Mangel, Fehlbetrag oder eine unzureichende Fähigkeit; Mangel = allgemeiner Ausdruck für etwas Fehlendes oder Unzureichendes; Fehlbetrag = konkrete finanzielle Differenz; Schwäche = persönliche oder strukturelle Schwachstelle; Minus = umgangssprachlich auch für einen negativen finanziellen Saldo"
+  },
+  "equivalents": {
+    "en": ["deficit", "shortfall", "deficiency"],
+    "it": ["deficit", "carenza"],
+    "fr": ["déficit", "insuffisance"],
+    "es": ["déficit", "carencia"]
+  },
+  "etymology": {
+    "ja": "ラテン語 deficit『不足している、欠けている』に由来する。これは deficere『欠ける、不足する』の活用形で、そこから財政・数量・能力などの『不足』を表す国際語になった。",
+    "de": "Das Wort stammt von lateinisch „deficit“ („es fehlt“) ab, einer Form von „deficere“ („fehlen, mangeln“). Daraus entwickelte sich der internationale Begriff für einen Mangel oder Fehlbetrag."
+  },
+  "example": {
+    "ja": "①この地域では医療スタッフの不足が深刻だ。②政府は来年度の財政赤字を縮小しようとしている。③彼にはこの分野について明らかな知識不足がある。",
+    "de": "①In dieser Region besteht ein erhebliches Defizit an medizinischem Personal. ②Die Regierung versucht, das Haushaltsdefizit im kommenden Jahr zu verringern. ③Er weist in diesem Bereich ein deutliches Wissensdefizit auf."
+  },
+  "task": {
+    "ja": "①「この会社には熟練労働者が不足している。」②「政府は財政赤字を削減しなければならない。」③「彼女には経験不足がある。」を Defizit を使って表現する。",
+    "de": "Formuliere je einen Satz mit „Defizit“ in den Bedeutungen ① allgemeiner Mangel, ② finanzieller Fehlbetrag und ③ Mangel an Fähigkeiten oder Erfahrung."
+  }
+},
+{
+  "id": "mangel",
+  "sid": "2026-00282",
+  "word": "Mangel",
+  "tags": ["noun", "general", "abstract", "quality", "shortage"],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+  "pronunciation": {
+    "ipa": "/ˈmaŋəl/"
+  },
+  "meaning": {
+    "ja": "①不足、欠乏 ②欠陥、欠点、不備 ③～がないこと、～不足",
+    "de": "①das Fehlen oder die unzureichende Menge von etwas ②ein Fehler oder eine Unzulänglichkeit ③das Fehlen einer bestimmten Eigenschaft, Fähigkeit oder Ressource"
+  },
+  "nuance": {
+    "ja": "非常に広く使える語で、人手・時間・資金・食料などの不足にも、製品や制度の欠陥にも使える。特に „Mangel an + Dativ“ は『～不足』を表す基本構文。文脈によって『不足』と『欠陥』の両方を表し得る点が重要。",
+    "de": "Ein sehr vielseitiges Wort, das sowohl einen Mangel an Ressourcen, Personal oder Zeit als auch einen Fehler oder eine Unzulänglichkeit bezeichnen kann. Besonders wichtig ist die Konstruktion „Mangel an + Dativ“."
+  },
+  "collocations": [
+    {
+      "de": "Mangel an Fachkräften",
+      "ja": "専門人材不足"
+    },
+    {
+      "de": "Mangel an Zeit",
+      "ja": "時間不足"
+    },
+    {
+      "de": "Mangel an Erfahrung",
+      "ja": "経験不足"
+    },
+    {
+      "de": "einen Mangel beheben",
+      "ja": "欠陥を是正する"
+    },
+    {
+      "de": "einen Mangel feststellen",
+      "ja": "欠陥を確認する"
+    },
+    {
+      "de": "unter einem Mangel leiden",
+      "ja": "不足に苦しむ"
+    }
+  ],
+  "minimal": {
+    "ja": "Mangel＝不足・欠乏・欠陥を広く表す一般語／Defizit＝数量・財政・能力などの不足をより分析的・硬く表す／Fehler＝具体的な誤り・ミス／Defekt＝機械・装置などの故障や物理的欠陥／Knappheit＝供給が少なく十分でない状態、特に資源・物資の不足",
+    "de": "Mangel = allgemeiner Begriff für Fehlen, Unzulänglichkeit oder Defekt; Defizit = eher analytischer und formeller Begriff für einen Fehlbestand oder eine Unterdeckung; Fehler = konkrete falsche Handlung oder fehlerhafte Stelle; Defekt = technischer oder materieller Schaden; Knappheit = Zustand, in dem etwas nur begrenzt verfügbar ist"
+  },
+  "equivalents": {
+    "en": ["lack", "shortage", "deficiency", "defect"],
+    "it": ["mancanza", "carenza", "difetto"],
+    "fr": ["manque", "pénurie", "défaut"],
+    "es": ["falta", "escasez", "defecto"]
+  },
+  "etymology": {
+    "ja": "中高ドイツ語 mangel などにさかのぼり、『不足している状態、欠けていること』を表してきた。現代ドイツ語でも『量の不足』と『質の欠陥』の両方に意味が広がっている。",
+    "de": "Das Wort geht auf ältere deutsche Formen wie mittelhochdeutsch „mangel“ zurück und bezeichnet seit langem einen Zustand des Fehlens oder der Unzulänglichkeit."
+  },
+  "example": {
+    "ja": "①この地域では医師が不足している。②検査で製品の欠陥が見つかった。③彼は経験不足のため、その仕事を任されなかった。",
+    "de": "①In dieser Region herrscht ein Mangel an Ärzten. ②Bei der Prüfung wurde ein Mangel am Produkt festgestellt. ③Wegen seines Mangels an Erfahrung wurde ihm die Aufgabe nicht übertragen."
+  },
+  "task": {
+    "ja": "①「その会社は人手不足に苦しんでいる。」②「この製品には重大な欠陥がある。」③「時間不足のため計画を変更した。」を Mangel を使って表現する。",
+    "de": "Formuliere je einen Satz mit „Mangel“ in den Bedeutungen ① Ressourcenmangel, ② Fehler oder Unzulänglichkeit und ③ Fehlen einer bestimmten Voraussetzung."
+  }
+},
+{
+  "id": "aufwand",
+  "sid": "2026-00283",
+  "word": "Aufwand",
+  "tags": ["noun", "business", "work", "finance", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+  "pronunciation": {
+    "ipa": "/ˈaʊ̯fˌvant/"
+  },
+  "meaning": {
+    "ja": "①労力、手間 ②時間・費用・資源などの投入量 ③会計上の費用、支出",
+    "de": "①die für etwas nötige Mühe oder Arbeit ②der Einsatz von Zeit, Geld oder anderen Ressourcen ③in der Buchhaltung ein erfolgsmindernder Werteverzehr"
+  },
+  "nuance": {
+    "ja": "何かを実現するために必要となる『手間・労力・時間・費用』をまとめて表せる便利な語。日常・業務では『どれくらい大変か、どれくらいリソースがかかるか』という意味で使われ、会計では専門的に『費用』を意味する。",
+    "de": "Ein vielseitiger Begriff für den Einsatz von Arbeit, Zeit, Geld oder anderen Ressourcen. Im Alltag und Berufsleben steht häufig der benötigte Einsatz im Vordergrund; im Rechnungswesen hat „Aufwand“ zusätzlich eine präzise fachsprachliche Bedeutung."
+  },
+  "collocations": [
+    {
+      "de": "großen Aufwand betreiben",
+      "ja": "大きな手間をかける"
+    },
+    {
+      "de": "mit geringem Aufwand",
+      "ja": "少ない手間で"
+    },
+    {
+      "de": "der zeitliche Aufwand",
+      "ja": "時間的コスト"
+    },
+    {
+      "de": "der finanzielle Aufwand",
+      "ja": "金銭的負担、費用"
+    },
+    {
+      "de": "den Aufwand reduzieren",
+      "ja": "手間・コストを削減する"
+    },
+    {
+      "de": "Aufwand und Ertrag",
+      "ja": "費用と収益"
+    }
+  ],
+  "minimal": {
+    "ja": "Aufwand＝何かのために投入する労力・時間・費用を広く表す／Mühe＝人が感じる苦労・骨折りに重点／Kosten＝金銭的な費用に重点／Einsatz＝人員・資源・努力を投入することに重点／Ausgabe＝実際に支払われる金銭支出、会計上は Aufwand と一致しない場合がある",
+    "de": "Aufwand = allgemeiner Einsatz von Arbeit, Zeit, Geld oder Ressourcen; Mühe = persönliche Anstrengung oder Beschwerlichkeit; Kosten = vor allem finanzielle Belastung; Einsatz = aktives Einbringen von Personen, Mitteln oder Engagement; Ausgabe = tatsächlicher Geldabfluss, der im Rechnungswesen nicht zwingend mit Aufwand identisch ist"
+  },
+  "equivalents": {
+    "en": ["effort", "expenditure", "expense", "outlay"],
+    "it": ["sforzo", "dispendio", "spesa", "costo"],
+    "fr": ["effort", "dépense", "coût"],
+    "es": ["esfuerzo", "gasto", "coste"]
+  },
+  "etymology": {
+    "ja": "動詞 aufwenden『費やす、投入する』に由来する名詞。もともと何かに資源や力を向けて使うという発想から、『手間・労力・費用』の意味が発達した。",
+    "de": "Das Substantiv gehört zu „aufwenden“ im Sinne von „für etwas einsetzen oder verwenden“. Daraus entwickelten sich die Bedeutungen von Arbeits-, Zeit- und Kostenaufwand."
+  },
+  "example": {
+    "ja": "①この作業にはかなりの手間がかかる。②このシステムなら少ない時間的コストで大量のデータを処理できる。③その会社では今年、研究開発費が大幅に増加した。",
+    "de": "①Diese Arbeit erfordert einen erheblichen Aufwand. ②Mit diesem System lassen sich große Datenmengen mit geringem zeitlichem Aufwand verarbeiten. ③Der Aufwand für Forschung und Entwicklung ist in diesem Jahr deutlich gestiegen."
+  },
+  "task": {
+    "ja": "①「この方法なら少ない手間で同じ結果が得られる。」②「導入にはかなりの時間と費用がかかる。」③「会社は費用を削減しようとしている。」を Aufwand を使って表現する。",
+    "de": "Formuliere je einen Satz mit „Aufwand“ in den Bedeutungen ① Arbeitsaufwand, ② Zeit- oder Ressourcenaufwand und ③ finanzieller beziehungsweise buchhalterischer Aufwand."
+  }
+},
+{
+  "id": "anflug",
+  "sid": "2026-00284",
+  "word": "Anflug",
+  "tags": ["noun", "aviation", "figurative", "emotion", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+  "pronunciation": {
+    "ipa": "/ˈanˌfluːk/"
+  },
+  "meaning": {
+    "ja": "①（航空機の）進入、接近、着陸進入 ②（感情・表情・性質などの）かすかな現れ、一瞬の兆し",
+    "de": "①die Annäherung eines Flugzeugs an einen Flughafen oder ein Landefeld ②ein schwaches, kurzes Auftreten eines Gefühls, Ausdrucks oder einer Eigenschaft"
+  },
+  "nuance": {
+    "ja": "①では航空機が空港や滑走路へ向かって接近することを表す。②では比喩的に、感情や表情が強く全面に出るのではなく、ほんの少し・一瞬だけ現れることを表す。特に „ein Anflug von + Dativ“ が非常によく使われる。",
+    "de": "In Bedeutung ① bezeichnet das Wort die Annäherung eines Flugzeugs an einen Flughafen oder eine Landebahn. In Bedeutung ② beschreibt es ein nur schwaches oder kurzes Auftreten eines Gefühls oder einer Eigenschaft, häufig in der Konstruktion „ein Anflug von + Dativ“."
+  },
+  "collocations": [
+    {
+      "de": "im Anflug sein",
+      "ja": "進入中である、接近中である"
+    },
+    {
+      "de": "der Anflug auf einen Flughafen",
+      "ja": "空港への進入"
+    },
+    {
+      "de": "den Anflug abbrechen",
+      "ja": "進入を中止する"
+    },
+    {
+      "de": "ein Anflug von Angst",
+      "ja": "かすかな不安"
+    },
+    {
+      "de": "ein Anflug von Ironie",
+      "ja": "わずかな皮肉"
+    },
+    {
+      "de": "ein Anflug von Melancholie",
+      "ja": "かすかな憂鬱"
+    }
+  ],
+  "minimal": {
+    "ja": "Anflug＝航空機の接近、または感情・性質がかすかに現れること／Annäherung＝物理的・抽象的な接近を広く表す一般語／Landung＝実際の着陸そのもの／Hauch＝ごくわずかな気配・ニュアンスで、より比喩的／Spur＝痕跡・微量・わずかな兆候を表す",
+    "de": "Anflug = Annäherung eines Flugzeugs oder kurzes schwaches Auftreten eines Gefühls; Annäherung = allgemeiner Begriff für das Näherkommen; Landung = tatsächliches Aufsetzen eines Flugzeugs; Hauch = sehr feine, kaum merkliche Nuance; Spur = kleiner Rest oder schwaches Anzeichen von etwas"
+  },
+  "equivalents": {
+    "en": ["approach", "final approach", "touch of", "hint of"],
+    "it": ["avvicinamento", "approccio", "accenno di", "ombra di"],
+    "fr": ["approche", "approche finale", "pointe de", "trace de"],
+    "es": ["aproximación", "aproximación final", "atisbo de", "toque de"]
+  },
+  "etymology": {
+    "ja": "an- と Flug『飛行』からなる語で、文字どおりには『飛んで近づいてくること』を意味する。そこから比喩的に、感情や性質が一瞬近づいて現れるような状態を表す用法が発達した。",
+    "de": "Das Wort ist aus „an-“ und „Flug“ gebildet und bezeichnet ursprünglich das Heranfliegen. Daraus entwickelte sich die übertragene Bedeutung eines kurzen oder schwachen Auftretens eines Gefühls oder einer Eigenschaft."
+  },
+  "example": {
+    "ja": "①飛行機はすでにフランクフルト空港への進入態勢に入っていた。②彼の声にはわずかな皮肉が感じられた。",
+    "de": "①Das Flugzeug befand sich bereits im Anflug auf den Frankfurter Flughafen. ②In seiner Stimme lag ein Anflug von Ironie."
+  },
+  "task": {
+    "ja": "①「飛行機は空港への進入を開始した。」②「彼女の表情には一瞬、不安の色が浮かんだ。」を Anflug を使って表現する。",
+    "de": "Formuliere je einen Satz mit „Anflug“ in den Bedeutungen ① Annäherung eines Flugzeugs und ② schwaches Auftreten eines Gefühls."
+  }
 }
 ]
