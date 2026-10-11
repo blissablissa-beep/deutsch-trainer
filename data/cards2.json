@@ -1094,5 +1094,968 @@
     "ja": "①「部隊への補給が途絶えた。」②「飲み物の追加補充が必要だ。」③「資料の追加分が届いた。」を Nachschub を使って表現する。",
     "de": "Formuliere je einen Satz mit „Nachschub“ in den Bedeutungen ① militärische Versorgung, ② zusätzliche Warenlieferung und ③ allgemeine zusätzliche Menge."
   }
+},
+{
+  "id": "dicht",
+  "sid": "2026-00287",
+  "word": "dicht",
+  "tags": ["adj", "adv", "general", "spatial", "colloquial"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj"
+  },
+  "pronunciation": {
+    "ipa": "/dɪçt/"
+  },
+  "meaning": {
+    "ja": "①密集した、濃い ②隙間のない、密閉された ③すぐ近くの、間近の ④口語：酔っぱらった",
+    "de": "①eng beieinander oder stark konzentriert ②so geschlossen, dass nichts hindurchdringt ③in sehr geringer Entfernung ④umgangssprachlich: betrunken"
+  },
+  "nuance": {
+    "ja": "①では森・霧・人混みなどの『密度が高い』状態を表す。②では容器・窓・配管などが『漏れない、隙間がない』ことを表す。③では副詞的に dicht bei / dicht an の形で『すぐそばに』の意味。④は口語的で、酔っている状態を表す。",
+    "de": "In Bedeutung ① beschreibt „dicht“ eine hohe räumliche Konzentration, etwa bei Wald, Nebel oder Menschen. In Bedeutung ② geht es um vollständige Geschlossenheit oder Undurchlässigkeit. Adverbial kann es sehr geringe Entfernung ausdrücken. Umgangssprachlich kann „dicht“ außerdem „betrunken“ bedeuten."
+  },
+  "collocations": [
+    {
+      "de": "dichter Nebel",
+      "ja": "濃い霧"
+    },
+    {
+      "de": "dichter Wald",
+      "ja": "密生した森"
+    },
+    {
+      "de": "dicht gedrängt",
+      "ja": "ぎっしり詰まって"
+    },
+    {
+      "de": "eine dichte Tür",
+      "ja": "隙間のない扉"
+    },
+    {
+      "de": "nicht ganz dicht sein",
+      "ja": "完全には密閉されていない／俗に：頭がおかしい"
+    },
+    {
+      "de": "dicht am Bahnhof",
+      "ja": "駅のすぐ近くに"
+    },
+    {
+      "de": "völlig dicht sein",
+      "ja": "ひどく酔っている"
+    }
+  ],
+  "minimal": {
+    "ja": "dicht＝密度が高い、隙間がない、近接しているという広い語／eng＝空間的に狭い・間隔が小さいことに重点／kompakt＝まとまりがよく詰まっていること／undurchlässig＝液体・気体などを通さないという技術的な意味／nah＝単に距離が近い",
+    "de": "dicht = eng beieinander, geschlossen oder sehr nah; eng = räumlich knapp oder mit geringem Abstand; kompakt = fest und dicht zusammengedrängt; undurchlässig = technisch: Stoffe oder Flüssigkeiten nicht hindurchlassend; nah = allgemein geringe Entfernung"
+  },
+  "equivalents": {
+    "en": ["dense", "thick", "tight", "sealed", "close", "drunk"],
+    "it": ["fitto", "denso", "ermetico", "vicino", "ubriaco"],
+    "fr": ["dense", "épais", "étanche", "proche", "ivre"],
+    "es": ["denso", "espeso", "hermético", "cerca", "borracho"]
+  },
+  "etymology": {
+    "ja": "古高ドイツ語 dihti などにさかのぼり、『密な、ぎっしりした』という意味を古くから持つ。空間的な密集から、密閉・近接などへ意味が広がった。",
+    "de": "Das Wort geht auf althochdeutsche Formen wie „dihti“ zurück und bezeichnete schon früh etwas eng Zusammenstehendes oder Geschlossenes. Daraus entwickelten sich die heutigen räumlichen und übertragenen Bedeutungen."
+  },
+  "example": {
+    "ja": "①朝は濃い霧が町を覆っていた。②この窓は完全には密閉されていない。③ホテルは中央駅のすぐ近くにある。④彼はパーティーのあと完全に酔っていた。",
+    "de": "①Am Morgen lag dichter Nebel über der Stadt. ②Dieses Fenster ist nicht vollständig dicht. ③Das Hotel liegt dicht am Hauptbahnhof. ④Nach der Party war er völlig dicht."
+  },
+  "task": {
+    "ja": "①「森はとても密生している。」②「この容器は密閉されている。」③「駅のすぐ近くに住んでいる。」④「彼はかなり酔っている。」を dicht を使って表現する。",
+    "de": "Formuliere je einen Satz mit „dicht“ in den Bedeutungen ① hohe Dichte, ② Geschlossenheit, ③ geringe Entfernung und ④ Betrunkenheit."
+  }
+},
+{
+  "id": "vorgaukeln",
+  "sid": "2026-00288",
+  "word": "vorgaukeln",
+  "tags": ["verb", "deception", "figurative", "general"],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ˈfoːɐ̯ˌɡaʊ̯kəln/"
+  },
+  "conjugation": {
+    "present": "er gaukelt ... vor",
+    "preterite": "er gaukelte ... vor",
+    "perfect": "er hat ... vorgegaukelt",
+    "participle2": "vorgegaukelt",
+    "separable": true
+  },
+  "meaning": {
+    "ja": "①～であるかのように見せかける、思わせる ②偽りの印象・幻想を抱かせる",
+    "de": "①jemandem etwas als wirklich oder wahr erscheinen lassen, obwohl es nicht so ist ②bei jemandem bewusst einen falschen oder illusionären Eindruck erzeugen"
+  },
+  "nuance": {
+    "ja": "単に嘘を言うのではなく、相手に具体的なイメージや印象を作り出し、それを現実だと思わせることを表す。目的語として Sicherheit, Freiheit, Erfolg, Normalität など抽象名詞が来ることが多い。語感には『巧みに演出してごまかす』というニュアンスがある。",
+    "de": "Das Verb bezeichnet nicht bloß eine falsche Aussage, sondern das bewusste Erzeugen eines täuschenden Eindrucks oder einer Illusion. Häufig stehen abstrakte Begriffe wie Sicherheit, Normalität oder Erfolg als Objekt."
+  },
+  "collocations": [
+    {
+      "de": "jemandem Sicherheit vorgaukeln",
+      "ja": "人に安心感を装って与える"
+    },
+    {
+      "de": "jemandem Normalität vorgaukeln",
+      "ja": "正常であるかのように思わせる"
+    },
+    {
+      "de": "Erfolg vorgaukeln",
+      "ja": "成功しているように見せかける"
+    },
+    {
+      "de": "eine heile Welt vorgaukeln",
+      "ja": "何も問題のない世界であるかのように見せかける"
+    },
+    {
+      "de": "jemandem etwas vorgaukeln",
+      "ja": "人に何かを本当らしく思わせる"
+    }
+  ],
+  "minimal": {
+    "ja": "vorgaukeln＝虚像や偽りの印象を相手に信じ込ませる／vortäuschen＝事実でない状態を意図的に装う一般語／lügen＝虚偽の発言をすることに重点／vormachen＝口語的に人をだます・思い込ませる／täuschen＝相手を誤認させるという広い語",
+    "de": "vorgaukeln = bei jemandem eine falsche Vorstellung oder Illusion erzeugen; vortäuschen = einen nicht wirklichen Zustand bewusst darstellen; lügen = bewusst eine falsche Aussage machen; vormachen = umgangssprachlich jemanden etwas Falsches glauben lassen; täuschen = allgemein jemanden zu einer falschen Einschätzung bringen"
+  },
+  "equivalents": {
+    "en": ["make someone believe", "delude", "create the illusion of", "pretend"],
+    "it": ["far credere", "illudere", "far sembrare"],
+    "fr": ["faire croire", "donner l'illusion de", "leurrer"],
+    "es": ["hacer creer", "crear la ilusión de", "engañar"]
+  },
+  "etymology": {
+    "ja": "Gaukler『曲芸師、手品師』と同じ語族に属する gaukeln に vor- が付いた語。もともとの『目の前で芸を見せる』という発想から、『実在しないものをあたかも存在するかのように見せる』という比喩的意味になった。",
+    "de": "Das Verb gehört zur Wortfamilie von „Gaukler“ und „gaukeln“. Aus der Vorstellung, jemandem etwas kunstvoll vorzuführen, entwickelte sich die übertragene Bedeutung, jemandem eine nicht reale Vorstellung als wirklich erscheinen zu lassen."
+  },
+  "example": {
+    "ja": "①広告は消費者に存在しない安心感を抱かせた。②彼は家族に、すべてが順調であるかのように見せかけた。",
+    "de": "①Die Werbung gaukelte den Verbrauchern eine Sicherheit vor, die in Wirklichkeit nicht bestand. ②Er gaukelte seiner Familie vor, dass alles in Ordnung sei."
+  },
+  "task": {
+    "ja": "①「その会社は顧客に成功しているという印象を与えた。」②「彼は何も問題がないかのように装った。」を vorgaukeln を使って表現する。",
+    "de": "Formuliere je einen Satz mit „vorgaukeln“ in den Bedeutungen ① einen falschen Eindruck erzeugen und ② jemandem einen nicht realen Zustand als wahr erscheinen lassen."
+  }
+},
+{
+  "id": "gaukler",
+  "sid": "2026-00289",
+  "word": "Gaukler",
+  "tags": ["noun", "historical", "performance", "figurative", "general"],
+  "level": "C1",
+  "freq": "rare",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+  "pronunciation": {
+    "ipa": "/ˈɡaʊ̯klɐ/"
+  },
+  "meaning": {
+    "ja": "①曲芸師、大道芸人、手品師 ②比喩的に、人を巧みに惑わせる者、ペテン師",
+    "de": "①ein Künstler, der durch Kunststücke, Akrobatik oder Tricks unterhält ②übertragen: jemand, der andere mit geschickter Täuschung oder Scheinwirkung beeindruckt oder irreführt"
+  },
+  "nuance": {
+    "ja": "歴史的には市場・祭り・宮廷などで曲芸や手品を披露する芸人を指す。現代語では日常的な職業名としてはあまり一般的ではなく、歴史・文学・比喩表現で出やすい。比喩的に使うと、人を巧みに惑わせる人物というやや否定的な語感を持つ。",
+    "de": "Historisch bezeichnet „Gaukler“ einen fahrenden oder öffentlichen Unterhaltungskünstler, der Kunststücke, Akrobatik oder Tricks vorführt. Heute begegnet das Wort vor allem in historischen, literarischen oder übertragenen Zusammenhängen."
+  },
+  "collocations": [
+    {
+      "de": "ein fahrender Gaukler",
+      "ja": "旅回りの大道芸人"
+    },
+    {
+      "de": "Gaukler und Spielleute",
+      "ja": "大道芸人や楽師たち"
+    },
+    {
+      "de": "die Kunststücke eines Gauklers",
+      "ja": "曲芸師の芸"
+    },
+    {
+      "de": "wie ein Gaukler auftreten",
+      "ja": "曲芸師のように振る舞う"
+    },
+    {
+      "de": "ein politischer Gaukler",
+      "ja": "比喩的に、人を巧みに惑わせる政治家"
+    }
+  ],
+  "minimal": {
+    "ja": "Gaukler＝曲芸・手品などで人を楽しませる歴史的な大道芸人、また比喩的な欺瞞者／Akrobat＝身体技術による曲芸を行う人／Zauberer＝手品師・魔術師／Jongleur＝ジャグリングを行う芸人／Scharlatan＝専門家を装って人を欺くペテン師",
+    "de": "Gaukler = historischer Unterhaltungskünstler mit Kunststücken oder Tricks, übertragen auch ein geschickter Täuscher; Akrobat = Künstler mit körperlich anspruchsvollen Kunststücken; Zauberer = Magier oder Bühnenkünstler mit Zaubertricks; Jongleur = Künstler, der Gegenstände wirft und auffängt; Scharlatan = jemand, der Kompetenz vortäuscht und andere täuscht"
+  },
+  "equivalents": {
+    "en": ["juggler", "street performer", "mountebank", "trickster"],
+    "it": ["giullare", "saltimbanco", "imbroglione"],
+    "fr": ["bateleur", "jongleur", "charlatan"],
+    "es": ["juglar", "saltimbanqui", "embaucador"]
+  },
+  "etymology": {
+    "ja": "中高ドイツ語 goukelære などにさかのぼり、曲芸や手品で人を驚かせる芸人を指した。そこから動詞 gaukeln、さらに vorgaukeln『もっともらしい幻想を見せる』が発達した。",
+    "de": "Das Wort geht auf mittelhochdeutsche Formen wie „goukelære“ zurück und bezeichnete einen Künstler, der durch Kunststücke und Tricks unterhielt. Zur selben Wortfamilie gehören „gaukeln“ und „vorgaukeln“."
+  },
+  "example": {
+    "ja": "①中世の市場では曲芸師たちが群衆を楽しませていた。②作家はその人物を、人々に幻想を売る巧みなペテン師として描いている。",
+    "de": "①Auf mittelalterlichen Märkten unterhielten Gaukler das Publikum mit ihren Kunststücken. ②Der Autor beschreibt ihn als einen geschickten Gaukler, der den Menschen Illusionen verkauft."
+  },
+  "task": {
+    "ja": "①「旅回りの曲芸師が市場で芸を披露した。」②「彼は人々を言葉で惑わせる曲芸師のようだった。」を Gaukler を使って表現する。",
+    "de": "Formuliere je einen Satz mit „Gaukler“ in den Bedeutungen ① Unterhaltungskünstler und ② übertragener Täuscher."
+  }
+},
+{
+  "id": "gaukeln",
+  "sid": "2026-00290",
+  "word": "gaukeln",
+  "tags": ["verb", "movement", "performance", "literary", "figurative"],
+  "level": "C1",
+  "freq": "rare",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ˈɡaʊ̯kəln/"
+  },
+  "conjugation": {
+    "present": "er gaukelt",
+    "preterite": "er gaukelte",
+    "perfect": "er hat gegaukelt",
+    "participle2": "gegaukelt",
+    "separable": false
+  },
+  "meaning": {
+    "ja": "①曲芸をする、芸を披露する ②ひらひらと舞う、ふわふわ・不規則に動く",
+    "de": "①Kunststücke oder gauklerische Darbietungen zeigen ②sich leicht, spielerisch und unregelmäßig hin und her bewegen"
+  },
+  "nuance": {
+    "ja": "①は Gaukler のように曲芸や芸を披露するという古風・文学的な用法。②は蝶・葉・光などが一定の軌道ではなく、軽やかに揺れたり舞ったりする様子を描写する文学的な語。現代の日常会話では頻度は高くないが、描写文では独特の軽やかな語感を持つ。",
+    "de": "In Bedeutung ① bezeichnet das Verb das Vorführen von Kunststücken wie ein Gaukler und wirkt heute eher historisch oder literarisch. In Bedeutung ② beschreibt es eine leichte, spielerische und unregelmäßige Bewegung, etwa von Schmetterlingen, Blättern oder Licht."
+  },
+  "collocations": [
+    {
+      "de": "auf dem Marktplatz gaukeln",
+      "ja": "広場で曲芸を披露する"
+    },
+    {
+      "de": "durch die Luft gaukeln",
+      "ja": "空中をひらひら舞う"
+    },
+    {
+      "de": "über die Wiese gaukeln",
+      "ja": "草原の上をひらひら飛ぶ"
+    },
+    {
+      "de": "im Wind gaukeln",
+      "ja": "風に乗ってひらひら舞う"
+    },
+    {
+      "de": "Schmetterlinge gaukeln durch die Luft",
+      "ja": "蝶が空中をひらひら舞う"
+    }
+  ],
+  "minimal": {
+    "ja": "gaukeln＝軽やかで不規則に舞う、または古風に曲芸をする／flattern＝羽・布などが細かくばたばた揺れ動く／schweben＝空中に静かに浮かぶ・滑らかに移動する／taumeln＝不安定によろめく・ふらつく／jonglieren＝物を投げ上げて操るジャグリングをする",
+    "de": "gaukeln = sich leicht und spielerisch unregelmäßig bewegen oder historisch Kunststücke vorführen; flattern = sich mit schnellen kleinen Bewegungen hin und her bewegen; schweben = ruhig und nahezu schwerelos in der Luft bleiben oder gleiten; taumeln = sich unsicher und schwankend bewegen; jonglieren = mehrere Gegenstände geschickt werfen und auffangen"
+  },
+  "equivalents": {
+    "en": ["perform tricks", "flutter", "flit", "dance through the air"],
+    "it": ["fare acrobazie", "svolazzare", "ondeggiare"],
+    "fr": ["faire des tours", "voltiger", "papillonner"],
+    "es": ["hacer piruetas", "revolotear", "ondear"]
+  },
+  "etymology": {
+    "ja": "Gaukler と同じ語族で、中高ドイツ語 goukeln などにさかのぼる。もともとは曲芸や手品を披露することを表し、そこから曲芸師の動きのような『軽やかで不規則な動き』を表す意味へ広がった。さらに vor- が付いた vorgaukeln は『相手の前に幻想を演じて見せる』という意味になった。",
+    "de": "Das Verb gehört zur selben Wortfamilie wie „Gaukler“ und geht auf mittelhochdeutsche Formen wie „goukeln“ zurück. Von der Bedeutung des Vorführens von Kunststücken entwickelte sich die Vorstellung einer leichten, spielerischen Bewegung. Daraus erklärt sich auch die übertragene Bildung „vorgaukeln“."
+  },
+  "example": {
+    "ja": "①旅回りの芸人たちは市場で曲芸を披露した。②蝶が夏の草原の上をひらひらと舞っていた。",
+    "de": "①Die fahrenden Künstler gaukelten auf dem Marktplatz. ②Schmetterlinge gaukelten über die sommerliche Wiese."
+  },
+  "task": {
+    "ja": "①「大道芸人たちは広場で芸を披露した。」②「一枚の葉が風に乗って空中をひらひら舞った。」を gaukeln を使って表現する。",
+    "de": "Formuliere je einen Satz mit „gaukeln“ in den Bedeutungen ① Kunststücke vorführen und ② sich leicht und unregelmäßig durch die Luft bewegen."
+  }
+},
+{
+  "id": "vortaeuschen",
+  "sid": "2026-00291",
+  "word": "vortäuschen",
+  "tags": ["verb", "deception", "general", "formal"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ˈfoːɐ̯ˌtɔʏ̯ʃn̩/"
+  },
+  "conjugation": {
+    "present": "er täuscht ... vor",
+    "preterite": "er täuschte ... vor",
+    "perfect": "er hat ... vorgetäuscht",
+    "participle2": "vorgetäuscht",
+    "separable": true
+  },
+  "meaning": {
+    "ja": "①～のふりをする、～を装う ②実際にはない状態・感情・事情をあるように見せかける",
+    "de": "①etwas darstellen, obwohl es in Wirklichkeit nicht so ist ②einen Zustand, ein Gefühl oder einen Sachverhalt bewusst als wirklich erscheinen lassen"
+  },
+  "nuance": {
+    "ja": "実際には存在しない状態や感情、事情などを、意図的に本物のように見せることを表す。病気・関心・無知・事故・感情など、具体的にも抽象的にも広く使える。vorgaukeln より一般的で、幻想を作り出すというより『偽装・演技する』ことに重点がある。",
+    "de": "Das Verb bezeichnet das bewusste Vorspiegeln eines Zustands, Gefühls oder Sachverhalts, der in Wirklichkeit nicht besteht. Es ist allgemeiner als „vorgaukeln“ und betont stärker das bewusste Simulieren oder Vortäuschen."
+  },
+  "collocations": [
+    {
+      "de": "Krankheit vortäuschen",
+      "ja": "病気を装う"
+    },
+    {
+      "de": "Interesse vortäuschen",
+      "ja": "興味があるふりをする"
+    },
+    {
+      "de": "Unwissenheit vortäuschen",
+      "ja": "知らないふりをする"
+    },
+    {
+      "de": "einen Unfall vortäuschen",
+      "ja": "事故を装う"
+    },
+    {
+      "de": "Gefühle vortäuschen",
+      "ja": "感情を装う"
+    }
+  ],
+  "minimal": {
+    "ja": "vortäuschen＝実際にはない状態・感情・事情を意図的に装う／vorgaukeln＝虚像や幻想を相手に信じ込ませるニュアンスが強い／lügen＝虚偽の発言をすることに重点／simulieren＝状態や現象を模擬・再現することで、必ずしも欺く意図を含まない／heucheln＝特に感情・態度・信念を偽って装う",
+    "de": "vortäuschen = einen nicht wirklichen Zustand bewusst als real darstellen; vorgaukeln = stärker eine falsche Vorstellung oder Illusion erzeugen; lügen = bewusst eine falsche Aussage machen; simulieren = einen Zustand oder Vorgang nachbilden, nicht zwingend mit Täuschungsabsicht; heucheln = besonders Gefühle, Einstellungen oder Überzeugungen unehrlich vorspielen"
+  },
+  "equivalents": {
+    "en": ["pretend", "feign", "simulate", "fake"],
+    "it": ["fingere", "simulare"],
+    "fr": ["feindre", "simuler"],
+    "es": ["fingir", "simular"]
+  },
+  "etymology": {
+    "ja": "vor- と täuschen『だます、誤認させる』からなる。文字どおりには『相手の前に偽りのものを示す』という発想で、そこから『～を装う、偽装する』という意味になった。",
+    "de": "Das Verb ist aus „vor-“ und „täuschen“ gebildet. Die Grundvorstellung besteht darin, jemandem etwas Falsches als wirklich vor Augen zu stellen."
+  },
+  "example": {
+    "ja": "①彼は仕事を休むために病気を装った。②彼女はその話題に関心があるふりをした。",
+    "de": "①Er täuschte eine Krankheit vor, um nicht zur Arbeit gehen zu müssen. ②Sie täuschte Interesse an dem Thema vor."
+  },
+  "task": {
+    "ja": "①「彼は記憶喪失を装った。」②「彼女は何も知らないふりをした。」を vortäuschen を使って表現する。",
+    "de": "Formuliere je einen Satz mit „vortäuschen“ in den Bedeutungen ① einen Zustand simulieren und ② Unwissenheit oder ein Gefühl nur vorspielen."
+  }
+},
+{
+  "id": "abgeneigt",
+  "sid": "2026-00292",
+  "word": "abgeneigt",
+  "tags": ["adj", "attitude", "preference", "formal", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj"
+  },
+  "pronunciation": {
+    "ipa": "/ˈapɡəˌnaɪ̯kt/"
+  },
+  "meaning": {
+    "ja": "①～に気が進まない、～を好まない ②～に否定的である、反対寄りである ③ nicht abgeneigt sein：まんざらでもない、やぶさかではない",
+    "de": "①gegenüber jemandem oder etwas wenig geneigt oder wenig aufgeschlossen sein ②eine eher ablehnende Haltung gegenüber etwas haben ③nicht abgeneigt sein: durchaus bereit oder interessiert sein"
+  },
+  "nuance": {
+    "ja": "露骨に『嫌い』『反対だ』と言うよりも、やや控えめ・婉曲的に消極的な態度を表す語。特に nicht abgeneigt sein は否定を重ねることで、むしろ『興味はある』『やってもよい』という穏やかな肯定を表す。やや書き言葉・上品な響きがある。",
+    "de": "Das Adjektiv drückt meist eine eher zurückhaltende oder ablehnende Haltung aus, ohne so stark wie „dagegen“ oder „ablehnend“ zu wirken. Besonders häufig ist die Wendung „nicht abgeneigt sein“, die eine vorsichtige Zustimmung oder Bereitschaft ausdrückt."
+  },
+  "collocations": [
+    {
+      "de": "einer Idee abgeneigt sein",
+      "ja": "ある考えに気が進まない"
+    },
+    {
+      "de": "einem Vorschlag abgeneigt sein",
+      "ja": "提案に否定的である"
+    },
+    {
+      "de": "Veränderungen abgeneigt sein",
+      "ja": "変化を好まない"
+    },
+    {
+      "de": "nicht abgeneigt sein",
+      "ja": "まんざらでもない、やぶさかではない"
+    },
+    {
+      "de": "einem Glas Wein nicht abgeneigt sein",
+      "ja": "ワインを一杯飲むのもやぶさかではない"
+    }
+  ],
+  "minimal": {
+    "ja": "abgeneigt＝～に気が進まない、やや否定的である／ablehnend＝より明確に拒否・否定的な態度を示す／dagegen＝単純に反対である／unwillig＝やりたがらない、不承不承である／nicht abgeneigt＝婉曲的に『むしろ興味がある、やってもよい』",
+    "de": "abgeneigt = wenig geneigt oder eher negativ eingestellt; ablehnend = deutlicher zurückweisend; dagegen = schlicht gegen etwas sein; unwillig = etwas nur widerwillig tun wollen; nicht abgeneigt = vorsichtig positiv oder durchaus interessiert"
+  },
+  "equivalents": {
+    "en": ["averse", "disinclined", "unfavorable", "not opposed"],
+    "it": ["contrario", "poco incline", "non contrario"],
+    "fr": ["réticent", "peu enclin", "pas opposé"],
+    "es": ["reacio", "poco inclinado", "no contrario"]
+  },
+  "etymology": {
+    "ja": "動詞 neigen『傾く、傾向がある』に ab- が付き、さらに過去分詞形から形容詞化した語。文字どおりには『～から傾きが離れている』という発想で、『～に好意的でない、気が進まない』という意味になった。",
+    "de": "Das Wort gehört zur Wortfamilie von „neigen“. Die Vorsilbe „ab-“ vermittelt die Vorstellung einer von etwas weggerichteten Neigung, woraus die Bedeutung einer ablehnenden oder wenig geneigten Haltung entstand."
+  },
+  "example": {
+    "ja": "①彼はその提案にはあまり乗り気ではなかった。②彼女は大きな変化に対してやや否定的だ。③私は週末にそこへ行くのもまんざらではない。",
+    "de": "①Er war dem Vorschlag eher abgeneigt. ②Sie ist größeren Veränderungen gegenüber etwas abgeneigt. ③Ich wäre nicht abgeneigt, am Wochenende dorthin zu fahren."
+  },
+  "task": {
+    "ja": "①「彼はその考えに気が進まない。」②「彼女は変化を好まない。」③「私はその提案を受け入れるのもやぶさかではない。」を abgeneigt を使って表現する。",
+    "de": "Formuliere je einen Satz mit „abgeneigt“ in den Bedeutungen ① wenig geneigt, ② ablehnend eingestellt und ③ „nicht abgeneigt“ im Sinne vorsichtiger Zustimmung."
+  }
+},
+{
+  "id": "durchziehen",
+  "sid": "2026-00293",
+  "word": "durchziehen",
+  "tags": ["verb", "movement", "figurative", "general"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ˈdʊʁçˌtsiːən/, /dʊʁçˈtsiːən/"
+  },
+  "conjugation": {
+    "variants": [
+      {
+        "meaning": "durch etwas hindurchziehen; etwas konsequent zu Ende führen",
+        "stress": "DURCHziehen",
+        "separable": true,
+        "present": "er zieht ... durch",
+        "preterite": "er zog ... durch",
+        "perfect": "er hat ... durchgezogen",
+        "participle2": "durchgezogen"
+      },
+      {
+        "meaning": "sich durch ein Gebiet erstrecken; ein Gebiet durchqueren",
+        "stress": "durchZIEHEN",
+        "separable": false,
+        "present": "er durchzieht",
+        "preterite": "er durchzog",
+        "perfect": "er hat durchzogen",
+        "participle2": "durchzogen"
+      }
+    ]
+  },
+  "meaning": {
+    "ja": "①（分離）やり抜く、最後まで実行する ②（分離）何かを中まで通す、引き通す ③（非分離）地域などを横切る、貫く ④（非分離）～全体に広がる、～を貫いて存在する",
+    "de": "①trennbar: etwas konsequent bis zum Ende durchführen ②trennbar: etwas durch eine Öffnung oder einen Gegenstand hindurchziehen ③untrennbar: ein Gebiet durchqueren oder sich durch ein Gebiet erstrecken ④untrennbar: etwas in seiner ganzen Ausdehnung prägen oder durchdringen"
+  },
+  "nuance": {
+    "ja": "分離形 DURCHziehen は、物理的に『通して引く』ことや、比喩的に計画・決意などを『最後までやり切る』ことを表す。非分離形 durchZIEHEN は、道路・川・山脈などが地域を『貫く』、または特徴・雰囲気・模様などが全体に広がっていることを表す。",
+    "de": "Das trennbare „DURCHziehen“ bezeichnet entweder ein tatsächliches Hindurchziehen oder übertragen das konsequente Durchführen einer Handlung. Das untrennbare „durchZIEHEN“ beschreibt dagegen das Durchqueren, Durchziehen oder Prägen eines größeren räumlichen oder abstrakten Bereichs."
+  },
+  "collocations": [
+    {
+      "de": "einen Plan durchziehen",
+      "ja": "計画を最後まで実行する"
+    },
+    {
+      "de": "etwas konsequent durchziehen",
+      "ja": "何かを徹底してやり抜く"
+    },
+    {
+      "de": "einen Faden durchziehen",
+      "ja": "糸を通す"
+    },
+    {
+      "de": "ein Gebirge durchzieht das Land",
+      "ja": "山脈が国土を貫いている"
+    },
+    {
+      "de": "ein Fluss durchzieht die Stadt",
+      "ja": "川が街を流れ貫いている"
+    },
+    {
+      "de": "ein Motiv durchzieht das ganze Werk",
+      "ja": "一つのモチーフが作品全体を貫いている"
+    }
+  ],
+  "minimal": {
+    "ja": "durchziehen＝分離なら『通して引く・やり抜く』、非分離なら『地域や全体を貫く』／durchführen＝計画や措置を実施することに重点／durchhalten＝困難に耐えて持ちこたえることに重点／durchqueren＝場所を横断する／durchdringen＝内部まで入り込む、浸透する",
+    "de": "durchziehen = trennbar: hindurchziehen oder konsequent zu Ende bringen; untrennbar: einen Raum oder Zusammenhang durchqueren oder prägen; durchführen = eine Maßnahme oder einen Plan umsetzen; durchhalten = trotz Schwierigkeiten weitermachen; durchqueren = ein Gebiet von einer Seite zur anderen passieren; durchdringen = tief in etwas eindringen oder sich darin ausbreiten"
+  },
+  "equivalents": {
+    "en": ["carry through", "follow through", "pull through", "run through", "traverse", "pervade"],
+    "it": ["portare fino in fondo", "far passare attraverso", "attraversare", "pervadere"],
+    "fr": ["mener jusqu'au bout", "faire passer à travers", "traverser", "parcourir"],
+    "es": ["llevar hasta el final", "hacer pasar a través", "atravesar", "recorrer"]
+  },
+  "etymology": {
+    "ja": "durch『～を通って』と ziehen『引く、移動する』からなる。接頭辞に強勢がある分離用法では『中を通して引く』という具体的意味から『最後までやり通す』へ発展し、非分離用法では『ある領域を貫く、横切る』という意味が発達した。",
+    "de": "Das Verb ist aus „durch“ und „ziehen“ gebildet. In der trennbaren Verwendung entwickelte sich aus dem konkreten Hindurchziehen auch die übertragene Bedeutung des konsequenten Zu-Ende-Führens. Die untrennbare Verwendung bezeichnet dagegen das Durchqueren oder Durchdringen eines größeren Bereichs."
+  },
+  "example": {
+    "ja": "①彼は反対されてもその計画を最後までやり抜いた。②彼女は針の穴に糸を通した。③一本の大きな川がその地域を貫いている。④このテーマは小説全体を貫いている。",
+    "de": "①Trotz aller Widerstände zog er seinen Plan durch. ②Sie zog den Faden durch das Nadelöhr. ③Ein großer Fluss durchzieht die Region. ④Dieses Thema durchzieht den gesamten Roman."
+  },
+  "task": {
+    "ja": "①「私たちはこの計画を最後までやり抜く。」②「彼はロープを穴に通した。」③「鉄道路線が地方全体を貫いている。」④「ある共通の考えが作品全体を貫いている。」を durchziehen を使って表現する。",
+    "de": "Formuliere je einen Satz mit „durchziehen“ in den Bedeutungen ① etwas konsequent zu Ende bringen, ② etwas hindurchziehen, ③ ein Gebiet durchqueren und ④ einen abstrakten Zusammenhang prägen."
+  }
+},
+{
+  "id": "zusammenschlagen",
+  "sid": "2026-00294",
+  "word": "zusammenschlagen",
+  "tags": ["verb", "violence", "movement", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/tsuˈzamənˌʃlaːɡn̩/"
+  },
+  "conjugation": {
+    "present": "er schlägt ... zusammen",
+    "preterite": "er schlug ... zusammen",
+    "perfect": "er hat ... zusammengeschlagen",
+    "participle2": "zusammengeschlagen",
+    "separable": true
+  },
+  "meaning": {
+    "ja": "①ひどく殴る、殴り倒す ②折りたたむ、閉じる ③打ち合わせる、ぶつけ合わせる",
+    "de": "①jemanden heftig schlagen und dabei schwer verletzen ②etwas zusammenklappen oder schließen ③zwei Dinge gegeneinanderschlagen"
+  },
+  "nuance": {
+    "ja": "①ではかなり強い暴力表現で、単に一度 schlagen するのではなく、相手を激しく何度も殴るニュアンスがある。②では本・傘・折りたたみ式の物などを閉じる・畳む意味。③では物同士を打ち合わせる物理的な動作を表す。",
+    "de": "In Bedeutung ① ist das Verb deutlich stärker als einfaches „schlagen“ und bezeichnet heftiges, oft wiederholtes Schlagen. In Bedeutung ② kann es das Zusammenklappen oder Schließen eines Gegenstands bedeuten. In Bedeutung ③ werden zwei Gegenstände gegeneinandergeschlagen."
+  },
+  "collocations": [
+    {
+      "de": "jemanden zusammenschlagen",
+      "ja": "人をひどく殴る"
+    },
+    {
+      "de": "jemanden brutal zusammenschlagen",
+      "ja": "人を残酷に殴りつける"
+    },
+    {
+      "de": "ein Buch zusammenschlagen",
+      "ja": "本をぱたんと閉じる"
+    },
+    {
+      "de": "einen Regenschirm zusammenschlagen",
+      "ja": "傘を畳む"
+    },
+    {
+      "de": "die Hände zusammenschlagen",
+      "ja": "両手を打ち合わせる"
+    }
+  ],
+  "minimal": {
+    "ja": "zusammenschlagen＝激しく殴る、または物を閉じる・打ち合わせる／schlagen＝『打つ、殴る』という一般語／verprügeln＝人を何度も殴ることに特化した口語的な語／zusammenklappen＝折りたたむ・閉じることに特化／klatschen＝手などをぱんと打ち合わせる",
+    "de": "zusammenschlagen = heftig schlagen oder etwas zusammenklappen beziehungsweise gegeneinanderschlagen; schlagen = allgemeines Verb für schlagen; verprügeln = jemanden wiederholt und heftig schlagen; zusammenklappen = etwas falten oder schließen; klatschen = besonders Hände oder flache Gegenstände gegeneinanderschlagen"
+  },
+  "equivalents": {
+    "en": ["beat up", "batter", "slam shut", "fold up", "clap together"],
+    "it": ["picchiare brutalmente", "massacrare di botte", "chiudere", "ripiegare"],
+    "fr": ["tabasser", "rouer de coups", "refermer", "replier"],
+    "es": ["dar una paliza", "golpear brutalmente", "cerrar", "plegar"]
+  },
+  "etymology": {
+    "ja": "zusammen『一緒に、ひとつに』と schlagen『打つ』からなる分離動詞。『一緒になるように打つ』という基本イメージから、激しく殴る、物を閉じ合わせる、物同士を打ち合わせるという複数の意味に発展した。",
+    "de": "Das Verb ist aus „zusammen“ und „schlagen“ gebildet. Aus der Grundvorstellung des Gegeneinander- oder Zusammen-Schlagens entwickelten sich sowohl die gewalttätige als auch die konkrete Bedeutung des Zusammenklappens oder Gegeneinanderschlagens."
+  },
+  "example": {
+    "ja": "①その男は路上でひどく殴られた。②彼女は突然本をぱたんと閉じた。③彼は寒さのため両手を打ち合わせた。",
+    "de": "①Der Mann wurde auf der Straße brutal zusammengeschlagen. ②Sie schlug das Buch plötzlich zusammen. ③Er schlug vor Kälte die Hände zusammen."
+  },
+  "task": {
+    "ja": "①「彼は襲われてひどく殴られた。」②「彼女は傘を畳んだ。」③「彼は両手を打ち合わせた。」を zusammenschlagen を使って表現する。",
+    "de": "Formuliere je einen Satz mit „zusammenschlagen“ in den Bedeutungen ① jemanden heftig schlagen, ② etwas zusammenklappen und ③ zwei Dinge gegeneinanderschlagen."
+  }
+},
+{
+  "id": "kuebel",
+  "sid": "2026-00295",
+  "word": "Kübel",
+  "tags": ["noun", "container", "household", "garden", "general"],
+  "level": "B2",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m"
+  },
+  "pronunciation": {
+    "ipa": "/ˈkyːbl̩/"
+  },
+  "meaning": {
+    "ja": "①大きめの桶、バケツ、容器 ②大型の植木鉢・プランター状の容器",
+    "de": "①ein größerer, meist offener Behälter für Flüssigkeiten, Schmutz oder andere Materialien ②ein großer Behälter für Pflanzen"
+  },
+  "nuance": {
+    "ja": "Eimer よりもやや大きく、頑丈で、円筒形またはずんぐりした容器を指すことが多い。清掃・建築・庭仕事などで使う大きな容器にも、Kübelpflanze のように大型の鉢植え用容器にも使われる。",
+    "de": "Ein „Kübel“ ist meist größer und massiver als ein gewöhnlicher Eimer. Das Wort wird für große offene Behälter im Haushalt, auf Baustellen oder im Garten sowie für Pflanzgefäße verwendet."
+  },
+  "collocations": [
+    {
+      "de": "ein Kübel Wasser",
+      "ja": "水の入った大桶"
+    },
+    {
+      "de": "einen Kübel leeren",
+      "ja": "桶・容器を空にする"
+    },
+    {
+      "de": "ein großer Plastikkübel",
+      "ja": "大きなプラスチック容器"
+    },
+    {
+      "de": "eine Pflanze im Kübel",
+      "ja": "鉢植えの植物"
+    },
+    {
+      "de": "Kübelpflanzen",
+      "ja": "大型鉢植え植物"
+    }
+  ],
+  "minimal": {
+    "ja": "Kübel＝比較的大きく頑丈な桶・容器／Eimer＝取っ手付きの一般的なバケツ／Wanne＝横に広く浅めのたらい・槽／Topf＝鍋または比較的小さな鉢／Behälter＝容器一般を表す上位語",
+    "de": "Kübel = größerer und oft massiver offener Behälter; Eimer = typischer Behälter mit Henkel; Wanne = breiter, meist flacher Behälter; Topf = Kochgefäß oder kleineres Pflanzgefäß; Behälter = allgemeiner Oberbegriff für Gefäße und Container"
+  },
+  "equivalents": {
+    "en": ["tub", "bucket", "large container", "planter"],
+    "it": ["secchio", "mastello", "vaso grande"],
+    "fr": ["baquet", "seau", "grand bac"],
+    "es": ["cubo", "tina", "macetón"]
+  },
+  "etymology": {
+    "ja": "古高ドイツ語 kubil などにさかのぼり、大きめの容器や桶を表してきた。ラテン語 cupa『樽』などとの関連が指摘される。",
+    "de": "Das Wort geht auf ältere deutsche Formen wie „kubil“ zurück und bezeichnete schon früh größere Gefäße oder Behälter. Es wird etymologisch unter anderem mit lateinisch „cupa“ in Verbindung gebracht."
+  },
+  "example": {
+    "ja": "①彼は大きな桶いっぱいの水を庭に運んだ。②オリーブの木は大きな鉢で育てられている。",
+    "de": "①Er trug einen großen Kübel Wasser in den Garten. ②Der Olivenbaum wächst in einem großen Kübel."
+  },
+  "task": {
+    "ja": "①「彼女は容器を水で満たした。」②「この植物は大きな鉢で育てる。」を Kübel を使って表現する。",
+    "de": "Formuliere je einen Satz mit „Kübel“ in den Bedeutungen ① großer Behälter und ② Pflanzgefäß."
+  }
+},
+{
+  "id": "prallen",
+  "sid": "2026-00296",
+  "word": "prallen",
+  "tags": ["verb", "movement", "collision", "general", "figurative"],
+  "level": "B2-C1",
+  "freq": "often",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ˈpʁalən/"
+  },
+  "conjugation": {
+    "present": "er prallt",
+    "preterite": "er prallte",
+    "perfect": "er ist geprallt",
+    "participle2": "geprallt",
+    "separable": false
+  },
+  "meaning": {
+    "ja": "①勢いよくぶつかる、衝突する ②ぶつかって跳ね返る ③比喩的に、意見・立場などが激しく衝突する",
+    "de": "①mit großer Wucht gegen etwas stoßen ②nach einem Zusammenstoß zurück- oder abgeworfen werden ③übertragen: heftig aufeinanderstoßen oder miteinander in Konflikt geraten"
+  },
+  "nuance": {
+    "ja": "単なる stoßen よりも、速度や勢いを伴って強く衝突する感じが強い。車両・人・物体などが壁や他の物体にぶつかる場面でよく使われる。比喩的には Meinungen, Interessen, Positionen などが激しく対立する場合にも使える。",
+    "de": "„Prallen“ bezeichnet meist einen heftigen Zusammenstoß mit spürbarer Wucht. Es wird häufig bei Fahrzeugen, Personen oder Gegenständen verwendet, kann aber auch übertragen das harte Aufeinandertreffen von Meinungen, Interessen oder Positionen ausdrücken."
+  },
+  "collocations": [
+    {
+      "de": "gegen eine Wand prallen",
+      "ja": "壁に激突する"
+    },
+    {
+      "de": "gegen einen Baum prallen",
+      "ja": "木に衝突する"
+    },
+    {
+      "de": "frontal aufeinanderprallen",
+      "ja": "正面衝突する"
+    },
+    {
+      "de": "vom Boden zurückprallen",
+      "ja": "地面から跳ね返る"
+    },
+    {
+      "de": "Meinungen prallen aufeinander",
+      "ja": "意見が激しく衝突する"
+    },
+    {
+      "de": "Interessen prallen aufeinander",
+      "ja": "利害が衝突する"
+    }
+  ],
+  "minimal": {
+    "ja": "prallen＝勢いよく衝突することに重点／stoßen＝ぶつかる・押すという広い一般語／kollidieren＝車両・物体などが衝突する、やや硬い語／aufprallen＝表面に勢いよく衝突することをより明示する／abprallen＝衝突して跳ね返る、または比喩的に拒絶されて通用しない",
+    "de": "prallen = mit deutlicher Wucht gegen etwas stoßen; stoßen = allgemeiner Begriff für Berührung oder Zusammenstoß; kollidieren = eher formell für einen Zusammenstoß, besonders von Fahrzeugen oder Objekten; aufprallen = heftig auf eine Fläche oder ein Hindernis treffen; abprallen = nach dem Auftreffen zurückgeworfen werden oder übertragen keine Wirkung haben"
+  },
+  "equivalents": {
+    "en": ["crash", "slam into", "collide", "rebound"],
+    "it": ["urtare", "schiantarsi contro", "rimbalzare"],
+    "fr": ["heurter", "percuter", "rebondir"],
+    "es": ["chocar", "estrellarse contra", "rebotar"]
+  },
+  "etymology": {
+    "ja": "中高ドイツ語 prallen などにさかのぼり、『勢いよくぶつかる、跳ね返る』という意味を古くから持つ。現代語でも衝撃を伴う接触という基本イメージが保たれている。",
+    "de": "Das Verb geht auf ältere deutsche Formen wie mittelhochdeutsch „prallen“ zurück und bezeichnete schon früh ein heftiges Anstoßen oder Zurückspringen."
+  },
+  "example": {
+    "ja": "①車は濡れた路面で滑り、ガードレールに激突した。②ボールは壁にぶつかって跳ね返った。③会議では二つのまったく異なる立場が激しく衝突した。",
+    "de": "①Das Auto rutschte auf der nassen Straße und prallte gegen die Leitplanke. ②Der Ball prallte gegen die Wand und sprang zurück. ③In der Sitzung prallten zwei völlig unterschiedliche Positionen aufeinander."
+  },
+  "task": {
+    "ja": "①「車が木に激突した。」②「ボールが床に当たって跳ね返った。」③「二つの利害が激しく衝突した。」を prallen を使って表現する。",
+    "de": "Formuliere je einen Satz mit „prallen“ in den Bedeutungen ① heftiger Zusammenstoß, ② Zurückspringen nach einem Aufprall und ③ übertragenes Aufeinandertreffen."
+  }
+},
+{
+  "id": "genesen",
+  "sid": "2026-00297",
+  "word": "genesen",
+  "tags": ["verb", "health", "recovery", "formal", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ɡəˈneːzn̩/"
+  },
+  "conjugation": {
+    "present": "er genest",
+    "preterite": "er genas",
+    "perfect": "er ist genesen",
+    "participle2": "genesen",
+    "separable": false
+  },
+  "meaning": {
+    "ja": "①病気から回復する、快復する ②けが・衰弱などから回復する",
+    "de": "①nach einer Krankheit wieder gesund werden ②sich von einer Verletzung, Schwächung oder gesundheitlichen Beeinträchtigung erholen"
+  },
+  "nuance": {
+    "ja": "病気やけがなどの健康上の問題から回復することを表す。日常会話では sich erholen や wieder gesund werden のほうが自然な場合も多く、genesen はやや硬く、医療・報道・書き言葉で使われやすい。完了形では sein を用いる。",
+    "de": "Das Verb bezeichnet die gesundheitliche Erholung nach einer Krankheit, Verletzung oder Schwächung. Es wirkt etwas gehobener und formeller als „sich erholen“ oder „wieder gesund werden“ und kommt häufig in medizinischer oder journalistischer Sprache vor."
+  },
+  "collocations": [
+    {
+      "de": "von einer Krankheit genesen",
+      "ja": "病気から回復する"
+    },
+    {
+      "de": "vollständig genesen",
+      "ja": "完全に快復する"
+    },
+    {
+      "de": "rasch genesen",
+      "ja": "速やかに回復する"
+    },
+    {
+      "de": "nach einer Operation genesen",
+      "ja": "手術後に回復する"
+    },
+    {
+      "de": "von seinen Verletzungen genesen",
+      "ja": "けがから回復する"
+    }
+  ],
+  "minimal": {
+    "ja": "genesen＝病気・けがから健康を取り戻す、やや硬い語／sich erholen＝病気だけでなく疲労・ストレスなどから休んで回復する一般語／gesund werden＝『健康になる』という日常的で直接的な表現／sich auskurieren＝病気やけがを十分に療養して治すことに重点",
+    "de": "genesen = nach Krankheit oder Verletzung wieder gesund werden, eher gehoben oder formell; sich erholen = allgemeiner für Erholung nach Krankheit, Belastung oder Müdigkeit; gesund werden = alltägliche und direkte Formulierung; sich auskurieren = sich ausreichend schonen und eine Krankheit vollständig ausheilen"
+  },
+  "equivalents": {
+    "en": ["recover", "recuperate", "convalesce"],
+    "it": ["guarire", "ristabilirsi", "convalescere"],
+    "fr": ["guérir", "se rétablir", "se remettre"],
+    "es": ["recuperarse", "restablecerse", "sanar"]
+  },
+  "etymology": {
+    "ja": "古高ドイツ語 ginesan などにさかのぼる古いゲルマン語系の動詞で、もともと『助かる、生き延びる、救われる』といった意味を持っていた。そこから『病気から回復する』という現代の意味へ発達した。",
+    "de": "Das Verb geht auf althochdeutsch „ginesan“ zurück und hatte ursprünglich Bedeutungen wie „gerettet werden“, „davonkommen“ oder „am Leben bleiben“. Daraus entwickelte sich die heutige Bedeutung des Gesundwerdens."
+  },
+  "example": {
+    "ja": "①彼女は重い肺炎から完全に回復した。②彼は事故で負ったけがからゆっくりと回復している。",
+    "de": "①Sie ist vollständig von einer schweren Lungenentzündung genesen. ②Er genest langsam von den Verletzungen, die er bei dem Unfall erlitten hat."
+  },
+  "task": {
+    "ja": "①「彼は手術後、順調に回復した。」②「彼女はまだ完全にはけがから回復していない。」を genesen を使って表現する。",
+    "de": "Formuliere je einen Satz mit „genesen“ in den Bedeutungen ① Erholung nach einer Operation und ② Erholung von Verletzungen."
+  }
+},
+{
+  "id": "wesentlich",
+  "sid": "2026-00298",
+  "word": "wesentlich",
+  "tags": ["adj", "adv", "general", "formal", "abstract"],
+  "level": "B2-C1",
+  "freq": "very often",
+  "grammar": {
+    "pos": "adj"
+  },
+  "pronunciation": {
+    "ipa": "/ˈveːzn̩tlɪç/"
+  },
+  "meaning": {
+    "ja": "①本質的な、重要な、肝要な ②主要な、欠くことのできない ③副詞：かなり、大幅に、著しく",
+    "de": "①von grundlegender oder entscheidender Bedeutung ②zu den wichtigsten oder unverzichtbaren Bestandteilen gehörend ③adverbial: in beträchtlichem oder deutlich höherem Maß"
+  },
+  "nuance": {
+    "ja": "形容詞では、単に wichtig というだけでなく、物事の本質や結果に関わる『重要な・本質的な』という意味を持つ。副詞では wesentlich besser, wesentlich größer などの形で『かなり、大幅に』という程度の強調になる。法律・ビジネス・学術文書でも非常によく使われる。",
+    "de": "Als Adjektiv bezeichnet „wesentlich“ etwas, das für den Kern, die Funktion oder das Ergebnis einer Sache von grundlegender Bedeutung ist. Adverbial verstärkt es einen Vergleich oder Unterschied im Sinne von „deutlich“ oder „beträchtlich“."
+  },
+  "collocations": [
+    {
+      "de": "ein wesentlicher Bestandteil",
+      "ja": "本質的・不可欠な構成要素"
+    },
+    {
+      "de": "eine wesentliche Rolle spielen",
+      "ja": "重要な役割を果たす"
+    },
+    {
+      "de": "ein wesentlicher Unterschied",
+      "ja": "重要な相違、本質的な違い"
+    },
+    {
+      "de": "wesentliche Merkmale",
+      "ja": "主要な特徴"
+    },
+    {
+      "de": "wesentlich besser",
+      "ja": "かなり良い、大幅に良い"
+    },
+    {
+      "de": "wesentlich höher",
+      "ja": "大幅に高い"
+    },
+    {
+      "de": "sich wesentlich unterscheiden",
+      "ja": "大きく異なる"
+    }
+  ],
+  "minimal": {
+    "ja": "wesentlich＝本質・結果に関わる重要性、また副詞で『大幅に』／wichtig＝重要であることを広く表す最も一般的な語／entscheidend＝結果を左右する『決定的な』という意味が強い／grundlegend＝基礎・根本に関わることに重点／erheblich＝程度や数量がかなり大きいという意味で、副詞用法の wesentlich に近い場合がある",
+    "de": "wesentlich = für den Kern oder das Ergebnis von großer Bedeutung, adverbial auch „deutlich“ oder „beträchtlich“; wichtig = allgemeiner Ausdruck für Bedeutung; entscheidend = für das Ergebnis ausschlaggebend; grundlegend = die Basis oder Grundlagen betreffend; erheblich = von beträchtlichem Ausmaß oder Grad"
+  },
+  "equivalents": {
+    "en": ["essential", "substantial", "material", "significant", "considerably"],
+    "it": ["essenziale", "fondamentale", "sostanziale", "notevolmente"],
+    "fr": ["essentiel", "fondamental", "substantiel", "considérablement"],
+    "es": ["esencial", "fundamental", "sustancial", "considerablemente"]
+  },
+  "etymology": {
+    "ja": "Wesen『本質、存在、本性』に形容詞語尾 -lich が付いた語。文字どおりには『本質に関わる』という意味で、そこから『重要な、主要な』、さらに程度を強調する『大幅に』という副詞用法が発達した。",
+    "de": "Das Adjektiv ist von „Wesen“ mit dem Suffix „-lich“ gebildet. Die ursprüngliche Vorstellung des zum Wesen oder Kern Gehörenden führte zur Bedeutung „grundlegend, wichtig“ und später auch zur adverbialen Verstärkung."
+  },
+  "example": {
+    "ja": "①信頼は良好な取引関係の本質的な要素である。②この二つの方式にはいくつか重要な違いがある。③新しいシステムは以前のものより大幅に高速である。",
+    "de": "①Vertrauen ist ein wesentlicher Bestandteil einer guten Geschäftsbeziehung. ②Zwischen den beiden Verfahren bestehen einige wesentliche Unterschiede. ③Das neue System ist wesentlich schneller als das alte."
+  },
+  "task": {
+    "ja": "①「これは契約の重要な要素である。」②「両者の間には本質的な違いがある。」③「この方法は従来の方法より大幅に効率的だ。」を wesentlich を使って表現する。",
+    "de": "Formuliere je einen Satz mit „wesentlich“ in den Bedeutungen ① von grundlegender Bedeutung, ② charakteristischer oder wichtiger Unterschied und ③ adverbial „deutlich/erheblich“."
+  }
+},
+{
+  "id": "entgegensehen",
+  "sid": "2026-00299",
+  "word": "entgegensehen",
+  "tags": ["verb", "expectation", "future", "formal", "general"],
+  "level": "B2-C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb"
+  },
+  "pronunciation": {
+    "ipa": "/ɛntˈɡeːɡn̩ˌzeːən/"
+  },
+  "conjugation": {
+    "present": "er sieht ... entgegen",
+    "preterite": "er sah ... entgegen",
+    "perfect": "er hat ... entgegengesehen",
+    "participle2": "entgegengesehen",
+    "separable": true
+  },
+  "meaning": {
+    "ja": "①（将来の出来事を）楽しみに待つ、期待して待つ ②（困難・結果・将来などを）予期して待ち受ける、直面することを覚悟して待つ",
+    "de": "①ein zukünftiges Ereignis mit Freude oder positiver Erwartung erwarten ②eine bevorstehende Entwicklung, Schwierigkeit oder Entscheidung mit einer bestimmten Haltung erwarten"
+  },
+  "nuance": {
+    "ja": "将来起こる出来事に意識を向け、それを待つことを表す。freudig, gespannt, sehnsüchtig などを伴えば肯定的な期待を表すが、besorgt, mit Sorge, mit gemischten Gefühlen などを伴えば不安や懸念を表す。動詞自体は必ずしも肯定的ではない。目的語には3格を用い、やや書き言葉的・格調のある表現。",
+    "de": "Das Verb bezeichnet eine auf ein zukünftiges Ereignis gerichtete Erwartung. Diese kann freudig, gespannt, besorgt oder zurückhaltend sein. Das Verb selbst ist nicht zwingend positiv. Es verlangt den Dativ und wirkt häufig etwas gehobener als einfaches „erwarten“."
+  },
+  "collocations": [
+    {
+      "de": "einem Ereignis freudig entgegensehen",
+      "ja": "ある出来事を楽しみに待つ"
+    },
+    {
+      "de": "dem Urlaub entgegensehen",
+      "ja": "休暇を楽しみに待つ"
+    },
+    {
+      "de": "einem Treffen gespannt entgegensehen",
+      "ja": "面会を期待と緊張をもって待つ"
+    },
+    {
+      "de": "der Zukunft optimistisch entgegensehen",
+      "ja": "将来を楽観的に見据える"
+    },
+    {
+      "de": "einer Entscheidung mit Sorge entgegensehen",
+      "ja": "決定を不安を抱いて待つ"
+    },
+    {
+      "de": "einer ungewissen Zukunft entgegensehen",
+      "ja": "不確かな将来を待ち受ける"
+    },
+    {
+      "de": "dem Ergebnis mit gemischten Gefühlen entgegensehen",
+      "ja": "複雑な気持ちで結果を待つ"
+    }
+  ],
+  "minimal": {
+    "ja": "entgegensehen＝将来の出来事を一定の感情・態度をもって待つ。3格支配でやや格調がある／erwarten＝何かが起こると予想する、または待つ最も一般的な語。4格支配／sich freuen auf＝将来の出来事を楽しみにする。明確に肯定的／entgegenfiebern＝待ちきれないほど興奮・緊張して待つ／abwarten＝事態の推移や結果を待って様子を見る",
+    "de": "entgegensehen = einem zukünftigen Ereignis mit einer bestimmten Haltung entgegensehen, mit Dativ und eher gehoben; erwarten = allgemein mit etwas rechnen oder auf etwas warten, mit Akkusativ; sich freuen auf = etwas mit positiver Vorfreude erwarten; entgegenfiebern = etwas mit großer Aufregung oder Ungeduld erwarten; abwarten = zunächst den weiteren Verlauf oder das Ergebnis einer Sache erwarten"
+  },
+  "equivalents": {
+    "en": ["look forward to", "await", "anticipate", "face the prospect of"],
+    "it": ["attendere con impazienza", "guardare con fiducia a", "attendere con preoccupazione"],
+    "fr": ["attendre avec impatience", "envisager", "attendre avec inquiétude"],
+    "es": ["esperar con ilusión", "aguardar", "afrontar con expectativa"]
+  },
+  "etymology": {
+    "ja": "entgegen『～に向かって、～に対して』と sehen『見る』からなる分離動詞。文字どおりには『こちらに向かって来るものを見る』という発想で、そこから将来の出来事を見据え、期待や不安を抱いて待つという比喩的意味が発達した。",
+    "de": "Das Verb setzt sich aus „entgegen“ und „sehen“ zusammen. Die bildliche Grundvorstellung besteht darin, auf etwas Kommendes zu blicken. Daraus entwickelte sich die Bedeutung, ein zukünftiges Ereignis mit einer bestimmten Erwartungshaltung abzuwarten."
+  },
+  "example": {
+    "ja": "①私たちは来週の再会をとても楽しみにしている。②その企業は裁判所の判断を不安を抱いて待っている。③彼女は自分の将来を楽観的に見据えている。",
+    "de": "①Wir sehen unserem Wiedersehen nächste Woche mit großer Freude entgegen. ②Das Unternehmen sieht der Entscheidung des Gerichts mit Sorge entgegen. ③Sie sieht ihrer Zukunft optimistisch entgegen."
+  },
+  "task": {
+    "ja": "①「私は来月の旅行を楽しみにしている。」②「私たちは審査の結果を不安を抱いて待っている。」③「彼は将来を自信をもって見据えている。」を entgegensehen を使って表現する。",
+    "de": "Formuliere je einen Satz mit „entgegensehen“ in den Bedeutungen ① freudige Erwartung, ② besorgtes Erwarten einer Entscheidung und ③ optimistischer Blick in die Zukunft."
+  }
 }
 ]
