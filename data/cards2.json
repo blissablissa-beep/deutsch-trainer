@@ -2057,5 +2057,625 @@
     "ja": "①「私は来月の旅行を楽しみにしている。」②「私たちは審査の結果を不安を抱いて待っている。」③「彼は将来を自信をもって見据えている。」を entgegensehen を使って表現する。",
     "de": "Formuliere je einen Satz mit „entgegensehen“ in den Bedeutungen ① freudige Erwartung, ② besorgtes Erwarten einer Entscheidung und ③ optimistischer Blick in die Zukunft."
   }
+},
+{
+  "id": "freuen",
+  "sid": "2026-00300",
+  "word": "freuen",
+  "tags": [
+    "verb",
+    "emotion",
+    "reflexive",
+    "general",
+    "communication"
+  ],
+  "level": "A2-B1",
+  "freq": "very often",
+  "grammar": {
+    "pos": "verb",
+    "reflexive": "usually",
+    "reflexive_pronoun": "sich (Akkusativ)",
+    "patterns": [
+      "sich auf + Akkusativ freuen",
+      "sich über + Akkusativ freuen",
+      "sich freuen, dass ...",
+      "sich freuen, zu + Infinitiv",
+      "etwas freut jemanden (Akkusativ)"
+    ]
+  },
+  "pronunciation": {
+    "ipa": "/ˈfʁɔʏən/"
+  },
+  "conjugation": {
+    "present": "er freut sich",
+    "preterite": "er freute sich",
+    "perfect": "er hat sich gefreut",
+    "participle2": "gefreut",
+    "separable": false
+  },
+  "meaning": {
+    "ja": "①sich auf + Akk. freuen：これから起こることを楽しみにする、心待ちにする ②sich über + Akk. freuen：出来事や状況を喜ぶ、うれしく思う ③sich freuen, dass ... / zu ...：～であること、～することをうれしく思う ④jemanden freuen：人を喜ばせる、うれしい気持ちにさせる",
+    "de": "①sich auf + Akk. freuen: ein zukünftiges Ereignis mit Freude erwarten ②sich über + Akk. freuen: über eine Tatsache, ein Ereignis oder einen Umstand Freude empfinden ③sich freuen, dass ... / zu ...: Freude über einen Sachverhalt oder eine Handlung ausdrücken ④jemanden freuen: bei jemandem Freude hervorrufen"
+  },
+  "nuance": {
+    "ja": "日常会話で非常に頻繁に使われる、喜びを表す基本動詞。sich auf etwas freuen は未来への期待を、sich über etwas freuen はある事実・出来事に対する喜びを表す。ただし über は過去の出来事だけでなく、現在の状況や将来について知らされた知らせにも使える。sich freuen は原則として再帰代名詞を伴うが、Das freut mich. のように非再帰的にも用いられる。ビジネスメールの Wir freuen uns auf ... や Es freut mich, ... も定型表現として重要。",
+    "de": "„Freuen“ ist ein sehr häufiges Verb zur Beschreibung von Freude. „Sich auf etwas freuen“ richtet sich auf ein erwartetes zukünftiges Ereignis. „Sich über etwas freuen“ bezeichnet die Freude über einen Sachverhalt, eine Nachricht oder ein Ereignis; dieses muss nicht in der Vergangenheit liegen. Das Verb wird häufig reflexiv gebraucht, kann aber auch transitiv auftreten, etwa in „Das freut mich“."
+  },
+  "collocations": [
+    {
+      "de": "sich auf den Urlaub freuen",
+      "ja": "休暇を楽しみにする"
+    },
+    {
+      "de": "sich auf ein Wiedersehen freuen",
+      "ja": "再会を楽しみにする"
+    },
+    {
+      "de": "sich auf die Zusammenarbeit freuen",
+      "ja": "今後の協力関係を楽しみにする"
+    },
+    {
+      "de": "sich über ein Geschenk freuen",
+      "ja": "贈り物を喜ぶ"
+    },
+    {
+      "de": "sich über eine gute Nachricht freuen",
+      "ja": "良い知らせを喜ぶ"
+    },
+    {
+      "de": "sich sehr darüber freuen, dass ...",
+      "ja": "～ということを大変うれしく思う"
+    },
+    {
+      "de": "Ich freue mich, Sie kennenzulernen.",
+      "ja": "お知り合いになれてうれしいです"
+    },
+    {
+      "de": "Das freut mich sehr.",
+      "ja": "それはとてもうれしいです"
+    },
+    {
+      "de": "Wir freuen uns auf Ihre Rückmeldung.",
+      "ja": "ご回答をお待ちしております"
+    },
+    {
+      "de": "Ich würde mich freuen, wenn ...",
+      "ja": "～していただければ幸いです"
+    }
+  ],
+  "minimal": {
+    "ja": "sich freuen＝喜びを感じる、楽しみにする一般的な表現／sich auf etwas freuen＝未来の出来事への肯定的な期待／sich über etwas freuen＝事実・知らせ・出来事に対する喜び／entgegensehen＝未来の出来事を期待や不安を抱いて待つ、やや格調のある表現で3格支配／sich begeistern für＝何かに強い熱意や興奮を覚える／genießen＝実際に経験していることを楽しみ、味わう／glücklich sein＝喜びの瞬間よりも幸福な状態そのものを表す",
+    "de": "sich freuen = allgemein Freude empfinden; sich auf etwas freuen = positive Vorfreude auf etwas Zukünftiges; sich über etwas freuen = Freude über eine Tatsache oder ein Ereignis; entgegensehen = etwas Zukünftiges mit einer bestimmten Erwartungshaltung erwarten, eher gehoben und mit Dativ; sich begeistern für = starke Begeisterung entwickeln; genießen = etwas bewusst als angenehm erleben; glücklich sein = einen Zustand des Glücks beschreiben"
+  },
+  "equivalents": {
+    "en": [
+      "be glad",
+      "be pleased",
+      "look forward to",
+      "rejoice",
+      "delight someone"
+    ],
+    "it": [
+      "essere contento",
+      "rallegrarsi",
+      "gioire",
+      "non vedere l'ora di",
+      "fare piacere"
+    ],
+    "fr": [
+      "se réjouir",
+      "être content",
+      "avoir hâte de",
+      "faire plaisir"
+    ],
+    "es": [
+      "alegrarse",
+      "estar contento",
+      "tener ganas de",
+      "hacer ilusión",
+      "alegrar a alguien"
+    ]
+  },
+  "etymology": {
+    "ja": "形容詞 froh『うれしい、喜んでいる』と同系統の語で、中高ドイツ語 vröuwen、古高ドイツ語 frewen などにさかのぼる。もともとは『喜ばせる』という他動詞的な意味を持ち、再帰用法の sich freuen によって『自分が喜ぶ』という意味を表すようになった。英語の glad とは直接の同根語ではないが、ドイツ語の froh は英語の frolic などと語源的に関連する。",
+    "de": "Das Verb ist mit dem Adjektiv „froh“ verwandt und geht auf mittelhochdeutsch „vröuwen“ sowie althochdeutsch „frewen“ zurück. Ursprünglich bedeutete es insbesondere „jemanden froh machen“. Der reflexive Gebrauch „sich freuen“ bezeichnet die eigene Freude."
+  },
+  "example": {
+    "ja": "①私は来月のドイツ旅行をとても楽しみにしている。②彼女は試験に合格したことを喜んでいる。③私たちはあなたが会議に参加してくださることを大変うれしく思います。④その知らせを聞いて私はとてもうれしかった。",
+    "de": "①Ich freue mich sehr auf meine Deutschlandreise im nächsten Monat. ②Sie freut sich darüber, dass sie die Prüfung bestanden hat. ③Wir freuen uns sehr, dass Sie an der Konferenz teilnehmen werden. ④Die Nachricht hat mich sehr gefreut."
+  },
+  "task": {
+    "ja": "①「来週あなたにお会いするのを楽しみにしています。」②「彼は良い知らせを喜んだ。」③「あなたが無事に到着したことをうれしく思います。」④「あなたのご回答をいただければ幸いです。」を freuen を使って表現する。",
+    "de": "Formuliere vier Sätze mit „freuen“: ① Vorfreude auf ein Treffen, ② Freude über eine Nachricht, ③ Freude über die sichere Ankunft einer Person und ④ eine höfliche Bitte mit „Ich würde mich freuen, wenn ...“."
+  }
+},
+{
+  "id": "verschlossen",
+  "sid": "2026-00301",
+  "word": "verschlossen",
+  "tags": [
+    "adj",
+    "personality",
+    "emotion",
+    "state",
+    "general"
+  ],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj",
+    "comparative": "verschlossener",
+    "superlative": "am verschlossensten",
+    "participle": "Partizip II von verschließen",
+    "patterns": [
+      "verschlossen sein",
+      "etwas verschlossen halten",
+      "gegenüber jemandem verschlossen sein",
+      "sich jemandem gegenüber verschlossen zeigen"
+    ]
+  },
+  "pronunciation": {
+    "ipa": "/fɛɐ̯ˈʃlɔsn̩/"
+  },
+  "meaning": {
+    "ja": "①（扉・箱・容器などが）閉ざされた、鍵や留め具などで閉じられた ②（人が）心を開かない、内向的な、打ち解けない ③（感情・考えなどを）表に出さない、胸の内に秘めた",
+    "de": "①so geschlossen oder gesichert, dass etwas nicht ohne Weiteres geöffnet oder betreten werden kann ②von einer Person: wenig offen, zurückgezogen und nicht bereit, persönliche Gedanken oder Gefühle mitzuteilen ③von Gefühlen oder Gedanken: nicht nach außen gezeigt oder anderen mitgeteilt"
+  },
+  "nuance": {
+    "ja": "物理的な意味では、単に閉じているというより、鍵・留め具などによって開かない状態を表しやすい。ただし必ずしも施錠を意味するわけではない。人物については、感情や考えを他人にあまり明かさない性格・態度を表す。schüchtern のように必ずしも恥ずかしがり屋という意味ではなく、意図的に距離を置く人にも使える。文脈によっては冷淡・近寄りがたいという印象を伴う。",
+    "de": "Bei Gegenständen bezeichnet „verschlossen“ einen geschlossenen oder gesicherten Zustand, ohne zwingend eine Verriegelung mit einem Schlüssel vorauszusetzen. Bei Personen beschreibt es eine geringe Bereitschaft, persönliche Gefühle oder Gedanken preiszugeben. Anders als „schüchtern“ muss „verschlossen“ nicht auf Unsicherheit beruhen; es kann auch bewusste Distanz ausdrücken."
+  },
+  "collocations": [
+    {
+      "de": "eine verschlossene Tür",
+      "ja": "閉ざされた扉、施錠された扉"
+    },
+    {
+      "de": "ein fest verschlossener Behälter",
+      "ja": "しっかり密閉された容器"
+    },
+    {
+      "de": "die Augen fest verschlossen halten",
+      "ja": "目を固く閉じておく"
+    },
+    {
+      "de": "ein verschlossener Mensch",
+      "ja": "心を開かない人、内向的な人"
+    },
+    {
+      "de": "ein verschlossener Charakter",
+      "ja": "打ち解けにくい性格"
+    },
+    {
+      "de": "anderen gegenüber verschlossen sein",
+      "ja": "他人に対して心を開かない"
+    },
+    {
+      "de": "sich verschlossen zeigen",
+      "ja": "心を閉ざした態度を示す"
+    },
+    {
+      "de": "verschlossene Gefühle",
+      "ja": "表に出されない感情"
+    },
+    {
+      "de": "in sich verschlossen sein",
+      "ja": "自分の殻に閉じこもっている"
+    }
+  ],
+  "minimal": {
+    "ja": "verschlossen＝物理的に閉ざされた状態、または他人に心を開かない性格／geschlossen＝単に閉じている、営業していない、またはまとまりがある／abgeschlossen＝施錠された、完了した、または外部から隔てられた／zurückhaltend＝控えめで慎み深く、感情や発言を抑える／schüchtern＝恥ずかしがり屋で、人前で不安やためらいを感じる／introvertiert＝内向的な気質を表す比較的中立的な心理学的表現／wortkarg＝言葉数が少ないことに重点",
+    "de": "verschlossen = nicht ohne Weiteres zu öffnen oder persönlich wenig offen; geschlossen = allgemein nicht offen, auch im Sinne von nicht geöffnet oder nicht in Betrieb; abgeschlossen = durch ein Schloss gesichert, beendet oder abgegrenzt; zurückhaltend = vorsichtig und wenig aufdringlich im Auftreten; schüchtern = aus Unsicherheit oder Verlegenheit gehemmt; introvertiert = eher nach innen orientiert, ohne notwendigerweise unzugänglich zu sein; wortkarg = wenig sprechend"
+  },
+  "equivalents": {
+    "en": [
+      "closed",
+      "locked",
+      "sealed",
+      "reserved",
+      "withdrawn",
+      "guarded"
+    ],
+    "it": [
+      "chiuso",
+      "serrato",
+      "sigillato",
+      "riservato",
+      "introverso"
+    ],
+    "fr": [
+      "fermé",
+      "verrouillé",
+      "scellé",
+      "réservé",
+      "renfermé"
+    ],
+    "es": [
+      "cerrado",
+      "cerrado con llave",
+      "sellado",
+      "reservado",
+      "introvertido",
+      "hermético"
+    ]
+  },
+  "etymology": {
+    "ja": "動詞 verschließen『閉じる、封じる、施錠する』の過去分詞から形容詞化した語。verschließen は接頭辞 ver- と schließen『閉じる』からなる。物理的に閉ざされた状態から、比喩的に『心や感情を他人に開かない』という意味にも用いられるようになった。",
+    "de": "„Verschlossen“ ist das Partizip II des Verbs „verschließen“, das aus dem Präfix „ver-“ und „schließen“ gebildet ist. Aus der konkreten Bedeutung des Verschließens entwickelte sich die übertragene Verwendung für Menschen, die ihre Gedanken und Gefühle nicht offenbaren."
+  },
+  "example": {
+    "ja": "①その箱はしっかり閉じられており、簡単には開けられなかった。②彼はとても心を開かない人で、私生活についてほとんど話さない。③彼女は悲しみを胸の内に秘め、同僚には何も打ち明けなかった。",
+    "de": "①Die Kiste war fest verschlossen und ließ sich nicht ohne Weiteres öffnen. ②Er ist ein sehr verschlossener Mensch und spricht kaum über sein Privatleben. ③Sie hielt ihre Trauer tief in sich verschlossen und vertraute sich keinem ihrer Kollegen an."
+  },
+  "task": {
+    "ja": "①「その扉はしっかり閉ざされていた。」②「彼女は内向的で、自分の気持ちをほとんど話さない。」③「彼は長年、その秘密を胸の内にしまっていた。」を verschlossen を使って表現する。",
+    "de": "Formuliere drei Sätze mit „verschlossen“: ① ein gesicherter Gegenstand, ② eine wenig offene Persönlichkeit und ③ bewusst zurückgehaltene Gedanken oder Gefühle."
+  }
+},
+{
+  "id": "schuechtern",
+  "sid": "2026-00302",
+  "word": "schüchtern",
+  "tags": [
+    "adj",
+    "personality",
+    "emotion",
+    "behavior",
+    "general"
+  ],
+  "level": "B1-B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj",
+    "comparative": "schüchterner",
+    "superlative": "am schüchternsten",
+    "patterns": [
+      "schüchtern sein",
+      "jemandem gegenüber schüchtern sein",
+      "schüchtern wirken",
+      "schüchtern lächeln",
+      "sich schüchtern verhalten"
+    ]
+  },
+  "pronunciation": {
+    "ipa": "/ˈʃʏçtɐn/"
+  },
+  "meaning": {
+    "ja": "①（人が）内気な、恥ずかしがり屋の、人前で気後れする ②（態度・表情・声などが）はにかんだ、おずおずとした、控えめな ③（試み・提案・進展などが）遠慮がちな、まだ小規模で控えめな",
+    "de": "①von Personen: im Umgang mit anderen Menschen unsicher, gehemmt oder leicht verlegen ②von Verhalten, Mimik oder Stimme: vorsichtig, zurückhaltend und von Verlegenheit geprägt ③von Versuchen, Vorschlägen oder Entwicklungen: noch vorsichtig, zaghaft oder wenig ausgeprägt"
+  },
+  "nuance": {
+    "ja": "人との接触や人前での行動に際して、恥ずかしさ、不安、自信のなさなどから積極的に振る舞えないことを表す。必ずしも性格全体が内向的であるとは限らず、特定の相手や状況に対して一時的に schüchtern になることもある。人の態度や微笑みを形容すると、柔らかく好意的な印象を与える場合もある。比喩的には、試みや進展がまだ控えめな段階にあることも表す。",
+    "de": "„Schüchtern“ beschreibt Unsicherheit, Hemmung oder Verlegenheit im sozialen Umgang. Die Eigenschaft kann dauerhaft sein oder nur in bestimmten Situationen auftreten. Bei einem Lächeln oder einer Geste kann das Wort eine sanfte, sympathische Zurückhaltung ausdrücken. Übertragen bezeichnet es auch vorsichtige, noch wenig ausgeprägte Ansätze oder Entwicklungen."
+  },
+  "collocations": [
+    {
+      "de": "ein schüchternes Kind",
+      "ja": "内気な子供"
+    },
+    {
+      "de": "von Natur aus schüchtern sein",
+      "ja": "生まれつき内気である"
+    },
+    {
+      "de": "Fremden gegenüber schüchtern sein",
+      "ja": "見知らぬ人に対して気後れする"
+    },
+    {
+      "de": "ein schüchternes Lächeln",
+      "ja": "はにかんだ微笑み"
+    },
+    {
+      "de": "schüchtern lächeln",
+      "ja": "はにかみながら微笑む"
+    },
+    {
+      "de": "einen schüchternen Blick zuwerfen",
+      "ja": "おずおずと視線を向ける"
+    },
+    {
+      "de": "eine schüchterne Frage stellen",
+      "ja": "遠慮がちに質問する"
+    },
+    {
+      "de": "einen schüchternen Versuch unternehmen",
+      "ja": "おずおずと試みる"
+    },
+    {
+      "de": "schüchterne Annäherungsversuche",
+      "ja": "遠慮がちな接近の試み"
+    },
+    {
+      "de": "seine Schüchternheit überwinden",
+      "ja": "内気さを克服する"
+    }
+  ],
+  "minimal": {
+    "ja": "schüchtern＝恥ずかしさや対人不安から積極的に振る舞えない／verschlossen＝自分の感情や考えを他人に明かさず、心を開かない／zurückhaltend＝慎み深く、意識的に控えめに振る舞う／introvertiert＝内面に意識が向きやすい気質で、必ずしも対人不安を伴わない／verlegen＝特定の場面で恥ずかしい、気まずいと感じている／ängstlich＝恐怖や不安を感じやすい／zaghaft＝行動や発言にためらいがあり、おずおずとしている",
+    "de": "schüchtern = im sozialen Umgang aus Unsicherheit oder Verlegenheit gehemmt; verschlossen = wenig bereit, persönliche Gedanken und Gefühle preiszugeben; zurückhaltend = bewusst vorsichtig und wenig aufdringlich; introvertiert = stärker auf das eigene Innenleben orientiert, nicht unbedingt sozial unsicher; verlegen = in einer bestimmten Situation beschämt oder unsicher; ängstlich = von Angst oder Besorgnis geprägt; zaghaft = zögernd und wenig entschlossen im Handeln"
+  },
+  "equivalents": {
+    "en": [
+      "shy",
+      "timid",
+      "bashful",
+      "diffident",
+      "tentative"
+    ],
+    "it": [
+      "timido",
+      "impacciato",
+      "riservato",
+      "esitante"
+    ],
+    "fr": [
+      "timide",
+      "gêné",
+      "réservé",
+      "hésitant"
+    ],
+    "es": [
+      "tímido",
+      "vergonzoso",
+      "cohibido",
+      "tímidamente"
+    ]
+  },
+  "etymology": {
+    "ja": "中高ドイツ語 schühter、schühtern などの古い形にさかのぼり、もともと『臆病な、怖がりの』という意味領域に属する。現代ドイツ語では、一般的な恐怖よりも対人場面での内気さや気後れを表す意味が中心となっている。関連する名詞は Schüchternheit『内気さ、恥ずかしがり』。",
+    "de": "Das Adjektiv geht auf ältere Formen wie mittelhochdeutsch „schühter“ beziehungsweise „schühtern“ zurück und stand ursprünglich im Bedeutungsfeld von Ängstlichkeit und Scheu. Heute bezeichnet es vor allem soziale Gehemmtheit und Verlegenheit. Das zugehörige Substantiv lautet „Schüchternheit“."
+  },
+  "example": {
+    "ja": "①彼女は子供の頃とても内気で、見知らぬ人に話しかけるのが苦手だった。②彼ははにかんだ笑みを浮かべ、彼女に花束を差し出した。③その会社は海外市場への進出を控えめに試み始めた。",
+    "de": "①Als Kind war sie sehr schüchtern und traute sich kaum, fremde Menschen anzusprechen. ②Er lächelte schüchtern und überreichte ihr einen Blumenstrauß. ③Das Unternehmen unternahm erste schüchterne Versuche, auf ausländischen Märkten Fuß zu fassen."
+  },
+  "task": {
+    "ja": "①「彼は知らない人の前ではとても内気になる。」②「彼女ははにかんだ笑みを浮かべた。」③「政府は改革に向けた控えめな第一歩を踏み出した。」を schüchtern を使って表現する。",
+    "de": "Formuliere drei Sätze mit „schüchtern“: ① soziale Unsicherheit gegenüber Fremden, ② ein verlegenes Lächeln und ③ ein vorsichtiger erster Reformversuch."
+  }
+},
+{
+  "id": "introvertiert",
+  "sid": "2026-00303",
+  "word": "introvertiert",
+  "tags": [
+    "adj",
+    "personality",
+    "psychology",
+    "behavior",
+    "general"
+  ],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj",
+    "comparative": "introvertierter",
+    "superlative": "am introvertiertesten",
+    "patterns": [
+      "introvertiert sein",
+      "eher introvertiert sein",
+      "introvertiert wirken",
+      "eine introvertierte Persönlichkeit haben",
+      "introvertiert veranlagt sein"
+    ],
+    "related_noun": "die Introversion",
+    "antonyms": [
+      "extrovertiert",
+      "extravertiert"
+    ]
+  },
+  "pronunciation": {
+    "ipa": "/ɪntʁovɛɐ̯ˈtiːɐ̯t/"
+  },
+  "meaning": {
+    "ja": "①（性格・気質が）内向的な、内省的な ②（態度・振る舞いが）内に向かった、自己の内面に意識を向けた",
+    "de": "①von der Persönlichkeit: stärker auf die eigene Gedanken- und Gefühlswelt als auf äußere Reize und soziale Kontakte ausgerichtet ②von Verhalten oder Auftreten: nach innen gerichtet, eher ruhig und selbstreflektiert"
+  },
+  "nuance": {
+    "ja": "心理学で用いられる内向性（Introversion）を表す形容詞。一般には、外部からの刺激や頻繁な社交よりも、静かな環境や一人で過ごす時間を好む傾向を指す。ただし、内向的であることは人付き合いが苦手であることや、人を避けることと同義ではない。schüchtern は対人場面での恥ずかしさや不安、verschlossen は他人に内面を明かさない態度を表す。introvertiert は基本的に中立的な性格記述であり、病的な性質を意味しない。",
+    "de": "„Introvertiert“ bezeichnet eine Persönlichkeitseigenschaft, bei der die Aufmerksamkeit stärker auf das eigene Innenleben gerichtet ist. Introvertierte Menschen bevorzugen häufig ruhigere Umgebungen oder benötigen nach intensiven sozialen Kontakten Zeit für sich. Introversion ist jedoch weder mit Schüchternheit noch mit sozialer Unsicherheit oder Verschlossenheit gleichzusetzen. Der Begriff ist grundsätzlich wertneutral."
+  },
+  "collocations": [
+    {
+      "de": "ein introvertierter Mensch",
+      "ja": "内向的な人"
+    },
+    {
+      "de": "eine introvertierte Persönlichkeit",
+      "ja": "内向的な性格"
+    },
+    {
+      "de": "eher introvertiert sein",
+      "ja": "どちらかといえば内向的である"
+    },
+    {
+      "de": "von Natur aus introvertiert sein",
+      "ja": "生来、内向的である"
+    },
+    {
+      "de": "introvertiert veranlagt sein",
+      "ja": "内向的な気質を持っている"
+    },
+    {
+      "de": "introvertiert wirken",
+      "ja": "内向的に見える"
+    },
+    {
+      "de": "introvertierte und extrovertierte Menschen",
+      "ja": "内向的な人と外向的な人"
+    },
+    {
+      "de": "eine eher introvertierte Art haben",
+      "ja": "どちらかといえば内向的な性格・物腰である"
+    },
+    {
+      "de": "trotz seiner introvertierten Art gesellig sein",
+      "ja": "内向的な性格にもかかわらず社交的である"
+    }
+  ],
+  "minimal": {
+    "ja": "introvertiert＝内面への志向が強い性格特性。対人不安を必ずしも伴わない／schüchtern＝恥ずかしさや不安によって人前で気後れする／verschlossen＝自分の考えや感情を他人に明かさず、心を開かない／zurückhaltend＝言動が控えめで、積極的に前に出ない／in sich gekehrt＝自分の内面に沈み込んだ、物思いにふけった状態を表すことが多い／extrovertiert＝外界や人との交流に強く意識が向かう、外向的な",
+    "de": "introvertiert = stärker auf das eigene Innenleben ausgerichtet, ohne notwendige soziale Unsicherheit; schüchtern = aus Verlegenheit oder Unsicherheit im Umgang mit anderen gehemmt; verschlossen = wenig bereit, persönliche Gedanken und Gefühle mitzuteilen; zurückhaltend = vorsichtig und wenig aufdringlich im Auftreten; in sich gekehrt = gedanklich stark mit sich selbst beschäftigt, häufig als momentaner Zustand; extrovertiert = stärker auf die Außenwelt und soziale Interaktion ausgerichtet"
+  },
+  "equivalents": {
+    "en": [
+      "introverted",
+      "inward-looking",
+      "introspective"
+    ],
+    "it": [
+      "introverso",
+      "introvertito",
+      "introspettivo"
+    ],
+    "fr": [
+      "introverti",
+      "tourné vers soi-même",
+      "introspectif"
+    ],
+    "es": [
+      "introvertido",
+      "introspectivo",
+      "orientado hacia su mundo interior"
+    ]
+  },
+  "etymology": {
+    "ja": "ラテン語 intro『内側へ』と vertere『向ける、回す』に由来する心理学用語。『内側に向けられた』という構成で、20世紀初頭に心理学者カール・グスタフ・ユングが体系化した Introversion（内向性）と Extraversion（外向性）の対概念を通じて広まった。ラテン語 vertere は英語の convert、invert、reverse などにも含まれる語根である。",
+    "de": "Der Begriff geht auf lateinisch „intro“ („nach innen“) und „vertere“ („wenden, drehen“) zurück. In der Psychologie wurde das Begriffspaar „Introversion“ und „Extraversion“ insbesondere durch Carl Gustav Jung im frühen 20. Jahrhundert geprägt und verbreitet. Das Grundbild ist eine nach innen gerichtete Orientierung."
+  },
+  "example": {
+    "ja": "①彼女は内向的な性格で、大勢で過ごすよりも静かな環境を好む。②彼は会議では内向的に見えるが、親しい友人とは非常によく話す。",
+    "de": "①Sie hat eine introvertierte Persönlichkeit und bevorzugt eine ruhige Umgebung gegenüber großen Gesellschaften. ②In Besprechungen wirkt er introvertiert, aber mit engen Freunden ist er sehr gesprächig."
+  },
+  "task": {
+    "ja": "①「私はどちらかといえば内向的だが、人と話すのは好きだ。」②「彼女は内向的に見えるが、決して恥ずかしがり屋ではない。」を introvertiert を使って表現する。",
+    "de": "Formuliere zwei Sätze mit „introvertiert“: ① eine introvertierte, aber kontaktfreudige Persönlichkeit und ② den Unterschied zwischen Introversion und Schüchternheit."
+  }
+},
+{
+  "id": "extrovertiert",
+  "sid": "2026-00304",
+  "word": "extrovertiert",
+  "tags": [
+    "adj",
+    "personality",
+    "psychology",
+    "behavior",
+    "general"
+  ],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj",
+    "comparative": "extrovertierter",
+    "superlative": "am extrovertiertesten",
+    "variant": "extravertiert",
+    "patterns": [
+      "extrovertiert sein",
+      "eher extrovertiert sein",
+      "extrovertiert wirken",
+      "eine extrovertierte Persönlichkeit haben",
+      "extrovertiert veranlagt sein"
+    ],
+    "related_noun": "die Extraversion",
+    "antonyms": [
+      "introvertiert"
+    ]
+  },
+  "pronunciation": {
+    "ipa": "/ɛkstʁovɛɐ̯ˈtiːɐ̯t/"
+  },
+  "meaning": {
+    "ja": "①（性格・気質が）外向的な、社交的な、外界との交流を好む ②（態度・振る舞いが）開放的な、積極的に自己表現する、人前で活発な",
+    "de": "①von der Persönlichkeit: stark auf die Außenwelt, soziale Kontakte und äußere Anregungen ausgerichtet ②von Verhalten oder Auftreten: offen, kontaktfreudig und bereit, sich aktiv nach außen auszudrücken"
+  },
+  "nuance": {
+    "ja": "心理学的には外向性（Extraversion）という性格特性を表す。一般に、人との交流や外部からの刺激を好み、積極的に周囲と関わる傾向を指す。ただし、外向的であることは必ずしも自信があること、話し好きであること、自己主張が強いことと同義ではない。introvertiert と同様、基本的には価値判断を含まない中立的な性格記述である。心理学では extravertiert という綴りがよく使われる。",
+    "de": "„Extrovertiert“ bezeichnet eine Persönlichkeitseigenschaft, bei der die Orientierung auf die Außenwelt, soziale Kontakte und äußere Anregungen im Vordergrund steht. Extrovertierte Menschen sind häufig kontaktfreudig und gesellig, müssen aber nicht zwangsläufig selbstbewusst, laut oder dominant sein. Der Begriff ist grundsätzlich wertneutral. In der psychologischen Fachsprache wird häufig die Variante „extravertiert“ verwendet."
+  },
+  "collocations": [
+    {
+      "de": "ein extrovertierter Mensch",
+      "ja": "外向的な人"
+    },
+    {
+      "de": "eine extrovertierte Persönlichkeit",
+      "ja": "外向的な性格"
+    },
+    {
+      "de": "von Natur aus extrovertiert sein",
+      "ja": "生来、外向的である"
+    },
+    {
+      "de": "eher extrovertiert sein",
+      "ja": "どちらかといえば外向的である"
+    },
+    {
+      "de": "extrovertiert veranlagt sein",
+      "ja": "外向的な気質を持っている"
+    },
+    {
+      "de": "extrovertiert auftreten",
+      "ja": "外向的で積極的な態度を示す"
+    },
+    {
+      "de": "extrovertiert wirken",
+      "ja": "外向的に見える"
+    },
+    {
+      "de": "ein extrovertierter Charakter",
+      "ja": "外向的な性格"
+    },
+    {
+      "de": "introvertierte und extrovertierte Persönlichkeiten",
+      "ja": "内向的な性格と外向的な性格"
+    },
+    {
+      "de": "ein extrovertiertes Auftreten",
+      "ja": "開放的で積極的な振る舞い"
+    }
+  ],
+  "minimal": {
+    "ja": "extrovertiert＝外界や人との交流に意識が向かう外向的な性格特性／extravertiert＝基本的に同義で、心理学の専門用語としてよく用いられる異形／introvertiert＝自分の内面に意識が向きやすい内向的な気質／gesellig＝人と一緒に過ごすことを好む、社交好きな／kontaktfreudig＝他人との接触や新しい出会いを積極的に求める／offen＝考えや感情を率直に示す、または新しい経験に開かれている／selbstbewusst＝自信があり、堂々としている／aufgeschlossen＝新しい考えや人に対して偏見なく受容的である",
+    "de": "extrovertiert = in der Persönlichkeit stark nach außen und auf soziale Kontakte orientiert; extravertiert = bedeutungsgleiche, besonders in der Psychologie verbreitete Variante; introvertiert = stärker auf das eigene Innenleben ausgerichtet; gesellig = gern in Gesellschaft anderer; kontaktfreudig = sucht gern den Kontakt zu anderen Menschen; offen = bereit, Gedanken und Gefühle mitzuteilen oder Neues anzunehmen; selbstbewusst = von den eigenen Fähigkeiten überzeugt und sicher im Auftreten; aufgeschlossen = offen gegenüber neuen Ideen und Menschen"
+  },
+  "equivalents": {
+    "en": [
+      "extroverted",
+      "extraverted",
+      "outgoing",
+      "sociable"
+    ],
+    "it": [
+      "estroverso",
+      "estrovertito",
+      "socievole",
+      "espansivo"
+    ],
+    "fr": [
+      "extraverti",
+      "extroverti",
+      "sociable",
+      "expansif"
+    ],
+    "es": [
+      "extrovertido",
+      "extravertido",
+      "sociable",
+      "expansivo"
+    ]
+  },
+  "etymology": {
+    "ja": "ラテン語 extra『外側に、外へ』と vertere『向ける、回す』に由来する。文字どおりには『外側に向けられた』という構成で、introvertiert『内側に向けられた』と対をなす。心理学者カール・グスタフ・ユングが20世紀初頭に体系化した Extraversion と Introversion の対概念を通じて広まった。extro- という形は、もともとのラテン語 extra- に由来する形から生じた異形である。",
+    "de": "Der Begriff geht auf lateinisch „extra“ („außerhalb, nach außen“) und „vertere“ („wenden, drehen“) zurück. Er bildet das Gegenstück zu „introvertiert“. Das Begriffspaar „Extraversion“ und „Introversion“ wurde insbesondere durch Carl Gustav Jung im frühen 20. Jahrhundert in der Psychologie verbreitet. Die Form mit „extro-“ ist eine später verbreitete Variante der ursprünglichen Bildung mit „extra-“."
+  },
+  "example": {
+    "ja": "①彼は非常に外向的な性格で、初対面の人ともすぐに打ち解ける。②彼女は会議ではとても積極的に振る舞うが、私生活ではむしろ静かな時間を好む。",
+    "de": "①Er hat eine sehr extrovertierte Persönlichkeit und kommt auch mit fremden Menschen schnell ins Gespräch. ②In Besprechungen tritt sie sehr extrovertiert auf, privat bevorzugt sie jedoch eher ruhige Stunden."
+  },
+  "task": {
+    "ja": "①「彼女は外向的で、新しい人と知り合うのが好きだ。」②「彼は普段は内向的だが、仕事では外向的に振る舞う。」を extrovertiert を使って表現する。",
+    "de": "Formuliere zwei Sätze mit „extrovertiert“: ① eine kontaktfreudige Persönlichkeit und ② den Unterschied zwischen einer introvertierten Persönlichkeit und einem extrovertierten Auftreten im Beruf."
+  }
 }
 ]
