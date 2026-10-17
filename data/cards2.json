@@ -2677,5 +2677,237 @@
     "ja": "①「彼女は外向的で、新しい人と知り合うのが好きだ。」②「彼は普段は内向的だが、仕事では外向的に振る舞う。」を extrovertiert を使って表現する。",
     "de": "Formuliere zwei Sätze mit „extrovertiert“: ① eine kontaktfreudige Persönlichkeit und ② den Unterschied zwischen einer introvertierten Persönlichkeit und einem extrovertierten Auftreten im Beruf."
   }
+},
+{
+  "id": "kabuff",
+  "sid": "2026-00305",
+  "word": "Kabuff",
+  "tags": [
+    "noun",
+    "room",
+    "housing",
+    "colloquial",
+    "descriptive"
+  ],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "n",
+    "article": "das",
+    "genitive": "des Kabuffs",
+    "plural": "die Kabuffs",
+    "register": "umgangssprachlich"
+  },
+  "pronunciation": {
+    "ipa": "/kaˈbʊf/"
+  },
+  "meaning": {
+    "ja": "①狭苦しい小部屋、むさ苦しい部屋、窮屈な一室 ②物置同然の小部屋、雑然とした狭い収納スペース",
+    "de": "①ein sehr kleiner, enger, oft ungemütlicher oder schlecht ausgestatteter Raum ②eine kleine, häufig vollgestellte Kammer oder Abstellräumlichkeit"
+  },
+  "nuance": {
+    "ja": "口語的で、しばしば軽蔑的・ユーモラスな響きを持つ。単なる kleines Zimmer とは異なり、狭さに加えて居心地の悪さ、薄暗さ、雑然とした様子などを連想させる。必ずしも汚い部屋とは限らないが、快適な居住空間を褒める表現ではない。地域や話者によっては Kabuff より Kabüffchen などの関連形を耳にすることもある。",
+    "de": "„Kabuff“ ist umgangssprachlich und meist abwertend oder scherzhaft gefärbt. Es bezeichnet nicht einfach nur ein kleines Zimmer, sondern vermittelt häufig den Eindruck von Enge, Unordnung oder mangelndem Komfort. Ein Kabuff muss nicht unbedingt schmutzig sein, wirkt aber selten einladend."
+  },
+  "collocations": [
+    {
+      "de": "in einem engen Kabuff wohnen",
+      "ja": "狭苦しい小部屋に住む"
+    },
+    {
+      "de": "ein dunkles Kabuff",
+      "ja": "薄暗い狭い部屋"
+    },
+    {
+      "de": "ein winziges Kabuff",
+      "ja": "ごく小さな部屋"
+    },
+    {
+      "de": "ein stickiges Kabuff",
+      "ja": "空気のこもった狭苦しい部屋"
+    },
+    {
+      "de": "in einem Kabuff hausen",
+      "ja": "むさ苦しい小部屋で暮らす"
+    },
+    {
+      "de": "ein Kabuff voller Gerümpel",
+      "ja": "がらくたでいっぱいの小部屋"
+    },
+    {
+      "de": "jemanden in ein Kabuff stecken",
+      "ja": "誰かを狭苦しい小部屋に押し込む"
+    },
+    {
+      "de": "ein kleines Kabuff als Büro nutzen",
+      "ja": "狭い小部屋を事務室として使う"
+    }
+  ],
+  "minimal": {
+    "ja": "Kabuff＝狭く、居心地の悪い小部屋。口語的でやや否定的／Kammer＝小部屋・収納室を表す比較的中立的な語／Abstellkammer＝物を収納するための小部屋／Verschlag＝板などで仕切った粗末な小空間・囲い／Kämmerchen＝小さな部屋を表す指小形で、親しみや愛嬌を含む場合もある／Loch＝比喩的に、ひどく狭く不快な部屋を指す強い蔑称／Bude＝口語で部屋・住居・店などを指し、文脈によって親しみや軽蔑を伴う",
+    "de": "Kabuff = sehr kleiner, oft ungemütlicher Raum, umgangssprachlich und häufig abwertend; Kammer = eher neutraler Ausdruck für einen kleinen Nebenraum; Abstellkammer = kleiner Raum zur Aufbewahrung von Gegenständen; Verschlag = einfacher, oft provisorisch abgetrennter Raum; Kämmerchen = Verkleinerungsform von Kammer, gelegentlich liebevoll; Loch = stark abwertende Bezeichnung für eine schlechte Unterkunft; Bude = umgangssprachlicher Ausdruck für Zimmer, Wohnung oder andere Räumlichkeiten"
+  },
+  "equivalents": {
+    "en": [
+      "cubbyhole",
+      "cramped little room",
+      "poky room",
+      "tiny storeroom"
+    ],
+    "it": [
+      "stanzino",
+      "sgabuzzino",
+      "bugigattolo",
+      "ripostiglio"
+    ],
+    "fr": [
+      "réduit",
+      "cagibi",
+      "débarras",
+      "petite pièce exiguë"
+    ],
+    "es": [
+      "cuartucho",
+      "cuchitril",
+      "trastero",
+      "cuarto diminuto"
+    ]
+  },
+  "etymology": {
+    "ja": "語源には不確かな点があるが、狭い小部屋や粗末な住居を指す口語・地域語の語彙群に属する。現代ドイツ語では、部屋の狭さや居心地の悪さを強調する表現として定着している。由来については、特定の語根からの単純な派生と断定しないほうがよい。",
+    "de": "Die genaue Herkunft von „Kabuff“ ist nicht vollständig gesichert. Das Wort gehört zu einer Gruppe umgangs- und regionalsprachlicher Bezeichnungen für kleine, einfache oder beengte Räume. In der heutigen Sprache steht besonders der Eindruck von Enge und mangelndem Komfort im Vordergrund."
+  },
+  "example": {
+    "ja": "①彼は窓もない狭苦しい小部屋で何年も暮らしていた。②掃除用具は階段の下の小さな物置に押し込まれていた。",
+    "de": "①Er hatte jahrelang in einem engen Kabuff ohne Fenster gewohnt. ②Die Putzgeräte waren in einem kleinen Kabuff unter der Treppe verstaut."
+  },
+  "task": {
+    "ja": "①「彼らは私を窓のない狭苦しい部屋に泊めた。」②「階段の下の小部屋はがらくたでいっぱいだった。」を Kabuff を使って表現する。",
+    "de": "Formuliere zwei Sätze mit „Kabuff“: ① eine beengte und ungemütliche Unterkunft und ② eine kleine, mit Gerümpel vollgestellte Kammer."
+  }
+},
+{
+  "id": "verschlag",
+  "sid": "2026-00306",
+  "word": "Verschlag",
+  "tags": [
+    "noun",
+    "housing",
+    "architecture",
+    "animals",
+    "descriptive"
+  ],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "noun",
+    "gender": "m",
+    "article": "der",
+    "genitive": "des Verschlags",
+    "plural": "die Verschläge",
+    "patterns": [
+      "ein Verschlag aus Brettern",
+      "ein Verschlag unter der Treppe",
+      "in einem Verschlag hausen",
+      "einen Verschlag errichten"
+    ]
+  },
+  "pronunciation": {
+    "ipa": "/fɛɐ̯ˈʃlaːk/"
+  },
+  "meaning": {
+    "ja": "①板などで簡単に仕切った小部屋、粗末な囲い、仮設の小屋 ②動物を収容するための簡易な囲い、飼育用の小区画 ③（まれに、馬などの）後ろ脚による蹴り",
+    "de": "①ein kleiner, meist einfacher oder notdürftig abgetrennter Raum, häufig aus Brettern oder ähnlichem Material ②eine einfache, abgegrenzte Unterbringung für Tiere ③selten: ein Ausschlagen oder Tritt mit den Hinterbeinen, besonders bei Pferden"
+  },
+  "nuance": {
+    "ja": "建物の一角などを板や簡単な壁で仕切って作った空間を指すことが多い。通常の Zimmer とは異なり、構造が簡素で、十分な居住設備を備えていないという印象を与える。人間の居住空間について用いると、粗末さや劣悪な環境を強調する場合がある。一方、動物の囲いについては比較的中立的にも使われる。③の意味は現代の日常語ではまれ。",
+    "de": "Ein „Verschlag“ ist meist ein einfach abgetrennter oder notdürftig errichteter kleiner Raum. Anders als ein gewöhnliches Zimmer wirkt er provisorisch und wenig komfortabel. Bei menschlichen Unterkünften kann das Wort abwertend sein, während es bei Tierunterkünften auch sachlich verwendet wird. Die Bedeutung eines Tritts mit den Hinterbeinen ist heute selten."
+  },
+  "collocations": [
+    {
+      "de": "ein Verschlag aus Holzbrettern",
+      "ja": "木の板で作られた簡易な囲い"
+    },
+    {
+      "de": "ein Bretterverschlag",
+      "ja": "板囲い、板で仕切った小屋"
+    },
+    {
+      "de": "ein Verschlag unter der Treppe",
+      "ja": "階段の下の仕切り物置"
+    },
+    {
+      "de": "ein Verschlag im Keller",
+      "ja": "地下室内の仕切られた収納区画"
+    },
+    {
+      "de": "einen Verschlag errichten",
+      "ja": "簡易な囲いを設ける"
+    },
+    {
+      "de": "in einem Verschlag hausen",
+      "ja": "粗末な小部屋で暮らす"
+    },
+    {
+      "de": "einen Verschlag als Lagerraum nutzen",
+      "ja": "仕切り区画を物置として利用する"
+    },
+    {
+      "de": "ein Verschlag für Hühner",
+      "ja": "鶏を収容する簡易な囲い"
+    },
+    {
+      "de": "die Tiere in einem Verschlag halten",
+      "ja": "動物を囲いの中で飼う"
+    }
+  ],
+  "minimal": {
+    "ja": "Verschlag＝板などで簡単に仕切った粗末な小空間。構造の簡素さに重点／Kabuff＝狭苦しく居心地の悪い小部屋。狭さや不快さに重点／Kammer＝小部屋、収納室を表す比較的中立的な語／Abstellkammer＝物を収納するための小部屋／Schuppen＝庭や屋外にある物置小屋、納屋／Hütte＝簡素な小屋、山小屋などの独立した建物／Gehege＝動物を一定の範囲にとどめるための囲い／Stall＝家畜を飼育するための畜舎",
+    "de": "Verschlag = einfach oder provisorisch abgetrennter Raum, oft aus Brettern; Kabuff = sehr kleiner, ungemütlicher Raum mit Schwerpunkt auf Enge; Kammer = eher neutraler kleiner Nebenraum; Abstellkammer = Raum zur Aufbewahrung von Gegenständen; Schuppen = einfaches Nebengebäude zur Lagerung; Hütte = kleines, einfaches Gebäude; Gehege = abgegrenzter Bereich für Tiere; Stall = Gebäude zur Unterbringung von Nutztieren"
+  },
+  "equivalents": {
+    "en": [
+      "makeshift partition",
+      "wooden enclosure",
+      "cubicle",
+      "rough shed",
+      "animal pen",
+      "kick"
+    ],
+    "it": [
+      "tramezzo",
+      "stanzino di fortuna",
+      "recinto",
+      "ricovero rudimentale",
+      "calcio"
+    ],
+    "fr": [
+      "cloison",
+      "réduit",
+      "cabane de fortune",
+      "enclos",
+      "ruade"
+    ],
+    "es": [
+      "tabique",
+      "cuartucho improvisado",
+      "cobertizo rudimentario",
+      "corral",
+      "coz"
+    ]
+  },
+  "etymology": {
+    "ja": "動詞 verschlagen に由来する名詞。仕切りを設ける、板などを打ち付けて囲うという意味領域から、簡単に仕切られた空間を表すようになった。なお、馬などが脚を蹴り出す意味も、schlagen『打つ、蹴る』との関連で理解できる。ただし、同形の名詞に見られる諸義の歴史的発展をすべて単一の経路で説明できるとは限らない。",
+    "de": "„Verschlag“ gehört zur Wortfamilie von „schlagen“ und „verschlagen“. Die Bedeutung eines abgetrennten Raumes hängt mit dem Errichten einfacher Abgrenzungen, etwa durch Bretter, zusammen. Die seltene Bedeutung eines Tritts gehört ebenfalls zum Bedeutungsfeld von „schlagen“. Die einzelnen historischen Bedeutungsentwicklungen sind jedoch zu unterscheiden."
+  },
+  "example": {
+    "ja": "①地下室は木の板でいくつもの小さな収納区画に仕切られていた。②鶏たちは夜になると簡易な囲いに入れられた。③馬は突然後ろ脚で蹴り、厩務員を驚かせた。",
+    "de": "①Der Keller war durch Holzbretter in mehrere kleine Verschläge unterteilt. ②Die Hühner wurden nachts in einem einfachen Verschlag untergebracht. ③Das Pferd versetzte dem Stallknecht einen plötzlichen Verschlag mit den Hinterbeinen."
+  },
+  "task": {
+    "ja": "①「彼は地下室の板で仕切られた小部屋に荷物を保管していた。」②「ウサギは木製の簡易な囲いで飼われていた。」③「馬が突然後ろ脚で蹴った。」を Verschlag または関連する自然な表現を使って表現する。",
+    "de": "Formuliere drei Sätze: ① ein Verschlag als Lagerraum im Keller, ② ein einfacher Verschlag für Tiere und ③ ein Pferd, das mit den Hinterbeinen ausschlägt."
+  }
 }
 ]
