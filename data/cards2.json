@@ -2909,5 +2909,406 @@
     "ja": "①「彼は地下室の板で仕切られた小部屋に荷物を保管していた。」②「ウサギは木製の簡易な囲いで飼われていた。」③「馬が突然後ろ脚で蹴った。」を Verschlag または関連する自然な表現を使って表現する。",
     "de": "Formuliere drei Sätze: ① ein Verschlag als Lagerraum im Keller, ② ein einfacher Verschlag für Tiere und ③ ein Pferd, das mit den Hinterbeinen ausschlägt."
   }
+},
+{
+  "id": "verschlagen",
+  "sid": "2026-00307",
+  "word": "verschlagen",
+  "tags": [
+    "verb",
+    "adj",
+    "movement",
+    "emotion",
+    "personality",
+    "construction",
+    "figurative"
+  ],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "verb",
+    "additional_pos": "adj",
+    "verb_type": "strong",
+    "auxiliary": "haben",
+    "separable": false,
+    "adjective_comparative": "verschlagener",
+    "adjective_superlative": "am verschlagensten",
+    "patterns": [
+      "es verschlägt jemanden irgendwohin",
+      "es hat jemanden nach ... verschlagen",
+      "jemandem die Sprache verschlagen",
+      "jemandem den Atem verschlagen",
+      "etwas mit Brettern verschlagen",
+      "ein verschlagener Mensch",
+      "ein verschlagenes Lächeln"
+    ]
+  },
+  "pronunciation": {
+    "ipa": "/fɛɐ̯ˈʃlaːɡn̩/"
+  },
+  "conjugation": {
+    "present": "er verschlägt",
+    "preterite": "er verschlug",
+    "perfect": "er hat verschlagen",
+    "participle2": "verschlagen",
+    "separable": false
+  },
+  "meaning": {
+    "ja": "①動詞：（風・運命・偶然などが）人や物を思いがけない場所へ運ぶ、流れ着かせる ②動詞：（驚き・恐怖などが）言葉や息を失わせる ③動詞：（板などを打ち付けて）塞ぐ、覆う、囲う ④形容詞：ずる賢い、狡猾な、抜け目のない",
+    "de": "①Verb: jemanden oder etwas durch Zufall, Wind oder äußere Umstände an einen unerwarteten Ort bringen ②Verb: jemanden durch Überraschung, Schrecken oder starke Gefühle sprachlos oder atemlos machen ③Verb: eine Öffnung oder einen Bereich durch angenagelte Bretter oder ähnliche Materialien verschließen ④Adjektiv: listig, gerissen und geschickt darin, andere zum eigenen Vorteil zu täuschen"
+  },
+  "nuance": {
+    "ja": "①では人が自分の意思とは無関係に予想外の場所へ行き着くという意味で、特に es hat jemanden irgendwohin verschlagen という非人称構文が重要。②では jemandem die Sprache verschlagen や jemandem den Atem verschlagen という慣用表現が中心。③は建築・工作に関係する比較的特殊な用法。④の形容詞は、単に頭がよいという意味ではなく、策略や欺きを用いるという否定的な含意が強い。なお、動詞の過去分詞と形容詞は同形だが、形容詞の『狡猾な』という意味を動詞の現代的な語義から直接推測することは難しい。",
+    "de": "In Bedeutung ① steht häufig die unpersönliche Konstruktion „es hat jemanden irgendwohin verschlagen“, die ein unerwartetes Gelangen an einen Ort ausdrückt. Bedeutung ② erscheint besonders in festen Wendungen wie „jemandem die Sprache verschlagen“. Bedeutung ③ gehört eher zur handwerklichen Sprache. Das Adjektiv „verschlagen“ beschreibt eine Person, die ihre Klugheit auf listige oder täuschende Weise einsetzt, und ist meist negativ gefärbt."
+  },
+  "collocations": [
+    {
+      "de": "Es hat ihn nach Berlin verschlagen.",
+      "ja": "彼はひょんなことからベルリンに行き着いた"
+    },
+    {
+      "de": "Wie hat es dich hierher verschlagen?",
+      "ja": "どういう巡り合わせでここに来たの？"
+    },
+    {
+      "de": "vom Sturm an die Küste verschlagen werden",
+      "ja": "嵐によって海岸へ流れ着く"
+    },
+    {
+      "de": "jemandem die Sprache verschlagen",
+      "ja": "誰かを言葉も出ないほど驚かせる"
+    },
+    {
+      "de": "jemandem den Atem verschlagen",
+      "ja": "誰かを息をのむほど驚かせる"
+    },
+    {
+      "de": "ein Fenster mit Brettern verschlagen",
+      "ja": "窓に板を打ち付けて塞ぐ"
+    },
+    {
+      "de": "eine Öffnung verschlagen",
+      "ja": "開口部を板などで塞ぐ"
+    },
+    {
+      "de": "ein verschlagener Händler",
+      "ja": "ずる賢い商人"
+    },
+    {
+      "de": "ein verschlagener Blick",
+      "ja": "狡猾そうな目つき"
+    },
+    {
+      "de": "ein verschlagenes Lächeln",
+      "ja": "何かを企んでいそうな笑み"
+    }
+  ],
+  "minimal": {
+    "ja": "verschlagen（動詞）＝予期しない場所へ運ぶ、言葉を失わせる、板で塞ぐ／verschlagen（形容詞）＝策略的で狡猾な／gerissen＝経験や機転を利用して抜け目なく立ち回る／listig＝策略や計略を巧みに用いる／hinterlistig＝陰で人を欺く、卑劣で陰険な／schlau＝頭の回転が速く賢い。必ずしも否定的ではない／verfrachten＝人や物を別の場所へ運ぶ、しばしば不本意な移動を含む／verschließen＝扉や容器などを閉じる、施錠する",
+    "de": "verschlagen (Verb) = jemanden unerwartet an einen Ort bringen, sprachlos machen oder etwas mit Brettern verschließen; verschlagen (Adjektiv) = listig und auf Täuschung bedacht; gerissen = besonders geschickt darin, Vorteile zu erkennen und auszunutzen; listig = mit klugen Tricks vorgehend; hinterlistig = heimlich und in böswilliger Absicht täuschend; schlau = klug und geschickt, nicht zwingend negativ; verfrachten = jemanden oder etwas an einen anderen Ort transportieren; verschließen = etwas schließen oder sichern"
+  },
+  "equivalents": {
+    "en": [
+      "carry someone unexpectedly to",
+      "end up somewhere by chance",
+      "leave someone speechless",
+      "board up",
+      "cunning",
+      "sly",
+      "crafty"
+    ],
+    "it": [
+      "portare inaspettatamente",
+      "capitare per caso",
+      "lasciare senza parole",
+      "sbarrare con assi",
+      "scaltro",
+      "astuto",
+      "subdolo"
+    ],
+    "fr": [
+      "entraîner quelque part",
+      "échouer quelque part",
+      "laisser sans voix",
+      "condamner avec des planches",
+      "rusé",
+      "retors",
+      "fourbe"
+    ],
+    "es": [
+      "llevar inesperadamente",
+      "ir a parar",
+      "dejar sin palabras",
+      "tapiar con tablas",
+      "astuto",
+      "taimado",
+      "ladino"
+    ]
+  },
+  "etymology": {
+    "ja": "動詞は接頭辞 ver- と schlagen『打つ』からなる。『打って移動させる・別の場所へ追いやる』『打ち付けて塞ぐ』など、複数の意味が発達した。形容詞 verschlagen『狡猾な』は歴史的に動詞と関連するが、現代語では独立した語彙的意味を持つ。名詞 Verschlag『板囲い、粗末な仕切り部屋』も同じ語族に属する。",
+    "de": "Das Verb ist aus dem Präfix „ver-“ und „schlagen“ gebildet. Seine verschiedenen Bedeutungen entwickelten sich unter anderem aus Vorstellungen des Wegschlagens, Versetzens und Verschließens durch angeschlagene Materialien. Das Adjektiv „verschlagen“ ist historisch mit dieser Wortfamilie verbunden, besitzt heute aber eine eigenständige lexikalische Bedeutung. Auch das Substantiv „Verschlag“ gehört zu dieser Wortfamilie."
+  },
+  "example": {
+    "ja": "①彼は偶然の巡り合わせで、最終的にハンブルクに行き着いた。②その予想外の知らせに、彼女は言葉を失った。③職人たちは古い小屋の窓を板で塞いだ。④その狡猾な商人は、買い手を巧みに欺いた。",
+    "de": "①Durch einen Zufall hat es ihn schließlich nach Hamburg verschlagen. ②Die unerwartete Nachricht verschlug ihr die Sprache. ③Die Handwerker verschlugen die Fenster der alten Hütte mit Brettern. ④Der verschlagene Händler täuschte die Käufer mit geschickten Tricks."
+  },
+  "task": {
+    "ja": "①「どういう経緯で君はこの町に来たの？」②「その光景に私は息をのんだ。」③「彼らは入口を板で塞いだ。」④「彼はずる賢い人物で、簡単には信用できない。」を verschlagen を使って表現する。",
+    "de": "Formuliere vier Sätze mit „verschlagen“: ① unerwartetes Gelangen an einen Ort, ② sprachloses oder atemloses Staunen, ③ Verschließen mit Brettern und ④ Beschreibung einer listigen Persönlichkeit."
+  }
+},
+{
+  "id": "hinterlistig",
+  "sid": "2026-00308",
+  "word": "hinterlistig",
+  "tags": [
+    "adj",
+    "personality",
+    "behavior",
+    "deception",
+    "negative",
+    "general"
+  ],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj",
+    "comparative": "hinterlistiger",
+    "superlative": "am hinterlistigsten",
+    "patterns": [
+      "hinterlistig sein",
+      "hinterlistig vorgehen",
+      "hinterlistig handeln",
+      "jemanden hinterlistig täuschen",
+      "ein hinterlistiger Plan",
+      "ein hinterlistiger Angriff",
+      "ein hinterlistiger Mensch"
+    ],
+    "related_noun": "die Hinterlist",
+    "related_adverb": "hinterlistig"
+  },
+  "pronunciation": {
+    "ipa": "/ˈhɪntɐˌlɪstɪç/"
+  },
+  "meaning": {
+    "ja": "①（人・性格が）陰険な、腹黒い、裏で策略を巡らせる ②（行動・計画・攻撃などが）卑劣な、だまし討ちの、不意を突くような ③（手段・やり方が）相手の信頼や油断につけ込む、巧妙に欺く",
+    "de": "①von Personen oder Charaktereigenschaften: heimlich und in böser Absicht mit Täuschung oder List vorgehend ②von Handlungen, Plänen oder Angriffen: auf heimtückische Weise ausgeführt, sodass das Opfer überrascht oder getäuscht wird ③von Methoden oder Vorgehensweisen: gezielt die Gutgläubigkeit, das Vertrauen oder die Ahnungslosigkeit anderer ausnutzend"
+  },
+  "nuance": {
+    "ja": "明確に否定的な評価を伴う形容詞。単なる知恵や機転ではなく、他人を害したり不当に利益を得たりするために、意図を隠して欺くことを表す。listig は文脈によって肯定的にも使えるが、hinterlistig は通常、非難を含む。verschlagen は人物の抜け目なさや狡猾さを表すのに対し、hinterlistig は欺瞞的な意図や卑劣な手段をより強く非難する。heimtückisch と近いが、後者は特に相手の無防備さを利用する悪質さを強調する。日常語として使える一方、強い非難になるため、人物評価では慎重に用いる。",
+    "de": "„Hinterlistig“ ist deutlich negativ gefärbt. Es bezeichnet ein Verhalten, bei dem jemand seine wahren Absichten verbirgt und andere durch Täuschung oder das Ausnutzen ihres Vertrauens benachteiligt. Anders als „listig“, das auch anerkennend gemeint sein kann, enthält „hinterlistig“ fast immer einen Vorwurf. „Verschlagen“ beschreibt stärker die gerissene Persönlichkeit, während „hinterlistig“ besonders die verwerfliche Art des Vorgehens betont. „Heimtückisch“ hebt häufig das Ausnutzen der Wehrlosigkeit oder Arglosigkeit eines Opfers hervor."
+  },
+  "collocations": [
+    {
+      "de": "ein hinterlistiger Mensch",
+      "ja": "陰険な人物"
+    },
+    {
+      "de": "ein hinterlistiger Plan",
+      "ja": "卑劣な策略"
+    },
+    {
+      "de": "ein hinterlistiger Angriff",
+      "ja": "だまし討ち、不意を突く卑劣な攻撃"
+    },
+    {
+      "de": "ein hinterlistiger Verrat",
+      "ja": "陰険な裏切り"
+    },
+    {
+      "de": "eine hinterlistige Täuschung",
+      "ja": "悪意ある巧妙な欺き"
+    },
+    {
+      "de": "hinterlistig vorgehen",
+      "ja": "陰険な手段を用いる"
+    },
+    {
+      "de": "hinterlistig handeln",
+      "ja": "卑劣なやり方で行動する"
+    },
+    {
+      "de": "jemanden hinterlistig täuschen",
+      "ja": "誰かを陰険な手口で欺く"
+    },
+    {
+      "de": "das Vertrauen anderer hinterlistig ausnutzen",
+      "ja": "他人の信頼を悪意をもって利用する"
+    },
+    {
+      "de": "ein hinterlistiges Lächeln",
+      "ja": "何かを企んでいるような陰険な笑み"
+    }
+  ],
+  "minimal": {
+    "ja": "hinterlistig＝意図を隠し、他人の信頼や油断につけ込む陰険さ。強い非難を伴う／listig＝策略や機転に富む。必ずしも悪意を伴わず、肯定的にも使える／verschlagen＝狡猾で抜け目がなく、何を企んでいるか分からない人物の性質／gerissen＝経験や頭の回転を利用して巧みに立ち回る、したたかな／heimtückisch＝相手の無防備さや油断を利用する卑劣さを強調／arglistig＝相手を故意に欺く。法律用語としても重要／hinterhältig＝陰険な、背後から不意を突くような。hinterlistig に非常に近い／tückisch＝危険や悪意が表面に現れにくい、油断ならない",
+    "de": "hinterlistig = mit verborgener böser Absicht täuschend und das Vertrauen anderer ausnutzend; listig = geschickt mit Tricks vorgehend, auch positiv möglich; verschlagen = gerissen und schwer durchschaubar; gerissen = besonders geschickt im Ausnutzen von Gelegenheiten; heimtückisch = die Arg- oder Wehrlosigkeit anderer in besonders verwerflicher Weise ausnutzend; arglistig = bewusst täuschend, auch ein juristischer Fachausdruck; hinterhältig = auf unehrliche Weise gegen andere vorgehend, oft durch einen überraschenden Angriff; tückisch = eine verborgene Gefahr oder Bösartigkeit aufweisend"
+  },
+  "equivalents": {
+    "en": [
+      "treacherous",
+      "underhanded",
+      "devious",
+      "sneaky",
+      "perfidious"
+    ],
+    "it": [
+      "subdolo",
+      "sleale",
+      "infido",
+      "perfido"
+    ],
+    "fr": [
+      "sournois",
+      "perfide",
+      "fourbe",
+      "traître"
+    ],
+    "es": [
+      "traicionero",
+      "alevoso",
+      "pérfido",
+      "solapado"
+    ]
+  },
+  "etymology": {
+    "ja": "hinter『後ろに、背後で』と List『策略、計略』からなる Hinterlist『陰謀、陰険な策略』に、形容詞を作る接尾辞 -ig が付いた語。文字どおりには『背後で策略を巡らせる性質を持つ』というイメージで理解できる。List は現代語では必ずしも悪い意味ではないが、Hinterlist では悪意ある欺瞞が中心となる。",
+    "de": "„Hinterlistig“ ist von „Hinterlist“ mit dem Adjektivsuffix „-ig“ abgeleitet. „Hinterlist“ verbindet „hinter“ mit „List“ und bezeichnet ein verborgenes, täuschendes Vorgehen in unredlicher Absicht. Während „List“ auch eine bewundernswerte Klugheit bezeichnen kann, ist „Hinterlist“ eindeutig negativ besetzt."
+  },
+  "example": {
+    "ja": "①彼は陰険な人物で、表向きは親切に振る舞いながら、裏では同僚を陥れようとしていた。②その卑劣な攻撃は、相手がまったく予期していないときに行われた。③詐欺師は高齢者の信頼につけ込んで、巧妙に金銭をだまし取った。",
+    "de": "①Er war ein hinterlistiger Mensch, der sich nach außen freundlich gab, während er heimlich versuchte, seine Kollegen in Schwierigkeiten zu bringen. ②Der hinterlistige Angriff erfolgte in einem Moment, in dem der Gegner überhaupt nicht damit rechnete. ③Der Betrüger nutzte das Vertrauen älterer Menschen hinterlistig aus, um ihnen Geld abzunehmen."
+  },
+  "task": {
+    "ja": "①「彼は陰険な人物で、決して信用できない。」②「彼らは卑劣な計画を立てた。」③「彼女は友人の信頼を巧妙に悪用した。」を hinterlistig を使って表現する。",
+    "de": "Formuliere drei Sätze mit „hinterlistig“: ① die Beschreibung einer unzuverlässigen, täuschenden Person, ② einen unredlichen Plan und ③ das bewusste Ausnutzen des Vertrauens eines Freundes."
+  }
+},
+{
+  "id": "arglistig",
+  "sid": "2026-00309",
+  "word": "arglistig",
+  "tags": [
+    "adj",
+    "law",
+    "deception",
+    "behavior",
+    "negative",
+    "formal"
+  ],
+  "level": "C1",
+  "freq": "sometimes",
+  "grammar": {
+    "pos": "adj",
+    "comparative": "arglistiger",
+    "superlative": "am arglistigsten",
+    "register": "gehoben, besonders häufig in der Rechtssprache",
+    "patterns": [
+      "arglistig handeln",
+      "jemanden arglistig täuschen",
+      "eine arglistige Täuschung",
+      "ein arglistiges Verschweigen",
+      "einen Mangel arglistig verschweigen",
+      "eine arglistige Irreführung"
+    ],
+    "related_noun": "die Arglist",
+    "related_verb": "täuschen"
+  },
+  "pronunciation": {
+    "ipa": "/ˈaʁkˌlɪstɪç/"
+  },
+  "meaning": {
+    "ja": "①（人・行動が）意図的に人を欺く、悪意ある策略を用いる、狡猾な ②（法律）詐欺的な、欺罔の意図を伴う、相手を誤信させることを認識・容認して行われる ③（事実の不告知・隠蔽などが）相手を欺く目的で行われる、重要な事実を故意に隠す",
+    "de": "①bewusst täuschend, mit unredlicher Absicht und unter Einsatz von List handelnd ②in der Rechtssprache: eine Täuschung bewusst oder zumindest mit bedingtem Vorsatz herbeiführend oder aufrechterhaltend ③von einem Verschweigen oder Verheimlichen: einen erheblichen Umstand bewusst zurückhaltend, um bei einer anderen Person eine Fehlvorstellung hervorzurufen oder aufrechtzuerhalten"
+  },
+  "nuance": {
+    "ja": "日常語では『悪意をもって欺く』という意味だが、現代ドイツ語では特に法律・契約・取引に関する文脈で目立つ。hinterlistig が陰険さや卑劣さを広く非難するのに対し、arglistig は意図的な欺罔を中心とする。ドイツ民法第123条第1項の arglistige Täuschung は、欺罔によって意思表示をさせられた者による取消しの根拠となる。民事法上の Arglist には、一般に少なくとも未必の故意が必要とされ、単なる過失では足りない。また、arglistiges Verschweigen が問題となるには、当該事情について告知義務があるかどうかも重要である。日本語の『悪意』という法律用語とは必ずしも一致しない。",
+    "de": "„Arglistig“ bezeichnet eine bewusste, unredliche Täuschung und wird besonders häufig in juristischen Zusammenhängen verwendet. Während „hinterlistig“ allgemein ein heimliches und verwerfliches Vorgehen beschreibt, steht bei „arglistig“ die vorsätzliche Irreführung im Mittelpunkt. Bei der arglistigen Täuschung nach § 123 Abs. 1 BGB genügt nach der zivilrechtlichen Rechtsprechung grundsätzlich bedingter Vorsatz; bloße Fahrlässigkeit reicht nicht aus. Ein arglistiges Verschweigen setzt außerdem voraus, dass hinsichtlich des verschwiegenen Umstands eine Aufklärungspflicht besteht. Der juristische Begriff ist daher genauer als die bloße Vorstellung eines moralisch schlechten Verhaltens."
+  },
+  "collocations": [
+    {
+      "de": "arglistige Täuschung",
+      "ja": "詐欺的欺罔、詐欺による欺罔"
+    },
+    {
+      "de": "jemanden arglistig täuschen",
+      "ja": "人を故意に欺く"
+    },
+    {
+      "de": "arglistig handeln",
+      "ja": "詐欺的な意図をもって行動する"
+    },
+    {
+      "de": "einen Mangel arglistig verschweigen",
+      "ja": "欠陥を故意に隠して相手を欺く"
+    },
+    {
+      "de": "arglistiges Verschweigen eines Mangels",
+      "ja": "欠陥の詐欺的な不告知"
+    },
+    {
+      "de": "eine arglistige Irreführung",
+      "ja": "故意による詐欺的な誤導"
+    },
+    {
+      "de": "wegen arglistiger Täuschung anfechten",
+      "ja": "詐欺を理由として意思表示を取り消す"
+    },
+    {
+      "de": "eine arglistige Täuschung nachweisen",
+      "ja": "詐欺的欺罔を立証する"
+    },
+    {
+      "de": "arglistig falsche Angaben machen",
+      "ja": "相手を欺く意図で虚偽の説明をする"
+    },
+    {
+      "de": "sich auf arglistige Täuschung berufen",
+      "ja": "詐欺的欺罔を主張する"
+    }
+  ],
+  "minimal": {
+    "ja": "arglistig＝意図的な欺罔を中心とする語。法律用語として特に重要／hinterlistig＝裏で策略を巡らせる陰険さや卑劣さを強調／verschlagen＝狡猾で抜け目がなく、策略に長けた人物の性質／listig＝機転や策略を巧みに用いる。肯定的にもなり得る／betrügerisch＝詐欺的な、不正な利益を得るために欺く／vorsätzlich＝故意の。必ずしも欺罔を伴わない／böswillig＝悪意ある、害意をもった。必ずしも欺罔を伴わない／fahrlässig＝過失による。故意とは区別される／heimtückisch＝相手の油断や無防備さを利用する卑劣さを強調",
+    "de": "arglistig = bewusst täuschend, besonders als Rechtsbegriff; hinterlistig = heimlich und auf verwerfliche Weise vorgehend; verschlagen = gerissen und schwer durchschaubar; listig = geschickt mit Tricks handelnd, nicht zwingend negativ; betrügerisch = durch Täuschung auf einen unrechtmäßigen Vorteil gerichtet; vorsätzlich = mit Wissen und Wollen beziehungsweise bedingtem Vorsatz handelnd, nicht notwendig täuschend; böswillig = in schädigender oder feindseliger Absicht handelnd; fahrlässig = unter Verletzung der erforderlichen Sorgfalt handelnd; heimtückisch = die Arg- oder Wehrlosigkeit eines anderen ausnutzend"
+  },
+  "equivalents": {
+    "en": [
+      "fraudulent",
+      "deceitful",
+      "deliberately deceptive",
+      "fraudulently"
+    ],
+    "it": [
+      "doloso",
+      "fraudolento",
+      "ingannevole",
+      "in mala fede"
+    ],
+    "fr": [
+      "dolosif",
+      "frauduleux",
+      "trompeur",
+      "de mauvaise foi"
+    ],
+    "es": [
+      "doloso",
+      "fraudulento",
+      "engañoso",
+      "de mala fe"
+    ]
+  },
+  "etymology": {
+    "ja": "名詞 Arglist『悪意ある策略、欺罔』に形容詞化接尾辞 -ig が付いた語。Arglist は古い形容詞 arg『悪い、邪悪な』と List『策略、計略』からなる。arg は現代ドイツ語でも『ひどい、重大な』などの意味で残っている。List は必ずしも否定的ではないが、Arglist は悪意ある欺瞞を表す。hinterlistig と同じく List を含むものの、arglistig は法律上の欺罔概念と強く結び付いている。",
+    "de": "„Arglistig“ ist aus dem Substantiv „Arglist“ und dem Adjektivsuffix „-ig“ gebildet. „Arglist“ setzt sich aus „arg“ im älteren Sinne von „böse, schlecht“ und „List“ zusammen. Während „List“ auch eine geschickte und nicht unbedingt verwerfliche Vorgehensweise bezeichnen kann, ist „Arglist“ eindeutig negativ. In der modernen Rechtssprache hat der Begriff eine besondere Bedeutung im Zusammenhang mit vorsätzlicher Täuschung."
+  },
+  "example": {
+    "ja": "①その男は相手を故意に欺き、虚偽の約束によって信頼を得た。②買主は、売主による詐欺的欺罔を理由として契約上の意思表示を取り消した。③売主は住宅の重大な欠陥を故意に隠していた。",
+    "de": "①Der Mann täuschte sein Gegenüber arglistig und gewann dessen Vertrauen durch falsche Versprechungen. ②Der Käufer focht seine auf den Vertragsschluss gerichtete Willenserklärung wegen arglistiger Täuschung durch den Verkäufer an. ③Der Verkäufer hatte einen erheblichen Mangel des Hauses arglistig verschwiegen."
+  },
+  "task": {
+    "ja": "①「彼は取引相手を故意に欺いた。」②「買主は詐欺的欺罔を理由として意思表示を取り消した。」③「売主は建物の重大な欠陥を故意に隠していた。」を arglistig を使って表現する。",
+    "de": "Formuliere drei Sätze mit „arglistig“: ① eine bewusste Täuschung eines Geschäftspartners, ② die Anfechtung einer Willenserklärung wegen arglistiger Täuschung und ③ das arglistige Verschweigen eines erheblichen Gebäudemangels."
+  }
 }
 ]
