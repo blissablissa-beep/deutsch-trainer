@@ -8430,5 +8430,236 @@
     "ja": "①「そんなに意地を張らないで！」②「彼は頑固で、誰の助言も聞こうとしません。」③「相手方は当初の要求に頑なに固執しています。」④「状況が変わったのに、彼らは杓子定規に計画を実行し続けました。」を stur を使って表現する。",
     "de": "Formuliere vier Sätze mit „stur“: ① eine Aufforderung, weniger eigensinnig zu sein, ② eine Person, die keine Ratschläge annehmen will, ③ eine Gegenseite, die unnachgiebig an ihren ursprünglichen Forderungen festhält, und ④ eine Gruppe, die trotz veränderter Umstände unbeirrt an einem Plan festhält."
   }
+},
+{
+  "id": "einheitlich",
+  "sid": "2026-00340",
+  "word": "einheitlich",
+  "tags": [
+    "adj",
+    "adv",
+    "uniformity",
+    "consistency",
+    "standardization",
+    "law",
+    "administration",
+    "business",
+    "management",
+    "organization",
+    "professional",
+    "general"
+  ],
+  "level": "B2",
+  "freq": "often",
+  "grammar": {
+    "pos": "adj",
+    "comparative": "einheitlicher",
+    "superlative": "am einheitlichsten",
+    "attributive": true,
+    "predicative": true,
+    "adverbial": true,
+    "patterns": [
+      "einheitlich sein",
+      "einheitlich bleiben",
+      "einheitlich aussehen",
+      "einheitlich handeln",
+      "einheitlich vorgehen",
+      "einheitlich auftreten",
+      "etwas einheitlich gestalten",
+      "etwas einheitlich regeln",
+      "etwas einheitlich anwenden",
+      "etwas einheitlich auslegen",
+      "etwas einheitlich handhaben",
+      "einheitliche Regeln",
+      "einheitliche Vorschriften",
+      "einheitliche Standards",
+      "einheitliche Kriterien",
+      "einheitliche Anforderungen",
+      "eine einheitliche Regelung",
+      "eine einheitliche Vorgehensweise",
+      "eine einheitliche Auslegung",
+      "eine einheitliche Rechtsprechung",
+      "eine einheitliche Verwaltungspraxis",
+      "ein einheitliches Erscheinungsbild",
+      "eine einheitliche Linie vertreten",
+      "eine möglichst einheitliche Anwendung gewährleisten",
+      "bundesweit einheitlich",
+      "europaweit einheitlich",
+      "nicht einheitlich geregelt sein",
+      "uneinheitlich gehandhabt werden"
+    ],
+    "register": "standardsprachlich; häufig in Recht, Verwaltung, Wirtschaft, Politik, Organisation und Alltagssprache",
+    "related_noun": "die Einheitlichkeit",
+    "word_family": [
+      "ein",
+      "die Einheit",
+      "einheitlich",
+      "die Einheitlichkeit",
+      "uneinheitlich",
+      "die Uneinheitlichkeit",
+      "vereinheitlichen",
+      "die Vereinheitlichung",
+      "vereinheitlicht"
+    ],
+    "declension_examples": [
+      "ein einheitlicher Standard",
+      "eine einheitliche Regelung",
+      "ein einheitliches Verfahren",
+      "einheitliche Kriterien",
+      "die einheitlichen Vorschriften",
+      "mit einheitlichen Maßstäben"
+    ]
+  },
+  "pronunciation": {
+    "ipa": "/ˈaɪ̯nhaɪ̯tlɪç/"
+  },
+  "meaning": {
+    "ja": "①（規則・基準・制度・手続などが）統一された、共通の、一律の ②（形式・外観・デザインなどが）統一感のある、そろった、均一な ③（行動・方針・対応などが）足並みのそろった、統一的な、一貫した方針に基づく ④（副詞的に）統一的に、一律に、同じ基準や方法に従って",
+    "de": "①für mehrere Personen, Bereiche oder Fälle nach denselben Regeln, Kriterien oder Grundsätzen gestaltet oder geregelt ②in Form, Gestaltung oder Erscheinungsbild übereinstimmend und ohne auffällige Unterschiede ③von Handlungen oder Vorgehensweisen: nach einer gemeinsamen Linie oder einem gemeinsamen Verfahren ausgerichtet ④adverbial: in gleicher oder abgestimmter Weise, nach denselben Maßstäben oder Regeln"
+  },
+  "nuance": {
+    "ja": "einheitlich は、複数の対象の間で形式・基準・規則・対応方法などがそろっていることを表す。特に、異なる地域・組織・部署・案件に同じ基準が適用される場合に重要である。gleich は『同じ』という一般的な語であり、identisch は『完全に同一の』という、より強い同一性を表す。einheitlich は個々の対象が完全に同一であることまでは要求せず、全体として共通の基準や形式に従っていることに重点を置く。konsistent は論理・判断・行動などに内部矛盾がないことを表し、einheitlich とは区別される。kohärent は構成要素が論理的・意味的に結びつき、全体として整合していることを表す。standardisiert は標準化の過程を経て、定められた規格や手順に従っていることを強調する。einstimmig は投票などで全員が賛成していることを意味し、einheitlich とは異なる。法律実務では einheitliche Auslegung、einheitliche Anwendung、einheitliche Rechtsprechung、einheitliche Verwaltungspraxis などが重要な表現である。対義語は uneinheitlich であり、『統一されていない、ばらつきがある』という意味を持つ。",
+    "de": "„Einheitlich“ beschreibt eine Übereinstimmung in Regeln, Maßstäben, Formen oder Vorgehensweisen zwischen mehreren Personen, Bereichen oder Fällen. Besonders wichtig ist das Wort, wenn in verschiedenen Regionen, Organisationen oder Verfahren dieselben Grundsätze gelten sollen. „Gleich“ ist allgemeiner und bedeutet, dass etwas übereinstimmt oder sich nicht unterscheidet. „Identisch“ bezeichnet eine vollständige Übereinstimmung. „Einheitlich“ verlangt dagegen nicht, dass alle Einzelheiten identisch sind, sondern hebt eine gemeinsame Ordnung, Gestaltung oder Vorgehensweise hervor. „Konsistent“ betont die Widerspruchsfreiheit, während „kohärent“ den inneren Zusammenhang und die logische Geschlossenheit bezeichnet. „Standardisiert“ verweist auf festgelegte Standards oder Verfahren. „Einstimmig“ bedeutet, dass alle Abstimmenden zustimmen, und darf nicht mit „einheitlich“ gleichgesetzt werden. Im juristischen Sprachgebrauch sind besonders die Ausdrücke „einheitliche Auslegung“, „einheitliche Anwendung“ und „einheitliche Rechtsprechung“ wichtig. Das Gegenwort lautet „uneinheitlich“."
+  },
+  "collocations": [
+    {
+      "de": "einheitliche Vorschriften",
+      "ja": "統一された規則"
+    },
+    {
+      "de": "einheitliche Standards",
+      "ja": "統一された基準、共通規格"
+    },
+    {
+      "de": "einheitliche Kriterien",
+      "ja": "共通の判断基準"
+    },
+    {
+      "de": "einheitliche Anforderungen",
+      "ja": "統一された要件"
+    },
+    {
+      "de": "eine einheitliche Regelung",
+      "ja": "統一的な規定、共通の制度"
+    },
+    {
+      "de": "eine einheitliche Vorgehensweise",
+      "ja": "統一された対応方法"
+    },
+    {
+      "de": "eine einheitliche Auslegung",
+      "ja": "統一的な解釈"
+    },
+    {
+      "de": "eine einheitliche Anwendung des Rechts",
+      "ja": "法の統一的な適用"
+    },
+    {
+      "de": "eine einheitliche Rechtsprechung",
+      "ja": "統一された判例実務"
+    },
+    {
+      "de": "eine einheitliche Verwaltungspraxis",
+      "ja": "統一された行政実務"
+    },
+    {
+      "de": "eine einheitliche Linie vertreten",
+      "ja": "統一された方針を取る"
+    },
+    {
+      "de": "ein einheitliches Erscheinungsbild",
+      "ja": "統一感のある外観"
+    },
+    {
+      "de": "einheitliche Kleidung",
+      "ja": "そろいの服装"
+    },
+    {
+      "de": "einheitlich vorgehen",
+      "ja": "統一的な方法で対応する"
+    },
+    {
+      "de": "einheitlich handeln",
+      "ja": "足並みをそろえて行動する"
+    },
+    {
+      "de": "einheitlich geregelt sein",
+      "ja": "統一的に規定されている"
+    },
+    {
+      "de": "einheitlich angewendet werden",
+      "ja": "一律に適用される"
+    },
+    {
+      "de": "einheitlich ausgelegt werden",
+      "ja": "統一的に解釈される"
+    },
+    {
+      "de": "bundesweit einheitlich",
+      "ja": "全国の州で統一された、連邦全域で共通の"
+    },
+    {
+      "de": "europaweit einheitlich",
+      "ja": "欧州全域で統一された"
+    },
+    {
+      "de": "nicht einheitlich geregelt sein",
+      "ja": "統一的に規定されていない"
+    },
+    {
+      "de": "die Einheitlichkeit der Rechtsprechung",
+      "ja": "判例の統一性"
+    }
+  ],
+  "minimal": {
+    "ja": "einheitlich＝統一された、一律の、共通の。複数の対象が共通の基準・形式・方針に従っていることに重点／gleich＝同じ、等しい。最も一般的で意味が広い／identisch＝完全に同一の。細部まで一致することに重点／gleichartig＝同種の、性質が似通った／gleichförmig＝形や動きが一様な、単調な。物理的・外面的な均一性に重点／einheitlich gestaltet＝統一されたデザイン・形式を持つ／standardisiert＝標準化された。定められた規格や手順に従うことに重点／konsistent＝一貫した、矛盾のない。内部的な整合性に重点／kohärent＝首尾一貫した、まとまりのある。要素間の論理的な結びつきに重点／übereinstimmend＝一致した、合致した。複数の意見・内容などが一致することに重点／einstimmig＝全員一致の。投票や決議で全員が賛成することに重点／einhellig＝異論のない、全員が同じ見解の。意見や評価の一致に重点／gemeinsam＝共同の、共通の。一緒に行うことや共有に重点／allgemein＝一般的な、全般的な／verbindlich＝拘束力のある、義務的な。統一性ではなく法的・規範的拘束力に重点／uneinheitlich＝統一されていない、ばらつきのある／unterschiedlich＝異なる、さまざまな／widersprüchlich＝矛盾した／vereinheitlichen＝統一する、標準化する／die Einheitlichkeit＝統一性、一律性／die Vereinheitlichung＝統一化、標準化",
+    "de": "einheitlich = nach gemeinsamen Regeln, Maßstäben oder Formen gestaltet; gleich = ohne Unterschied oder übereinstimmend; identisch = vollständig übereinstimmend; gleichartig = von derselben Art oder Beschaffenheit; gleichförmig = in Form oder Ablauf weitgehend unverändert; einheitlich gestaltet = nach einem gemeinsamen Gestaltungskonzept ausgeführt; standardisiert = nach festgelegten Standards gestaltet; konsistent = in sich widerspruchsfrei; kohärent = logisch zusammenhängend und geschlossen; übereinstimmend = inhaltlich oder sachlich miteinander im Einklang stehend; einstimmig = mit Zustimmung aller Abstimmenden; einhellig = ohne abweichende Meinung; gemeinsam = zusammen oder von mehreren geteilt; allgemein = nicht auf Einzelfälle beschränkt; verbindlich = rechtlich oder normativ verpflichtend; uneinheitlich = ohne gemeinsame Linie oder mit unterschiedlichen Maßstäben; unterschiedlich = nicht gleich; widersprüchlich = miteinander unvereinbare Aussagen enthaltend; vereinheitlichen = Unterschiede durch gemeinsame Regeln oder Formen verringern; die Einheitlichkeit = das Vorliegen einer gemeinsamen Ordnung oder Form; die Vereinheitlichung = der Vorgang der Herstellung von Einheitlichkeit"
+  },
+  "equivalents": {
+    "en": [
+      "uniform",
+      "consistent",
+      "standardized",
+      "unified",
+      "common",
+      "across-the-board"
+    ],
+    "it": [
+      "uniforme",
+      "unitario",
+      "omogeneo",
+      "coerente",
+      "standardizzato",
+      "unificato"
+    ],
+    "fr": [
+      "uniforme",
+      "unifié",
+      "homogène",
+      "cohérent",
+      "standardisé",
+      "commun"
+    ],
+    "es": [
+      "uniforme",
+      "unificado",
+      "homogéneo",
+      "coherente",
+      "estandarizado",
+      "común"
+    ]
+  },
+  "etymology": {
+    "ja": "einheitlich は、名詞 Einheit『統一、単位、一体性』に形容詞を作る接尾辞 -lich が付いた語である。Einheit は ein『一つの』と抽象名詞を形成する接尾辞 -heit によって構成される。したがって、einheitlich の基本的な発想は『一つのまとまり・統一体を成すような』というものである。そこから、複数の対象が共通の基準や形式に従っていることを表す意味が発達した。動詞 vereinheitlichen は『統一する、標準化する』、名詞 Vereinheitlichung は『統一化』を意味する。反対語 uneinheitlich は、接頭辞 un- によって統一性の欠如を表す。",
+    "de": "„Einheitlich“ ist vom Substantiv „Einheit“ mit dem Adjektivsuffix „-lich“ abgeleitet. „Einheit“ wiederum ist aus „ein“ und dem Substantivsuffix „-heit“ gebildet. Die Grundvorstellung besteht darin, dass mehrere Teile eine Einheit bilden oder nach einer gemeinsamen Ordnung gestaltet sind. Daraus entwickelte sich die Bedeutung, dass Regeln, Formen oder Vorgehensweisen übereinstimmen. Das Verb „vereinheitlichen“ bezeichnet den Vorgang, unterschiedliche Regelungen oder Formen auf eine gemeinsame Grundlage zu bringen. Das Gegenwort „uneinheitlich“ wird mit dem negierenden Präfix „un-“ gebildet."
+  },
+  "example": {
+    "ja": "①欧州連合は、加盟国間で統一された基準を確立することを目指している。②法律の統一的な解釈は、法的安定性を確保するうえで重要である。③各部署が異なる基準を用いていたため、会社は統一的な手続を導入した。④その規則は全国で一律に適用されるが、具体的な事情に応じた例外も認められている。⑤裁判所の判断は必ずしも統一されておらず、法的な不確実性が生じている。",
+    "de": "①Die Europäische Union strebt die Schaffung einheitlicher Standards in den Mitgliedstaaten an. ②Eine einheitliche Auslegung des Rechts ist wichtig, um Rechtssicherheit zu gewährleisten. ③Da die einzelnen Abteilungen unterschiedliche Maßstäbe verwendeten, führte das Unternehmen ein einheitliches Verfahren ein. ④Die Vorschrift wird bundesweit einheitlich angewendet, lässt jedoch Ausnahmen für besondere Umstände zu. ⑤Die Rechtsprechung ist nicht immer einheitlich, was zu Rechtsunsicherheit führen kann."
+  },
+  "task": {
+    "ja": "①「当局は統一的な審査基準を導入しました。」②「この規則はすべての加盟国で一律に適用されます。」③「判例が統一されていないため、法的な不確実性が生じています。」④「すべての部署が統一的な方法で対応する必要があります。」⑤「全員一致の決定」と「統一された方針」の違いを、einstimmig と einheitlich を使って説明する。",
+    "de": "Formuliere fünf Beispiele mit „einheitlich“ und gegebenenfalls „einstimmig“: ① die Einführung gemeinsamer Prüfungsmaßstäbe durch eine Behörde, ② die gleiche Anwendung einer Vorschrift in allen Mitgliedstaaten, ③ Rechtsunsicherheit infolge uneinheitlicher Rechtsprechung, ④ eine abgestimmte Vorgehensweise aller Abteilungen und ⑤ den Unterschied zwischen einer einstimmigen Entscheidung und einer einheitlichen Vorgehensweise."
+  }
 }  
 ]
