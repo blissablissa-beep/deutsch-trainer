@@ -3036,9 +3036,15 @@
     "word": "Einzug",
     "tags": [
       "noun",
+      "housing",
+      "entry",
+      "finance",
+      "collection",
+      "technology",
+      "idiom",
       "law",
-      "language",
-      "vocabulary"
+      "patent",
+      "trademark"
     ],
     "level": "B2-C1",
     "freq": "often",
@@ -3048,85 +3054,170 @@
       "article": "der",
       "plural": "Einzüge",
       "genitive": "des Einzugs",
+      "declension": {
+        "nominative": "der Einzug",
+        "genitive": "des Einzugs",
+        "dative": "dem Einzug",
+        "accusative": "den Einzug",
+        "plural_nominative": "die Einzüge"
+      },
       "patterns": [
-        "der Einzug in + Akkusativ",
-        "Einzug finden in + Akkusativ",
-        "Einzug halten in + Akkusativ",
-        "der Einzug von Forderungen",
-        "der Einzug per Lastschrift"
-      ]
+        "der Einzug in eine Wohnung / in ein Gebäude",
+        "der feierliche Einzug in die Stadt",
+        "der Einzug von Forderungen / Beiträgen / Gebühren",
+        "der Einzug per Lastschrift",
+        "etwas hält Einzug in + Akkusativ",
+        "etwas findet Einzug in + Akkusativ",
+        "Einzug in die Praxis finden",
+        "Einzug in den Alltag halten"
+      ],
+      "register": "neutral bei Wohnungsbezug und Geldeinzug; gehoben und besonders in journalistischen oder fachlichen Texten bei Einzug finden/halten",
+      "word_family": [
+        "einziehen",
+        "ausziehen",
+        "umziehen",
+        "der Einzug",
+        "der Auszug",
+        "der Umzug",
+        "der Forderungseinzug",
+        "das Lastschriftverfahren",
+        "die Einzugsermächtigung",
+        "der Einzugstermin"
+      ],
+      "usage_note": "Einzug ist ein maskulines Substantiv, nicht das Verb einziehen. Das Wort bezeichnet das Einziehen in eine Wohnung, das Einrücken oder feierliche Eintreten sowie den Einzug von Geld. In 'Einzug finden/halten in + Akkusativ' ist die Neuerung das Subjekt: 'KI findet Einzug in den Alltag'. Das Perfekt lautet 'hat Einzug gefunden/gehalten'. Bei Lastschriften bedeutet Einzug das Abbuchen bzw. Einziehen eines Betrags."
     },
     "pronunciation": {
       "ipa": "/ˈaɪ̯nt͡suːk/"
     },
     "meaning": {
-      "ja": "入居、入場・入城、金銭の徴収・引き落とし。Einzug finden in + Akk.:（新技術・考え・習慣が）浸透する、普及する。",
-      "de": "Das Hineinziehen, der Wohnungsbezug, der Geldeinzug; 'Einzug finden in + Akk.': in einem Bereich verbreitet und üblich werden."
+      "ja": "①（住宅・建物への）入居、転入 ②（軍隊・行列・人物の）入城、入場、進入、行進して入ること ③（代金・会費・債権・税金等の）徴収、回収、口座引落し ④【Einzug finden/halten in + 4格】（新技術・思想・制度・習慣等が）ある分野に入り、普及・浸透・定着していくこと。文脈によっては競技や政治での『進出・入り込むこと』にも用いる。",
+      "de": "①das Beziehen einer Wohnung oder eines Gebäudes ②das Hineinziehen, Einmarschieren oder feierliche Betreten eines Ortes ③das Einziehen von Geldbeträgen, Gebühren, Beiträgen oder Forderungen ④in den Wendungen 'Einzug finden' und 'Einzug halten': das Vordringen, die Verbreitung oder Etablierung einer Neuerung in einem Lebens- oder Fachbereich."
     },
     "nuance": {
-      "ja": "Einzug finden は、誰かが導入する行為（einführen）ではなく、新しい技術や習慣がある領域に広がる過程を表す。Einzug halten も近義。",
-      "de": "Das Hineinziehen, der Wohnungsbezug, der Geldeinzug; 'Einzug finden in + Akk.': in einem Bereich verbreitet und üblich werden."
+      "ja": "Einzug の核は『外から内へ入る動き』であり、何が入るかによって意味が分かれる。住居なら入居（der Einzug in die neue Wohnung）、行列・軍隊なら入城・入場（der feierliche Einzug）、金銭なら徴収・回収（der Einzug von Mitgliedsbeiträgen, der Einzug per Lastschrift）を表す。銀行口座からの引落しは『お金が入る』というより債権者側が金銭を取り立てる視点である。Einzug finden / halten は比喩的な『新しいものが入り込む』で、AIや技術・表現・慣行が社会や専門分野に普及することを示す。einführen は導入主体による行為、sich verbreiten は拡散、sich etablieren は定着を強調する。Einzug finden は『in + 4格』と結びつき、hat Einzug gefunden と完了形にできる。Einzug halten も近義だが、いずれもやや書き言葉的。Auszug は退去または抜粋、Umzug は引っ越し全体を指すため区別する。",
+      "de": "Die Grundvorstellung von 'Einzug' ist eine Bewegung von außen nach innen. Beim Wohnen bezeichnet das Wort den Beginn des Wohnens in einem Haus oder einer Wohnung; bei einem Festzug oder Heer das feierliche oder tatsächliche Hineinziehen; im Zahlungsverkehr das Einziehen von Geld oder Forderungen. 'Einzug per Lastschrift' betrachtet die Abbuchung aus der Perspektive des Zahlungsempfängers. Übertragen bedeutet 'Einzug finden/halten in + Akkusativ', dass eine Technik, Idee, Praxis oder Entwicklung in einen neuen Bereich gelangt und sich dort verbreitet. 'Einführen' betont die aktive Einführung durch eine Person oder Organisation, 'sich verbreiten' die Ausbreitung und 'sich etablieren' die dauerhafte Verankerung. Die Wendungen 'Einzug finden' und 'Einzug halten' sind vor allem in Berichten und fachlichen Texten gebräuchlich. 'Auszug' bezeichnet dagegen das Verlassen einer Wohnung oder einen Textauszug; 'Umzug' den gesamten Wohnungswechsel."
     },
     "collocations": [
       {
-        "de": "Einzug finden in die Patentpraxis",
-        "ja": "特許実務に浸透する"
+        "de": "der Einzug in die neue Wohnung",
+        "ja": "新居への入居"
       },
       {
-        "de": "Einzug halten in den Alltag",
-        "ja": "日常生活に普及する"
+        "de": "der Einzug in ein Bürogebäude",
+        "ja": "オフィスビルへの入居"
       },
       {
-        "de": "der Einzug in die Wohnung",
-        "ja": "住居への入居"
+        "de": "vor dem Einzug renovieren",
+        "ja": "入居前に改装する"
       },
       {
-        "de": "der Einzug der Mitgliedsbeiträge",
+        "de": "der geplante Einzugstermin",
+        "ja": "入居予定日"
+      },
+      {
+        "de": "der feierliche Einzug",
+        "ja": "儀礼的な入場・入城"
+      },
+      {
+        "de": "der Einzug der Truppen in die Stadt",
+        "ja": "軍隊の市内への進入"
+      },
+      {
+        "de": "der Einzug in das Parlament",
+        "ja": "議会への進出・議席獲得"
+      },
+      {
+        "de": "der Einzug der Miete",
+        "ja": "家賃の徴収"
+      },
+      {
+        "de": "der Einzug von Mitgliedsbeiträgen",
         "ja": "会費の徴収"
+      },
+      {
+        "de": "der Einzug offener Forderungen",
+        "ja": "未収債権の回収"
+      },
+      {
+        "de": "der Einzug von Gebühren",
+        "ja": "手数料の徴収"
       },
       {
         "de": "der Einzug per Lastschrift",
         "ja": "口座振替による引き落とし"
+      },
+      {
+        "de": "den Einzug einer Zahlung veranlassen",
+        "ja": "代金の引き落としを手配する"
+      },
+      {
+        "de": "KI findet Einzug in den Alltag",
+        "ja": "AIが日常生活に浸透する"
+      },
+      {
+        "de": "eine Technologie findet Einzug in die Patentpraxis",
+        "ja": "技術が特許実務に浸透する"
+      },
+      {
+        "de": "digitale Verfahren halten Einzug in die Verwaltung",
+        "ja": "デジタル手続が行政に普及する"
+      },
+      {
+        "de": "zunehmend Einzug finden",
+        "ja": "次第に普及する"
+      },
+      {
+        "de": "längst Einzug gehalten haben",
+        "ja": "すでに広く浸透している"
       }
     ],
     "minimal": {
-      "ja": "Einzug finden＝浸透する／Einzug halten＝広く使われ始める／einführen＝導入する／sich etablieren＝定着する／Umzug＝引っ越し／Auszug＝退去・抜粋",
-      "de": "Einzug finden＝浸透する／Einzug halten＝広く使われ始める／einführen＝導入する／sich etablieren＝定着する／Umzug＝引っ越し／Auszug＝退去・抜粋"
+      "ja": "Einzug＝入居・入場・徴収・浸透／einziehen＝入居する・進入する・金銭を徴収する／Auszug＝退去・抜粋・明細／Umzug＝引っ越し全体／Einmarsch＝軍隊の進軍・進入／Eintritt＝入場・加入・発生／Forderungseinzug＝債権回収／Lastschrift＝口座振替／Abbuchung＝口座からの引落し／Inkasso＝債権回収業務／Einzug finden＝新しいものがある分野に浸透する／Einzug halten＝ある分野に入り込み普及する／einführen＝人・組織が導入する／sich verbreiten＝広がる／sich durchsetzen＝普及し受け入れられる／sich etablieren＝定着する",
+      "de": "Einzug = Wohnungsbezug, Hineinziehen oder Geldeinzug; einziehen = eine Wohnung beziehen oder Geld einziehen; Auszug = Verlassen einer Wohnung, Textauszug oder Kontoauszug; Umzug = Wechsel des Wohnorts; Einmarsch = militärisches Einrücken; Eintritt = Betreten oder Aufnahme; Forderungseinzug = Einziehung ausstehender Forderungen; Lastschrift = Verfahren zur Kontobelastung; Abbuchung = Belastung eines Kontos; Inkasso = geschäftsmäßige Forderungseinziehung; Einzug finden = in einem neuen Bereich verbreitet werden; Einzug halten = in einem Bereich zunehmend üblich werden; einführen = etwas aktiv neu einsetzen; sich verbreiten = größere Verbreitung finden; sich durchsetzen = allgemein akzeptiert werden; sich etablieren = dauerhaft Fuß fassen"
     },
     "equivalents": {
       "en": [
-        "entry",
         "moving in",
+        "entry",
+        "procession into a place",
         "collection of payments",
-        "to find its way into"
+        "direct debit collection",
+        "to find its way into (Einzug finden)"
       ],
       "it": [
         "ingresso",
+        "trasferimento in una nuova abitazione",
         "riscossione",
-        "diffondersi"
+        "addebito diretto",
+        "diffondersi in (Einzug finden)"
       ],
       "fr": [
+        "emménagement",
         "entrée",
+        "défilé d'entrée",
         "recouvrement",
+        "prélèvement automatique",
         "faire son entrée dans"
       ],
       "es": [
         "entrada",
+        "mudanza a una nueva vivienda",
         "cobro",
+        "domiciliación bancaria",
         "abrirse paso en"
       ]
     },
     "etymology": {
-      "ja": "ein- + Zug（ziehen に由来する移動・引くこと）",
-      "de": "ein- + Zug（ziehen に由来する移動・引くこと）"
+      "ja": "Einzug は接頭要素 ein-（中へ）と名詞 Zug（移動・行進）からなり、動詞 einziehen（中へ引く・移動する）に対応する。Zug は ziehen（引く・移動する）の名詞化に関係する。具体的な『中に入る』という意味から、金銭の取り立てや、考え・技術が社会へ入ってくる比喩的意味に広がった。",
+      "de": "'Einzug' ist aus 'ein-' und 'Zug' gebildet und gehört zu 'einziehen' sowie 'ziehen'. Die ursprüngliche räumliche Vorstellung des Hineinziehens erklärt den Wohnungsbezug und den Einmarsch. Daneben entwickelte sich die Bedeutung des Einziehens von Geld und die übertragene Wendung, dass Ideen oder technische Neuerungen in einen Bereich 'Einzug finden'."
     },
     "example": {
-      "ja": "1 AIは多くの企業に浸透した。\n2 この技術は特許実務に次第に浸透している。\n3 新居への入居は12月に予定されている。\n4 会費の徴収は口座振替で行われる。",
-      "de": "1 KI hat in vielen Unternehmen Einzug gefunden.\n2 Diese Technologie findet zunehmend Einzug in die Patentpraxis.\n3 Der Einzug in die neue Wohnung ist für Dezember geplant.\n4 Der Einzug der Beiträge erfolgt per Lastschrift."
+      "ja": "1 新居への入居は12月初旬に予定されている。 2 入居前にいくつかの修理を行う必要がある。 3 代表団の儀礼的な入場は10時に始まった。 4 軍隊の市内への進入がテレビ中継された。 5 会費の徴収は毎月行われる。 6 その金額は口座振替による徴収の際に口座から引き落とされる。 7 未収債権の回収には多額の費用がかかることがある。 8 AIはすでに多くの企業に浸透している。 9 この技術は特許実務に次第に浸透しつつある。 10 デジタル手続は行政にも普及しつつある。",
+      "de": "1 Der Einzug in unsere neue Wohnung ist für Anfang Dezember geplant. 2 Vor dem Einzug müssen noch einige Reparaturen durchgeführt werden. 3 Der feierliche Einzug der Delegation begann um zehn Uhr. 4 Der Einzug der Truppen in die Stadt wurde im Fernsehen übertragen. 5 Der Einzug der Mitgliedsbeiträge erfolgt monatlich. 6 Der Betrag wird beim Einzug per Lastschrift vom Konto abgebucht. 7 Der Einzug offener Forderungen kann erhebliche Kosten verursachen. 8 Künstliche Intelligenz hat längst Einzug in viele Unternehmen gefunden. 9 Diese Technologie findet zunehmend Einzug in die Patentpraxis. 10 Digitale Verfahren halten auch in der öffentlichen Verwaltung Einzug."
     },
     "task": {
-      "ja": "1 AIは多くの企業に浸透した。\n2 この技術は特許実務に次第に浸透している。\n3 新居への入居は12月に予定されている。\n4 会費の徴収は口座振替で行われる。",
-      "de": "Übersetze die japanischen Sätze ins Deutsche."
+      "ja": "1 『新居への入居は来月です』を Einzug で訳す。 2 『入居前に部屋を改装する必要があります』を訳す。 3 『代表団の儀礼的な入場』を名詞句で表す。 4 『軍隊が市内に進入した』を Einzug を使って表す。 5 『会費の徴収は毎月行われます』を訳す。 6 『料金は口座振替で引き落とされます』を訳す。 7 『未収債権の回収には費用がかかります』を訳す。 8 『AIはすでに多くの企業に浸透しています』を Einzug finden で訳す。 9 『この技術は特許実務に次第に浸透しています』を訳す。 10 Einzug finden と einführen、Auszug と Umzug の違いを説明する。",
+      "de": "Formuliere zehn deutsche Sätze zu den japanischen Vorgaben. Achte besonders auf Kasus, typische Wortverbindungen, Bedeutungsunterschiede und das passende Register."
     }
   },
   {
@@ -7567,9 +7658,13 @@
     "word": "widersprechen",
     "tags": [
       "verb",
+      "dative",
+      "argumentation",
+      "contradiction",
+      "logic",
       "law",
-      "language",
-      "vocabulary"
+      "patent",
+      "litigation"
     ],
     "level": "B2-C1",
     "freq": "often",
@@ -7579,7 +7674,32 @@
       "auxiliary": "haben",
       "separable": false,
       "transitive": false,
+      "reflexive": false,
       "case": "Dativ",
+      "patterns": [
+        "jemandem (Dat.) widersprechen",
+        "einer Aussage (Dat.) widersprechen",
+        "einer Entscheidung (Dat.) widersprechen",
+        "den Tatsachen (Dat.) widersprechen",
+        "dem Gesetz (Dat.) widersprechen",
+        "sich (Dat.) selbst widersprechen",
+        "einem Einwand widersprechen",
+        "widersprechen, dass ... (ungewöhnlich; besser: der Behauptung widersprechen, dass ...)"
+      ],
+      "register": "neutral bis formell; in Diskussionen, wissenschaftlichen Texten, Vertragsrecht und juristischen Schriftsätzen",
+      "related_noun": "der Widerspruch",
+      "word_family": [
+        "widersprechen",
+        "widersprach",
+        "widersprochen",
+        "der Widerspruch",
+        "widersprüchlich",
+        "der Widerspruchsbescheid",
+        "das Widerspruchsverfahren",
+        "widerlegen",
+        "bestreiten",
+        "entgegnen"
+      ],
       "conjugation": {
         "present": {
           "ich": "widerspreche",
@@ -7606,82 +7726,166 @@
           "sie_Sie": "haben widersprochen"
         },
         "participle2": "widersprochen",
+        "participle1": "widersprechend",
         "imperative": {
           "du": "Widersprich!",
           "ihr": "Widersprecht!",
           "Sie": "Widersprechen Sie!"
         },
-        "infinitive_with_zu": "zu widersprechen"
+        "infinitive_with_zu": "zu widersprechen",
+        "subjunctive2_alternative": {
+          "ich": "würde widersprechen",
+          "du": "würdest widersprechen",
+          "er_sie_es": "würde widersprechen",
+          "wir": "würden widersprechen",
+          "ihr": "würdet widersprechen",
+          "sie_Sie": "würden widersprechen"
+        },
+        "subjunctive2": {
+          "ich": "widerspräche",
+          "du": "widersprächest",
+          "er_sie_es": "widerspräche",
+          "wir": "widersprächen",
+          "ihr": "widersprächet",
+          "sie_Sie": "widersprächen"
+        },
+        "passive": {
+          "personal_passive": false,
+          "examples": [
+            "Dem Antrag wurde widersprochen.",
+            "Den Ausführungen des Sachverständigen ist widersprochen worden."
+          ],
+          "note": "Da 'widersprechen' ein Dativobjekt hat, gibt es kein persönliches Vorgangspassiv mit diesem Objekt als Subjekt. Der Dativ bleibt erhalten."
+        }
       },
-      "patterns": [
-        "jemandem (Dat.) widersprechen",
-        "einer Behauptung (Dat.) widersprechen",
-        "den Tatsachen (Dat.) widersprechen",
-        "sich (Dat.) selbst widersprechen"
-      ]
+      "usage_note": "Untrennbar: widersprechen – widersprach – hat widersprochen. Die Person oder Aussage, der man widerspricht, steht im Dativ: 'Ich widerspreche dir', nicht 'dich'. In 'sich selbst widersprechen' ist das Reflexivpronomen ebenfalls Dativ. Ein bloßes Widersprechen ist kein förmlicher Widerspruch im Verwaltungsrecht."
     },
     "pronunciation": {
       "ipa": "/ˌviːdɐˈʃpʁɛçn̩/"
     },
     "meaning": {
-      "ja": "①（人・主張に）反論する、異議を述べる ②（事実・規則などに）矛盾する、相反する。",
-      "de": "Jemandem entgegentreten oder mit etwas nicht vereinbar sein."
+      "ja": "①（相手・発言・見解に）反論する、異議を唱える、同意しない（＋3格）②（事実・法律・規則・証拠などに）矛盾する、反する、両立しない（＋3格）③【sich selbst widersprechen】自分の発言・行動と矛盾する",
+      "de": "①einer Person oder einer Aussage entgegentreten und eine abweichende Auffassung äußern ②mit Tatsachen, Regeln, Beweisen oder einer anderen Aussage nicht vereinbar sein ③in 'sich selbst widersprechen': Aussagen machen, die miteinander unvereinbar sind."
     },
     "nuance": {
-      "ja": "3格支配。単なる反論と、法定の不服申立て Widerspruch einlegen は別。widerlegen は証拠で反証する。",
-      "de": "Jemandem entgegentreten oder mit etwas nicht vereinbar sein."
+      "ja": "widersprechen は、意見に『反対する』行為と、内容が客観的に『矛盾する』状態の両方を表す。どちらも相手・矛盾対象を3格で示す。Ich widerspreche dir.（あなたに反論する）／Die Aussage widerspricht den Fakten.（その供述は事実に反する）。widerlegen は反証によって誤りを示すことで、単なる widersprechen より強い。bestreiten は事実・請求の成立を争うことで、反証の成功までは含意しない。entgegnen は発言に応答するニュアンスが強い。法律上の Widerspruch einlegen は所定の手続に従う法定不服申立てを意味し、widersprechen という動詞だけでは法的効果を保証しない。語頭の wider-（反対に）を wieder-（再び）と混同しない。",
+      "de": "'Widersprechen' hat zwei zentrale Bedeutungen: einer Person oder Behauptung sprachlich entgegentreten und mit einem Sachverhalt logisch oder rechtlich unvereinbar sein. Das Gegenüber oder der widersprechende Inhalt steht im Dativ: 'Ich widerspreche dir'; 'Die Aussage widerspricht den Fakten'. 'Widerlegen' setzt eine Entkräftung durch Argumente oder Beweise voraus, während 'bestreiten' die Richtigkeit einer Behauptung in Abrede stellt. 'Entgegnen' hebt die Antwort im Gespräch hervor. Das förmliche 'Widerspruch einlegen' bezeichnet je nach Rechtsgebiet einen gesetzlich geregelten Rechtsbehelf; das Verb 'widersprechen' allein bewirkt nicht notwendig einen solchen Rechtsbehelf. Das Präfix 'wider-' bedeutet 'entgegen', nicht 'erneut'."
     },
     "collocations": [
       {
         "de": "jemandem entschieden widersprechen",
-        "ja": "人に断固反論する"
-      },
-      {
-        "de": "den Tatsachen widersprechen",
-        "ja": "事実に反する"
+        "ja": "人に断固として反論する"
       },
       {
         "de": "einer Behauptung widersprechen",
         "ja": "主張に反論する"
       },
       {
+        "de": "einem Vorwurf widersprechen",
+        "ja": "非難に反論する"
+      },
+      {
+        "de": "einer Auffassung widersprechen",
+        "ja": "見解に異議を述べる"
+      },
+      {
+        "de": "der Auffassung des Prüfers widersprechen",
+        "ja": "審査官の見解に反論する"
+      },
+      {
+        "de": "einem Gutachten widersprechen",
+        "ja": "鑑定意見に反論する"
+      },
+      {
+        "de": "den Tatsachen widersprechen",
+        "ja": "事実に反する"
+      },
+      {
+        "de": "den Beweisen widersprechen",
+        "ja": "証拠と矛盾する"
+      },
+      {
+        "de": "dem Wortlaut des Vertrags widersprechen",
+        "ja": "契約の文言と矛盾する"
+      },
+      {
+        "de": "geltendem Recht widersprechen",
+        "ja": "現行法に抵触する"
+      },
+      {
         "de": "sich selbst widersprechen",
         "ja": "自己矛盾する"
+      },
+      {
+        "de": "einander widersprechende Angaben",
+        "ja": "互いに矛盾する情報"
+      },
+      {
+        "de": "offensichtlich widersprechen",
+        "ja": "明白に矛盾する"
+      },
+      {
+        "de": "dem Antrag widersprechen",
+        "ja": "申請・提案に反対する"
+      },
+      {
+        "de": "einer Schlussfolgerung widersprechen",
+        "ja": "結論に異議を唱える"
+      },
+      {
+        "de": "dem Ergebnis widersprechen",
+        "ja": "結果に反する"
+      },
+      {
+        "de": "einer Zeugenaussage widersprechen",
+        "ja": "証言に反論する"
+      },
+      {
+        "de": "einer Entscheidung widersprechen",
+        "ja": "決定に反対する"
       }
     ],
     "minimal": {
-      "ja": "widersprechen＝反論する・矛盾する／widerlegen＝反証する／bestreiten＝争う／Widerspruch einlegen＝法定の異議申立てをする",
-      "de": "widersprechen＝反論する・矛盾する／widerlegen＝反証する／bestreiten＝争う／Widerspruch einlegen＝法定の異議申立てをする"
+      "ja": "widersprechen＝3格の相手に反論する／widerlegen＝証拠・論理で反証する／bestreiten＝事実・請求を争う／entgegnen＝発言に応答・反論する／einwenden＝反対理由を述べる／abweichen von＝異なる／im Widerspruch stehen zu＝矛盾する／widersprüchlich＝矛盾した／sich selbst widersprechen＝自己矛盾する／zustimmen＝賛成する／beipflichten＝同意する／Widerspruch einlegen＝法定の異議申立てを行う／Einspruch einlegen＝法定の異議・不服申立てを行う／anfechten＝法的に争う／rügen＝瑕疵・違反を指摘する",
+      "de": "widersprechen = einer Person oder Aussage entgegentreten bzw. unvereinbar sein; widerlegen = durch Argumente oder Beweise entkräften; bestreiten = die Richtigkeit oder das Bestehen in Abrede stellen; entgegnen = auf eine Äußerung antworten; einwenden = einen Einwand vorbringen; abweichen von = anders sein; im Widerspruch stehen zu = nicht vereinbar sein; widersprüchlich = in sich oder untereinander unvereinbar; sich selbst widersprechen = unvereinbare Aussagen machen; zustimmen = eine Auffassung teilen; beipflichten = jemandem zustimmen; Widerspruch einlegen = einen vorgesehenen Rechtsbehelf ergreifen; Einspruch einlegen = einen gesetzlich geregelten Einspruch erheben; anfechten = rechtlich angreifen; rügen = einen Fehler oder Verstoß ausdrücklich beanstanden"
     },
     "equivalents": {
       "en": [
         "to contradict",
-        "to disagree with"
+        "to disagree with",
+        "to object to",
+        "to be inconsistent with"
       ],
       "it": [
         "contraddire",
-        "opporsi a"
+        "opporsi a",
+        "essere in contraddizione con",
+        "contestare"
       ],
       "fr": [
         "contredire",
-        "s'opposer à"
+        "s'opposer à",
+        "être contraire à",
+        "être en contradiction avec"
       ],
       "es": [
         "contradecir",
-        "oponerse a"
+        "oponerse a",
+        "estar en contradicción con",
+        "objetar"
       ]
     },
     "etymology": {
-      "ja": "wider-（反対に）+ sprechen。wieder-（再び）と区別する。",
-      "de": "wider-（反対に）+ sprechen。wieder-（再び）と区別する。"
+      "ja": "wider-（反対に、向かって）＋ sprechen（話す）。古くから『言葉で反対する』という意味を持つ。wider は wieder（再び）とは異なる要素で、widersprechen は『再び話す』ではない。名詞 Widerspruch は反論・矛盾・一定の法定異議申立てなどを意味する。",
+      "de": "Das Verb ist aus dem Präfix 'wider-' im Sinne von 'entgegen' und 'sprechen' gebildet. Es bedeutet ursprünglich, jemandem sprachlich entgegenzutreten. 'Wider-' ist von 'wieder-' im Sinne von 'erneut' zu unterscheiden. Das Substantiv 'Widerspruch' bezeichnet Gegenrede, Unvereinbarkeit und in bestimmten Rechtsgebieten einen förmlichen Rechtsbehelf."
     },
     "example": {
-      "ja": "1 私はあなたに反論する。\n2 この供述は証拠と矛盾する。\n3 代理人は審査官の見解に反論した。\n4 彼は自己矛盾した。",
-      "de": "1 Ich widerspreche dir.\n2 Diese Aussage widerspricht den Beweisen.\n3 Der Vertreter widersprach der Auffassung des Prüfers.\n4 Er hat sich selbst widersprochen."
+      "ja": "1 この点ではあなたに反論しなければなりません。 2 弁護士は相手方の説明に反論した。 3 代理人は特許審査官の見解に反論した。 4 証言は提出されている証拠と矛盾する。 5 この契約条項は強行法規に抵触する。 6 彼の二つの発言は互いに矛盾している。 7 彼は尋問中に何度も自己矛盾した。 8 複数の委員がその提案に反対した。 9 新しい規則は平等取扱原則に反する。 10 ある主張に反論したからといって、それを反証したことにはならない。",
+      "de": "1 Ich muss dir in diesem Punkt widersprechen. 2 Die Anwältin widersprach der Darstellung der Gegenseite. 3 Der Vertreter widersprach der Auffassung des Patentprüfers. 4 Die Zeugenaussage widerspricht den vorliegenden Beweisen. 5 Diese Vertragsklausel widerspricht zwingendem Recht. 6 Seine beiden Aussagen widersprechen einander. 7 Er hat sich während der Befragung mehrfach selbst widersprochen. 8 Dem Vorschlag wurde von mehreren Mitgliedern widersprochen. 9 Die neue Regelung widerspricht dem Grundsatz der Gleichbehandlung. 10 Einer Behauptung zu widersprechen bedeutet noch nicht, sie zu widerlegen."
     },
     "task": {
-      "ja": "1 私はあなたに反論する。\n2 この供述は証拠と矛盾する。\n3 代理人は審査官の見解に反論した。\n4 彼は自己矛盾した。",
-      "de": "Übersetze die japanischen Sätze ins Deutsche."
+      "ja": "1 『この点ではあなたに反対です』を3格で訳す。 2 『弁護士は相手方の説明に反論した』を過去形で訳す。 3 『代理人は審査官の見解に反論した』を訳す。 4 『証言は証拠と矛盾する』を訳す。 5 『その契約条項は強行法規に反する』を訳す。 6 『二つの発言は互いに矛盾する』を訳す。 7 『彼は何度も自己矛盾した』を完了形で訳す。 8 『その提案には反対が表明された』を非人称受動態で訳す。 9 『その規則は平等取扱原則に反する』を訳す。 10 widersprechen と widerlegen、Widerspruch einlegen の違いを説明する。",
+      "de": "Formuliere zehn deutsche Sätze zu den japanischen Vorgaben. Achte besonders auf Kasus, typische Wortverbindungen, Bedeutungsunterschiede und das passende Register."
     }
   },
   {
@@ -7833,9 +8037,14 @@
     "word": "misstrauen",
     "tags": [
       "verb",
+      "dative",
+      "trust",
+      "distrust",
+      "psychology",
+      "business",
       "law",
-      "language",
-      "vocabulary"
+      "politics",
+      "relationships"
     ],
     "level": "B2-C1",
     "freq": "often",
@@ -7845,7 +8054,28 @@
       "auxiliary": "haben",
       "separable": false,
       "transitive": false,
+      "reflexive": false,
       "case": "Dativ",
+      "patterns": [
+        "jemandem (Dat.) misstrauen",
+        "den Angaben (Dat.) misstrauen",
+        "einem Versprechen (Dat.) misstrauen",
+        "den Motiven einer Person (Dat.) misstrauen",
+        "den eigenen Fähigkeiten (Dat.) misstrauen",
+        "einer Behörde (Dat.) misstrauen"
+      ],
+      "register": "neutral bis gehoben; häufig in psychologischen, politischen und journalistischen Kontexten",
+      "related_noun": "das Misstrauen",
+      "word_family": [
+        "misstrauen",
+        "das Misstrauen",
+        "misstrauisch",
+        "vertrauen",
+        "das Vertrauen",
+        "vertrauenswürdig",
+        "der Vertrauensverlust",
+        "das Misstrauensvotum"
+      ],
       "conjugation": {
         "present": {
           "ich": "misstraue",
@@ -7872,30 +8102,50 @@
           "sie_Sie": "haben misstraut"
         },
         "participle2": "misstraut",
+        "participle1": "misstrauend",
         "imperative": {
           "du": "Misstraue!",
           "ihr": "Misstraut!",
           "Sie": "Misstrauen Sie!"
         },
-        "infinitive_with_zu": "zu misstrauen"
+        "infinitive_with_zu": "zu misstrauen",
+        "subjunctive2_alternative": {
+          "ich": "würde misstrauen",
+          "du": "würdest misstrauen",
+          "er_sie_es": "würde misstrauen",
+          "wir": "würden misstrauen",
+          "ihr": "würdet misstrauen",
+          "sie_Sie": "würden misstrauen"
+        },
+        "subjunctive2": {
+          "ich": "misstraute",
+          "du": "misstrautest",
+          "er_sie_es": "misstraute",
+          "wir": "misstrauten",
+          "ihr": "misstrautet",
+          "sie_Sie": "misstrauten"
+        },
+        "passive": {
+          "personal_passive": false,
+          "examples": [
+            "Dem Zeugen wurde misstraut.",
+            "Den offiziellen Angaben ist lange misstraut worden."
+          ],
+          "note": "Da das Verb den Dativ regiert, bleibt das Dativobjekt im unpersönlichen Passiv erhalten."
+        }
       },
-      "patterns": [
-        "jemandem (Dat.) misstrauen",
-        "einer Behauptung (Dat.) misstrauen",
-        "einem Versprechen (Dat.) misstrauen",
-        "den Angaben (Dat.) misstrauen"
-      ]
+      "usage_note": "Regelmäßiges, untrennbares Verb: misstrauen – misstraute – hat misstraut. Ohne ge- im Partizip II. Wie 'vertrauen' mit Dativ: 'Ich misstraue ihm', nicht 'ihn'. Nicht gleichbedeutend mit 'verdächtigen', das einen konkreten Verdacht ausdrückt."
     },
     "pronunciation": {
       "ipa": "/mɪsˈtʁaʊ̯ən/"
     },
     "meaning": {
-      "ja": "①（人・組織を）信用しない ②（説明・情報・約束に）疑念を抱く。",
-      "de": "Jemandem oder etwas nicht vertrauen; Angaben, Absichten oder Zusagen für unzuverlässig halten."
+      "ja": "①（人・組織・制度を）信用しない、信頼を置かない ②（発言・情報・約束・動機・意図などに）疑念を抱く、疑ってかかる ③（自分の能力や判断などを）信用できない、確信を持てない",
+      "de": "①einer Person oder Institution nicht vertrauen ②Aussagen, Absichten, Versprechen oder Informationen für möglicherweise unzuverlässig halten ③auch den eigenen Fähigkeiten oder dem eigenen Urteil nicht vertrauen."
     },
     "nuance": {
-      "ja": "vertrauen と同様に3格支配。具体的な不正を疑う verdächtigen とは異なり、一般的な不信感を表す。過去分詞は ge- のない misstraut。",
-      "de": "Jemandem oder etwas nicht vertrauen; Angaben, Absichten oder Zusagen für unzuverlässig halten."
+      "ja": "misstrauen は『信頼が欠けている』という持続的な心理的態度を表し、特定の犯罪や嘘を立証したことは意味しない。人だけでなく、発言・約束・公式説明・動機・自分の判断にも使える。支配格は vertrauen と同じ3格（jemandem misstrauen）。bezweifeln は主張の真偽や妥当性を疑う認知的判断、verdächtigen は特定の犯罪・不正行為の嫌疑をかけることであり、misstrauen と異なる。misstrauisch sein は形容詞で疑い深い状態を表す。das Misstrauen は不信感、das Misstrauensvotum は政治上の不信任投票。過去分詞は ge- のない misstraut。",
+      "de": "'Misstrauen' bezeichnet eine Haltung fehlenden Vertrauens gegenüber Personen, Institutionen, Aussagen, Versprechen oder Motiven. Es setzt weder den Nachweis einer Lüge noch einen konkreten Verdacht auf eine Straftat voraus. Wie 'vertrauen' regiert das Verb den Dativ: 'Ich misstraue ihm'. 'Bezweifeln' richtet sich eher gegen die Wahrheit oder Plausibilität einer Aussage; 'verdächtigen' unterstellt eine mögliche konkrete Tat. 'Misstrauisch sein' bezeichnet die entsprechende Eigenschaft oder momentane Haltung. 'Das Misstrauen' ist das Substantiv, 'das Misstrauensvotum' eine politische Vertrauensfrage. Das Partizip II lautet 'misstraut', nicht 'gemisstraut'."
     },
     "collocations": [
       {
@@ -7903,51 +8153,112 @@
         "ja": "人を深く信用しない"
       },
       {
+        "de": "einem Geschäftspartner misstrauen",
+        "ja": "取引先を信用しない"
+      },
+      {
+        "de": "einer Behörde misstrauen",
+        "ja": "行政機関を信用しない"
+      },
+      {
+        "de": "den Angaben eines Zeugen misstrauen",
+        "ja": "証人の供述を疑う"
+      },
+      {
         "de": "einer offiziellen Erklärung misstrauen",
-        "ja": "公式説明を疑う"
+        "ja": "公式説明に疑念を抱く"
       },
       {
         "de": "einem Versprechen misstrauen",
         "ja": "約束を信用しない"
       },
       {
-        "de": "den Angaben misstrauen",
-        "ja": "情報の信頼性を疑う"
+        "de": "den Absichten einer Person misstrauen",
+        "ja": "人の意図を疑う"
+      },
+      {
+        "de": "den Motiven des Unternehmens misstrauen",
+        "ja": "企業の動機を疑う"
+      },
+      {
+        "de": "einer Statistik misstrauen",
+        "ja": "統計の信頼性を疑う"
+      },
+      {
+        "de": "dem eigenen Urteil misstrauen",
+        "ja": "自分の判断を信用できない"
+      },
+      {
+        "de": "den eigenen Fähigkeiten misstrauen",
+        "ja": "自分の能力を信用できない"
+      },
+      {
+        "de": "einem Gerücht misstrauen",
+        "ja": "噂を疑う"
+      },
+      {
+        "de": "den Aussagen des Angeklagten misstrauen",
+        "ja": "被告人の供述を信用しない"
+      },
+      {
+        "de": "einer Quelle misstrauen",
+        "ja": "情報源を信用しない"
+      },
+      {
+        "de": "jemandem aus gutem Grund misstrauen",
+        "ja": "もっともな理由から人を疑う"
+      },
+      {
+        "de": "jemandem ohne Grund misstrauen",
+        "ja": "理由なく人を疑う"
+      },
+      {
+        "de": "zunehmend misstrauen",
+        "ja": "ますます信用しなくなる"
+      },
+      {
+        "de": "einer Prognose misstrauen",
+        "ja": "予測を信用しない"
       }
     ],
     "minimal": {
-      "ja": "misstrauen＝信用しない／vertrauen＝信頼する／bezweifeln＝真偽を疑う／verdächtigen＝具体的な犯罪・不正を疑う／misstrauisch＝疑い深い",
-      "de": "misstrauen＝信用しない／vertrauen＝信頼する／bezweifeln＝真偽を疑う／verdächtigen＝具体的な犯罪・不正を疑う／misstrauisch＝疑い深い"
+      "ja": "misstrauen＝3格の人・情報を信用しない／vertrauen＝3格の人・情報を信頼する／bezweifeln＝真偽・妥当性を疑う／anzweifeln＝正しさ・信頼性に疑問を呈する／verdächtigen＝人に具体的な犯罪・不正の嫌疑をかける／argwöhnen＝疑念を抱く（やや文語）／skeptisch sein＝懐疑的である／misstrauisch＝疑い深い／das Misstrauen＝不信感／der Verdacht＝疑惑・嫌疑／das Vertrauen＝信頼／das Misstrauensvotum＝不信任投票",
+      "de": "misstrauen = jemandem oder etwas kein Vertrauen schenken; vertrauen = sich auf jemanden oder etwas verlassen; bezweifeln = die Richtigkeit oder Plausibilität infrage stellen; anzweifeln = die Glaubwürdigkeit oder Richtigkeit bezweifeln; verdächtigen = jemandem eine konkrete mögliche Tat zuschreiben; argwöhnen = einen Verdacht hegen; skeptisch sein = Vorbehalte haben; misstrauisch = wenig geneigt zu vertrauen; das Misstrauen = fehlendes Vertrauen; der Verdacht = Vermutung einer möglicherweise problematischen Tatsache; das Vertrauen = Zuversicht in Zuverlässigkeit; das Misstrauensvotum = parlamentarische Abstimmung über das Vertrauen"
     },
     "equivalents": {
       "en": [
         "to distrust",
-        "to mistrust"
+        "to mistrust",
+        "to be suspicious of",
+        "to lack confidence in"
       ],
       "it": [
         "diffidare di",
-        "non fidarsi di"
+        "non fidarsi di",
+        "nutrire sospetti verso"
       ],
       "fr": [
         "se méfier de",
-        "ne pas faire confiance à"
+        "ne pas faire confiance à",
+        "se défier de"
       ],
       "es": [
         "desconfiar de",
-        "no fiarse de"
+        "no fiarse de",
+        "recelar de"
       ]
     },
     "etymology": {
-      "ja": "miss-（否定・誤り）+ trauen（信頼する）。",
-      "de": "miss-（否定・誤り）+ trauen（信頼する）。"
+      "ja": "misstrauen は否定・不適切さを表す接頭辞 miss- と trauen（信頼する）から成る。関連する名詞は das Misstrauen、形容詞は misstrauisch。接頭辞 miss- を伴うため、過去分詞は gemisstraut ではなく misstraut となる。",
+      "de": "'Misstrauen' ist aus dem Präfix 'miss-' und dem Verb 'trauen' gebildet. Das Präfix bezeichnet hier das Fehlen bzw. die Verneinung des Vertrauens. Zur Wortfamilie gehören 'das Misstrauen' und 'misstrauisch'. Das Partizip II wird ohne 'ge-' gebildet: 'misstraut'."
     },
     "example": {
-      "ja": "1 私は彼の説明を信用しない。\n2 多くの市民は公式発表を疑っている。\n3 出願人はこの情報を信用しなかった。\n4 その証人は信用されなかった。",
-      "de": "1 Ich misstraue seiner Erklärung.\n2 Viele Bürger misstrauen der offiziellen Mitteilung.\n3 Der Anmelder misstraute diesen Angaben.\n4 Dem Zeugen wurde misstraut."
+      "ja": "1 重要な情報が欠けているため、私は彼の説明を信用していない。 2 多くの市民は公式統計を信用していない。 3 依頼人は取引先の約束を信用しなかった。 4 審査官は当初その文書の真正性を疑った。 5 何度も失望を経験したため、彼女は見知らぬ人を信用しない。 6 彼は自分自身の判断さえ信用できない。 7 供述が矛盾していたため、その証人は信用されなかった。 8 投資家たちは楽観的な予測を信用しなかった。 9 あらゆる情報を疑う人は、なかなか意思決定できない。 10 人を信用しないことは、その人に犯罪の嫌疑をかけることとは異なる。",
+      "de": "1 Ich misstraue seiner Erklärung, weil wichtige Angaben fehlen. 2 Viele Bürger misstrauen den offiziellen Statistiken. 3 Die Mandantin misstraute den Versprechen des Geschäftspartners. 4 Der Prüfer misstraute zunächst der Echtheit des Dokuments. 5 Nach mehreren Enttäuschungen misstraut sie fremden Menschen. 6 Er misstraut sogar seinem eigenen Urteil. 7 Dem Zeugen wurde wegen widersprüchlicher Angaben misstraut. 8 Die Anleger haben den optimistischen Prognosen misstraut. 9 Wer jeder Nachricht misstraut, kann nur schwer Entscheidungen treffen. 10 Jemandem zu misstrauen bedeutet nicht, ihn einer Straftat zu verdächtigen."
     },
     "task": {
-      "ja": "1 私は彼の説明を信用しない。\n2 多くの市民は公式発表を疑っている。\n3 出願人はこの情報を信用しなかった。\n4 その証人は信用されなかった。",
-      "de": "Übersetze die japanischen Sätze ins Deutsche."
+      "ja": "1 『私は彼の説明を信用していない』を3格で訳す。 2 『多くの市民は公式統計を疑っている』を訳す。 3 『依頼人は取引先の約束を信用しなかった』を過去形で訳す。 4 『審査官は文書の真正性を疑った』を訳す。 5 『彼女は見知らぬ人を信用しない』を訳す。 6 『彼は自分の判断さえ信用できない』を訳す。 7 『証人は信用されなかった』を非人称受動態で訳す。 8 『投資家はその予測を信用しなかった』を完了形で訳す。 9 『あらゆる情報を疑う人は意思決定が難しい』を訳す。 10 misstrauen と bezweifeln、verdächtigen の違いを説明する。",
+      "de": "Formuliere zehn deutsche Sätze zu den japanischen Vorgaben. Achte besonders auf Kasus, typische Wortverbindungen, Bedeutungsunterschiede und das passende Register."
     }
   },
   {
