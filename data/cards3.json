@@ -9228,5 +9228,330 @@
       "ja": "①『明日、契約書の草案を一緒に検討する』②『弁理士は特許請求項を一文ずつ確認した』③『指摘事項をもう一度確認すべきだ』④『チェックリストを最後まで確認してください』⑤『私たちは裏口を通り抜けた』⑥『提案は意外にも通った』⑦『カード決済は通らなかった』⑧『その説明は言い訳として通用するかもしれない』⑨『一度なら大目に見られる』⑩『大きな音で馬が暴走した』を独訳する。",
       "de": "Formuliere zehn Sätze: ① einen Vertragsentwurf gemeinsam prüfen, ② Patentansprüche Satz für Satz prüfen, ③ Einwände erneut durchgehen, ④ eine Checkliste vollständig prüfen, ⑤ einen Hintereingang passieren, ⑥ ein angenommener Vorschlag, ⑦ eine gescheiterte Kartenzahlung, ⑧ eine Erklärung als Entschuldigung, ⑨ einen Fehler ausnahmsweise durchgehen lassen und ⑩ ein Pferd, das durchgeht. Verwende Präsens, Präteritum, Perfekt und eine Konstruktion mit 'als'."
     }
+  },
+  {
+    "id": "vorverlegen",
+    "sid": "2026-00370",
+    "word": "vorverlegen",
+    "tags": [
+      "verb",
+      "separable_verb",
+      "regular_verb",
+      "scheduling",
+      "appointments",
+      "deadlines",
+      "time",
+      "planning",
+      "business",
+      "law",
+      "patent",
+      "administration",
+      "military"
+    ],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "schwach; regelmäßig",
+      "auxiliary": "haben",
+      "separable": true,
+      "transitive": true,
+      "reflexive": false,
+      "case": "Akkusativ für den vorverlegten Termin / Vorgang / Ort",
+      "patterns": [
+        "etwas (Akk.) vorverlegen",
+        "einen Termin / eine Sitzung / eine Frist vorverlegen",
+        "etwas um eine Stunde / drei Tage / zwei Wochen vorverlegen",
+        "etwas auf Montag / neun Uhr / einen früheren Zeitpunkt vorverlegen",
+        "etwas von Freitag auf Mittwoch vorverlegen",
+        "den Beginn auf einen früheren Zeitpunkt vorverlegen",
+        "eine Besprechung wegen eines Konflikts vorverlegen",
+        "Truppen / eine Verteidigungslinie vorverlegen",
+        "etwas wird vorverlegt",
+        "einen Termin vorverlegen lassen"
+      ],
+      "prepositions": [
+        {
+          "preposition": "um",
+          "case": "Akkusativ",
+          "meaning": "Zeitlicher Abstand: 'um zwei Stunden vorverlegen' bedeutet zwei Stunden früher."
+        },
+        {
+          "preposition": "auf",
+          "case": "Akkusativ",
+          "meaning": "Neuer Zeitpunkt: 'auf Montag', 'auf neun Uhr', 'auf den 15. Mai'."
+        },
+        {
+          "preposition": "von ... auf",
+          "case": "Dativ nach von; Akkusativ nach auf",
+          "meaning": "Alter und neuer Zeitpunkt: 'von Freitag auf Mittwoch vorverlegen'."
+        },
+        {
+          "preposition": "wegen",
+          "case": "Genitiv (standardsprachlich)",
+          "meaning": "Grund: 'wegen eines Feiertags vorverlegen'."
+        }
+      ],
+      "register": "neutral bis formell; besonders in organisatorischen, beruflichen und administrativen Kontexten gebräuchlich",
+      "related_noun": "die Vorverlegung",
+      "word_family": [
+        "vorverlegen",
+        "die Vorverlegung",
+        "verlegen",
+        "die Verlegung",
+        "verschieben",
+        "die Verschiebung",
+        "vorziehen",
+        "die Vorziehung",
+        "ansetzen",
+        "terminieren",
+        "aufschieben"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "verlege vor",
+          "du": "verlegst vor",
+          "er_sie_es": "verlegt vor",
+          "wir": "verlegen vor",
+          "ihr": "verlegt vor",
+          "sie_Sie": "verlegen vor"
+        },
+        "preterite": {
+          "ich": "verlegte vor",
+          "du": "verlegtest vor",
+          "er_sie_es": "verlegte vor",
+          "wir": "verlegten vor",
+          "ihr": "verlegtet vor",
+          "sie_Sie": "verlegten vor"
+        },
+        "perfect": {
+          "ich": "habe vorverlegt",
+          "du": "hast vorverlegt",
+          "er_sie_es": "hat vorverlegt",
+          "wir": "haben vorverlegt",
+          "ihr": "habt vorverlegt",
+          "sie_Sie": "haben vorverlegt"
+        },
+        "participle2": "vorverlegt",
+        "participle1": "vorverlegend",
+        "imperative": {
+          "du": "Verleg den Termin vor!",
+          "ihr": "Verlegt den Termin vor!",
+          "Sie": "Verlegen Sie den Termin vor!"
+        },
+        "infinitive_with_zu": "vorzuverlegen",
+        "subjunctive1": {
+          "ich": "verlege vor",
+          "du": "verlegest vor",
+          "er_sie_es": "verlege vor",
+          "wir": "verlegen vor",
+          "ihr": "verleget vor",
+          "sie_Sie": "verlegen vor"
+        },
+        "subjunctive2": {
+          "ich": "verlegte vor",
+          "du": "verlegtest vor",
+          "er_sie_es": "verlegte vor",
+          "wir": "verlegten vor",
+          "ihr": "verlegtet vor",
+          "sie_Sie": "verlegten vor"
+        },
+        "subjunctive2_alternative": {
+          "ich": "würde vorverlegen",
+          "du": "würdest vorverlegen",
+          "er_sie_es": "würde vorverlegen",
+          "wir": "würden vorverlegen",
+          "ihr": "würdet vorverlegen",
+          "sie_Sie": "würden vorverlegen"
+        },
+        "passive": {
+          "personal_passive": true,
+          "examples": [
+            "Die Besprechung wird um zwei Stunden vorverlegt.",
+            "Der Termin wurde von Freitag auf Mittwoch vorverlegt.",
+            "Die Veröffentlichung ist vorverlegt worden."
+          ],
+          "note": "Das Akkusativobjekt kann im Vorgangspassiv zum Subjekt werden: 'Wir verlegen den Termin vor' → 'Der Termin wird vorverlegt'."
+        }
+      },
+      "usage_note": "Trennbares Verb: 'ich verlege den Termin vor', 'ich verlegte den Termin vor', 'ich habe den Termin vorverlegt', 'den Termin vorzuverlegen'. 'Um' gibt die Verschiebungsdauer an, 'auf' den neuen Zeitpunkt und 'von ... auf' beide Zeitpunkte. 'Vorverlegen' beschreibt die Änderung einer Planung; rechtlich feststehende Fristen oder Prioritätstage lassen sich nicht allein durch Wortwahl oder einseitige Terminplanung ändern."
+    },
+    "pronunciation": {
+      "ipa": "/ˈfoːɐ̯fɛɐ̯ˌleːɡn̩/",
+      "stress": "Hauptakzent auf 'vor-', Nebenakzent auf 'le-'"
+    },
+    "meaning": {
+      "ja": "①（予定・会議・催し・出発・公表・実施などの）日時を早める、前倒しする ②（提出・作業・審査などの内部的な）予定期限・実施時期を早い時点に変更する ③（軍隊・防衛線・拠点などを）前方に移す、前進配置する。通常は①②の時間的意味が中心。",
+      "de": "①einen Termin, eine Veranstaltung, einen Beginn oder eine geplante Handlung auf einen früheren Zeitpunkt legen ②eine vorgesehene Frist oder einen Arbeitsschritt zeitlich nach vorn verschieben ③Truppen, Stellungen oder eine Verteidigungslinie räumlich weiter nach vorn verlegen."
+    },
+    "nuance": {
+      "ja": "vorverlegen は単に『予定を変更する』のではなく、基準となる日時よりも『早くする』ことを明示する。中立的な verschieben と異なり方向が固定される。vorziehen も前倒しを表すが、vorziehen には『AをBより好む・優先する』という別の重要な意味があり、vorverlegen は日程・時刻の変更をより事務的・明示的に表現する。『会議を金曜日から水曜日へ』は von Freitag auf Mittwoch vorverlegen、『2日早める』は um zwei Tage vorverlegen。auf は変更後の時点、um は変更幅を示す。延期は verschieben / nach hinten verschieben / aufschieben であり、vorverlegen の反対方向である。法務実務では『内部締切を前倒しする』には自然だが、法定期間や優先日などを当事者が自由に変更できることは意味しない。軍事的には時間ではなく『部隊を前方に移す』という空間的意味もある。",
+      "de": "'Vorverlegen' bezeichnet eine gezielte Verlegung auf einen früheren Zeitpunkt und legt damit die zeitliche Richtung fest. 'Verschieben' ist neutral und kann sowohl eine Vorverlegung als auch eine spätere Ansetzung meinen. 'Vorziehen' kann ebenfalls einen Termin früher ansetzen, bedeutet aber außerdem 'etwas bevorzugen'; 'vorverlegen' wirkt bei Terminen oft sachlich und organisatorisch. 'Um zwei Tage' bezeichnet den Umfang der Änderung, 'auf Mittwoch' den neuen Zeitpunkt und 'von Freitag auf Mittwoch' den Ausgangs- und Zieltermin. Für eine Verschiebung auf später verwendet man 'nach hinten verschieben' oder 'aufschieben'. In juristischen Zusammenhängen lässt sich etwa eine interne Bearbeitungsfrist vorverlegen; eine gesetzliche Frist oder ein Prioritätstag ändert sich dadurch nicht ohne entsprechende Rechtsgrundlage. Im militärischen Sprachgebrauch kann 'vorverlegen' auch eine räumliche Bewegung nach vorn bezeichnen."
+    },
+    "collocations": [
+      {
+        "de": "einen Termin vorverlegen",
+        "ja": "予定を前倒しする"
+      },
+      {
+        "de": "eine Besprechung vorverlegen",
+        "ja": "打合せを前倒しする"
+      },
+      {
+        "de": "eine Sitzung vorverlegen",
+        "ja": "会議の日時を早める"
+      },
+      {
+        "de": "eine Videokonferenz vorverlegen",
+        "ja": "オンライン会議を前倒しする"
+      },
+      {
+        "de": "den Beginn vorverlegen",
+        "ja": "開始時刻を早める"
+      },
+      {
+        "de": "den Start vorverlegen",
+        "ja": "開始時期を前倒しする"
+      },
+      {
+        "de": "die Abreise vorverlegen",
+        "ja": "出発を早める"
+      },
+      {
+        "de": "die Rückreise vorverlegen",
+        "ja": "帰路につく日を早める"
+      },
+      {
+        "de": "den Abgabetermin vorverlegen",
+        "ja": "提出予定日を早める"
+      },
+      {
+        "de": "eine interne Frist vorverlegen",
+        "ja": "内部期限を前倒しする"
+      },
+      {
+        "de": "die Veröffentlichung vorverlegen",
+        "ja": "公表時期を早める"
+      },
+      {
+        "de": "die Markteinführung vorverlegen",
+        "ja": "市場投入を前倒しする"
+      },
+      {
+        "de": "den Produktionsbeginn vorverlegen",
+        "ja": "生産開始時期を早める"
+      },
+      {
+        "de": "die Prüfung vorverlegen",
+        "ja": "審査・試験の時期を早める"
+      },
+      {
+        "de": "den Prüfungstermin vorverlegen",
+        "ja": "試験日を前倒しする"
+      },
+      {
+        "de": "die Verhandlung vorverlegen",
+        "ja": "審理・期日の日時を早める"
+      },
+      {
+        "de": "die mündliche Verhandlung vorverlegen",
+        "ja": "口頭審理の期日を早める"
+      },
+      {
+        "de": "etwas um einen Tag vorverlegen",
+        "ja": "何かを1日前倒しする"
+      },
+      {
+        "de": "etwas um eine Woche vorverlegen",
+        "ja": "何かを1週間前倒しする"
+      },
+      {
+        "de": "etwas auf Montag vorverlegen",
+        "ja": "何かを月曜日に前倒しする"
+      },
+      {
+        "de": "etwas auf neun Uhr vorverlegen",
+        "ja": "何かを9時に前倒しする"
+      },
+      {
+        "de": "etwas von Freitag auf Mittwoch vorverlegen",
+        "ja": "何かを金曜日から水曜日へ前倒しする"
+      },
+      {
+        "de": "etwas kurzfristig vorverlegen",
+        "ja": "何かを直前になって前倒しする"
+      },
+      {
+        "de": "etwas aus organisatorischen Gründen vorverlegen",
+        "ja": "運営上の理由で前倒しする"
+      },
+      {
+        "de": "etwas nach Möglichkeit vorverlegen",
+        "ja": "可能なら前倒しする"
+      },
+      {
+        "de": "etwas um mehrere Monate vorverlegen",
+        "ja": "何かを数か月前倒しする"
+      },
+      {
+        "de": "ein vorverlegter Termin",
+        "ja": "前倒しされた予定"
+      },
+      {
+        "de": "die Sitzung wird vorverlegt",
+        "ja": "会議の日時が前倒しされる"
+      },
+      {
+        "de": "Truppen vorverlegen",
+        "ja": "部隊を前進配置する"
+      },
+      {
+        "de": "die Verteidigungslinie vorverlegen",
+        "ja": "防衛線を前方へ移す"
+      }
+    ],
+    "minimal": {
+      "ja": "vorverlegen＝予定・日時を前倒しする／vorziehen＝前倒しする、または何かを優先・選好する／verschieben＝予定を移動する。前倒し・延期の両方が可能／verlegen＝予定・場所を変更する。方向は特定しない／früher ansetzen＝より早い日時に設定する／terminieren＝日程を設定する／ansetzen＝会議・期日を設定する／nach hinten verschieben＝予定を後ろ倒しする／aufschieben＝実施を延期する／vertagen＝会議・審議等を延期する／beschleunigen＝進行を速める（必ずしも日程変更を含まない）／vordatieren＝文書の日付を将来の日付にする。予定の前倒しとは異なる／die Vorverlegung＝前倒し・前進配置／die Verschiebung＝変更・延期・移動。",
+      "de": "vorverlegen = einen Termin auf einen früheren Zeitpunkt legen; vorziehen = einen Termin früher ansetzen oder etwas bevorzugen; verschieben = einen Termin zeitlich verändern, ohne die Richtung festzulegen; verlegen = einen Termin oder Ort ändern; früher ansetzen = einen früheren Zeitpunkt festlegen; terminieren = einen Termin bestimmen; ansetzen = eine Sitzung oder einen Termin festlegen; nach hinten verschieben = auf später legen; aufschieben = eine Handlung verzögern; vertagen = eine Sitzung oder Beratung auf einen späteren Zeitpunkt verschieben; beschleunigen = einen Ablauf schneller machen, ohne zwingend den Termin zu ändern; vordatieren = ein Dokument mit einem späteren Datum versehen; die Vorverlegung = das zeitliche oder räumliche Nach-vorn-Verlegen; die Verschiebung = eine Änderung des Zeitpunkts oder Ortes."
+    },
+    "equivalents": {
+      "en": [
+        "to move forward (a meeting)",
+        "to bring forward (a date, BrE)",
+        "to move up (an appointment, AmE)",
+        "to reschedule for an earlier date",
+        "to advance (a deadline)"
+      ],
+      "it": [
+        "anticipare",
+        "spostare a una data precedente",
+        "anticipare una riunione",
+        "anticipare la scadenza"
+      ],
+      "fr": [
+        "avancer une réunion",
+        "avancer une date",
+        "fixer à une date antérieure",
+        "anticiper"
+      ],
+      "es": [
+        "adelantar una reunión",
+        "adelantar una fecha",
+        "anticipar",
+        "reprogramar para antes"
+      ]
+    },
+    "etymology": {
+      "ja": "vor-（前に・前方へ）＋ verlegen（移す、配置する、予定を変更する）からなる分離動詞。verlegen は legen（置く）に接頭辞 ver- が付いた語で、場所や時点を『別の位置に置く』という意味を持つ。vor- が付くことで、変更先が時間的に早い、または空間的に前方であることを明示する。名詞形は die Vorverlegung。",
+      "de": "Das trennbare Verb besteht aus 'vor-' im Sinne von 'nach vorn' und 'verlegen', das zu 'legen' gehört und das Verändern eines Ortes oder Termins bezeichnet. Das Präfix 'vor-' legt die Richtung der Verlegung fest: zeitlich auf einen früheren Zeitpunkt oder räumlich weiter nach vorn. Das zugehörige Substantiv lautet 'die Vorverlegung'."
+    },
+    "example": {
+      "ja": "1. 私たちは打合せを2時間前倒しした。\n2. 予定は金曜日から水曜日へ前倒しされた。\n3. ビデオ会議を9時に前倒しできませんか。\n4. 祝日のため、会議を1日前倒しします。\n5. 報告書の公表は11月末に前倒しされた。\n6. 事務所は草案の確認に関する内部期限を前倒ししたいと考えている。\n7. 法律で定められた期限は、相応の法的根拠なしに前倒しすることはできない。\n8. 主催者は催しの開始時刻を直前になって早めた。\n9. 部隊は国境に近い位置へ前進配置された。\n10. 提出期限を前倒しするなら、関係者に適時に知らせなければならない。",
+      "de": "1. Wir haben die Besprechung um zwei Stunden vorverlegt.\n2. Der Termin wurde von Freitag auf Mittwoch vorverlegt.\n3. Könnten wir die Videokonferenz auf neun Uhr vorverlegen?\n4. Wegen des Feiertags verlegen wir die Sitzung um einen Tag vor.\n5. Die Veröffentlichung des Berichts ist auf Ende November vorverlegt worden.\n6. Die Kanzlei möchte die interne Frist für die Prüfung des Entwurfs vorverlegen.\n7. Eine gesetzlich festgelegte Frist lässt sich nicht ohne entsprechende Rechtsgrundlage vorverlegen.\n8. Der Veranstalter hat den Beginn der Veranstaltung kurzfristig vorverlegt.\n9. Die Truppen wurden näher an die Grenze vorverlegt.\n10. Wenn wir den Abgabetermin vorverlegen, müssen wir die Beteiligten rechtzeitig informieren."
+    },
+    "task": {
+      "ja": "次の10文を vorverlegen を用いて独訳してください。①『打合せを2時間前倒しした』②『予定は金曜日から水曜日へ前倒しされた』③『ビデオ会議を9時に前倒しできますか』④『祝日のため会議を1日前倒しする』⑤『報告書の公表は11月末に前倒しされた』⑥『事務所は内部期限を前倒ししたい』⑦『法定期限は法的根拠なしに変更できない』⑧『主催者は開始時刻を直前に早めた』⑨『部隊は国境近くへ前進配置された』⑩『提出期限を前倒しするなら関係者に知らせなければならない』。um / auf / von ... auf の使い分けにも注意する。",
+      "de": "Formuliere zehn Sätze auf Deutsch: ① eine Besprechung um zwei Stunden vorverlegen, ② einen Termin von Freitag auf Mittwoch vorverlegen, ③ eine Videokonferenz auf neun Uhr vorverlegen, ④ eine Sitzung wegen eines Feiertags früher ansetzen, ⑤ die Veröffentlichung eines Berichts vorverlegen, ⑥ eine interne Frist vorverlegen, ⑦ die Unveränderlichkeit einer gesetzlichen Frist ohne Rechtsgrundlage erklären, ⑧ den Beginn einer Veranstaltung kurzfristig vorverlegen, ⑨ Truppen räumlich vorverlegen und ⑩ bei einer Vorverlegung die Beteiligten informieren. Verwende auch Passiv und Perfekt."
+    }
   }
 ]
