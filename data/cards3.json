@@ -10519,5 +10519,151 @@
       "ja": "次を独訳する。①激しい口論の後、彼らは仲直りした。②兄弟と仲直りしたいが、どう歩み寄ればよいかわからない。③仲介人は対立する二者を和解させようとした。④彼女は過去を受け入れた。⑤彼が自分自身と和解するまで何年もかかった。⑥経済的利益と環境目標をどう調和させられるか。⑦和解契約で訴訟は終結したが個人的には仲直りしていない。⑧謝罪だけでは彼が起きたことを受け入れられるようにはならなかった。⑨キリスト教神学では人間と神との和解が中心的な役割を果たす。⑩仲直りしてもすべての問題で同意する必要はない。再帰代名詞と mit + Dativ に注意する。",
       "de": "Formuliere zehn Sätze mit versöhnen oder Versöhnung: ① Versöhnung nach einem heftigen Streit, ② Wunsch nach Versöhnung mit dem Bruder, ③ Vermittlung zwischen zerstrittenen Parteien, ④ innerer Frieden mit der Vergangenheit, ⑤ Versöhnung mit sich selbst, ⑥ Ausgleich wirtschaftlicher und ökologischer Interessen, ⑦ Unterschied zwischen einem gerichtlichen oder außergerichtlichen Vergleich und persönlicher Versöhnung, ⑧ eine Entschuldigung, die nicht zur inneren Annahme des Geschehenen führt, ⑨ Versöhnung des Menschen mit Gott, ⑩ Versöhnung trotz fortbestehender Meinungsverschiedenheiten. Achte auf reflexive Formen und mit + Dativ."
     }
+  },
+  {
+    "id": "kater-haben",
+    "sid": "2026-00375",
+    "word": "Kater haben",
+    "tags": [
+      "idiom",
+      "colloquial",
+      "everyday",
+      "alcohol",
+      "health"
+    ],
+    "level": "B1",
+    "freq": "often",
+    "grammar": {
+      "pos": "idiom",
+      "phrase_type": "verbale Wendung",
+      "verb": "haben",
+      "case": "Akkusativ: einen Kater",
+      "register": "Alltagssprache",
+      "related_noun": "der Kater",
+      "patterns": [
+        "einen Kater haben",
+        "einen Kater von gestern haben",
+        "von etwas (Dat.) einen Kater bekommen",
+        "mit einem Kater aufwachen"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "habe einen Kater",
+          "du": "hast einen Kater",
+          "er_sie_es": "hat einen Kater",
+          "wir": "haben einen Kater",
+          "ihr": "habt einen Kater",
+          "sie_Sie": "haben einen Kater"
+        },
+        "preterite": {
+          "ich": "hatte einen Kater",
+          "du": "hattest einen Kater",
+          "er_sie_es": "hatte einen Kater",
+          "wir": "hatten einen Kater",
+          "ihr": "hattet einen Kater",
+          "sie_Sie": "hatten einen Kater"
+        },
+        "perfect": {
+          "ich": "habe einen Kater gehabt",
+          "du": "hast einen Kater gehabt",
+          "er_sie_es": "hat einen Kater gehabt",
+          "wir": "haben einen Kater gehabt",
+          "ihr": "habt einen Kater gehabt",
+          "sie_Sie": "haben einen Kater gehabt"
+        },
+        "infinitive_with_zu": "einen Kater zu haben"
+      },
+      "usage_note": "Im vollständigen Satz ist der unbestimmte Artikel üblich: 'Ich habe einen Kater.' Bei Verneinung: 'Ich habe keinen Kater.' Haben beschreibt den Zustand, bekommen den Beginn."
+    },
+    "pronunciation": {
+      "ipa": "/ˈkaːtɐ ˈhaːbn̩/"
+    },
+    "meaning": {
+      "ja": "（飲酒の翌朝などに）二日酔いである。名詞 Kater には、盛り上がりや高揚の後の反動・失望という比喩用法もある。",
+      "de": "Nach dem Alkoholkonsum unter Nachwirkungen wie Müdigkeit, Übelkeit oder Kopfschmerzen leiden. Das Substantiv Kater kann übertragen auch die Ernüchterung nach einer Phase der Euphorie bezeichnen."
+    },
+    "nuance": {
+      "ja": "見出しは Kater haben。実際の文では einen Kater haben が自然で、否定は keinen Kater haben。haben は今ある状態、bekommen は二日酔いになること、mit einem Kater aufwachen は起きたときにすでに二日酔いであることを表す。betrunken sein は飲酒で酔っている状態。verkatert sein は二日酔いでぐったりしている様子も表せる。Kater は症状の総称なので、頭痛がなくても使える。比喩では politischer Kater のように、高揚が冷めて現実に引き戻される感覚を表す。der Kater は「雄猫」も意味し、Ich habe einen Kater. はペットの話なら「雄猫を飼っている」の意味になる。",
+      "de": "Im Satz steht meist der unbestimmte Artikel: einen Kater haben, verneint keinen Kater haben. Haben beschreibt den Zustand, bekommen den Beginn. Mit einem Kater aufwachen stellt den Zeitpunkt des Aufwachens in den Vordergrund. Betrunken sein beschreibt die akute Wirkung des Alkohols, verkatert sein die Verfassung danach. Kopfschmerzen sind nur eines von mehreren möglichen Anzeichen. In Verbindungen wie politischer Kater steht das Substantiv bildlich für die Ernüchterung nach der Euphorie. Je nach Gesprächskontext kann 'Ich habe einen Kater' auch heißen, dass jemand eine männliche Katze als Haustier hat."
+    },
+    "collocations": [
+      {
+        "de": "einen Kater haben",
+        "ja": "二日酔いである"
+      },
+      {
+        "de": "einen ziemlichen Kater haben",
+        "ja": "かなりの二日酔いだ"
+      },
+      {
+        "de": "einen schlimmen Kater haben",
+        "ja": "ひどい二日酔いだ"
+      },
+      {
+        "de": "noch einen Kater von gestern haben",
+        "ja": "昨日のお酒でまだ二日酔いだ"
+      },
+      {
+        "de": "keinen Kater haben",
+        "ja": "二日酔いしていない"
+      },
+      {
+        "de": "einen Kater bekommen",
+        "ja": "二日酔いになる"
+      },
+      {
+        "de": "von Rotwein einen Kater bekommen",
+        "ja": "赤ワインで二日酔いになる"
+      },
+      {
+        "de": "mit einem Kater aufwachen",
+        "ja": "二日酔いで目が覚める"
+      },
+      {
+        "de": "den Kater auskurieren",
+        "ja": "二日酔いが治るまで休む"
+      },
+      {
+        "de": "ein Mittel gegen den Kater",
+        "ja": "二日酔い対策の薬・手段"
+      },
+      {
+        "de": "der Kater nach der Party",
+        "ja": "パーティー後の二日酔い"
+      },
+      {
+        "de": "der politische Kater",
+        "ja": "政治的な高揚の後の反動"
+      }
+    ],
+    "minimal": {
+      "ja": "einen Kater haben＝二日酔いである／einen Kater bekommen＝二日酔いになる／verkatert sein＝二日酔いの状態にある／betrunken sein＝酔っている／einen sitzen haben＝酔っ払っている（口語）／Kopfschmerzen haben＝頭痛がする（原因を問わない）",
+      "de": "einen Kater haben = unter den Nachwirkungen des Trinkens leiden. Einen Kater bekommen = diese Nachwirkungen entwickeln. Verkatert sein = sich nach dem Trinken entsprechend fühlen. Betrunken sein und umgangssprachlich einen sitzen haben = unter der unmittelbaren Wirkung von Alkohol stehen. Kopfschmerzen haben = unabhängig von der Ursache Schmerzen im Kopf haben."
+    },
+    "equivalents": {
+      "en": [
+        "to have a hangover",
+        "to be hungover"
+      ],
+      "it": [
+        "avere i postumi di una sbornia",
+        "avere i postumi della sbornia"
+      ],
+      "fr": [
+        "avoir la gueule de bois"
+      ],
+      "es": [
+        "tener resaca",
+        "estar de resaca"
+      ]
+    },
+    "example": {
+      "ja": "1. 今日は二日酔いだ。\n2. パーティーの翌朝はかなりの二日酔いだった。\n3. ワインをグラスで2杯飲んでも、普段は二日酔いにならない。\n4. ひどい二日酔いで目が覚めた。\n5. 昨日のお酒がまだ残っていて、二日酔いなの？\n6. 彼は昨夜酔っ払っていた。今日は二日酔いだ。\n7. 日曜の朝は二日酔いだったけど、頭痛はなかった。\n8. 選挙の勝利に沸いた後、政治的な高揚が冷め、厳しい現実に直面した。",
+      "de": "1. Ich habe heute einen Kater.\n2. Nach der Feier hatte ich am nächsten Morgen einen ziemlichen Kater.\n3. Von zwei Gläsern Wein bekomme ich normalerweise keinen Kater.\n4. Ich bin mit einem schlimmen Kater aufgewacht.\n5. Hast du noch einen Kater von gestern?\n6. Gestern Abend war er betrunken. Heute hat er einen Kater.\n7. Am Sonntagmorgen hatte ich einen Kater, aber keinen Kopfschmerz.\n8. Nach der Euphorie über den Wahlsieg folgte der politische Kater."
+    },
+    "task": {
+      "ja": "次を独訳する。①今日は二日酔いだ。②昨夜は酔っ払っていたけど、今日は二日酔いしていない。③赤ワインを飲むと、たいてい二日酔いになる。④ひどい二日酔いで目が覚めた。⑤昨日のお酒でまだ二日酔いなの？",
+      "de": "Formuliere fünf Sätze über ① einen Kater heute, ② Trunkenheit gestern ohne Kater heute, ③ Rotwein als typischen Auslöser, ④ das Aufwachen mit einem schlimmen Kater und ⑤ die Frage, ob jemand noch einen Kater von gestern hat. Verwende haben, bekommen und mit einem Kater aufwachen."
+    }
   }
 ]
