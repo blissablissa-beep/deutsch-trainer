@@ -10665,5 +10665,203 @@
       "ja": "次を独訳する。①今日は二日酔いだ。②昨夜は酔っ払っていたけど、今日は二日酔いしていない。③赤ワインを飲むと、たいてい二日酔いになる。④ひどい二日酔いで目が覚めた。⑤昨日のお酒でまだ二日酔いなの？",
       "de": "Formuliere fünf Sätze über ① einen Kater heute, ② Trunkenheit gestern ohne Kater heute, ③ Rotwein als typischen Auslöser, ④ das Aufwachen mit einem schlimmen Kater und ⑤ die Frage, ob jemand noch einen Kater von gestern hat. Verwende haben, bekommen und mit einem Kater aufwachen."
     }
+  },
+  {
+    "id": "ernten",
+    "sid": "2026-00376",
+    "word": "ernten",
+    "tags": [
+      "verb",
+      "regular_verb",
+      "agriculture",
+      "food",
+      "figurative",
+      "reactions"
+    ],
+    "level": "B1",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "schwach, regelmäßig",
+      "auxiliary": "haben",
+      "separable": false,
+      "transitive": true,
+      "reflexive": false,
+      "case": "Akkusativobjekt, auch ohne genanntes Objekt gebräuchlich",
+      "patterns": [
+        "etwas (Akk.) ernten",
+        "für etwas (Akk.) Beifall oder Kritik ernten",
+        "mit etwas (Dat.) Kritik oder Spott ernten",
+        "die Früchte seiner Arbeit ernten"
+      ],
+      "register": "standardsprachlich, wörtlich und übertragen",
+      "related_noun": "die Ernte (Plural: die Ernten)",
+      "word_family": [
+        "ernten",
+        "die Ernte",
+        "abernten",
+        "die Erntezeit",
+        "der Ernteausfall"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "ernte",
+          "du": "erntest",
+          "er_sie_es": "erntet",
+          "wir": "ernten",
+          "ihr": "erntet",
+          "sie_Sie": "ernten"
+        },
+        "preterite": {
+          "ich": "erntete",
+          "du": "erntetest",
+          "er_sie_es": "erntete",
+          "wir": "ernteten",
+          "ihr": "erntetet",
+          "sie_Sie": "ernteten"
+        },
+        "perfect": {
+          "ich": "habe geerntet",
+          "du": "hast geerntet",
+          "er_sie_es": "hat geerntet",
+          "wir": "haben geerntet",
+          "ihr": "habt geerntet",
+          "sie_Sie": "haben geerntet"
+        },
+        "participle1": "erntend",
+        "participle2": "geerntet",
+        "imperative": {
+          "du": "ernte",
+          "ihr": "erntet",
+          "Sie": "ernten Sie"
+        },
+        "infinitive_with_zu": "zu ernten",
+        "subjunctive1": {
+          "ich": "ernte",
+          "du": "erntest",
+          "er_sie_es": "ernte",
+          "wir": "ernten",
+          "ihr": "erntet",
+          "sie_Sie": "ernten"
+        },
+        "subjunctive2": {
+          "ich": "erntete",
+          "du": "erntetest",
+          "er_sie_es": "erntete",
+          "wir": "ernteten",
+          "ihr": "erntetet",
+          "sie_Sie": "ernteten"
+        },
+        "passive": {
+          "personal_passive": true,
+          "examples": [
+            "Die Kartoffeln werden im Herbst geerntet."
+          ],
+          "note": "Das Akkusativobjekt des Aktivsatzes wird zum Subjekt des Passivsatzes."
+        }
+      },
+      "usage_note": "Typische Akkusativobjekte sind Feldfrüchte, Reaktionen oder Ergebnisse. Ohne Objekt bleibt das Erntegut aus dem Zusammenhang verständlich: 'Wir ernten heute.' Beachte das e in erntest, erntet, erntete und geerntet."
+    },
+    "pronunciation": {
+      "ipa": "/ˈɛʁntən/"
+    },
+    "meaning": {
+      "ja": "①（作物を）収穫する、取り入れる。②（行動や発言に対して）拍手・称賛・批判・嘲笑などを受ける。③（それまでの努力や行動の）成果・結果を手にする。",
+      "de": "① Feldfrüchte, Obst oder Gemüse einbringen. ② Als Reaktion auf eine Handlung oder Äußerung Beifall, Anerkennung, Kritik oder Spott erfahren. ③ Die Folgen oder Ergebnisse des eigenen Handelns erfahren oder den Ertrag eigener Arbeit erhalten."
+    },
+    "nuance": {
+      "ja": "作物を育てた後に取り入れる段階を指す。pflücken は果物や花などを摘み取る動作、ernten は収穫そのものに焦点があるため、リンゴにもジャガイモにも小麦にも使える。比喩の Beifall ernten や Kritik ernten は、自分の振る舞いに対してどんな反応が返ってきたかを描く。bekommen よりも、行為が反応を引き起こしたという結びつきが出やすい。批判や嘲笑のように望ましくない反応にも使える。die Früchte seiner Arbeit ernten は、時間をかけた努力が実り、その成果を得ること。『Wer Wind sät, wird Sturm ernten.』では、自分の行為がより大きな悪い結果を招くという因果を表す。",
+      "de": "Wörtlich bezeichnet ernten das Einbringen dessen, was gewachsen ist. Pflücken bezeichnet die Art des Abnehmens, etwa bei Äpfeln am Baum. Ernten passt ebenso zu Kartoffeln im Boden und zu Weizen auf dem Feld. Übertragen rückt ernten eine Reaktion als Folge des eigenen Handelns in den Vordergrund. Das gilt für erwünschte Reaktionen wie Beifall und für unerwünschte wie Kritik oder Spott. Bekommen lässt den Zusammenhang mit der auslösenden Handlung sprachlich offener. Die Früchte seiner Arbeit ernten bedeutet, nach vorausgegangener Anstrengung vom Ergebnis zu profitieren. Das Sprichwort 'Wer Wind sät, wird Sturm ernten' warnt vor verschärften negativen Folgen des eigenen Tuns."
+    },
+    "collocations": [
+      {
+        "de": "Obst und Gemüse ernten",
+        "ja": "果物と野菜を収穫する"
+      },
+      {
+        "de": "reife Äpfel ernten",
+        "ja": "熟したリンゴを収穫する"
+      },
+      {
+        "de": "Kartoffeln ernten",
+        "ja": "ジャガイモを収穫する"
+      },
+      {
+        "de": "Weizen ernten",
+        "ja": "小麦を収穫する"
+      },
+      {
+        "de": "von Hand ernten",
+        "ja": "手作業で収穫する"
+      },
+      {
+        "de": "tosenden Beifall ernten",
+        "ja": "割れんばかりの拍手を浴びる"
+      },
+      {
+        "de": "Lob und Anerkennung ernten",
+        "ja": "称賛と評価を得る"
+      },
+      {
+        "de": "mit einem Vorschlag Kritik ernten",
+        "ja": "提案をして批判を受ける"
+      },
+      {
+        "de": "Spott ernten",
+        "ja": "嘲笑を浴びる"
+      },
+      {
+        "de": "Unverständnis ernten",
+        "ja": "理解を得られず、困惑や反発を招く"
+      },
+      {
+        "de": "nur verlegene Blicke ernten",
+        "ja": "気まずそうな視線しか返ってこない"
+      },
+      {
+        "de": "die Früchte seiner Arbeit ernten",
+        "ja": "努力の成果を手にする"
+      },
+      {
+        "de": "ernten, was man gesät hat",
+        "ja": "自分がまいた種の結果を受ける"
+      }
+    ],
+    "minimal": {
+      "ja": "ernten＝作物を収穫する／pflücken＝枝などから摘み取る／einsammeln＝散らばっているものを集める／mähen＝草や穀物などを刈る／abernten＝畑や木などを対象に、そこから作物を取り入れる（ein Feld abernten）／säen＝種をまく。比喩では ernten＝反応を受ける、hervorrufen＝反応を引き起こす、auf Kritik stoßen＝批判に遭う。",
+      "de": "ernten = Gewachsenes einbringen. Pflücken = etwas von einer Pflanze abnehmen. Einsammeln = verstreute Dinge zusammentragen. Mähen = Gras oder Getreide abschneiden. Abernten = die Ernte von einer Fläche oder Pflanze einbringen, etwa ein Feld abernten. Säen = Saatgut ausbringen. Übertragen: Kritik ernten = Kritik als Reaktion erfahren. Kritik hervorrufen = die Kritik auslösen. Auf Kritik stoßen = mit ablehnender Kritik konfrontiert werden."
+    },
+    "equivalents": {
+      "en": [
+        "to harvest",
+        "to reap",
+        "to draw criticism"
+      ],
+      "it": [
+        "raccogliere",
+        "mietere (cereali)",
+        "suscitare critiche",
+        "raccogliere i frutti del proprio lavoro"
+      ],
+      "fr": [
+        "récolter",
+        "s'attirer des critiques",
+        "récolter les fruits de son travail"
+      ],
+      "es": [
+        "cosechar",
+        "recoger",
+        "recibir críticas",
+        "recoger los frutos de su trabajo"
+      ]
+    },
+    "example": {
+      "ja": "1. リンゴが熟した。もう収穫できる。\n2. 今年、初めてベランダでジャガイモを収穫した。\n3. 次に雨が降る前に小麦を収穫しなければならない。\n4. 彼女は舞台での演技に熱烈な拍手を浴びた。\n5. 彼の提案には主に批判が集まった。\n6. 彼女の質問に返ってきたのは、気まずそうな視線だけだった。\n7. 冗談を言って返ってきたのは、気のない笑みだけだった。\n8. 何年も準備を重ねてきたチームが、ようやく努力の実を結びつつある。\n9. 風をまく者は嵐を刈り取る。悪い行いは、さらに大きな災いとなって返ってくる。",
+      "de": "1. Die Äpfel sind reif. Wir können sie jetzt ernten.\n2. Dieses Jahr haben wir zum ersten Mal Kartoffeln auf dem Balkon geerntet.\n3. Der Weizen muss vor dem nächsten Regen geerntet werden.\n4. Für ihren Auftritt erntete sie begeisterten Beifall.\n5. Mit seinem Vorschlag erntete er vor allem Kritik.\n6. Auf ihre Frage erntete sie nur verlegene Blicke.\n7. Für den Witz erntete ich bloß ein müdes Lächeln.\n8. Nach Jahren der Vorbereitung erntet das Team endlich die Früchte seiner Arbeit.\n9. Wer Wind sät, wird Sturm ernten."
+    },
+    "task": {
+      "ja": "ernten を使って独訳する。①私たちは明日リンゴを収穫する。②ジャガイモは秋に収穫される。③彼女はその提案で称賛を得た。④その発言は批判しか招かなかった。⑤彼らはようやく努力の成果を手にしている。",
+      "de": "Bilde fünf Sätze mit ernten: ① morgige Apfelernte, ② Kartoffelernte im Herbst im Passiv, ③ Lob für einen Vorschlag, ④ Kritik als einzige Reaktion auf eine Äußerung, ⑤ der endlich sichtbare Ertrag eigener Arbeit."
+    }
   }
 ]
