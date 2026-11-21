@@ -10016,5 +10016,257 @@
       "ja": "次の文を armselig を使って独訳する。①難民は当初粗末な小屋で暮らさざるを得なかった。②彼は何年も惨めな暮らしを送った。③それは君の振る舞いに対する情けない言い訳だ。④予告の割に結果はお粗末だった。⑤彼女は責任転嫁の試みを情けないと思った。⑥充実していたコレクションにはわずかな残りしかなかった。⑦重労働に対する賃金はあまりに少なかった。⑧準備書面で相手方の論証をお粗末と呼ぶのは不適切だ。⑨部屋は粗末だったが、彼女は人生を惨めだとは思わなかった（ärmlich と比較）。⑩これ以上情けない言い訳はほとんど思い付かないだろう（比較級）。",
       "de": "Formuliere zehn Sätze: ① notdürftige Hütten, ② ein beklagenswertes Dasein, ③ eine schlechte Ausrede, ④ ein enttäuschendes Ergebnis, ⑤ das Abwälzen von Verantwortung, ⑥ einen kümmerlichen Rest einer Sammlung, ⑦ unzureichenden Lohn, ⑧ die Unangemessenheit abwertender Wortwahl in einem Schriftsatz, ⑨ den Unterschied zwischen einer ärmlich eingerichteten Wohnung und einem als armselig empfundenen Leben, ⑩ eine noch schlechtere Ausrede (Komparativ). Verwende armselig in attributiver, prädikativer und adverbialer Funktion."
     }
+  },
+  {
+    "id": "ebenbuertig",
+    "sid": "2026-00373",
+    "word": "ebenbürtig",
+    "tags": [
+      "adj",
+      "adv",
+      "comparison",
+      "equality",
+      "competition",
+      "ability",
+      "quality",
+      "status",
+      "history",
+      "business",
+      "law",
+      "professional"
+    ],
+    "level": "C1",
+    "freq": "sometimes",
+    "grammar": {
+      "pos": "adj",
+      "comparative": "ebenbürtiger (selten; semantisch meist besser: eher ebenbürtig)",
+      "superlative": "am ebenbürtigsten (selten)",
+      "attributive": true,
+      "predicative": true,
+      "adverbial": true,
+      "case": "Dativ: jemandem / einer Sache ebenbürtig sein",
+      "patterns": [
+        "jemandem (Dat.) ebenbürtig sein",
+        "einer Sache (Dat.) ebenbürtig sein",
+        "einander / sich ebenbürtig sein",
+        "sich als jemandem ebenbürtig erweisen",
+        "jemandem an Erfahrung (Dat.) ebenbürtig sein",
+        "jemandem in fachlicher Hinsicht ebenbürtig sein",
+        "jemandem hinsichtlich seiner Leistungen ebenbürtig sein",
+        "jemandem ebenbürtig sein",
+        "einem Gegner ebenbürtig sein",
+        "einander ebenbürtig sein",
+        "sich als ebenbürtig erweisen",
+        "sich als einem Gegner ebenbürtig erweisen",
+        "jemandem durchaus ebenbürtig sein",
+        "jemandem keineswegs ebenbürtig sein",
+        "jemandem in jeder Hinsicht ebenbürtig sein",
+        "jemandem an Erfahrung ebenbürtig sein",
+        "technisch ebenbürtig sein",
+        "qualitativ ebenbürtig sein",
+        "intellektuell ebenbürtig sein",
+        "ein ebenbürtiger Gegner",
+        "ein ebenbürtiger Konkurrent",
+        "ein ebenbürtiger Rivale",
+        "ein ebenbürtiger Partner",
+        "ein ebenbürtiger Gesprächspartner",
+        "ein ebenbürtiger Nachfolger",
+        "eine ebenbürtige Mannschaft",
+        "ein ebenbürtiges Produkt",
+        "eine ebenbürtige Alternative",
+        "kaum einen ebenbürtigen Gegner finden",
+        "auf einen ebenbürtigen Gegner treffen",
+        "einen ebenbürtigen Gegner haben",
+        "eine ebenbürtige Ehe (historisch)",
+        "die Ebenbürtigkeit der Ehepartner (historisch)"
+      ],
+      "register": "standardsprachlich, häufig in vergleichenden, sportlichen, journalistischen und gehobenen Kontexten; historisch auch in der Sprache des Adels",
+      "related_noun": "die Ebenbürtigkeit",
+      "word_family": [
+        "ebenbürtig",
+        "die Ebenbürtigkeit",
+        "nicht ebenbürtig",
+        "die Geburt",
+        "gebürtig",
+        "eben",
+        "gleichwertig",
+        "gleichrangig",
+        "überlegen",
+        "unterlegen"
+      ],
+      "declension_examples": [
+        "ein ebenbürtiger Gegner",
+        "eine ebenbürtige Konkurrentin",
+        "ein ebenbürtiges Produkt",
+        "ebenbürtige Partner",
+        "die ebenbürtigen Mannschaften",
+        "mit einem ebenbürtigen Gesprächspartner",
+        "einem ebenbürtigen Rivalen begegnen"
+      ],
+      "usage_note": "Prädikativ steht der Vergleichsmaßstab gewöhnlich im Dativ: 'Sie ist ihrem Gegner ebenbürtig', nicht mit 'als'. Bei wechselseitigem Vergleich: 'Sie sind einander ebenbürtig'. Attributiv kann der Bezug entfallen: 'ein ebenbürtiger Gegner'. Einfache Steigerungsformen sind grammatisch bildbar, aber aufgrund der Gleichheitsbedeutung selten; häufig natürlicher: 'mindestens ebenbürtig', 'eher ebenbürtig', 'nicht ganz ebenbürtig' oder 'überlegen'. Adverbial ist etwa 'ebenbürtig mithalten' denkbar, gebräuchlicher ist jedoch 'mithalten können' oder die prädikative Konstruktion."
+    },
+    "pronunciation": {
+      "ipa": "/ˈeːbn̩ˌbʏʁtɪç/"
+    },
+    "meaning": {
+      "ja": "①（人・対戦相手・競争相手などが）実力・能力・技能において互角の、匹敵する ②（製品・作品・技術などが）品質・性能・価値などで引けを取らない、同等の水準にある ③（相手との関係において）対等の力量を持つ、対等に渡り合える ④【歴史・貴族制度】出生・家柄・身分が同等の、同等の身分に属する。",
+      "de": "①einer anderen Person oder Mannschaft an Fähigkeiten, Können oder Leistungsvermögen gleichkommend ②bei Produkten, Werken oder technischen Lösungen: einem Vergleichsobjekt in Qualität oder Leistungsfähigkeit gleichkommend ③als Partner oder Gesprächspartner auf vergleichbarem Niveau, ohne wesentlichen Nachteil im jeweiligen Bereich ④historisch, insbesondere im Adel: von gleichem oder standesrechtlich als gleichwertig anerkanntem Geburtsstand."
+    },
+    "nuance": {
+      "ja": "ebenbürtig は比較対象と同じ程度の実力・能力・品質・地位を備えていることに重点を置く。多くの場合、他方が強い・優れているとされる比較基準であり、それに引けを取らないという含みがあるが、対称的な比較にも使える。比較対象は Dativ（seinem Gegner ebenbürtig sein）で表す。比較の観点は an Erfahrung、in technischer Hinsicht、qualitativ などで示す。gleichwertig は価値・機能・効用の同等性、gleichrangig は順位・身分・法的序列、gleichberechtigt は権利の平等に焦点を当てる。権利上の平等が力量の同等性を保証するわけではない。gewachsen sein も Dativ を取るが、相手または課題に対処できることを表し、必ずしも互角を意味しない。vergleichbar は比較可能な、あるいは同程度のという幅のある語で、ebenbürtig ほど同等性を明確に断定しない。auf Augenhöhe は対等な関係・コミュニケーションを強調する定型表現。ebenbürtig は比較級・最上級を形成できるものの、意味上あまり用いず、最低でも同等なら mindestens ebenbürtig、優位なら überlegen とするのが自然。歴史的な身分法上の Ebenbürtigkeit と現代的な能力・品質の比較は区別する。",
+      "de": "Ebenbürtig hebt hervor, dass eine Person oder Sache einem anderen Vergleichsmaßstab an Können, Leistung, Qualität oder Rang gleichkommt. Oft dient ein angesehener oder leistungsstarker Gegner als Maßstab; eine wechselseitige Gleichheit ist jedoch ebenfalls möglich. Die Vergleichsgröße steht im Dativ: 'seinem Gegner ebenbürtig sein'. Der Vergleichsaspekt lässt sich mit 'an Erfahrung', 'in technischer Hinsicht' oder 'qualitativ' präzisieren. Gleichwertig betont gleichen Wert oder Nutzen, gleichrangig die gleiche Position in einer Rangordnung und gleichberechtigt gleiche Rechte. Rechtliche Gleichberechtigung garantiert keine Ebenbürtigkeit der tatsächlichen Ressourcen. 'Jemandem oder einer Aufgabe gewachsen sein' bezeichnet die Fähigkeit, eine Herausforderung zu bewältigen, nicht zwingend gleiche Stärke. Vergleichbar lässt offen, wie genau die Eigenschaften übereinstimmen. 'Auf Augenhöhe' betont eine gleichberechtigte oder gleichwertige Beziehung und Kommunikation. Steigerungsformen sind möglich, aber wegen der Bedeutung der Gleichheit selten; 'mindestens ebenbürtig', 'nicht ganz ebenbürtig' oder 'überlegen' sind meist natürlicher. Die historische standesrechtliche Bedeutung ist von heutigen Leistungsvergleichen zu unterscheiden."
+    },
+    "collocations": [
+      {
+        "de": "jemandem ebenbürtig sein",
+        "ja": "人と互角である"
+      },
+      {
+        "de": "einem Gegner ebenbürtig sein",
+        "ja": "対戦相手に匹敵する"
+      },
+      {
+        "de": "einander ebenbürtig sein",
+        "ja": "互いに互角である"
+      },
+      {
+        "de": "sich als ebenbürtig erweisen",
+        "ja": "互角の実力を示す"
+      },
+      {
+        "de": "sich als einem Gegner ebenbürtig erweisen",
+        "ja": "相手に匹敵することを示す"
+      },
+      {
+        "de": "jemandem durchaus ebenbürtig sein",
+        "ja": "人に十分匹敵する"
+      },
+      {
+        "de": "jemandem keineswegs ebenbürtig sein",
+        "ja": "人には到底及ばない"
+      },
+      {
+        "de": "jemandem in jeder Hinsicht ebenbürtig sein",
+        "ja": "あらゆる面で人に匹敵する"
+      },
+      {
+        "de": "jemandem an Erfahrung ebenbürtig sein",
+        "ja": "経験の面で人に匹敵する"
+      },
+      {
+        "de": "technisch ebenbürtig sein",
+        "ja": "技術的に引けを取らない"
+      },
+      {
+        "de": "qualitativ ebenbürtig sein",
+        "ja": "品質面で匹敵する"
+      },
+      {
+        "de": "intellektuell ebenbürtig sein",
+        "ja": "知的能力で互角である"
+      },
+      {
+        "de": "ein ebenbürtiger Gegner",
+        "ja": "互角の対戦相手"
+      },
+      {
+        "de": "ein ebenbürtiger Konkurrent",
+        "ja": "匹敵する競争相手"
+      },
+      {
+        "de": "ein ebenbürtiger Rivale",
+        "ja": "互角のライバル"
+      },
+      {
+        "de": "ein ebenbürtiger Partner",
+        "ja": "対等な実力を持つパートナー"
+      },
+      {
+        "de": "ein ebenbürtiger Gesprächspartner",
+        "ja": "互角の力量を持つ話し相手"
+      },
+      {
+        "de": "ein ebenbürtiger Nachfolger",
+        "ja": "前任者に匹敵する後継者"
+      },
+      {
+        "de": "eine ebenbürtige Mannschaft",
+        "ja": "互角のチーム"
+      },
+      {
+        "de": "ein ebenbürtiges Produkt",
+        "ja": "同等の品質・性能を持つ製品"
+      },
+      {
+        "de": "eine ebenbürtige Alternative",
+        "ja": "引けを取らない代替品"
+      },
+      {
+        "de": "kaum einen ebenbürtigen Gegner finden",
+        "ja": "互角の相手がなかなか見つからない"
+      },
+      {
+        "de": "auf einen ebenbürtigen Gegner treffen",
+        "ja": "互角の相手に出会う"
+      },
+      {
+        "de": "einen ebenbürtigen Gegner haben",
+        "ja": "互角の相手がいる"
+      },
+      {
+        "de": "eine ebenbürtige Ehe (historisch)",
+        "ja": "同等の家柄・身分の者同士の婚姻"
+      },
+      {
+        "de": "die Ebenbürtigkeit der Ehepartner (historisch)",
+        "ja": "婚姻当事者の家柄・身分の同等性"
+      }
+    ],
+    "minimal": {
+      "ja": "ebenbürtig＝実力・品質などで匹敵する／gleichwertig＝価値・機能・効用が同等の／gleichrangig＝序列・地位が同等の／gleichberechtigt＝権利が平等な／gleichgestellt＝同じ法的・制度的地位を与えられた／gleich stark＝同じ強さの／gleich gut＝同程度に優秀な／vergleichbar＝比較可能な・同程度の／gleichartig＝同種の／identisch＝完全に同一の／auf Augenhöhe＝対等な立場で／jemandem gewachsen sein＝相手に対抗できる力量がある／mit jemandem mithalten können＝人についていける・人に引けを取らない／konkurrenzfähig＝競争力がある（特定の相手との互角性までは要求しない）／überlegen＝優れている（Dativ）／unterlegen＝劣っている（Dativ）／unübertroffen＝他に抜きん出られていない、比類のない／standesgemäß＝身分・社会的地位にふさわしい（歴史的文脈も含む）。",
+      "de": "ebenbürtig = einem Vergleichsmaßstab an Können, Leistung oder Qualität gleichkommend; gleichwertig = von gleichem Wert oder Nutzen; gleichrangig = auf derselben Rangstufe stehend; gleichberechtigt = mit gleichen Rechten ausgestattet; gleichgestellt = rechtlich oder institutionell in dieselbe Position versetzt; gleich stark = von gleicher Stärke; gleich gut = von gleicher Güte; vergleichbar = einen sinnvollen Vergleich zulassend oder ähnlich; gleichartig = von derselben Art; identisch = völlig übereinstimmend; auf Augenhöhe = in einer gleichwertigen oder gleichberechtigten Beziehung; jemandem gewachsen sein = sich gegen jemanden behaupten können; mithalten können = das Niveau oder Tempo anderer halten können; konkurrenzfähig = im Wettbewerb bestehen könnend; überlegen = besser oder stärker als der Vergleichsmaßstab (Dativ); unterlegen = schwächer als der Vergleichsmaßstab (Dativ); unübertroffen = von niemandem übertroffen; standesgemäß = dem gesellschaftlichen Stand entsprechend."
+    },
+    "equivalents": {
+      "en": [
+        "equal to",
+        "a match for",
+        "on a par with",
+        "evenly matched",
+        "of equal standing (historical)"
+      ],
+      "it": [
+        "all'altezza di",
+        "alla pari con",
+        "pari a",
+        "di pari valore",
+        "di pari rango (storico)"
+      ],
+      "fr": [
+        "de force égale",
+        "à la hauteur de",
+        "de niveau égal",
+        "faire le poids face à",
+        "de même rang (historique)"
+      ],
+      "es": [
+        "a la altura de",
+        "de igual nivel",
+        "estar a la par de",
+        "de igual categoría",
+        "de igual rango (histórico)"
+      ]
+    },
+    "etymology": {
+      "ja": "eben（等しい、同じ水準の）と出生・生まれを表す古い語要素 -bürtig から成る。中高ドイツ語 ebenbürtic にさかのぼり、-bürtig は Geburt（出生）や gebürtig（～生まれの）と同系。もともとは出生・家柄・身分が等しいことを表し、貴族の婚姻における身分上の適格性などにも関係した。現代では身分に限らず能力・競争力・品質の同等性を表す。名詞 Ebenbürtigkeit は実力の互角性、歴史的には身分の同等性を指す。なお eben の『たった今』という副詞的用法とは無関係の意味である。",
+      "de": "Ebenbürtig geht auf mittelhochdeutsch ebenbürtic zurück. Der erste Bestandteil eben bezeichnet Gleichheit; -bürtig gehört zur Wortfamilie von Geburt und gebürtig. Ursprünglich bezog sich das Wort auf gleichen Geburtsstand und spielte etwa bei standesrechtlichen Vorstellungen von Ehen im Adel eine Rolle. Die heutige Bedeutung ist auf Gleichwertigkeit hinsichtlich Fähigkeiten, Leistung oder Qualität erweitert. Das Substantiv Ebenbürtigkeit bezeichnet sowohl diese Gleichwertigkeit als auch historisch die standesrechtliche Gleichheit. Eben ist hier nicht im zeitlichen Sinn von 'gerade eben' zu verstehen."
+    },
+    "example": {
+      "ja": "1. 両チームは互角だった。\n2. 若いにもかかわらず、彼女は経験豊富な対戦相手に匹敵していた。\n3. 新製品は技術面で既存の競合製品に引けを取らない。\n4. 彼は長い間、自分と互角の力量を持つ話し相手を探していた。\n5. その小規模な事務所は専門能力の面で大規模な競合事務所に匹敵することを示した。\n6. 廉価な解決策も品質面では高価な選択肢に十分匹敵する。\n7. 新しい責任者は経験と専門知識の面で前任者に匹敵する。\n8. 同じ手続上の権利を持つからといって、両当事者が資金力や専門的資源の面でも対等とは限らない。\n9. 歴史上の高位貴族社会では、婚姻当事者の身分の同等性が王朝上の権利に関わることがあった。\n10. 彼は知的能力では彼女に匹敵していたものの、彼女ほどの実務経験はなかった。",
+      "de": "1. Die beiden Mannschaften waren einander ebenbürtig.\n2. Trotz ihres jungen Alters war sie ihrem erfahrenen Gegner ebenbürtig.\n3. Das neue Produkt ist den etablierten Konkurrenzprodukten technisch ebenbürtig.\n4. Er suchte lange nach einem ebenbürtigen Gesprächspartner.\n5. Die kleine Kanzlei erwies sich in fachlicher Hinsicht als den größeren Wettbewerbern ebenbürtig.\n6. Die preisgünstigere Lösung ist der teuren Variante qualitativ durchaus ebenbürtig.\n7. Die neue Leiterin ist ihrem Vorgänger an Erfahrung und Fachwissen ebenbürtig.\n8. Gleiche Verfahrensrechte bedeuten nicht zwangsläufig, dass sich die Parteien auch hinsichtlich ihrer finanziellen Mittel und fachlichen Ressourcen ebenbürtig sind.\n9. Im historischen Hochadel konnte die Ebenbürtigkeit der Ehepartner für dynastische Rechte von Bedeutung sein.\n10. Obwohl er ihr intellektuell ebenbürtig war, fehlte ihm ihre praktische Erfahrung."
+    },
+    "task": {
+      "ja": "次の文を ebenbürtig または Ebenbürtigkeit を用いて独訳する。①両チームは互角だった。②彼女は若いにもかかわらず経験豊富な対戦相手に匹敵していた。③新製品は既存の競合製品に技術面で引けを取らない。④彼は互角の力量を持つ話し相手を長く探した。⑤小規模な事務所は専門能力で大規模な競合に匹敵することを示した。⑥廉価な解決策も品質では高価なものに十分匹敵する。⑦新責任者は経験と専門知識で前任者に匹敵する。⑧同じ手続上の権利を持つことは資源面で互角であることを保証しない。⑨歴史上の高位貴族社会では婚姻当事者の身分の同等性は王朝上の権利に関わることがあった。⑩彼は知的能力で彼女と互角だが、実務経験では及ばなかった。与格と比較の観点に注意する。",
+      "de": "Formuliere zehn Sätze mit ebenbürtig oder Ebenbürtigkeit: ① zwei gleich starke Mannschaften, ② eine junge Konkurrentin auf dem Niveau eines erfahrenen Gegners, ③ ein technisch gleichwertiges Konkurrenzprodukt, ④ die Suche nach einem gleichwertigen Gesprächspartner, ⑤ die fachliche Leistungsfähigkeit einer kleinen Kanzlei, ⑥ eine preisgünstige Lösung von gleicher Qualität, ⑦ eine Nachfolgerin mit vergleichbarer Erfahrung, ⑧ den Unterschied zwischen gleichen Verfahrensrechten und gleichwertigen Ressourcen, ⑨ die historische Bedeutung des Geburtsstands bei dynastischen Ehen, ⑩ intellektuelle Gleichheit bei unterschiedlicher Praxiserfahrung. Achte auf den Dativ und die Angabe des Vergleichsaspekts."
+    }
   }
 ]
