@@ -10991,5 +10991,140 @@
       "ja": "独訳する。①電車は運休になるかもしれない。②もし可能でしたら、今日中に草案を送っていただけますか。③場合によっては追加書類が必要です。④住所に変更があれば知らせてください。⑤発生する場合の手数料は料金に含まれていません。④では形容詞形、⑤では分詞を修飾する副詞形を使う。",
       "de": "Formuliere fünf Sätze mit eventuell: ① möglicher Zugausfall, ② höfliche Bitte um den Entwurf noch heute, ③ möglicherweise nötige Zusatzunterlagen, ④ Bitte um Mitteilung von Änderungen der Anschrift, ⑤ Ausschluss möglicherweise anfallender Gebühren vom Preis. Verwende in ④ eine flektierte Form und in ⑤ das Adverb vor dem Partizip."
     }
+  },
+  {
+    "id": "wachsam",
+    "sid": "2026-00378",
+    "word": "wachsam",
+    "tags": [
+      "adj",
+      "attention",
+      "vigilance",
+      "safety",
+      "observation"
+    ],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "adj",
+      "comparative": "wachsamer",
+      "superlative": "am wachsamsten",
+      "attributive": true,
+      "predicative": true,
+      "adverbial": true,
+      "patterns": [
+        "wachsam sein / bleiben",
+        "gegenüber möglichen Risiken wachsam bleiben",
+        "etwas mit wachsamem Blick verfolgen",
+        "unter den wachsamen Augen einer Person"
+      ],
+      "declension_examples": [
+        "ein wachsamer Hund",
+        "eine wachsame Beobachterin",
+        "mit wachsamem Blick",
+        "unter den wachsamen Augen der Eltern"
+      ],
+      "register": "standardsprachlich",
+      "related_noun": "die Wachsamkeit",
+      "word_family": [
+        "wach",
+        "wachsam",
+        "die Wachsamkeit",
+        "unwachsam"
+      ],
+      "usage_note": "Attributiv wird wachsam flektiert, etwa 'mit wachsamem Blick'. Prädikativ und adverbial bleibt es unverändert: 'Sie blieb wachsam', 'sie beobachtete die Umgebung wachsam'. Eine Ergänzung mit gegenüber ist möglich, aber nicht nötig."
+    },
+    "pronunciation": {
+      "ipa": "/ˈvaxzaːm/"
+    },
+    "meaning": {
+      "ja": "① 警戒している、油断しない。危険や異変をすぐ察知できるように注意を保っている。②（視線・観察・見守りが）注意深い、目を配っている。",
+      "de": "① Auf mögliche Gefahren oder Veränderungen eingestellt und bereit, sie früh zu bemerken. ② Genau beobachtend oder aufmerksam beaufsichtigend, etwa in 'mit wachsamem Blick'."
+    },
+    "nuance": {
+      "ja": "何かが起こればすぐ気づけるように、周囲や状況への注意を保つ語。危険がすでに目の前にある必要はなく、Bleib wachsam! は「この先も油断するな」という呼びかけ。aufmerksam は授業をよく聞く場合や人への気配りにも広く使う。achtsam は自分の感覚や人への接し方などに意識を向けるときにも使い、vorsichtig は危険を避けるため慎重に行動することに重点がある。wach は眠っていない状態や頭が冴えていることを指し得る。misstrauisch には相手を疑う含みがある。unter den wachsamen Augen von … は、保護のための見守りにも、厳しい監督にも使える。",
+      "de": "Wachsam beschreibt anhaltende Bereitschaft, Auffälligkeiten oder Gefahren zu bemerken. 'Bleib wachsam!' fordert dazu auf, die Aufmerksamkeit auch künftig aufrechtzuerhalten. Aufmerksam ist weiter gefasst und passt auch zum Zuhören oder zu einer rücksichtsvollen Geste. Achtsam betont je nach Kontext bewusstes Wahrnehmen oder einen sorgsamen Umgang. Vorsichtig beschreibt ein Verhalten, das Risiken vermeiden soll. Wach kann den Gegensatz zu schlafend oder geistige Regsamkeit bezeichnen. Misstrauisch drückt fehlendes Vertrauen aus. 'Unter den wachsamen Augen von …' kann fürsorgliche Aufsicht ebenso wie strenge Kontrolle bezeichnen."
+    },
+    "minimal": {
+      "ja": "wachsam＝異変や危険を察知できるように気を配る／aufmerksam＝注意を向けている、気が利く／achtsam＝意識を向けて丁寧に扱う／vorsichtig＝危険を避けるため慎重に振る舞う／alarmiert＝兆候や知らせを受けて警戒している／misstrauisch＝疑ってかかる。",
+      "de": "wachsam = bereit, Auffälligkeiten oder Gefahren zu bemerken. Aufmerksam = einer Sache zugewandt oder anderen gegenüber zuvorkommend. Achtsam = bewusst wahrnehmend oder sorgsam. Vorsichtig = auf Risikovermeidung bedacht. Alarmiert = durch ein Anzeichen oder eine Nachricht aufgeschreckt und gewarnt. Misstrauisch = am guten Willen oder an der Glaubwürdigkeit zweifelnd."
+    },
+    "collocations": [
+      {
+        "de": "wachsam bleiben",
+        "ja": "警戒を怠らない"
+      },
+      {
+        "de": "besonders wachsam sein",
+        "ja": "特に注意を払う"
+      },
+      {
+        "de": "gegenüber möglichen Risiken wachsam bleiben",
+        "ja": "潜在的なリスクへの警戒を保つ"
+      },
+      {
+        "de": "mit wachsamem Blick",
+        "ja": "注意深い目で"
+      },
+      {
+        "de": "mit wachsamen Augen",
+        "ja": "油断のない目で"
+      },
+      {
+        "de": "eine Entwicklung wachsam verfolgen",
+        "ja": "動向を注意深く追う"
+      },
+      {
+        "de": "ein wachsamer Beobachter",
+        "ja": "注意深い観察者"
+      },
+      {
+        "de": "ein wachsamer Hund",
+        "ja": "警戒心の強い犬"
+      },
+      {
+        "de": "unter den wachsamen Augen der Eltern",
+        "ja": "親が見守る中で"
+      },
+      {
+        "de": "in seiner Wachsamkeit nachlassen",
+        "ja": "警戒を緩める"
+      },
+      {
+        "de": "zu erhöhter Wachsamkeit aufrufen",
+        "ja": "一層の警戒を呼びかける"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "vigilant",
+        "alert",
+        "watchful"
+      ],
+      "it": [
+        "vigile",
+        "all'erta"
+      ],
+      "fr": [
+        "vigilant",
+        "aux aguets"
+      ],
+      "es": [
+        "vigilante",
+        "alerta"
+      ]
+    },
+    "etymology": {
+      "ja": "wach（目が覚めている、頭が冴えている）に、性質を表す形容詞語尾 -sam が付いた形。名詞 Wachsamkeit はさらに -keit を付けた形で「警戒心、注意を保つこと」を表す。",
+      "de": "Wachsam gehört zu wach und enthält das adjektivbildende Suffix -sam. Das Substantiv Wachsamkeit ist mit -keit von wachsam gebildet."
+    },
+    "example": {
+      "ja": "1. 今は何も起きていなくても、警戒を怠らないで。\n2. 猫はじっと横たわり、油断なくドアを見張っていた。\n3. 街中を自転車で走るときは、特に周囲に気を配る必要がある。\n4. 彼女は強い関心を持って動向を追い、楽観的すぎる予測には警戒を怠らなかった。\n5. 編集部は交渉の行方を注意深く見守った。\n6. 子どもたちは祖母に見守られながら庭で遊んでいた。\n7. 警戒解除の後も、彼は気を緩めなかった。\n8. まだ起きてはいたが、長時間の運転で周囲への注意力はかなり落ちていた。",
+      "de": "1. Bleib wachsam, auch wenn jetzt alles ruhig ist.\n2. Die Katze lag still da und beobachtete die Tür mit wachsamen Augen.\n3. Beim Radfahren in der Stadt muss man besonders wachsam sein.\n4. Sie behielt die Entwicklung mit wachem Interesse im Blick und blieb gegenüber allzu optimistischen Prognosen wachsam.\n5. Die Redaktion beobachtete die Verhandlungen mit wachsamem Blick.\n6. Die Kinder spielten unter den wachsamen Augen ihrer Großmutter im Garten.\n7. Auch nach der Entwarnung ließ seine Wachsamkeit nicht nach.\n8. Ich war zwar noch wach, aber nach der langen Fahrt nicht mehr besonders wachsam."
+    },
+    "task": {
+      "ja": "次を独訳する。①今は静かでも油断しないで。②犬は注意深い目で門を見張っていた。③子どもたちは祖母に見守られながら庭で遊んでいた。④彼はまだ起きていたが、もう十分に注意を保てなかった。⑤警戒解除の後も彼女は気を緩めなかった。④では wach と wachsam、⑤では Wachsamkeit を用いる。",
+      "de": "Formuliere fünf Sätze: ① Aufforderung zur Wachsamkeit trotz Ruhe, ② ein Hund, der das Tor mit wachsamem Blick beobachtet, ③ spielende Kinder unter den wachsamen Augen ihrer Großmutter, ④ eine noch wache Person, deren Aufmerksamkeit nachgelassen hat, ⑤ anhaltende Wachsamkeit nach der Entwarnung. Verwende in ④ wach und wachsam und in ⑤ Wachsamkeit."
+    }
   }
 ]
