@@ -10268,5 +10268,256 @@
       "ja": "次の文を ebenbürtig または Ebenbürtigkeit を用いて独訳する。①両チームは互角だった。②彼女は若いにもかかわらず経験豊富な対戦相手に匹敵していた。③新製品は既存の競合製品に技術面で引けを取らない。④彼は互角の力量を持つ話し相手を長く探した。⑤小規模な事務所は専門能力で大規模な競合に匹敵することを示した。⑥廉価な解決策も品質では高価なものに十分匹敵する。⑦新責任者は経験と専門知識で前任者に匹敵する。⑧同じ手続上の権利を持つことは資源面で互角であることを保証しない。⑨歴史上の高位貴族社会では婚姻当事者の身分の同等性は王朝上の権利に関わることがあった。⑩彼は知的能力で彼女と互角だが、実務経験では及ばなかった。与格と比較の観点に注意する。",
       "de": "Formuliere zehn Sätze mit ebenbürtig oder Ebenbürtigkeit: ① zwei gleich starke Mannschaften, ② eine junge Konkurrentin auf dem Niveau eines erfahrenen Gegners, ③ ein technisch gleichwertiges Konkurrenzprodukt, ④ die Suche nach einem gleichwertigen Gesprächspartner, ⑤ die fachliche Leistungsfähigkeit einer kleinen Kanzlei, ⑥ eine preisgünstige Lösung von gleicher Qualität, ⑦ eine Nachfolgerin mit vergleichbarer Erfahrung, ⑧ den Unterschied zwischen gleichen Verfahrensrechten und gleichwertigen Ressourcen, ⑨ die historische Bedeutung des Geburtsstands bei dynastischen Ehen, ⑩ intellektuelle Gleichheit bei unterschiedlicher Praxiserfahrung. Achte auf den Dativ und die Angabe des Vergleichsaspekts."
     }
+  },
+  {
+    "id": "versoehnen",
+    "sid": "2026-00374",
+    "word": "versöhnen",
+    "tags": [
+      "verb",
+      "regular_verb",
+      "inseparable_verb",
+      "reflexive",
+      "relationships",
+      "conflict",
+      "reconciliation",
+      "psychology",
+      "religion",
+      "law"
+    ],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "schwach; regelmäßig",
+      "auxiliary": "haben",
+      "separable": false,
+      "transitive": true,
+      "reflexive": true,
+      "case": "Akkusativobjekt oder Reflexivpronomen im Akkusativ; mit + Dativ",
+      "accusative_object": true,
+      "dative_object": false,
+      "patterns": [
+        "jemanden (Akk.) mit jemandem (Dat.) versöhnen",
+        "zwei Personen miteinander versöhnen",
+        "sich (Akk.) mit jemandem (Dat.) versöhnen",
+        "sich versöhnen (reziprok bei pluralischem Subjekt)",
+        "sich mit sich selbst versöhnen",
+        "sich mit etwas (Dat.) versöhnen",
+        "etwas (Akk.) mit etwas (Dat.) versöhnen",
+        "etwas miteinander versöhnen",
+        "mit jemandem versöhnt sein",
+        "sich versöhnen lassen"
+      ],
+      "prepositions": [
+        {
+          "preposition": "mit",
+          "case": "Dativ",
+          "meaning": "Person, Sache oder Umstand, mit dem eine Versöhnung oder ein innerer Ausgleich angestrebt wird."
+        },
+        {
+          "preposition": "nach",
+          "case": "Dativ",
+          "meaning": "Zeitlicher Bezug: nach einem Streit; keine fest erforderliche Ergänzung."
+        }
+      ],
+      "register": "standardsprachlich; in persönlichen, politischen, philosophischen und religiösen Zusammenhängen",
+      "related_noun": "die Versöhnung",
+      "word_family": [
+        "versöhnen",
+        "die Versöhnung",
+        "versöhnt",
+        "versöhnlich",
+        "versöhnend",
+        "unversöhnlich",
+        "die Unversöhnlichkeit",
+        "die Sühne",
+        "sühnen"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "versöhne",
+          "du": "versöhnst",
+          "er_sie_es": "versöhnt",
+          "wir": "versöhnen",
+          "ihr": "versöhnt",
+          "sie_Sie": "versöhnen"
+        },
+        "preterite": {
+          "ich": "versöhnte",
+          "du": "versöhntest",
+          "er_sie_es": "versöhnte",
+          "wir": "versöhnten",
+          "ihr": "versöhntet",
+          "sie_Sie": "versöhnten"
+        },
+        "perfect": {
+          "ich": "habe versöhnt",
+          "du": "hast versöhnt",
+          "er_sie_es": "hat versöhnt",
+          "wir": "haben versöhnt",
+          "ihr": "habt versöhnt",
+          "sie_Sie": "haben versöhnt"
+        },
+        "participle2": "versöhnt",
+        "participle1": "versöhnend",
+        "imperative": {
+          "du": "Versöhn dich mit ihm!",
+          "ihr": "Versöhnt euch!",
+          "Sie": "Versöhnen Sie sich!"
+        },
+        "infinitive_with_zu": "zu versöhnen",
+        "subjunctive1": {
+          "ich": "versöhne",
+          "du": "versöhnest",
+          "er_sie_es": "versöhne",
+          "wir": "versöhnen",
+          "ihr": "versöhnet",
+          "sie_Sie": "versöhnen"
+        },
+        "subjunctive2": {
+          "ich": "versöhnte",
+          "du": "versöhntest",
+          "er_sie_es": "versöhnte",
+          "wir": "versöhnten",
+          "ihr": "versöhntet",
+          "sie_Sie": "versöhnten"
+        },
+        "subjunctive2_alternative": {
+          "ich": "würde versöhnen",
+          "du": "würdest versöhnen",
+          "er_sie_es": "würde versöhnen",
+          "wir": "würden versöhnen",
+          "ihr": "würdet versöhnen",
+          "sie_Sie": "würden versöhnen"
+        },
+        "passive": {
+          "personal_passive": true,
+          "examples": [
+            "Die zerstrittenen Gruppen sollen miteinander versöhnt werden.",
+            "Er ist mit seiner Familie versöhnt."
+          ],
+          "note": "Vorgangspassiv bei transitiver Verwendung; 'versöhnt sein' bezeichnet den erreichten Zustand. Bei der reflexiven Konstruktion ist ein persönliches Passiv nicht möglich."
+        }
+      },
+      "usage_note": "Untrennbares Präfix ver-: kein ge- im Partizip II, zu versöhnen statt einer eingeschobenen zu-Form. Reflexivpronomen im Akkusativ: ich versöhne mich, du versöhnst dich, er versöhnt sich, wir versöhnen uns, ihr versöhnt euch, sie versöhnen sich. Perfekt auch reflexiv mit haben: 'Wir haben uns versöhnt'. Bei Plural kann sich reziprok verstanden werden."
+    },
+    "pronunciation": {
+      "ipa": "/fɛɐ̯ˈzøːnən/"
+    },
+    "meaning": {
+      "ja": "①（対立・不仲にある人々を）和解させる、仲直りさせる ②【再帰】人と仲直りする、わだかまりを解く ③（対立する思想・価値・利害などを）調和させる ④【再帰】過去・運命・自分自身などを受け入れ、内面的な折り合いをつける。また他動詞で人がある事柄を受け入れられるようにする ⑤【宗教】人間と神との関係を回復させる、和解させる。",
+      "de": "①zerstrittene Personen oder Gruppen wieder zu einem friedlichen Verhältnis bringen ②reflexiv: einen persönlichen Konflikt überwinden und wieder Frieden miteinander schließen ③Gegensätze, Werte oder Interessen miteinander in Einklang bringen ④reflexiv: mit der eigenen Vergangenheit, dem Schicksal oder sich selbst inneren Frieden finden; transitiv auch: jemanden zur inneren Annahme einer Sache bringen ⑤religiös: das gestörte Verhältnis zwischen Mensch und Gott wiederherstellen."
+    },
+    "nuance": {
+      "ja": "versöhnen は対立や疎遠の原因となったわだかまりを乗り越え、関係または心の平穏を回復することに焦点を置く。sich versöhnen は互いに仲直りする、jemanden mit jemandem versöhnen は第三者などが和解を促すことを表す。verzeihen は相手の過ちを許すことに重点があり、一方的にも成立する。許しても関係を修復しないことはあり得る。sich einigen は意見や条件について合意することで感情的な和解を要求しない。einen Streit beilegen は争いを終結させることに重点を置く。sich mit etwas abfinden は不本意な状況を仕方なく受け入れる含みを持ちやすく、sich mit etwas versöhnen は内面的な葛藤が解消されることに重点がある。相反する価値の調和には vereinbaren / in Einklang bringen も使えるが、versöhnen は対立を乗り越えるという比喩的な色合いがある。法務では訴訟上の和解は einen Vergleich schließen / sich vergleichen と表すのが通常で、versöhnen は当事者間の心理的・社会的関係の修復を意味し得るが、法的な合意の成立を保証しない。versöhnlich は和解を志向する性質、versöhnend は和解を促す作用、versöhnt は和解した状態を示す。",
+      "de": "Versöhnen betont die Überwindung von Entfremdung oder Gegensätzen und die Wiederherstellung eines friedlichen Verhältnisses oder inneren Friedens. Reflexiv geht es um die eigene Versöhnung mit jemandem; transitiv kann eine dritte Person die Versöhnung vermitteln. Verzeihen richtet sich auf ein konkretes Fehlverhalten und kann einseitig erfolgen, ohne dass die Beziehung wiederhergestellt wird. Sich einigen bedeutet, eine Übereinkunft zu erzielen, ohne notwendigerweise persönliche Spannungen aufzulösen. Einen Streit beilegen bezeichnet vor allem die Beendigung des Konflikts. Sich mit etwas abfinden kann widerwillige Akzeptanz ausdrücken, während sich mit etwas versöhnen eher die Überwindung eines inneren Konflikts bezeichnet. Bei abstrakten Gegensätzen sind vereinbaren und in Einklang bringen sachlichere Alternativen; versöhnen betont bildhaft die Auflösung eines Gegensatzes. Im juristischen Sprachgebrauch ist ein Vergleich eine rechtliche Einigung; eine persönliche Versöhnung ist weder Voraussetzung noch notwendige Folge eines Vergleichs. Versöhnlich bezeichnet eine auf Annäherung gerichtete Haltung, versöhnend eine entsprechende Wirkung und versöhnt den erreichten Zustand."
+    },
+    "collocations": [
+      {
+        "de": "sich mit jemandem versöhnen",
+        "ja": "人と仲直りする"
+      },
+      {
+        "de": "sich nach einem Streit versöhnen",
+        "ja": "口論の後で仲直りする"
+      },
+      {
+        "de": "sich wieder miteinander versöhnen",
+        "ja": "再び互いに和解する"
+      },
+      {
+        "de": "sich endgültig versöhnen",
+        "ja": "完全に和解する"
+      },
+      {
+        "de": "zwei zerstrittene Parteien miteinander versöhnen",
+        "ja": "対立する二者を和解させる"
+      },
+      {
+        "de": "jemanden mit seiner Familie versöhnen",
+        "ja": "人を家族と和解させる"
+      },
+      {
+        "de": "sich mit seiner Vergangenheit versöhnen",
+        "ja": "自分の過去を受け入れる"
+      },
+      {
+        "de": "sich mit sich selbst versöhnen",
+        "ja": "自分自身と和解する"
+      },
+      {
+        "de": "sich mit seinem Schicksal versöhnen",
+        "ja": "自分の運命を受け入れる"
+      },
+      {
+        "de": "Gegensätze miteinander versöhnen",
+        "ja": "相反するものを調和させる"
+      },
+      {
+        "de": "widersprüchliche Interessen miteinander versöhnen",
+        "ja": "対立する利害を調和させる"
+      },
+      {
+        "de": "Glauben und Vernunft miteinander versöhnen",
+        "ja": "信仰と理性を調和させる"
+      },
+      {
+        "de": "die Menschen mit Gott versöhnen",
+        "ja": "人々を神と和解させる"
+      },
+      {
+        "de": "versöhnende Worte finden",
+        "ja": "和解を促す言葉を見つける"
+      },
+      {
+        "de": "mit jemandem versöhnt sein",
+        "ja": "人と和解した状態にある"
+      }
+    ],
+    "minimal": {
+      "ja": "versöhnen＝関係や内面の葛藤を解消して和解する／verzeihen＝過ちを許す（jemandem etwas verzeihen）／vergeben＝罪・過ちを許す。宗教的文脈にも頻出／sich einigen＝合意する／sich vergleichen＝法的な和解契約を結ぶ（文脈による）／einen Vergleich schließen＝和解契約を結ぶ／beilegen＝争いを終結させる／schlichten＝争いを仲裁し解決する／vermitteln＝仲介する／Frieden schließen＝和平を結ぶ・仲直りする／sich vertragen＝仲良くやっていく、仲直りする／sich abfinden mit＝不本意な状況を受け入れる／akzeptieren＝受け入れる・容認する／vereinbaren＝合意する、両立させる／in Einklang bringen＝調和させる／sühnen＝罪などを償う／versöhnlich＝和解的な・穏便な／versöhnend＝和解を促す／unversöhnlich＝和解を拒む、相容れない。",
+      "de": "versöhnen = Entfremdung oder Gegensätze überwinden; verzeihen = jemandem ein Fehlverhalten nicht länger nachtragen; vergeben = Schuld oder Verfehlungen erlassen, auch religiös; sich einigen = eine Übereinkunft erzielen; sich vergleichen = im rechtlichen Kontext einen Vergleich schließen; einen Vergleich schließen = einen Streit durch rechtliche Einigung regeln; beilegen = einen Streit beenden; schlichten = einen Konflikt durch Vermittlung lösen; vermitteln = zwischen Beteiligten auf eine Annäherung hinwirken; Frieden schließen = Feindschaft beenden; sich vertragen = in gutem Einvernehmen leben oder sich wieder vertragen; sich mit etwas abfinden = eine gegebenenfalls unerwünschte Lage akzeptieren; akzeptieren = etwas annehmen oder hinnehmen; vereinbaren = etwas absprechen oder miteinander vereinbar machen; in Einklang bringen = harmonisieren; sühnen = für eine Verfehlung Genugtuung leisten; versöhnlich = zur Versöhnung bereit oder darauf gerichtet; versöhnend = eine Versöhnung fördernd; unversöhnlich = nicht zur Versöhnung bereit oder nicht in Einklang zu bringen."
+    },
+    "equivalents": {
+      "en": [
+        "to reconcile",
+        "to make up (with someone)",
+        "to make peace with",
+        "to come to terms with",
+        "to reconcile conflicting interests"
+      ],
+      "it": [
+        "riconciliare",
+        "riconciliarsi con",
+        "fare pace con",
+        "venire a patti con",
+        "conciliare"
+      ],
+      "fr": [
+        "réconcilier",
+        "se réconcilier avec",
+        "faire la paix avec",
+        "concilier"
+      ],
+      "es": [
+        "reconciliar",
+        "reconciliarse con",
+        "hacer las paces con",
+        "conciliar"
+      ]
+    },
+    "etymology": {
+      "ja": "古高ドイツ語 firsuonen、中高ドイツ語 versüenen にさかのぼる。Sühne（償い、贖罪）や sühnen（償う）と同じ語族で、古い段階では仲裁・和解・償いによる対立の解消と関係していた。現代語では sühnen は罪や過ちの償い、versöhnen は関係や対立の修復を中心とするため、単純に置換できない。ver- は非分離接頭辞で、過去分詞は versöhnt。Sohn（息子）とは語源的に別である。名詞形は Versöhnung。",
+      "de": "Versöhnen geht auf althochdeutsch firsuonen und mittelhochdeutsch versüenen zurück. Es gehört zur Wortfamilie von Sühne und sühnen, deren ältere Bedeutungen Ausgleich, Schlichtung und Wiedergutmachung einschlossen. Im heutigen Sprachgebrauch betont sühnen die Genugtuung für eine Schuld, versöhnen dagegen die Wiederherstellung eines friedlichen Verhältnisses. Das untrennbare Präfix ver- erklärt die Partizipform versöhnt ohne ge-. Mit Sohn ist das Wort etymologisch nicht gleichzusetzen. Das Substantiv lautet Versöhnung."
+    },
+    "example": {
+      "ja": "1. 激しい口論の後、彼らは仲直りした。\n2. 兄弟と仲直りしたいが、どう歩み寄ればいいのかわからない。\n3. 仲介人は対立する二者を和解させようとした。\n4. 彼女は今では自分の過去を受け入れ、心の折り合いをつけている。\n5. 彼が自分自身を受け入れるまでには何年もかかった。\n6. 経済的利益と環境保護の目標をどう調和させられるだろうか。\n7. 和解契約によって訴訟は終結したが、当事者は個人的には仲直りしていない。\n8. 謝罪だけでは彼が起きたことを受け入れられるようにはならなかった。\n9. キリスト教神学では人間と神との和解が中心的な役割を果たす。\n10. 仲直りしても、すべての問題について同じ意見である必要はない。",
+      "de": "1. Nach einem heftigen Streit haben sie sich wieder versöhnt.\n2. Ich würde mich gern mit meinem Bruder versöhnen, weiß aber nicht, wie ich auf ihn zugehen soll.\n3. Die Vermittlerin versuchte, die beiden zerstrittenen Parteien miteinander zu versöhnen.\n4. Sie hat sich inzwischen mit ihrer Vergangenheit versöhnt.\n5. Er brauchte Jahre, um sich mit sich selbst zu versöhnen.\n6. Wie lassen sich wirtschaftliche Interessen und ökologische Ziele miteinander versöhnen?\n7. Der Vergleich beendete den Rechtsstreit, doch die Parteien haben sich persönlich nicht versöhnt.\n8. Die Entschuldigung allein konnte ihn nicht mit dem Geschehenen versöhnen.\n9. In der christlichen Theologie spielt die Versöhnung des Menschen mit Gott eine zentrale Rolle.\n10. Auch wenn wir uns versöhnen, müssen wir nicht in allen Fragen derselben Meinung sein."
+    },
+    "task": {
+      "ja": "次を独訳する。①激しい口論の後、彼らは仲直りした。②兄弟と仲直りしたいが、どう歩み寄ればよいかわからない。③仲介人は対立する二者を和解させようとした。④彼女は過去を受け入れた。⑤彼が自分自身と和解するまで何年もかかった。⑥経済的利益と環境目標をどう調和させられるか。⑦和解契約で訴訟は終結したが個人的には仲直りしていない。⑧謝罪だけでは彼が起きたことを受け入れられるようにはならなかった。⑨キリスト教神学では人間と神との和解が中心的な役割を果たす。⑩仲直りしてもすべての問題で同意する必要はない。再帰代名詞と mit + Dativ に注意する。",
+      "de": "Formuliere zehn Sätze mit versöhnen oder Versöhnung: ① Versöhnung nach einem heftigen Streit, ② Wunsch nach Versöhnung mit dem Bruder, ③ Vermittlung zwischen zerstrittenen Parteien, ④ innerer Frieden mit der Vergangenheit, ⑤ Versöhnung mit sich selbst, ⑥ Ausgleich wirtschaftlicher und ökologischer Interessen, ⑦ Unterschied zwischen einem gerichtlichen oder außergerichtlichen Vergleich und persönlicher Versöhnung, ⑧ eine Entschuldigung, die nicht zur inneren Annahme des Geschehenen führt, ⑨ Versöhnung des Menschen mit Gott, ⑩ Versöhnung trotz fortbestehender Meinungsverschiedenheiten. Achte auf reflexive Formen und mit + Dativ."
+    }
   }
 ]
