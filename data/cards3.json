@@ -10863,5 +10863,133 @@
       "ja": "ernten を使って独訳する。①私たちは明日リンゴを収穫する。②ジャガイモは秋に収穫される。③彼女はその提案で称賛を得た。④その発言は批判しか招かなかった。⑤彼らはようやく努力の成果を手にしている。",
       "de": "Bilde fünf Sätze mit ernten: ① morgige Apfelernte, ② Kartoffelernte im Herbst im Passiv, ③ Lob für einen Vorschlag, ④ Kritik als einzige Reaktion auf eine Äußerung, ⑤ der endlich sichtbare Ertrag eigener Arbeit."
     }
+  },
+  {
+    "id": "eventuell",
+    "sid": "2026-00377",
+    "word": "eventuell",
+    "tags": [
+      "adverb",
+      "adjective",
+      "possibility",
+      "politeness",
+      "administration",
+      "false_friend"
+    ],
+    "level": "B1",
+    "freq": "often",
+    "grammar": {
+      "pos": "adverb",
+      "register": "standardsprachlich, auch in Geschäftsbriefen und Verwaltungstexten",
+      "patterns": [
+        "eventuell + Verb oder Aussage: Der Termin wird eventuell verschoben.",
+        "eventuell + Partizip: eventuell anfallende Kosten",
+        "attributiv mit Adjektivendung: ein eventueller Ausfall, eventuelle Änderungen, bei eventuellen Rückfragen"
+      ],
+      "usage_note": "Als Adverb bleibt eventuell unverändert. Attributiv erhält es die passende Adjektivendung. In 'eventuell anfallende Gebühren' bezieht sich eventuell adverbial auf anfallende; in 'eventuelle Gebühren' bestimmt das flektierte Adjektiv unmittelbar das Substantiv.",
+      "word_family": [
+        "eventuell",
+        "die Eventualität"
+      ]
+    },
+    "pronunciation": {
+      "ipa": "/evɛntuˈɛl/"
+    },
+    "meaning": {
+      "ja": "① ひょっとすると、もしかすると、～かもしれない。② 条件や必要性が未確定の措置について、場合によっては、必要に応じて。③【形容詞・名詞の前】あり得る、発生するかもしれない、もしあれば。",
+      "de": "① Vielleicht, möglicherweise. ② Bei Maßnahmen: unter Umständen, wenn es sich als nötig oder sinnvoll erweist. ③ Attributiv: möglicherweise eintretend oder vorhanden."
+    },
+    "nuance": {
+      "ja": "起こるかどうか、行うかどうかがまだ確定していないことを表す。会話では vielleicht が広く使え、möglicherweise は可能性そのものをやや明示的に述べる。eventuell は予定や候補、条件次第の対応を述べるときにも使いやすい。対応手順で「条件が当てはまれば実施する」と明示するなら gegebenenfalls がより明確。Könnten Sie eventuell …? では、相手に可能かどうかを尋ねる形で依頼を和らげる。eventuelle Änderungen は「変更があれば、その変更」、eventuell anfallende Kosten は「発生するかもしれない費用」。英語の eventually は「最終的に、いずれ」で、独語では schließlich や letztendlich などが対応する。",
+      "de": "Eventuell lässt offen, ob etwas eintritt oder eine Handlung vorgenommen wird. Vielleicht ist im Gespräch breit einsetzbar. Möglicherweise benennt die Möglichkeit etwas ausdrücklicher. Eventuell passt auch gut zu vorläufigen Plänen und zu Optionen, deren Umsetzung noch offen ist. Gegebenenfalls verweist in Anweisungen deutlicher auf eine einschlägige Bedingung. In 'Könnten Sie eventuell …?' wird die Bitte durch den Verweis auf die Möglichkeit abgeschwächt. Eventuelle Änderungen sind Änderungen, sofern es welche gibt. Bei eventuell anfallenden Kosten bleibt offen, ob Kosten entstehen. Das englische eventually bezeichnet ein späteres oder abschließendes Ergebnis und entspricht je nach Kontext schließlich oder letztendlich."
+    },
+    "collocations": [
+      {
+        "de": "eventuell später kommen",
+        "ja": "もしかすると遅れて来る"
+      },
+      {
+        "de": "eventuell ausfallen",
+        "ja": "中止・運休になるかもしれない"
+      },
+      {
+        "de": "einen Termin eventuell verschieben",
+        "ja": "場合によっては日程を変更する"
+      },
+      {
+        "de": "eventuell erforderlich sein",
+        "ja": "必要になる場合がある"
+      },
+      {
+        "de": "eventuell Unterlagen nachreichen müssen",
+        "ja": "場合によっては書類を追加提出する必要がある"
+      },
+      {
+        "de": "Angaben eventuell ergänzen",
+        "ja": "必要に応じて記載を補足する"
+      },
+      {
+        "de": "Könnten Sie eventuell …?",
+        "ja": "もし可能でしたら、～していただけますか"
+      },
+      {
+        "de": "eventuell anfallende Gebühren",
+        "ja": "発生する可能性のある手数料"
+      },
+      {
+        "de": "eventuell auftretende Schwierigkeiten",
+        "ja": "起こり得る問題"
+      },
+      {
+        "de": "eventuelle Änderungen mitteilen",
+        "ja": "変更があれば知らせる"
+      },
+      {
+        "de": "einen eventuellen Ausfall einplanen",
+        "ja": "停止・欠航などの可能性を見込んでおく"
+      },
+      {
+        "de": "bei eventuellen Rückfragen",
+        "ja": "追加の質問があれば"
+      }
+    ],
+    "minimal": {
+      "ja": "eventuell / vielleicht＝もしかすると。möglicherweise＝可能性としては。gegebenenfalls＝該当する場合に、必要に応じて。wahrscheinlich＝おそらく。unter Umständen＝状況によっては。schließlich / letztendlich＝最終的に。",
+      "de": "eventuell und vielleicht drücken eine offene Möglichkeit aus. Möglicherweise benennt diese Möglichkeit ausdrücklich. Gegebenenfalls knüpft eine Handlung an den einschlägigen Fall. Wahrscheinlich drückt eine stärkere Erwartung aus. Unter Umständen hebt die Abhängigkeit von den Umständen hervor. Schließlich und letztendlich können ein abschließendes Ergebnis bezeichnen."
+    },
+    "equivalents": {
+      "en": [
+        "possibly",
+        "perhaps",
+        "if necessary",
+        "any (e.g. any changes)"
+      ],
+      "it": [
+        "forse",
+        "eventualmente",
+        "se necessario",
+        "eventuali (ad es. eventuali modifiche)"
+      ],
+      "fr": [
+        "peut-être",
+        "éventuellement",
+        "le cas échéant",
+        "d'éventuelles modifications"
+      ],
+      "es": [
+        "quizá",
+        "posiblemente",
+        "si fuera necesario",
+        "posibles cambios"
+      ]
+    },
+    "example": {
+      "ja": "1. その列車は運休になるかもしれない。\n2. 明日は少し遅れて来るかもしれません。\n3. もし可能でしたら、草案を今日中に送っていただけますか。\n4. 場合によっては、証明書類を追加で提出する必要があります。\n5. 記載内容を確認し、必要に応じて補足してください。\n6. 住所に変更がありましたら、お知らせください。\n7. 発生する場合の手数料は、料金に含まれていません。\n8. サーバーが万一停止すれば、発送が遅れるでしょう。\n9. ご質問がありましたら、お気軽にお問い合わせください。",
+      "de": "1. Der Zug fällt eventuell aus.\n2. Eventuell komme ich morgen etwas später.\n3. Könnten Sie mir den Entwurf eventuell schon heute schicken?\n4. Eventuell müssen Sie noch einen Nachweis einreichen.\n5. Prüfen Sie die Angaben und ergänzen Sie sie eventuell.\n6. Bitte teilen Sie uns eventuelle Änderungen Ihrer Anschrift mit.\n7. Eventuell anfallende Gebühren sind im Preis nicht enthalten.\n8. Ein eventueller Ausfall des Servers würde den Versand verzögern.\n9. Bei eventuellen Rückfragen können Sie sich gern an uns wenden."
+    },
+    "task": {
+      "ja": "独訳する。①電車は運休になるかもしれない。②もし可能でしたら、今日中に草案を送っていただけますか。③場合によっては追加書類が必要です。④住所に変更があれば知らせてください。⑤発生する場合の手数料は料金に含まれていません。④では形容詞形、⑤では分詞を修飾する副詞形を使う。",
+      "de": "Formuliere fünf Sätze mit eventuell: ① möglicher Zugausfall, ② höfliche Bitte um den Entwurf noch heute, ③ möglicherweise nötige Zusatzunterlagen, ④ Bitte um Mitteilung von Änderungen der Anschrift, ⑤ Ausschluss möglicherweise anfallender Gebühren vom Preis. Verwende in ④ eine flektierte Form und in ⑤ das Adverb vor dem Partizip."
+    }
   }
 ]
