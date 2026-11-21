@@ -9553,5 +9553,220 @@
       "ja": "次の10文を vorverlegen を用いて独訳してください。①『打合せを2時間前倒しした』②『予定は金曜日から水曜日へ前倒しされた』③『ビデオ会議を9時に前倒しできますか』④『祝日のため会議を1日前倒しする』⑤『報告書の公表は11月末に前倒しされた』⑥『事務所は内部期限を前倒ししたい』⑦『法定期限は法的根拠なしに変更できない』⑧『主催者は開始時刻を直前に早めた』⑨『部隊は国境近くへ前進配置された』⑩『提出期限を前倒しするなら関係者に知らせなければならない』。um / auf / von ... auf の使い分けにも注意する。",
       "de": "Formuliere zehn Sätze auf Deutsch: ① eine Besprechung um zwei Stunden vorverlegen, ② einen Termin von Freitag auf Mittwoch vorverlegen, ③ eine Videokonferenz auf neun Uhr vorverlegen, ④ eine Sitzung wegen eines Feiertags früher ansetzen, ⑤ die Veröffentlichung eines Berichts vorverlegen, ⑥ eine interne Frist vorverlegen, ⑦ die Unveränderlichkeit einer gesetzlichen Frist ohne Rechtsgrundlage erklären, ⑧ den Beginn einer Veranstaltung kurzfristig vorverlegen, ⑨ Truppen räumlich vorverlegen und ⑩ bei einer Vorverlegung die Beteiligten informieren. Verwende auch Passiv und Perfekt."
     }
+  },
+  {
+    "id": "aermlich",
+    "sid": "2026-00371",
+    "word": "ärmlich",
+    "tags": [
+      "adj",
+      "adv",
+      "poverty",
+      "living_conditions",
+      "appearance",
+      "housing",
+      "clothing",
+      "social",
+      "description",
+      "evaluation"
+    ],
+    "level": "B2-C1",
+    "freq": "sometimes",
+    "grammar": {
+      "pos": "adj",
+      "comparative": "ärmlicher",
+      "superlative": "am ärmlichsten",
+      "attributive": true,
+      "predicative": true,
+      "adverbial": true,
+      "patterns": [
+        "ärmliche Verhältnisse",
+        "in ärmlichen Verhältnissen leben / aufwachsen",
+        "aus ärmlichen Verhältnissen stammen",
+        "eine ärmliche Behausung",
+        "ärmlich aussehen / wirken",
+        "ärmlich eingerichtet / ausgestattet sein",
+        "ärmlich gekleidet sein",
+        "einen ärmlichen Eindruck machen"
+      ],
+      "register": "standardsprachlich; häufig beschreibend in erzählenden, sozialen und journalistischen Kontexten; mitunter abwertend",
+      "related_noun": "die Ärmlichkeit (weniger gebräuchlich); die Armut",
+      "word_family": [
+        "arm",
+        "ärmer",
+        "die Armut",
+        "ärmlich",
+        "die Ärmlichkeit",
+        "verarmen",
+        "die Verarmung",
+        "armselig"
+      ],
+      "declension_examples": [
+        "ein ärmlicher Haushalt",
+        "eine ärmliche Wohnung",
+        "ein ärmliches Zimmer",
+        "ärmliche Verhältnisse",
+        "die ärmlichen Hütten",
+        "in ärmlichen Verhältnissen",
+        "mit ärmlicher Ausstattung",
+        "wegen der ärmlichen Einrichtung"
+      ],
+      "usage_note": "Attributiv wird das Adjektiv dekliniert: 'in ärmlichen Verhältnissen' (Dativ Plural). Prädikativ und adverbial bleibt es ungebeugt: 'Die Wohnung wirkt ärmlich', 'Sie ist ärmlich eingerichtet'. Steigerung ohne weiteren Umlaut: ärmlich – ärmlicher – am ärmlichsten. Nicht mit 'arm' im Sinne von 'bedauernswert' in 'du armer Mensch' gleichsetzen."
+    },
+    "pronunciation": {
+      "ipa": "/ˈɛʁmlɪç/"
+    },
+    "meaning": {
+      "ja": "①（生活環境・家庭・地域などが）貧しい、経済的に恵まれていない ②（住居・家具・設備・衣服などが）粗末な、貧相な、みすぼらしい ③（食事・暮らしなどが）乏しい、貧弱な ④（外見・印象などが）貧しげな、見栄えが乏しい ⑤【副詞的】粗末に、貧しげに、わずかな物資で（ärmlich gekleidet / eingerichtet / leben）。",
+      "de": "①von Lebensverhältnissen oder Wohngegenden: von materieller Armut geprägt ②von Wohnungen, Einrichtungen, Kleidung oder Ausstattung: bescheiden bis kümmerlich und wenig ansehnlich ③von Mahlzeiten oder Lebensführung: kärglich, mit geringen Mitteln ④vom äußeren Erscheinungsbild: einen Eindruck von Armut oder mangelnder Ausstattung vermittelnd ⑤adverbial: auf eine von geringen materiellen Mitteln oder dürftiger Ausstattung geprägte Weise."
+    },
+    "nuance": {
+      "ja": "ärmlich は arm と同じく貧困に関係するが、とりわけ生活条件・住居・衣服・調度品などに現れる物質的な乏しさを描写する。in ärmlichen Verhältnissen は実際に貧しい生活条件を指し、必ずしも外見だけの判断ではない。一方 ärmlich aussehen は見た目の印象であり、本人が実際に貧しいことを意味しない。arm は経済状態のみならず arm an Rohstoffen（資源に乏しい）や der arme Mann（かわいそうな男性）にも使えるが、ärmlich は通常このような用法を持たない。armselig は似た物質的貧弱さを表すほか、eine armselige Ausrede のように質の低さや軽蔑を強く示し得る。erbärmlich は惨めさ・劣悪さへの評価がさらに前面に出ることがある。karg は量や装飾の少なさ、dürftig は必要水準に届かないことに焦点を置く。bescheiden や schlicht は自発的で好ましい質素さにも使え、ärmlich より中立的。heruntergekommen は荒廃・老朽化・状態の悪化を示し、貧しさ自体が中心ではない。ärmlich は描写としても使えるが、人の外見に用いると侮蔑的に響く場合がある。",
+      "de": "Ärmlich bezeichnet vor allem materielle Knappheit, wie sie sich in Lebensverhältnissen, Wohnraum, Kleidung oder Ausstattung zeigt. 'In ärmlichen Verhältnissen leben' beschreibt tatsächliche Lebensbedingungen, während 'ärmlich aussehen' lediglich einen Eindruck ausdrücken kann. Arm ist weiter gefasst: Es bezeichnet auch fehlende Ressourcen ('arm an Rohstoffen') oder Mitleid ('der arme Mann'). Diese Verwendungen lassen sich nicht einfach durch ärmlich ersetzen. Armselig kann ebenfalls materielle Dürftigkeit bezeichnen, drückt aber etwa in 'eine armselige Ausrede' häufig Geringschätzung aus. Erbärmlich hebt oft das Elend oder eine besonders negative Bewertung hervor. Karg betont geringe Menge oder Schlichtheit, dürftig das Unzureichende. Bescheiden und schlicht können dagegen auch eine freiwillige, positiv bewertete Einfachheit ausdrücken. Heruntergekommen bezeichnet einen schlechten, oft durch Vernachlässigung entstandenen Zustand. Ärmlich ist nicht notwendig verächtlich gemeint, kann bei der Beschreibung von Personen aber abwertend wirken."
+    },
+    "collocations": [
+      {
+        "de": "in ärmlichen Verhältnissen leben",
+        "ja": "貧しい生活環境で暮らす"
+      },
+      {
+        "de": "aus ärmlichen Verhältnissen stammen",
+        "ja": "貧しい家庭環境の出身である"
+      },
+      {
+        "de": "in ärmlichen Verhältnissen aufwachsen",
+        "ja": "貧しい環境で育つ"
+      },
+      {
+        "de": "ein ärmliches Viertel",
+        "ja": "貧しい地区"
+      },
+      {
+        "de": "eine ärmliche Gegend",
+        "ja": "貧しげな地域"
+      },
+      {
+        "de": "ein ärmliches Dorf",
+        "ja": "貧しい村"
+      },
+      {
+        "de": "eine ärmliche Behausung",
+        "ja": "粗末な住まい"
+      },
+      {
+        "de": "eine ärmliche Hütte",
+        "ja": "粗末な小屋"
+      },
+      {
+        "de": "ein ärmliches Zimmer",
+        "ja": "貧相な部屋"
+      },
+      {
+        "de": "eine ärmliche Wohnung",
+        "ja": "粗末な住居"
+      },
+      {
+        "de": "eine ärmliche Unterkunft",
+        "ja": "粗末な宿泊施設"
+      },
+      {
+        "de": "eine ärmliche Einrichtung",
+        "ja": "質素で貧相な調度品"
+      },
+      {
+        "de": "ärmliche Kleidung",
+        "ja": "みすぼらしい衣服"
+      },
+      {
+        "de": "ein ärmliches Äußeres",
+        "ja": "貧しげな外見"
+      },
+      {
+        "de": "ein ärmliches Erscheinungsbild",
+        "ja": "貧相な外観"
+      },
+      {
+        "de": "einen ärmlichen Eindruck machen",
+        "ja": "貧相な印象を与える"
+      },
+      {
+        "de": "ärmlich aussehen",
+        "ja": "みすぼらしく見える"
+      },
+      {
+        "de": "ärmlich gekleidet sein",
+        "ja": "粗末な服を着ている"
+      },
+      {
+        "de": "ärmlich eingerichtet sein",
+        "ja": "粗末な家具が備えられている"
+      },
+      {
+        "de": "ärmlich ausgestattet sein",
+        "ja": "設備が貧弱である"
+      },
+      {
+        "de": "ärmlich leben",
+        "ja": "貧しい暮らしをする"
+      },
+      {
+        "de": "ein ärmliches Mahl",
+        "ja": "粗末な食事"
+      },
+      {
+        "de": "ein ärmliches Dasein fristen",
+        "ja": "貧しい暮らしを送る"
+      },
+      {
+        "de": "trotz ärmlicher Verhältnisse",
+        "ja": "貧しい環境にもかかわらず"
+      }
+    ],
+    "minimal": {
+      "ja": "ärmlich＝貧しげな・粗末な。生活条件や物質的乏しさの描写／arm＝貧しい・不足した・かわいそうな。意味領域が広い／armselig＝貧相な・哀れな・情けない。軽蔑や同情を伴うことがある／erbärmlich＝惨めな・ひどく情けない。強い否定的評価／karg＝乏しい・簡素な。量や豊かさの不足／dürftig＝不十分な・貧弱な。必要な水準に達しない／kümmerlich＝貧弱な・発育不良の。十分に発達していない印象／bescheiden＝質素な・控えめな。肯定的にも使える／schlicht＝簡素な・飾り気のない／heruntergekommen＝荒廃した・落ちぶれた／mittellos＝無資力の。経済的手段がない／bedürftig＝援助を必要とする・困窮した／wohlhabend＝裕福な（経済状態の対比）／komfortabel＝快適な（設備や住環境の対比）／prunkvoll＝豪華な（外観の対比）。",
+      "de": "ärmlich = von Armut oder geringer materieller Ausstattung geprägt; arm = ohne ausreichende Mittel, auch ressourcenarm oder bedauernswert; armselig = kümmerlich oder verachtenswert; erbärmlich = elend oder äußerst schlecht; karg = knapp bemessen, schmucklos; dürftig = unzureichend; kümmerlich = schwach entwickelt oder unzulänglich; bescheiden = einfach oder zurückhaltend, auch positiv; schlicht = ohne aufwendigen Schmuck; heruntergekommen = in schlechtem, oft vernachlässigtem Zustand; mittellos = ohne finanzielle Mittel; bedürftig = auf Unterstützung angewiesen; wohlhabend = wirtschaftlich gut gestellt; komfortabel = bequem und gut ausgestattet; prunkvoll = auffallend prachtvoll. Die letzten drei Wörter bilden je nach Kontext unterschiedliche Gegensätze zu ärmlich."
+    },
+    "equivalents": {
+      "en": [
+        "poor",
+        "impoverished (living conditions)",
+        "shabby (appearance)",
+        "poorly furnished",
+        "meager (AmE) / meagre (BrE)"
+      ],
+      "it": [
+        "povero",
+        "misero",
+        "modesto (secondo il contesto)",
+        "squallido (più negativo)",
+        "poveramente"
+      ],
+      "fr": [
+        "pauvre",
+        "misérable",
+        "délabré (selon le contexte)",
+        "chiche",
+        "pauvrement"
+      ],
+      "es": [
+        "pobre",
+        "mísero",
+        "precario",
+        "humilde (según el contexto)",
+        "pobremente"
+      ]
+    },
+    "etymology": {
+      "ja": "形容詞 arm（貧しい）に形容詞形成接尾辞 -lich が付いた語。語幹母音 a がウムラウトして ä となる。-lich は性質や状態を表す形容詞を形成する（kindlich、freundlich など）。arm は古高ドイツ語 arm にさかのぼるゲルマン系の語で、英語の古い語 earm（貧しい、惨めな）と同系。現代英語の arm（腕）は別語である。語族には Armut（貧困）、verarmen（貧しくなる）、armselig（哀れな・情けない）がある。",
+      "de": "Ärmlich ist eine Ableitung von arm mit dem adjektivbildenden Suffix -lich und Umlaut des Stammvokals a zu ä. Das Suffix bezeichnet eine Eigenschaft oder Beschaffenheit, wie auch in kindlich oder freundlich. Arm geht auf althochdeutsch arm zurück und ist mit altenglisch earm im Sinne von arm oder elend verwandt; das englische Substantiv arm für den Körperteil ist davon zu unterscheiden. Zur Wortfamilie gehören Armut, verarmen und armselig."
+    },
+    "example": {
+      "ja": "1. 彼は貧しい環境で育ったが、後に大学で学ぶことができた。\n2. 住居の調度品は粗末だったが、清潔で整頓されていた。\n3. 村の外れには粗末な小屋がいくつか建っていた。\n4. その男性は粗末な服を着ていたが、私たちは彼の経済状況について何も知らなかった。\n5. むき出しの壁と家具の少なさのため、その部屋はかなり貧相に見えた。\n6. その家族は粗末な食事で満足せざるを得なかった。\n7. 彼女は貧しい家庭の出身で、後に教育機会の改善に尽力した。\n8. 宿泊施設の設備は予想以上に貧弱だった。\n9. その家は小さく質素だったが、決して貧相には見えなかった。\n10. 粗末な服装だけから、その人の所得を推測することはできない。",
+      "de": "1. Er wuchs in ärmlichen Verhältnissen auf, konnte aber später studieren.\n2. Die Wohnung war ärmlich eingerichtet, aber sauber und ordentlich.\n3. Am Rand des Dorfes standen einige ärmliche Hütten.\n4. Der Mann war ärmlich gekleidet, doch über seine finanzielle Lage wussten wir nichts.\n5. Das Zimmer wirkte wegen der kahlen Wände und der wenigen Möbel recht ärmlich.\n6. Die Familie musste sich mit einem ärmlichen Mahl begnügen.\n7. Sie stammte aus ärmlichen Verhältnissen und setzte sich später für bessere Bildungschancen ein.\n8. Die Unterkunft war noch ärmlicher ausgestattet als erwartet.\n9. Das Haus war klein und bescheiden, wirkte aber keineswegs ärmlich.\n10. Aus der ärmlichen Kleidung allein lässt sich nicht auf das Einkommen einer Person schließen."
+    },
+    "task": {
+      "ja": "次の文を ärmlich を用いて独訳する。①彼は貧しい環境で育ったが、後に大学で学べた。②住居の調度品は粗末だったが清潔だった。③村外れには粗末な小屋がいくつか建っていた。④その男性は粗末な服を着ていたが経済状況は不明だった。⑤家具の少なさのため部屋は貧相に見えた。⑥家族は粗末な食事で満足せざるを得なかった。⑦彼女は貧しい家庭の出身だった。⑧設備は予想以上に貧弱だった。⑨家は質素だが決して貧相ではなかった。⑩粗末な服装だけから所得は推測できない。",
+      "de": "Formuliere zehn Sätze mit ärmlich: ① Aufwachsen in Armut und späteres Studium, ② eine einfache, aber saubere Wohnung, ③ Hütten am Dorfrand, ④ Kleidung ohne sichere Kenntnis der finanziellen Lage, ⑤ ein spärlich möbliertes Zimmer, ⑥ ein kärgliches Mahl, ⑦ Herkunft aus armen Verhältnissen, ⑧ eine noch dürftigere Ausstattung als erwartet (Komparativ), ⑨ der Gegensatz zwischen bescheiden und ärmlich, ⑩ die Grenzen von Rückschlüssen aus Kleidung auf Einkommen. Verwende attributive, prädikative und adverbiale Formen."
+    }
   }
 ]
