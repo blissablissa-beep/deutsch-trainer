@@ -8900,5 +8900,333 @@
       "ja": "①『君の文句にはだんだんうんざりしてきた』②『この通知にはうんざりだ』③『今日は本当に君にはうんざりだ！』④『人が話を遮ると彼女はイライラする』⑤『繰り返しには私たちもやがてうんざりした』⑥『彼の態度にはずっと前からうんざりしていた』⑦『電車内の大声の電話にはイライラしない？』⑧『同じ問題を何度も話すことにうんざりだ』⑨『質問攻めには審査官も次第にうんざりした』⑩『うんざりしていたが礼儀正しく振る舞った』を訳す。",
       "de": "Formuliere zehn deutsche Sätze zu folgenden Themen: ① ständiges Gemecker, ② häufige Benachrichtigungen, ③ direkte Anrede, ④ Dazwischenreden, ⑤ Vergangenheit, ⑥ Perfekt mit 'sein', ⑦ Fragesatz, ⑧ ein Satz mit 'dass', ⑨ Nachfragen im Beruf und ⑩ Verärgerung trotz Höflichkeit. Achte auf den Dativ der betroffenen Person und den festen Akkusativ 'auf den Keks'."
     }
+  },
+  {
+    "id": "durchgehen",
+    "sid": "2026-00369",
+    "word": "durchgehen",
+    "tags": [
+      "verb",
+      "separable_verb",
+      "irregular_verb",
+      "polysemy",
+      "movement",
+      "review",
+      "inspection",
+      "approval",
+      "idiom",
+      "colloquial",
+      "law",
+      "patent",
+      "trademark",
+      "business"
+    ],
+    "level": "B1-C1",
+    "freq": "very_often",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "stark; unregelmäßig",
+      "auxiliary": "sein",
+      "separable": true,
+      "transitive": true,
+      "reflexive": false,
+      "case": "Akkusativ bei 'etwas durchgehen'; durch + Akkusativ bei Bewegung",
+      "patterns": [
+        "etwas (Akk.) durchgehen",
+        "Unterlagen / Patentansprüche / Verträge durchgehen",
+        "etwas Schritt für Schritt durchgehen",
+        "durch einen Ort (Akk.) durchgehen",
+        "ein Antrag / Vorschlag geht durch",
+        "eine Zahlung / ein Anruf geht (nicht) durch",
+        "als etwas durchgehen",
+        "ein Pferd geht durch",
+        "mit jemandem gehen die Pferde durch",
+        "jemandem etwas durchgehen lassen",
+        "mit jemandem durchgehen"
+      ],
+      "prepositions": [
+        {
+          "preposition": "durch",
+          "case": "Akkusativ",
+          "meaning": "Räumlich: durch den Park durchgehen; das letzte 'durch' ist die abgetrennte Partikel."
+        },
+        {
+          "preposition": "als",
+          "case": "prädikative Ergänzung",
+          "meaning": "Als etwas gelten oder akzeptiert werden: als Experte durchgehen."
+        },
+        {
+          "preposition": "mit",
+          "case": "Dativ",
+          "meaning": "Begleitperson oder betroffene Person: mit jemandem durchgehen; mit jemandem gehen die Pferde durch."
+        }
+      ],
+      "register": "standardsprachlich bei 'Unterlagen durchgehen'; umgangssprachlich bei 'Antrag geht durch' und vielen bildhaften Verwendungen",
+      "related_noun": "der Durchgang; das Durchgehen",
+      "word_family": [
+        "der Durchgang",
+        "durchgehend",
+        "durchsehen",
+        "durchlesen",
+        "durcharbeiten",
+        "durchsprechen",
+        "durchkommen",
+        "genehmigen",
+        "bewilligen",
+        "durchgehen lassen"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "gehe durch",
+          "du": "gehst durch",
+          "er_sie_es": "geht durch",
+          "wir": "gehen durch",
+          "ihr": "geht durch",
+          "sie_Sie": "gehen durch"
+        },
+        "preterite": {
+          "ich": "ging durch",
+          "du": "gingst durch",
+          "er_sie_es": "ging durch",
+          "wir": "gingen durch",
+          "ihr": "gingt durch",
+          "sie_Sie": "gingen durch"
+        },
+        "perfect": {
+          "ich": "bin durchgegangen",
+          "du": "bist durchgegangen",
+          "er_sie_es": "ist durchgegangen",
+          "wir": "sind durchgegangen",
+          "ihr": "seid durchgegangen",
+          "sie_Sie": "sind durchgegangen"
+        },
+        "participle2": "durchgegangen",
+        "participle1": "durchgehend",
+        "imperative": {
+          "du": "Geh die Unterlagen durch!",
+          "ihr": "Geht die Unterlagen durch!",
+          "Sie": "Gehen Sie die Unterlagen durch!"
+        },
+        "infinitive_with_zu": "durchzugehen",
+        "subjunctive1": {
+          "ich": "gehe durch",
+          "du": "gehest durch",
+          "er_sie_es": "gehe durch",
+          "wir": "gehen durch",
+          "ihr": "gehet durch",
+          "sie_Sie": "gehen durch"
+        },
+        "subjunctive2": {
+          "ich": "ginge durch",
+          "du": "gingest durch",
+          "er_sie_es": "ginge durch",
+          "wir": "gingen durch",
+          "ihr": "ginget durch",
+          "sie_Sie": "gingen durch"
+        },
+        "subjunctive2_alternative": {
+          "ich": "würde durchgehen",
+          "du": "würdest durchgehen",
+          "er_sie_es": "würde durchgehen",
+          "wir": "würden durchgehen",
+          "ihr": "würdet durchgehen",
+          "sie_Sie": "würden durchgehen"
+        },
+        "passive": {
+          "personal_passive": false,
+          "examples": [
+            "Wir gehen die Unterlagen durch.",
+            "Die Unterlagen werden überprüft."
+          ],
+          "note": "Bei der prüfenden Bedeutung sind aktive Formen üblich; für idiomatisches Passiv besser 'prüfen' oder 'überprüfen' wählen."
+        }
+      },
+      "usage_note": "In den hier behandelten Bedeutungen ist das Verb trennbar. Auch bei Akkusativobjekt steht das Perfekt gewöhnlich mit 'sein': 'Wir sind die Unterlagen durchgegangen'. Die feste Verbindung 'etwas durchgehen lassen' verwendet hingegen 'lassen': 'Ich habe den Fehler durchgehen lassen'. 'Der Antrag ist durchgegangen' ist nicht die präzise Bezeichnung einer behördlichen Entscheidung."
+    },
+    "pronunciation": {
+      "ipa": "/ˈdʊʁçˌɡeːən/"
+    },
+    "meaning": {
+      "ja": "①（場所を）通り抜ける ②（資料・文章・議題などを）一つずつ確認・検討する ③【口語】（申請・提案・決済が）通る、受け入れられる ④（電話・通信が）つながる ⑤【als ... durchgehen】～として通用する、～とみなされる ⑥（馬などが）暴走する ⑦【mit jemandem gehen die Pferde durch】人が我を忘れて暴走する ⑧【etwas durchgehen lassen】誤りや行為を大目に見る（lassen を伴う構文） ⑨【mit jemandem durchgehen】人と駆け落ちする（古風・口語）。",
+      "de": "①einen Ort oder Durchgang durchqueren ②Unterlagen, Texte oder Punkte nacheinander prüfen und besprechen ③umgangssprachlich: angenommen oder erfolgreich abgewickelt werden ④bei Telefonverbindungen: zustande kommen ⑤als etwas gelten oder akzeptiert werden ⑥bei einem Pferd: unkontrolliert losrennen ⑦in 'mit jemandem gehen die Pferde durch': die Selbstbeherrschung verlieren ⑧mit 'lassen': einen Fehler dulden oder nicht beanstanden ⑨mit jemandem fortlaufen oder durchbrennen, veraltend."
+    },
+    "nuance": {
+      "ja": "基本像は『中を通って先へ進む』。物理的通過から、資料を順番にたどる確認、審査・決済が通ること、一定の評価基準を満たして通用することへ派生した。durchsehen は『目を通す』、durchlesen は『通読する』、durcharbeiten は『丹念に取り組む』であり、durchgehen は各項目を順にたどる点が特徴。申請の『通る』は口語なので、法律文書では genehmigt / bewilligt / stattgegeben など実際の法的処分に応じた表現を使う。als Experte durchgehen は本当に専門家だという保証はなく、『そう見える・そう扱われる』という含みがある。馬の暴走は制御を失うことを表し、die Pferde gehen mit jemandem durch は感情の暴走を指す。durchgehen lassen は単独の durchgehen と区別すべき別構文。なお durchgehend は『連続した、終始』という形容詞・副詞としても定着している。",
+      "de": "Die Grundvorstellung ist das Durchqueren eines Bereichs oder einer Abfolge. Daraus entstehen Bedeutungen wie 'einen Ort passieren', 'Punkte nacheinander prüfen', 'ein Verfahren erfolgreich passieren' und 'als etwas akzeptiert werden'. 'Durchsehen' betont das Sichten, 'durchlesen' das vollständige Lesen und 'durcharbeiten' die intensive Bearbeitung. 'Durchgehen' legt den Schwerpunkt auf das schrittweise Behandeln. 'Der Antrag ist durchgegangen' ist umgangssprachlich; in juristischen Texten sollte der konkrete Verfahrensausgang präzise bezeichnet werden. 'Als Experte durchgehen' kann bedeuten, dass jemand nur dafür gehalten wird. Das Durchgehen eines Pferdes bezeichnet unkontrolliertes Losrennen; die Pferde-Redewendung überträgt dies auf Menschen. 'Durchgehen lassen' ist eine eigenständige Konstruktion mit 'lassen'."
+    },
+    "collocations": [
+      {
+        "de": "die Unterlagen durchgehen",
+        "ja": "資料を一つずつ確認する"
+      },
+      {
+        "de": "einen Vertrag durchgehen",
+        "ja": "契約書を検討する"
+      },
+      {
+        "de": "einen Entwurf durchgehen",
+        "ja": "草案を点検する"
+      },
+      {
+        "de": "die Patentansprüche durchgehen",
+        "ja": "特許請求項を順に確認する"
+      },
+      {
+        "de": "eine Markenliste durchgehen",
+        "ja": "商標一覧を確認する"
+      },
+      {
+        "de": "eine Akte durchgehen",
+        "ja": "事件記録を点検する"
+      },
+      {
+        "de": "die Tagesordnung durchgehen",
+        "ja": "議題を順に確認する"
+      },
+      {
+        "de": "die einzelnen Punkte durchgehen",
+        "ja": "各項目を検討する"
+      },
+      {
+        "de": "eine Checkliste durchgehen",
+        "ja": "チェックリストを確認する"
+      },
+      {
+        "de": "alle Möglichkeiten durchgehen",
+        "ja": "可能性を一通り検討する"
+      },
+      {
+        "de": "die Fragen noch einmal durchgehen",
+        "ja": "質問を再確認する"
+      },
+      {
+        "de": "einen Text Satz für Satz durchgehen",
+        "ja": "文章を一文ずつ確認する"
+      },
+      {
+        "de": "die Argumente gemeinsam durchgehen",
+        "ja": "論拠を一緒に検討する"
+      },
+      {
+        "de": "etwas gründlich durchgehen",
+        "ja": "何かを徹底的に点検する"
+      },
+      {
+        "de": "etwas Schritt für Schritt durchgehen",
+        "ja": "順を追って検討する"
+      },
+      {
+        "de": "durch den Park durchgehen",
+        "ja": "公園を通り抜ける"
+      },
+      {
+        "de": "durch die Tür durchgehen",
+        "ja": "ドアを通り抜ける"
+      },
+      {
+        "de": "Der Antrag ist durchgegangen.",
+        "ja": "申請が通った（口語）"
+      },
+      {
+        "de": "Der Vorschlag ist durchgegangen.",
+        "ja": "提案が通った"
+      },
+      {
+        "de": "Die Zahlung ist durchgegangen.",
+        "ja": "決済が通った"
+      },
+      {
+        "de": "Der Anruf ist nicht durchgegangen.",
+        "ja": "電話がつながらなかった"
+      },
+      {
+        "de": "als glaubwürdig durchgehen",
+        "ja": "もっともらしいものとして通用する"
+      },
+      {
+        "de": "als Ausrede durchgehen",
+        "ja": "言い訳として通用する"
+      },
+      {
+        "de": "als Experte durchgehen",
+        "ja": "専門家として通用する"
+      },
+      {
+        "de": "Das lasse ich nicht durchgehen.",
+        "ja": "そんなことは見逃せない"
+      },
+      {
+        "de": "jemandem einen Fehler durchgehen lassen",
+        "ja": "人の誤りを大目に見る"
+      },
+      {
+        "de": "mit jemandem durchgehen",
+        "ja": "人と駆け落ちする（古風）"
+      },
+      {
+        "de": "Das Pferd ist durchgegangen.",
+        "ja": "馬が暴走した"
+      },
+      {
+        "de": "Mit ihm sind die Pferde durchgegangen.",
+        "ja": "彼は我を忘れて暴走した"
+      }
+    ],
+    "minimal": {
+      "ja": "durchgehen＝通過する・順に点検する・通る・通用する・暴走する／durchsehen＝目を通す、点検する／durchlesen＝文章を通読する／durcharbeiten＝丹念に取り組む／durchsprechen＝項目を一つずつ話し合う／überprüfen＝正確性・適合性を検証する／prüfen＝検査・審査する／besprechen＝協議する／durchkommen＝難所・試験などを突破する／genehmigen＝正式に許可する／bewilligen＝申請や給付を承認する／akzeptieren＝受け入れる／als etwas gelten＝～と見なされる／durchgehen lassen＝誤りを大目に見る／übersehen＝見落とす／ein Auge zudrücken＝見て見ぬふりをする／durchbrennen＝逃げる・駆け落ちする。",
+      "de": "durchgehen = einen Ort passieren, Punkte nacheinander prüfen, umgangssprachlich angenommen werden, als etwas gelten oder außer Kontrolle geraten; durchsehen = etwas sichten; durchlesen = einen Text vollständig lesen; durcharbeiten = Material gründlich bearbeiten; durchsprechen = Punkte gemeinsam erörtern; überprüfen = Richtigkeit kontrollieren; prüfen = fachlich bewerten; besprechen = gemeinsam erörtern; durchkommen = eine Hürde überwinden; genehmigen = offiziell erlauben; bewilligen = einen Antrag positiv bescheiden; akzeptieren = annehmen; als etwas gelten = als etwas angesehen werden; durchgehen lassen = einen Fehler dulden; übersehen = etwas nicht bemerken; ein Auge zudrücken = bewusst nachsichtig sein; durchbrennen = fortlaufen oder fliehen."
+    },
+    "equivalents": {
+      "en": [
+        "to go through",
+        "to go over",
+        "to review",
+        "to get approved",
+        "to go through (payment)",
+        "to pass as",
+        "to bolt (horse)",
+        "to let slide (with lassen)"
+      ],
+      "it": [
+        "attraversare",
+        "esaminare punto per punto",
+        "rivedere",
+        "essere approvato",
+        "andare a buon fine",
+        "passare per",
+        "imbizzarrirsi",
+        "lasciar correre"
+      ],
+      "fr": [
+        "traverser",
+        "passer en revue",
+        "examiner point par point",
+        "être approuvé",
+        "passer pour",
+        "s'emballer",
+        "laisser passer"
+      ],
+      "es": [
+        "atravesar",
+        "repasar",
+        "revisar punto por punto",
+        "ser aprobado",
+        "pasar por",
+        "desbocarse",
+        "dejar pasar"
+      ]
+    },
+    "etymology": {
+      "ja": "durch（～を通って）＋ gehen（行く）からなる複合動詞。空間的な『通り抜ける』から、資料を順にたどる『検討する』、判断や手続を『通る』、基準を満たして『～として通用する』へと意味が広がった。馬の暴走や感情の暴走は別の比喩的用法。durchgehen lassen は『通してやる』から『許容する』と理解できる。",
+      "de": "Das Verb setzt sich aus 'durch' und 'gehen' zusammen. Aus dem räumlichen Durchqueren entwickelten sich übertragene Bedeutungen des schrittweisen Prüfens, des erfolgreichen Passierens einer Hürde und des Geltens als etwas. Die Bedeutung 'ein Pferd geht durch' bezeichnet unkontrolliertes Losrennen. In der Verbindung 'durchgehen lassen' entsteht die Bedeutung des Duldens."
+    },
+    "example": {
+      "ja": "1. 明日、契約書の草案を一緒に検討します。\n2. その弁理士は特許請求項を一文ずつ確認しました。\n3. 指摘事項をもう一度確認すべきです。\n4. チェックリストを最後まで確認してください。\n5. 私たちは裏口を通り抜けました。\n6. その提案は意外にも通りました。\n7. カード決済が通りませんでした。\n8. 彼の説明は言い訳として通用するかもしれません。\n9. それは一度なら大目に見られます。\n10. 大きな音がしたとき、馬は暴走しました。",
+      "de": "1. Wir gehen den Vertragsentwurf morgen gemeinsam durch.\n2. Die Patentanwältin ist die Ansprüche Satz für Satz durchgegangen.\n3. Wir sollten die Einwände noch einmal durchgehen.\n4. Gehen Sie bitte die Checkliste vollständig durch.\n5. Wir sind durch den Hintereingang durchgegangen.\n6. Der Vorschlag ist überraschend durchgegangen.\n7. Die Kartenzahlung ist nicht durchgegangen.\n8. Seine Erklärung könnte als Entschuldigung durchgehen.\n9. Das kann ich einmal durchgehen lassen.\n10. Als es knallte, ging das Pferd durch."
+    },
+    "task": {
+      "ja": "①『明日、契約書の草案を一緒に検討する』②『弁理士は特許請求項を一文ずつ確認した』③『指摘事項をもう一度確認すべきだ』④『チェックリストを最後まで確認してください』⑤『私たちは裏口を通り抜けた』⑥『提案は意外にも通った』⑦『カード決済は通らなかった』⑧『その説明は言い訳として通用するかもしれない』⑨『一度なら大目に見られる』⑩『大きな音で馬が暴走した』を独訳する。",
+      "de": "Formuliere zehn Sätze: ① einen Vertragsentwurf gemeinsam prüfen, ② Patentansprüche Satz für Satz prüfen, ③ Einwände erneut durchgehen, ④ eine Checkliste vollständig prüfen, ⑤ einen Hintereingang passieren, ⑥ ein angenommener Vorschlag, ⑦ eine gescheiterte Kartenzahlung, ⑧ eine Erklärung als Entschuldigung, ⑨ einen Fehler ausnahmsweise durchgehen lassen und ⑩ ein Pferd, das durchgeht. Verwende Präsens, Präteritum, Perfekt und eine Konstruktion mit 'als'."
+    }
   }
 ]
