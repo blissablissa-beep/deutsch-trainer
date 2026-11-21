@@ -9768,5 +9768,253 @@
       "ja": "次の文を ärmlich を用いて独訳する。①彼は貧しい環境で育ったが、後に大学で学べた。②住居の調度品は粗末だったが清潔だった。③村外れには粗末な小屋がいくつか建っていた。④その男性は粗末な服を着ていたが経済状況は不明だった。⑤家具の少なさのため部屋は貧相に見えた。⑥家族は粗末な食事で満足せざるを得なかった。⑦彼女は貧しい家庭の出身だった。⑧設備は予想以上に貧弱だった。⑨家は質素だが決して貧相ではなかった。⑩粗末な服装だけから所得は推測できない。",
       "de": "Formuliere zehn Sätze mit ärmlich: ① Aufwachsen in Armut und späteres Studium, ② eine einfache, aber saubere Wohnung, ③ Hütten am Dorfrand, ④ Kleidung ohne sichere Kenntnis der finanziellen Lage, ⑤ ein spärlich möbliertes Zimmer, ⑥ ein kärgliches Mahl, ⑦ Herkunft aus armen Verhältnissen, ⑧ eine noch dürftigere Ausstattung als erwartet (Komparativ), ⑨ der Gegensatz zwischen bescheiden und ärmlich, ⑩ die Grenzen von Rückschlüssen aus Kleidung auf Einkommen. Verwende attributive, prädikative und adverbiale Formen."
     }
+  },
+  {
+    "id": "armselig",
+    "sid": "2026-00372",
+    "word": "armselig",
+    "tags": [
+      "adj",
+      "adv",
+      "poverty",
+      "living_conditions",
+      "appearance",
+      "evaluation",
+      "contempt",
+      "pity",
+      "criticism",
+      "insufficiency",
+      "emotion"
+    ],
+    "level": "B2-C1",
+    "freq": "sometimes",
+    "grammar": {
+      "pos": "adj",
+      "comparative": "armseliger",
+      "superlative": "am armseligsten",
+      "attributive": true,
+      "predicative": true,
+      "adverbial": true,
+      "patterns": [
+        "eine armselige Hütte",
+        "eine armselige Behausung",
+        "ein armseliges Zimmer",
+        "ein armseliges Mahl",
+        "armselige Kleidung",
+        "ein armseliges Dasein",
+        "ein armseliges Leben fristen",
+        "ein armseliger Anblick",
+        "einen armseligen Eindruck machen",
+        "armselig aussehen",
+        "armselig ausgestattet sein",
+        "eine armselige Ausrede",
+        "eine armselige Rechtfertigung",
+        "ein armseliger Versuch",
+        "eine armselige Leistung",
+        "ein armseliges Ergebnis",
+        "eine armselige Bilanz",
+        "ein armseliges Schauspiel",
+        "armselige Argumente",
+        "eine armselige Entschuldigung",
+        "ein armseliger Rest",
+        "ein armseliger Lohn",
+        "ein armseliger Tropf",
+        "sich armselig benehmen",
+        "geradezu armselig",
+        "wie armselig!",
+        "etwas für armselig halten",
+        "etwas als armselig bezeichnen",
+        "etwas wirkt armselig",
+        "noch armseliger als ..."
+      ],
+      "register": "standardsprachlich; bei sozialer Beschreibung oft mitleidig, bei Bewertung von Verhalten oder Leistungen deutlich abwertend; in sachlichen Fachtexten meist vermeiden",
+      "related_noun": "die Armseligkeit",
+      "word_family": [
+        "arm",
+        "die Armut",
+        "ärmlich",
+        "die Ärmlichkeit",
+        "armselig",
+        "die Armseligkeit",
+        "verarmen",
+        "erbärmlich",
+        "kümmerlich"
+      ],
+      "declension_examples": [
+        "ein armseliger Versuch",
+        "eine armselige Ausrede",
+        "ein armseliges Ergebnis",
+        "armselige Verhältnisse",
+        "die armseligen Hütten",
+        "mit einem armseligen Lohn",
+        "wegen seiner armseligen Ausrede",
+        "eine noch armseligere Leistung"
+      ],
+      "usage_note": "Attributiv wird armselig flektiert; prädikativ und adverbial bleibt es ungebeugt. Die Steigerung lautet armselig – armseliger – am armseligsten, ohne Umlaut. 'Armselig' ist bei Kritik an Personen, Ausreden oder Leistungen häufig ein stark negatives Werturteil. Sachliche Alternativen sind etwa 'nicht überzeugend', 'unzureichend' oder 'nicht hinreichend begründet'."
+    },
+    "pronunciation": {
+      "ipa": "/ˈaʁmzeːlɪç/"
+    },
+    "meaning": {
+      "ja": "①（住居・衣服・食事などが）ひどく粗末な、貧相な、みすぼらしい ②（生活・境遇などが）惨めな、哀れな ③（言い訳・行為・振る舞いなどが）情けない、くだらない、軽蔑すべき ④（成果・試み・論拠などが）お粗末な、期待外れの ⑤（量・報酬などが）あまりに少ない、貧弱な、取るに足りない ⑥【副詞的】みすぼらしく、情けなく。",
+      "de": "①von Behausungen, Kleidung oder Mahlzeiten: sehr dürftig, kümmerlich und wenig ansehnlich ②von Lebensumständen: elend, beklagenswert ③von Ausreden oder Verhaltensweisen: verachtenswert, kläglich oder beschämend ④von Leistungen, Versuchen oder Argumenten: enttäuschend schlecht, unzulänglich ⑤von Mengen oder Entlohnung: äußerst gering und als unzureichend empfunden ⑥adverbial: auf eine kümmerliche oder beschämend schlechte Weise."
+    },
+    "nuance": {
+      "ja": "armselig は物質的な貧困・粗末さと、評価上の惨めさ・情けなさの双方を表す。eine armselige Hütte は eine ärmliche Hütte と重なるが、armselig は話者の同情・失望・否定的評価を強く帯びやすい。eine armselige Ausrede や ein armseliger Versuch では経済的貧困ではなく、説得力・質・品位の欠如を非難する。ärmlich は主として生活条件や外見の物質的な乏しさを描写し、この種の強い非難には通常用いない。arm は経済的貧困や不足そのものを表し、der arme Mann では同情を示す。ein armseliger Mensch は同情だけでなく侮蔑にもなり得るため注意する。erbärmlich も惨めさ・劣悪さを表し、強い非難に用いるが、両者の強度は文脈によって変わる。kümmerlich は発達・規模の貧弱さ、dürftig は内容不足、kläglich は惨憺たる失敗や哀れな様子、jämmerlich は嘆かわしさ・惨めさを強調する。専門的な批判では armselig より unzureichend, nicht überzeugend, unsubstantiiert などの具体的な表現が適する。",
+      "de": "Armselig bezeichnet sowohl materielle Dürftigkeit als auch eine als kläglich, beschämend oder verachtenswert bewertete Qualität. Eine armselige Hütte kann ebenso wie eine ärmliche Hütte von Armut zeugen, doch armselig vermittelt häufiger eine stärkere emotionale Bewertung. In 'eine armselige Ausrede' oder 'ein armseliger Versuch' geht es nicht um Geldmangel, sondern um mangelhafte Qualität, fehlende Überzeugungskraft oder Geringschätzung. Ärmlich beschreibt vorwiegend geringe materielle Ausstattung und passt zu solchen Vorwürfen normalerweise nicht. Arm bezeichnet einen Mangel an Mitteln oder Ressourcen und kann auch Mitleid ausdrücken ('der arme Mann'). 'Ein armseliger Mensch' kann dagegen verächtlich klingen. Erbärmlich ist ebenfalls stark wertend; eine feste Rangfolge der Intensität zwischen beiden Wörtern besteht nicht. Kümmerlich betont geringe Entwicklung oder Größe, dürftig die Unzulänglichkeit, kläglich einen traurigen Zustand oder auffälligen Misserfolg und jämmerlich das Elende oder Beklagenswerte. In sachlicher Kritik sind konkrete Formulierungen wie 'unzureichend', 'nicht überzeugend' oder 'nicht hinreichend begründet' meist geeigneter."
+    },
+    "collocations": [
+      {
+        "de": "eine armselige Hütte",
+        "ja": "粗末な小屋"
+      },
+      {
+        "de": "eine armselige Behausung",
+        "ja": "貧相な住まい"
+      },
+      {
+        "de": "ein armseliges Zimmer",
+        "ja": "みすぼらしい部屋"
+      },
+      {
+        "de": "ein armseliges Mahl",
+        "ja": "粗末な食事"
+      },
+      {
+        "de": "armselige Kleidung",
+        "ja": "みすぼらしい衣服"
+      },
+      {
+        "de": "ein armseliges Dasein",
+        "ja": "惨めな暮らし"
+      },
+      {
+        "de": "ein armseliges Leben fristen",
+        "ja": "惨めな生活を送る"
+      },
+      {
+        "de": "ein armseliger Anblick",
+        "ja": "みすぼらしい光景"
+      },
+      {
+        "de": "einen armseligen Eindruck machen",
+        "ja": "貧相な印象を与える"
+      },
+      {
+        "de": "armselig aussehen",
+        "ja": "みすぼらしく見える"
+      },
+      {
+        "de": "armselig ausgestattet sein",
+        "ja": "設備がひどく貧弱である"
+      },
+      {
+        "de": "eine armselige Ausrede",
+        "ja": "情けない言い訳"
+      },
+      {
+        "de": "eine armselige Rechtfertigung",
+        "ja": "お粗末な正当化"
+      },
+      {
+        "de": "ein armseliger Versuch",
+        "ja": "お粗末な試み"
+      },
+      {
+        "de": "eine armselige Leistung",
+        "ja": "情けない出来栄え"
+      },
+      {
+        "de": "ein armseliges Ergebnis",
+        "ja": "お粗末な結果"
+      },
+      {
+        "de": "eine armselige Bilanz",
+        "ja": "惨憺たる成果"
+      },
+      {
+        "de": "ein armseliges Schauspiel",
+        "ja": "情けない茶番"
+      },
+      {
+        "de": "armselige Argumente",
+        "ja": "お粗末な論拠"
+      },
+      {
+        "de": "eine armselige Entschuldigung",
+        "ja": "お粗末な謝罪・言い訳（文脈による）"
+      },
+      {
+        "de": "ein armseliger Rest",
+        "ja": "わずかな残り物"
+      },
+      {
+        "de": "ein armseliger Lohn",
+        "ja": "あまりに少ない賃金"
+      },
+      {
+        "de": "ein armseliger Tropf",
+        "ja": "哀れなやつ（見下す響きを伴い得る）"
+      },
+      {
+        "de": "sich armselig benehmen",
+        "ja": "情けない振る舞いをする"
+      },
+      {
+        "de": "geradezu armselig",
+        "ja": "まったくもって情けない"
+      },
+      {
+        "de": "wie armselig!",
+        "ja": "なんと情けないことか！"
+      }
+    ],
+    "minimal": {
+      "ja": "armselig＝貧相な・惨めな・情けない。物質的欠乏と否定的評価の双方／ärmlich＝貧しげな・粗末な。物質的な生活環境や外見を主に描写／arm＝貧しい・乏しい・かわいそうな／erbärmlich＝惨めな・ひどく情けない。強い評価／kümmerlich＝貧弱な・発育の悪い／dürftig＝不十分な・乏しい／karg＝量が少ない・簡素な／kläglich＝哀れな・惨憺たる。失敗や結果にも用いる／jämmerlich＝惨めな・嘆かわしい／miserabel＝ひどく悪い。品質・状態への評価／lächerlich＝ばかげた・笑止千万な／nichtssagend＝何も伝えない・中身のない／unzureichend＝不十分な。客観的な批判に適する／bescheiden＝質素な・控えめな。肯定的にも用いる／schäbig＝みすぼらしい・卑劣な。外見と道徳的評価／bemitleidenswert＝同情すべき。軽蔑を必ずしも含まない／beachtlich＝注目に値する／beeindruckend＝印象的な。成果に対する対義的評価／prachtvoll＝豪華な。物質的外観の対比。",
+      "de": "armselig = materiell kümmerlich oder beschämend schlecht; ärmlich = von Armut oder geringer Ausstattung geprägt; arm = ohne ausreichende Mittel, auch bedauernswert; erbärmlich = elend oder äußerst schlecht; kümmerlich = schwach entwickelt oder geringfügig; dürftig = unzureichend oder knapp; karg = knapp bemessen oder schmucklos; kläglich = beklagenswert oder auffällig erfolglos; jämmerlich = elend oder beklagenswert; miserabel = sehr schlecht; lächerlich = so unsinnig oder geringfügig, dass es Spott hervorruft; nichtssagend = ohne wesentlichen Aussagegehalt; unzureichend = Anforderungen nicht genügend; bescheiden = einfach oder zurückhaltend, auch positiv; schäbig = abgenutzt oder moralisch niederträchtig; bemitleidenswert = Mitleid verdienend; beachtlich = der Beachtung wert; beeindruckend = einen starken positiven Eindruck hinterlassend; prachtvoll = außergewöhnlich prächtig. Die letzten drei Wörter bilden je nach Kontext mögliche Gegensätze."
+    },
+    "equivalents": {
+      "en": [
+        "wretched",
+        "pitiful",
+        "pathetic",
+        "paltry",
+        "shabby",
+        "miserable"
+      ],
+      "it": [
+        "misero",
+        "patetico",
+        "meschino",
+        "penoso",
+        "esiguo (quantità)"
+      ],
+      "fr": [
+        "misérable",
+        "pitoyable",
+        "lamentable",
+        "minable (familier)",
+        "dérisoire (quantité)"
+      ],
+      "es": [
+        "mísero",
+        "lamentable",
+        "patético",
+        "miserable",
+        "irrisorio (cantidad)"
+      ]
+    },
+    "etymology": {
+      "ja": "中高ドイツ語の armsælec にさかのぼる語で、古い段階から貧困・不幸・惨めさに関わる意味を持つ。現代語では arm と -selig が結合した形に見えるが、selig の現代的意味『幸福な、至福の』を単純に足し合わせて理解することはできない。物質的に恵まれない様子から、生活の惨めさ、さらに言動や成果に対する否定的評価を表す用法が定着している。名詞形は die Armseligkeit。ärmlich は同じ arm に由来するが、別の派生語である。",
+      "de": "Das Wort ist bereits im Mittelhochdeutschen als armsælec belegt und bezeichnete Armut oder Unglück. Die heutige Form lässt die Bestandteile arm und -selig erkennen; aus der modernen positiven Bedeutung des selbstständigen Adjektivs selig lässt sich die Wortbedeutung jedoch nicht einfach zusammensetzen. Neben materieller Dürftigkeit bezeichnet armselig heute auch einen beklagenswerten Zustand oder eine stark negativ bewertete Leistung beziehungsweise Verhaltensweise. Das zugehörige Substantiv ist die Armseligkeit. Ärmlich ist eine andere Ableitung von arm."
+    },
+    "example": {
+      "ja": "1. 難民は当初、粗末な小屋で暮らさざるを得なかった。\n2. 彼は何年も改善の見込みのない惨めな暮らしを送っていた。\n3. それは君の振る舞いに対する実に情けない言い訳だ。\n4. あれだけ大々的に予告した割には、結果はかなりお粗末だった。\n5. 彼女は責任を他人に押し付けようとする試みを情けないと思った。\n6. かつて非常に充実していたコレクションには、わずかな残りしかなかった。\n7. 彼らはこの重労働に対してあまりに少ない賃金しか得られなかった。\n8. 相手方は証拠を提出しなかったが、それでも準備書面でその論証をお粗末と形容するのは不適切だろう。\n9. 部屋の家具は粗末だったが、彼女は自分の人生を決して惨めだとは感じていなかった。\n10. 彼はこれ以上情けない言い訳を思い付くことなどほとんどできなかっただろう。",
+      "de": "1. Die Flüchtlinge mussten zunächst in armseligen Hütten leben.\n2. Er fristete jahrelang ein armseliges Dasein, ohne Aussicht auf Besserung.\n3. Das ist eine armselige Ausrede für dein Verhalten.\n4. Nach all den Ankündigungen war das Ergebnis ziemlich armselig.\n5. Sie hielt den Versuch, die Verantwortung auf andere abzuwälzen, für armselig.\n6. Von der einst so reichen Sammlung war nur noch ein armseliger Rest übrig.\n7. Für diese schwere Arbeit erhielten sie einen armseligen Lohn.\n8. Die Gegenseite legte keine Belege vor; ihre Argumentation als armselig zu bezeichnen wäre in einem Schriftsatz dennoch unangemessen.\n9. Obwohl das Zimmer ärmlich eingerichtet war, empfand sie ihr Leben keineswegs als armselig.\n10. Eine noch armseligere Ausrede hätte er sich kaum einfallen lassen können."
+    },
+    "task": {
+      "ja": "次の文を armselig を使って独訳する。①難民は当初粗末な小屋で暮らさざるを得なかった。②彼は何年も惨めな暮らしを送った。③それは君の振る舞いに対する情けない言い訳だ。④予告の割に結果はお粗末だった。⑤彼女は責任転嫁の試みを情けないと思った。⑥充実していたコレクションにはわずかな残りしかなかった。⑦重労働に対する賃金はあまりに少なかった。⑧準備書面で相手方の論証をお粗末と呼ぶのは不適切だ。⑨部屋は粗末だったが、彼女は人生を惨めだとは思わなかった（ärmlich と比較）。⑩これ以上情けない言い訳はほとんど思い付かないだろう（比較級）。",
+      "de": "Formuliere zehn Sätze: ① notdürftige Hütten, ② ein beklagenswertes Dasein, ③ eine schlechte Ausrede, ④ ein enttäuschendes Ergebnis, ⑤ das Abwälzen von Verantwortung, ⑥ einen kümmerlichen Rest einer Sammlung, ⑦ unzureichenden Lohn, ⑧ die Unangemessenheit abwertender Wortwahl in einem Schriftsatz, ⑨ den Unterschied zwischen einer ärmlich eingerichteten Wohnung und einem als armselig empfundenen Leben, ⑩ eine noch schlechtere Ausrede (Komparativ). Verwende armselig in attributiver, prädikativer und adverbialer Funktion."
+    }
   }
 ]
