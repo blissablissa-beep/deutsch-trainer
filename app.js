@@ -945,7 +945,8 @@ async function loadAllCardFiles() {
   const fileNames = [
     "cards.json",
     "data/cards2.json",
-    "data/cards3.json"
+    "data/cards3.json",
+    "data/cards4.json"
   ];
 
   for (
