@@ -1,1 +1,143 @@
-[]
+[
+  {
+    "id": "gelegen",
+    "sid": "2026-00381",
+    "word": "gelegen",
+    "tags": [
+      "adj",
+      "participle",
+      "location",
+      "timing",
+      "idiom"
+    ],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "adj",
+      "attributive": true,
+      "predicative": true,
+      "adverbial": true,
+      "register": "Standardsprachlich. 'Jemandem ist an etwas gelegen' wirkt eher gehoben.",
+      "case": "Dativ der Person bei 'jemandem gelegen kommen' und 'jemandem ist an etwas (Dat.) gelegen'.",
+      "patterns": [
+        "zentral / ruhig / verkehrsgünstig gelegen sein",
+        "ein zentral gelegenes Hotel",
+        "jemandem (Dat.) gelegen / ungelegen kommen",
+        "jemandem (Dat.) ist an etwas (Dat.) gelegen",
+        "jemandem (Dat.) ist daran gelegen, etwas zu tun",
+        "liegen → lag → hat gelegen"
+      ],
+      "declension_examples": [
+        "ein zentral gelegenes Hotel",
+        "eine ruhig gelegene Wohnung",
+        "in einem günstig gelegenen Gebäude",
+        "höher gelegene Orte"
+      ],
+      "word_family": [
+        "liegen",
+        "gelegen",
+        "ungelegen"
+      ],
+      "usage_note": "Bei Ortsangaben wird gelegen attributiv flektiert: 'eine ruhig gelegene Wohnung'. In 'Das Hotel ist ruhig gelegen', 'Der Anruf kommt mir gelegen' und 'Mir ist daran gelegen, …' bleibt es unverändert. In 'Das Buch hat auf dem Tisch gelegen' ist gelegen das Partizip II des Verbs liegen."
+    },
+    "pronunciation": {
+      "ipa": "/ɡəˈleːɡn̩/"
+    },
+    "meaning": {
+      "ja": "①【立地】（ある場所に）位置している、立地している。②【jemandem gelegen kommen】人にとって都合がよい、ちょうどよい時に起こる。③【jemandem ist an etwas gelegen】人にとってあることが大切である、実現を望んでいる。④【liegen の過去分詞】横たわっていた、置かれていた、位置していた、などの完了形を作る。",
+      "de": "① An einem bestimmten Ort oder in einer bestimmten Lage befindlich. ② In 'jemandem gelegen kommen': für jemanden zu einem günstigen Zeitpunkt eintreten oder unter den Umständen willkommen sein. ③ In 'jemandem ist an etwas gelegen': jemandem ist etwas wichtig oder jemand möchte etwas erreichen. ④ Partizip II von liegen, etwa im Perfekt 'hat auf dem Tisch gelegen'."
+    },
+    "nuance": {
+      "ja": "立地では Das Hotel liegt zentral. と Das Hotel ist zentral gelegen. の両方が使える。名詞を直接修飾する ein zentral gelegenes Hotel では gelegen に語尾が付く。jemandem gelegen kommen は、電話や知らせなどがその人にとって今の状況にちょうどよいことを表す。訳は「ちょうどいい」「助かる」など。ungelegen kommen は間が悪いこと。jemandem ist an etwas gelegen は、その人が何かを大切に思ったり、実現を望んでいたりすることを表す、やや改まった言い方。名詞句では an einer Lösung、後ろに zu 不定詞を続ける場合は daran を使える。Mir liegt viel daran, … も近い。liegen（位置・状態）の過去分詞は gelegen、legen（置くという動作）の過去分詞は gelegt。",
+      "de": "Bei Ortsangaben sind 'Das Hotel liegt zentral' und 'Das Hotel ist zentral gelegen' möglich. Attributiv erhält gelegen eine Endung, etwa in 'ein zentral gelegenes Hotel'. 'Jemandem gelegen kommen' bewertet einen Anruf oder ein Ereignis als passend für die aktuelle Situation. 'Ungelegen kommen' bezeichnet einen ungünstigen Zeitpunkt. Die eher gehobene Wendung 'jemandem ist an etwas gelegen' drückt aus, dass jemand etwas für wichtig hält oder erreichen möchte. Möglich sind eine Nominalgruppe mit an und Dativ sowie daran mit einem zu-Infinitiv. 'Mir liegt viel daran, …' hat eine ähnliche Bedeutung. Gelegen ist das Partizip II von liegen, gelegt das von legen."
+    },
+    "minimal": {
+      "ja": "zentral gelegen＝中心部に位置する／verkehrsgünstig gelegen＝交通の便がよい／jemandem gelegen kommen＝その人にとって都合よく起こる／jemandem passen＝日程・条件などがその人の都合に合う／jemandem ungelegen kommen＝その人には間が悪い／jemandem ist daran gelegen, …＝その人は～することを重視している。",
+      "de": "Zentral gelegen = an einem zentralen Ort. Verkehrsgünstig gelegen = gut an das Verkehrsnetz angebunden. Jemandem gelegen kommen = für jemanden unter den aktuellen Umständen willkommen sein. Jemandem passen = mit den Bedürfnissen oder Plänen der Person vereinbar sein. Jemandem ungelegen kommen = zu einem ungünstigen Zeitpunkt eintreten. Jemandem ist daran gelegen, … = jemand legt Wert auf ein bestimmtes Ziel."
+    },
+    "collocations": [
+      {
+        "de": "zentral gelegen",
+        "ja": "中心部に位置する"
+      },
+      {
+        "de": "ruhig gelegen",
+        "ja": "静かな場所にある"
+      },
+      {
+        "de": "verkehrsgünstig gelegen",
+        "ja": "交通の便がよい"
+      },
+      {
+        "de": "ein günstig gelegenes Hotel",
+        "ja": "立地のよいホテル"
+      },
+      {
+        "de": "höher gelegene Orte",
+        "ja": "より標高の高い場所"
+      },
+      {
+        "de": "jemandem gerade recht gelegen kommen",
+        "ja": "人にとってちょうどよい時に起こる"
+      },
+      {
+        "de": "jemandem sehr gelegen kommen",
+        "ja": "人にとってとても都合がよい"
+      },
+      {
+        "de": "jemandem ungelegen kommen",
+        "ja": "人にとって間が悪い"
+      },
+      {
+        "de": "jemandem gar nicht ungelegen kommen",
+        "ja": "人にとってむしろ好都合である"
+      },
+      {
+        "de": "jemandem ist an einer Lösung gelegen",
+        "ja": "人は解決策を得ることを重視している"
+      },
+      {
+        "de": "jemandem ist daran gelegen, etwas zu klären",
+        "ja": "人はある事柄を明らかにしたいと考えている"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "located",
+        "situated",
+        "to come at a good time",
+        "to be keen to"
+      ],
+      "it": [
+        "situato",
+        "ben posizionato",
+        "capitare a proposito",
+        "stare a cuore"
+      ],
+      "fr": [
+        "situé",
+        "bien placé",
+        "tomber à pic",
+        "tenir à"
+      ],
+      "es": [
+        "situado",
+        "bien ubicado",
+        "venir muy bien",
+        "interesarle a alguien"
+      ]
+    },
+    "etymology": {
+      "ja": "形は liegen の過去分詞 ge- + -legen。立地を表す形容詞的な用法でもこの形を使う。legen（置く）の過去分詞は gelegt。",
+      "de": "Gelegen ist der Form nach das Partizip II des starken Verbs liegen. Bei Ortsangaben wird diese Form auch adjektivisch gebraucht. Das schwache Verb legen bildet dagegen das Partizip II gelegt."
+    },
+    "example": {
+      "ja": "1. ホテルは中心部にあり、駅から徒歩で行ける。\n2. 私たちは街のはずれで、静かな場所にある住まいを見つけた。\n3. その町は川沿いにある。私たちのホテルは少し高い所にある。\n4. ちょうどいいところに電話をくれたね。\n5. 中止の知らせは、彼女にはむしろ好都合だった。もともと別の予定があったからだ。\n6. 今ご回答いただけると、こちらとしては大変助かります。\n7. 私たちとしては、その誤解を早く解きたいと考えています。\n8. チームは、信頼できる解決策を得ることを重視している。\n9. その本はずっと机の上に置いてあった。",
+      "de": "1. Das Hotel ist zentral gelegen und vom Bahnhof aus zu Fuß erreichbar.\n2. Wir haben eine ruhig gelegene Wohnung am Stadtrand gefunden.\n3. Der Ort liegt am Fluss. Unser Hotel ist etwas höher gelegen.\n4. Dein Anruf kommt mir gerade sehr gelegen.\n5. Die Absage kam ihr gar nicht ungelegen. Sie hatte ohnehin einen anderen Termin.\n6. Ihre Rückmeldung käme uns jetzt sehr gelegen.\n7. Uns ist daran gelegen, das Missverständnis rasch auszuräumen.\n8. Dem Team ist an einer verlässlichen Lösung gelegen.\n9. Das Buch hat die ganze Zeit auf dem Tisch gelegen."
+    },
+    "task": {
+      "ja": "gelegen を使って独訳する。①私たちのホテルは中心部にある。②彼女は静かな場所にある住まいを見つけた。③ちょうどいいところに電話をくれたね。④私たちは誤解を早く解きたいと考えている。⑤本は一晩中机の上に置いてあった。②は名詞を直接修飾し、④は daran、⑤は liegen の完了形を使う。",
+      "de": "Formuliere fünf Sätze mit gelegen: ① ein Hotel im Zentrum, ② eine Wohnung in ruhiger Lage, ③ ein Anruf zur passenden Zeit, ④ der Wunsch, ein Missverständnis rasch auszuräumen, ⑤ ein Buch, das die ganze Nacht auf dem Tisch lag. Verwende in ② eine flektierte Form, in ④ daran und in ⑤ das Perfekt von liegen."
+    }
+  }
+]
