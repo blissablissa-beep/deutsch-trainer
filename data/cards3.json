@@ -11342,5 +11342,193 @@
       "ja": "独訳する。①現在の住所を記載してください。②寸法はミリメートルで表示されています。③証人は何も見ていないと述べた。④彼はいつも新車を自慢する。⑤新規格の策定ではその企業が主導権を握っている。③は完了不定詞、④は mit ＋与格、⑤は den Ton を用いる。",
       "de": "Formuliere fünf Sätze mit angeben: ① Bitte um die aktuelle Anschrift, ② Maße in Millimetern, ③ Zeugenaussage über eine ausgebliebene Beobachtung, ④ ständiges Prahlen mit dem neuen Auto, ⑤ bestimmender Einfluss eines Unternehmens bei neuen Standards. Verwende in ③ einen Perfektinfinitiv mit zu, in ④ mit + Dativ und in ⑤ den Ton."
     }
+  },
+  {
+    "id": "verlangsamen",
+    "sid": "2026-00380",
+    "word": "verlangsamen",
+    "tags": [
+      "verb",
+      "regular_verb",
+      "inseparable_verb",
+      "reflexive",
+      "speed",
+      "process"
+    ],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "schwach, regelmäßig",
+      "auxiliary": "haben",
+      "separable": false,
+      "transitive": true,
+      "reflexive": true,
+      "case": "Akkusativobjekt bei transitivem Gebrauch. Reflexivpronomen im Akkusativ bei sich verlangsamen.",
+      "patterns": [
+        "etwas (Akk.) verlangsamen",
+        "sich (Akk.) verlangsamen",
+        "sich allmählich / deutlich verlangsamen",
+        "etwas um die Hälfte verlangsamen"
+      ],
+      "register": "standardsprachlich",
+      "related_noun": "die Verlangsamung",
+      "word_family": [
+        "langsam",
+        "verlangsamen",
+        "die Verlangsamung"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "verlangsame",
+          "du": "verlangsamst",
+          "er_sie_es": "verlangsamt",
+          "wir": "verlangsamen",
+          "ihr": "verlangsamt",
+          "sie_Sie": "verlangsamen"
+        },
+        "preterite": {
+          "ich": "verlangsamte",
+          "du": "verlangsamtest",
+          "er_sie_es": "verlangsamte",
+          "wir": "verlangsamten",
+          "ihr": "verlangsamtet",
+          "sie_Sie": "verlangsamten"
+        },
+        "perfect": {
+          "ich": "habe verlangsamt",
+          "du": "hast verlangsamt",
+          "er_sie_es": "hat verlangsamt",
+          "wir": "haben verlangsamt",
+          "ihr": "habt verlangsamt",
+          "sie_Sie": "haben verlangsamt"
+        },
+        "participle1": "verlangsamend",
+        "participle2": "verlangsamt",
+        "imperative": {
+          "du": "verlangsame",
+          "ihr": "verlangsamt",
+          "Sie": "verlangsamen Sie"
+        },
+        "infinitive_with_zu": "zu verlangsamen",
+        "subjunctive1": {
+          "ich": "verlangsame",
+          "du": "verlangsamest",
+          "er_sie_es": "verlangsame",
+          "wir": "verlangsamen",
+          "ihr": "verlangsamet",
+          "sie_Sie": "verlangsamen"
+        },
+        "subjunctive2": {
+          "ich": "verlangsamte",
+          "du": "verlangsamtest",
+          "er_sie_es": "verlangsamte",
+          "wir": "verlangsamten",
+          "ihr": "verlangsamtet",
+          "sie_Sie": "verlangsamten"
+        },
+        "passive": {
+          "personal_passive": true,
+          "examples": [
+            "Die Wiedergabe wird verlangsamt."
+          ],
+          "note": "Das persönliche Passiv bezieht sich auf den transitiven Gebrauch. 'Die Wiedergabe verlangsamt sich' beschreibt dagegen die Veränderung selbst."
+        }
+      },
+      "usage_note": "Das Präfix ver- ist untrennbar. Partizip II: verlangsamt, ohne zusätzliches ge-. Auch reflexiv steht im Perfekt haben: 'Das Wachstum hat sich verlangsamt.'"
+    },
+    "pronunciation": {
+      "ipa": "/fɛɐ̯ˈlaŋzaːmən/"
+    },
+    "meaning": {
+      "ja": "①（動き・再生・工程などの）速度や進行のペースを落とす、遅くする。②【再帰】速度が落ちる、進行や成長のペースが鈍る。",
+      "de": "① Die Geschwindigkeit einer Bewegung oder den Ablauf eines Vorgangs herabsetzen. ② Reflexiv: langsamer werden oder an Tempo verlieren."
+    },
+    "nuance": {
+      "ja": "速度や単位時間当たりの進み方が低下することに焦点がある。Das Wachstum hat sich verlangsamt. は以前より成長率が低くなったことを表し、たとえば前年の4％成長が今年の2％成長になった場合にも使える。verzögern は予定時刻や期待した時点より遅らせる意味で、開始や完了の先送りに使いやすい。ただし die Bearbeitung verzögern のように、処理の進捗を遅らせる文脈では重なる。abbremsen は車などを減速させるほか、進展にブレーキをかける比喩にも使う。langsamer werden は日常的に使える言い換えで、車が減速する場面では langsamer werden や abbremsen が自然。",
+      "de": "Verlangsamen rückt eine geringere Geschwindigkeit oder eine niedrigere Rate in den Vordergrund. 'Das Wachstum hat sich verlangsamt' passt etwa, wenn die Wachstumsrate von vier auf zwei Prozent fällt und die betrachtete Größe weiter wächst. Verzögern hebt häufig hervor, dass etwas später als geplant oder erwartet eintritt. Bei Vorgängen wie der Bearbeitung können sich die Bedeutungen überschneiden. Abbremsen bezeichnet das Herabsetzen der Fahrgeschwindigkeit und kann bildlich auch ein gezieltes Dämpfen einer Entwicklung ausdrücken. Langsamer werden ist eine geläufige Umschreibung, etwa bei einem Fahrzeug vor einer Kurve."
+    },
+    "minimal": {
+      "ja": "verlangsamen＝進むペースを落とす／sich verlangsamen＝進むペースが落ちる／verzögern＝予定や見込みより遅らせる／abbremsen＝減速させる、勢いを抑える／stocken＝進行が一時的に滞る／zum Stillstand kommen＝止まる／beschleunigen＝速度や進行を速める。",
+      "de": "verlangsamen = das Tempo senken. Sich verlangsamen = an Tempo verlieren. Verzögern = einen Ablauf aufhalten oder einen Zeitpunkt nach hinten rücken. Abbremsen = Geschwindigkeit oder Schwung dämpfen. Stocken = vorübergehend ins Stocken geraten und nicht gleichmäßig weitergehen. Zum Stillstand kommen = ganz aufhören, sich zu bewegen oder weiterzulaufen. Beschleunigen = das Tempo erhöhen."
+    },
+    "collocations": [
+      {
+        "de": "das Tempo verlangsamen",
+        "ja": "ペースを落とす"
+      },
+      {
+        "de": "den Schritt verlangsamen",
+        "ja": "歩みを緩める"
+      },
+      {
+        "de": "die Wiedergabe verlangsamen",
+        "ja": "再生速度を落とす"
+      },
+      {
+        "de": "den Ablauf verlangsamen",
+        "ja": "進行を遅くする"
+      },
+      {
+        "de": "die Bearbeitung verlangsamen",
+        "ja": "処理のペースを落とす"
+      },
+      {
+        "de": "den Prozess deutlich verlangsamen",
+        "ja": "工程の進行を大幅に遅くする"
+      },
+      {
+        "de": "das Wachstum verlangsamen",
+        "ja": "成長を鈍らせる"
+      },
+      {
+        "de": "die Atmung verlangsamen",
+        "ja": "呼吸をゆっくりにする"
+      },
+      {
+        "de": "das Wachstum verlangsamt sich",
+        "ja": "成長のペースが鈍る"
+      },
+      {
+        "de": "der Puls verlangsamt sich",
+        "ja": "脈拍がゆっくりになる"
+      },
+      {
+        "de": "sich allmählich verlangsamen",
+        "ja": "徐々にペースが落ちる"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "to slow down",
+        "to decelerate"
+      ],
+      "it": [
+        "rallentare",
+        "decelerare"
+      ],
+      "fr": [
+        "ralentir",
+        "se ralentir",
+        "décélérer"
+      ],
+      "es": [
+        "ralentizar",
+        "ralentizarse",
+        "desacelerar"
+      ]
+    },
+    "etymology": {
+      "ja": "形容詞 langsam をもとに、非分離接頭辞 ver- を用いて「遅くする」という変化を表す動詞を作ったもの。名詞は die Verlangsamung。",
+      "de": "Das Verb ist mit dem untrennbaren Präfix ver- zu langsam gebildet. Die Ableitung bezeichnet eine Veränderung hin zu einem geringeren Tempo. Das zugehörige Substantiv lautet Verlangsamung."
+    },
+    "example": {
+      "ja": "1. 彼女はカーブの手前でスピードを落とした。\n2. アップデートで起動に時間がかかるようになった。\n3. 確認工程が一つ増えたことで、申請の処理が遅くなっている。\n4. 第2四半期には成長のペースが鈍った。\n5. 少し休むと、彼の呼吸は再びゆっくりになった。\n6. 動きを詳しく見られるよう、動画の再生速度を落とした。\n7. 生産は続いているが、そのペースは大幅に落ちている。\n8. 納入トラブルで稼働開始が遅れ、その後は追加検査で生産のペースが落ちた。",
+      "de": "1. Vor der Kurve verlangsamte sie das Tempo.\n2. Das Update hat den Startvorgang verlangsamt.\n3. Der zusätzliche Prüfschritt verlangsamt die Bearbeitung der Anträge.\n4. Das Wachstum hat sich im zweiten Quartal verlangsamt.\n5. Nach einer kurzen Pause verlangsamte sich sein Atem wieder.\n6. Das Video wurde verlangsamt, damit man die Bewegung genauer sehen kann.\n7. Die Produktion läuft weiter, hat sich aber deutlich verlangsamt.\n8. Die Lieferprobleme verzögerten den Start, und die zusätzlichen Kontrollen verlangsamten danach die Produktion."
+    },
+    "task": {
+      "ja": "独訳する。①彼女はカーブの手前でスピードを落とした。②確認工程が増えたことで申請の処理が遅くなった。③第2四半期に成長のペースが鈍った。④動きをよく見られるように動画の再生速度を落とした。⑤納入トラブルで稼働開始が遅れ、追加検査で生産のペースが落ちた。③は再帰形、④は受動態、⑤は verzögern と verlangsamen を使う。",
+      "de": "Formuliere fünf Sätze: ① geringeres Tempo vor einer Kurve, ② langsamere Bearbeitung durch eine zusätzliche Prüfung, ③ geringeres Wachstumstempo im zweiten Quartal, ④ Video in Zeitlupe zur besseren Beobachtung, ⑤ späterer Produktionsbeginn wegen Lieferproblemen und langsamerer Ablauf wegen zusätzlicher Kontrollen. Verwende in ③ die reflexive Konstruktion, in ④ das Passiv und in ⑤ verzögern und verlangsamen."
+    }
   }
 ]
