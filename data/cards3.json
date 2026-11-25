@@ -11126,5 +11126,221 @@
       "ja": "次を独訳する。①今は静かでも油断しないで。②犬は注意深い目で門を見張っていた。③子どもたちは祖母に見守られながら庭で遊んでいた。④彼はまだ起きていたが、もう十分に注意を保てなかった。⑤警戒解除の後も彼女は気を緩めなかった。④では wach と wachsam、⑤では Wachsamkeit を用いる。",
       "de": "Formuliere fünf Sätze: ① Aufforderung zur Wachsamkeit trotz Ruhe, ② ein Hund, der das Tor mit wachsamem Blick beobachtet, ③ spielende Kinder unter den wachsamen Augen ihrer Großmutter, ④ eine noch wache Person, deren Aufmerksamkeit nachgelassen hat, ⑤ anhaltende Wachsamkeit nach der Entwarnung. Verwende in ④ wach und wachsam und in ⑤ Wachsamkeit."
     }
+  },
+  {
+    "id": "angeben",
+    "sid": "2026-00379",
+    "word": "angeben",
+    "tags": [
+      "verb",
+      "strong_verb",
+      "separable_verb",
+      "administration",
+      "law",
+      "colloquial",
+      "communication"
+    ],
+    "level": "B1",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "stark, unregelmäßig",
+      "auxiliary": "haben",
+      "separable": true,
+      "transitive": true,
+      "reflexive": false,
+      "case": "Akkusativ bei Angaben und beim Beschuldigen. Beim Prahlen ohne Akkusativobjekt, häufig mit + Dativ.",
+      "patterns": [
+        "etwas (Akk.) angeben",
+        "angeben, dass … / wie … / welche …",
+        "angeben, etwas getan zu haben",
+        "etwas als Grund angeben",
+        "mit etwas (Dat.) angeben",
+        "jemanden (Akk.) bei jemandem (Dat.) angeben"
+      ],
+      "register": "Standardsprachlich bei Informationen und Aussagen. Umgangssprachlich bei Prahlen und Petzen.",
+      "related_noun": "die Angabe (Plural: die Angaben)",
+      "word_family": [
+        "angeben",
+        "die Angabe",
+        "der Angeber",
+        "die Angeberin",
+        "die Angeberei"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "gebe an",
+          "du": "gibst an",
+          "er_sie_es": "gibt an",
+          "wir": "geben an",
+          "ihr": "gebt an",
+          "sie_Sie": "geben an"
+        },
+        "preterite": {
+          "ich": "gab an",
+          "du": "gabst an",
+          "er_sie_es": "gab an",
+          "wir": "gaben an",
+          "ihr": "gabt an",
+          "sie_Sie": "gaben an"
+        },
+        "perfect": {
+          "ich": "habe angegeben",
+          "du": "hast angegeben",
+          "er_sie_es": "hat angegeben",
+          "wir": "haben angegeben",
+          "ihr": "habt angegeben",
+          "sie_Sie": "haben angegeben"
+        },
+        "participle1": "angebend",
+        "participle2": "angegeben",
+        "imperative": {
+          "du": "gib an",
+          "ihr": "gebt an",
+          "Sie": "geben Sie an"
+        },
+        "infinitive_with_zu": "anzugeben",
+        "subjunctive1": {
+          "ich": "gebe an",
+          "du": "gebest an",
+          "er_sie_es": "gebe an",
+          "wir": "geben an",
+          "ihr": "gebet an",
+          "sie_Sie": "geben an"
+        },
+        "subjunctive2": {
+          "ich": "gäbe an",
+          "du": "gäbest an",
+          "er_sie_es": "gäbe an",
+          "wir": "gäben an",
+          "ihr": "gäbet an",
+          "sie_Sie": "gäben an"
+        },
+        "passive": {
+          "personal_passive": true,
+          "examples": [
+            "Die Anschrift muss angegeben werden."
+          ],
+          "note": "Das persönliche Passiv ist bei transitivem Gebrauch möglich. Beim Prahlen gibt es kein Akkusativobjekt."
+        }
+      },
+      "usage_note": "Im Hauptsatz steht an häufig in der rechten Satzklammer: 'Sie gibt ihre Adresse an.' Im Nebensatz steht die finite Form zusammen: '…, weil sie ihre Adresse angibt.' Zu-Infinitiv: anzugeben. Partizip II: angegeben."
+    },
+    "pronunciation": {
+      "ipa": "/ˈanɡeːbn̩/"
+    },
+    "meaning": {
+      "ja": "① 情報・数値・理由などを記載する、明示する、挙げる。②【供述・報道】～と述べる、申告する。③【口語】自慢する、見せびらかす。④【口語】人のことを目上の人などに告げ口する。⑤ den Takt / den Ton angeben の形で、拍子を取る／主導する。",
+      "de": "① Eine Information, einen Wert oder einen Grund nennen oder kenntlich machen. ② Eine Aussage über einen Sachverhalt machen. ③ Umgangssprachlich: prahlen. ④ Umgangssprachlich: jemanden wegen seines Verhaltens bei einer anderen Person melden oder verpetzen. ⑤ In festen Verbindungen: den Rhythmus vorgeben oder in einer Gruppe oder einem Bereich bestimmenden Einfluss haben."
+    },
+    "nuance": {
+      "ja": "書類の eine Adresse angeben は求められた情報を示すこと。eintragen は欄や一覧に入力する動作、aufführen は項目を列挙することに重点がある。einen Grund angeben は理由を述べること、begründen は根拠を示して説明すること。供述の gab an, … getan zu haben は話し手の説明として伝える表現で、内容が確認済みかどうかは文脈次第。behaupten に比べ、疑いをにおわせずに引用しやすい。mit etwas angeben は見せびらかしたり自分を大きく見せたりする様子を批判的に表す。auf etwas stolz sein は誇りを感じることで、それを人前で誇示するとは限らない。jemanden beim Lehrer angeben は告げ口の口語表現で、警察に正式に届け出る文脈では jemanden anzeigen を使う。",
+      "de": "Bei Formularen bedeutet eine Adresse angeben, die verlangte Information zu nennen. Eintragen betont das Schreiben oder Eingeben in ein Feld, aufführen das Auflisten. Einen Grund angeben heißt, ihn zu nennen. Begründen heißt, eine Entscheidung oder Aussage mit Gründen zu stützen. 'Gab an, … getan zu haben' gibt eine Aussage wieder und lässt deren Überprüfung offen. Behaupten kann stärker auf einen ungeprüften oder bestrittenen Wahrheitsanspruch hinweisen. Mit etwas angeben ist abwertend und bezeichnet demonstratives Prahlen. Auf etwas stolz sein bezeichnet ein Gefühl, das man auch für sich behalten kann. Jemanden beim Lehrer angeben ist umgangssprachlich. Für eine förmliche Anzeige bei der Polizei eignet sich jemanden anzeigen."
+    },
+    "minimal": {
+      "ja": "angeben＝情報を明示する／nennen＝名前・理由などを挙げる／eintragen＝欄や一覧に記入する／mitteilen＝相手に伝える／behaupten＝そうだと主張する／prahlen＝自慢する／petzen＝告げ口する／vorgeben＝基準などを設定する、または装う。",
+      "de": "angeben = eine verlangte Information nennen oder eine Aussage wiedergeben. Nennen = ausdrücklich erwähnen. Eintragen = in ein Feld oder eine Liste schreiben. Mitteilen = jemanden informieren. Behaupten = etwas als wahr hinstellen. Prahlen = sich oder etwas Eigenes demonstrativ herausstellen. Petzen = jemandes Fehlverhalten weitererzählen. Vorgeben = einen Rahmen festlegen oder etwas vortäuschen."
+    },
+    "collocations": [
+      {
+        "de": "die Anschrift angeben",
+        "ja": "住所を記載する"
+      },
+      {
+        "de": "die Aktennummer angeben",
+        "ja": "事件番号・管理番号を記載する"
+      },
+      {
+        "de": "die Quelle angeben",
+        "ja": "出典を明示する"
+      },
+      {
+        "de": "etwas als Grund angeben",
+        "ja": "あることを理由として挙げる"
+      },
+      {
+        "de": "Maße in Millimetern angeben",
+        "ja": "寸法をミリメートルで表示する"
+      },
+      {
+        "de": "einen Betrag in Euro angeben",
+        "ja": "金額をユーロで示す"
+      },
+      {
+        "de": "falsche Personalien angeben",
+        "ja": "虚偽の身元情報を申告する"
+      },
+      {
+        "de": "angeben, etwas gesehen zu haben",
+        "ja": "あるものを見たと述べる"
+      },
+      {
+        "de": "angeben, dass …",
+        "ja": "～だと述べる"
+      },
+      {
+        "de": "mit seinem Geld angeben",
+        "ja": "お金を持っていることを自慢する"
+      },
+      {
+        "de": "maßlos angeben",
+        "ja": "ひどく自慢する"
+      },
+      {
+        "de": "jemanden beim Lehrer angeben",
+        "ja": "先生に人のことを告げ口する"
+      },
+      {
+        "de": "den Takt angeben",
+        "ja": "拍子を取る"
+      },
+      {
+        "de": "den Ton angeben",
+        "ja": "主導権を握る"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "to state",
+        "to specify",
+        "to report",
+        "to show off",
+        "to tell on someone",
+        "to set the pace"
+      ],
+      "it": [
+        "indicare",
+        "specificare",
+        "dichiarare",
+        "vantarsi",
+        "fare la spia"
+      ],
+      "fr": [
+        "indiquer",
+        "préciser",
+        "déclarer",
+        "se vanter",
+        "rapporter"
+      ],
+      "es": [
+        "indicar",
+        "especificar",
+        "declarar",
+        "presumir de",
+        "acusar a alguien"
+      ]
+    },
+    "etymology": {
+      "ja": "geben に分離前つづり an- が付いた形。活用は geben の母音交替を引き継ぐ。名詞 Angabe は「記載事項、申告内容、情報」、Angeber と Angeberei は自慢する用法に対応する。",
+      "de": "Das Verb ist aus der Verbpartikel an und geben gebildet und folgt dessen Stammvokalwechsel. Angabe gehört zur Bedeutung des Nennens oder Mitteilens. Angeber und Angeberei gehören zur Bedeutung des Prahlens."
+    },
+    "example": {
+      "ja": "1. 現在の住所をご記入ください。\n2. 寸法はミリメートル単位で表示されています。\n3. 出願人は、どの商品・役務について保護を求めるかを明示しなければならない。\n4. 証人は何も見ていないと述べた。\n5. 彼は遅刻の理由として列車の運休を挙げた。\n6. 彼はしょっちゅう新車を自慢している。\n7. そんなに自慢するのはやめなよ。\n8. 彼は同僚のことを上司に告げ口すると脅した。\n9. 太鼓が拍子を取る。\n10. 新規格の策定では、その企業が主導権を握っている。",
+      "de": "1. Bitte geben Sie Ihre aktuelle Anschrift an.\n2. Die Maße sind in Millimetern angegeben.\n3. Die Anmelderin muss angeben, für welche Waren und Dienstleistungen sie Schutz beantragt.\n4. Der Zeuge gab an, nichts gesehen zu haben.\n5. Als Grund für die Verspätung gab er einen Zugausfall an.\n6. Er gibt ständig mit seinem neuen Auto an.\n7. Hör auf, so anzugeben!\n8. Er drohte, seinen Kollegen beim Chef anzugeben.\n9. Die Trommel gibt den Takt an.\n10. Bei der Entwicklung neuer Standards gibt das Unternehmen den Ton an."
+    },
+    "task": {
+      "ja": "独訳する。①現在の住所を記載してください。②寸法はミリメートルで表示されています。③証人は何も見ていないと述べた。④彼はいつも新車を自慢する。⑤新規格の策定ではその企業が主導権を握っている。③は完了不定詞、④は mit ＋与格、⑤は den Ton を用いる。",
+      "de": "Formuliere fünf Sätze mit angeben: ① Bitte um die aktuelle Anschrift, ② Maße in Millimetern, ③ Zeugenaussage über eine ausgebliebene Beobachtung, ④ ständiges Prahlen mit dem neuen Auto, ⑤ bestimmender Einfluss eines Unternehmens bei neuen Standards. Verwende in ③ einen Perfektinfinitiv mit zu, in ④ mit + Dativ und in ⑤ den Ton."
+    }
   }
 ]
