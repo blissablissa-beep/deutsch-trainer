@@ -672,5 +672,182 @@
       "ja": "独訳する。①展覧会は3月末まで開催されている。②この絵画は常設展示の一部だ。③新しい証明書の発行を申請した。④旅券の発行には手数料がかかる。③④では、発行される文書を属格で示す。",
       "de": "Formuliere vier Sätze: ① eine Ausstellung bis Ende März, ② ein Gemälde als Teil einer Dauerausstellung, ③ Antrag auf Ausstellung einer neuen Bescheinigung, ④ eine Gebühr für die Ausstellung eines Reisepasses. Gib das jeweilige Dokument in ③ und ④ im Genitiv an."
     }
+  },
+  {
+    "id": "bemitleiden",
+    "sid": "2026-00386",
+    "word": "bemitleiden",
+    "tags": [
+      "verb",
+      "regular_verb",
+      "inseparable_verb",
+      "emotions",
+      "empathy"
+    ],
+    "level": "B2",
+    "freq": "sometimes",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "schwach, regelmäßig",
+      "auxiliary": "haben",
+      "separable": false,
+      "transitive": true,
+      "reflexive": false,
+      "case": "Akkusativ: jemanden bemitleiden. 'Sich selbst bemitleiden' ist mit einem reflexiven Akkusativobjekt möglich.",
+      "patterns": [
+        "jemanden (Akk.) bemitleiden",
+        "jemanden wegen seiner Lage bemitleiden",
+        "jemanden bemitleiden, weil …",
+        "sich selbst bemitleiden",
+        "nicht bemitleidet werden wollen"
+      ],
+      "register": "standardsprachlich, je nach Kontext mit distanzierter oder herablassender Wirkung",
+      "related_noun": "das Mitleid",
+      "word_family": [
+        "das Leid",
+        "leiden",
+        "das Mitleid",
+        "mitleidig",
+        "bemitleiden",
+        "bemitleidenswert",
+        "das Selbstmitleid"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "bemitleide",
+          "du": "bemitleidest",
+          "er_sie_es": "bemitleidet",
+          "wir": "bemitleiden",
+          "ihr": "bemitleidet",
+          "sie_Sie": "bemitleiden"
+        },
+        "preterite": {
+          "ich": "bemitleidete",
+          "du": "bemitleidetest",
+          "er_sie_es": "bemitleidete",
+          "wir": "bemitleideten",
+          "ihr": "bemitleidetet",
+          "sie_Sie": "bemitleideten"
+        },
+        "perfect": {
+          "ich": "habe bemitleidet",
+          "du": "hast bemitleidet",
+          "er_sie_es": "hat bemitleidet",
+          "wir": "haben bemitleidet",
+          "ihr": "habt bemitleidet",
+          "sie_Sie": "haben bemitleidet"
+        },
+        "participle1": "bemitleidend",
+        "participle2": "bemitleidet",
+        "infinitive_with_zu": "zu bemitleiden",
+        "imperative": {
+          "du": "bemitleide",
+          "ihr": "bemitleidet",
+          "Sie": "bemitleiden Sie"
+        },
+        "subjunctive1": {
+          "ich": "bemitleide",
+          "du": "bemitleidest",
+          "er_sie_es": "bemitleide",
+          "wir": "bemitleiden",
+          "ihr": "bemitleidet",
+          "sie_Sie": "bemitleiden"
+        },
+        "subjunctive2": {
+          "ich": "bemitleidete",
+          "du": "bemitleidetest",
+          "er_sie_es": "bemitleidete",
+          "wir": "bemitleideten",
+          "ihr": "bemitleidetet",
+          "sie_Sie": "bemitleideten"
+        },
+        "passive": {
+          "personal_passive": true,
+          "examples": [
+            "Ich will nicht bemitleidet werden."
+          ]
+        }
+      },
+      "usage_note": "Bemitleiden ist untrennbar. Das Partizip II ist bemitleidet, der zu-Infinitiv lautet zu bemitleiden. Vergleiche den Akkusativ in 'Sie bemitleidet ihn' mit dem Dativ in 'Er tut ihr leid'."
+    },
+    "pronunciation": {
+      "ipa": "/bəˈmɪtlaɪ̯dn̩/"
+    },
+    "meaning": {
+      "ja": "（つらい状況にある人を）気の毒に思う、憐れむ。sich selbst bemitleiden は自分をかわいそうに思う、自己憐憫に浸る。",
+      "de": "Mitleid mit einer Person empfinden, weil man ihre Lage als leidvoll oder unglücklich wahrnimmt. Sich selbst bemitleiden heißt, sich selbst leidzutun."
+    },
+    "nuance": {
+      "ja": "相手の苦境を見て素直に気の毒に思う場合にも使う。一方、助けや対等な扱いを求める相手からは「かわいそうな人として見られている」と受け取られることがあり、Ich will nicht bemitleidet werden. にはその響きが出る。日常会話で「それはお気の毒に」と反応するなら Das tut mir leid. が自然。人を主語にすると Er tut mir leid.（彼が気の毒だ）となり、bemitleiden の Ich bemitleide ihn. とは主語と目的語の関係が変わる。mit jemandem mitfühlen は相手の感情に寄り添うこと、jemanden bedauern は人を気の毒に思う使い方があり、etwas bedauern では出来事や自分の判断を残念に思う。",
+      "de": "Bemitleiden kann aufrichtiges Mitleid ausdrücken. Je nach Situation kann die betroffene Person es als distanziert oder herablassend empfinden, etwa wenn sie Unterstützung oder Gleichbehandlung erwartet. 'Das tut mir leid' ist eine geläufige Reaktion auf eine schlechte Nachricht. In 'Er tut mir leid' ist die bemitleidete Person das Subjekt und die empfindende Person steht im Dativ. Bei 'Ich bemitleide ihn' ist die empfindende Person das Subjekt. Mit jemandem mitfühlen betont die Anteilnahme an dessen Gefühlen. Bedauern kann sich auf eine Person in einer misslichen Lage, einen Vorfall oder eine eigene Entscheidung beziehen."
+    },
+    "minimal": {
+      "ja": "bemitleiden＝人を気の毒に思う／Mitleid mit jemandem haben＝人に同情する／jemandem leidtun＝人にとって気の毒に感じられる／mitfühlen＝気持ちに寄り添う／bedauern＝気の毒に思う、残念に思う／trösten＝慰める。",
+      "de": "bemitleiden = Mitleid mit jemandem empfinden. Mitleid mit jemandem haben = dieselbe Empfindung mit einem Nomen ausdrücken. Jemandem leidtun = bei jemandem Bedauern oder Mitleid auslösen. Mitfühlen = innerlich an den Gefühlen anderer Anteil nehmen. Bedauern = Mitleid oder Bedauern über einen Sachverhalt empfinden. Trösten = jemandem helfen, mit Kummer umzugehen."
+    },
+    "etymology": {
+      "ja": "名詞 Mitleid（同情、憐れみ）と結びつく語。Mitleid は mit と Leid（苦しみ）の複合語。bemitleiden は be- を伴う非分離動詞。",
+      "de": "Bemitleiden gehört zur Wortfamilie von Mitleid, einer Zusammensetzung aus mit und Leid. Das Präfix be- ist untrennbar."
+    },
+    "collocations": [
+      {
+        "de": "jemanden wegen seiner Lage bemitleiden",
+        "ja": "人の境遇を気の毒に思う"
+      },
+      {
+        "de": "jemanden insgeheim bemitleiden",
+        "ja": "内心で人を気の毒に思う"
+      },
+      {
+        "de": "jemanden aufrichtig bemitleiden",
+        "ja": "心から人を気の毒に思う"
+      },
+      {
+        "de": "jemanden für sein Schicksal bemitleiden",
+        "ja": "人の身の上を気の毒に思う"
+      },
+      {
+        "de": "sich selbst bemitleiden",
+        "ja": "自分をかわいそうに思う"
+      },
+      {
+        "de": "sich nicht bemitleiden lassen wollen",
+        "ja": "人から憐れまれたくない"
+      },
+      {
+        "de": "nicht bemitleidet werden wollen",
+        "ja": "かわいそうな人扱いをされたくない"
+      },
+      {
+        "de": "jemandem helfen, statt ihn zu bemitleiden",
+        "ja": "人を憐れむ代わりに助ける"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "to pity",
+        "to feel sorry for someone"
+      ],
+      "it": [
+        "compatire",
+        "provare pena per qualcuno"
+      ],
+      "fr": [
+        "plaindre quelqu'un",
+        "avoir pitié de quelqu'un"
+      ],
+      "es": [
+        "compadecer a alguien",
+        "sentir lástima por alguien"
+      ]
+    },
+    "example": {
+      "ja": "1. こんな天気の中で外で働かなければならない人は、誰であれ気の毒に思う。\n2. 誰も彼の話を聞いてくれなかったので、彼女は彼を気の毒に思った。\n3. 助けは必要だけど、かわいそうな人扱いはされたくない。\n4. 彼は彼女を気の毒がる代わりに、何が助けになるか本人に聞いた。\n5. 彼女は、自分の境遇を理由に憐れまれるのが大嫌いだった。\n6. 彼はその晩ずっと、自分のことばかりかわいそうに思っていた。\n7. 誰かを気の毒に思ったからといって、その人の気持ちが分かるとは限らない。\n8. 彼女は彼を憐れむことなく、気持ちに寄り添って話を聞いた。",
+      "de": "1. Ich bemitleide jeden, der bei diesem Wetter draußen arbeiten muss.\n2. Sie bemitleidete ihn, weil ihm niemand zuhörte.\n3. Ich brauche Hilfe, aber ich will nicht bemitleidet werden.\n4. Statt sie zu bemitleiden, fragte er sie, was ihr helfen würde.\n5. Sie hasste es, für ihre Lage bemitleidet zu werden.\n6. Er hatte den ganzen Abend nur sich selbst bemitleidet.\n7. Wenn wir jemanden bemitleiden, wissen wir noch lange nicht, wie er sich fühlt.\n8. Mitfühlend hörte sie zu, ohne ihn zu bemitleiden."
+    },
+    "task": {
+      "ja": "独訳する。①彼が気の毒だ。②助けは必要だが、憐れまれたくはない。③彼女を憐れむ代わりに、何をしたら助かるか本人に尋ねた。④自分をかわいそうに思ってばかりいた。①は leidtun と bemitleiden の両方で表現し、②は受動態にする。",
+      "de": "Formuliere vier Sätze: ① Mitleid mit einem Mann, einmal mit leidtun und einmal mit bemitleiden, ② Hilfe brauchen und trotzdem nicht bemitleidet werden wollen, ③ nach der gewünschten Hilfe fragen, statt jemanden zu bemitleiden, ④ sich immer wieder selbst bemitleiden."
+    }
   }
 ]
