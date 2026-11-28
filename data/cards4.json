@@ -1294,5 +1294,126 @@
       "ja": "独訳する。①水に沈めた物体は水を押しのける。②新製品が従来品に取って代わった。③家賃の上昇で住民が地区から追いやられている。④彼はつらい記憶を意識から遠ざけていた。③は aus ＋与格を使う。",
       "de": "Formuliere vier Sätze mit verdrängen: ① ein eingetauchter Körper und das Wasser, ② ein neues Produkt anstelle des bisherigen, ③ steigende Mieten und Bewohner eines Viertels, ④ eine schmerzhafte Erinnerung. Verwende in ③ aus mit dem Dativ."
     }
+  },
+  {
+    "id": "unvermeidbar",
+    "sid": "2026-00390",
+    "word": "unvermeidbar",
+    "tags": [
+      "adj",
+      "necessity",
+      "risk",
+      "planning"
+    ],
+    "level": "B2",
+    "freq": "sometimes",
+    "grammar": {
+      "pos": "adj",
+      "attributive": true,
+      "predicative": true,
+      "adverbial": true,
+      "register": "standardsprachlich",
+      "patterns": [
+        "etwas ist unvermeidbar",
+        "etwas für unvermeidbar halten",
+        "wenn es unvermeidbar ist",
+        "sich nicht vermeiden lassen"
+      ],
+      "declension_examples": [
+        "ein unvermeidbarer Fehler",
+        "eine unvermeidbare Verzögerung",
+        "mit unvermeidbaren Kosten"
+      ],
+      "usage_note": "Attributiv mit Endung, etwa 'eine unvermeidbare Verzögerung', prädikativ ohne Endung, etwa 'Die Verzögerung ist unvermeidbar'. In der gewöhnlichen Bedeutung wird das Adjektiv kaum gesteigert. 'Kaum vermeidbar' lässt einen geringen Spielraum offen.",
+      "word_family": [
+        "vermeiden",
+        "vermeidbar",
+        "unvermeidbar",
+        "unvermeidlich",
+        "die Vermeidung"
+      ]
+    },
+    "pronunciation": {
+      "ipa": "/ʊnfɛɐ̯ˈmaɪ̯tbaːɐ̯/"
+    },
+    "meaning": {
+      "ja": "避けられない、回避できない、やむを得ない。ある出来事・結果などを、与えられた条件のもとで防いだり回避したりできないことを表す。",
+      "de": "Unter den gegebenen Umständen nicht zu vermeiden oder abzuwenden."
+    },
+    "nuance": {
+      "ja": "unvermeidbar と unvermeidlich は意味が非常に近く、多くの文脈で入れ替えられる。unvermeidbar は vermeidbar（回避可能な）との対比が形の上でも明確で、予防や代替策の有無を検討する文脈に使いやすい。unvermeidlich は、いずれ起きることが避けられないという文脈にも自然に使える。notwendig は、目的のために必要だという判断。修理が notwendig で、その結果として通行止めが unvermeidbar になる、と使い分けられる。kaum vermeidbar は「回避がきわめて難しい」で、わずかな可能性を残す。",
+      "de": "Unvermeidbar und unvermeidlich sind in vielen Kontexten austauschbar. Unvermeidbar bildet einen unmittelbaren Gegensatz zu vermeidbar und passt gut zur Frage nach Vorbeugung oder Ausweichmöglichkeiten. Unvermeidlich eignet sich auch für Ereignisse, deren Eintreten als unausweichlich dargestellt wird. Notwendig bezeichnet dagegen, was für ein Ziel erforderlich ist. Eine Reparatur kann notwendig und die dadurch bedingte Sperrung unvermeidbar sein. Kaum vermeidbar lässt einen kleinen Spielraum offen."
+    },
+    "minimal": {
+      "ja": "unvermeidbar＝回避できない／unvermeidlich＝避けられない、不可避の／unausweichlich＝逃れようがない／notwendig＝必要な／vermeidbar＝回避できる／vorhersehbar＝予見できる。",
+      "de": "unvermeidbar und unvermeidlich = nicht zu vermeiden. Unausweichlich betont, dass man einem Ereignis oder Ergebnis nicht entgehen kann. Notwendig = für etwas erforderlich. Vermeidbar = durch geeignete Maßnahmen abzuwenden. Vorhersehbar = im Voraus zu erkennen."
+    },
+    "etymology": {
+      "ja": "vermeiden（避ける）に「～できる」を表す -bar が付いて vermeidbar。これに否定の un- が付いた形。",
+      "de": "Aus vermeiden mit dem Suffix -bar gebildet und mit un- verneint: vermeiden, vermeidbar, unvermeidbar."
+    },
+    "collocations": [
+      {
+        "de": "eine unvermeidbare Verzögerung",
+        "ja": "避けられない遅れ"
+      },
+      {
+        "de": "unvermeidbare Kosten",
+        "ja": "回避できない費用"
+      },
+      {
+        "de": "unvermeidbare Folgen",
+        "ja": "避けられない結果"
+      },
+      {
+        "de": "unvermeidbare Einschränkungen",
+        "ja": "やむを得ない制限"
+      },
+      {
+        "de": "unter diesen Umständen unvermeidbar sein",
+        "ja": "この状況では避けられない"
+      },
+      {
+        "de": "etwas für unvermeidbar halten",
+        "ja": "あることは避けられないと考える"
+      },
+      {
+        "de": "nur wenn es unvermeidbar ist",
+        "ja": "やむを得ない場合に限り"
+      },
+      {
+        "de": "sich nicht vermeiden lassen",
+        "ja": "避けることができない"
+      },
+      {
+        "de": "vermeidbare und unvermeidbare Risiken",
+        "ja": "回避可能なリスクと回避不可能なリスク"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "unavoidable",
+        "inevitable"
+      ],
+      "it": [
+        "inevitabile"
+      ],
+      "fr": [
+        "inévitable",
+        "impossible à éviter"
+      ],
+      "es": [
+        "inevitable",
+        "ineludible"
+      ]
+    },
+    "example": {
+      "ja": "1. 今日はこの区間で遅れが避けられない。\n2. この条件では停止を回避するのはほぼ不可能だった。\n3. 本当に解雇は避けられないのですか。\n4. 今回の切り替えでは、短時間の中断は避けられない。\n5. 修理は必要だ。それに伴う短時間の通行止めは避けられない。\n6. すべてのミスが避けられないわけではない。再確認で防げるものもある。\n7. 報告書では回避できる費用と回避できない費用を区別している。",
+      "de": "1. Auf dieser Strecke sind heute Verzögerungen unvermeidbar.\n2. Unter diesen Bedingungen war ein Ausfall kaum vermeidbar.\n3. Ist die Kündigung wirklich unvermeidbar?\n4. Bei dieser Umstellung lassen sich kurze Unterbrechungen nicht vermeiden.\n5. Die Reparatur ist notwendig. Eine kurze Sperrung ist dabei unvermeidbar.\n6. Nicht alle Fehler sind unvermeidbar. Manche lassen sich durch eine zweite Prüfung verhindern.\n7. Der Bericht unterscheidet zwischen vermeidbaren und unvermeidbaren Kosten."
+    },
+    "task": {
+      "ja": "独訳する。①今日は遅れが避けられない。②修理は必要で、それに伴う短時間の通行止めは避けられない。③報告書では回避できる費用と回避できない費用を区別している。",
+      "de": "Formuliere drei Sätze über ① unvermeidbare Verzögerungen heute, ② eine notwendige Reparatur und eine unvermeidbare kurze Sperrung, ③ die Unterscheidung zwischen vermeidbaren und unvermeidbaren Kosten."
+    }
   }
 ]
