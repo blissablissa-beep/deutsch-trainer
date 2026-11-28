@@ -1108,5 +1108,191 @@
       "ja": "独訳する。①Meeting は職場でよく使われる英語由来の語だ。②顧客向けの案内では、いくつかの英語由来の表現をドイツ語表現に置き換えた。③Handy は擬似英語だ。①では単数、②では複数を使う。",
       "de": "Formuliere drei Sätze über ① Meeting als häufigen Anglizismus im Berufsalltag, ② das Ersetzen mehrerer Anglizismen in einer Kundeninformation und ③ Handy als Scheinanglizismus. Verwende in ① den Singular und in ② den Plural."
     }
+  },
+  {
+    "id": "verdraengen",
+    "sid": "2026-00389",
+    "word": "verdrängen",
+    "tags": [
+      "verb",
+      "regular_verb",
+      "inseparable_verb",
+      "competition",
+      "psychology"
+    ],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "schwach, regelmäßig",
+      "auxiliary": "haben",
+      "separable": false,
+      "transitive": true,
+      "reflexive": false,
+      "case": "Akkusativobjekt. Bei einer Herkunftsangabe: aus + Dativ oder von + Dativ.",
+      "patterns": [
+        "jemanden oder etwas (Akk.) verdrängen",
+        "jemanden aus einem Gebiet / vom Markt verdrängen",
+        "jemanden von Platz eins verdrängen",
+        "eine Erinnerung / einen Gedanken verdrängen"
+      ],
+      "related_noun": "die Verdrängung",
+      "word_family": [
+        "drängen",
+        "verdrängen",
+        "die Verdrängung",
+        "zurückdrängen"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "verdränge",
+          "du": "verdrängst",
+          "er_sie_es": "verdrängt",
+          "wir": "verdrängen",
+          "ihr": "verdrängt",
+          "sie_Sie": "verdrängen"
+        },
+        "preterite": {
+          "ich": "verdrängte",
+          "du": "verdrängtest",
+          "er_sie_es": "verdrängte",
+          "wir": "verdrängten",
+          "ihr": "verdrängtet",
+          "sie_Sie": "verdrängten"
+        },
+        "perfect": {
+          "ich": "habe verdrängt",
+          "du": "hast verdrängt",
+          "er_sie_es": "hat verdrängt",
+          "wir": "haben verdrängt",
+          "ihr": "habt verdrängt",
+          "sie_Sie": "haben verdrängt"
+        },
+        "participle1": "verdrängend",
+        "participle2": "verdrängt",
+        "infinitive_with_zu": "zu verdrängen",
+        "imperative": {
+          "du": "verdräng(e)",
+          "ihr": "verdrängt",
+          "Sie": "verdrängen Sie"
+        },
+        "subjunctive1": {
+          "ich": "verdränge",
+          "du": "verdrängest",
+          "er_sie_es": "verdränge",
+          "wir": "verdrängen",
+          "ihr": "verdränget",
+          "sie_Sie": "verdrängen"
+        },
+        "subjunctive2": {
+          "ich": "verdrängte",
+          "du": "verdrängtest",
+          "er_sie_es": "verdrängte",
+          "wir": "verdrängten",
+          "ihr": "verdrängtet",
+          "sie_Sie": "verdrängten"
+        },
+        "passive": {
+          "personal_passive": true,
+          "examples": [
+            "Heimische Arten werden von der invasiven Pflanze verdrängt."
+          ]
+        }
+      },
+      "usage_note": "Das Präfix ver- ist untrennbar. Partizip II: verdrängt. In 'A verdrängt B vom Markt' bezeichnet B das, was seinen Platz verliert."
+    },
+    "pronunciation": {
+      "ipa": "/fɛɐ̯ˈdʁɛŋən/"
+    },
+    "meaning": {
+      "ja": "① 物理的に押しのける、水などを排除する。② 競争・環境の変化などで人や物を追いやる、取って代わる。③ つらい記憶や感情を意識から遠ざける、抑圧する。",
+      "de": "① Etwas räumlich zur Seite drängen, etwa Wasser. ② Jemanden oder etwas aus einer Position, einem Gebiet oder einem Markt zurückdrängen oder seinen Platz einnehmen. ③ Belastende Erinnerungen oder Gefühle aus dem Bewusstsein fernhalten oder abwehren."
+    },
+    "nuance": {
+      "ja": "「それまで占めていた場所や位置から押し出す」というイメージを共有する。競争では A verdrängt B の形で、A が B の地位を奪う。ersetzen は代わりを用意することにも使え、verdrängen は競争や外圧で従来のものが押し出される側面が強い。vertreiben は人や動物をある場所から追い払う行為に焦点がある。心理の用法では、日常語として「考えたくなくて頭から追いやる」にも使い、心理学の文脈では無意識の抑圧を指すことがある。unterdrücken は涙や怒りなどの表出を抑える場合にも使い、vergessen は思い出せなくなること。",
+      "de": "Die Bedeutungen haben gemeinsam, dass etwas seinen bisherigen Platz oder seine Präsenz verliert. In 'A verdrängt B' verliert B seine Stellung. Ersetzen kann auch einen geplanten Austausch bezeichnen. Verdrängen hebt eher Konkurrenz oder Druck hervor. Vertreiben betont das Wegjagen oder Entfernen einer Person oder eines Tiers. Alltagssprachlich kann man mit verdrängen ausdrücken, dass man sich mit einem belastenden Gedanken nicht befassen will. In psychologischen Zusammenhängen kann Verdrängung einen unbewussten Vorgang bezeichnen. Unterdrücken passt auch zur Kontrolle eines sichtbaren Gefühlsausdrucks, vergessen zum Verlust der Erinnerung."
+    },
+    "minimal": {
+      "ja": "verdrängen＝場所・地位・意識から押し出す／ersetzen＝置き換える／vertreiben＝追い払う／zurückdrängen＝勢いや広がりを抑える／unterdrücken＝感情の表出などを抑える／vergessen＝忘れる。",
+      "de": "verdrängen = aus einem bisherigen Raum oder einer Stellung drängen, auch aus dem Bewusstsein. Ersetzen = etwas anderes an die Stelle setzen. Vertreiben = jemanden oder ein Tier zum Weggehen bringen. Zurückdrängen = Einfluss oder Ausbreitung begrenzen. Unterdrücken = eine Regung oder deren Ausdruck hemmen. Vergessen = sich nicht mehr erinnern."
+    },
+    "etymology": {
+      "ja": "drängen（押す、押し進む）に非分離接頭辞 ver- が付いた形。対応する名詞は die Verdrängung。",
+      "de": "Gebildet aus dem untrennbaren Präfix ver- und drängen. Das zugehörige Substantiv lautet Verdrängung."
+    },
+    "collocations": [
+      {
+        "de": "Wasser verdrängen",
+        "ja": "水を押しのける"
+      },
+      {
+        "de": "heimische Arten verdrängen",
+        "ja": "在来種を追いやる"
+      },
+      {
+        "de": "ein Produkt vom Markt verdrängen",
+        "ja": "製品を市場から締め出す"
+      },
+      {
+        "de": "jemanden von Platz eins verdrängen",
+        "ja": "人やチームから首位を奪う"
+      },
+      {
+        "de": "Bewohner aus dem Viertel verdrängen",
+        "ja": "住民を地区から追いやる"
+      },
+      {
+        "de": "alte Technologien verdrängen",
+        "ja": "旧来の技術に取って代わる"
+      },
+      {
+        "de": "eine schmerzhafte Erinnerung verdrängen",
+        "ja": "つらい記憶を意識から遠ざける"
+      },
+      {
+        "de": "einen Gedanken verdrängen",
+        "ja": "考えを頭から追い払う"
+      },
+      {
+        "de": "seine Sorgen verdrängen",
+        "ja": "不安を意識から遠ざける"
+      },
+      {
+        "de": "ein Problem lange verdrängen",
+        "ja": "長い間、問題を考えないようにする"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "to displace",
+        "to crowd out",
+        "to repress",
+        "to push out of one's mind"
+      ],
+      "it": [
+        "spostare",
+        "soppiantare",
+        "rimuovere"
+      ],
+      "fr": [
+        "déplacer",
+        "évincer",
+        "supplanter",
+        "refouler"
+      ],
+      "es": [
+        "desplazar",
+        "desbancar",
+        "reprimir"
+      ]
+    },
+    "example": {
+      "ja": "1. 水に沈めた物体は水を押しのける。\n2. その外来植物が在来種を追いやっている。\n3. 多くの家庭で、配信サービスがDVDに取って代わった。\n4. そのクラブはそれまで首位だったチームを抜いて1位に立った。\n5. 家賃の上昇で、多くの住民がその地区に住み続けられなくなっている。\n6. 彼女は事故の記憶を長い間、意識の奥に押し込めていた。\n7. 彼は不安を忘れようと働きづめだ。\n8. 問題を頭から追い払うことはできても、それで解決するわけではない。",
+      "de": "1. Der eingetauchte Körper verdrängt Wasser.\n2. Die invasive Pflanze verdrängt heimische Arten.\n3. Streamingdienste haben DVDs in vielen Haushalten verdrängt.\n4. Der Verein verdrängte den bisherigen Tabellenführer von Platz eins.\n5. Steigende Mieten verdrängen viele Menschen aus dem Viertel.\n6. Sie hatte die Erinnerung an den Unfall lange verdrängt.\n7. Er arbeitet ständig, um seine Sorgen zu verdrängen.\n8. Wir können das Problem verdrängen, aber dadurch lösen wir es nicht."
+    },
+    "task": {
+      "ja": "独訳する。①水に沈めた物体は水を押しのける。②新製品が従来品に取って代わった。③家賃の上昇で住民が地区から追いやられている。④彼はつらい記憶を意識から遠ざけていた。③は aus ＋与格を使う。",
+      "de": "Formuliere vier Sätze mit verdrängen: ① ein eingetauchter Körper und das Wasser, ② ein neues Produkt anstelle des bisherigen, ③ steigende Mieten und Bewohner eines Viertels, ④ eine schmerzhafte Erinnerung. Verwende in ③ aus mit dem Dativ."
+    }
   }
 ]
