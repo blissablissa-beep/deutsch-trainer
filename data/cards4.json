@@ -994,5 +994,119 @@
       "ja": "独訳する。①子どもたちは仮装してパーティーに来た。②変装していたが、声で彼女だと分かった。③木製の覆いが洗面台の下の配管を隠している。④キッチンの改装で古い壁の化粧材が取り外された。",
       "de": "Formuliere vier Sätze: ① Kinder in Verkleidung auf dem Weg zu einer Party, ② Wiedererkennen an der Stimme trotz Verkleidung, ③ verdeckte Rohre unter einem Waschbecken mit einer Verkleidung aus Holz, ④ Entfernung einer alten Wandverkleidung bei einer Küchenrenovierung."
     }
+  },
+  {
+    "id": "anglizismus",
+    "sid": "2026-00388",
+    "word": "Anglizismus",
+    "tags": [
+      "noun",
+      "linguistics",
+      "loanwords",
+      "english"
+    ],
+    "level": "C1",
+    "freq": "sometimes",
+    "grammar": {
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "die Anglizismen",
+      "genitive": "des Anglizismus",
+      "declension": {
+        "singular": {
+          "nominative": "der Anglizismus",
+          "accusative": "den Anglizismus",
+          "dative": "dem Anglizismus",
+          "genitive": "des Anglizismus"
+        },
+        "plural": {
+          "nominative": "die Anglizismen",
+          "accusative": "die Anglizismen",
+          "dative": "den Anglizismen",
+          "genitive": "der Anglizismen"
+        }
+      },
+      "usage_note": "Wie bei vielen Wörtern auf -ismus lautet der Plural auf -ismen. Der Genitiv Singular lautet des Anglizismus ohne zusätzliches -s."
+    },
+    "pronunciation": {
+      "ipa": "/aŋɡliˈt͡sɪsmʊs/"
+    },
+    "meaning": {
+      "ja": "英語由来の語・表現。狭くは英語から取り入れた語句を指し、広くは英語を手本にして生まれた意味や言い回しなども含む。",
+      "de": "Aus dem Englischen übernommenes Wort oder übernommene Wendung. Im weiteren Sinn auch eine Bedeutung oder Struktur, die in einer anderen Sprache unter englischem Einfluss entstanden ist."
+    },
+    "nuance": {
+      "ja": "Meeting のように英語の形を取り入れた語は分かりやすい例。downloaden のようにドイツ語の語尾が付いても、英語からの借用であることは変わらない。広い意味では Wolkenkratzer（英語 skyscraper を構成要素ごとに訳した語）のような翻訳借用も扱う。Handy は英語らしく聞こえるが「携帯電話」という意味では英語で使われず、Scheinanglizismus（擬似英語）の例。Anglizismus という語自体は記述的で、批判の響きは überflüssige Anglizismen などの修飾や文脈から生じる。",
+      "de": "Meeting ist ein Beispiel für die Übernahme einer englischen Wortform. Auch ein deutsches Flexionsmuster wie bei downloaden ändert die Herkunft der Entlehnung nicht. In einem weiteren Begriffsverständnis lassen sich Lehnübersetzungen wie Wolkenkratzer nach skyscraper einbeziehen. Handy gilt als Scheinanglizismus, weil das englisch wirkende Wort im Englischen nicht die Bedeutung Mobiltelefon hat. Die Bezeichnung Anglizismus ist an sich beschreibend. Eine Wertung entsteht etwa durch einen Zusatz wie überflüssig oder durch den Kontext."
+    },
+    "minimal": {
+      "ja": "Anglizismus＝英語の影響による語・表現／Entlehnung＝借用一般／Lehnwort＝借用された語／Lehnübersetzung＝元の語を要素ごとに訳した語／Scheinanglizismus＝英語らしいが元の英語に同じ形・意味の組み合わせがない表現／Amerikanismus＝アメリカ英語に特徴的な表現や、そこからの借用。",
+      "de": "Anglizismus = sprachliche Erscheinung englischen Ursprungs oder Einflusses. Entlehnung = Übernahme aus einer anderen Sprache. Lehnwort = übernommenes Wort. Lehnübersetzung = gliedweise Übersetzung eines fremdsprachigen Vorbilds. Scheinanglizismus = englisch wirkender Ausdruck ohne entsprechende englische Form in derselben Bedeutung. Amerikanismus = Besonderheit des amerikanischen Englisch oder Übernahme daraus."
+    },
+    "etymology": {
+      "ja": "Anglizismus の末尾には、言語上の特徴を指す語にも使われる -ismus がある。フランス語に由来する語や表現を指す Gallizismus も同じ語尾を持つ。",
+      "de": "Die Endung -ismus findet sich auch in anderen Bezeichnungen für sprachliche Erscheinungen, etwa in Gallizismus für eine Erscheinung französischen Ursprungs."
+    },
+    "collocations": [
+      {
+        "de": "ein geläufiger Anglizismus",
+        "ja": "よく使われる英語由来の語"
+      },
+      {
+        "de": "ein vermeintlich überflüssiger Anglizismus",
+        "ja": "不要だと見なされている英語由来の表現"
+      },
+      {
+        "de": "Anglizismen verwenden",
+        "ja": "英語由来の表現を使う"
+      },
+      {
+        "de": "Anglizismen vermeiden",
+        "ja": "英語由来の表現を避ける"
+      },
+      {
+        "de": "Anglizismen durch deutsche Ausdrücke ersetzen",
+        "ja": "英語由来の表現をドイツ語表現に置き換える"
+      },
+      {
+        "de": "etwas als Anglizismus einordnen",
+        "ja": "ある表現を英語由来と分類する"
+      },
+      {
+        "de": "der Gebrauch von Anglizismen",
+        "ja": "英語由来の表現の使用"
+      },
+      {
+        "de": "Anglizismen in der Werbesprache",
+        "ja": "広告で使われる英語由来の表現"
+      },
+      {
+        "de": "die Debatte über Anglizismen",
+        "ja": "英語由来の表現をめぐる議論"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "Anglicism"
+      ],
+      "it": [
+        "anglicismo"
+      ],
+      "fr": [
+        "anglicisme"
+      ],
+      "es": [
+        "anglicismo"
+      ]
+    },
+    "example": {
+      "ja": "1. Meeting は職場でよく使われる英語由来の語です。\n2. 英語の動詞 download は、ドイツ語では downloaden として使い、ドイツ語の規則に従って活用させることができます。\n3. 顧客向けの案内では、いくつかの英語由来の表現を一般的なドイツ語表現に置き換えました。\n4. 英語由来の表現を、どの文脈でも同じドイツ語の語で置き換えられるとは限りません。\n5. Handy は擬似英語です。「携帯電話」の意味では英語で mobile phone や cell phone と言います。\n6. 英語 skyscraper をもとにした Wolkenkratzer のような翻訳借用では、語を構成する部分はドイツ語です。\n7. その研究は求人広告における英語由来の表現の使用を調べています。",
+      "de": "1. „Meeting“ ist ein Anglizismus, der im Berufsalltag häufig vorkommt.\n2. Im Deutschen kann man das englische Verb „download“ als „downloaden“ verwenden und nach deutschen Regeln flektieren.\n3. Für die Kundeninformation ersetzten wir mehrere Anglizismen durch geläufige deutsche Ausdrücke.\n4. Nicht jeder Anglizismus lässt sich in jedem Kontext durch dasselbe deutsche Wort ersetzen.\n5. „Handy“ ist ein Scheinanglizismus. Auf Englisch heißt es in dieser Bedeutung „mobile phone“ oder „cell phone“.\n6. Bei einer Lehnübersetzung wie „Wolkenkratzer“ nach englisch „skyscraper“ sind die Wortbestandteile deutsch.\n7. Die Studie untersucht den Gebrauch von Anglizismen in Stellenanzeigen."
+    },
+    "task": {
+      "ja": "独訳する。①Meeting は職場でよく使われる英語由来の語だ。②顧客向けの案内では、いくつかの英語由来の表現をドイツ語表現に置き換えた。③Handy は擬似英語だ。①では単数、②では複数を使う。",
+      "de": "Formuliere drei Sätze über ① Meeting als häufigen Anglizismus im Berufsalltag, ② das Ersetzen mehrerer Anglizismen in einer Kundeninformation und ③ Handy als Scheinanglizismus. Verwende in ① den Singular und in ② den Plural."
+    }
   }
 ]
