@@ -1415,5 +1415,147 @@
       "ja": "独訳する。①今日は遅れが避けられない。②修理は必要で、それに伴う短時間の通行止めは避けられない。③報告書では回避できる費用と回避できない費用を区別している。",
       "de": "Formuliere drei Sätze über ① unvermeidbare Verzögerungen heute, ② eine notwendige Reparatur und eine unvermeidbare kurze Sperrung, ③ die Unterscheidung zwischen vermeidbaren und unvermeidbaren Kosten."
     }
+  },
+  {
+    "id": "saftig",
+    "sid": "2026-00391",
+    "word": "saftig",
+    "tags": [
+      "adj",
+      "food",
+      "cooking",
+      "nature",
+      "colloquial"
+    ],
+    "level": "B2",
+    "freq": "often",
+    "grammar": {
+      "pos": "adj",
+      "comparative": "saftiger",
+      "superlative": "am saftigsten",
+      "attributive": true,
+      "predicative": true,
+      "adverbial": true,
+      "register": "Standardsprachlich bei Lebensmitteln und Pflanzen. Bei Preisen, Beträgen und derben Äußerungen umgangssprachlich.",
+      "patterns": [
+        "saftig sein / bleiben",
+        "außen knusprig, innen saftig",
+        "ein saftiges Bußgeld zahlen"
+      ],
+      "declension_examples": [
+        "eine saftige Birne",
+        "ein saftiges Stück Fleisch",
+        "mit saftigem Grün",
+        "saftige Preise"
+      ],
+      "usage_note": "Attributiv mit Endung, etwa 'ein saftiger Kuchen'. Prädikativ ohne Endung, etwa 'Der Kuchen bleibt saftig'."
+    },
+    "pronunciation": {
+      "ipa": "/ˈzaftɪç/"
+    },
+    "meaning": {
+      "ja": "① 果物・肉などが果汁や肉汁を含んでジューシーな、ケーキなどがしっとりした。② 草木がみずみずしい、緑が鮮やかな。③【口語】値段・金額などが相当に高い、大幅な。④【口語】冗談や悪態などがきわどい、下品な、強烈な。",
+      "de": "① Viel Saft enthaltend oder angenehm feucht, etwa bei Obst, Fleisch oder Kuchen. ② Frisch und üppig wachsend oder kräftig grün. ③ Umgangssprachlich: auffallend hoch oder beträchtlich, etwa bei Preisen, Gebühren oder Erhöhungen. ④ Umgangssprachlich: derb oder drastisch, etwa bei einem Witz oder Fluch."
+    },
+    "nuance": {
+      "ja": "食べ物では、果物の果汁や肉の肉汁、焼き菓子のしっとり感など、口にしたときの水分の豊かさが中心。zart は肉のやわらかさを表すので、saftig und zart のように並べられる。草木では 青々とした生育や緑の鮮やかさを連想させる。金額では単なる hoch より口語的で、saftige Preise や ein saftiges Bußgeld には「かなりの額で痛い」という評価が出やすい。eine saftige Gehaltserhöhung のように、受け手にとって嬉しいほど大きな増額にも使える。ein saftiger Witz の場合は「きわどい、下品な」という意味で、面白さそのものを評価する語ではない。",
+      "de": "Bei Lebensmitteln beschreibt saftig den Flüssigkeitsgehalt oder den angenehm feuchten Eindruck beim Essen, auch bei Kuchen. Zart betrifft dagegen die geringe Festigkeit, weshalb Fleisch saftig und zart zugleich sein kann. Bei Pflanzen vermittelt saftig den Eindruck frischen, üppigen Wachstums. Bei Preisen und Bußgeldern drückt saftig anschaulicher als hoch aus, dass der Betrag erheblich ausfällt und spürbar sein kann. Eine saftige Gehaltserhöhung kann für die empfangende Person erfreulich sein. Bei einem saftigen Witz geht es um seine Derbheit."
+    },
+    "minimal": {
+      "ja": "saftig＝汁気がある、しっとりしている／zart＝やわらかい／trocken＝水分が少ない、ぱさつく／üppig＝植物などが豊かに茂る／hoch・beträchtlich＝金額が高い・相当な／derb＝言葉や冗談が粗野で下品な。",
+      "de": "saftig = saftreich oder angenehm feucht. Zart = weich und leicht zu kauen. Trocken = mit wenig Feuchtigkeit. Üppig = reichlich und dicht wachsend. Hoch oder beträchtlich = von erheblicher Höhe. Derb = grob in der Ausdrucksweise."
+    },
+    "etymology": {
+      "ja": "Saft（汁、果汁、肉汁）に形容詞を作る -ig が付いた形。もともとの「汁気が多い」から、植物の緑や金額などにも意味が広がっている。",
+      "de": "Gebildet aus Saft und dem Adjektivsuffix -ig. Neben dem wörtlichen Gebrauch steht das Wort auch für kräftiges Grün und in umgangssprachlichen Wendungen für beträchtliche Beträge."
+    },
+    "collocations": [
+      {
+        "de": "eine saftige Birne",
+        "ja": "みずみずしい洋梨"
+      },
+      {
+        "de": "ein saftiges Steak",
+        "ja": "ジューシーなステーキ"
+      },
+      {
+        "de": "außen knusprig und innen saftig",
+        "ja": "外がカリッとして中はジューシー"
+      },
+      {
+        "de": "ein saftiger Kuchen",
+        "ja": "しっとりしたケーキ"
+      },
+      {
+        "de": "beim Braten saftig bleiben",
+        "ja": "焼いても汁気を保つ"
+      },
+      {
+        "de": "eine saftige Weide",
+        "ja": "青々とした牧草地"
+      },
+      {
+        "de": "das saftige Grün der Wiesen",
+        "ja": "草原の鮮やかな緑"
+      },
+      {
+        "de": "saftige Preise verlangen",
+        "ja": "かなり高い値段をつける"
+      },
+      {
+        "de": "eine saftige Rechnung bekommen",
+        "ja": "高額の請求を受ける"
+      },
+      {
+        "de": "ein saftiges Bußgeld zahlen",
+        "ja": "かなりの額の罰金を払う"
+      },
+      {
+        "de": "eine saftige Gehaltserhöhung",
+        "ja": "大幅な昇給"
+      },
+      {
+        "de": "ein saftiger Witz",
+        "ja": "きわどい冗談"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "juicy",
+        "moist (cake)",
+        "lush",
+        "hefty",
+        "ribald (joke)"
+      ],
+      "it": [
+        "succoso",
+        "morbido e umido (dolce)",
+        "lussureggiante",
+        "salato (conto)",
+        "piccante (barzelletta)"
+      ],
+      "fr": [
+        "juteux",
+        "moelleux (gâteau)",
+        "verdoyant",
+        "salé (note)",
+        "grivois (plaisanterie)"
+      ],
+      "es": [
+        "jugoso",
+        "húmedo (bizcocho)",
+        "exuberante",
+        "elevado (precio)",
+        "subido de tono (chiste)"
+      ]
+    },
+    "example": {
+      "ja": "1. その洋梨は熟していて、とてもみずみずしい。\n2. 魚は外がカリッとしていて、中はしっとりジューシーだった。\n3. そのケーキは翌日もしっとりしている。\n4. 雨上がりの草原は鮮やかな緑に輝いていた。\n5. そのホテルは中心部にあるが、料金はかなり高い。\n6. 彼は違反でかなりの額の罰金を払うことになった。\n7. 彼女は仕事ぶりが評価され、かなりの昇給を受けた。\n8. 夕食の席で、彼はかなりきわどい冗談を言った。",
+      "de": "1. Die Birne ist reif und sehr saftig.\n2. Der Fisch war außen knusprig und innen noch saftig.\n3. Der Kuchen bleibt auch am nächsten Tag saftig.\n4. Nach dem Regen leuchteten die Wiesen in saftigem Grün.\n5. Das Hotel liegt zentral, verlangt aber saftige Preise.\n6. Für den Verstoß musste er ein saftiges Bußgeld zahlen.\n7. Für ihre Arbeit bekam sie eine saftige Gehaltserhöhung.\n8. Beim Abendessen erzählte er einen ziemlich saftigen Witz."
+    },
+    "task": {
+      "ja": "saftig を使って独訳する。①魚は外がカリッとしていて、中はジューシーだった。②そのケーキは翌日もしっとりしていた。③そのホテルはかなり高い料金を取る。④彼はかなりの額の罰金を払わなければならなかった。",
+      "de": "Formuliere vier Sätze mit saftig: ① gebratener Fisch mit knuspriger Außenseite, ② ein Kuchen am nächsten Tag, ③ hohe Preise in einem Hotel, ④ ein erhebliches Bußgeld."
+    }
   }
 ]
