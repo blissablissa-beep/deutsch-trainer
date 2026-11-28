@@ -139,5 +139,106 @@
       "ja": "gelegen を使って独訳する。①私たちのホテルは中心部にある。②彼女は静かな場所にある住まいを見つけた。③ちょうどいいところに電話をくれたね。④私たちは誤解を早く解きたいと考えている。⑤本は一晩中机の上に置いてあった。②は名詞を直接修飾し、④は daran、⑤は liegen の完了形を使う。",
       "de": "Formuliere fünf Sätze mit gelegen: ① ein Hotel im Zentrum, ② eine Wohnung in ruhiger Lage, ③ ein Anruf zur passenden Zeit, ④ der Wunsch, ein Missverständnis rasch auszuräumen, ⑤ ein Buch, das die ganze Nacht auf dem Tisch lag. Verwende in ② eine flektierte Form, in ④ daran und in ⑤ das Perfekt von liegen."
     }
+  },
+  {
+    "id": "dorschrogen",
+    "sid": "2026-00382",
+    "word": "Dorschrogen",
+    "tags": [
+      "noun",
+      "food",
+      "fish",
+      "japanese_cuisine"
+    ],
+    "level": "B2",
+    "freq": "rare",
+    "grammar": {
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "als Lebensmittel meist ohne Plural",
+      "genitive": "des Dorschrogens",
+      "patterns": [
+        "gesalzener Dorschrogen",
+        "mit gesalzenem Dorschrogen",
+        "Rogen vom Alaska-Seelachs"
+      ],
+      "usage_note": "Dorschrogen ist maskulin, weil das Grundwort der Rogen maskulin ist. Als Lebensmittelbezeichnung steht das Wort meist im Singular: 'etwas Dorschrogen', 'mit gesalzenem Dorschrogen'."
+    },
+    "pronunciation": {
+      "ipa": "/ˈdɔʁʃˌʁoːɡn̩/"
+    },
+    "meaning": {
+      "ja": "タラの魚卵。日本のたらこを説明するときは Tarako, gesalzener Rogen vom Alaska-Seelachs（スケトウダラの卵の塩漬け）と具体的に言える。",
+      "de": "Rogen vom Dorsch beziehungsweise Kabeljau. Japanisches Tarako lässt sich als gesalzener Rogen vom Alaska-Seelachs beschreiben."
+    },
+    "nuance": {
+      "ja": "Dorschrogen は魚卵の名称で、塩漬けか燻製かといった加工は語自体には含まれない。ドイツ語の商品表示では、たとえばマダラ（Kabeljau／Dorsch）の燻製魚卵にも使われる。日本のたらこを買いたいときは Tarako と伝えて、gesalzener Rogen vom Alaska-Seelachs と説明すると、魚種と加工法が伝わる。辛子明太子との区別が必要なら mild gesalzen, ohne Chili と補足できる。",
+      "de": "Dorschrogen benennt den Rogen, die Zubereitung geht aus dem jeweiligen Zusatz hervor, etwa geräuchert oder gesalzen. Im Handel kann damit zum Beispiel geräucherter Kabeljaurogen gemeint sein. Wer ausdrücklich japanisches Tarako sucht, kann den Namen nennen und ihn mit 'gesalzener Rogen vom Alaska-Seelachs' erklären. Zur Abgrenzung von scharf gewürztem Karashi-Mentaiko hilft der Zusatz 'mild gesalzen, ohne Chili'."
+    },
+    "minimal": {
+      "ja": "Rogen＝魚卵一般／Dorschrogen・Kabeljaurogen＝タラの魚卵／Tarako＝日本式の塩たらこ／Karashi-Mentaiko＝辛子明太子。",
+      "de": "Rogen = Fischeier im Allgemeinen. Dorschrogen oder Kabeljaurogen = Rogen vom Dorsch beziehungsweise Kabeljau. Tarako = japanischer gesalzener Alaska-Seelachsrogen. Karashi-Mentaiko = scharf gewürzte Variante."
+    },
+    "etymology": {
+      "ja": "Dorsch（タラ）＋ Rogen（魚卵）。複合語の性は後ろの Rogen に従うため男性名詞。",
+      "de": "Zusammensetzung aus Dorsch und Rogen. Das Grundwort Rogen bestimmt das maskuline Genus."
+    },
+    "collocations": [
+      {
+        "de": "frischer Dorschrogen",
+        "ja": "新鮮なタラの魚卵"
+      },
+      {
+        "de": "gesalzener Dorschrogen",
+        "ja": "塩漬けのタラの魚卵"
+      },
+      {
+        "de": "geräucherter Dorschrogen",
+        "ja": "タラの魚卵の燻製"
+      },
+      {
+        "de": "gesalzener Rogen vom Alaska-Seelachs",
+        "ja": "スケトウダラの卵の塩漬け"
+      },
+      {
+        "de": "den Rogen aus der Haut streichen",
+        "ja": "薄皮から魚卵をこそげ取る"
+      },
+      {
+        "de": "Onigiri mit Tarako-Füllung",
+        "ja": "たらこ入りのおにぎり"
+      },
+      {
+        "de": "Spaghetti mit Tarako",
+        "ja": "たらこスパゲッティ"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "cod roe",
+        "salted Alaska pollock roe (tarako)"
+      ],
+      "it": [
+        "uova di merluzzo",
+        "uova salate di merluzzo d'Alaska (tarako)"
+      ],
+      "fr": [
+        "œufs de cabillaud",
+        "œufs salés de colin d'Alaska (tarako)"
+      ],
+      "es": [
+        "huevas de bacalao",
+        "huevas saladas de abadejo de Alaska (tarako)"
+      ]
+    },
+    "example": {
+      "ja": "1. パッケージには「タラの卵の燻製」と書いてある。\n2. たらこはスケトウダラの卵を塩漬けにしたものです。\n3. たらこ、つまりスケトウダラの卵の塩漬けを探しています。\n4. たらこスパゲッティ用に、薄皮から卵をこそげ取ります。\n5. このおにぎりの具はたらこです。\n6. 辛くない塩漬けの魚卵はありますか。それとも辛いものだけですか。",
+      "de": "1. Auf der Packung steht „geräucherter Dorschrogen“.\n2. Tarako ist gesalzener Rogen vom Alaska-Seelachs.\n3. Ich suche Tarako, also gesalzenen Rogen vom Alaska-Seelachs.\n4. Für die Tarako-Spaghetti streiche ich den Rogen aus der Haut.\n5. Das Onigiri ist mit Tarako gefüllt.\n6. Haben Sie mild gesalzenen Rogen oder nur die scharfe Variante?"
+    },
+    "task": {
+      "ja": "独訳する。①これはタラの卵の燻製です。②たらこはスケトウダラの卵を塩漬けにしたものです。③このおにぎりの具はたらこです。",
+      "de": "Formuliere drei Sätze: ① ein Produkt mit geräuchertem Dorschrogen, ② eine Erklärung von Tarako mit Fischart und Zubereitung, ③ ein mit Tarako gefülltes Onigiri."
+    }
   }
 ]
