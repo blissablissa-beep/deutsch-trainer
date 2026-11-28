@@ -849,5 +849,150 @@
       "ja": "独訳する。①彼が気の毒だ。②助けは必要だが、憐れまれたくはない。③彼女を憐れむ代わりに、何をしたら助かるか本人に尋ねた。④自分をかわいそうに思ってばかりいた。①は leidtun と bemitleiden の両方で表現し、②は受動態にする。",
       "de": "Formuliere vier Sätze: ① Mitleid mit einem Mann, einmal mit leidtun und einmal mit bemitleiden, ② Hilfe brauchen und trotzdem nicht bemitleidet werden wollen, ③ nach der gewünschten Hilfe fragen, statt jemanden zu bemitleiden, ④ sich immer wieder selbst bemitleiden."
     }
+  },
+  {
+    "id": "verkleidung",
+    "sid": "2026-00387",
+    "word": "Verkleidung",
+    "tags": [
+      "noun",
+      "clothing",
+      "disguise",
+      "construction",
+      "vehicles"
+    ],
+    "level": "B2",
+    "freq": "sometimes",
+    "grammar": {
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "die Verkleidungen",
+      "genitive": "der Verkleidung",
+      "declension": {
+        "singular": {
+          "nominative": "die Verkleidung",
+          "accusative": "die Verkleidung",
+          "dative": "der Verkleidung",
+          "genitive": "der Verkleidung"
+        },
+        "plural": {
+          "nominative": "die Verkleidungen",
+          "accusative": "die Verkleidungen",
+          "dative": "den Verkleidungen",
+          "genitive": "der Verkleidungen"
+        }
+      },
+      "patterns": [
+        "in Verkleidung erscheinen",
+        "eine Verkleidung als Pirat",
+        "die Verkleidung der Wand",
+        "eine Verkleidung aus Holz",
+        "die Verkleidung der Fassade mit Holz",
+        "sich als jemand verkleiden",
+        "etwas mit Holz verkleiden"
+      ],
+      "usage_note": "Aus benennt in 'eine Verkleidung aus Holz' das Material des fertigen Bauteils. Mit benennt in 'die Verkleidung der Fassade mit Holz' das bei der Arbeit eingesetzte Material."
+    },
+    "pronunciation": {
+      "ipa": "/fɛɐ̯ˈklaɪ̯dʊŋ/"
+    },
+    "meaning": {
+      "ja": "① 仮装、変装。また、そのための衣装や小道具一式。② 壁・配管・機器・車体などの覆い、化粧材、内張り、外装パネル。対象を覆う作業を指すこともある。",
+      "de": "① Verwandlung des äußeren Erscheinungsbilds durch Kleidung, Maske oder Zubehör, auch die dabei verwendete Ausstattung. ② Abdeckung oder Verkleidungselement an Wänden, Leitungen, Geräten oder Fahrzeugen. Das Wort kann auch das Anbringen einer solchen Abdeckung bezeichnen."
+    },
+    "nuance": {
+      "ja": "人については、カーニバルのように楽しむための仮装にも、正体が分からないようにする変装にも使える。Kostüm は衣装そのものに焦点があり、Verkleidung には衣装・かつら・化粧などで外見を変えた全体像も含まれる。建築や車では、下地や内部部品の上に取り付ける覆いが典型で、目隠し・保護・装飾などに使われる。Wandverkleidung は壁の仕上げ材、Türverkleidung は車の文脈ではドアの内張り、Motorradverkleidung はカウル。一般的な覆いは Abdeckung とも言える。Fassade は建物の外面で、Fassadenverkleidung はそこに取り付けた外装材を指す。",
+      "de": "Bei Personen kann Verkleidung sowohl eine spielerische Aufmachung für den Karneval als auch eine Veränderung zum Verbergen der Identität meinen. Kostüm betont die Kleidung, während Verkleidung auch Perücke, Schminke und die gesamte Aufmachung umfassen kann. In Bau und Technik ist eine Verkleidung typischerweise auf einer Wand, einem Bauteil oder einem Fahrzeug angebracht. Sie kann etwas verdecken, schützen oder gestalten. Wandverkleidung bezeichnet einen Wandbelag oder eine Vorsatzkonstruktion, Türverkleidung am Auto die innere Verkleidung der Tür. Abdeckung ist allgemeiner. Fassade bezeichnet eine Außenseite des Gebäudes, Fassadenverkleidung die darauf angebrachte Bekleidung."
+    },
+    "minimal": {
+      "ja": "Verkleidung＝仮装・変装、取り付けた覆い／Kostüm＝役や仮装の衣装／Tarnung＝気づかれないようにする偽装・カモフラージュ／Abdeckung＝覆い一般／Gehäuse＝機器の筐体。",
+      "de": "Verkleidung = veränderte Aufmachung oder angebrachte Bekleidung. Kostüm = Kleidung für eine Rolle oder einen Anlass. Tarnung = Maßnahmen gegen das Erkannt- oder Entdecktwerden. Abdeckung = etwas, das einen Bereich abdeckt. Gehäuse = Hülle, die ein Gerät oder einen Mechanismus umschließt."
+    },
+    "etymology": {
+      "ja": "verkleiden（仮装・変装させる、物を覆う）に名詞を作る -ung が付いた形。動詞の両用法が名詞にも引き継がれている。",
+      "de": "Ableitung von verkleiden mit dem Suffix -ung. Die beiden Bedeutungsbereiche des Verbs finden sich auch im Substantiv."
+    },
+    "collocations": [
+      {
+        "de": "in Verkleidung zur Party kommen",
+        "ja": "仮装してパーティーに来る"
+      },
+      {
+        "de": "eine Verkleidung für den Karneval",
+        "ja": "カーニバル用の仮装"
+      },
+      {
+        "de": "eine Verkleidung als Piratin",
+        "ja": "女海賊の仮装"
+      },
+      {
+        "de": "jemanden trotz seiner Verkleidung erkennen",
+        "ja": "変装していても人を見分ける"
+      },
+      {
+        "de": "eine Verkleidung aus Holz",
+        "ja": "木製の覆い"
+      },
+      {
+        "de": "eine Verkleidung anbringen",
+        "ja": "覆いを取り付ける"
+      },
+      {
+        "de": "die Verkleidung abnehmen",
+        "ja": "覆いを取り外す"
+      },
+      {
+        "de": "die Rohre hinter der Verkleidung",
+        "ja": "覆いの裏の配管"
+      },
+      {
+        "de": "die Wandverkleidung entfernen",
+        "ja": "壁の化粧材を取り外す"
+      },
+      {
+        "de": "die Türverkleidung im Auto",
+        "ja": "車のドアの内張り"
+      },
+      {
+        "de": "die Verkleidung eines Motorrads",
+        "ja": "バイクのカウル"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "disguise",
+        "costume",
+        "cladding",
+        "trim",
+        "fairing (motorcycle)"
+      ],
+      "it": [
+        "travestimento",
+        "costume",
+        "rivestimento",
+        "carenatura"
+      ],
+      "fr": [
+        "déguisement",
+        "revêtement",
+        "habillage",
+        "carénage"
+      ],
+      "es": [
+        "disfraz",
+        "revestimiento",
+        "guarnecido",
+        "carenado"
+      ]
+    },
+    "example": {
+      "ja": "1. 子どもたちは仮装してパーティーに来た。\n2. 彼女は海賊に扮してお菓子を配った。\n3. 変装していた彼女が誰なのか、声を聞いてようやく分かった。\n4. 木製の覆いが洗面台の下の配管を隠している。\n5. キッチンの改装で古い壁の化粧材が取り外された。\n6. 車のドアの内張りの裏にスピーカーがある。\n7. 外壁を木材で覆う作業に2週間かかった。\n8. バイクのカウルが一か所ひび割れている。",
+      "de": "1. Die Kinder kamen in Verkleidung zur Party.\n2. Als Piratin verkleidet, verteilte sie Süßigkeiten.\n3. Erst an ihrer Stimme erkannte ich sie trotz der Verkleidung.\n4. Die Verkleidung aus Holz verdeckt die Rohre unter dem Waschbecken.\n5. Bei der Küchenrenovierung wurde die alte Wandverkleidung entfernt.\n6. Hinter der Türverkleidung sitzt der Lautsprecher.\n7. Die Verkleidung der Fassade mit Holz dauerte zwei Wochen.\n8. Die Verkleidung des Motorrads ist an einer Stelle eingerissen."
+    },
+    "task": {
+      "ja": "独訳する。①子どもたちは仮装してパーティーに来た。②変装していたが、声で彼女だと分かった。③木製の覆いが洗面台の下の配管を隠している。④キッチンの改装で古い壁の化粧材が取り外された。",
+      "de": "Formuliere vier Sätze: ① Kinder in Verkleidung auf dem Weg zu einer Party, ② Wiedererkennen an der Stimme trotz Verkleidung, ③ verdeckte Rohre unter einem Waschbecken mit einer Verkleidung aus Holz, ④ Entfernung einer alten Wandverkleidung bei einer Küchenrenovierung."
+    }
   }
 ]
