@@ -530,5 +530,147 @@
       "ja": "独訳する。①この布は手で織られた。②彼女はいま敷物を織っている。③作家は史実の細部を物語に織り込んだ。④クモは枝の間に巣を張った。①は受動態、②は an ＋与格、③は einweben、④は spinnen を使う。",
       "de": "Formuliere vier Sätze: ① ein von Hand hergestellter Stoff im Passiv, ② die laufende Arbeit an einem Teppich, ③ historische Einzelheiten in einer Handlung mit einweben und ④ ein Spinnennetz zwischen Zweigen mit spinnen."
     }
+  },
+  {
+    "id": "ausstellung",
+    "sid": "2026-00385",
+    "word": "Ausstellung",
+    "tags": [
+      "noun",
+      "museum",
+      "art",
+      "exhibition",
+      "documents",
+      "administration"
+    ],
+    "level": "B1",
+    "freq": "often",
+    "grammar": {
+      "pos": "noun",
+      "gender": "f",
+      "article": "die",
+      "plural": "die Ausstellungen",
+      "genitive": "der Ausstellung",
+      "declension": {
+        "singular": {
+          "nominative": "die Ausstellung",
+          "accusative": "die Ausstellung",
+          "dative": "der Ausstellung",
+          "genitive": "der Ausstellung"
+        },
+        "plural": {
+          "nominative": "die Ausstellungen",
+          "accusative": "die Ausstellungen",
+          "dative": "den Ausstellungen",
+          "genitive": "der Ausstellungen"
+        }
+      },
+      "patterns": [
+        "eine Ausstellung über etwas (Akk.)",
+        "eine Ausstellung von Fotografien",
+        "etwas in einer Ausstellung zeigen",
+        "die Ausstellung einer Bescheinigung beantragen",
+        "eine Gebühr für die Ausstellung eines Dokuments"
+      ],
+      "usage_note": "Bei Veranstaltungen ist der Plural üblich. Als Bezeichnung des Vorgangs steht Ausstellung meist im Singular, etwa 'die Ausstellung mehrerer Bescheinigungen'. Der Genitiv bezeichnet dort das ausgestellte Dokument."
+    },
+    "pronunciation": {
+      "ipa": "/ˈaʊ̯sʃtɛlʊŋ/"
+    },
+    "meaning": {
+      "ja": "① 展覧会、展示会、展示。作品・資料・製品などを見せる催し、または展示されている内容。② 証明書・旅券・証書などを発行すること。",
+      "de": "① Veranstaltung oder Präsentation, bei der Werke, Objekte, Dokumente oder Produkte gezeigt werden. ② Das Ausstellen eines Dokuments, etwa einer Bescheinigung, eines Reisepasses oder einer Urkunde."
+    },
+    "nuance": {
+      "ja": "展示の意味では、美術展だけでなく歴史資料や製品の展示にも使える。Dauerausstellung は常設展示、Sonderausstellung は通常の展示とは別枠で企画される特別展。物や作品を見せる側面を表す Ausstellung に対し、Messe は複数の出展者が商品・サービスを紹介し、商談や業界交流も行う見本市を指すことが多い。発行の意味は Ausstellung einer Bescheinigung のように文書を添えると明確になる。Ausstellung は文書を発行すること、Aushändigung は相手に手渡すこと、Zustellung は送達することに焦点がある。Ausstellungsdatum は文書欄では「発行日」。",
+      "de": "Ausstellung passt zu Kunst, historischen Objekten und auch zu Produkten. Eine Dauerausstellung ist auf längere Dauer angelegt, eine Sonderausstellung ist ein gesondert konzipiertes Ausstellungsprojekt. Bei einer Messe präsentieren häufig mehrere Aussteller Waren oder Dienstleistungen und knüpfen geschäftliche Kontakte. Die Dokumentbedeutung wird etwa in 'Ausstellung einer Bescheinigung' durch den Genitiv deutlich. Ausstellung bezeichnet hier den Vorgang des Ausstellens, Aushändigung die Übergabe und Zustellung die Übermittlung an den Empfänger, insbesondere im förmlichen Sinn. Ausstellungsdatum bezeichnet auf einem Dokument den Tag seiner Ausstellung."
+    },
+    "minimal": {
+      "ja": "Ausstellung＝展覧会・展示／Schau＝展示やショーを表す幅広い語／Messe＝見本市／Exponat＝個々の展示品。文書では Ausstellung＝発行／Ausstellungstag＝発行日／Aushändigung＝手渡し／Zustellung＝送達。",
+      "de": "Ausstellung = Präsentation oder Ausstellungsveranstaltung. Schau = je nach Kontext Präsentation oder Vorführung. Messe = Veranstaltung mit Ausstellern, häufig mit Branchenbezug. Exponat = einzelnes ausgestelltes Objekt. Bei Dokumenten: Ausstellung = das Ausstellen, Ausstellungstag = der Tag der Ausstellung, Aushändigung = die Übergabe, Zustellung = die Übermittlung an den Empfänger."
+    },
+    "etymology": {
+      "ja": "分離動詞 ausstellen（展示する、文書を発行する）に、動作やその結果を表す -ung を付けた名詞。動詞の展示と文書発行の両用法が名詞にも引き継がれている。",
+      "de": "Ableitung vom trennbaren Verb ausstellen mit dem Substantivsuffix -ung. Das Substantiv hat wie das Verb eine Bedeutung im Bereich des Zeigens und eine im Bereich der Dokumente."
+    },
+    "collocations": [
+      {
+        "de": "eine Ausstellung besuchen",
+        "ja": "展覧会を見に行く"
+      },
+      {
+        "de": "eine Ausstellung kuratieren",
+        "ja": "展覧会を企画・監修する"
+      },
+      {
+        "de": "eine Ausstellung eröffnen",
+        "ja": "展覧会を開幕する"
+      },
+      {
+        "de": "eine Ausstellung über Stadtgeschichte",
+        "ja": "都市史についての展覧会"
+      },
+      {
+        "de": "eine Ausstellung mit Werken zeitgenössischer Künstler",
+        "ja": "現代の作家の作品を集めた展覧会"
+      },
+      {
+        "de": "in der Ausstellung zu sehen sein",
+        "ja": "展覧会で見ることができる"
+      },
+      {
+        "de": "die Ausstellung läuft bis Ende März",
+        "ja": "展覧会は3月末まで開催される"
+      },
+      {
+        "de": "Teil der Dauerausstellung sein",
+        "ja": "常設展示の一部である"
+      },
+      {
+        "de": "die Ausstellung einer Bescheinigung beantragen",
+        "ja": "証明書の発行を申請する"
+      },
+      {
+        "de": "die Ausstellung eines Reisepasses",
+        "ja": "旅券の発行"
+      },
+      {
+        "de": "eine Gebühr für die Ausstellung erheben",
+        "ja": "発行手数料を徴収する"
+      },
+      {
+        "de": "das Ausstellungsdatum angeben",
+        "ja": "発行日を記載する"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "exhibition",
+        "display",
+        "issuance (of a document)"
+      ],
+      "it": [
+        "mostra",
+        "esposizione",
+        "rilascio (di un documento)"
+      ],
+      "fr": [
+        "exposition",
+        "délivrance (d'un document)"
+      ],
+      "es": [
+        "exposición",
+        "expedición (de un documento)",
+        "emisión (de un documento)"
+      ]
+    },
+    "example": {
+      "ja": "1. その展覧会では1920年代の写真を展示している。\n2. 展覧会は3月末まで開催されている。\n3. 博物館は展覧会のために複数の展示品を借り受けた。\n4. その絵画は常設展示の一部だ。\n5. 見本市では企業が自社製品を紹介している。同じ時期に博物館では工業デザインの展覧会が開かれている。\n6. 新しい証明書の発行を申請した。\n7. 再発行書類の交付には手数料がかかる。\n8. 証書が発行されたというだけでは、送達されたかどうかは分からない。",
+      "de": "1. Die Ausstellung zeigt Fotografien aus den 1920er-Jahren.\n2. Die Ausstellung läuft noch bis Ende März.\n3. Das Museum hat mehrere Leihgaben für die Ausstellung erhalten.\n4. Das Gemälde ist Teil der Dauerausstellung.\n5. Auf der Messe stellen Firmen ihre Produkte vor. Im Museum läuft gleichzeitig eine Ausstellung über Industriedesign.\n6. Ich habe die Ausstellung einer neuen Bescheinigung beantragt.\n7. Für die Ausstellung eines Ersatzdokuments fällt eine Gebühr an.\n8. Mit der Ausstellung der Urkunde allein ist noch nichts über ihre Zustellung gesagt."
+    },
+    "task": {
+      "ja": "独訳する。①展覧会は3月末まで開催されている。②この絵画は常設展示の一部だ。③新しい証明書の発行を申請した。④旅券の発行には手数料がかかる。③④では、発行される文書を属格で示す。",
+      "de": "Formuliere vier Sätze: ① eine Ausstellung bis Ende März, ② ein Gemälde als Teil einer Dauerausstellung, ③ Antrag auf Ausstellung einer neuen Bescheinigung, ④ eine Gebühr für die Ausstellung eines Reisepasses. Gib das jeweilige Dokument in ③ und ④ im Genitiv an."
+    }
   }
 ]
