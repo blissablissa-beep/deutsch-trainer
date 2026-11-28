@@ -348,5 +348,187 @@
       "ja": "独訳する。①この寿司には魚卵が添えてある。②たらこはスケトウダラの卵の塩漬けだ。③魚は水草の間に産卵する。①②は Rogen、③は Laich を使う。",
       "de": "Formuliere drei Sätze über ① mit Rogen garniertes Sushi, ② Tarako als gesalzenen Rogen vom Alaska-Seelachs und ③ das Ablegen von Laich zwischen Wasserpflanzen. Verwende Rogen in ① und ② und Laich in ③."
     }
+  },
+  {
+    "id": "weben",
+    "sid": "2026-00384",
+    "word": "weben",
+    "tags": [
+      "verb",
+      "regular_verb",
+      "strong_verb",
+      "textiles",
+      "craft",
+      "figurative"
+    ],
+    "level": "B2",
+    "freq": "sometimes",
+    "grammar": {
+      "pos": "verb",
+      "verb_type": "schwach und stark",
+      "auxiliary": "haben",
+      "separable": false,
+      "transitive": true,
+      "reflexive": true,
+      "case": "Akkusativ beim Herstellen eines Gewebes, an + Dativ bei der laufenden Arbeit.",
+      "patterns": [
+        "etwas (Akk.) weben",
+        "an etwas (Dat.) weben",
+        "ein Muster in einen Stoff weben",
+        "sich um jemanden oder etwas (Akk.) weben (gehoben)"
+      ],
+      "conjugation": {
+        "present": {
+          "ich": "webe",
+          "du": "webst",
+          "er_sie_es": "webt",
+          "wir": "weben",
+          "ihr": "webt",
+          "sie_Sie": "weben"
+        },
+        "preterite": {
+          "ich": "webte",
+          "du": "webtest",
+          "er_sie_es": "webte",
+          "wir": "webten",
+          "ihr": "webtet",
+          "sie_Sie": "webten"
+        },
+        "perfect": {
+          "ich": "habe gewebt",
+          "du": "hast gewebt",
+          "er_sie_es": "hat gewebt",
+          "wir": "haben gewebt",
+          "ihr": "habt gewebt",
+          "sie_Sie": "haben gewebt"
+        },
+        "participle1": "webend",
+        "participle2": "gewebt / gewoben",
+        "imperative": {
+          "du": "web(e)",
+          "ihr": "webt",
+          "Sie": "weben Sie"
+        },
+        "infinitive_with_zu": "zu weben",
+        "subjunctive1": {
+          "ich": "webe",
+          "du": "webest",
+          "er_sie_es": "webe",
+          "wir": "weben",
+          "ihr": "webet",
+          "sie_Sie": "weben"
+        },
+        "subjunctive2": {
+          "ich": "wöbe",
+          "du": "wöbest",
+          "er_sie_es": "wöbe",
+          "wir": "wöben",
+          "ihr": "wöbet",
+          "sie_Sie": "wöben"
+        },
+        "passive": {
+          "personal_passive": true,
+          "examples": [
+            "Der Stoff wurde von Hand gewebt."
+          ]
+        }
+      },
+      "usage_note": "Die Tabelle zeigt im Präteritum und Perfekt die schwachen Formen. Starke Stammformen: wob – hat gewoben. Diese sind in der Schweiz auch wörtlich gebräuchlich, sonst vor allem gehoben oder übertragen. Der schwache Konjunktiv II lautet webte; häufig ist auch würde weben.",
+      "word_family": [
+        "weben",
+        "das Gewebe",
+        "der Webstuhl",
+        "die Weberei",
+        "der Weber",
+        "die Weberin",
+        "einweben",
+        "verweben"
+      ]
+    },
+    "pronunciation": {
+      "ipa": "/ˈveːbn̩/"
+    },
+    "meaning": {
+      "ja": "① 縦糸と横糸を交差させて織る、布や敷物を織って作る。② 模様などを織り込む。比喩では、要素を物語などに組み込む。③【文語・再帰】伝説などがある人物・場所をめぐって次第に形づくられる。",
+      "de": "① Fäden kreuzen und so Stoff oder einen Teppich herstellen. ② Ein Muster in ein Gewebe einarbeiten, bildlich auch Bestandteile zu einem Ganzen verbinden. ③ Gehoben und reflexiv: sich allmählich um eine Person oder einen Ort herausbilden, etwa von einer Legende."
+    },
+    "nuance": {
+      "ja": "布を織る普通の文脈では webte – hat gewebt が使いやすい。wob – hat gewoben もあり、スイスでは文字どおりの意味にも使われ、他地域では文語的・比喩的な文脈で見かける。weben は縦糸と横糸を交差させること、stricken は糸の輪を連ねて編むこと、flechten は複数のひもや髪などを組み合わせること。spinnen は繊維を糸にすることを指し、クモが巣を張る場合も ein Netz spinnen が定番。物語に要素を織り込むなら etwas in die Handlung einweben が使える。",
+      "de": "Für textile Arbeit sind webte und hat gewebt geläufig. Wob und hat gewoben kommen in der Schweiz auch im wörtlichen Gebrauch vor, sonst eher in gehobener oder übertragener Sprache. Beim Weben kreuzen sich Kett- und Schussfäden, beim Stricken entstehen Maschen. Flechten passt etwa zu Haarsträhnen oder Korbmaterial. Spinnen heißt aus Fasern Garn herstellen, und eine Spinne spinnt ein Netz. Mit einweben lässt sich auch bildlich ausdrücken, dass etwas in eine Handlung eingearbeitet wird."
+    },
+    "minimal": {
+      "ja": "weben＝織る／stricken＝編み目を作って編む／häkeln＝かぎ針で編む／flechten＝ひも・髪などを組んで編む／spinnen＝糸を紡ぐ、クモが巣を張る／einweben＝織り込む／verweben＝織り合わせる。",
+      "de": "weben = Fäden zu einem Gewebe kreuzen. Stricken = mit Maschen arbeiten. Häkeln = mit einer Häkelnadel arbeiten. Flechten = mehrere Stränge verschränken. Spinnen = Garn herstellen oder als Spinne ein Netz bilden. Einweben = in ein Gewebe einarbeiten. Verweben = Fäden oder bildlich Elemente miteinander verbinden."
+    },
+    "etymology": {
+      "ja": "中高ドイツ語 weben、古高ドイツ語 weban にさかのぼる。現代語では Gewebe（織物、組織）、Webstuhl（織機）、Weberei（織物業、織物工場）などの語族がある。",
+      "de": "Das Verb geht auf mittelhochdeutsch weben und althochdeutsch weban zurück. Zur heutigen Wortfamilie gehören Gewebe, Webstuhl und Weberei."
+    },
+    "collocations": [
+      {
+        "de": "einen Teppich weben",
+        "ja": "敷物を織る"
+      },
+      {
+        "de": "Leinen weben",
+        "ja": "亜麻布を織る"
+      },
+      {
+        "de": "an einem Teppich weben",
+        "ja": "敷物を織っている"
+      },
+      {
+        "de": "am Webstuhl weben",
+        "ja": "織機で織る"
+      },
+      {
+        "de": "von Hand gewebt",
+        "ja": "手織りの"
+      },
+      {
+        "de": "maschinell gewebter Stoff",
+        "ja": "機械織りの生地"
+      },
+      {
+        "de": "ein Muster in den Stoff weben",
+        "ja": "布に模様を織り込む"
+      },
+      {
+        "de": "Details in eine Handlung einweben",
+        "ja": "細部を物語に織り込む"
+      },
+      {
+        "de": "sich um eine Burg weben",
+        "ja": "城をめぐって次第に形づくられる"
+      },
+      {
+        "de": "ein Netz spinnen",
+        "ja": "クモが巣を張る"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "to weave"
+      ],
+      "it": [
+        "tessere",
+        "intessere"
+      ],
+      "fr": [
+        "tisser"
+      ],
+      "es": [
+        "tejer",
+        "entrelazar"
+      ]
+    },
+    "example": {
+      "ja": "1. 彼女はいま敷物を織っている。\n2. その布は手織りだ。\n3. 織り手は幾何学模様を布に織り込んだ。\n4. クモは枝と枝の間に巣を張った。\n5. 作家は史実の細部を物語に織り込んだ。\n6. 人の住まなくなった城をめぐって、いつしか一つの伝説が生まれた。",
+      "de": "1. Sie webt gerade an einem Teppich.\n2. Der Stoff wurde von Hand gewebt.\n3. Die Weberin webte ein geometrisches Muster in den Stoff.\n4. Die Spinne hat ihr Netz zwischen zwei Zweigen gesponnen.\n5. Die Autorin hat historische Details in die Handlung eingewoben.\n6. Um die verlassene Burg wob sich mit der Zeit eine Legende."
+    },
+    "task": {
+      "ja": "独訳する。①この布は手で織られた。②彼女はいま敷物を織っている。③作家は史実の細部を物語に織り込んだ。④クモは枝の間に巣を張った。①は受動態、②は an ＋与格、③は einweben、④は spinnen を使う。",
+      "de": "Formuliere vier Sätze: ① ein von Hand hergestellter Stoff im Passiv, ② die laufende Arbeit an einem Teppich, ③ historische Einzelheiten in einer Handlung mit einweben und ④ ein Spinnennetz zwischen Zweigen mit spinnen."
+    }
   }
 ]
