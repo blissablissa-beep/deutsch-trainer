@@ -240,5 +240,113 @@
       "ja": "独訳する。①これはタラの卵の燻製です。②たらこはスケトウダラの卵を塩漬けにしたものです。③このおにぎりの具はたらこです。",
       "de": "Formuliere drei Sätze: ① ein Produkt mit geräuchertem Dorschrogen, ② eine Erklärung von Tarako mit Fischart und Zubereitung, ③ ein mit Tarako gefülltes Onigiri."
     }
+  },
+  {
+    "id": "rogen",
+    "sid": "2026-00383",
+    "word": "Rogen",
+    "tags": [
+      "noun",
+      "food",
+      "fish",
+      "cooking",
+      "zoology"
+    ],
+    "level": "B2",
+    "freq": "rare",
+    "grammar": {
+      "pos": "noun",
+      "gender": "m",
+      "article": "der",
+      "plural": "die Rogen",
+      "genitive": "des Rogens",
+      "declension": {
+        "singular": {
+          "nominative": "der Rogen",
+          "accusative": "den Rogen",
+          "dative": "dem Rogen",
+          "genitive": "des Rogens"
+        },
+        "plural": {
+          "nominative": "die Rogen",
+          "accusative": "die Rogen",
+          "dative": "den Rogen",
+          "genitive": "der Rogen"
+        }
+      },
+      "usage_note": "In Rezepten und als Warenbezeichnung steht Rogen meist als Stoffbezeichnung im Singular: etwas Rogen, 100 Gramm Rogen, mit gesalzenem Rogen."
+    },
+    "pronunciation": {
+      "ipa": "/ˈʁoːɡn̩/"
+    },
+    "meaning": {
+      "ja": "魚卵。魚の卵を集合として指し、魚の体内にある卵にも、食材として扱う卵にも使う。",
+      "de": "Gesamtheit der Eier eines Fisches, sowohl im Fisch als auch als Lebensmittel."
+    },
+    "nuance": {
+      "ja": "Rogen は料理や商品名に使いやすい総称で、魚種は Lachsrogen（サケの卵）や Dorschrogen（タラの魚卵）のような複合語で示せる。個々の粒に焦点を当てるなら Fischeier や einzelne Eier と言える。Laich は産卵や水中に産み付けられた卵の話でよく使い、カエルなどにも使える。Kaviar は食品名で、狭義にはチョウザメの卵の加工品を指す。Lachskaviar のように他の魚種の加工品名にも使われる。日本のたらこは Tarako, gesalzener Rogen vom Alaska-Seelachs と説明できる。",
+      "de": "Rogen ist ein Sammelbegriff und in Rezepten und Warenbezeichnungen gebräuchlich. Zusammensetzungen wie Lachsrogen und Dorschrogen benennen die Fischart. Für einzelne Körner eignen sich Fischeier oder einzelne Eier. Laich ist besonders bei der Fortpflanzung und bei bereits abgelegten Eiern gebräuchlich, auch bei Fröschen. Kaviar bezeichnet im engeren Sinn ein Lebensmittel aus verarbeitetem Störrogen. Bezeichnungen wie Lachskaviar gibt es auch für Erzeugnisse anderer Fischarten. Japanisches Tarako lässt sich als gesalzener Rogen vom Alaska-Seelachs erklären."
+    },
+    "minimal": {
+      "ja": "Rogen＝魚卵の総称／Fischei＝魚の卵一粒／Laich＝産卵・繁殖の文脈での卵／Kaviar＝キャビア／Fischmilch＝白子。",
+      "de": "Rogen = Fischeier als Gesamtheit. Fischei = einzelnes Ei eines Fisches. Laich = Eier im Zusammenhang mit der Fortpflanzung. Kaviar = als Lebensmittel zubereiteter Rogen, im engeren Sinn vom Stör. Fischmilch = Samenmasse männlicher Fische."
+    },
+    "collocations": [
+      {
+        "de": "frischer Rogen",
+        "ja": "新鮮な魚卵"
+      },
+      {
+        "de": "gesalzener Rogen",
+        "ja": "塩漬けの魚卵"
+      },
+      {
+        "de": "geräucherter Rogen",
+        "ja": "燻製の魚卵"
+      },
+      {
+        "de": "Rogen vom Alaska-Seelachs",
+        "ja": "スケトウダラの卵"
+      },
+      {
+        "de": "ein Glas mit Forellenrogen",
+        "ja": "マスの卵の瓶詰め"
+      },
+      {
+        "de": "den Rogen aus der Haut streichen",
+        "ja": "薄皮から魚卵をこそげ取る"
+      },
+      {
+        "de": "mit Rogen garnieren",
+        "ja": "魚卵を添える"
+      },
+      {
+        "de": "ein Aufstrich aus Fischrogen",
+        "ja": "魚卵を使ったスプレッド"
+      }
+    ],
+    "equivalents": {
+      "en": [
+        "roe",
+        "fish roe"
+      ],
+      "it": [
+        "uova di pesce"
+      ],
+      "fr": [
+        "œufs de poisson"
+      ],
+      "es": [
+        "huevas de pescado"
+      ]
+    },
+    "example": {
+      "ja": "1. たらこスパゲッティ用に、薄皮から卵をこそげ取る。\n2. その寿司にはオレンジ色の魚卵が添えてある。\n3. このスプレッドには何の魚の卵が使われていますか。\n4. 冷蔵棚にはマスの卵とサケの卵の瓶詰めが並んでいる。\n5. 魚の内臓を取り出していると、卵が入っていることに気づいた。\n6. 春になると、魚は水草の間に産卵する。",
+      "de": "1. Für die Tarako-Spaghetti streiche ich den Rogen aus der Haut.\n2. Das Sushi ist mit orangefarbenem Rogen garniert.\n3. Welcher Fisch liefert den Rogen für diesen Aufstrich?\n4. Im Kühlregal stehen Gläser mit Forellenrogen und Lachsrogen.\n5. Beim Ausnehmen des Fisches entdeckte sie den Rogen.\n6. Im Frühjahr legen die Fische ihren Laich zwischen den Wasserpflanzen ab."
+    },
+    "task": {
+      "ja": "独訳する。①この寿司には魚卵が添えてある。②たらこはスケトウダラの卵の塩漬けだ。③魚は水草の間に産卵する。①②は Rogen、③は Laich を使う。",
+      "de": "Formuliere drei Sätze über ① mit Rogen garniertes Sushi, ② Tarako als gesalzenen Rogen vom Alaska-Seelachs und ③ das Ablegen von Laich zwischen Wasserpflanzen. Verwende Rogen in ① und ② und Laich in ③."
+    }
   }
 ]
